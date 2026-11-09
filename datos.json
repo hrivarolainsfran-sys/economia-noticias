@@ -265,6 +265,35 @@
     ],
     "ok": 0,
     "fb": "Si nadie pierde cuando un banco cae, ni el banco ni sus clientes tienen incentivos para cuidarse. Por eso la garantía tiene un tope."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ahorristas",
+      "Recuperan su dinero rápido."
+     ],
+     [
+      "El sistema bancario",
+      "Se evita una corrida."
+     ]
+    ],
+    "pierden": [
+     [
+      "El fondo de garantía y el Estado",
+      "Asumen el costo."
+     ],
+     [
+      "Saldos por encima del tope",
+      "No se cubren por completo."
+     ]
+    ],
+    "corto": "Calma a los depositantes.",
+    "largo": "Riesgo moral si los bancos esperan ser rescatados: hace falta mejor supervisión.",
+    "supuestos": [
+     "Que el fondo alcance.",
+     "Que no caigan otras entidades."
+    ],
+    "conclusion": "La garantía es necesaria por la información asimétrica, pero solo funciona bien con un tope y con supervisión fuerte."
    }
   },
   {
@@ -349,6 +378,30 @@
     ],
     "ok": 0,
     "fb": "La inversión y el consumo dependen de las expectativas. Con más incertidumbre se posterga gasto: bajan I y C, y la DA se desplaza a la izquierda."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ahorristas afectados",
+      "Si se cumple la promesa de compensarlos plenamente."
+     ]
+    ],
+    "pierden": [
+     [
+      "Inversores y empresas",
+      "Enfrentan más incertidumbre."
+     ],
+     [
+      "El Estado",
+      "Su deuda se encarece por el mayor riesgo país."
+     ]
+    ],
+    "corto": "Volatilidad del dólar y del riesgo país.",
+    "largo": "Si se mantienen las políticas económicas, la confianza puede recuperarse.",
+    "supuestos": [
+     "Que el nuevo gobierno mantenga la política fiscal y monetaria."
+    ],
+    "conclusion": "Para la economía, lo clave no es el cambio de nombres sino que las reglas y políticas sigan siendo previsibles."
    }
   },
   {
@@ -448,6 +501,34 @@
     ],
     "ok": 0,
     "fb": "1.000 × 6.600 − 1.000 × 6.000 = G. 600.000. Es un 10 % más, igual que la suba del dólar."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Exportadores",
+      "Reciben más guaraníes."
+     ],
+     [
+      "Ahorristas en dólares",
+      "Sus ahorros valen más."
+     ]
+    ],
+    "pierden": [
+     [
+      "Deudores en dólares",
+      "Sus cuotas cuestan más."
+     ],
+     [
+      "Importadores y consumidores",
+      "Los productos importados se encarecen."
+     ]
+    ],
+    "corto": "Cuotas en dólares más caras y presión sobre los precios.",
+    "largo": "Si el dólar se estabiliza, parte del salto podría revertirse.",
+    "supuestos": [
+     "Que la cotización se mantenga: las previsiones son muy inciertas."
+    ],
+    "conclusion": "En una crisis las expectativas cambian rápido; endeudarse en una moneda distinta de la que se gana es un riesgo."
    }
   },
   {
@@ -550,6 +631,26 @@
     ],
     "ok": 0,
     "fb": "El impuesto es un porcentaje del valor en guaraníes. Si ese valor baja por la apreciación, la recaudación también baja."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Importadores",
+      "Pagaron menos impuestos de aduana."
+     ]
+    ],
+    "pierden": [
+     [
+      "El Estado",
+      "Tiene menos ingresos para cubrir el gasto."
+     ]
+    ],
+    "corto": "Menos recaudación de aduana en 2026.",
+    "largo": "Con la depreciación de noviembre, la recaudación de aduana podría subir: depender de ella hace a las cuentas públicas sensibles al tipo de cambio.",
+    "supuestos": [
+     "Los datos son preliminares."
+    ],
+    "conclusion": "Muestra la interdependencia entre el tipo de cambio y las finanzas públicas: diversificar los ingresos reduce esa vulnerabilidad."
    }
   },
   {
@@ -655,6 +756,30 @@
     ],
     "ok": 0,
     "fb": "La maquila suma bienes industriales (autopartes, textiles) a una canasta exportadora dominada por soja, carne y energía."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Trabajadores",
+      "36.382 empleos, 4 % más que un año antes."
+     ],
+     [
+      "Regiones como Alto Paraná",
+      "Concentran la mitad de las empresas."
+     ]
+    ],
+    "pierden": [
+     [
+      "El propio sector",
+      "Depende de Brasil, que compra el 59 %."
+     ]
+    ],
+    "corto": "Más empleo y divisas.",
+    "largo": "La economía se diversifica, aunque el valor agregado que queda en el país es menor que el saldo comercial.",
+    "supuestos": [
+     "Que Brasil siga comprando."
+    ],
+    "conclusion": "La maquila diversifica la economía, pero su aporte real depende del valor agregado y de cuántos proveedores locales se sumen."
    }
   },
   {
@@ -759,6 +884,30 @@
     ],
     "ok": 0,
     "fb": "Con oferta fija y más demanda interna, queda menos energía sin usar: el excedente cedido se achica hasta desaparecer."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Consumidores e industrias",
+      "Usan energía barata y renovable."
+     ],
+     [
+      "Brasil y Argentina",
+      "Reciben la energía que Paraguay cede."
+     ]
+    ],
+    "pierden": [
+     [
+      "El futuro",
+      "Si no se invierte a tiempo, puede faltar energía hacia 2028-2030."
+     ]
+    ],
+    "corto": "El excedente de energía se achica.",
+    "largo": "Podría ser necesario importar energía hacia 2030 e invertir en líneas de transmisión.",
+    "supuestos": [
+     "Son proyecciones del IPPSE: dependen de cuánto crezca la demanda y de los caudales de los ríos."
+    ],
+    "conclusion": "La escasez futura es un problema de planificación: invertir a tiempo es más barato que importar en emergencia."
    }
   },
   {
@@ -845,6 +994,30 @@
     ],
     "ok": 0,
     "fb": "El precio de un sustituto es un factor distinto del precio del pollo: desplaza toda la curva de demanda de pollo a la derecha."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores de pollo y cerdo",
+      "Ganan clientes."
+     ],
+     [
+      "Consumidores",
+      "Encuentran proteínas más baratas."
+     ]
+    ],
+    "pierden": [
+     [
+      "Productores de carne vacuna",
+      "Pierden clientes y compiten con Brasil en Chile."
+     ]
+    ],
+    "corto": "Más demanda de pollo y cerdo.",
+    "largo": "La competencia con Brasil y la recuperación del rodeo pueden bajar los precios de la carne vacuna.",
+    "supuestos": [
+     "Que la sustitución sea duradera."
+    ],
+    "conclusion": "Muestra cómo los precios relativos guían las elecciones del consumidor y por qué importa la competitividad frente a Brasil."
    }
   },
   {
@@ -942,7 +1115,36 @@
      "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
      "2026-11-07"
     ]
-   ]
+   ],
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ahorristas con saldos bajo el tope",
+      "Recuperan su dinero rápido gracias a la garantía."
+     ],
+     [
+      "El resto de los bancos",
+      "Se reduce el riesgo de que el miedo se contagie."
+     ]
+    ],
+    "pierden": [
+     [
+      "Acreedores y saldos por encima del tope",
+      "Pueden recuperar solo una parte de lo que tenían."
+     ],
+     [
+      "El fondo de garantía y el Estado",
+      "Usan recursos para cubrir las pérdidas del banco."
+     ]
+    ],
+    "corto": "Desconfianza, compra de dólares y posible freno del consumo.",
+    "largo": "Si la devolución es rápida y mejora la supervisión, la confianza se recupera; si no, menos ahorro en los bancos y crédito más caro.",
+    "supuestos": [
+     "Que el problema sea solo de Ueno: el BCP afirma que no hay otra entidad en resolución.",
+     "Que el fondo de garantía alcance para todos."
+    ],
+    "conclusion": "La intervención rápida reduce el riesgo de contagio, pero su éxito depende de que la devolución sea ágil y de que se refuerce la supervisión bancaria."
+   }
   },
   {
    "id": "guarani-cae",
@@ -1027,6 +1229,35 @@
     ],
     "ok": 0,
     "fb": "Venden en dólares. Con un guaraní más débil, cada dólar se cambia por más guaraníes, así que su ingreso en moneda local sube."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Exportadores",
+      "Reciben más guaraníes por cada dólar que venden."
+     ],
+     [
+      "Quienes ahorran en dólares",
+      "Sus ahorros valen más en guaraníes."
+     ]
+    ],
+    "pierden": [
+     [
+      "Importadores y consumidores",
+      "Los productos importados y los combustibles se encarecen."
+     ],
+     [
+      "Quienes tienen deudas en dólares",
+      "Sus cuotas cuestan más guaraníes."
+     ]
+    ],
+    "corto": "Presión sobre los precios de bienes importados.",
+    "largo": "Si la crisis se calma, el guaraní puede recuperar parte del valor; si persiste, más inflación importada y más ahorro en dólares.",
+    "supuestos": [
+     "Que la depreciación dure y no sea un salto de pocos días.",
+     "Que las empresas trasladen el mayor costo a los precios."
+    ],
+    "conclusion": "La caída responde a la incertidumbre más que a los fundamentos, que siguen sólidos (exportaciones récord); su efecto real depende de cuánto dure."
    }
   },
   {
@@ -1146,6 +1377,35 @@
     ],
     "ok": 0,
     "fb": "18 pb = 0,18 puntos porcentuales (100 pb = 1 punto). Parece poco, pero sobre miles de millones de dólares de deuda es mucho dinero."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Quienes compran bonos ahora",
+      "Obtienen un rendimiento más alto."
+     ]
+    ],
+    "pierden": [
+     [
+      "El Estado",
+      "Endeudarse le cuesta más."
+     ],
+     [
+      "Empresas paraguayas",
+      "El crédito del exterior se encarece."
+     ],
+     [
+      "Contribuyentes futuros",
+      "Pagarán más intereses."
+     ]
+    ],
+    "corto": "Sube el costo de nuevas emisiones de deuda; el Gobierno puede postergar colocaciones.",
+    "largo": "Si el país pierde el grado de inversión, el costo sube de forma duradera y algunos fondos dejarían de invertir en Paraguay.",
+    "supuestos": [
+     "Que la suba no se revierta en pocas semanas.",
+     "Que las calificadoras reaccionen a la crisis."
+    ],
+    "conclusion": "Una suba de 18 puntos básicos es moderada y Paraguay sigue por debajo de Brasil o Colombia, pero mantener la disciplina fiscal es clave para no perder el grado de inversión."
    }
   },
   {
@@ -1226,6 +1486,34 @@
     ],
     "ok": 0,
     "fb": "Para que el dólar suba, el BCP compra dólares y paga con guaraníes. Eso aumenta la cantidad de guaraníes en circulación: por eso se advertía del riesgo de inflación."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Importadores y consumidores",
+      "Los productos importados cuestan menos."
+     ],
+     [
+      "Empresas que compran maquinaria",
+      "Invertir en bienes de capital importados es más barato."
+     ]
+    ],
+    "pierden": [
+     [
+      "Exportadores",
+      "Reciben menos guaraníes por cada dólar."
+     ],
+     [
+      "El Estado",
+      "Recauda menos impuestos de aduana."
+     ]
+    ],
+    "corto": "Importados más baratos que ayudan a mantener baja la inflación.",
+    "largo": "Una apreciación prolongada puede quitar competitividad a la producción nacional.",
+    "supuestos": [
+     "Que la apreciación responda a fundamentos (exportaciones, inversión) y no a flujos especulativos."
+    ],
+    "conclusion": "No intervenir respeta el tipo de cambio flotante y evita inflación, pero lo ocurrido en noviembre muestra cuán volátil puede ser un mercado cambiario pequeño."
    }
   },
   {
@@ -1314,6 +1602,34 @@
     ],
     "ok": 0,
     "fb": "Los precios siguen subiendo (1,7 % en un año) pero más despacio: es desinflación. Deflación sería una caída sostenida del nivel de precios."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Consumidores y asalariados",
+      "Su ingreso compra más."
+     ],
+     [
+      "Ahorristas",
+      "La tasa de interés supera a la inflación."
+     ]
+    ],
+    "pierden": [
+     [
+      "Productores de frutas y hortalizas",
+      "Reciben precios más bajos."
+     ],
+     [
+      "Deudores",
+      "El valor real de sus deudas baja menos que con inflación alta."
+     ]
+    ],
+    "corto": "Más poder de compra y margen para que el BCP no suba la tasa.",
+    "largo": "Si la depreciación de noviembre continúa, la inflación puede subir en los próximos meses.",
+    "supuestos": [
+     "Que la baja de alimentos no sea solo de temporada."
+    ],
+    "conclusion": "La inflación baja mejora el bienestar, pero la depreciación reciente podría revertirla: conviene seguir los próximos datos."
    }
   },
   {
@@ -1409,6 +1725,31 @@
     ],
     "ok": 0,
     "fb": "Una tasa más baja abarata el crédito: suben el consumo y la inversión, la DA se desplaza a la derecha y el nivel de precios se acerca a la meta."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ahorristas",
+      "Obtienen una tasa real positiva (5,5 % frente a 1,7 % de inflación)."
+     ],
+     [
+      "Todos",
+      "La estabilidad ayuda a planificar."
+     ]
+    ],
+    "pierden": [
+     [
+      "Deudores y empresas",
+      "No obtienen un crédito más barato."
+     ]
+    ],
+    "corto": "El costo del crédito no cambia y la economía sigue creciendo.",
+    "largo": "Una tasa estable ancla las expectativas; después de la crisis, el BCP podría tener que subirla si el dólar empuja la inflación.",
+    "supuestos": [
+     "Que la inflación siga baja.",
+     "Que los bancos trasladen las decisiones del BCP a sus tasas."
+    ],
+    "conclusion": "Mantener la tasa fue prudente antes de la crisis; la próxima reunión mostrará si el BCP prioriza el crecimiento o contener la presión del dólar."
    }
   },
   {
@@ -1506,6 +1847,35 @@
     ],
     "ok": 0,
     "fb": "Fuerza de trabajo = 3.290.206 + 141.250 = 3.431.456. Tasa = 141.250 ÷ 3.431.456 × 100 ≈ 4,1 %."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Quienes consiguieron empleo",
+      "Tienen ingresos y acceso a seguridad social."
+     ],
+     [
+      "Hogares",
+      "Más ingresos para consumir."
+     ]
+    ],
+    "pierden": [
+     [
+      "Subocupados",
+      "Su situación no mejoró (4,2 %)."
+     ],
+     [
+      "Empresas que buscan personal",
+      "Puede costar más contratar."
+     ]
+    ],
+    "corto": "Más ingresos y consumo.",
+    "largo": "Cerca del pleno empleo pueden subir los salarios; la informalidad sigue siendo un desafío.",
+    "supuestos": [
+     "Que el empleo creado sea formal y estable.",
+     "Los datos son de antes de la crisis de noviembre."
+    ],
+    "conclusion": "El mercado laboral está fuerte, pero la crisis podría frenar las contrataciones si la incertidumbre dura."
    }
   },
   {
@@ -1596,6 +1966,30 @@
     ],
     "ok": 0,
     "fb": "Concentrar ventas en un solo comprador hace al país vulnerable a lo que pase en ese mercado: es parte del concepto de interdependencia."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores y exportadores de soja",
+      "Venden más a buen precio."
+     ],
+     [
+      "Transporte, puertos y Estado",
+      "Más actividad y recaudación."
+     ]
+    ],
+    "pierden": [
+     [
+      "Otros exportadores",
+      "El ingreso de dólares aprecia el guaraní y les quita competitividad."
+     ]
+    ],
+    "corto": "Más divisas, crecimiento y apreciación del guaraní.",
+    "largo": "Depender de un producto primario y de un comprador (Argentina, 86 %) expone al país a los precios, al clima y a las decisiones del vecino.",
+    "supuestos": [
+     "Que se mantengan los precios internacionales y el buen clima."
+    ],
+    "conclusion": "El récord impulsa el crecimiento, pero diversificar productos y mercados reduciría el riesgo."
    }
   },
   {
@@ -1679,6 +2073,34 @@
     ],
     "ok": 0,
     "fb": "EPD = −24,3 ÷ 21,7 ≈ −1,1. Como su valor absoluto es mayor que 1, la demanda es relativamente elástica y el ingreso cae al subir el precio."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Exportadores con volumen estable",
+      "Cobran mejor precio por kilo."
+     ],
+     [
+      "Productores de pollo",
+      "Ganan parte del mercado."
+     ]
+    ],
+    "pierden": [
+     [
+      "Frigoríficos y trabajadores del sector bovino",
+      "Hay menos volumen para procesar."
+     ],
+     [
+      "El rubro en total",
+      "Sus ingresos cayeron 7,9 %."
+     ]
+    ],
+    "corto": "Menos ingresos por carne aunque el precio suba.",
+    "largo": "Si la oferta se recupera, el volumen puede crecer; pero los compradores pueden pasarse a Brasil.",
+    "supuestos": [
+     "Que la caída del volumen se deba a la reacción de la demanda y no solo a que hubo menos oferta."
+    ],
+    "conclusion": "El dato sugiere una demanda relativamente elástica, pero parte de la caída viene de menos oferta: la estimación es aproximada."
    }
   },
   {
@@ -1770,6 +2192,35 @@
     ],
     "ok": 0,
     "fb": "El combustible es un costo de producción. Si sube, a cada nivel de precios las empresas producen menos: la OACP se desplaza a la izquierda."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Usuarios en noviembre",
+      "Los precios quedan congelados por ahora."
+     ]
+    ],
+    "pierden": [
+     [
+      "Transporte, agro e industria",
+      "Sus costos suben."
+     ],
+     [
+      "Consumidores",
+      "Pagan más por fletes, pasajes y alimentos."
+     ],
+     [
+      "Petropar",
+      "Absorbe parte de la suba en sus márgenes."
+     ]
+    ],
+    "corto": "Inflación por costos en transporte y alimentos.",
+    "largo": "Si el petróleo sigue alto y el guaraní débil, habrá nuevas subas; también aumenta el incentivo a ahorrar energía y usar alternativas.",
+    "supuestos": [
+     "Que el petróleo no baje.",
+     "Que el congelamiento de noviembre no se extienda."
+    ],
+    "conclusion": "El combustible es un costo que llega a toda la economía, y la depreciación del guaraní puede agrandar su impacto."
    }
   },
   {
@@ -1880,6 +2331,35 @@
     ],
     "ok": 0,
     "fb": "El déficit se financia con endeudamiento: el Estado emite bonos o pide préstamos."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Proveedores del Estado (salud)",
+      "Cobran deudas atrasadas."
+     ],
+     [
+      "Beneficiarios de programas sociales",
+      "Se mantiene o amplía la cobertura."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes futuros",
+      "Más deuda e intereses."
+     ],
+     [
+      "Inversión pública",
+      "Puede quedar con menos recursos."
+     ]
+    ],
+    "corto": "Más gasto público y pago de deudas atrasadas.",
+    "largo": "Si el déficit alto se vuelve permanente, peligran la regla fiscal y el grado de inversión.",
+    "supuestos": [
+     "Que el déficit vuelva a 1,5 % en 2028.",
+     "Que la recaudación crezca como prevé el Gobierno."
+    ],
+    "conclusion": "Sincerar las deudas es positivo, pero pagarlo con deuda solo es sostenible si el ajuste prometido para 2028 se cumple."
    }
   },
   {
@@ -1982,6 +2462,34 @@
     ],
     "ok": 0,
     "fb": "Las transferencias son gasto público destinado a mejorar la distribución del ingreso: política fiscal redistributiva."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Hogares que salieron de la pobreza",
+      "Más ingresos para necesidades básicas."
+     ],
+     [
+      "Zonas rurales",
+      "Concentran buena parte de los programas."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes",
+      "Financian los programas."
+     ],
+     [
+      "Otros gastos",
+      "Costo de oportunidad: ese dinero no va a otras áreas, como infraestructura."
+     ]
+    ],
+    "corto": "Menos pobreza y más consumo de los hogares vulnerables.",
+    "largo": "La mejora se sostiene si se financia y si se crean empleos formales y mejor educación.",
+    "supuestos": [
+     "El INE cambió algunos métodos de cálculo, lo que afecta la comparación entre años."
+    ],
+    "conclusion": "Las transferencias dan resultados, pero depender solo de ellas, sin más empleo formal, limita el avance."
    }
   },
   {
@@ -2063,6 +2571,31 @@
     ],
     "ok": 0,
     "fb": "Salario real ≈ suba nominal − inflación = 5 % − 1,7 % ≈ 3,3 %. El poder de compra mejora."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Trabajadores formales con salario mínimo",
+      "Su salario real sube cerca de 3,3 %."
+     ]
+    ],
+    "pierden": [
+     [
+      "Trabajadores poco calificados",
+      "Podrían tener más dificultades para ser contratados."
+     ],
+     [
+      "Pequeñas empresas",
+      "Sus costos laborales suben."
+     ]
+    ],
+    "corto": "Más poder de compra.",
+    "largo": "Si el mínimo supera mucho la productividad, puede crecer la informalidad.",
+    "supuestos": [
+     "Que el mínimo esté por encima del salario de equilibrio.",
+     "Que se cumpla: muchos trabajadores informales no lo cobran."
+    ],
+    "conclusion": "Con inflación baja, el reajuste mejora el poder de compra; su efecto sobre el empleo depende de cuánto se aleje del salario de mercado."
    }
   },
   {
@@ -2150,6 +2683,26 @@
     ],
     "ok": 0,
     "fb": "Dice lo que «debería» ser: es normativa. En economía conviene separar los hechos (positivos) de las opiniones (normativas)."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Beneficiarios del gasto social y de las obras",
+      "Reciben recursos de Itaipú."
+     ]
+    ],
+    "pierden": [
+     [
+      "Usuarios de la ANDE",
+      "Según el autor, pagan una energía más cara."
+     ]
+    ],
+    "corto": "Más gasto social fuera del Presupuesto.",
+    "largo": "Menos transparencia y presión sobre la tarifa de la ANDE; la negociación del Anexo C definirá la tarifa.",
+    "supuestos": [
+     "Las cifras son cálculos del autor; otros análisis pueden llegar a otros resultados."
+    ],
+    "conclusion": "Es un debate normativo: equidad (gasto social) frente a eficiencia y transparencia (precio de la energía)."
    }
   },
   {
@@ -2239,6 +2792,34 @@
     ],
     "ok": 0,
     "fb": "Un plazo más largo protege por más tiempo a sectores menos competitivos: es una forma de proteccionismo transitorio."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Exportadores de carne y soja",
+      "Acceden a un mercado grande con menos aranceles."
+     ],
+     [
+      "Consumidores",
+      "Productos europeos más baratos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Industrias que compiten con Europa",
+      "Enfrentan más competencia."
+     ],
+     [
+      "El Estado",
+      "Recauda menos por aranceles."
+     ]
+    ],
+    "corto": "Pocos cambios: la baja de aranceles es gradual.",
+    "largo": "Más comercio, especialización e inversión, con riesgo para los sectores menos competitivos.",
+    "supuestos": [
+     "Que el Parlamento Europeo no frene el acuerdo."
+    ],
+    "conclusion": "Los beneficios dependen de que Paraguay aproveche el acceso y de que los sectores afectados se adapten en los 15 años de transición."
    }
   }
  ],

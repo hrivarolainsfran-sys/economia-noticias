@@ -39,11 +39,20 @@ El sitio tiene dos archivos:
  "conceptos": [["Término", "Definición corta"]],
  "diagramas": ["politica-monetaria", "da-oa-da"],
  "rel": ["id-de-otra-noticia"],
- "pregunta": { "q": "Pregunta", "opts": ["correcta", "incorrecta", "incorrecta", "incorrecta"], "ok": 0, "fb": "Explicación" }
+ "pregunta": { "q": "Pregunta", "opts": ["correcta", "incorrecta", "incorrecta", "incorrecta"], "ok": 0, "fb": "Explicación" },
+ "evaluacion": {
+  "ganan": [["Grupo", "Por qué gana, en una frase"]],
+  "pierden": [["Grupo", "Por qué pierde, en una frase"]],
+  "corto": "Qué pasa en los próximos meses.",
+  "largo": "Qué puede pasar en años.",
+  "supuestos": ["De qué depende el análisis"],
+  "conclusion": "Juicio equilibrado en 1-2 frases."
+ }
 }
 ```
 
-- `mas`, `opinion` y `rel` son opcionales.
+- `mas`, `opinion` y `rel` son opcionales. `evaluacion` es obligatoria en noticias nuevas.
+- `evaluacion` es el análisis al estilo IB: 1-3 grupos que ganan y 1-3 que pierden (consumidores, productores, trabajadores, Estado, exportadores, importadores…), efectos a corto y largo plazo, supuestos y una conclusión que pese los argumentos. Debe basarse en lo que dice el artículo y en teoría económica, sin inventar datos.
 - `tema`: subtema del programa IB (1.1 a 4.10).
 - Números en formato paraguayo: coma decimal y punto de miles (`G. 6.480`, `1,7 %`).
 

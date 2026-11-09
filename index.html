@@ -299,6 +299,48 @@ a.ind:hover b{text-decoration:underline;text-decoration-color:var(--gold-2)}
 .out span{font-size:.88rem;color:var(--ink-2)}
 .calc .ex{font-size:.8rem;color:var(--muted)}
 
+/* ---------- evaluación ---------- */
+.ev{display:grid;gap:12px}
+.ev-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ev-box{background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:12px 14px;display:grid;gap:8px;align-content:start}
+.ev-box h3{font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;display:flex;gap:8px;align-items:center}
+.ev-box.win{border-top:4px solid var(--ok)}.ev-box.lose{border-top:4px solid var(--bad)}
+.ev-box.win h3{color:var(--ok)}.ev-box.lose h3{color:var(--bad)}
+.ev-box ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.ev-box li{font-size:.92rem}
+.ev-box li b{display:block}
+.ev-box li span{color:var(--ink-2)}
+.ev-time{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ev-time div{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:10px 14px;font-size:.93rem}
+.ev-time b{display:block;font-family:var(--f-display);font-size:.9rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.ev-sup{margin:0;padding-left:18px;font-size:.92rem;color:var(--ink-2)}
+.ev-con{background:var(--navy);color:var(--navy-ink);border-radius:8px;padding:12px 16px;font-size:.98rem}
+.ev-con b{color:var(--gold-2);font-family:var(--f-display);letter-spacing:.08em;text-transform:uppercase;font-size:.85rem;display:block;margin-bottom:2px}
+.tema-link{text-decoration:underline;text-decoration-color:var(--gold-2);text-underline-offset:3px}
+
+/* ---------- programa ---------- */
+.cover{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:22px}
+.cover .barbg{flex:1 1 240px;height:12px;background:var(--rule);border-radius:999px;overflow:hidden;max-width:420px}
+.cover .barbg i{display:block;height:100%;background:var(--gold-2)}
+.unitbox{margin-bottom:26px}
+.unitbox h2{margin-bottom:10px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.unitbox h2 small{font-family:var(--f-body);font-weight:400;font-size:.85rem;color:var(--muted)}
+.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:10px}
+.topic{display:grid;grid-template-columns:52px 1fr auto;gap:12px;align-items:center;background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:10px 12px;text-decoration:none}
+.topic:hover{border-color:var(--gold)}
+.topic .c{font-family:var(--f-display);font-weight:800;font-size:1.3rem;color:var(--gold)}
+.topic .n{font-weight:700;font-size:.95rem;line-height:1.25}
+.topic small{display:block;font-weight:400;color:var(--muted);font-size:.78rem}
+.topic .cnt{font-family:var(--f-math);font-weight:600;font-size:1.15rem;min-width:2ch;text-align:right}
+.topic.zero{background:transparent;border-style:dashed}
+.topic.zero .cnt{color:var(--muted)}
+
+/* ---------- compartir ---------- */
+.tools{display:flex;flex-wrap:wrap;gap:8px}
+.btn.ghost{background:transparent}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--paper);padding:9px 16px;border-radius:999px;font-size:.9rem;z-index:20}
+.print-only{display:none}
+
 footer{border-top:1px solid var(--rule);padding-block:20px 30px;font-size:.82rem;color:var(--muted)}
 footer .wrap{display:grid;gap:6px}
 
@@ -323,7 +365,27 @@ footer .wrap{display:grid;gap:6px}
   .datos div{grid-template-columns:minmax(0,1fr);gap:0}
   .datos .v{text-align:left}
 }
+@media (max-width:560px){ .ev-cols,.ev-time{grid-template-columns:minmax(0,1fr)} .topic{grid-template-columns:44px 1fr auto} }
 @media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+
+/* ---------- impresión: una ficha limpia en blanco y negro ---------- */
+@media print{
+  :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
+  body{font-size:11.5pt;background:#fff}
+  .mast,.ticker,footer,.crumb,.tools,.srcs,.side .block,.quiz,.toast,#install,.side .note{display:none!important}
+  .print-only{display:block;font-size:9pt;color:#555;border-bottom:1px solid #999;padding-bottom:6px;margin-bottom:10px}
+  .wrap{max-width:none;padding:0}
+  .art{grid-template-columns:1fr;gap:14px;padding:10px 0}
+  .side{position:static;order:-1}
+  .sheet{break-inside:avoid;max-width:420px}
+  .sheet .hd{background:#fff;color:#000;border-bottom:1px solid #999}
+  .ev-con{background:#fff;color:#000;border:1.5px solid #000}
+  .block,.ev-box,.terms div,.datos{break-inside:avoid}
+  .head h1{font-size:22pt}
+  a{text-decoration:none}
+  .steps li::before{background:#000}
+  @page{margin:14mm}
+}
 </style>
 </head>
 <body>
@@ -338,6 +400,7 @@ footer .wrap{display:grid;gap:6px}
       <a href="#semana" data-nav="semana">Semana</a>
       <a href="#indicadores" data-nav="indicadores">Indicadores</a>
       <a href="#region" data-nav="region">Región</a>
+      <a href="#programa" data-nav="programa">Programa IB</a>
       <a href="#diagramas" data-nav="diagramas">Diagramas</a>
       <a href="#calculadoras" data-nav="calculadoras">Calculadoras</a>
       <a href="#diarios" data-nav="diarios">Diarios</a>
@@ -691,10 +754,18 @@ function renderNews(n) {
   <div class="wrap">
     <a class="crumb" href="#inicio">← Todas las noticias</a>
     <header class="head">
-      <div class="meta">${n.opinion ? '<span class="op">Opinión</span>' : ''}${unitTag(n.unidad)}<span>Tema ${esc(n.tema)} · ${esc(TEMAS[n.tema] || '')}</span>${KC[n.kc] ? `<span class="tag kc">Concepto clave: ${KC[n.kc]}</span>` : ''}</div>
+      <p class="print-only">Economía en las Noticias · ${esc(shareUrl(n))}</p>
+      <div class="meta">${n.opinion ? '<span class="op">Opinión</span>' : ''}${unitTag(n.unidad)}<a class="tema-link" href="#${temaHash(n.tema)}">Tema ${esc(n.tema)} · ${esc(TEMAS[n.tema] || '')}</a>${KC[n.kc] ? `<span class="tag kc">Concepto clave: ${KC[n.kc]}</span>` : ''}</div>
       <h1>${esc(n.titulo)}</h1>
       <p class="dek">${esc(n.resumen)}</p>
+      <p class="print-only">Fuente: ${fuentes.map(([m, u, f]) => esc(m) + ', ' + fdate(f) + ' (' + esc(u) + ')').join(' · ')}</p>
       <div class="srcs">${fuentes.map(([m, u, f], i) => `<a class="btn${i ? '' : ' primary'}" href="${esc(u)}" target="_blank" rel="noopener">Leer en ${esc(m)} · ${fdate(f)} ↗</a>`).join('')}</div>
+      <div class="tools">
+        <button type="button" class="btn ghost" id="t-share">Compartir</button>
+        <a class="btn ghost" href="https://wa.me/?text=${encodeURIComponent(n.titulo + ' ' + shareUrl(n))}" target="_blank" rel="noopener">WhatsApp</a>
+        <button type="button" class="btn ghost" id="t-copy">Copiar enlace</button>
+        <button type="button" class="btn ghost" id="t-print">Imprimir ficha</button>
+      </div>
     </header>
     <div class="art">
       <div class="col">
@@ -704,6 +775,7 @@ function renderNews(n) {
           <div class="datos">${n.datos.map(([v, d]) => `<div><span class="v">${esc(v)}</span><span class="d">${esc(d)}</span></div>`).join('')}</div></section>` : ''}
         ${n.pasos.length ? `<section class="block"><h2><small>Análisis</small>Cómo se explica con economía</h2>
           <ol class="steps">${n.pasos.map(s => `<li><span>${esc(s)}</span></li>`).join('')}</ol></section>` : ''}
+        ${evalBlock(n.evaluacion)}
         ${n.conceptos.length ? `<section class="block"><h2><small>Vocabulario</small>Conceptos para entenderla</h2>
           <dl class="terms">${n.conceptos.map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join('')}</dl></section>` : ''}
         ${pr ? `<section class="block"><h2><small>Comprueba</small>¿Lo entendiste?</h2>
@@ -720,9 +792,64 @@ function renderNews(n) {
       </aside>
     </div>
   </div>`;
+  $('#t-print').onclick = () => window.print();
+  $('#t-copy').onclick = () => copyLink(shareUrl(n));
+  $('#t-share').onclick = async () => {
+    if (navigator.share) { try { await navigator.share({ title: n.titulo, text: n.resumen.split(/\.\s/)[0] + '.', url: shareUrl(n) }); } catch (e) { } }
+    else copyLink(shareUrl(n));
+  };
   const keep = () => { const q = document.getElementById('quiz'); if (q) q.scrollIntoView({ block: 'center' }); };
   document.querySelectorAll('#quiz .opt').forEach(b => b.onclick = () => { p.q = +b.dataset.i; saveProg(); renderNews(n); keep(); });
   const re = $('#qre'); if (re) re.onclick = () => { delete p.q; delete pr.order; saveProg(); renderNews(n); keep(); };
+}
+
+/* Compartir, evaluación y programa */
+const shareUrl = n => location.origin + location.pathname + '#n-' + n.id;
+const temaHash = t => 'tema-' + String(t).replace('.', '-');
+function toast(msg) { const t = document.createElement('div'); t.className = 'toast'; t.setAttribute('role', 'status'); t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 2200); }
+function copyLink(url) {
+  const fallback = () => { const i = document.createElement('input'); i.value = url; document.body.appendChild(i); i.select(); try { document.execCommand('copy'); toast('Enlace copiado'); } catch (e) { toast(url); } i.remove(); };
+  if (navigator.clipboard) navigator.clipboard.writeText(url).then(() => toast('Enlace copiado'), fallback); else fallback();
+}
+function evalBlock(e) {
+  if (!e) return '';
+  const list = a => (a || []).map(([g, r]) => `<li><b>${esc(g)}</b><span>${esc(r)}</span></li>`).join('');
+  return `<section class="block ev"><h2><small>Evalúa</small>Quién gana, quién pierde y qué esperar</h2>
+    <div class="ev-cols"><div class="ev-box win"><h3>Ganan</h3><ul>${list(e.ganan)}</ul></div><div class="ev-box lose"><h3>Pierden</h3><ul>${list(e.pierden)}</ul></div></div>
+    ${e.corto || e.largo ? `<div class="ev-time">${e.corto ? `<div><b>Corto plazo</b>${esc(e.corto)}</div>` : ''}${e.largo ? `<div><b>Largo plazo</b>${esc(e.largo)}</div>` : ''}</div>` : ''}
+    ${e.supuestos && e.supuestos.length ? `<div><p class="note" style="margin-bottom:4px"><b>Depende de estos supuestos</b></p><ul class="ev-sup">${e.supuestos.map(s => `<li>${esc(s)}</li>`).join('')}</ul></div>` : ''}
+    ${e.conclusion ? `<p class="ev-con"><b>Conclusión</b>${esc(e.conclusion)}</p>` : ''}
+  </section>`;
+}
+const PROGRAMA = [
+  ['1', 'Introducción a la economía', ['1.1', '1.2']],
+  ['2', 'Microeconomía', ['2.1', '2.2', '2.3', '2.4', '2.5', '2.6', '2.7', '2.8', '2.9', '2.10', '2.11', '2.12']],
+  ['3', 'Macroeconomía', ['3.1', '3.2', '3.3', '3.4', '3.5', '3.6', '3.7']],
+  ['4', 'Economía global', ['4.1', '4.2', '4.3', '4.4', '4.5', '4.6', '4.7', '4.8', '4.9', '4.10']]
+];
+const ALLTEMAS = PROGRAMA.flatMap(u => u[2]);
+const newsOf = t => SORTED.filter(n => n.tema === t);
+const diagsOf = t => Object.entries(LIB).filter(([, d]) => d.tema === t);
+function renderProgram() {
+  const covered = ALLTEMAS.filter(t => newsOf(t).length).length, pct = covered / ALLTEMAS.length * 100;
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Programa de Economía IB</div><h1>Las noticias por tema</h1><p class="lede">Cada subtema del programa con sus noticias y diagramas. Sirve para repasar un tema con ejemplos reales de Paraguay y para ver qué temas todavía no tienen noticias.</p></div></div>
+    <div class="cover"><div class="barbg"><i style="width:${pct.toFixed(0)}%"></i></div><span><b>${covered} de ${ALLTEMAS.length}</b> subtemas tienen al menos una noticia</span></div>
+    ${PROGRAMA.map(([u, name, ts]) => `<section class="unitbox"><h2>Unidad ${u} · ${esc(name)} <small>${ts.filter(t => newsOf(t).length).length} de ${ts.length} subtemas con noticias</small></h2>
+      <div class="topics">${ts.map(t => { const k = newsOf(t).length, dg = diagsOf(t).length; return `<a class="topic${k ? '' : ' zero'}" href="#${temaHash(t)}"><span class="c">${t}</span><span class="n">${esc(TEMAS[t] || '')}<small>${k ? (k === 1 ? '1 noticia' : k + ' noticias') : 'Sin noticias todavía'}${dg ? ' · ' + dg + (dg === 1 ? ' diagrama' : ' diagramas') : ''}</small></span><span class="cnt">${k}</span></a>`; }).join('')}</div></section>`).join('')}
+  </div>`;
+}
+function renderTema(t) {
+  const i = ALLTEMAS.indexOf(t), unit = PROGRAMA.find(u => u[2].includes(t)), ns = newsOf(t), ds = diagsOf(t);
+  const prev = ALLTEMAS[i - 1], next = ALLTEMAS[i + 1];
+  $('#app').innerHTML = `<div class="wrap">
+    <a class="crumb" href="#programa">← Programa IB</a>
+    <header class="head"><div class="meta"><span>Unidad ${unit[0]} · ${esc(unit[1])}</span></div><h1>${t} · ${esc(TEMAS[t] || '')}</h1>
+      <p class="dek">${ns.length ? `${ns.length === 1 ? 'Una noticia' : ns.length + ' noticias'} de Paraguay para trabajar este subtema.` : 'Todavía no hay noticias de este subtema. La actualización diaria las agregará cuando aparezcan.'}</p></header>
+    ${ds.length ? `<div class="sec-head"><h2>Diagramas del tema</h2></div><div class="lib">${ds.map(([k, d]) => `<a class="dcard" href="#d-${k}"><div class="plate">${fig(d.fig)}</div><div class="body"><h3>${esc(d.t)}</h3><span class="note">Interactivo · ${usos(k).length} ${usos(k).length === 1 ? 'noticia' : 'noticias'}</span></div></a>`).join('')}</div>` : ''}
+    ${ns.length ? `<div class="sec-head"><h2>Noticias</h2></div><div class="grid">${ns.map(card).join('')}</div>` : ''}
+    <div class="tools" style="padding-block:20px 44px">${prev ? `<a class="btn" href="#${temaHash(prev)}">← ${prev} ${esc(TEMAS[prev] || '')}</a>` : ''}${next ? `<a class="btn" href="#${temaHash(next)}">${next} ${esc(TEMAS[next] || '')} →</a>` : ''}</div>
+  </div>`;
 }
 
 function renderLib() {
@@ -951,6 +1078,8 @@ function render() {
   else if (r === 'indicadores') { nav = 'indicadores'; renderIndic(); }
   else if (r === 'region') { nav = 'region'; renderRegion(); }
   else if (r === 'calculadoras') { nav = 'calculadoras'; renderCalcs(); }
+  else if (r === 'programa') { nav = 'programa'; renderProgram(); }
+  else if (r.startsWith('tema-') && ALLTEMAS.includes(r.slice(5).replace('-', '.'))) { nav = 'programa'; renderTema(r.slice(5).replace('-', '.')); }
   else renderHome();
   document.querySelectorAll('[data-nav]').forEach(a => a.dataset.nav === nav ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const cur = document.querySelector('[data-nav][aria-current]'); if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest', inline: 'nearest' });
