@@ -72,7 +72,9 @@ El sitio tiene dos archivos:
 
 ### Diagramas de la biblioteca (`diagramas`)
 
-`oferta-demanda`, `ped-ingreso`, `salario-minimo`, `da-oa-da`, `da-oa-oacp`, `politica-monetaria`, `politica-fiscal`, `tipo-cambio`, `exportaciones`, `arancel`, `lorenz`. Otros nombres se ignoran.
+`oferta-demanda`, `ped-ingreso`, `salario-minimo`, `da-oa-da`, `da-oa-oacp`, `politica-monetaria`, `politica-fiscal`, `bonos`, `tipo-cambio`, `exportaciones`, `arancel`, `lorenz`. Otros nombres se ignoran.
+
+La lámina `{"k": "bono", "r": 14}` dibuja el precio de un bono según la tasa de interés `r` (entre 2 y 16).
 
 ## Indicadores, historial, región y semanas
 
@@ -102,6 +104,12 @@ El sitio tiene dos archivos:
   - `agenda`: próximas fechas confirmadas (por ejemplo, la próxima reunión del Comité de Política Monetaria). Se borran las que ya pasaron.
   - `cifras`: claves de `historial` que se muestran; `fijas`: cifras sin serie (`[["valor", "qué es"]]`).
   - En cada noticia, el campo opcional `inst` (`["bcp"]`, `["mef"]` o ambos) la muestra en la página de esa institución.
+- `bolsa`: la sección **Bolsa** (Bolsa de Valores de Asunción).
+  - `cifras`: `[["valor", "qué es y de qué periodo"]]`. Se actualizan cada mes cuando la BVA publica el volumen negociado (suele salir en los diarios los primeros días del mes siguiente). Poner `actualizado` con la fecha del artículo.
+  - `graficos`: lista de `{"t", "u", "rows": [["Etiqueta", valor, 1]], "cap"}`. Actualizar el volumen negociado acumulado y la composición por instrumento, moneda y mercado cuando haya datos nuevos; `graficos_fuente` con los medios y fechas.
+  - `eventos`: hechos clave del mercado (nuevas emisiones grandes, suspensiones, nuevas normas, récords). Fecha `AAAA-MM-DD`, `AAAA-MM` o `AAAA`.
+  - `instrumentos`, `actores`, `regulacion`, `ib`, `enlaces`: contenido explicativo; solo se cambia si cambia la regulación.
+  - Las noticias del mercado de valores llevan `"inst": ["bolsa"]` (pueden combinarse, por ejemplo `["bcp", "bolsa"]`). El diagrama `bonos` sirve para noticias sobre bonos y tasas de interés.
 - `destacado`: el tema económico dominante, con `eyebrow`, `titulo`, `dek`, `tl` (línea de tiempo: `[["5 nov", "Qué pasó", "id-noticia"]]`) y `lentes` (`[["clave-de-diagrama", "cómo lo explica"]]`).
 - `actualizado`: fecha de la última actualización (`AAAA-MM-DD`).
 

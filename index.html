@@ -438,6 +438,7 @@ footer .wrap{display:grid;gap:6px}
       <a href="#semana" data-nav="semana">Semana</a>
       <a href="#indicadores" data-nav="indicadores">Indicadores</a>
       <a href="#instituciones" data-nav="instituciones">BCP y MEF</a>
+      <a href="#bolsa" data-nav="bolsa">Bolsa</a>
       <a href="#region" data-nav="region">Región</a>
       <a href="#programa" data-nav="programa">Programa IB</a>
       <a href="#diagramas" data-nav="diagramas">Diagramas</a>
@@ -464,7 +465,7 @@ footer .wrap{display:grid;gap:6px}
 /* =====================================================================
    1. DATOS: noticias, indicadores, región y semanas viven en datos.json
    ===================================================================== */
-let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {};
+let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null;
 
 const KC = { escasez:'Escasez', eleccion:'Elección', eficiencia:'Eficiencia', equidad:'Equidad', bienestar:'Bienestar económico', sostenibilidad:'Sostenibilidad', cambio:'Cambio', interdependencia:'Interdependencia', intervencion:'Intervención' };
 const UNI = { micro:'Microeconomía', macro:'Macroeconomía', global:'Economía global' };
@@ -496,6 +497,10 @@ const LIB = {
     que:'Cómo el Banco Central usa la tasa de interés para influir en el gasto y la inflación.',
     lee:['El BCP fija la tasa de política monetaria (TPM).','Bajar la TPM abarata el crédito: suben el consumo y la inversión, y la DA se desplaza a la derecha.','Subir la TPM encarece el crédito: la DA se desplaza a la izquierda y la inflación baja.','Los efectos tardan meses en llegar a toda la economía.'],
     err:['Decir que el Banco Central fija todas las tasas: fija la de referencia y los bancos la siguen.'] },
+  'bonos': { t:'Precio de los bonos y tasa de interés', u:'macro', tema:'3.5', fig:{ k:'bono' },
+    que:'Por qué cuando suben las tasas de interés bajan los precios de los bonos, y al revés.',
+    lee:['Un bono paga un interés fijo (cupón) y devuelve su valor nominal al vencer.','Si las tasas del mercado suben, los bonos nuevos pagan más y los viejos valen menos: su precio baja.','Si las tasas bajan, los bonos viejos con cupón más alto se vuelven atractivos: su precio sube.','Cuando la tasa del mercado es igual al cupón, el bono vale exactamente su valor nominal (cotiza «a la par»).'],
+    err:['Pensar que el precio del bono y la tasa de interés se mueven juntos: van en sentido contrario.','Confundir el cupón (fijo) con la tasa del mercado (cambia).'] },
   'politica-fiscal': { t:'Política fiscal', u:'macro', tema:'3.6', fig:{ k:'macro', mueve:'D', dir:1 },
     que:'Cómo el gasto público y los impuestos influyen en la economía, y qué pasa cuando hay déficit.',
     lee:['El Gobierno usa el gasto público (G) y los impuestos.','Más gasto o menos impuestos: la DA se desplaza a la derecha (política expansiva).','Si gasta más de lo que recauda hay déficit, que se cubre con deuda.','La deuda de hoy obliga a pagar intereses mañana.'],
@@ -653,6 +658,21 @@ function fig(f) {
     s += T(x0 - 5, y0 + 4, '0', 'var(--ink)', 'end', 11) + T(x0 - 5, y1 + 4, '100', 'var(--ink)', 'end', 11) + T(x1, y0 + 14, '100', 'var(--ink)', 'middle', 11);
     return s + '</svg>';
   }
+  if (f.k === 'bono') {
+    const r = f.r == null ? 8 : f.r, cup = 8, n = 10, rMin = 2, rMax = 16;
+    const pmax = bondPrice(rMin, cup, n), pmin = bondPrice(rMax, cup, n), x0 = ox, x1 = W - 16, y0 = oy, y1 = 24;
+    const X = v => x0 + (v - rMin) / (rMax - rMin) * (x1 - x0), Y = v => y0 - (v - pmin * 0.9) / (pmax * 1.04 - pmin * 0.9) * (y0 - y1);
+    let s = open() + axes('Precio del bono', 'Tasa de interés del mercado (%)');
+    let path = ''; for (let i = 0; i <= 56; i++) { const v = rMin + (rMax - rMin) * i / 56; path += (i ? 'L' : 'M') + X(v).toFixed(1) + ',' + Y(bondPrice(v, cup, n)).toFixed(1); }
+    s += L(ox, Y(100), x1, Y(100), 'var(--muted)', 1, 1) + T(x1, Y(100) - 5, 'valor nominal (100)', 'var(--muted)', 'end', 10, 'var(--f-body)');
+    s += `<path d="${path}" style="fill:none;stroke:var(--k-d)" stroke-width="2.6"/>`;
+    const p = bondPrice(r, cup, n), px = X(r), py = Y(p);
+    s += L(ox, py, px, py, 'var(--gold)', 1.2, 1) + L(px, py, px, oy, 'var(--gold)', 1.2, 1) + `<circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="5" style="fill:var(--gold-2)"/>`;
+    s += T(ox - 5, py + 4, num(p, 0), 'var(--ink)', 'end', 11) + T(px, oy + 14, num(r, 1) + ' %', 'var(--ink)', 'middle', 11);
+    [4, 8, 12].forEach(v => { if (Math.abs(v - r) > 1.2) s += T(X(v), oy + 14, v + ' %', 'var(--muted)', 'middle', 10); });
+    s += T(X(3), Y(bondPrice(3, cup, n)) - 8, 'Bono a 10 años, cupón 8 %', 'var(--k-d)', 'start', 10, 'var(--f-body)');
+    return s + '</svg>';
+  }
   if (f.k === 'barras') {
     const rows = f.rows, vals = rows.map(r => r[1]), lo = Math.min(0, ...vals), hi = Math.max(0, ...vals), span = (hi - lo) || 1;
     const rh = rows.length > 4 ? 23 : 34, h = Math.max(120, rows.length * rh + 34), bx = 118, bw = 150, z = bx + (-lo / span) * bw;
@@ -668,6 +688,7 @@ function fig(f) {
   }
   return '';
 }
+function bondPrice(r, cup, n, face) { face = face || 100; const i = r / 100, c = face * cup / 100; let p = 0; for (let t = 1; t <= n; t++) p += c / Math.pow(1 + i, t); return p + face / Math.pow(1 + i, n); }
 function lorenzCtrl(g) { return [0.86 + (0.55 - 0.86) * g, 0.04 + (0.34 - 0.04) * g]; }
 function gini(a, b) { let area = 0, N = 400; for (let i = 0; i < N; i++) { const t = (i + .5) / N, y = 2 * (1 - t) * t * b + t * t, dx = 2 * a * (1 - 2 * t) + 2 * t; area += y * dx / N; } return 1 - 2 * area; }
 
@@ -1012,6 +1033,38 @@ function renderInst(k) {
     </div></div>`;
 }
 
+/* Bolsa de valores */
+function renderBolsa() {
+  const B = BOLSA;
+  if (!B) { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">Todavía no hay datos de la bolsa.</div></div>'; return; }
+  const ns = instNews('bolsa'), D = LIB.bonos;
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Mercado de valores</div><h1>${esc(B.nombre)}</h1><p class="lede">${esc(B.que)}</p>
+      <div class="srcs" style="margin-top:12px">${(B.enlaces || []).map(([t, u], i) => `<a class="btn${i ? '' : ' primary'}" href="${esc(u)}" target="_blank" rel="noopener">${esc(t)} ↗</a>`).join('')}</div></div></div>
+    <div class="art" style="padding-top:8px">
+      <div class="col">
+        <section class="block"><h2><small>Para qué sirve</small>Por qué importa</h2><p class="prose">${esc(B.por_que)}</p></section>
+        <section class="block"><h2><small>Datos</small>Las cifras del mercado</h2>
+          <div class="stats" style="margin:0">${(B.cifras || []).map(([v, l]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join('')}</div>
+          <p class="note">Datos al ${fdate(B.actualizado)}.</p></section>
+        <section class="block"><h2><small>Gráficos</small>Cómo se compone</h2>
+          <div class="charts" style="padding:0;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))">${(B.graficos || []).map(g => `<section class="chart"><div class="top"><h3>${esc(g.t)}</h3></div>${fig({ k: 'barras', u: g.u, rows: g.rows })}<p class="note">${esc(g.cap || '')}</p></section>`).join('')}</div>
+          ${B.graficos_fuente ? `<p class="note">Fuente: ${esc(B.graficos_fuente)}</p>` : ''}</section>
+        <section class="block"><h2><small>Instrumentos</small>Qué se compra y se vende</h2><dl class="terms">${(B.instrumentos || []).map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join('')}</dl></section>
+        <section class="block"><h2><small>Participantes</small>Quién participa</h2><dl class="terms">${(B.actores || []).map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join('')}</dl></section>
+        <section class="block"><h2><small>Reglas</small>Quién la regula</h2><dl class="terms">${(B.regulacion || []).map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join('')}</dl>
+          <a class="more" href="#inst-bcp">Ver el Banco Central del Paraguay →</a></section>
+        <section class="block"><h2><small>Cronología</small>Hechos clave</h2><ol class="tline">${(B.eventos || []).slice().reverse().map(([f, t]) => `<li><time>${esc(/^\d{4}$/.test(f) ? f : fflex(f))}</time><span>${esc(t)}</span></li>`).join('')}</ol></section>
+        ${ns.length ? `<section class="block"><h2><small>En las noticias</small>Noticias de la bolsa</h2><div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))">${ns.map(card).join('')}</div></section>` : ''}
+      </div>
+      <aside class="side">
+        ${D ? `<div class="sheet"><div class="hd"><span>Bonos y tasa de interés</span><span>3.5</span></div><div class="fig">${fig(D.fig)}</div><div class="cap">Cuando sube la tasa de interés, el precio de los bonos baja. <a href="#d-bonos">Muévelo en el diagrama interactivo →</a></div></div>` : ''}
+        <div class="block"><h3>En el programa IB</h3><div class="rel">${(B.ib || []).map(([t, txt]) => `<a href="#${temaHash(t)}">${esc(txt)}<small>Tema ${esc(t)} · ${esc(TEMAS[t] || '')}</small></a>`).join('')}</div></div>
+        <div class="block"><h3>Calcula</h3><a class="dl" href="#calculadoras" style="grid-template-columns:1fr"><span><b>Precio de un bono</b><small>Cambia la tasa y mira cómo cambia el precio.</small></span></a></div>
+      </aside>
+    </div></div>`;
+}
+
 function renderLib() {
   $('#app').innerHTML = `<div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Biblioteca</div><h1>Diagramas</h1><p class="lede">Los diagramas de Economía IB que explican las noticias. Abre uno para moverlo con los controles, ver qué cambia, leer los errores más comunes y encontrar las noticias donde aparece.</p></div></div>
@@ -1032,6 +1085,7 @@ function controlsFor(f) {
   if (k === 'minimo') return { st: { k, w: 80 }, sliders: [['w', 'Salario mínimo', 0, 60, 30, v => 110 - v]] };
   if (k === 'exportaciones') return { st: { k, pw: 70 }, sliders: [['pw', 'Precio mundial', 0, 60, 40, v => 110 - v]] };
   if (k === 'lorenz') return { st: { k, g: .6 }, sliders: [['g', 'Transferencias del Estado', 0, 100, 60, v => v / 100]] };
+  if (k === 'bono') return { st: { k, r: f.r == null ? 8 : f.r }, sliders: [['r', 'Tasa de interés del mercado', 2, 16, f.r == null ? 8 : f.r, v => v, 0.5]] };
   return null;
 }
 function readout(st) {
@@ -1069,6 +1123,10 @@ function readout(st) {
     const q1 = 70 + (st.pw - 40) / M, q2 = 70 + (180 - st.pw) / M, x = q2 - q1;
     return `<div class="ro"><div><span>Exportaciones</span><b class="${x > 1 ? 'up' : ''}">${x > 1 ? '↑ Q₂ − Q₁' : '= no se exporta'}</b></div><div><span>Precio para consumidores locales</span><b class="${x > 1 ? 'up' : ''}">${x > 1 ? '↑ sube' : '= Pₑ'}</b></div></div><p class="ro-txt">${x > 1 ? 'Cuanto más alto el precio mundial, más ofrecen los productores, menos compran los consumidores locales y más se exporta.' : 'Si el precio mundial iguala al interno, no conviene exportar.'}</p>`;
   }
+  if (st.k === 'bono') {
+    const p = bondPrice(st.r, 8, 10), ch = p - 100;
+    return `<div class="ro"><div><span>Precio del bono</span><b class="${ch > 0.5 ? 'up' : ch < -0.5 ? 'down' : ''}">${num(p, 1)}</b></div><div><span>Frente al valor nominal</span><b class="${ch > 0.5 ? 'up' : ch < -0.5 ? 'down' : ''}">${Math.abs(ch) < 0.5 ? '= a la par' : (ch > 0 ? '↑ ' : '↓ ') + num(Math.abs(ch), 1) + ' %'}</b></div></div><p class="ro-txt">${Math.abs(ch) < 0.5 ? 'La tasa del mercado es igual al cupón (8 %): el bono vale su valor nominal.' : ch > 0 ? 'La tasa del mercado es menor que el cupón: el bono paga más que los nuevos, así que vale más (sobre la par).' : 'La tasa del mercado es mayor que el cupón: el bono paga menos que los nuevos, así que vale menos (bajo la par).'}</p>`;
+  }
   if (st.k === 'lorenz') {
     const [a, b] = lorenzCtrl(st.g), g0 = gini(.86, .04), g1 = gini(a, b);
     return `<div class="ro"><div><span>Gini sin transferencias</span><b>${num(g0, 2)}</b></div><div><span>Gini con transferencias</span><b class="${g1 < g0 - .005 ? 'up' : ''}">${num(g1, 2)}</b></div></div><p class="ro-txt">Más transferencias acercan la curva a la diagonal y bajan el coeficiente de Gini (0 = igualdad total, 1 = desigualdad total). Valores ilustrativos.</p>`;
@@ -1089,13 +1147,13 @@ function renderDiagram(k) {
           ${ns.length ? `<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))">${ns.map(card).join('')}</div>` : '<p class="note">Todavía no hay noticias con este diagrama.</p>'}</section>
       </div>
       <aside class="side"><div class="sheet"><div class="hd"><span>${c ? 'Diagrama interactivo' : 'Lámina'}</span><span>Tema ${esc(d.tema)}</span></div><div class="fig" id="figbox">${fig(d.fig)}</div>
-        ${c ? `<div class="ctrl">${c.sliders.map(([key, lab, mn, mx, val]) => `<label for="sl-${key}"><span>${lab}<em id="lv-${key}"></em></span><input type="range" id="sl-${key}" data-k="${key}" min="${mn}" max="${mx}" value="${val}"></label>`).join('')}
+        ${c ? `<div class="ctrl">${c.sliders.map(([key, lab, mn, mx, val, , step]) => `<label for="sl-${key}"><span>${lab}<em id="lv-${key}"></em></span><input type="range" id="sl-${key}" data-k="${key}" min="${mn}" max="${mx}"${step ? ` step="${step}"` : ''} value="${val}"></label>`).join('')}
           <div id="ro"></div><div><button type="button" class="btn" id="rst">Volver al inicio</button></div></div>` : ''}
       </div></aside>
     </div></div>`;
   if (!c) return;
   const st = Object.assign({}, c.st), map = Object.fromEntries(c.sliders.map(s => [s[0], s[5] || (v => v)]));
-  const desc = (key, v) => { if (key === 'sD' || key === 'sO') return v === 0 ? 'sin mover' : v > 0 ? 'a la derecha' : 'a la izquierda'; if (key === 'g') return v + ' %'; return ''; };
+  const desc = (key, v) => { if (key === 'sD' || key === 'sO') return v === 0 ? 'sin mover' : v > 0 ? 'a la derecha' : 'a la izquierda'; if (key === 'g') return v + ' %'; if (key === 'r') return num(v, 1) + ' %'; return ''; };
   const draw = () => {
     $('#figbox').innerHTML = fig(st.k === 'mercado' || st.k === 'macro' || st.k === 'divisas' ? { k: st.k, sD: st.sD, sO: st.sO } : st);
     $('#ro').innerHTML = readout(st);
@@ -1201,6 +1259,10 @@ const CALCS = [
   { id:'tc', t:'Tipo de cambio y deudas en dólares', d:'Cuánto cuesta en guaraníes un monto en dólares con dos cotizaciones.', ex:['dolar-6600', 'Ejemplo: cuota de US$ 1.000'],
     f:[['us', 'Monto en US$', '1.000'], ['t1', 'Dólar antes (G.)', '6.000'], ['t2', 'Dólar después (G.)', '6.600']],
     run: v => { const g1 = v.us * v.t1, g2 = v.us * v.t2, dep = (v.t1 / v.t2 - 1) * 100; return [['G. ' + num(g2 - g1, 0), g2 >= g1 ? 'más en guaraníes' : 'menos en guaraníes'], ['Antes / después', 'G. ' + num(g1, 0) + ' → G. ' + num(g2, 0)], ['Valor del guaraní', num(dep, 1) + ' % ' + (dep < 0 ? '(se depreció)' : '(se apreció)')]]; } },
+  { id:'bono', t:'Precio de un bono', d:'Cuánto vale hoy un bono según la tasa de interés del mercado. Muestra por qué el precio baja cuando la tasa sube.', ex:['bolsa-ueno-bonos', 'Ejemplo: bono a 10 años con cupón de 8 %'],
+    f:[['vn', 'Valor nominal (G.)', '1.000.000'], ['c', 'Cupón anual (%)', '8'], ['r', 'Tasa del mercado (%)', '9'], ['n', 'Años al vencimiento', '10']],
+    run: v => { const p = bondPrice(v.r, v.c, Math.round(v.n), v.vn), p2 = bondPrice(v.r + 1, v.c, Math.round(v.n), v.vn), d = (p / v.vn - 1) * 100;
+      return [['G. ' + num(p, 0), Math.abs(d) < 0.05 ? 'A la par: la tasa del mercado es igual al cupón' : d < 0 ? 'Bajo la par: vale ' + num(Math.abs(d), 1) + ' % menos que su valor nominal' : 'Sobre la par: vale ' + num(d, 1) + ' % más que su valor nominal'], ['Si la tasa sube 1 punto', 'el precio baja a G. ' + num(p2, 0) + ' (' + num((p2 / p - 1) * 100, 1) + ' %)']]; } },
   { id:'des', t:'Tasa de desempleo', d:'Desocupados ÷ fuerza de trabajo × 100.', ex:['desempleo-41', 'Ejemplo: INE, 3.er trimestre de 2026'],
     f:[['d', 'Desocupados', '141.250'], ['o', 'Ocupados', '3.290.206']],
     run: v => { const ft = v.d + v.o, r = v.d / ft * 100; return [[num(r, 2) + ' %', 'Tasa de desempleo'], ['Fuerza de trabajo', num(ft, 0) + ' personas']]; } },
@@ -1246,6 +1308,7 @@ function render() {
   else if (r === 'calculadoras') { nav = 'calculadoras'; renderCalcs(); }
   else if (r === 'programa') { nav = 'programa'; renderProgram(); }
   else if (r === 'instituciones') { nav = 'instituciones'; renderInstituciones(); }
+  else if (r === 'bolsa') { nav = 'bolsa'; renderBolsa(); }
   else if (r.startsWith('inst-') && INST[r.slice(5)]) { nav = 'instituciones'; renderInst(r.slice(5)); }
   else if (r.startsWith('tema-') && ALLTEMAS.includes(r.slice(5).replace('-', '.'))) { nav = 'programa'; renderTema(r.slice(5).replace('-', '.')); }
   else renderHome();
@@ -1256,7 +1319,7 @@ function render() {
 fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   ACTUALIZADO = d.actualizado; DIARIOS = d.diarios || []; OFICIALES = d.oficiales || []; DESTACADO = d.destacado || null;
   INDICADORES = (d.indicadores || []).map(i => Array.isArray(i) ? { n: i[0], v: i[1], s: i[2], alert: i[3] } : i);
-  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {};
+  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null;
   NOTICIAS = (d.noticias || []).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad]).map(n => Object.assign({ datos: [], pasos: [], conceptos: [], diagramas: [], rel: [], resumen: '', contexto: '' }, n));
   NOTICIAS.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); });
   BYID = Object.fromEntries(NOTICIAS.map(n => [n.id, n]));

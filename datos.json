@@ -166,6 +166,346 @@
  },
  "noticias": [
   {
+   "id": "bolsa-ueno-bonos",
+   "fecha": "2026-11-03",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/03/suspenden-la-negociacion-de-todos-los-bonos-emitidos-por-ueno-bank/",
+   "titulo": "Suspenden la negociación de todos los bonos de Ueno Bank en la bolsa",
+   "unidad": "micro",
+   "tema": "2.10",
+   "kc": "intervencion",
+   "inst": [
+    "bcp",
+    "bolsa"
+   ],
+   "resumen": "La Superintendencia de Valores del BCP suspendió la oferta y la negociación de todos los bonos financieros y subordinados de Ueno Bank, incluidos los que había emitido Visión Banco. La Bolsa de Valores de Asunción aplicó la medida desde la rueda siguiente.",
+   "contexto": "Con el banco en resolución se suspende el pago de intereses y de capital de sus bonos: los inversores cobrarán según el resultado del proceso y el orden legal de prioridades. El regulador frenó la negociación para evitar que se compren y vendan a precios que no reflejan su valor real, lo que perjudicaría sobre todo a los pequeños inversores, que tienen menos información. Las operaciones cerradas antes de la medida pueden terminar de liquidarse.",
+   "datos": [
+    [
+     "Todas",
+     "Las series de bonos financieros y subordinados de Ueno"
+    ],
+    [
+     "Circular 13/2026",
+     "Comunicación de la BVA a las casas de bolsa"
+    ],
+    [
+     "Desde el 3 nov",
+     "Suspensión de la negociación"
+    ]
+   ],
+   "clave": [
+    "Suspendidos",
+    "todos los bonos de Ueno"
+   ],
+   "fig": {
+    "k": "bono",
+    "r": 14
+   },
+   "cap": "Cuando aumenta el riesgo de no cobrar, los inversores exigen una tasa mucho más alta y el precio del bono se desploma: aquí la tasa exigida pasa de 8 % a 14 %.",
+   "pasos": [
+    "El banco entra en resolución",
+    "Se suspende el pago de intereses y capital de sus bonos",
+    "Nadie sabe cuánto se podrá recuperar",
+    "Los precios podrían no reflejar el valor real",
+    "El regulador suspende la negociación para proteger a los inversores"
+   ],
+   "conceptos": [
+    [
+     "Bono subordinado",
+     "Bono que se cobra después de los depósitos si el banco quiebra."
+    ],
+    [
+     "Información asimétrica",
+     "Unos inversores saben más que otros sobre el valor real del título."
+    ],
+    [
+     "Regulador",
+     "La Superintendencia de Valores, que supervisa el mercado."
+    ],
+    [
+     "Orden de prelación",
+     "Orden legal en que se pagan las deudas de una empresa en quiebra."
+    ]
+   ],
+   "diagramas": [
+    "bonos"
+   ],
+   "rel": [
+    "ueno-intervencion",
+    "ueno-devolucion",
+    "bolsa-octubre"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el regulador suspendió la negociación de los bonos de Ueno?",
+    "opts": [
+     "Para evitar operaciones a precios que no reflejen su valor real, que perjudicarían a los inversores menos informados",
+     "Para que suban de precio",
+     "Para que el banco pueda emitir más bonos",
+     "Porque los bonos vencieron"
+    ],
+    "ok": 0,
+    "fb": "Con tanta incertidumbre, quienes tienen más información podrían aprovecharse de quienes tienen menos: es un problema de información asimétrica."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Inversores minoristas",
+      "Quedan protegidos de vender o comprar a precios distorsionados."
+     ]
+    ],
+    "pierden": [
+     [
+      "Tenedores de bonos de Ueno",
+      "No pueden vender y dependen del proceso de resolución para cobrar."
+     ],
+     [
+      "Casas de bolsa",
+      "Pierden operaciones y algunas tienen clientes afectados."
+     ]
+    ],
+    "corto": "Los bonos quedan congelados y sus tenedores no saben cuánto recuperarán.",
+    "largo": "Los inversores pueden exigir tasas más altas a otros bancos o preferir emisores con mejor calificación.",
+    "supuestos": [
+     "Que la suspensión dure hasta que se conozca el valor de recupero."
+    ],
+    "conclusion": "La suspensión protege a los menos informados, pero muestra que los bonos subordinados de un banco tienen un riesgo real que el mercado no siempre percibe."
+   }
+  },
+  {
+   "id": "bolsa-octubre",
+   "fecha": "2026-11-02",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/02/bolsa-de-valores-supero-monto-negociado-en-2025-por-efecto-del-tipo-de-cambio/",
+   "titulo": "La bolsa supera en dólares lo negociado en 2025, pero cae 4 % en guaraníes",
+   "unidad": "global",
+   "tema": "4.5",
+   "kc": "cambio",
+   "inst": [
+    "bolsa"
+   ],
+   "resumen": "De enero a octubre se negociaron G. 47,9 billones en la Bolsa de Valores de Asunción: unos US$ 8.113 millones al cambio actual, más que todo 2025 (US$ 8.063 millones). En guaraníes, sin embargo, el volumen es 4 % menor que en el mismo periodo de 2025.",
+   "contexto": "La diferencia se explica por el tipo de cambio: durante 2026 el guaraní se apreció, así que la misma cantidad de guaraníes equivale a más dólares. Es un buen ejemplo de por qué hay que mirar en qué moneda se mide una cifra antes de compararla. Solo en octubre se negociaron G. 4,76 billones, 24,1 % menos que en octubre de 2025. Los bonos son el 93,7 % del volumen, las acciones el 5,5 % y los fondos el 0,8 %.",
+   "datos": [
+    [
+     "G. 47,9 bill.",
+     "Negociado de enero a octubre de 2026"
+    ],
+    [
+     "−4 %",
+     "Frente a enero-octubre de 2025, en guaraníes"
+    ],
+    [
+     "US$ 8.113 M",
+     "El mismo volumen en dólares, al cambio actual"
+    ],
+    [
+     "−24,1 %",
+     "Octubre frente a octubre de 2025"
+    ],
+    [
+     "93,7 %",
+     "Parte de los bonos en el volumen"
+    ]
+   ],
+   "clave": [
+    "−4 %",
+    "en guaraníes"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "billones de G.",
+    "rows": [
+     [
+      "Ene-oct 2025",
+      49.8
+     ],
+     [
+      "Ene-oct 2026",
+      47.9,
+      1
+     ]
+    ]
+   },
+   "cap": "Volumen negociado en la bolsa de enero a octubre, en billones de guaraníes.",
+   "pasos": [
+    "El guaraní se aprecia frente al dólar",
+    "Cada guaraní equivale a más dólares",
+    "El mismo volumen en guaraníes se ve más grande en dólares",
+    "En guaraníes el mercado cayó 4 %",
+    "Conclusión: hay que comparar en la misma moneda"
+   ],
+   "conceptos": [
+    [
+     "Apreciación",
+     "Suba del valor del guaraní frente al dólar."
+    ],
+    [
+     "Volumen negociado",
+     "Valor total de los títulos comprados y vendidos en un periodo."
+    ],
+    [
+     "Mercado secundario",
+     "Reventa de títulos entre inversores (91,2 % del volumen)."
+    ],
+    [
+     "Bono",
+     "Préstamo que el inversor da a una empresa o al Estado a cambio de intereses."
+    ]
+   ],
+   "diagramas": [
+    "tipo-cambio",
+    "bonos"
+   ],
+   "rel": [
+    "bolsa-ueno-bonos",
+    "bolsa-acciones"
+   ],
+   "pregunta": {
+    "q": "El volumen bajó 4 % en guaraníes pero subió en dólares. ¿Por qué?",
+    "opts": [
+     "Porque el guaraní se apreció: cada guaraní vale más dólares",
+     "Porque se negociaron más títulos",
+     "Porque subió la inflación",
+     "Porque bajó la tasa del BCP"
+    ],
+    "ok": 0,
+    "fb": "Con un guaraní más fuerte, la misma cantidad de guaraníes se convierte en más dólares. El crecimiento en dólares es un efecto del tipo de cambio."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Quienes miden en dólares",
+      "Ven un mercado más grande que en 2025."
+     ]
+    ],
+    "pierden": [
+     [
+      "Casas de bolsa",
+      "El volumen real en guaraníes bajó, y en octubre cayó fuerte."
+     ]
+    ],
+    "corto": "Octubre fue débil y noviembre arranca con la crisis de Ueno y la depreciación del guaraní.",
+    "largo": "Con la depreciación de noviembre, el efecto se invierte: el mismo volumen en guaraníes valdrá menos dólares.",
+    "supuestos": [
+     "Que se compare usando el mismo tipo de cambio."
+    ],
+    "conclusion": "El récord en dólares es en parte un efecto del tipo de cambio: en guaraníes el mercado se achicó un poco."
+   }
+  },
+  {
+   "id": "bolsa-acciones",
+   "fecha": "2026-10-16",
+   "medio": "5Días",
+   "url": "https://5dias.com.py/article/acciones-duplican-su-participacin-en-la-bolsa-de-asuncin",
+   "titulo": "Las acciones duplican su peso en la Bolsa de Asunción",
+   "unidad": "macro",
+   "tema": "3.2",
+   "kc": "eleccion",
+   "inst": [
+    "bolsa"
+   ],
+   "resumen": "Las operaciones con acciones pasaron de 2,4 % a 5,1 % del volumen mensual negociado en la Bolsa de Valores de Asunción en septiembre de 2026 frente al año anterior, en un mercado todavía dominado por los bonos.",
+   "contexto": "Una empresa puede financiarse de dos formas en la bolsa: con deuda (bonos), que obliga a pagar intereses, o vendiendo acciones, que suma nuevos dueños sin deuda. En Paraguay casi todo es deuda. Que crezcan las acciones indica un mercado que madura y más opciones para que las empresas inviertan, lo que puede aumentar la inversión (I) de la economía.",
+   "datos": [
+    [
+     "2,4 % → 5,1 %",
+     "Peso de las acciones en el volumen mensual"
+    ],
+    [
+     "93,7 %",
+     "Peso de los bonos (dato de octubre)"
+    ]
+   ],
+   "clave": [
+    "5,1 %",
+    "del volumen en acciones"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% del volumen mensual",
+    "rows": [
+     [
+      "Un año antes",
+      2.4
+     ],
+     [
+      "Septiembre 2026",
+      5.1,
+      1
+     ]
+    ]
+   },
+   "cap": "Participación de las acciones en el volumen mensual negociado en la bolsa.",
+   "pasos": [
+    "Más empresas venden acciones en la bolsa",
+    "Consiguen capital sin endeudarse",
+    "Pueden invertir en máquinas, plantas o expansión",
+    "Aumenta la inversión (I)",
+    "La demanda agregada y la capacidad productiva pueden crecer"
+   ],
+   "conceptos": [
+    [
+     "Acción",
+     "Parte de la propiedad de una empresa."
+    ],
+    [
+     "Bono",
+     "Deuda que paga intereses y se devuelve al vencimiento."
+    ],
+    [
+     "Inversión (I)",
+     "Gasto de las empresas en bienes de capital."
+    ],
+    [
+     "Mercado de capitales",
+     "Donde se consigue financiamiento a largo plazo."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da"
+   ],
+   "rel": [
+    "bolsa-octubre",
+    "maquila"
+   ],
+   "pregunta": {
+    "q": "¿Qué diferencia hay entre financiarse con acciones y con bonos?",
+    "opts": [
+     "Con acciones se suman dueños y no hay que devolver el dinero; con bonos se toma deuda que paga intereses",
+     "No hay diferencia",
+     "Los bonos dan propiedad de la empresa",
+     "Las acciones siempre pagan un interés fijo"
+    ],
+    "ok": 0,
+    "fb": "El bono es deuda: hay que pagar intereses y devolverlo. La acción es propiedad: el inversor comparte ganancias y riesgos."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Empresas",
+      "Tienen otra forma de financiarse sin endeudarse."
+     ],
+     [
+      "Inversores",
+      "Pueden diversificar y participar de las ganancias."
+     ]
+    ],
+    "pierden": [
+     [
+      "Accionistas actuales",
+      "Su participación en la empresa se reparte entre más dueños."
+     ]
+    ],
+    "corto": "Más opciones de inversión en la bolsa.",
+    "largo": "Un mercado de acciones más grande puede impulsar la inversión y el crecimiento.",
+    "supuestos": [
+     "Que el crecimiento se sostenga y no sea un mes aislado."
+    ],
+    "conclusion": "Es una señal de un mercado de capitales que madura, aunque las acciones siguen siendo una parte pequeña frente a los bonos."
+   }
+  },
+  {
    "id": "ueno-devolucion",
    "fecha": "2026-11-04",
    "medio": "ABC Color",
@@ -253,7 +593,8 @@
    "diagramas": [],
    "rel": [
     "ueno-intervencion",
-    "alliana-gobierno"
+    "alliana-gobierno",
+    "bolsa-ueno-bonos"
    ],
    "pregunta": {
     "q": "Si el Estado garantizara el 100 % de todos los depósitos sin límite, ¿qué riesgo aparece?",
@@ -1104,7 +1445,8 @@
    "rel": [
     "ueno-devolucion",
     "guarani-cae",
-    "bonos-embi"
+    "bonos-embi",
+    "bolsa-ueno-bonos"
    ],
    "pregunta": {
     "q": "Si la crisis de confianza se extiende y la gente gasta menos, ¿qué pasa en el diagrama DA/OA?",
@@ -3252,7 +3594,7 @@
  "semanas": {
   "2026-11-02": {
    "titulo": "La semana que sacudió la economía paraguaya",
-   "texto": "La intervención de Ueno Bank el martes 3 desató una cadena de efectos: compra de dólares, depreciación del guaraní, caída de los bonos y un cambio de gobierno el viernes 6. Al mismo tiempo, los datos de fondo siguen sólidos: inflación de 1,7 %, desempleo de 4,1 % y exportaciones récord. La pregunta para la clase es cuánto durará el golpe a la confianza y si llegará a mover la demanda agregada.",
+   "texto": "La intervención de Ueno Bank el martes 3 desató una cadena de efectos: compra de dólares, depreciación del guaraní, caída de los bonos y un cambio de gobierno el viernes 6. Al mismo tiempo, los datos de fondo siguen sólidos: inflación de 1,7 %, desempleo de 4,1 % y exportaciones récord. La pregunta para la clase es cuánto durará el golpe a la confianza y si llegará a mover la demanda agregada. En la bolsa, se suspendió la negociación de todos los bonos de Ueno Bank.",
    "claves": [
     "ueno-intervencion",
     "guarani-cae",
@@ -3275,6 +3617,7 @@
     "Emitir los billetes y monedas del guaraní.",
     "Administrar las reservas internacionales del país.",
     "Supervisar a bancos y financieras a través de la Superintendencia de Bancos.",
+    "Regular el mercado de valores a través de la Superintendencia de Valores (desde 2023).",
     "Administrar el Fondo de Garantía de Depósitos.",
     "Publicar estadísticas clave: inflación, actividad económica (IMAEP), comercio exterior y cotizaciones."
    ],
@@ -3530,5 +3873,238 @@
     ]
    ]
   }
+ },
+ "bolsa": {
+  "nombre": "Bolsa de Valores de Asunción",
+  "sigla": "BVA",
+  "web": "https://www.bolsadevalores.com.py/",
+  "actualizado": "2026-11-02",
+  "que": "Es el mercado organizado donde empresas, bancos, cooperativas y el Estado consiguen financiamiento vendiendo bonos o acciones, y donde los inversores compran y venden esos títulos. Fue fundada en 1977 por la Cámara Nacional de Comercio y Servicios del Paraguay con el nombre de Bolsa de Valores y Productos de Asunción (BVPASA).",
+  "por_que": "La bolsa conecta el ahorro con la inversión: el dinero de los ahorristas llega a empresas que construyen, producen o se expanden. En el flujo circular del ingreso, el ahorro es una fuga y la inversión una inyección; un mercado de valores que funciona bien ayuda a que ese ahorro vuelva a la economía como inversión.",
+  "cifras": [
+   [
+    "G. 47,9 bill.",
+    "Negociado de enero a octubre de 2026 (≈ US$ 8.113 M al cambio actual)"
+   ],
+   [
+    "−4 %",
+    "Variación en guaraníes frente a enero-octubre de 2025"
+   ],
+   [
+    "G. 4,76 bill.",
+    "Negociado en octubre de 2026 (−24,1 % frente a octubre de 2025)"
+   ],
+   [
+    "G. 60,4 bill.",
+    "Total de 2025, récord (US$ 8.063 M, +17 %)"
+   ],
+   [
+    "155",
+    "Empresas y entidades emisoras activas al cierre de 2025"
+   ],
+   [
+    "23",
+    "Fondos de inversión activos al cierre de 2025"
+   ]
+  ],
+  "graficos": [
+   {
+    "t": "Volumen negociado",
+    "u": "billones de G.",
+    "rows": [
+     [
+      "2024",
+      51.6
+     ],
+     [
+      "2025",
+      60.4
+     ],
+     [
+      "Ene-oct 2025",
+      49.8
+     ],
+     [
+      "Ene-oct 2026",
+      47.9,
+      1
+     ]
+    ],
+    "cap": "En guaraníes, 2026 va 4 % por debajo de 2025. En dólares lo supera porque el guaraní se apreció durante el año: cada guaraní vale más dólares."
+   },
+   {
+    "t": "Qué se negocia",
+    "u": "% del volumen",
+    "rows": [
+     [
+      "Bonos",
+      93.7,
+      1
+     ],
+     [
+      "Acciones",
+      5.5
+     ],
+     [
+      "Fondos de inversión",
+      0.8
+     ]
+    ],
+    "cap": "Los bonos dominan el mercado. Las acciones pasaron de 2,4 % a 5,1 % del volumen mensual en septiembre."
+   },
+   {
+    "t": "En qué moneda",
+    "u": "% del volumen",
+    "rows": [
+     [
+      "Guaraníes",
+      61.3,
+      1
+     ],
+     [
+      "Moneda extranjera",
+      38.7
+     ]
+    ],
+    "cap": "La mayor parte de las operaciones se hace en guaraníes."
+   },
+   {
+    "t": "Mercado primario y secundario",
+    "u": "% del volumen",
+    "rows": [
+     [
+      "Secundario (reventa)",
+      91.2,
+      1
+     ],
+     [
+      "Primario (emisiones nuevas)",
+      8.8
+     ]
+    ],
+    "cap": "La mayoría de las operaciones son reventas entre inversores. El mercado primario es donde las empresas consiguen dinero nuevo."
+   }
+  ],
+  "graficos_fuente": "La Nación, 2 nov 2026 (datos de la BVA); 5Días, 16 oct 2026; Economía Virtual, 2 ene 2026.",
+  "instrumentos": [
+   [
+    "Bonos",
+    "Préstamos que una empresa, un banco o el Estado pide a los inversores: paga un interés (cupón) y devuelve el capital al vencimiento. Pueden ser corporativos, financieros, subordinados o públicos."
+   ],
+   [
+    "Bonos subordinados",
+    "Bonos de bancos que, si el banco quiebra, se cobran después que los depósitos: más riesgo y más interés."
+   ],
+   [
+    "Acciones",
+    "Partes de la propiedad de una empresa. Dan derecho a una porción de las ganancias (dividendos) y su precio puede subir o bajar."
+   ],
+   [
+    "Fondos de inversión",
+    "Juntan el dinero de muchos inversores y lo invierten en varios títulos, lo que reduce el riesgo."
+   ],
+   [
+    "Bonos bursátiles de corto plazo",
+    "Bonos a menos de un año para financiar necesidades de caja."
+   ],
+   [
+    "Reportos",
+    "Préstamos de corto plazo con un título como garantía: se vende hoy y se recompra después a un precio mayor."
+   ],
+   [
+    "Fideicomisos",
+    "Patrimonios separados para un fin específico, como financiar un proyecto inmobiliario."
+   ]
+  ],
+  "actores": [
+   [
+    "Emisores",
+    "Empresas, bancos, cooperativas y el Estado que venden títulos para financiarse."
+   ],
+   [
+    "Inversores",
+    "Personas, empresas y fondos que compran títulos buscando rentabilidad."
+   ],
+   [
+    "Casas de bolsa",
+    "Intermediarios autorizados que compran y venden por cuenta de los inversores."
+   ],
+   [
+    "Calificadoras de riesgo",
+    "Evalúan la probabilidad de que un emisor pague; su nota influye en el interés que debe ofrecer."
+   ],
+   [
+    "Superintendencia de Valores",
+    "El regulador: autoriza, supervisa y sanciona. Forma parte del BCP."
+   ]
+  ],
+  "regulacion": [
+   [
+    "Superintendencia de Valores",
+    "Creada por la Ley 7162 de 2023 en reemplazo de la Comisión Nacional de Valores. Forma parte del BCP con autonomía funcional. El superintendente lo designa el Poder Ejecutivo de una terna del directorio del BCP, por cinco años."
+   ],
+   [
+    "Ley 7572 de 2025",
+    "Unifica en una sola ley las normas del mercado de valores y de productos. Tipifica como delitos la manipulación de mercado y el uso de información privilegiada, incluye títulos registrados con tecnología de registro distribuido (blockchain) y permite emitir a empresas del exterior. Su reglamentación por el BCP está pendiente."
+   ]
+  ],
+  "eventos": [
+   [
+    "1977-09-28",
+    "Se funda la Bolsa de Valores y Productos de Asunción."
+   ],
+   [
+    "2023-09",
+    "Se crea la Superintendencia de Valores dentro del BCP (Ley 7162)."
+   ],
+   [
+    "2025",
+    "Se sanciona la Ley 7572 del mercado de valores."
+   ],
+   [
+    "2026-01-02",
+    "La bolsa cierra 2025 con un récord de G. 60,4 billones negociados."
+   ],
+   [
+    "2026-10-16",
+    "Las acciones duplican su participación: 5,1 % del volumen de septiembre."
+   ],
+   [
+    "2026-11-02",
+    "En octubre se negociaron G. 4,76 billones, 24,1 % menos que un año antes."
+   ],
+   [
+    "2026-11-03",
+    "Se suspende la negociación de todos los bonos de Ueno Bank."
+   ]
+  ],
+  "ib": [
+   [
+    "3.1",
+    "Flujo circular: la bolsa canaliza el ahorro (fuga) hacia la inversión (inyección)."
+   ],
+   [
+    "3.5",
+    "Precio de los bonos y tasa de interés: se mueven en sentido contrario."
+   ],
+   [
+    "2.10",
+    "Información asimétrica: por eso existen las calificadoras y el regulador."
+   ],
+   [
+    "4.5",
+    "Tipo de cambio: el mismo volumen vale distinto en dólares si cambia el guaraní."
+   ]
+  ],
+  "enlaces": [
+   [
+    "Bolsa de Valores de Asunción",
+    "https://www.bolsadevalores.com.py/"
+   ],
+   [
+    "Superintendencia de Valores",
+    "https://www.siv.bcp.gov.py/"
+   ]
+  ]
  }
 }
