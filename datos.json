@@ -2994,7 +2994,8 @@
     ]
    ],
    "lee": "El BCP bajó la tasa dos veces a comienzos de 2026 y desde febrero la mantiene en 5,50 %.",
-   "grupo": "Precios y dinero"
+   "grupo": "Precios y dinero",
+   "dec": 2
   },
   "credito": {
    "t": "Crédito al sector privado",

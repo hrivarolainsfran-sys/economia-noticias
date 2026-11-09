@@ -673,7 +673,7 @@ function gini(a, b) { let area = 0, N = 400; for (let i = 0; i < N; i++) { const
 
 /* Gráficos de series */
 const fmtSerie = (h, v) => h.u === 'G.' || h.u === 'US$ M' ? num(v, 0) : num(v, 1);
-const fmtUnit = (h, v) => h.u === 'G.' ? 'G. ' + num(v, 0) : h.u === 'US$ M' ? 'US$ ' + num(v, 0) + ' M' : h.u === 'pb' ? num(v, 0) + ' pb' : num(v, Math.min(2, Math.max(1, (String(v).split('.')[1] || '').length))) + ' ' + h.u;
+const fmtUnit = (h, v) => h.u === 'G.' ? 'G. ' + num(v, 0) : h.u === 'US$ M' ? 'US$ ' + num(v, 0) + ' M' : h.u === 'pb' ? num(v, 0) + ' pb' : num(v, h.dec != null ? h.dec : Math.min(2, Math.max(1, (String(v).split('.')[1] || '').length))) + ' ' + h.u;
 function colChart(h, o) {
   const W = o.W || 560, H = o.H || 230, L0 = 46, R0 = 14, T0 = 22, B0 = 30;
   const P = h.puntos, vals = P.map(p => p[1]);
