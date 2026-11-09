@@ -1,0 +1,1532 @@
+{
+ "actualizado": "2026-11-09",
+ "indicadores": [
+  [
+   "Tasa del BCP",
+   "5,50 %",
+   "TPM · 23 oct"
+  ],
+  [
+   "Inflación anual",
+   "1,7 %",
+   "IPC · octubre"
+  ],
+  [
+   "Dólar",
+   "G. 6.480",
+   "BCP · 6 nov",
+   "alert"
+  ],
+  [
+   "Desempleo",
+   "4,1 %",
+   "INE · 3.er trimestre"
+  ],
+  [
+   "PIB 2026",
+   "5,0 %",
+   "Proyección del BCP"
+  ],
+  [
+   "Riesgo país",
+   "143 pb",
+   "EMBI · 5 nov",
+   "alert"
+  ],
+  [
+   "Pobreza",
+   "16,0 %",
+   "INE · 2025"
+  ]
+ ],
+ "diarios": [
+  [
+   "ABC Color",
+   "https://www.abc.com.py/economia/",
+   "Economía y suplemento Económico"
+  ],
+  [
+   "Última Hora",
+   "https://www.ultimahora.com/economia",
+   "Sección Economía"
+  ],
+  [
+   "La Nación",
+   "https://www.lanacion.com.py/negocios/",
+   "Sección Negocios"
+  ],
+  [
+   "5Días",
+   "https://5dias.com.py/",
+   "Diario de economía y negocios"
+  ],
+  [
+   "InfoNegocios",
+   "https://infonegocios.com.py/",
+   "Finanzas, empresas y macro"
+  ],
+  [
+   "Diario Hoy",
+   "https://www.hoy.com.py/",
+   "Actualidad nacional"
+  ],
+  [
+   "La Tribuna",
+   "https://www.latribuna.com.py/negocios",
+   "Sección Negocios"
+  ],
+  [
+   "La Prensa",
+   "https://www.laprensaparaguay.com/",
+   "Actualidad y economía"
+  ],
+  [
+   "MarketData",
+   "https://marketdata.com.py/",
+   "Mercados, agro y finanzas"
+  ]
+ ],
+ "oficiales": [
+  [
+   "Banco Central del Paraguay",
+   "https://www.bcp.gov.py/",
+   "Tasa de interés, inflación, cotizaciones"
+  ],
+  [
+   "Instituto Nacional de Estadística",
+   "https://www.ine.gov.py/",
+   "Empleo, pobreza, población"
+  ],
+  [
+   "Ministerio de Economía y Finanzas",
+   "https://www.mef.gov.py/",
+   "Presupuesto, deuda, recaudación"
+  ]
+ ],
+ "destacado": {
+  "eyebrow": "Tema de la semana",
+  "titulo": "Crisis de Ueno Bank: del banco al dólar",
+  "dek": "En cuatro días, la caída de un banco con 2,9 millones de clientes movió el tipo de cambio, el riesgo país y la discusión política. Es un caso completo para ver cómo se conectan micro, macro y economía global.",
+  "tl": [
+   [
+    "2 nov",
+    "El riesgo país está en 125 puntos básicos.",
+    "bonos-embi"
+   ],
+   [
+    "3 nov",
+    "El BCP interviene Ueno Bank por insolvencia.",
+    "ueno-intervencion"
+   ],
+   [
+    "5 nov",
+    "El guaraní cae 4,68 % en un día y el dólar llega a G. 6.487. El presidente Peña anuncia su renuncia.",
+    "guarani-cae"
+   ],
+   [
+    "5 nov",
+    "Por la noche empiezan las devoluciones de hasta G. 10 millones.",
+    "ueno-intervencion"
+   ],
+   [
+    "6 nov",
+    "Caen los bonos soberanos; el EMBI cerró el día 5 en 143 pb.",
+    "bonos-embi"
+   ]
+  ],
+  "lentes": [
+   [
+    "tipo-cambio",
+    "Más oferta de guaraníes: depreciación"
+   ],
+   [
+    "da-oa-da",
+    "Menos confianza, menos gasto: la DA se mueve a la izquierda"
+   ],
+   [
+    "politica-fiscal",
+    "Deuda más cara para el Estado"
+   ]
+  ]
+ },
+ "noticias": [
+  {
+   "id": "ueno-intervencion",
+   "fecha": "2026-11-05",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/america/america-latina/2026/11/06/crisis-en-paraguay-el-banco-central-comenzo-a-devolver-los-depositos-de-los-clientes-de-ueno-bank-tras-su-intervencion-por-insolvencia/",
+   "titulo": "El BCP interviene Ueno Bank por insolvencia y empieza a devolver depósitos",
+   "unidad": "macro",
+   "tema": "3.5",
+   "kc": "intervencion",
+   "resumen": "El Banco Central del Paraguay intervino Ueno Bank el martes 3 de noviembre, después de que su índice de solvencia cayera por debajo del 50 % del mínimo exigido. El banco tenía más de 2,9 millones de clientes. Desde el jueves 5 el BCP paga la garantía de depósitos, en una primera etapa de hasta G. 10 millones por persona.",
+   "contexto": "Un banco es solvente cuando lo que tiene alcanza para cubrir lo que debe a sus ahorristas. Cuando eso falla, el miedo se puede contagiar: la gente retira dinero, compra dólares y posterga gastos. Por eso el Banco Central actúa rápido y garantiza los depósitos, para que el problema de un banco no se convierta en una crisis de confianza en toda la economía. Según La Nación, Ueno concentraba unos US$ 2.800 millones en depósitos, algo más del 9 % del sistema.",
+   "datos": [
+    [
+     "2,9 M",
+     "Clientes de Ueno Bank"
+    ],
+    [
+     "< 50 %",
+     "Solvencia frente al mínimo exigido"
+    ],
+    [
+     "G. 10 M",
+     "Tope de devolución en la primera etapa"
+    ],
+    [
+     "≈ 9 %",
+     "Parte de los depósitos del sistema (La Nación)"
+    ]
+   ],
+   "clave": [
+    "2,9 M",
+    "clientes afectados"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Si la desconfianza se extiende, hogares y empresas gastan e invierten menos: la DA pasa de DA₁ a DA₂ y cae el PIB real. La garantía de depósitos busca evitarlo.",
+   "pasos": [
+    "Ueno Bank queda sin solvencia y el BCP lo interviene",
+    "Los clientes no pueden usar todo su dinero y crece la desconfianza",
+    "Hogares y empresas postergan consumo e inversión",
+    "La demanda agregada podría desplazarse a la izquierda",
+    "El BCP devuelve depósitos para frenar el contagio"
+   ],
+   "conceptos": [
+    [
+     "Solvencia",
+     "Capacidad de un banco de cubrir sus deudas con lo que tiene."
+    ],
+    [
+     "Garantía de depósitos",
+     "Fondo que devuelve a los ahorristas hasta un monto fijo si su banco cae."
+    ],
+    [
+     "Riesgo sistémico",
+     "Peligro de que la caída de una entidad arrastre a todo el sistema financiero."
+    ],
+    [
+     "Demanda agregada",
+     "Gasto total planeado en la economía: C + I + G + (X − M)."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da",
+    "politica-monetaria"
+   ],
+   "rel": [
+    "guarani-cae",
+    "bonos-embi"
+   ],
+   "pregunta": {
+    "q": "Si la crisis de confianza se extiende y la gente gasta menos, ¿qué pasa en el diagrama DA/OA?",
+    "opts": [
+     "La DA se desplaza a la izquierda y cae el PIB real",
+     "La OALP se desplaza a la derecha",
+     "La DA se desplaza a la derecha",
+     "La OACP se desplaza a la izquierda"
+    ],
+    "ok": 0,
+    "fb": "Menos consumo (C) e inversión (I) reducen el gasto total: la DA se desplaza a la izquierda y cae el PIB real."
+   }
+  },
+  {
+   "id": "guarani-cae",
+   "fecha": "2026-11-05",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/05/el-guarani-registra-la-mayor-caida-mundial-frente-al-dolar-en-medio-de-la-incertidumbre/",
+   "titulo": "El guaraní tiene la mayor caída mundial frente al dólar",
+   "unidad": "global",
+   "tema": "4.5",
+   "kc": "cambio",
+   "resumen": "En cinco días el guaraní perdió 8,17 % frente al dólar, y solo el 5 de noviembre cayó 4,68 %. El dólar llegó a G. 6.487. La Nación lo atribuye a la crisis de Ueno Bank y a la incertidumbre política tras el anuncio de renuncia del presidente Santiago Peña.",
+   "contexto": "El mercado cambiario paraguayo es pequeño: según analistas citados en la nota, operaciones de US$ 1 a 3 millones alcanzan para mover la cotización. Cuando crece el miedo, más personas venden guaraníes para comprar dólares. A eso se suma la demanda habitual de dólares de los importadores para fin de año. Pocas semanas antes pasaba lo contrario: el dólar estaba por debajo de G. 6.000 y los analistas esperaban cerrar el año en G. 6.100.",
+   "datos": [
+    [
+     "G. 6.487",
+     "Cotización del dólar (5 nov)"
+    ],
+    [
+     "−4,68 %",
+     "Caída del guaraní en un día"
+    ],
+    [
+     "−8,17 %",
+     "Caída en cinco días"
+    ],
+    [
+     "G. 6.100",
+     "Dólar esperado para fin de 2026 en la encuesta del BCP de septiembre"
+    ]
+   ],
+   "clave": [
+    "−8,17 %",
+    "en cinco días"
+   ],
+   "fig": {
+    "k": "divisas",
+    "mueve": "O",
+    "dir": 1
+   },
+   "cap": "Más gente vende guaraníes para comprar dólares: la oferta de guaraníes pasa de O₁ a O₂ y el valor del guaraní cae de TC₁ a TC₂ (depreciación).",
+   "pasos": [
+    "Crece la incertidumbre bancaria y política",
+    "Ahorristas e inversores venden guaraníes para comprar dólares",
+    "La oferta de guaraníes se desplaza a la derecha",
+    "El guaraní se deprecia: hacen falta más guaraníes por cada dólar",
+    "Las importaciones se encarecen y las exportaciones se abaratan"
+   ],
+   "conceptos": [
+    [
+     "Depreciación",
+     "Pérdida de valor de una moneda frente a otra en un tipo de cambio flotante."
+    ],
+    [
+     "Tipo de cambio flotante",
+     "Lo fijan la oferta y la demanda de la moneda, sin un valor oficial."
+    ],
+    [
+     "Inflación importada",
+     "Suba de precios internos porque los bienes importados cuestan más."
+    ],
+    [
+     "Fuga hacia el dólar",
+     "Cambio masivo de ahorros a dólares cuando cae la confianza."
+    ]
+   ],
+   "diagramas": [
+    "tipo-cambio",
+    "da-oa-oacp"
+   ],
+   "rel": [
+    "pena-dolar",
+    "ueno-intervencion",
+    "combustibles"
+   ],
+   "pregunta": {
+    "q": "¿Qué efecto tiene la depreciación del guaraní sobre los exportadores de soja?",
+    "opts": [
+     "Ganan: reciben más guaraníes por cada dólar que venden",
+     "Pierden: su soja se encarece en el exterior",
+     "No les afecta",
+     "Pagan más aranceles"
+    ],
+    "ok": 0,
+    "fb": "Venden en dólares. Con un guaraní más débil, cada dólar se cambia por más guaraníes, así que su ingreso en moneda local sube."
+   }
+  },
+  {
+   "id": "bonos-embi",
+   "fecha": "2026-11-06",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/negocios/2026/11/06/en-medio-de-la-crisis-de-ueno-bank-precios-de-bonos-soberanos-de-paraguay-se-desploman/",
+   "titulo": "Caen los bonos de Paraguay y el riesgo país sube a 143 puntos",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "cambio",
+   "resumen": "En la primera semana de noviembre cayeron los precios de los bonos soberanos paraguayos. El riesgo país (EMBI) pasó de 125 puntos básicos el lunes 2 a 143 al cierre del jueves 5, con un pico de 157 durante ese día.",
+   "contexto": "Cuando el Estado emite bonos, se endeuda con inversores. Si esos inversores ven más riesgo, venden los bonos, su precio cae y el país debe ofrecer intereses más altos para volver a endeudarse. Paraguay tiene grado de inversión, pero en el último escalón con Moody’s y S&P: un recorte lo dejaría fuera de esa categoría. Aun así, su riesgo país sigue por debajo del de Brasil, México o Colombia.",
+   "datos": [
+    [
+     "125 → 143",
+     "EMBI del 2 al 5 de noviembre (pb)"
+    ],
+    [
+     "157",
+     "Pico durante el 5 de noviembre"
+    ],
+    [
+     "Baa3 / BBB−",
+     "Moody’s y S&P: último escalón del grado de inversión"
+    ],
+    [
+     "BB+",
+     "Fitch: un escalón por debajo"
+    ]
+   ],
+   "clave": [
+    "143 pb",
+    "riesgo país"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "pb",
+    "rows": [
+     [
+      "Uruguay",
+      85
+     ],
+     [
+      "Chile",
+      104
+     ],
+     [
+      "Perú",
+      121
+     ],
+     [
+      "Paraguay",
+      143,
+      1
+     ],
+     [
+      "Panamá",
+      143
+     ],
+     [
+      "Brasil",
+      202
+     ],
+     [
+      "México",
+      227
+     ],
+     [
+      "Colombia",
+      234
+     ]
+    ]
+   },
+   "cap": "Riesgo país (EMBI) al cierre del 5 de noviembre, en puntos básicos. 100 pb = 1 punto porcentual más de interés que EE.UU.",
+   "pasos": [
+    "Crece la incertidumbre bancaria y política",
+    "Los inversores venden bonos paraguayos",
+    "Cae el precio de los bonos y sube el interés que exigen",
+    "Endeudarse cuesta más al Estado y a las empresas",
+    "Menos inversión puede frenar la demanda agregada"
+   ],
+   "conceptos": [
+    [
+     "Bono soberano",
+     "Título de deuda que emite un país: promete devolver el dinero con intereses."
+    ],
+    [
+     "Riesgo país (EMBI)",
+     "Interés extra que paga un país frente a EE.UU., en puntos básicos."
+    ],
+    [
+     "Grado de inversión",
+     "Calificación que indica bajo riesgo de no pago; abarata el crédito."
+    ],
+    [
+     "Deuda pública",
+     "Total que el Estado debe por préstamos y bonos."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal",
+    "da-oa-da"
+   ],
+   "rel": [
+    "ueno-intervencion",
+    "pgn-2027"
+   ],
+   "pregunta": {
+    "q": "El EMBI subió de 125 a 143 puntos básicos. ¿Cuánto interés extra implica?",
+    "opts": [
+     "0,18 puntos porcentuales",
+     "18 puntos porcentuales",
+     "1,8 puntos porcentuales",
+     "Nada"
+    ],
+    "ok": 0,
+    "fb": "18 pb = 0,18 puntos porcentuales (100 pb = 1 punto). Parece poco, pero sobre miles de millones de dólares de deuda es mucho dinero."
+   }
+  },
+  {
+   "id": "pena-dolar",
+   "fecha": "2026-10-26",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/10/26/pena-descarta-intervencion-del-bcp-para-frenar-caida-de-la-cotizacion-del-dolar/",
+   "titulo": "Antes de la crisis: el Gobierno descartaba intervenir para frenar la baja del dólar",
+   "unidad": "global",
+   "tema": "4.5",
+   "kc": "intervencion",
+   "resumen": "Con el dólar por debajo de G. 6.000, el presidente Peña dijo que la cotización responde al mercado y descartó que el BCP intervenga, porque eso distorsionaría precios y generaría inflación. Atribuyó la fortaleza del guaraní a exportaciones que crecen más que las importaciones y a más inversión extranjera.",
+   "contexto": "Esta nota muestra el tipo de cambio flotante en su versión tranquila: el guaraní se apreciaba porque entraban más dólares por exportaciones e inversión. Diez días después, la crisis de Ueno Bank invirtió la tendencia. Leer las dos noticias juntas muestra que el mismo mercado puede moverse en direcciones opuestas según cambien la oferta y la demanda de guaraníes.",
+   "datos": [
+    [
+     "< G. 6.000",
+     "Cotización del dólar (26 oct)"
+    ],
+    [
+     "G. 3.700",
+     "Mínimo que recordó Peña, de 2012"
+    ],
+    [
+     "+19,7 %",
+     "Exportaciones registradas a septiembre (ABC Color)"
+    ]
+   ],
+   "clave": [
+    "< G. 6.000",
+    "dólar el 26 de octubre"
+   ],
+   "fig": {
+    "k": "divisas",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Más exportaciones e inversión extranjera aumentan la demanda de guaraníes: D₁ pasa a D₂ y el guaraní se aprecia de TC₁ a TC₂.",
+   "pasos": [
+    "Crecen las exportaciones y la inversión extranjera",
+    "Entran dólares que deben cambiarse por guaraníes",
+    "La demanda de guaraníes se desplaza a la derecha",
+    "El guaraní se aprecia: el dólar baja",
+    "Se abaratan las importaciones, como las máquinas"
+   ],
+   "conceptos": [
+    [
+     "Apreciación",
+     "Aumento del valor de una moneda frente a otra."
+    ],
+    [
+     "Intervención cambiaria",
+     "Compra o venta de divisas del Banco Central para influir en la cotización."
+    ],
+    [
+     "Inversión extranjera directa",
+     "Capital de empresas del exterior que se instalan o invierten en el país."
+    ],
+    [
+     "Bienes de capital",
+     "Máquinas y equipos que sirven para producir otros bienes."
+    ]
+   ],
+   "diagramas": [
+    "tipo-cambio",
+    "exportaciones"
+   ],
+   "rel": [
+    "guarani-cae",
+    "soja-record"
+   ],
+   "pregunta": {
+    "q": "Si el BCP hubiera querido frenar la baja del dólar, ¿qué tendría que haber hecho?",
+    "opts": [
+     "Comprar dólares pagando con guaraníes",
+     "Vender dólares de sus reservas",
+     "Subir los aranceles",
+     "Bajar los impuestos"
+    ],
+    "ok": 0,
+    "fb": "Para que el dólar suba, el BCP compra dólares y paga con guaraníes. Eso aumenta la cantidad de guaraníes en circulación: por eso se advertía del riesgo de inflación."
+   }
+  },
+  {
+   "id": "inflacion-oct",
+   "fecha": "2026-11-03",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/internacionales/2026/11/03/paraguay-registra-inflacion-del-01-en-octubre-por-bajadas-en-precios-de-los-alimentos/",
+   "titulo": "La inflación de octubre fue de −0,1 %: bajan los alimentos",
+   "unidad": "macro",
+   "tema": "3.3",
+   "kc": "bienestar",
+   "resumen": "Según el BCP, el índice de precios al consumidor bajó 0,1 % en octubre. La inflación de los últimos doce meses quedó en 1,7 %, frente a 4,1 % un año antes, y por debajo de la meta de 3,5 %.",
+   "contexto": "Bajaron las hortalizas y tubérculos (−10 %), el pescado (−5,2 %) y las frutas (−2,1 %). También se abarataron bienes importados como electrodomésticos y autos, por la apreciación del guaraní de los meses previos. En sentido contrario, los combustibles subieron 2,5 % por el alza del petróleo. Un mes con precios en baja no es deflación: la deflación es una caída sostenida del nivel general de precios.",
+   "datos": [
+    [
+     "−0,1 %",
+     "Inflación de octubre"
+    ],
+    [
+     "1,7 %",
+     "Inflación interanual (4,1 % un año antes)"
+    ],
+    [
+     "1,8 %",
+     "Acumulada en 2026"
+    ],
+    [
+     "3,5 %",
+     "Meta del BCP"
+    ],
+    [
+     "+2,5 %",
+     "Combustibles en octubre"
+    ]
+   ],
+   "clave": [
+    "1,7 %",
+    "inflación interanual"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "O",
+    "dir": 1
+   },
+   "cap": "Alimentos e importados más baratos reducen costos: la OACP pasa de OACP₁ a OACP₂ y el nivel de precios baja de NP₁ a NP₂.",
+   "pasos": [
+    "Buenas cosechas abaratan frutas y hortalizas",
+    "El guaraní apreciado abarata los bienes importados",
+    "Bajan los costos para empresas y hogares",
+    "La OACP se desplaza a la derecha",
+    "El nivel general de precios sube menos, o incluso baja"
+   ],
+   "conceptos": [
+    [
+     "IPC",
+     "Índice que mide el precio de una canasta de bienes y servicios que compran los hogares."
+    ],
+    [
+     "Desinflación",
+     "Los precios siguen subiendo, pero más despacio."
+    ],
+    [
+     "Deflación",
+     "Caída sostenida del nivel general de precios."
+    ],
+    [
+     "Meta de inflación",
+     "Inflación que el Banco Central se compromete a lograr: 3,5 % ± 2 en Paraguay."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-oacp",
+    "politica-monetaria"
+   ],
+   "rel": [
+    "bcp-tpm",
+    "combustibles"
+   ],
+   "pregunta": {
+    "q": "La inflación interanual bajó de 4,1 % a 1,7 %. ¿Cómo se llama esto?",
+    "opts": [
+     "Desinflación",
+     "Deflación",
+     "Estanflación",
+     "Hiperinflación"
+    ],
+    "ok": 0,
+    "fb": "Los precios siguen subiendo (1,7 % en un año) pero más despacio: es desinflación. Deflación sería una caída sostenida del nivel de precios."
+   }
+  },
+  {
+   "id": "bcp-tpm",
+   "fecha": "2026-10-24",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/bcp-mantiene-la-tasa-de-politica-monetaria",
+   "mas": [
+    [
+     "InfoNegocios",
+     "https://infonegocios.com.py/default/bcp-mantiene-la-tasa-en-5-50-y-mejora-su-proyeccion-de-crecimiento-a-5",
+     "2026-11-02"
+    ]
+   ],
+   "titulo": "El BCP mantiene la tasa en 5,50 % y eleva el crecimiento esperado a 5 %",
+   "unidad": "macro",
+   "tema": "3.5",
+   "kc": "intervencion",
+   "resumen": "El Comité de Política Monetaria del BCP decidió por unanimidad dejar la tasa de interés de referencia en 5,50 % anual. Además, subió la proyección de crecimiento de 2026 de 4,5 % a 5,0 %.",
+   "contexto": "Una tasa «neutral» ni empuja ni frena la economía. Con inflación baja, el BCP podría haber bajado la tasa para estimular el gasto; no lo hizo porque la actividad ya crece con fuerza (el IMAEP subió 6,7 % en agosto) y hay riesgos externos, como el precio del petróleo. La decisión fue anterior a la crisis de Ueno Bank. La próxima reunión del Comité está prevista para el 20 de noviembre.",
+   "datos": [
+    [
+     "5,50 %",
+     "Tasa de política monetaria"
+    ],
+    [
+     "6,7 %",
+     "Crecimiento del IMAEP en agosto"
+    ],
+    [
+     "5,0 %",
+     "PIB 2026 proyectado (antes 4,5 %)"
+    ],
+    [
+     "+16,6 %",
+     "Crédito al sector privado"
+    ],
+    [
+     "16,0 %",
+     "Tasa promedio de préstamos bancarios"
+    ]
+   ],
+   "clave": [
+    "5,50 %",
+    "tasa de referencia"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Lo que haría una baja de la tasa: crédito más barato, más consumo e inversión, y la DA pasa de DA₁ a DA₂.",
+   "pasos": [
+    "El BCP baja la tasa de referencia",
+    "Los bancos bajan las tasas de sus préstamos",
+    "Aumentan el consumo y la inversión",
+    "La DA se desplaza a la derecha",
+    "Suben el PIB real y el nivel general de precios"
+   ],
+   "conceptos": [
+    [
+     "Tasa de política monetaria",
+     "Tasa de referencia que fija el BCP y que guía a las demás tasas."
+    ],
+    [
+     "Política neutral",
+     "Ni estimula ni frena la economía."
+    ],
+    [
+     "IMAEP",
+     "Indicador mensual de actividad económica del Paraguay."
+    ],
+    [
+     "Crecimiento económico",
+     "Aumento del PIB real de un año a otro."
+    ]
+   ],
+   "diagramas": [
+    "politica-monetaria",
+    "da-oa-da"
+   ],
+   "rel": [
+    "inflacion-oct",
+    "ueno-intervencion"
+   ],
+   "pregunta": {
+    "q": "La inflación (1,7 %) está por debajo de la meta (3,5 %). Si el BCP bajara la tasa, ¿qué pasaría en el diagrama DA/OA?",
+    "opts": [
+     "La DA se desplaza a la derecha: suben el PIB real y los precios",
+     "La OACP se desplaza a la derecha",
+     "La DA se desplaza a la izquierda",
+     "No se mueve ninguna curva"
+    ],
+    "ok": 0,
+    "fb": "Una tasa más baja abarata el crédito: suben el consumo y la inversión, la DA se desplaza a la derecha y el nivel de precios se acerca a la meta."
+   }
+  },
+  {
+   "id": "desempleo-41",
+   "fecha": "2026-10-30",
+   "medio": "Diario Hoy",
+   "url": "https://www.hoy.com.py/nacionales/2026/10/30/desempleo-en-paraguay-cae-al-41-y-se-suman-mas-de-66000-nuevos-ocupados-segun-el-ine",
+   "titulo": "El desempleo baja a 4,1 % y hay 66.000 ocupados más",
+   "unidad": "macro",
+   "tema": "3.3",
+   "kc": "bienestar",
+   "resumen": "Según la Encuesta Permanente de Hogares del INE, la desocupación del tercer trimestre de 2026 fue de 4,1 %, frente a 4,9 % un año antes. Hay 3,29 millones de personas ocupadas, unas 66.000 más que en 2025.",
+   "contexto": "El empleo creció sobre todo en comercio, restaurantes y hoteles, es decir, en el sector de servicios. Una economía que crece cerca de 5 % necesita más trabajadores, y eso reduce el desempleo cíclico. Pero hay matices: la subocupación (personas que trabajan menos horas de las que quisieran) subió levemente a 4,2 %.",
+   "datos": [
+    [
+     "4,1 %",
+     "Desempleo julio–septiembre (4,9 % un año antes)"
+    ],
+    [
+     "3.290.206",
+     "Personas ocupadas"
+    ],
+    [
+     "+66.149",
+     "Ocupados en un año"
+    ],
+    [
+     "141.250",
+     "Personas desocupadas"
+    ],
+    [
+     "4,2 %",
+     "Subocupación"
+    ]
+   ],
+   "clave": [
+    "4,1 %",
+    "tasa de desempleo"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "3.er trim. 2025",
+      4.9
+     ],
+     [
+      "3.er trim. 2026",
+      4.1,
+      1
+     ]
+    ]
+   },
+   "cap": "Tasa de desocupación del tercer trimestre, según el INE.",
+   "pasos": [
+    "Crece la demanda en comercio y servicios",
+    "Las empresas necesitan producir más",
+    "Contratan más trabajadores",
+    "Baja el desempleo cíclico",
+    "Suben los ingresos de los hogares y el consumo"
+   ],
+   "conceptos": [
+    [
+     "Tasa de desempleo",
+     "Desocupados ÷ fuerza de trabajo × 100."
+    ],
+    [
+     "Fuerza de trabajo",
+     "Personas ocupadas más las que buscan trabajo."
+    ],
+    [
+     "Subocupación",
+     "Trabajar menos horas de las que uno quisiera."
+    ],
+    [
+     "Desempleo cíclico",
+     "El que aparece cuando cae la demanda agregada."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da"
+   ],
+   "rel": [
+    "bcp-tpm",
+    "salario-minimo"
+   ],
+   "pregunta": {
+    "q": "Hay 141.250 desocupados y 3.290.206 ocupados. ¿Cuál es la tasa de desempleo?",
+    "opts": [
+     "≈ 4,1 %",
+     "≈ 14 %",
+     "≈ 0,4 %",
+     "≈ 41 %"
+    ],
+    "ok": 0,
+    "fb": "Fuerza de trabajo = 3.290.206 + 141.250 = 3.431.456. Tasa = 141.250 ÷ 3.431.456 × 100 ≈ 4,1 %."
+   }
+  },
+  {
+   "id": "soja-record",
+   "fecha": "2026-10-15",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/10/15/paraguay-alcanzaria-record-de-exportacion-de-soja-en-2026/",
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/negocios/2026/10/23/camino-al-record-de-exportaciones-de-cada-us-100-nuevos-exportados-us-63-los-trajo-la-soja-us-5-el-cobre-y-us-3-las-barcazas/",
+     "2026-10-23"
+    ]
+   ],
+   "titulo": "Paraguay va hacia un récord de soja exportada: más de 8 millones de toneladas",
+   "unidad": "global",
+   "tema": "4.1",
+   "kc": "interdependencia",
+   "resumen": "Hasta septiembre se exportaron 7,9 millones de toneladas de soja en grano, igualando el récord de 2024. La Cámara de exportadores (Capeco) espera superar los 8 millones al cerrar el año.",
+   "contexto": "La soja con su aceite y su harina generó US$ 4.264 millones, el 41 % de las divisas por exportaciones. Según ABC Color, de cada US$ 100 nuevos exportados en 2026, US$ 63 los aportó la soja. Argentina compra el 86 % de los envíos. Depender tanto de un producto primario expone al país a los precios internacionales y al clima.",
+   "datos": [
+    [
+     "7,9 M t",
+     "Soja en grano exportada a septiembre"
+    ],
+    [
+     "US$ 3.107 M",
+     "Ingresos por soja en grano (US$ 2.141 M en 2025)"
+    ],
+    [
+     "41 %",
+     "Parte de las divisas de exportación"
+    ],
+    [
+     "86 %",
+     "Envíos con destino a Argentina"
+    ]
+   ],
+   "clave": [
+    "41 %",
+    "de las divisas de exportación"
+   ],
+   "fig": {
+    "k": "exportaciones"
+   },
+   "cap": "El precio mundial Pₘ supera al precio interno: los productores ofrecen Q₂, el mercado local compra Q₁ y la diferencia se exporta.",
+   "pasos": [
+    "Gran cosecha y buen precio internacional",
+    "Los productores venden más al exterior",
+    "Entran más dólares al país",
+    "Crecen las exportaciones netas y la DA",
+    "El guaraní tiende a apreciarse"
+   ],
+   "conceptos": [
+    [
+     "Ventaja comparativa",
+     "Producir algo con menor costo de oportunidad que otros países."
+    ],
+    [
+     "Producto primario",
+     "Bien sin elaborar, como granos, carne o minerales."
+    ],
+    [
+     "Divisas",
+     "Monedas extranjeras que entran al país, sobre todo por exportaciones."
+    ],
+    [
+     "Concentración de exportaciones",
+     "Depender de pocos productos o pocos compradores."
+    ]
+   ],
+   "diagramas": [
+    "exportaciones",
+    "tipo-cambio",
+    "da-oa-da"
+   ],
+   "rel": [
+    "carne-cae",
+    "pena-dolar"
+   ],
+   "pregunta": {
+    "q": "El 86 % de la soja va a Argentina. ¿Qué riesgo implica?",
+    "opts": [
+     "Si Argentina compra menos, caen mucho las exportaciones paraguayas",
+     "Ninguno: concentrar siempre es más eficiente",
+     "Sube el desempleo en Argentina",
+     "Baja el precio de la carne en Paraguay"
+    ],
+    "ok": 0,
+    "fb": "Concentrar ventas en un solo comprador hace al país vulnerable a lo que pase en ese mercado: es parte del concepto de interdependencia."
+   }
+  },
+  {
+   "id": "carne-cae",
+   "fecha": "2026-11-02",
+   "medio": "La Prensa",
+   "url": "https://www.laprensaparaguay.com/2026/11/02/exportaciones-avicolas-registran-un-crecimiento-del-76-en-ingresos-hasta-octubre/",
+   "titulo": "Carne bovina: se exporta 24 % menos, aunque a mejor precio",
+   "unidad": "micro",
+   "tema": "2.5",
+   "kc": "cambio",
+   "resumen": "Con datos de Senacsa, entre enero y octubre el volumen de carne bovina exportada bajó de 305 a 231 millones de kilos. El precio por kilo subió de US$ 5,85 a US$ 7,12, pero los ingresos cayeron de US$ 1.787 a 1.645 millones.",
+   "contexto": "Este caso permite estimar una elasticidad con datos reales. El precio subió 21,7 % y la cantidad bajó 24,3 %: la cantidad respondió más que el precio, y por eso el ingreso total cayó. Es una aproximación, porque en un año cambian otras cosas además del precio. En cambio, las exportaciones de pollo crecieron 76 % en ingresos. Los principales compradores de carne bovina fueron Chile, Estados Unidos, Israel y Taiwán.",
+   "datos": [
+    [
+     "−24,3 %",
+     "Volumen exportado (305 → 231 M kg)"
+    ],
+    [
+     "+21,7 %",
+     "Precio por kilo (US$ 5,85 → 7,12)"
+    ],
+    [
+     "−7,9 %",
+     "Ingresos (US$ 1.787 → 1.645 M)"
+    ],
+    [
+     "+76 %",
+     "Ingresos por exportaciones de pollo"
+    ]
+   ],
+   "clave": [
+    "≈ −1,1",
+    "elasticidad estimada"
+   ],
+   "fig": {
+    "k": "ingreso"
+   },
+   "cap": "El precio sube de P₁ a P₂ y la cantidad baja de Q₁ a Q₂. Lo que se gana (verde) es menos que lo que se pierde (rojo): el ingreso total cae.",
+   "pasos": [
+    "Sube el precio de la carne paraguaya en el exterior",
+    "Los compradores reducen la cantidad que adquieren",
+    "La cantidad cae 24,3 %, más que la suba del precio (21,7 %)",
+    "|EPD| ≈ 24,3 ÷ 21,7 ≈ 1,1: demanda relativamente elástica",
+    "El ingreso total de los exportadores baja"
+   ],
+   "conceptos": [
+    [
+     "EPD",
+     "% de cambio de la cantidad demandada ÷ % de cambio del precio."
+    ],
+    [
+     "Ingreso total",
+     "Precio × cantidad vendida."
+    ],
+    [
+     "Demanda elástica",
+     "|EPD| > 1: la cantidad reacciona más que el precio."
+    ],
+    [
+     "Sustitutos",
+     "Bienes que pueden reemplazar a otro, como la carne de otros países."
+    ]
+   ],
+   "diagramas": [
+    "ped-ingreso",
+    "oferta-demanda"
+   ],
+   "rel": [
+    "soja-record",
+    "mercosur-ue"
+   ],
+   "pregunta": {
+    "q": "El precio sube 21,7 % y la cantidad baja 24,3 %. ¿Cuál es la EPD aproximada?",
+    "opts": [
+     "≈ −1,1: relativamente elástica",
+     "≈ −0,5: inelástica",
+     "≈ −5: casi perfectamente elástica",
+     "0: perfectamente inelástica"
+    ],
+    "ok": 0,
+    "fb": "EPD = −24,3 ÷ 21,7 ≈ −1,1. Como su valor absoluto es mayor que 1, la demanda es relativamente elástica y el ingreso cae al subir el precio."
+   }
+  },
+  {
+   "id": "combustibles",
+   "fecha": "2026-10-28",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/10/28/precios-de-combustibles-cuanto-subieron-el-gasoil-y-las-naftas-en-petropar-y-los-privados-en-2026/",
+   "mas": [
+    [
+     "La Tribuna",
+     "https://www.latribuna.com.py/negocios/economia/2026/11/03/petropar-mantendra-los-precios-de-combustibles-durante-todo-este-mes/",
+     "2026-11-03"
+    ]
+   ],
+   "titulo": "El diésel cuesta 48,6 % más que en febrero: sexta suba del año",
+   "unidad": "macro",
+   "tema": "3.3",
+   "kc": "interdependencia",
+   "resumen": "Petropar aplicó el 28 de octubre una suba de G. 500 a G. 600 por litro en el diésel, la sexta del año. Frente a febrero, el diésel común cuesta 48,6 % más y las naftas entre 28 % y 35 % más. La causa es el encarecimiento del petróleo por la guerra en Medio Oriente.",
+   "contexto": "Según La Tribuna, Petropar y los emblemas privados mantendrán los precios durante noviembre, aunque el ajuste cubrió solo la mitad de lo que exigirían los precios internacionales. La apreciación del guaraní había amortiguado el golpe; con la depreciación de noviembre la presión puede volver. El diésel mueve camiones y colectivos, así que su precio llega a casi todos los bienes.",
+   "datos": [
+    [
+     "G. 9.285",
+     "Diésel común en Petropar"
+    ],
+    [
+     "+48,6 %",
+     "Diésel común desde febrero"
+    ],
+    [
+     "G. 6.990",
+     "Nafta de 88 octanos en Petropar"
+    ],
+    [
+     "6",
+     "Subas del año en Petropar"
+    ]
+   ],
+   "clave": [
+    "+48,6 %",
+    "diésel desde febrero"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "O",
+    "dir": -1
+   },
+   "cap": "El combustible es un costo de casi toda la producción: la OACP pasa de OACP₁ a OACP₂, sube el nivel de precios y cae el PIB real.",
+   "pasos": [
+    "Sube el petróleo por la guerra en Medio Oriente",
+    "Paraguay paga más por el combustible importado",
+    "Suben los costos de transporte y producción",
+    "La OACP se desplaza a la izquierda",
+    "Inflación por costos y menor producción"
+   ],
+   "conceptos": [
+    [
+     "Inflación por costos",
+     "Suba de precios causada por costos de producción más altos."
+    ],
+    [
+     "Shock de oferta",
+     "Cambio repentino en los costos que mueve la OACP."
+    ],
+    [
+     "Demanda inelástica",
+     "El combustible se sigue usando aunque suba: |EPD| < 1."
+    ],
+    [
+     "Empresa pública",
+     "Petropar es del Estado y puede absorber parte de la suba en sus márgenes."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-oacp",
+    "oferta-demanda"
+   ],
+   "rel": [
+    "inflacion-oct",
+    "guarani-cae"
+   ],
+   "pregunta": {
+    "q": "Si el combustible encarece de forma sostenida, ¿qué curva se mueve?",
+    "opts": [
+     "La OACP, a la izquierda",
+     "La DA, a la derecha",
+     "La OALP, a la derecha",
+     "La DA, a la izquierda"
+    ],
+    "ok": 0,
+    "fb": "El combustible es un costo de producción. Si sube, a cada nivel de precios las empresas producen menos: la OACP se desplaza a la izquierda."
+   }
+  },
+  {
+   "id": "pgn-2027",
+   "fecha": "2026-09-17",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/09/17/pgn-2027-economistas-alertan-sobre-deficit-deuda-y-menor-inversion-publica/",
+   "mas": [
+    [
+     "InfoNegocios",
+     "https://infonegocios.com.py/nota-principal/ejecutivo-presento-el-pgn-2027-por-us-25-700-millones-y-con-deficit-fiscal-proyectado-de-hasta-3-9-del-pib",
+     "2026-09-02"
+    ]
+   ],
+   "titulo": "Presupuesto 2027: un déficit de hasta 3,9 % del PIB, más del doble del límite legal",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "intervencion",
+   "resumen": "El proyecto de Presupuesto General de la Nación 2027 suma G. 166,3 billones (unos US$ 25.700 millones), 11,2 % más que en 2026. El Gobierno pide un déficit de hasta 3,9 % del PIB; la Ley de Responsabilidad Fiscal fija un límite de 1,5 %.",
+   "contexto": "Gran parte del aumento sirve para pagar deudas acumuladas con proveedores, sobre todo de Salud. Sin esos pagos extraordinarios, el déficit rondaría 1,9 %. El Gobierno estima que necesitará unos US$ 2.100 millones de nueva deuda en 2027 y promete volver al 1,5 % en 2028. Economistas advierten que la inversión pública podría caer y que los ingresos dependen del tipo de cambio que se suponga.",
+   "datos": [
+    [
+     "G. 166,3 bill.",
+     "Presupuesto total 2027"
+    ],
+    [
+     "+11,2 %",
+     "Frente a 2026"
+    ],
+    [
+     "3,9 %",
+     "Déficit pedido (% del PIB)"
+    ],
+    [
+     "1,5 %",
+     "Límite de la Ley de Responsabilidad Fiscal"
+    ],
+    [
+     "US$ 2.100 M",
+     "Nueva deuda estimada para 2027"
+    ]
+   ],
+   "clave": [
+    "3,9 %",
+    "déficit del PIB"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% del PIB",
+    "rows": [
+     [
+      "Límite legal",
+      1.5
+     ],
+     [
+      "Sin pagos extra",
+      1.9
+     ],
+     [
+      "Déficit pedido",
+      3.9,
+      1
+     ]
+    ]
+   },
+   "cap": "Déficit fiscal de 2027 frente al límite de la Ley de Responsabilidad Fiscal, en % del PIB.",
+   "pasos": [
+    "El Estado planea gastar más de lo que recauda",
+    "La diferencia se cubre con nueva deuda",
+    "Más gasto público (G) aumenta la DA a corto plazo",
+    "Más deuda implica más intereses en el futuro",
+    "Riesgo: menos inversión pública y peor calificación"
+   ],
+   "conceptos": [
+    [
+     "Déficit fiscal",
+     "Lo que falta cuando el gasto público supera a los ingresos en un año."
+    ],
+    [
+     "Deuda pública",
+     "Lo que el Estado debe, acumulado a lo largo de los años."
+    ],
+    [
+     "Regla fiscal",
+     "Ley que limita el déficit: 1,5 % del PIB en Paraguay."
+    ],
+    [
+     "Presión tributaria",
+     "Impuestos recaudados como % del PIB: cerca de 11 % en Paraguay."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal",
+    "da-oa-da"
+   ],
+   "rel": [
+    "bonos-embi",
+    "pobreza-16"
+   ],
+   "pregunta": {
+    "q": "Si el Estado gasta 3,9 % del PIB más de lo que recauda, ¿cómo cubre la diferencia?",
+    "opts": [
+     "Con nueva deuda: bonos y préstamos",
+     "Imprimiendo billetes en el BCP",
+     "Bajando la tasa de interés",
+     "Con el superávit comercial"
+    ],
+    "ok": 0,
+    "fb": "El déficit se financia con endeudamiento: el Estado emite bonos o pide préstamos."
+   }
+  },
+  {
+   "id": "pobreza-16",
+   "fecha": "2026-03-27",
+   "medio": "RDN",
+   "url": "https://www.rdn.com.py/2026/03/27/pobreza-en-paraguay-disminuye-al-16-segun-informe-del-ine/",
+   "titulo": "La pobreza baja a 16 % en 2025, según el INE",
+   "unidad": "macro",
+   "tema": "3.4",
+   "kc": "equidad",
+   "resumen": "La pobreza monetaria pasó de 19 % en 2024 a 16 % en 2025: unas 985.000 personas, 213.000 menos que el año anterior. La pobreza extrema bajó de 3,7 % a 2,4 %.",
+   "contexto": "La pobreza es mayor en el campo (22,1 %) que en las ciudades (13,6 %). El INE estima que sin las transferencias de Tekoporã, Hambre Cero y la pensión a adultos mayores la pobreza habría sido de 19,9 %. Es un ejemplo de cómo el gasto público redistribuye ingresos, y de por qué el Presupuesto 2027 discute cuánto gastar en estos programas.",
+   "datos": [
+    [
+     "16,0 %",
+     "Pobreza total 2025 (19 % en 2024)"
+    ],
+    [
+     "2,4 %",
+     "Pobreza extrema"
+    ],
+    [
+     "22,1 %",
+     "Pobreza rural"
+    ],
+    [
+     "19,9 %",
+     "Pobreza estimada sin transferencias"
+    ]
+   ],
+   "clave": [
+    "16,0 %",
+    "pobreza en 2025"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Urbana",
+      13.6
+     ],
+     [
+      "Total",
+      16,
+      1
+     ],
+     [
+      "Sin transferencias",
+      19.9
+     ],
+     [
+      "Rural",
+      22.1
+     ]
+    ]
+   },
+   "cap": "Pobreza monetaria 2025 según el INE, en % de la población.",
+   "pasos": [
+    "El Estado transfiere dinero a hogares vulnerables",
+    "Sube el ingreso disponible de los más pobres",
+    "Más hogares superan la línea de pobreza",
+    "La curva de Lorenz se acerca a la diagonal",
+    "El costo se financia con impuestos o deuda"
+   ],
+   "conceptos": [
+    [
+     "Pobreza monetaria",
+     "Ingresos por debajo de lo necesario para una canasta básica."
+    ],
+    [
+     "Pobreza extrema",
+     "Ingresos que no alcanzan ni para la canasta de alimentos."
+    ],
+    [
+     "Transferencias",
+     "Pagos del Estado a hogares sin contraprestación."
+    ],
+    [
+     "Equidad",
+     "Reparto justo del ingreso y de las oportunidades."
+    ]
+   ],
+   "diagramas": [
+    "lorenz",
+    "politica-fiscal"
+   ],
+   "rel": [
+    "pgn-2027",
+    "salario-minimo"
+   ],
+   "pregunta": {
+    "q": "Sin transferencias la pobreza sería 19,9 %; con ellas es 16 %. ¿Qué tipo de política es?",
+    "opts": [
+     "Política fiscal redistributiva",
+     "Política monetaria",
+     "Política comercial",
+     "Política de oferta"
+    ],
+    "ok": 0,
+    "fb": "Las transferencias son gasto público destinado a mejorar la distribución del ingreso: política fiscal redistributiva."
+   }
+  },
+  {
+   "id": "salario-minimo",
+   "fecha": "2026-06-26",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/06/26/reajuste-del-salario-minimo-estos-son-los-pagos-por-hora-dia-y-jornada-nocturna/",
+   "titulo": "El salario mínimo sube 5 % y llega a G. 3.044.000",
+   "unidad": "micro",
+   "tema": "2.7",
+   "kc": "equidad",
+   "resumen": "Desde el 1 de julio de 2026 rige un salario mínimo de G. 3.044.000 mensuales, 5 % más que antes, según el Decreto 6225/26. El jornal diario es de G. 117.077 y la hora diurna, de G. 12.683.",
+   "contexto": "El salario mínimo es un precio mínimo en el mercado de trabajo. Busca proteger el ingreso de quienes tienen menos poder para negociar. La teoría advierte un riesgo: si se fija muy por encima del salario de equilibrio, las empresas contratan menos y aparece desempleo, o crece el trabajo informal. Si la inflación se mantiene cerca de 1,7 %, una suba de 5 % mejora el poder de compra.",
+   "datos": [
+    [
+     "G. 3.044.000",
+     "Salario mínimo mensual"
+    ],
+    [
+     "+5 %",
+     "Reajuste desde el 1 de julio"
+    ],
+    [
+     "G. 117.077",
+     "Jornal diario"
+    ],
+    [
+     "G. 12.683",
+     "Hora diurna"
+    ]
+   ],
+   "clave": [
+    "G. 3.044.000",
+    "por mes"
+   ],
+   "fig": {
+    "k": "minimo"
+   },
+   "cap": "Con el salario mínimo por encima de W₁, las empresas contratan Qd y las personas ofrecen Qo: la diferencia es desempleo.",
+   "pasos": [
+    "El Estado fija un salario mínimo más alto",
+    "Más personas quieren trabajar a ese salario",
+    "Las empresas demandan menos trabajadores",
+    "Aparece un excedente de trabajo: desempleo",
+    "O parte del empleo pasa a la informalidad"
+   ],
+   "conceptos": [
+    [
+     "Precio mínimo",
+     "Precio fijado por el Estado por encima del de equilibrio."
+    ],
+    [
+     "Salario real",
+     "Salario ajustado por inflación: mide el poder de compra."
+    ],
+    [
+     "Informalidad",
+     "Trabajo sin contrato ni seguridad social."
+    ],
+    [
+     "Equidad",
+     "Reparto justo del ingreso y de las oportunidades."
+    ]
+   ],
+   "diagramas": [
+    "salario-minimo"
+   ],
+   "rel": [
+    "desempleo-41",
+    "pobreza-16"
+   ],
+   "pregunta": {
+    "q": "Si la inflación del año es 1,7 % y el salario mínimo sube 5 %, ¿qué pasa con el salario real?",
+    "opts": [
+     "Sube cerca de 3,3 %",
+     "Baja 3,3 %",
+     "Sube 6,7 %",
+     "No cambia"
+    ],
+    "ok": 0,
+    "fb": "Salario real ≈ suba nominal − inflación = 5 % − 1,7 % ≈ 3,3 %. El poder de compra mejora."
+   }
+  },
+  {
+   "id": "itaipu-opinion",
+   "fecha": "2026-11-08",
+   "medio": "ABC Color",
+   "opinion": true,
+   "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/08/gastos-sociales-de-itaipu-43-de-la-tarifa-vs-sobrecosto-para-ande/",
+   "titulo": "Opinión: los gastos sociales de Itaipú y el costo de la luz",
+   "unidad": "micro",
+   "tema": "2.7",
+   "kc": "equidad",
+   "resumen": "En una columna de opinión, el ingeniero Axel Benítez sostiene que los gastos socioambientales de Itaipú sumaron US$ 1.213,9 millones en 2025, el 43,2 % del costo del servicio. Según su cálculo, eso significó para la ANDE un sobrecosto de US$ 296,4 millones ese año.",
+   "contexto": "La tarifa de Itaipú se fijó en US$ 19,28 por kW-mes para 2024-2026, aunque la deuda de la represa se terminó de pagar en 2023. El autor argumenta que ese margen se usa para gasto social que no pasa por el Presupuesto y que pagan los usuarios en su factura de luz. Es una postura, no un dato oficial: sirve para practicar cómo separar hechos de opiniones y discutir quién gana y quién pierde con un precio regulado.",
+   "datos": [
+    [
+     "US$ 19,28",
+     "Tarifa de Itaipú por kW-mes (2024-2026)"
+    ],
+    [
+     "43,2 %",
+     "Gastos sociales sobre el costo (según el autor)"
+    ],
+    [
+     "US$ 296,4 M",
+     "Sobrecosto para la ANDE en 2025 (según el autor)"
+    ]
+   ],
+   "clave": [
+    "43,2 %",
+    "del costo, según el autor"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ M",
+    "rows": [
+     [
+      "Gasto social",
+      1213.9,
+      1
+     ],
+     [
+      "Resto del costo",
+      1593.6
+     ]
+    ]
+   },
+   "cap": "Costo del servicio de Itaipú en 2025, en millones de dólares, según el cálculo del autor.",
+   "pasos": [
+    "La tarifa se mantiene aunque la deuda ya se pagó",
+    "El margen se destina a gasto social y obras",
+    "La ANDE paga más por la energía",
+    "El costo llega a los usuarios en la factura",
+    "Debate: equidad del gasto frente a eficiencia del precio"
+   ],
+   "conceptos": [
+    [
+     "Afirmación positiva",
+     "Se puede comprobar con datos: «la tarifa es US$ 19,28»."
+    ],
+    [
+     "Afirmación normativa",
+     "Es un juicio de valor: «los usuarios no deberían pagarlo»."
+    ],
+    [
+     "Precio regulado",
+     "Precio fijado por el Estado o por un acuerdo, no por el mercado."
+    ],
+    [
+     "Monopolio natural",
+     "Un solo productor abastece al mercado más barato que varios."
+    ]
+   ],
+   "diagramas": [],
+   "rel": [
+    "pgn-2027"
+   ],
+   "pregunta": {
+    "q": "«Los usuarios no deberían pagar gastos sociales en la factura de luz.» ¿Qué tipo de afirmación es?",
+    "opts": [
+     "Normativa: es un juicio de valor",
+     "Positiva: se comprueba con datos",
+     "Un dato oficial de la ANDE",
+     "Una ley económica"
+    ],
+    "ok": 0,
+    "fb": "Dice lo que «debería» ser: es normativa. En economía conviene separar los hechos (positivos) de las opiniones (normativas)."
+   }
+  },
+  {
+   "id": "mercosur-ue",
+   "fecha": "2026-03-23",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/politica/2026/03/23/el-acuerdo-entre-la-union-europea-y-el-mercosur-entrara-en-vigor-provisionalmente-el-1-de-mayo/",
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/internacionales/2026/03/23/ue-oficializa-fecha-de-entrada-en-vigor-provisional-del-acuerdo-con-mercosur/",
+     "2026-03-23"
+    ]
+   ],
+   "titulo": "El acuerdo Mercosur–Unión Europea se aplica desde el 1 de mayo",
+   "unidad": "global",
+   "tema": "4.4",
+   "kc": "interdependencia",
+   "resumen": "El acuerdo comercial entre el Mercosur y la Unión Europea, firmado en Asunción el 17 de enero de 2026, se aplica de forma provisional desde el 1 de mayo. Paraguay lo ratificó por ley en marzo. Su vigencia plena depende todavía del Parlamento Europeo.",
+   "contexto": "La Unión Europea eliminará los aranceles al 93 % de lo que importa del Mercosur en un plazo de hasta 10 años; el Mercosur tendrá hasta 15 años para hacerlo con el 90 % de lo que importa de Europa. El plazo más largo protege por más tiempo a las industrias del Mercosur. Para Paraguay, la apuesta es vender más carne, soja y productos elaborados a un mercado de alto poder de compra.",
+   "datos": [
+    [
+     "17 ene",
+     "Firma en Asunción"
+    ],
+    [
+     "1 may",
+     "Aplicación provisional"
+    ],
+    [
+     "93 %",
+     "Importaciones del Mercosur que la UE liberará (10 años)"
+    ],
+    [
+     "90 %",
+     "Importaciones de la UE que el Mercosur liberará (15 años)"
+    ]
+   ],
+   "clave": [
+    "93 %",
+    "del comercio sin aranceles"
+   ],
+   "fig": {
+    "k": "arancel"
+   },
+   "cap": "Quitar un arancel lleva el precio interno de Pₘ + t a Pₘ: los consumidores ganan, los productores que compiten con importaciones pierden y el Estado deja de recaudar el rectángulo.",
+   "pasos": [
+    "Se reducen los aranceles entre los dos bloques",
+    "Bajan los precios de los bienes importados",
+    "Los consumidores compran más y los exportadores venden más",
+    "Los productores que compiten con importaciones enfrentan más competencia",
+    "Cada país se especializa en su ventaja comparativa"
+   ],
+   "conceptos": [
+    [
+     "Integración económica",
+     "Acuerdos entre países para reducir barreras al comercio."
+    ],
+    [
+     "Arancel",
+     "Impuesto a los bienes importados."
+    ],
+    [
+     "Ganancias del comercio",
+     "Más consumo y eficiencia al especializarse."
+    ],
+    [
+     "Interdependencia",
+     "Las economías dependen unas de otras por el comercio."
+    ]
+   ],
+   "diagramas": [
+    "arancel",
+    "exportaciones"
+   ],
+   "rel": [
+    "soja-record",
+    "carne-cae"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el Mercosur tiene 15 años para bajar aranceles y la UE solo 10?",
+    "opts": [
+     "Para dar tiempo a las industrias del Mercosur a adaptarse a la competencia",
+     "Porque la UE es más pequeña",
+     "Para que el Mercosur recaude menos",
+     "Porque la UE no tiene aranceles"
+    ],
+    "ok": 0,
+    "fb": "Un plazo más largo protege por más tiempo a sectores menos competitivos: es una forma de proteccionismo transitorio."
+   }
+  }
+ ]
+}
