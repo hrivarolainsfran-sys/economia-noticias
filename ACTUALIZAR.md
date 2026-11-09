@@ -79,9 +79,14 @@ El sitio tiene dos archivos:
 - `indicadores`: lista de `{"n": "Dólar", "v": "G. 6.508", "s": "DNIT · 6 nov", "alert": 1, "k": "dolar"}`.
   - `alert` (opcional) pinta el número en rojo cuando hay un movimiento fuerte.
   - `k` (opcional) enlaza con una serie de `historial` y dibuja el minigráfico.
-- `historial`: series para la sección **Indicadores**. Claves actuales: `inflacion`, `tpm`, `dolar`, `embi`, `desempleo`.
-  - Cada serie tiene `t` (título), `u` (unidad: `%`, `G.` o `pb`), `fuente`, `lee` (una frase de lectura) y `puntos`: `[["AAAA-MM-DD", valor]]`, en orden de fecha.
-  - Opcionales: `banda` `[min, max]` y `meta` (para la inflación), `escalon: 1` (para la tasa del BCP).
+- `historial`: series para la sección **Indicadores**. Claves actuales: `imaep`, `desempleo`, `inflacion`, `tpm`, `credito`, `dolar`, `exportaciones`, `recaudacion`, `embi`.
+  - Cada serie tiene `t` (título), `u` (unidad: `%`, `G.`, `US$ M` o `pb`), `grupo` (`Actividad y empleo`, `Precios y dinero`, `Sector externo` o `Finanzas públicas`), `fuente`, `lee` (una frase de lectura) y `puntos`: `[["AAAA-MM-DD", valor]]`, en orden de fecha.
+  - Opcionales: `banda` `[min, max]` y `meta` (para la inflación), `escalon: 1` (para la tasa del BCP), `col: 1` (se dibuja en barras: IMAEP, exportaciones, recaudación).
+  - Qué se registra en cada serie:
+    - `imaep`: variación interanual del mes (%), con fecha del último día del mes medido.
+    - `credito`: variación interanual del crédito al sector privado (%).
+    - `exportaciones`: exportaciones registradas acumuladas en el año (US$ millones). En enero empieza de nuevo: en ese caso se cambia el título con el año.
+    - `recaudacion`: variación interanual de la recaudación mensual de la DNIT (%).
   - **Cuando un dato nuevo se confirma en un artículo, se agrega un punto al final.** No se borran puntos viejos. El dólar se registra como máximo una vez por día.
 - `region`: datos de **Paraguay frente a la región**.
   - `paises`: lista de países. `indicadores`: lista de `{"k", "t", "u", "fuente", "url" (opcional), "nota" (opcional), "v": {"País": valor}}`. Un país sin dato confiable simplemente no aparece en `v`.

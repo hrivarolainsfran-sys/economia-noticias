@@ -340,6 +340,9 @@ a.ind:hover b{text-decoration:underline;text-decoration-color:var(--gold-2)}
 .btn.ghost{background:transparent}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--paper);padding:9px 16px;border-radius:999px;font-size:.9rem;z-index:20}
 .print-only{display:none}
+.reading{outline:3px solid var(--gold-2);outline-offset:8px;border-radius:6px}
+#t-rate{padding:7px 10px;cursor:pointer}
+#t-listen[aria-pressed="true"]{background:var(--bad);border-color:var(--bad)}
 
 footer{border-top:1px solid var(--rule);padding-block:20px 30px;font-size:.82rem;color:var(--muted)}
 footer .wrap{display:grid;gap:6px}
@@ -633,8 +636,28 @@ function lorenzCtrl(g) { return [0.86 + (0.55 - 0.86) * g, 0.04 + (0.34 - 0.04) 
 function gini(a, b) { let area = 0, N = 400; for (let i = 0; i < N; i++) { const t = (i + .5) / N, y = 2 * (1 - t) * t * b + t * t, dx = 2 * a * (1 - 2 * t) + 2 * t; area += y * dx / N; } return 1 - 2 * area; }
 
 /* Gráficos de series */
+const fmtSerie = (h, v) => h.u === 'G.' || h.u === 'US$ M' ? num(v, 0) : num(v, 1);
+const fmtUnit = (h, v) => h.u === 'G.' ? 'G. ' + num(v, 0) : h.u === 'US$ M' ? 'US$ ' + num(v, 0) + ' M' : h.u === 'pb' ? num(v, 0) + ' pb' : num(v, 1) + ' ' + h.u;
+function colChart(h, o) {
+  const W = o.W || 560, H = o.H || 230, L0 = 46, R0 = 14, T0 = 22, B0 = 30;
+  const P = h.puntos, vals = P.map(p => p[1]);
+  let lo = Math.min(0, ...vals), hi = Math.max(0, ...vals); const pad = (hi - lo) * 0.12 || 1; hi += pad; if (lo < 0) lo -= pad;
+  const Y = v => T0 + (hi - v) / (hi - lo) * (H - T0 - B0), slot = (W - L0 - R0) / P.length, bw = Math.min(46, slot * 0.62);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(h.t)}">`;
+  for (let i = 0; i <= 4; i++) { const v = lo + (hi - lo) * i / 4, y = Y(v); s += `<line x1="${L0}" x2="${W - R0}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}" style="stroke:var(--grid)" stroke-width="1"/><text x="${L0 - 6}" y="${(y + 4).toFixed(1)}" text-anchor="end" font-size="10.5" style="fill:var(--muted);font-family:var(--f-body)">${fmtSerie(h, v)}</text>`; }
+  const z = Y(0);
+  P.forEach(([d, v], i) => {
+    const cx = L0 + slot * (i + .5), y = Y(v), top = Math.min(y, z), hgt = Math.max(1.5, Math.abs(z - y)), last = i === P.length - 1, dt = pd(d);
+    s += `<rect x="${(cx - bw / 2).toFixed(1)}" y="${top.toFixed(1)}" width="${bw.toFixed(1)}" height="${hgt.toFixed(1)}" rx="3" style="fill:${v < 0 ? 'var(--bad)' : last ? 'var(--gold-2)' : 'var(--navy-2)'}"><title>${fdate(d)}: ${fmtSerie(h, v)} ${h.u}</title></rect>`;
+    s += `<text x="${cx.toFixed(1)}" y="${(v < 0 ? y + 13 : y - 5).toFixed(1)}" text-anchor="middle" font-size="11" font-weight="${last ? 700 : 400}" style="fill:var(--ink);font-family:var(--f-body)">${fmtSerie(h, v)}</text>`;
+    s += `<text x="${cx.toFixed(1)}" y="${H - 10}" text-anchor="middle" font-size="10.5" style="fill:var(--muted);font-family:var(--f-body)">${MESES[dt.getMonth()].slice(0, 3)}</text>`;
+  });
+  s += `<line x1="${L0}" x2="${W - R0}" y1="${z.toFixed(1)}" y2="${z.toFixed(1)}" style="stroke:var(--ink)" stroke-width="1.2"/>`;
+  return s + '</svg>';
+}
 function lineChart(h, o) {
   o = o || {};
+  if (h.col) return colChart(h, o);
   const W = o.W || 560, H = o.H || 230, L0 = 46, R0 = 64, T0 = 14, B0 = 30;
   const P = h.puntos.map(([d, v]) => [pd(d).getTime(), v]);
   if (!P.length) return '';
@@ -753,7 +776,7 @@ function renderNews(n) {
   $('#app').innerHTML = `
   <div class="wrap">
     <a class="crumb" href="#inicio">← Todas las noticias</a>
-    <header class="head">
+    <header class="head" id="r-head">
       <p class="print-only">Economía en las Noticias · ${esc(shareUrl(n))}</p>
       <div class="meta">${n.opinion ? '<span class="op">Opinión</span>' : ''}${unitTag(n.unidad)}<a class="tema-link" href="#${temaHash(n.tema)}">Tema ${esc(n.tema)} · ${esc(TEMAS[n.tema] || '')}</a>${KC[n.kc] ? `<span class="tag kc">Concepto clave: ${KC[n.kc]}</span>` : ''}</div>
       <h1>${esc(n.titulo)}</h1>
@@ -761,6 +784,8 @@ function renderNews(n) {
       <p class="print-only">Fuente: ${fuentes.map(([m, u, f]) => esc(m) + ', ' + fdate(f) + ' (' + esc(u) + ')').join(' · ')}</p>
       <div class="srcs">${fuentes.map(([m, u, f], i) => `<a class="btn${i ? '' : ' primary'}" href="${esc(u)}" target="_blank" rel="noopener">Leer en ${esc(m)} · ${fdate(f)} ↗</a>`).join('')}</div>
       <div class="tools">
+        ${'speechSynthesis' in window ? `<button type="button" class="btn primary" id="t-listen" aria-pressed="false">▶ Escuchar</button>
+        <select id="t-rate" class="btn ghost" aria-label="Velocidad de lectura"><option value="0.9">Lento</option><option value="1" selected>Normal</option><option value="1.2">Rápido</option></select>` : ''}
         <button type="button" class="btn ghost" id="t-share">Compartir</button>
         <a class="btn ghost" href="https://wa.me/?text=${encodeURIComponent(n.titulo + ' ' + shareUrl(n))}" target="_blank" rel="noopener">WhatsApp</a>
         <button type="button" class="btn ghost" id="t-copy">Copiar enlace</button>
@@ -769,14 +794,14 @@ function renderNews(n) {
     </header>
     <div class="art">
       <div class="col">
-        <section class="block"><h2><small>Contexto</small>Por qué importa</h2><p class="prose">${esc(n.contexto)}</p>
+        <section class="block" id="r-ctx"><h2><small>Contexto</small>Por qué importa</h2><p class="prose">${esc(n.contexto)}</p>
           ${n.opinion ? '<p class="callout">Esta nota es una <b>columna de opinión</b>. Las cifras son cálculos del autor, no datos oficiales.</p>' : ''}</section>
-        ${n.datos.length ? `<section class="block"><h2><small>Datos</small>Las cifras clave</h2>
+        ${n.datos.length ? `<section class="block" id="r-datos"><h2><small>Datos</small>Las cifras clave</h2>
           <div class="datos">${n.datos.map(([v, d]) => `<div><span class="v">${esc(v)}</span><span class="d">${esc(d)}</span></div>`).join('')}</div></section>` : ''}
-        ${n.pasos.length ? `<section class="block"><h2><small>Análisis</small>Cómo se explica con economía</h2>
+        ${n.pasos.length ? `<section class="block" id="r-pasos"><h2><small>Análisis</small>Cómo se explica con economía</h2>
           <ol class="steps">${n.pasos.map(s => `<li><span>${esc(s)}</span></li>`).join('')}</ol></section>` : ''}
         ${evalBlock(n.evaluacion)}
-        ${n.conceptos.length ? `<section class="block"><h2><small>Vocabulario</small>Conceptos para entenderla</h2>
+        ${n.conceptos.length ? `<section class="block" id="r-conc"><h2><small>Vocabulario</small>Conceptos para entenderla</h2>
           <dl class="terms">${n.conceptos.map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join('')}</dl></section>` : ''}
         ${pr ? `<section class="block"><h2><small>Comprueba</small>¿Lo entendiste?</h2>
           <div class="quiz" id="quiz">
@@ -792,6 +817,12 @@ function renderNews(n) {
       </aside>
     </div>
   </div>`;
+  const lb = $('#t-listen');
+  if (lb) {
+    const rs = $('#t-rate'); try { rs.value = store.get('enp-rate', '1'); } catch (e) { }
+    rs.onchange = () => { store.set('enp-rate', rs.value); if (speechSynthesis.speaking) { stopSpeech(); speakNews(n, +rs.value); } };
+    lb.onclick = () => { if (speechSynthesis.speaking || speechSynthesis.pending) stopSpeech(); else speakNews(n, +rs.value); };
+  }
   $('#t-print').onclick = () => window.print();
   $('#t-copy').onclick = () => copyLink(shareUrl(n));
   $('#t-share').onclick = async () => {
@@ -802,6 +833,51 @@ function renderNews(n) {
   document.querySelectorAll('#quiz .opt').forEach(b => b.onclick = () => { p.q = +b.dataset.i; saveProg(); renderNews(n); keep(); });
   const re = $('#qre'); if (re) re.onclick = () => { delete p.q; delete pr.order; saveProg(); renderNews(n); keep(); };
 }
+
+/* Escuchar la noticia (voz del dispositivo) */
+function ttsText(s) {
+  return String(s)
+    .replace(/G\.\s?([\d.,]+)\s?(bill\.|billones)/g, '$1 billones de guaraníes')
+    .replace(/G\.\s?([\d.,]+)\s?M\b/g, '$1 millones de guaraníes')
+    .replace(/G\.\s?([\d.,]+)/g, '$1 guaraníes')
+    .replace(/US\$\s?([\d.,]+)\s?M\b/g, '$1 millones de dólares')
+    .replace(/US\$\s?([\d.,]+)/g, '$1 dólares').replace(/US\$/g, 'dólares')
+    .replace(/([\d.,]+)\s?M\b/g, '$1 millones').replace(/([\d.,]+)\s?pb\b/g, '$1 puntos básicos')
+    .replace(/\|EPD\|/g, 'el valor absoluto de la EPD').replace(/≈/g, 'aproximadamente ').replace(/→/g, ' a ').replace(/−/g, 'menos ')
+    .replace(/₁/g, ' 1').replace(/₂/g, ' 2').replace(/×/g, ' por ').replace(/÷/g, ' dividido ').replace(/\bpp\b/g, 'puntos porcentuales')
+    .replace(/\s+/g, ' ').trim();
+}
+function pickVoice() {
+  const vs = speechSynthesis.getVoices().filter(v => /^es/i.test(v.lang));
+  for (const pref of ['es-PY', 'es-AR', 'es-UY', 'es-419', 'es-US', 'es-MX', 'es-ES']) { const v = vs.find(x => x.lang.replace('_', '-') === pref); if (v) return v; }
+  return vs[0] || null;
+}
+function stopSpeech() {
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  document.querySelectorAll('.reading').forEach(e => e.classList.remove('reading'));
+  const b = document.getElementById('t-listen'); if (b) { b.textContent = '▶ Escuchar'; b.setAttribute('aria-pressed', 'false'); }
+}
+function speakNews(n, rate) {
+  stopSpeech();
+  const parts = [['r-head', n.titulo + '. ' + n.resumen], ['r-ctx', 'Por qué importa. ' + n.contexto]];
+  if (n.datos.length) parts.push(['r-datos', 'Las cifras clave. ' + n.datos.map(([v, d]) => d + ': ' + v + '.').join(' ')]);
+  if (n.pasos.length) parts.push(['r-pasos', 'Cómo se explica. ' + n.pasos.map((p, i) => 'Paso ' + (i + 1) + ': ' + p + '.').join(' ')]);
+  const e = n.evaluacion;
+  if (e) parts.push(['r-ev', 'Evaluación. ' + (e.ganan || []).map(([g, r]) => 'Ganan ' + g + ': ' + r).join(' ') + ' ' + (e.pierden || []).map(([g, r]) => 'Pierden ' + g + ': ' + r).join(' ') + (e.corto ? ' A corto plazo: ' + e.corto : '') + (e.largo ? ' A largo plazo: ' + e.largo : '') + (e.conclusion ? ' Conclusión: ' + e.conclusion : '')]);
+  if (n.conceptos.length) parts.push(['r-conc', 'Conceptos. ' + n.conceptos.map(([t, d]) => t + ': ' + d).join(' ')]);
+  const voice = pickVoice(), queue = [];
+  parts.forEach(([id, txt]) => { ttsText(txt).replace(/([.:;])\s+(?=[A-ZÁÉÍÓÚÑ¿0-9])/g, '$1\n').split('\n').forEach(c => { if (c.trim()) queue.push([id, c]); }); });
+  const b = document.getElementById('t-listen'); if (b) { b.textContent = '■ Detener'; b.setAttribute('aria-pressed', 'true'); }
+  queue.forEach(([id, txt], i) => {
+    const u = new SpeechSynthesisUtterance(txt);
+    u.lang = voice ? voice.lang : 'es-ES'; if (voice) u.voice = voice; u.rate = rate || 1;
+    u.onstart = () => { document.querySelectorAll('.reading').forEach(x => x.id !== id && x.classList.remove('reading')); const el = document.getElementById(id); if (el && !el.classList.contains('reading')) { el.classList.add('reading'); el.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); } };
+    if (i === queue.length - 1) u.onend = () => stopSpeech();
+    u.onerror = ev => { if (ev.error !== 'interrupted' && ev.error !== 'canceled') stopSpeech(); };
+    speechSynthesis.speak(u);
+  });
+}
+if ('speechSynthesis' in window) { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices(); window.addEventListener('pagehide', () => speechSynthesis.cancel()); }
 
 /* Compartir, evaluación y programa */
 const shareUrl = n => location.origin + location.pathname + '#n-' + n.id;
@@ -814,7 +890,7 @@ function copyLink(url) {
 function evalBlock(e) {
   if (!e) return '';
   const list = a => (a || []).map(([g, r]) => `<li><b>${esc(g)}</b><span>${esc(r)}</span></li>`).join('');
-  return `<section class="block ev"><h2><small>Evalúa</small>Quién gana, quién pierde y qué esperar</h2>
+  return `<section class="block ev" id="r-ev"><h2><small>Evalúa</small>Quién gana, quién pierde y qué esperar</h2>
     <div class="ev-cols"><div class="ev-box win"><h3>Ganan</h3><ul>${list(e.ganan)}</ul></div><div class="ev-box lose"><h3>Pierden</h3><ul>${list(e.pierden)}</ul></div></div>
     ${e.corto || e.largo ? `<div class="ev-time">${e.corto ? `<div><b>Corto plazo</b>${esc(e.corto)}</div>` : ''}${e.largo ? `<div><b>Largo plazo</b>${esc(e.largo)}</div>` : ''}</div>` : ''}
     ${e.supuestos && e.supuestos.length ? `<div><p class="note" style="margin-bottom:4px"><b>Depende de estos supuestos</b></p><ul class="ev-sup">${e.supuestos.map(s => `<li>${esc(s)}</li>`).join('')}</ul></div>` : ''}
@@ -986,16 +1062,21 @@ function renderWeek(key) {
 
 /* Indicadores */
 function renderIndic() {
-  const keys = Object.keys(HIST);
-  $('#app').innerHTML = `<div class="wrap">
-    <div class="sec-head"><div><div class="eyebrow">Datos</div><h1>Indicadores de Paraguay</h1><p class="lede">Cómo evolucionaron los principales indicadores de la economía paraguaya. Cada punto es un dato publicado; el último aparece resaltado. La actualización diaria agrega los datos nuevos.</p></div></div>
-    <div class="charts">${keys.map(k => { const h = HIST[k], last = h.puntos[h.puntos.length - 1]; return `<section class="chart">
-      <div class="top"><h3>${esc(h.t)}</h3><b>${h.u === 'G.' ? 'G. ' + num(last[1], 0) : num(last[1], 2) + ' ' + esc(h.u)}</b></div>
-      <span class="note">Último dato: ${fdate(last[0])}</span>
+  const keys = Object.keys(HIST).filter(k => HIST[k].puntos && HIST[k].puntos.length);
+  const order = ['Actividad y empleo', 'Precios y dinero', 'Sector externo', 'Finanzas públicas'];
+  const groups = [...new Set([...order, ...keys.map(k => HIST[k].grupo || 'Otros')])].filter(g => keys.some(k => (HIST[k].grupo || 'Otros') === g));
+  const chart = k => { const h = HIST[k], last = h.puntos[h.puntos.length - 1]; return `<section class="chart" id="g-${k}">
+      <div class="top"><h3>${esc(h.t)}</h3><b>${esc(fmtUnit(h, last[1]))}</b></div>
+      <span class="note">Último dato: ${fdate(last[0])}${h.col ? '' : ` · ${h.puntos.length} datos`}</span>
       ${lineChart(h)}
       <p class="note">${esc(h.lee || '')}</p>
-      <p class="note">Fuente: ${esc(h.fuente || '')}</p></section>`; }).join('')}</div>
+      <p class="note">Fuente: ${esc(h.fuente || '')}</p></section>`; };
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Datos</div><h1>Indicadores de Paraguay</h1><p class="lede">Cómo evolucionaron los principales indicadores de la economía paraguaya, agrupados como en el programa de IB. Cada punto o barra es un dato publicado; el último aparece resaltado. La actualización diaria agrega los datos nuevos.</p></div></div>
+    <div class="tools" style="margin-bottom:6px">${groups.map(g => `<a class="chip" href="#indicadores" data-g="${esc(g)}">${esc(g)}</a>`).join('')}</div>
+    ${groups.map(g => `<div class="sec-head" id="grp-${groups.indexOf(g)}"><h2>${esc(g)}</h2></div><div class="charts">${keys.filter(k => (HIST[k].grupo || 'Otros') === g).map(chart).join('')}</div>`).join('')}
   </div>`;
+  document.querySelectorAll('[data-g]').forEach(a => a.onclick = e => { e.preventDefault(); const el = document.getElementById('grp-' + groups.indexOf(a.dataset.g)); if (el) window.scrollTo(0, el.getBoundingClientRect().top + scrollY - 10); });
 }
 
 /* Región */
@@ -1067,6 +1148,7 @@ function renderCalcs() {
    5. RUTEO
    ===================================================================== */
 function render() {
+  stopSpeech();
   const r = location.hash.slice(1) || 'inicio';
   window.scrollTo(0, 0);
   let nav = 'inicio';
