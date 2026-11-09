@@ -4,9 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Noticias económicas de Paraguay explicadas con diagramas de Economía IB.">
-<title>Economía en las Noticias</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="author" content="Prof. Econ. Hugo Rivarola">
+<meta name="theme-color" content="#16284F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Econ Noticias">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="iconos/icono-192.png">
+<link rel="apple-touch-icon" href="iconos/icono-180.png">
+<title>Economía en las Noticias</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Barlow+Condensed:wght@500;600;700;800&family=STIX+Two+Text:ital,wght@0,500;0,600;1,500&display=swap">
@@ -15,15 +20,15 @@
 body{margin:0}
 [hidden]{display:none!important}
 img{max-width:100%}
-/* Layout: periódico de aula. Cabecera azul marino con cinta de indicadores, "tema de la semana" a dos columnas,
-   rejilla de noticias con su lámina de diagrama arriba; la ficha pone el texto a la izquierda y la lámina fija a la derecha. */
+/* Layout: periódico de aula. Cabecera azul marino con cinta de indicadores, secciones como pestañas;
+   la ficha pone el texto a la izquierda y la lámina fija a la derecha. */
 :root{
   --paper:#F3F5F9; --sheet:#FFFFFF; --grid:#E3E9F2; --ink:#121C33; --ink-2:#3A4865; --muted:#66748E; --rule:#D6DEE9;
   --navy:#16284F; --navy-2:#23407C; --navy-ink:#FFFFFF; --navy-soft:#E6ECF7;
   --gold:#A87A22; --gold-2:#C9962F; --gold-soft:#F7EDD6;
   --ok:#1C7A38; --ok-bg:#E4F3E8; --bad:#B42318; --bad-bg:#FCE9E7;
   --k-d:#1F4E9E; --k-s:#C0392B; --k-new:#1E8E3E;
-  --f-gov:rgba(142,68,173,.22); --f-dwl:rgba(47,128,237,.34); --f-gain:rgba(30,142,62,.30); --f-loss:rgba(198,40,40,.24);
+  --f-gov:rgba(142,68,173,.22); --f-dwl:rgba(47,128,237,.34); --f-gain:rgba(30,142,62,.30); --f-loss:rgba(198,40,40,.24); --f-band:rgba(30,142,62,.10);
   --bar:#9FB2D3;
   --u-micro:#1F4E9E; --u-macro:#A87A22; --u-global:#1E8E3E;
   --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
@@ -37,7 +42,7 @@ img{max-width:100%}
   --gold:#E2B55C; --gold-2:#E2B55C; --gold-soft:#33291A;
   --ok:#5FD38A; --ok-bg:#15301F; --bad:#FF8A80; --bad-bg:#3A1A1A;
   --k-d:#7EA9F2; --k-s:#F28B7F; --k-new:#5FD38A;
-  --f-gov:rgba(180,120,230,.28); --f-dwl:rgba(90,160,255,.34); --f-gain:rgba(95,211,138,.28); --f-loss:rgba(255,120,110,.26);
+  --f-gov:rgba(180,120,230,.28); --f-dwl:rgba(90,160,255,.34); --f-gain:rgba(95,211,138,.28); --f-loss:rgba(255,120,110,.26); --f-band:rgba(95,211,138,.12);
   --bar:#3F5680;
   --u-micro:#7EA9F2; --u-macro:#E2B55C; --u-global:#5FD38A;
   color-scheme:dark;
@@ -48,7 +53,7 @@ img{max-width:100%}
   --gold:#E2B55C; --gold-2:#E2B55C; --gold-soft:#33291A;
   --ok:#5FD38A; --ok-bg:#15301F; --bad:#FF8A80; --bad-bg:#3A1A1A;
   --k-d:#7EA9F2; --k-s:#F28B7F; --k-new:#5FD38A;
-  --f-gov:rgba(180,120,230,.28); --f-dwl:rgba(90,160,255,.34); --f-gain:rgba(95,211,138,.28); --f-loss:rgba(255,120,110,.26);
+  --f-gov:rgba(180,120,230,.28); --f-dwl:rgba(90,160,255,.34); --f-gain:rgba(95,211,138,.28); --f-loss:rgba(255,120,110,.26); --f-band:rgba(95,211,138,.12);
   --bar:#3F5680;
   --u-micro:#7EA9F2; --u-macro:#E2B55C; --u-global:#5FD38A;
   color-scheme:dark;
@@ -56,7 +61,8 @@ img{max-width:100%}
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font:16px/1.6 var(--f-body)}
 a{color:inherit}
-button{font:inherit;color:inherit;cursor:pointer}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
 :focus-visible{outline:3px solid var(--gold-2);outline-offset:2px;border-radius:4px}
 h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.05;margin:0;font-weight:700}
 h1{font-size:clamp(2.1rem,5.4vw,3.6rem);letter-spacing:-.005em}
@@ -66,31 +72,38 @@ p{margin:0}
 .wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .eyebrow{font-family:var(--f-display);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.82rem;color:var(--gold)}
 .muted{color:var(--muted)}
+.lede{color:var(--ink-2);max-width:64ch;margin-top:8px}
 
 /* ---------- cabecera ---------- */
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--navy)}
 .mast{background:var(--navy);color:var(--navy-ink)}
-.mast .bar{display:flex;align-items:center;gap:18px;padding-block:12px;flex-wrap:wrap}
+.mast .bar{display:flex;align-items:center;gap:10px 18px;padding-block:12px 0;flex-wrap:wrap}
 .brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;flex-wrap:wrap}
 .brand b{font-family:var(--f-display);font-weight:800;font-size:1.55rem;letter-spacing:.01em;line-height:1}
 .brand b i{font-style:normal;color:var(--gold-2)}
 .brand small{font-size:.78rem;opacity:.7;letter-spacing:.04em}
-.mast nav{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}
-.mast nav a{font-family:var(--f-display);font-weight:600;font-size:1.02rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:6px 12px;border-radius:6px;opacity:.78}
-.mast nav a:hover{opacity:1;background:rgba(255,255,255,.08)}
-.mast nav a[aria-current="page"]{opacity:1;box-shadow:inset 0 -2px 0 var(--gold-2)}
+.install{margin-left:auto;border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;border-radius:999px;padding:5px 14px;font-size:.85rem}
+.install:hover{border-color:var(--gold-2)}
+.mast nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;padding-block:8px 0;margin-top:2px}
+.mast nav::-webkit-scrollbar{display:none}
+.mast nav a{font-family:var(--f-display);font-weight:600;font-size:1rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:6px 12px 9px;opacity:.75;white-space:nowrap}
+.mast nav a:hover{opacity:1}
+.mast nav a[aria-current="page"]{opacity:1;box-shadow:inset 0 -3px 0 var(--gold-2)}
 .edition{border-top:1px solid rgba(255,255,255,.12);font-size:.8rem;letter-spacing:.04em}
 .edition .wrap{display:flex;gap:6px 18px;flex-wrap:wrap;padding-block:7px;opacity:.82}
 
 /* cinta de indicadores */
 .ticker{background:var(--sheet);border-bottom:1px solid var(--rule)}
 .ticker .wrap{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
-.ind{padding:12px 14px;border-left:1px solid var(--rule);display:grid;gap:2px;min-width:0}
+.ind{padding:10px 12px;border-left:1px solid var(--rule);display:grid;gap:1px;min-width:0;text-decoration:none}
 .ind:first-child{border-left:0;padding-left:0}
-.ind span{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ind b{font-family:var(--f-math);font-weight:600;font-size:1.45rem;line-height:1.1;font-variant-numeric:tabular-nums lining-nums;white-space:nowrap}
+a.ind:hover b{text-decoration:underline;text-decoration-color:var(--gold-2)}
+.ind span{font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ind .row{display:flex;align-items:center;gap:8px;justify-content:space-between;min-width:0}
+.ind b{font-family:var(--f-math);font-weight:600;font-size:1.4rem;line-height:1.1;font-variant-numeric:tabular-nums lining-nums;white-space:nowrap}
 .ind b.alert{color:var(--bad)}
-.ind small{font-size:.72rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ind svg{width:54px;height:22px;flex:none}
+.ind small{font-size:.7rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
 /* ---------- tema de la semana ---------- */
 .feature{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:28px;padding-block:30px 26px;border-bottom:1px solid var(--rule)}
@@ -114,14 +127,15 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .lens a b{font-family:var(--f-display);font-size:1.12rem;display:block;line-height:1.1}
 .lens a small{font-size:.82rem;opacity:.8;display:block;margin-top:3px}
 
-/* ---------- filtros ---------- */
+/* ---------- filtros y secciones ---------- */
 .sec-head{display:flex;align-items:end;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:26px 12px}
 .filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-bottom:16px}
 .chip{border:1px solid var(--rule);background:var(--sheet);border-radius:999px;padding:5px 13px;font-size:.88rem}
 .chip:hover{border-color:var(--ink-2)}
 .chip[aria-pressed="true"]{background:var(--navy-2);color:#fff;border-color:var(--navy-2)}
-.filters select,.filters input{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet);color:var(--ink);min-width:0;max-width:100%}
+.filters select,.filters input{font-size:.9rem;padding:6px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet);min-width:0;max-width:100%}
 .filters input{flex:1 1 220px}
+.more{font-size:.9rem;font-weight:700;text-decoration-color:var(--gold-2);text-underline-offset:3px}
 
 /* ---------- tarjetas ---------- */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,310px),1fr));gap:18px;padding-bottom:20px}
@@ -135,18 +149,20 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .unit{font-family:var(--f-display);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.76rem;padding:1px 8px;border-radius:4px;border:1.5px solid currentColor}
 .unit.micro{color:var(--u-micro)}.unit.macro{color:var(--u-macro)}.unit.global{color:var(--u-global)}
 .op{font-family:var(--f-display);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.76rem;padding:1px 8px;border-radius:4px;background:var(--ink);color:var(--paper)}
+.new{font-family:var(--f-display);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.76rem;padding:1px 8px;border-radius:4px;background:var(--gold-2);color:#16284F}
 .card h3{font-size:1.32rem}
 .card .sum{font-size:.92rem;color:var(--ink-2)}
-.card .key{display:flex;gap:10px;align-items:baseline;border-top:1px dashed var(--rule);padding-top:9px;margin-top:auto}
-.card .key b{font-family:var(--f-math);font-size:1.3rem;font-weight:600;font-variant-numeric:tabular-nums lining-nums;color:var(--navy-2);white-space:nowrap}
-:root[data-theme="dark"] .card .key b{color:var(--gold)}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .card .key b{color:var(--gold)}}
-.card .key span{font-size:.82rem;color:var(--muted)}
+.key{display:flex;gap:10px;align-items:baseline;border-top:1px dashed var(--rule);padding-top:9px;margin-top:auto}
+.key b{font-family:var(--f-math);font-size:1.3rem;font-weight:600;font-variant-numeric:tabular-nums lining-nums;color:var(--navy-2);white-space:nowrap}
+.key span{font-size:.82rem;color:var(--muted)}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
 .tag{font-size:.76rem;background:var(--gold-soft);border-radius:4px;padding:2px 7px}
 .tag.kc{background:transparent;border:1px dashed var(--gold)}
 .seen{font-size:.76rem;font-weight:700;color:var(--ok)}
 .empty{grid-column:1/-1;background:var(--sheet);border:1px dashed var(--rule);border-radius:var(--r);padding:28px;text-align:center;color:var(--muted)}
+.hl-num,.datos .v,.stat b{color:var(--navy-2)}
+:root[data-theme="dark"] .key b,:root[data-theme="dark"] .datos .v,:root[data-theme="dark"] .stat b,:root[data-theme="dark"] .out b{color:var(--gold)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .key b,:root:not([data-theme="light"]) .datos .v,:root:not([data-theme="light"]) .stat b,:root:not([data-theme="light"]) .out b{color:var(--gold)}}
 
 /* diarios */
 .press{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr));gap:10px;padding-bottom:36px}
@@ -177,9 +193,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .datos{border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);overflow:hidden}
 .datos div{display:grid;grid-template-columns:minmax(120px,auto) 1fr;gap:14px;align-items:baseline;padding:10px 14px;border-top:1px solid var(--rule)}
 .datos div:first-child{border-top:0}
-.datos .v{font-family:var(--f-math);font-weight:600;font-size:1.22rem;font-variant-numeric:tabular-nums lining-nums;color:var(--navy-2);text-align:right;white-space:nowrap}
-:root[data-theme="dark"] .datos .v{color:var(--gold)}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .datos .v{color:var(--gold)}}
+.datos .v{font-family:var(--f-math);font-weight:600;font-size:1.22rem;font-variant-numeric:tabular-nums lining-nums;text-align:right;white-space:nowrap}
 .datos .d{font-size:.93rem;color:var(--ink-2)}
 .steps{list-style:none;margin:0;padding:0;display:grid;counter-reset:st}
 .steps li{counter-increment:st;display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start;padding:8px 0;position:relative}
@@ -202,7 +216,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .sheet{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);overflow:hidden}
 .sheet .hd{background:var(--navy);color:var(--navy-ink);padding:9px 14px;font-family:var(--f-display);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.88rem;display:flex;justify-content:space-between;gap:8px}
 .sheet .fig{padding:12px;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:16px 16px}
-.sheet .fig svg{display:block;width:100%;height:auto;max-height:340px}
+.sheet .fig svg{display:block;width:100%;height:auto;max-height:360px}
 .sheet .cap{padding:11px 14px;font-size:.9rem;color:var(--ink-2);border-top:1px solid var(--rule)}
 .side h3{font-size:1.15rem}
 .dl{display:grid;grid-template-columns:96px 1fr;gap:12px;align-items:center;padding:8px;border:1px solid var(--rule);border-radius:8px;text-decoration:none;background:var(--sheet)}
@@ -216,6 +230,18 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .note{font-size:.82rem;color:var(--muted)}
 .callout{background:var(--gold-soft);border-radius:8px;padding:10px 14px;font-size:.92rem}
 
+/* ---------- diagramas interactivos ---------- */
+.ctrl{display:grid;gap:12px;padding:14px;border-top:1px solid var(--rule)}
+.ctrl label{display:grid;gap:4px;font-size:.88rem;font-weight:700}
+.ctrl label span{display:flex;justify-content:space-between;gap:8px}
+.ctrl label em{font-style:normal;font-weight:400;color:var(--muted)}
+.ctrl input[type=range]{width:100%;accent-color:var(--navy-2)}
+.ro{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+.ro div{background:var(--paper);border-radius:8px;padding:8px 10px;font-size:.85rem}
+.ro b{display:block;font-family:var(--f-display);font-size:1.15rem}
+.ro .up{color:var(--ok)}.ro .down{color:var(--bad)}
+.ro-txt{font-size:.9rem;color:var(--ink-2)}
+
 /* ---------- biblioteca ---------- */
 .lib{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:16px;padding-bottom:30px}
 .dcard{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;text-decoration:none;display:flex;flex-direction:column}
@@ -225,6 +251,53 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .err{list-style:none;padding:0;margin:0;display:grid;gap:6px}
 .err li{padding:8px 12px;background:var(--bad-bg);border-radius:8px;font-size:.92rem}
 .err li::before{content:"✗ ";color:var(--bad);font-weight:700}
+
+/* ---------- indicadores y región ---------- */
+.charts{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,520px),1fr));gap:18px;padding-bottom:40px}
+.chart{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:16px;display:grid;gap:8px;min-width:0}
+.chart .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.chart .top b{font-family:var(--f-math);font-size:1.6rem;font-weight:600;font-variant-numeric:tabular-nums lining-nums}
+.chart svg{width:100%;height:auto;display:block}
+.tbl{overflow-x:auto;border:1px solid var(--rule);border-radius:var(--r);background:var(--sheet);margin-bottom:24px}
+.tbl table{border-collapse:collapse;width:100%;min-width:620px;font-size:.92rem}
+.tbl th,.tbl td{padding:9px 12px;text-align:right;border-top:1px solid var(--rule);font-variant-numeric:tabular-nums lining-nums;white-space:nowrap}
+.tbl th:first-child,.tbl td:first-child{text-align:left}
+.tbl thead th{border-top:0;font-family:var(--f-display);font-size:.95rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.tbl tr.py td{background:var(--gold-soft);font-weight:700}
+.tbl td.nd{color:var(--muted)}
+.reads{display:grid;gap:10px;padding:0;margin:0 0 30px;list-style:none}
+.reads li{background:var(--sheet);border:1px solid var(--rule);border-left:4px solid var(--gold-2);border-radius:0 8px 8px 0;padding:10px 14px}
+
+/* ---------- semana ---------- */
+.week-nav{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.week-nav select{padding:6px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet)}
+.editorial{background:var(--navy);color:var(--navy-ink);border-radius:var(--r);padding:22px;display:grid;gap:10px;margin-block:8px 24px}
+.editorial h2{font-size:clamp(1.6rem,3.4vw,2.3rem)}
+.editorial p{max-width:72ch;opacity:.92}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,200px),1fr));gap:10px;margin-bottom:24px}
+.stat{background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:12px 14px;text-decoration:none;display:grid;gap:2px}
+.stat:hover{border-color:var(--gold)}
+.stat b{font-family:var(--f-math);font-size:1.5rem;font-weight:600;font-variant-numeric:tabular-nums lining-nums}
+.stat span{font-size:.85rem;color:var(--ink-2)}
+.stat small{font-size:.75rem;color:var(--muted)}
+.must{counter-reset:m;list-style:none;padding:0;margin:0 0 26px;display:grid;gap:10px}
+.must li{counter-increment:m;display:grid;grid-template-columns:40px 1fr;gap:12px;align-items:start;background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:12px 14px}
+.must li::before{content:counter(m);font-family:var(--f-display);font-weight:800;font-size:1.8rem;line-height:1;color:var(--gold)}
+.must a{font-family:var(--f-display);font-weight:700;font-size:1.2rem;text-decoration:none;line-height:1.1;display:block}
+.must a:hover{text-decoration:underline}
+.must p{font-size:.9rem;color:var(--ink-2);margin-top:3px}
+
+/* ---------- calculadoras ---------- */
+.calcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:18px;padding-bottom:44px}
+.calc{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:16px;display:grid;gap:12px;align-content:start}
+.calc h3{font-size:1.3rem}
+.calc .f{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.calc label{display:grid;gap:3px;font-size:.82rem;font-weight:700;color:var(--ink-2);min-width:0}
+.calc input{font-family:var(--f-math);font-size:1.1rem;padding:6px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--paper);width:100%;font-variant-numeric:tabular-nums lining-nums}
+.out{background:var(--paper);border-radius:8px;padding:10px 12px;display:grid;gap:4px}
+.out b{font-family:var(--f-math);font-size:1.5rem;font-weight:600;font-variant-numeric:tabular-nums lining-nums;color:var(--navy-2)}
+.out span{font-size:.88rem;color:var(--ink-2)}
+.calc .ex{font-size:.8rem;color:var(--muted)}
 
 footer{border-top:1px solid var(--rule);padding-block:20px 30px;font-size:.82rem;color:var(--muted)}
 footer .wrap{display:grid;gap:6px}
@@ -241,10 +314,9 @@ footer .wrap{display:grid;gap:6px}
 }
 @media (max-width:560px){
   .ticker .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .ind:nth-child(n){border-left:1px solid var(--rule);padding-left:14px;border-top:1px solid var(--rule)}
+  .ind:nth-child(n){border-left:1px solid var(--rule);padding-left:12px;border-top:1px solid var(--rule)}
   .ind:nth-child(odd){border-left:0;padding-left:0}
   .ind:nth-child(-n+2){border-top:0}
-  .mast nav{margin-left:0}
   .tl li{grid-template-columns:52px 1fr}
   .tl li::before{left:65px}
   .lens a{grid-template-columns:88px 1fr}
@@ -258,9 +330,16 @@ footer .wrap{display:grid;gap:6px}
 <header class="mast">
   <div class="wrap bar">
     <a class="brand" href="#inicio"><b>Economía en las <i>Noticias</i></b><small>Paraguay · Economía IB</small></a>
+    <button type="button" class="install" id="install" hidden>Instalar app</button>
+  </div>
+  <div class="wrap">
     <nav aria-label="Secciones">
       <a href="#inicio" data-nav="inicio">Noticias</a>
+      <a href="#semana" data-nav="semana">Semana</a>
+      <a href="#indicadores" data-nav="indicadores">Indicadores</a>
+      <a href="#region" data-nav="region">Región</a>
       <a href="#diagramas" data-nav="diagramas">Diagramas</a>
+      <a href="#calculadoras" data-nav="calculadoras">Calculadoras</a>
       <a href="#diarios" data-nav="diarios">Diarios</a>
     </nav>
   </div>
@@ -274,14 +353,16 @@ footer .wrap{display:grid;gap:6px}
   <div class="wrap">
     <span>© 2026 Prof. Econ. Hugo Rivarola · Economía en las Noticias</span>
     <span>Los resúmenes y análisis son propios. Cifras tomadas de los artículos citados; para datos oficiales consulta el BCP, el INE y el MEF.</span>
+    <span id="ios-tip" hidden>En iPhone o iPad: toca Compartir y luego «Agregar a pantalla de inicio» para instalar la app.</span>
+    <span id="offline" hidden>Sin conexión: estás viendo la última versión guardada.</span>
   </div>
 </footer>
 
 <script>
 /* =====================================================================
-   1. DATOS: las noticias, indicadores y diarios viven en datos.json
+   1. DATOS: noticias, indicadores, región y semanas viven en datos.json
    ===================================================================== */
-let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null;
+let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {};
 
 const KC = { escasez:'Escasez', eleccion:'Elección', eficiencia:'Eficiencia', equidad:'Equidad', bienestar:'Bienestar económico', sostenibilidad:'Sostenibilidad', cambio:'Cambio', interdependencia:'Interdependencia', intervencion:'Intervención' };
 const UNI = { micro:'Microeconomía', macro:'Macroeconomía', global:'Economía global' };
@@ -331,7 +412,7 @@ const LIB = {
     err:['Olvidar los triángulos de pérdida de bienestar.'] },
   'lorenz': { t:'Curva de Lorenz', u:'macro', tema:'3.4', fig:{ k:'lorenz' },
     que:'Cómo se reparte el ingreso entre la población y cómo lo cambian las transferencias.',
-    lee:['Eje horizontal: % acumulado de la población, de menor a mayor ingreso.','Eje vertical: % acumulado del ingreso que recibe esa población.','La diagonal es la igualdad perfecta.','Cuanto más se aleja la curva de la diagonal, más desigualdad.'],
+    lee:['Eje horizontal: % acumulado de la población, de menor a mayor ingreso.','Eje vertical: % acumulado del ingreso que recibe esa población.','La diagonal es la igualdad perfecta.','Cuanto más se aleja la curva de la diagonal, más desigualdad (mayor coeficiente de Gini).'],
     err:['Confundir pobreza (ingresos bajos) con desigualdad (cómo se reparte el ingreso).'] }
 };
 
@@ -348,8 +429,13 @@ const store = {
 const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 const DIAS = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
 const pd = s => { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); };
+const iso = d => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
 const fdate = s => { const d = pd(s); return d.getDate() + ' ' + MESES[d.getMonth()].slice(0, 3) + ' ' + d.getFullYear(); };
+const fshort = s => { const d = pd(s); return d.getDate() + ' ' + MESES[d.getMonth()].slice(0, 3); };
 const flong = s => { const d = pd(s); return DIAS[d.getDay()] + ' ' + d.getDate() + ' de ' + MESES[d.getMonth()] + ' de ' + d.getFullYear(); };
+const monday = s => { const d = pd(s); const k = (d.getDay() + 6) % 7; d.setDate(d.getDate() - k); return iso(d); };
+const num = (v, dec) => Number(v).toLocaleString('es-PY', { minimumFractionDigits: dec || 0, maximumFractionDigits: dec == null ? 2 : dec });
+const parseNum = s => { s = String(s).trim().replace(/\s/g, '').replace(/^G\.?/i, ''); if (/,/.test(s)) s = s.replace(/\./g, '').replace(',', '.'); else if (/^\-?\d{1,3}(\.\d{3})+$/.test(s)) s = s.replace(/\./g, ''); const v = parseFloat(s); return isNaN(v) ? null : v; };
 let BYID = {}, SORTED = [];
 const usos = key => SORTED.filter(n => n.diagramas.includes(key));
 const PROG = store.get('enp-prog', {});
@@ -359,10 +445,12 @@ const saveProg = () => store.set('enp-prog', PROG);
    3. LÁMINAS (SVG, una sola escala por diagrama)
    ===================================================================== */
 let FIGN = 0;
+const M = 140 / 180;
+function shifts(f) { if (f.sD != null || f.sO != null) return [f.sD || 0, f.sO || 0]; const s = 46 * (f.dir || 1); return f.mueve === 'D' ? [s, 0] : f.mueve === 'O' ? [0, s] : [0, 0]; }
 function fig(f) {
   if (!f) return '';
   const id = 'f' + (++FIGN);
-  const W = 320, H = 220, ox = 46, oy = 190, m = 140 / 180;
+  const W = 320, H = 220, ox = 46, oy = 190, m = M;
   const L = (x1, y1, x2, y2, col, w, dash) => `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" style="stroke:${col}" stroke-width="${w}"${dash ? ' stroke-dasharray="4 4"' : ''} stroke-linecap="round"/>`;
   const T = (x, y, t, col, a, size, fam) => `<text x="${x.toFixed(1)}" y="${y.toFixed(1)}" style="fill:${col};font-family:${fam || 'var(--f-math)'}" font-size="${size || 13}" text-anchor="${a || 'start'}">${t}</text>`;
   const axes = (yl, xl) => L(ox, 14, ox, oy, 'var(--ink)', 1.6) + L(ox, oy, W - 10, oy, 'var(--ink)', 1.6) +
@@ -372,59 +460,69 @@ function fig(f) {
   const open = h => `<svg viewBox="0 0 ${W} ${h || H}" role="img" aria-label="Diagrama" preserveAspectRatio="xMidYMid meet">${marker}`;
   const Dy = (x, k) => 40 + (x - 70 - k) * m, Oy = (x, k) => 180 - (x - 70 - k) * m;
   const seg = (fy, k, col) => { let x1 = 70 + k; if (x1 < ox + 8) x1 = ox + 8; const x2 = 230 + k; return L(x1, fy(x1, k), x2, fy(x2, k), col, 2.6); };
+  const arrow = (x1, x2, y) => Math.abs(x2 - x1) < 8 ? '' : `<line x1="${x1.toFixed(1)}" y1="${y}" x2="${x2.toFixed(1)}" y2="${y}" style="stroke:var(--k-new)" stroke-width="2" marker-end="url(#${id}a)"/>`;
 
   if (f.k === 'mercado' || f.k === 'macro' || f.k === 'divisas') {
     const AX = { mercado:['Precio', 'Cantidad'], macro:['Nivel general de precios', 'PIB real'], divisas:['Valor del guaraní (US$)', 'Cantidad de guaraníes'] }[f.k];
     const CV = { mercado:['D', 'O'], macro:['DA', 'OACP'], divisas:['D', 'O'] }[f.k];
     const PT = { mercado:['P', 'Q'], macro:['NP', 'Y'], divisas:['TC', 'Q'] }[f.k];
-    const isD = f.mueve === 'D', sh = 46 * (f.dir || 1);
+    const [sD, sO] = shifts(f), moved = sD || sO;
     let s = open() + axes(AX[0], AX[1]);
-    s += seg(Dy, 0, 'var(--k-d)') + seg(Oy, 0, 'var(--k-s)') + (isD ? seg(Dy, sh, 'var(--k-new)') : seg(Oy, sh, 'var(--k-new)'));
-    s += T(234, Dy(230, 0) + 5, CV[0] + (isD ? '₁' : ''), 'var(--k-d)') + T(234, Oy(230, 0) + 5, CV[1] + (isD ? '' : '₁'), 'var(--k-s)');
-    s += isD ? T(234 + sh, Dy(230 + sh, sh) + 5, CV[0] + '₂', 'var(--k-new)') : T(234 + sh, Oy(230 + sh, sh) + 5, CV[1] + '₂', 'var(--k-new)');
-    const E1 = [160, 110], E2 = [160 + sh / 2, isD ? 110 - sh * m / 2 : 110 + sh * m / 2];
-    [[E1, '₁'], [E2, '₂']].forEach(([p, i]) => {
+    s += seg(Dy, 0, 'var(--k-d)') + seg(Oy, 0, 'var(--k-s)');
+    if (sD) s += seg(Dy, sD, 'var(--k-new)');
+    if (sO) s += seg(Oy, sO, 'var(--k-new)');
+    s += T(234, Dy(230, 0) + 5, CV[0] + (sD ? '₁' : ''), 'var(--k-d)') + T(234, Oy(230, 0) + 5, CV[1] + (sO ? '₁' : ''), 'var(--k-s)');
+    if (sD) s += T(234 + sD, Dy(230 + sD, sD) + 5, CV[0] + '₂', 'var(--k-new)');
+    if (sO) s += T(234 + sO, Oy(230 + sO, sO) + (sD ? -8 : 5), CV[1] + '₂', 'var(--k-new)');
+    const E1 = [160, 110], E2 = [160 + (sD + sO) / 2, 110 + (sO - sD) * m / 2];
+    (moved ? [[E1, '₁'], [E2, '₂']] : [[E1, '']]).forEach(([p, i]) => {
       s += L(ox, p[1], p[0], p[1], 'var(--muted)', 1, 1) + L(p[0], p[1], p[0], oy, 'var(--muted)', 1, 1) + dot(p[0], p[1]);
       s += T(ox - 5, p[1] + 4, PT[0] + i, 'var(--ink)', 'end', 12) + T(p[0], oy + 14, PT[1] + i, 'var(--ink)', 'middle', 12);
     });
-    const ay = isD ? 70 : 84, ax0 = isD ? 70 + 30 / m : 70 + 96 / m;
-    s += `<line x1="${(ax0 + 5 * Math.sign(sh)).toFixed(1)}" y1="${ay}" x2="${(ax0 + sh * 0.85).toFixed(1)}" y2="${ay}" style="stroke:var(--k-new)" stroke-width="2" marker-end="url(#${id}a)"/>`;
+    if (sD) { const x0 = 70 + 30 / m; s += arrow(x0 + 5 * Math.sign(sD), x0 + sD * 0.85, 70); }
+    if (sO) { const x0 = 70 + 96 / m; s += arrow(x0 + 5 * Math.sign(sO), x0 + sO * 0.85, 84); }
     return s + '</svg>';
   }
   if (f.k === 'arancel') {
-    const pw = 162, pt = 136, sx = y => 70 + (180 - y) / m, dx = y => 70 + (y - 40) / m;
+    const t = f.t == null ? 26 : f.t, pw = 162, pt = pw - t, sx = y => 70 + (180 - y) / m, dx = y => 70 + (y - 40) / m;
     let s = open() + axes('Precio', 'Cantidad');
-    s += `<rect x="${sx(pt).toFixed(1)}" y="${pt}" width="${(dx(pt) - sx(pt)).toFixed(1)}" height="${pw - pt}" style="fill:var(--f-gov)"/>`;
-    s += `<polygon points="${sx(pw)},${pw} ${sx(pt)},${pt} ${sx(pt)},${pw}" style="fill:var(--f-dwl)"/><polygon points="${dx(pt)},${pt} ${dx(pw)},${pw} ${dx(pt)},${pw}" style="fill:var(--f-dwl)"/>`;
+    if (t > 0) {
+      s += `<rect x="${sx(pt).toFixed(1)}" y="${pt}" width="${(dx(pt) - sx(pt)).toFixed(1)}" height="${t}" style="fill:var(--f-gov)"/>`;
+      s += `<polygon points="${sx(pw)},${pw} ${sx(pt)},${pt} ${sx(pt)},${pw}" style="fill:var(--f-dwl)"/><polygon points="${dx(pt)},${pt} ${dx(pw)},${pw} ${dx(pt)},${pw}" style="fill:var(--f-dwl)"/>`;
+    }
     s += seg(Dy, 0, 'var(--k-d)') + seg(Oy, 0, 'var(--k-s)');
-    s += L(ox, pw, W - 14, pw, 'var(--ink-2)', 1.6) + L(ox, pt, W - 14, pt, 'var(--gold)', 2.2);
-    s += T(ox - 5, pw + 4, 'Pₘ', 'var(--ink)', 'end', 12) + T(ox - 5, pt + 4, 'Pₘ+t', 'var(--gold)', 'end', 12);
-    [[sx(pw), 'Q₁'], [sx(pt), 'Q₂'], [dx(pt), 'Q₃'], [dx(pw), 'Q₄']].forEach(([x, q]) => { s += L(x, pt, x, oy, 'var(--muted)', 1, 1) + T(x, oy + 14, q, 'var(--ink)', 'middle', 12); });
+    s += L(ox, pw, W - 14, pw, 'var(--ink-2)', 1.6) + T(ox - 5, pw + 4, 'Pₘ', 'var(--ink)', 'end', 12);
+    if (t > 0) s += L(ox, pt, W - 14, pt, 'var(--gold)', 2.2) + T(ox - 5, pt + 4, 'Pₘ+t', 'var(--gold)', 'end', 12);
+    const qs = t > 0 ? [[sx(pw), 'Q₁'], [sx(pt), 'Q₂'], [dx(pt), 'Q₃'], [dx(pw), 'Q₄']] : [[sx(pw), 'Q₁'], [dx(pw), 'Q₄']];
+    qs.forEach(([x, q]) => { s += L(x, Math.min(pt, pw), x, oy, 'var(--muted)', 1, 1) + T(x, oy + 14, q, 'var(--ink)', 'middle', 12); });
     s += T(234, Dy(230, 0) + 5, 'D', 'var(--k-d)') + T(234, Oy(230, 0) + 5, 'O', 'var(--k-s)');
-    s += T((sx(pt) + dx(pt)) / 2, (pt + pw) / 2 + 4, 'Recaudación', 'var(--ink)', 'middle', 10, 'var(--f-body)');
+    if (t >= 18) s += T((sx(pt) + dx(pt)) / 2, (pt + pw) / 2 + 4, 'Recaudación', 'var(--ink)', 'middle', 10, 'var(--f-body)');
     return s + '</svg>';
   }
   if (f.k === 'exportaciones') {
-    const pw = 70, q1 = 70 + (pw - 40) / m, q2 = 70 + (180 - pw) / m;
+    const pw = f.pw == null ? 70 : f.pw, q1 = 70 + (pw - 40) / m, q2 = 70 + (180 - pw) / m;
     let s = open() + axes('Precio', 'Cantidad');
     s += seg(Dy, 0, 'var(--k-d)') + seg(Oy, 0, 'var(--k-s)');
     s += L(ox, pw, W - 14, pw, 'var(--gold)', 2.2) + T(ox - 5, pw + 4, 'Pₘ', 'var(--gold)', 'end', 12);
     s += L(ox, 110, 160, 110, 'var(--muted)', 1, 1) + dot(160, 110) + T(ox - 5, 114, 'Pₑ', 'var(--ink)', 'end', 12);
     [[q1, 'Q₁'], [q2, 'Q₂']].forEach(([x, q]) => { s += L(x, pw, x, oy, 'var(--muted)', 1, 1) + T(x, oy + 14, q, 'var(--ink)', 'middle', 12) + dot(x, pw); });
-    s += `<line x1="${(q1 + 4).toFixed(1)}" y1="${pw - 12}" x2="${(q2 - 4).toFixed(1)}" y2="${pw - 12}" style="stroke:var(--ink-2)" stroke-width="1.6" marker-start="url(#${id}b)" marker-end="url(#${id}b)"/>`;
-    s += T((q1 + q2) / 2, pw - 18, 'Exportaciones', 'var(--ink)', 'middle', 10.5, 'var(--f-body)');
+    if (q2 - q1 > 20) {
+      s += `<line x1="${(q1 + 4).toFixed(1)}" y1="${pw - 12}" x2="${(q2 - 4).toFixed(1)}" y2="${pw - 12}" style="stroke:var(--ink-2)" stroke-width="1.6" marker-start="url(#${id}b)" marker-end="url(#${id}b)"/>`;
+      s += T((q1 + q2) / 2, pw - 18, 'Exportaciones', 'var(--ink)', 'middle', 10.5, 'var(--f-body)');
+    }
     s += T(234, Dy(230, 0) + 5, 'D', 'var(--k-d)') + T(234, Oy(230, 0) + 5, 'O', 'var(--k-s)');
     return s + '</svg>';
   }
   if (f.k === 'minimo') {
-    const wm = 80, qd = 70 + (wm - 40) / m, qs = 70 + (180 - wm) / m;
+    const wm = f.w == null ? 80 : f.w, qd = 70 + (wm - 40) / m, qs = 70 + (180 - wm) / m, binds = wm < 110;
     let s = open() + axes('Salario (W)', 'Cantidad de trabajo');
     s += seg(Dy, 0, 'var(--k-d)') + seg(Oy, 0, 'var(--k-s)');
     s += L(ox, wm, W - 14, wm, 'var(--gold)', 2.2) + T(ox - 5, wm + 4, 'W mín', 'var(--gold)', 'end', 11);
     s += L(ox, 110, 160, 110, 'var(--muted)', 1, 1) + L(160, 110, 160, oy, 'var(--muted)', 1, 1) + dot(160, 110) + T(ox - 5, 114, 'W₁', 'var(--ink)', 'end', 12) + T(160, oy + 14, 'Q₁', 'var(--ink)', 'middle', 12);
-    [[qd, 'Qd'], [qs, 'Qo']].forEach(([x, q]) => { s += L(x, wm, x, oy, 'var(--muted)', 1, 1) + T(x, oy + 14, q, 'var(--ink)', 'middle', 12) + dot(x, wm); });
-    s += L(qd + 4, wm - 12, qs - 4, wm - 12, 'var(--bad)', 1.6);
-    s += T((qd + qs) / 2, wm - 18, 'Desempleo', 'var(--bad)', 'middle', 10.5, 'var(--f-body)');
+    if (binds) {
+      [[qd, 'Qd'], [qs, 'Qo']].forEach(([x, q]) => { s += L(x, wm, x, oy, 'var(--muted)', 1, 1) + T(x, oy + 14, q, 'var(--ink)', 'middle', 12) + dot(x, wm); });
+      if (qs - qd > 24) s += L(qd + 4, wm - 12, qs - 4, wm - 12, 'var(--bad)', 1.6) + T((qd + qs) / 2, wm - 18, 'Desempleo', 'var(--bad)', 'middle', 10.5, 'var(--f-body)');
+    }
     s += T(234, Dy(230, 0) + 5, 'D', 'var(--k-d)') + T(234, Oy(230, 0) + 5, 'O', 'var(--k-s)');
     return s + '</svg>';
   }
@@ -440,12 +538,12 @@ function fig(f) {
     return s + '</svg>';
   }
   if (f.k === 'lorenz') {
-    const x0 = ox, y0 = oy, S = 170, x1 = x0 + S, y1 = y0 - S;
+    const x0 = ox, y0 = oy, S = 170, x1 = x0 + S, y1 = y0 - S, [a, b] = lorenzCtrl(f.g == null ? .6 : f.g);
     let s = open() + L(x0, 14, x0, y0, 'var(--ink)', 1.6) + L(x0, y0, x1 + 4, y0, 'var(--ink)', 1.6) + L(x1, y0, x1, y1, 'var(--rule)', 1);
     s += T(x0 + 6, 16, '% acumulado del ingreso', 'var(--ink-2)', 'start', 10.5, 'var(--f-body)') + T(x1 + 4, oy + 26, '% acumulado de la población', 'var(--ink-2)', 'end', 10.5, 'var(--f-body)');
     s += L(x0, y0, x1, y1, 'var(--ink-2)', 1.6, 1);
     s += `<path d="M${x0},${y0} Q${x0 + S * 0.86},${y0 - S * 0.04} ${x1},${y1}" style="fill:none;stroke:var(--k-s)" stroke-width="2.6"/>`;
-    s += `<path d="M${x0},${y0} Q${x0 + S * 0.7},${y0 - S * 0.2} ${x1},${y1}" style="fill:none;stroke:var(--k-new)" stroke-width="2.6"/>`;
+    s += `<path d="M${x0},${y0} Q${(x0 + S * a).toFixed(1)},${(y0 - S * b).toFixed(1)} ${x1},${y1}" style="fill:none;stroke:var(--k-new)" stroke-width="2.6"/>`;
     const lx = x1 + 10;
     [['Igualdad', 'var(--ink-2)', 1], ['Sin transf.', 'var(--k-s)'], ['Con transf.', 'var(--k-new)']].forEach(([t, c, d], i) => {
       const y = 90 + i * 24; s += L(lx, y, lx + 14, y, c, 2.4, d) + T(lx + 18, y + 4, t, 'var(--ink)', 'start', 10, 'var(--f-body)');
@@ -454,19 +552,60 @@ function fig(f) {
     return s + '</svg>';
   }
   if (f.k === 'barras') {
-    const rows = f.rows, max = Math.max(...rows.map(r => r[1])), rh = rows.length > 4 ? 23 : 34, h = Math.max(120, rows.length * rh + 34);
-    const bx = 118, bw = 150, fmt = v => v.toLocaleString('es-PY', { maximumFractionDigits: 1 });
+    const rows = f.rows, vals = rows.map(r => r[1]), lo = Math.min(0, ...vals), hi = Math.max(0, ...vals), span = (hi - lo) || 1;
+    const rh = rows.length > 4 ? 23 : 34, h = Math.max(120, rows.length * rh + 34), bx = 118, bw = 150, z = bx + (-lo / span) * bw;
     let s = open(h);
     rows.forEach(([lab, v, hl], i) => {
-      const y = 12 + i * rh, w = Math.max(3, v / max * bw), bh = rh - 9;
+      const y = 12 + i * rh, bh = rh - 9, xv = bx + ((v - lo) / span) * bw, x0 = Math.min(z, xv), w = Math.max(3, Math.abs(xv - z));
       s += T(bx - 8, y + bh / 2 + 4, esc(lab), hl ? 'var(--ink)' : 'var(--ink-2)', 'end', 11.5, 'var(--f-body)');
-      s += `<rect x="${bx}" y="${y}" width="${w.toFixed(1)}" height="${bh}" rx="3" style="fill:${hl ? 'var(--gold-2)' : 'var(--bar)'}"/>`;
-      s += T(bx + w + 6, y + bh / 2 + 4, fmt(v), 'var(--ink)', 'start', 12);
+      s += `<rect x="${x0.toFixed(1)}" y="${y}" width="${w.toFixed(1)}" height="${bh}" rx="3" style="fill:${hl ? 'var(--gold-2)' : v < 0 ? 'var(--bad)' : 'var(--bar)'}"/>`;
+      s += T(Math.max(z, xv) + 6, y + bh / 2 + 4, num(v), 'var(--ink)', 'start', 12);
     });
-    s += L(bx, 8, bx, 12 + rows.length * rh - 6, 'var(--ink)', 1.2) + T(W - 6, h - 6, f.u, 'var(--muted)', 'end', 10, 'var(--f-body)');
+    s += L(z, 8, z, 12 + rows.length * rh - 6, 'var(--ink)', 1.2) + T(W - 6, h - 6, esc(f.u || ''), 'var(--muted)', 'end', 10, 'var(--f-body)');
     return s + '</svg>';
   }
   return '';
+}
+function lorenzCtrl(g) { return [0.86 + (0.55 - 0.86) * g, 0.04 + (0.34 - 0.04) * g]; }
+function gini(a, b) { let area = 0, N = 400; for (let i = 0; i < N; i++) { const t = (i + .5) / N, y = 2 * (1 - t) * t * b + t * t, dx = 2 * a * (1 - 2 * t) + 2 * t; area += y * dx / N; } return 1 - 2 * area; }
+
+/* Gráficos de series */
+function lineChart(h, o) {
+  o = o || {};
+  const W = o.W || 560, H = o.H || 230, L0 = 46, R0 = 64, T0 = 14, B0 = 30;
+  const P = h.puntos.map(([d, v]) => [pd(d).getTime(), v]);
+  if (!P.length) return '';
+  let ymin = Math.min(...P.map(p => p[1])), ymax = Math.max(...P.map(p => p[1]));
+  if (h.banda) { ymin = Math.min(ymin, h.banda[0]); ymax = Math.max(ymax, h.banda[1]); }
+  const pad = (ymax - ymin) * 0.15 || Math.abs(ymax) * 0.1 || 1; ymin -= pad; ymax += pad;
+  if (h.u === '%' && ymin < 0 && Math.min(...P.map(p => p[1])) >= 0) ymin = 0;
+  const x0 = P[0][0], x1 = P[P.length - 1][0] === x0 ? x0 + 864e5 : P[P.length - 1][0];
+  const X = t => L0 + (t - x0) / (x1 - x0) * (W - L0 - R0), Y = v => T0 + (ymax - v) / (ymax - ymin) * (H - T0 - B0);
+  const fmt = v => h.u === 'G.' ? num(v, 0) : num(v, 1);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(h.t)}">`;
+  for (let i = 0; i <= 4; i++) { const v = ymin + (ymax - ymin) * i / 4, y = Y(v); s += `<line x1="${L0}" x2="${W - R0}" y1="${y.toFixed(1)}" y2="${y.toFixed(1)}" style="stroke:var(--grid)" stroke-width="1"/><text x="${L0 - 6}" y="${(y + 4).toFixed(1)}" text-anchor="end" font-size="10.5" style="fill:var(--muted);font-family:var(--f-body)">${fmt(v)}</text>`; }
+  if (h.banda) s += `<rect x="${L0}" width="${W - L0 - R0}" y="${Y(h.banda[1]).toFixed(1)}" height="${(Y(h.banda[0]) - Y(h.banda[1])).toFixed(1)}" style="fill:var(--f-band)"/>`;
+  if (h.meta != null) s += `<line x1="${L0}" x2="${W - R0}" y1="${Y(h.meta).toFixed(1)}" y2="${Y(h.meta).toFixed(1)}" style="stroke:var(--ok)" stroke-width="1.4" stroke-dasharray="5 4"/><text x="${W - R0 + 6}" y="${(Y(h.meta) + 4).toFixed(1)}" font-size="10.5" style="fill:var(--ok);font-family:var(--f-body)">meta ${num(h.meta, 1)}</text>`;
+  const seen = new Set();
+  P.forEach(([t]) => { const d = new Date(t), k = d.getFullYear() + '-' + d.getMonth(); if (seen.has(k)) return; seen.add(k); });
+  const months = [...seen].map(k => { const [y, mo] = k.split('-').map(Number); return new Date(y, mo, 15).getTime(); });
+  const step = Math.ceil(months.length / 6);
+  months.forEach((t, i) => { if (i % step) return; const x = Math.min(Math.max(X(t), L0), W - R0); const d = new Date(t); s += `<text x="${x.toFixed(1)}" y="${H - 10}" text-anchor="middle" font-size="10.5" style="fill:var(--muted);font-family:var(--f-body)">${MESES[d.getMonth()].slice(0, 3)}${d.getMonth() === 0 || i === 0 ? ' ' + String(d.getFullYear()).slice(2) : ''}</text>`; });
+  let path = '';
+  P.forEach(([t, v], i) => { const x = X(t), y = Y(v); if (!i) path += `M${x.toFixed(1)},${y.toFixed(1)}`; else if (h.escalon) path += `H${x.toFixed(1)}V${y.toFixed(1)}`; else path += `L${x.toFixed(1)},${y.toFixed(1)}`; });
+  s += `<path d="${path}" style="fill:none;stroke:var(--navy-2)" stroke-width="2.4" stroke-linejoin="round"/>`;
+  P.forEach(([t, v], i) => { const last = i === P.length - 1; s += `<circle cx="${X(t).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="${last ? 5 : 3}" style="fill:${last ? 'var(--gold-2)' : 'var(--navy-2)'}"><title>${fdate(iso(new Date(t)))}: ${fmt(v)} ${h.u}</title></circle>`; });
+  const [lt, lv] = P[P.length - 1];
+  s += `<text x="${(X(lt) + 8).toFixed(1)}" y="${(Y(lv) + 4).toFixed(1)}" font-size="12.5" font-weight="700" style="fill:var(--ink);font-family:var(--f-body)">${fmt(lv)}</text>`;
+  return s + '</svg>';
+}
+function spark(h) {
+  const P = h.puntos.map(([d, v]) => [pd(d).getTime(), v]); if (P.length < 2) return '';
+  const W = 54, H = 22, x0 = P[0][0], x1 = P[P.length - 1][0], lo = Math.min(...P.map(p => p[1])), hi = Math.max(...P.map(p => p[1])), sp = (hi - lo) || 1;
+  const X = t => 2 + (t - x0) / (x1 - x0) * (W - 6), Y = v => 3 + (hi - v) / sp * (H - 6);
+  const d = P.map(([t, v], i) => (i ? 'L' : 'M') + X(t).toFixed(1) + ',' + Y(v).toFixed(1)).join('');
+  const [lt, lv] = P[P.length - 1];
+  return `<svg viewBox="0 0 ${W} ${H}" aria-hidden="true"><path d="${d}" style="fill:none;stroke:var(--navy-2)" stroke-width="1.6"/><circle cx="${X(lt).toFixed(1)}" cy="${Y(lv).toFixed(1)}" r="2.6" style="fill:var(--gold-2)"/></svg>`;
 }
 
 /* =====================================================================
@@ -474,9 +613,14 @@ function fig(f) {
    ===================================================================== */
 const F = Object.assign({ u: 'todas', kc: 'todos', medio: 'todos', q: '' }, store.get('enp-filtro', {}));
 const unitTag = u => `<span class="unit ${u}">${UNI[u]}</span>`;
+const isNew = n => (pd(ACTUALIZADO) - pd(n.fecha)) / 864e5 <= 2;
 
 function renderTicker() {
-  $('#ticker').innerHTML = `<div class="wrap">${INDICADORES.map(([l, v, s, a]) => `<div class="ind"><span>${l}</span><b class="${a ? 'alert' : ''}">${v}</b><small>${s}</small></div>`).join('')}</div>`;
+  $('#ticker').innerHTML = `<div class="wrap">${INDICADORES.map(i => {
+    const h = i.k && HIST[i.k];
+    const inner = `<span>${esc(i.n)}</span><div class="row"><b class="${i.alert ? 'alert' : ''}">${esc(i.v)}</b>${h ? spark(h) : ''}</div><small>${esc(i.s)}</small>`;
+    return h ? `<a class="ind" href="#indicadores" title="Ver evolución">${inner}</a>` : `<div class="ind">${inner}</div>`;
+  }).join('')}</div>`;
   $('#ed-date').textContent = 'Actualizado el ' + flong(ACTUALIZADO);
   $('#ed-count').textContent = NOTICIAS.length + ' noticias · ' + new Set(NOTICIAS.map(n => n.medio)).size + ' medios';
 }
@@ -486,7 +630,7 @@ function card(n) {
   return `<a class="card" href="#n-${n.id}">
     <div class="plate">${fig(n.fig)}</div>
     <div class="body">
-      <div class="meta">${n.opinion ? '<span class="op">Opinión</span>' : ''}${unitTag(n.unidad)}<span>${esc(n.medio)} · ${fdate(n.fecha)}</span>${seen ? '<span class="seen">✓ Leída</span>' : ''}</div>
+      <div class="meta">${isNew(n) ? '<span class="new">Nuevo</span>' : ''}${n.opinion ? '<span class="op">Opinión</span>' : ''}${unitTag(n.unidad)}<span>${esc(n.medio)} · ${fdate(n.fecha)}</span>${seen ? '<span class="seen">✓ Leída</span>' : ''}</div>
       <h3>${esc(n.titulo)}</h3>
       <p class="sum">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p>
       <div class="tags">${n.diagramas.map(k => `<span class="tag">${esc(LIB[k].t)}</span>`).join('')}${KC[n.kc] ? `<span class="tag kc">${KC[n.kc]}</span>` : ''}</div>
@@ -496,39 +640,39 @@ function card(n) {
 
 function renderHome() {
   const D = DESTACADO;
-  const featHTML = D ? `    <section class="feature">
+  const list = SORTED.filter(n => (F.u === 'todas' || n.unidad === F.u) && (F.kc === 'todos' || n.kc === F.kc) && (F.medio === 'todos' || n.medio === F.medio) &&
+    (!F.q || norm([n.titulo, n.resumen, n.contexto, n.medio, ...n.conceptos.map(c => c[0]), ...n.diagramas.map(k => LIB[k].t)].join(' ')).includes(norm(F.q))));
+  const medios = [...new Set(NOTICIAS.map(n => n.medio))].sort();
+  const feat = D ? `
+    <section class="feature">
       <div class="lead">
-        <div class="eyebrow">${D.eyebrow}</div>
-        <h1>${D.titulo}</h1>
-        <p class="dek">${D.dek}</p>
-        <ol class="tl">${D.tl.map(([d, t, id]) => `<li><time>${d}</time><div>${esc(t)} <a href="#n-${id}">Leer →</a></div></li>`).join('')}</ol>
+        <div class="eyebrow">${esc(D.eyebrow)}</div>
+        <h1>${esc(D.titulo)}</h1>
+        <p class="dek">${esc(D.dek)}</p>
+        <ol class="tl">${D.tl.map(([d, t, id]) => `<li><time>${esc(d)}</time><div>${esc(t)} ${BYID[id] ? `<a href="#n-${id}">Leer →</a>` : ''}</div></li>`).join('')}</ol>
       </div>
       <aside class="lens">
         <div class="eyebrow">Léela con tres diagramas</div>
         <h3>Cómo se explica en Economía IB</h3>
-        <p>La misma crisis se ve distinta según el mercado que mires. Toca un diagrama para ver cómo se lee y en qué otras noticias aparece.</p>
-        ${D.lentes.map(([k, t]) => `<a href="#d-${k}">${fig(LIB[k].fig)}<span><b>${esc(LIB[k].t)}</b><small>${esc(t)}</small></span></a>`).join('')}
+        <p>La misma crisis se ve distinta según el mercado que mires. Toca un diagrama para moverlo y ver en qué otras noticias aparece.</p>
+        ${(D.lentes || []).filter(([k]) => LIB[k]).map(([k, t]) => `<a href="#d-${k}">${fig(LIB[k].fig)}<span><b>${esc(LIB[k].t)}</b><small>${esc(t)}</small></span></a>`).join('')}
       </aside>
-    </section>
-` : '';
-  const list = SORTED.filter(n => (F.u === 'todas' || n.unidad === F.u) && (F.kc === 'todos' || n.kc === F.kc) && (F.medio === 'todos' || n.medio === F.medio) &&
-    (!F.q || norm([n.titulo, n.resumen, n.contexto, n.medio, ...n.conceptos.map(c => c[0]), ...n.diagramas.map(k => LIB[k].t)].join(' ')).includes(norm(F.q))));
-  const medios = [...new Set(NOTICIAS.map(n => n.medio))].sort();
+    </section>` : '';
   $('#app').innerHTML = `
   <div class="wrap">
-    ${featHTML}
-
-    <div class="sec-head"><div><div class="eyebrow">Últimas noticias</div><h2>La economía paraguaya, explicada</h2></div><span class="note">${list.length} de ${NOTICIAS.length} noticias</span></div>
+    ${feat}
+    <div class="sec-head"><div><div class="eyebrow">Últimas noticias</div><h2>La economía paraguaya, explicada</h2></div><a class="more" href="#semana">Resumen de la semana →</a></div>
     <div class="filters" role="group" aria-label="Filtros">
       ${['todas', 'micro', 'macro', 'global'].map(u => `<button type="button" class="chip" data-u="${u}" aria-pressed="${F.u === u}">${u === 'todas' ? 'Todas' : UNI[u]}</button>`).join('')}
       <select id="fkc" aria-label="Concepto clave"><option value="todos">Todos los conceptos clave</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${F.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select>
-      <select id="fmed" aria-label="Diario"><option value="todos">Todos los diarios</option>${medios.map(m => `<option${F.medio === m ? ' selected' : ''}>${esc(m)}</option>`).join('')}</select>
+      <select id="fmed" aria-label="Diario"><option value="todos">Todos los medios</option>${medios.map(m => `<option${F.medio === m ? ' selected' : ''}>${esc(m)}</option>`).join('')}</select>
       <input id="fq" type="search" placeholder="Buscar: dólar, inflación, soja, déficit…" value="${esc(F.q)}" aria-label="Buscar noticias">
+      <span class="note">${list.length} de ${NOTICIAS.length}</span>
     </div>
     <div class="grid">${list.length ? list.map(card).join('') : '<div class="empty">No hay noticias con esos filtros. Prueba con otra unidad o borra la búsqueda.</div>'}</div>
 
-    <div class="sec-head"><div><div class="eyebrow">Fuentes</div><h2>Sigue la economía en los diarios</h2></div><a class="note" href="#diarios">Ver todos →</a></div>
-    <div class="press">${DIARIOS.slice(0, 6).map(([n, u, d]) => `<a class="paper" href="${u}" target="_blank" rel="noopener"><b>${esc(n)}</b><small>${esc(d)}</small></a>`).join('')}</div>
+    <div class="sec-head"><div><div class="eyebrow">Fuentes</div><h2>Sigue la economía en los diarios</h2></div><a class="more" href="#diarios">Ver todos →</a></div>
+    <div class="press">${DIARIOS.slice(0, 6).map(([n, u, d]) => `<a class="paper" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(n)}</b><small>${esc(d)}</small></a>`).join('')}</div>
   </div>`;
   const save = () => store.set('enp-filtro', F);
   document.querySelectorAll('.chip').forEach(b => b.onclick = () => { F.u = b.dataset.u; save(); renderHome(); jump(); });
@@ -547,7 +691,7 @@ function renderNews(n) {
   <div class="wrap">
     <a class="crumb" href="#inicio">← Todas las noticias</a>
     <header class="head">
-      <div class="meta">${n.opinion ? '<span class="op">Opinión</span>' : ''}${unitTag(n.unidad)}<span>Tema ${n.tema} · ${esc(TEMAS[n.tema] || '')}</span><span class="tag kc">Concepto clave: ${KC[n.kc]}</span></div>
+      <div class="meta">${n.opinion ? '<span class="op">Opinión</span>' : ''}${unitTag(n.unidad)}<span>Tema ${esc(n.tema)} · ${esc(TEMAS[n.tema] || '')}</span>${KC[n.kc] ? `<span class="tag kc">Concepto clave: ${KC[n.kc]}</span>` : ''}</div>
       <h1>${esc(n.titulo)}</h1>
       <p class="dek">${esc(n.resumen)}</p>
       <div class="srcs">${fuentes.map(([m, u, f], i) => `<a class="btn${i ? '' : ' primary'}" href="${esc(u)}" target="_blank" rel="noopener">Leer en ${esc(m)} · ${fdate(f)} ↗</a>`).join('')}</div>
@@ -556,12 +700,12 @@ function renderNews(n) {
       <div class="col">
         <section class="block"><h2><small>Contexto</small>Por qué importa</h2><p class="prose">${esc(n.contexto)}</p>
           ${n.opinion ? '<p class="callout">Esta nota es una <b>columna de opinión</b>. Las cifras son cálculos del autor, no datos oficiales.</p>' : ''}</section>
-        <section class="block"><h2><small>Datos</small>Las cifras clave</h2>
-          <div class="datos">${n.datos.map(([v, d]) => `<div><span class="v">${esc(v)}</span><span class="d">${esc(d)}</span></div>`).join('')}</div></section>
-        <section class="block"><h2><small>Análisis</small>Cómo se explica con economía</h2>
-          <ol class="steps">${n.pasos.map(s => `<li><span>${esc(s)}</span></li>`).join('')}</ol></section>
-        <section class="block"><h2><small>Vocabulario</small>Conceptos para entenderla</h2>
-          <dl class="terms">${n.conceptos.map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join('')}</dl></section>
+        ${n.datos.length ? `<section class="block"><h2><small>Datos</small>Las cifras clave</h2>
+          <div class="datos">${n.datos.map(([v, d]) => `<div><span class="v">${esc(v)}</span><span class="d">${esc(d)}</span></div>`).join('')}</div></section>` : ''}
+        ${n.pasos.length ? `<section class="block"><h2><small>Análisis</small>Cómo se explica con economía</h2>
+          <ol class="steps">${n.pasos.map(s => `<li><span>${esc(s)}</span></li>`).join('')}</ol></section>` : ''}
+        ${n.conceptos.length ? `<section class="block"><h2><small>Vocabulario</small>Conceptos para entenderla</h2>
+          <dl class="terms">${n.conceptos.map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join('')}</dl></section>` : ''}
         ${pr ? `<section class="block"><h2><small>Comprueba</small>¿Lo entendiste?</h2>
           <div class="quiz" id="quiz">
             <p><b>${esc(pr.q)}</b></p>
@@ -570,8 +714,8 @@ function renderNews(n) {
           </div></section>` : ''}
       </div>
       <aside class="side">
-        ${n.fig ? `<div class="sheet"><div class="hd"><span>Lámina</span><span>${n.fig && n.fig.k === 'barras' ? 'datos' : 'esquema'}</span></div><div class="fig">${fig(n.fig)}</div><div class="cap">${esc(n.cap || '')}</div></div>` : ''}
-        ${n.diagramas.length ? `<div class="block"><h3>Diagramas de esta noticia</h3>${n.diagramas.map(k => `<a class="dl" href="#d-${k}">${fig(LIB[k].fig)}<span><b>${esc(LIB[k].t)}</b><small>Tema ${LIB[k].tema} · cómo leerlo y errores comunes</small></span></a>`).join('')}</div>` : '<p class="note">Este tema se analiza mejor con conceptos que con un diagrama.</p>'}
+        ${n.fig ? `<div class="sheet"><div class="hd"><span>Lámina</span><span>${n.fig.k === 'barras' ? 'datos' : 'esquema'}</span></div><div class="fig">${fig(n.fig)}</div><div class="cap">${esc(n.cap || '')}</div></div>` : ''}
+        ${n.diagramas.length ? `<div class="block"><h3>Diagramas de esta noticia</h3>${n.diagramas.map(k => `<a class="dl" href="#d-${k}">${fig(LIB[k].fig)}<span><b>${esc(LIB[k].t)}</b><small>Tema ${LIB[k].tema} · muévelo y mira qué cambia</small></span></a>`).join('')}</div>` : '<p class="note">Este tema se analiza mejor con conceptos que con un diagrama.</p>'}
         ${n.rel && n.rel.length ? `<div class="block"><h3>Noticias relacionadas</h3><div class="rel">${n.rel.map(id => BYID[id]).filter(Boolean).map(r => `<a href="#n-${r.id}">${esc(r.titulo)}<small>${esc(r.medio)} · ${fdate(r.fecha)}</small></a>`).join('')}</div></div>` : ''}
       </aside>
     </div>
@@ -583,14 +727,70 @@ function renderNews(n) {
 
 function renderLib() {
   $('#app').innerHTML = `<div class="wrap">
-    <div class="sec-head"><div><div class="eyebrow">Biblioteca</div><h1>Diagramas</h1><p class="muted" style="max-width:62ch;margin-top:8px">Los diagramas de Economía IB que explican las noticias de esta página. Cada uno muestra cómo leerlo, los errores más comunes y en qué noticias aparece.</p></div></div>
+    <div class="sec-head"><div><div class="eyebrow">Biblioteca</div><h1>Diagramas</h1><p class="lede">Los diagramas de Economía IB que explican las noticias. Abre uno para moverlo con los controles, ver qué cambia, leer los errores más comunes y encontrar las noticias donde aparece.</p></div></div>
     ${['micro', 'macro', 'global'].map(u => `<div class="sec-head" style="padding-top:8px"><h2>${UNI[u]}</h2></div>
       <div class="lib">${Object.entries(LIB).filter(([, d]) => d.u === u).map(([k, d]) => `<a class="dcard" href="#d-${k}"><div class="plate">${fig(d.fig)}</div><div class="body"><div class="meta">${unitTag(d.u)}<span>Tema ${d.tema}</span></div><h3>${esc(d.t)}</h3><span class="note">${usos(k).length} ${usos(k).length === 1 ? 'noticia' : 'noticias'}</span></div></a>`).join('')}</div>`).join('')}
   </div>`;
 }
 
+/* Controles de cada diagrama interactivo */
+function controlsFor(f) {
+  const k = f.k;
+  if (k === 'mercado' || k === 'macro' || k === 'divisas') {
+    const [sD, sO] = shifts(f);
+    const nm = { mercado:['Demanda (D)', 'Oferta (O)'], macro:['Demanda agregada (DA)', 'Oferta agregada (OACP)'], divisas:['Demanda de guaraníes', 'Oferta de guaraníes'] }[k];
+    return { st: { k, sD, sO }, sliders: [['sD', nm[0], -50, 50, sD], ['sO', nm[1], -50, 50, sO]] };
+  }
+  if (k === 'arancel') return { st: { k, t: 26 }, sliders: [['t', 'Tamaño del arancel', 0, 44, 26]] };
+  if (k === 'minimo') return { st: { k, w: 80 }, sliders: [['w', 'Salario mínimo', 0, 60, 30, v => 110 - v]] };
+  if (k === 'exportaciones') return { st: { k, pw: 70 }, sliders: [['pw', 'Precio mundial', 0, 60, 40, v => 110 - v]] };
+  if (k === 'lorenz') return { st: { k, g: .6 }, sliders: [['g', 'Transferencias del Estado', 0, 100, 60, v => v / 100]] };
+  return null;
+}
+function readout(st) {
+  const arrow = v => Math.abs(v) < 0.5 ? ['=', 'sin cambio', ''] : v > 0 ? ['↑', 'sube', 'up'] : ['↓', 'baja', 'down'];
+  const box = (lab, v, words) => { const [a, w, c] = arrow(v); return `<div><span>${lab}</span><b class="${c}">${a} ${words ? words(v) : w}</b></div>`; };
+  if (st.k === 'mercado' || st.k === 'macro' || st.k === 'divisas') {
+    const dP = (st.sD - st.sO) * M / 2, dQ = (st.sD + st.sO) / 2;
+    let txt = '';
+    if (st.k === 'macro') {
+      if (!st.sD && !st.sO) txt = 'Mueve la DA o la OACP para ver un shock.';
+      else if (st.sD > 0 && !st.sO) txt = 'Más gasto (C, I, G o X − M): crecimiento con inflación de demanda.';
+      else if (st.sD < 0 && !st.sO) txt = 'Menos gasto: cae el PIB real y aparece desempleo cíclico.';
+      else if (st.sO < 0 && !st.sD) txt = 'Costos más altos: inflación por costos y menos producción (estanflación).';
+      else if (st.sO > 0 && !st.sD) txt = 'Costos más bajos: más producción con precios más bajos.';
+      else txt = 'Se mueven las dos curvas: el resultado depende de cuál se desplaza más.';
+      return `<div class="ro">${box('Nivel general de precios', dP)}${box('PIB real', dQ)}</div><p class="ro-txt">${txt}</p>`;
+    }
+    if (st.k === 'divisas') {
+      txt = !st.sD && !st.sO ? 'Mueve la demanda o la oferta de guaraníes.' : dP > 0.5 ? 'El guaraní se aprecia: el dólar cuesta menos guaraníes; se abaratan las importaciones.' : dP < -0.5 ? 'El guaraní se deprecia: el dólar cuesta más guaraníes; se abaratan las exportaciones.' : 'El valor del guaraní casi no cambia.';
+      return `<div class="ro">${box('Valor del guaraní', dP, v => v > 0 ? 'se aprecia' : 'se deprecia')}${box('Guaraníes intercambiados', dQ)}</div><p class="ro-txt">${txt}</p>`;
+    }
+    txt = !st.sD && !st.sO ? 'Mueve la demanda o la oferta.' : 'Con oferta y demanda, el precio cambia hasta eliminar el exceso de oferta o de demanda.';
+    return `<div class="ro">${box('Precio', dP)}${box('Cantidad', dQ)}</div><p class="ro-txt">${txt}</p>`;
+  }
+  if (st.k === 'arancel') {
+    const m = M, sx = y => 70 + (180 - y) / m, dx = y => 70 + (y - 40) / m, pw = 162, pt = pw - st.t;
+    const imp0 = dx(pw) - sx(pw), imp = dx(pt) - sx(pt), ch = (imp / imp0 - 1) * 100;
+    return `<div class="ro"><div><span>Precio interno</span><b class="${st.t ? 'up' : ''}">${st.t ? '↑ Pₘ + t' : '= Pₘ'}</b></div><div><span>Importaciones</span><b class="${st.t ? 'down' : ''}">${st.t ? '↓ ' + num(Math.abs(ch), 0) + ' %' : '= libre comercio'}</b></div><div><span>Producción local</span><b class="${st.t ? 'up' : ''}">${st.t ? '↑ sube' : '= sin cambio'}</b></div></div><p class="ro-txt">${st.t ? 'Ganan los productores locales y el Estado (recaudación); pierden los consumidores. Los triángulos azules son pérdida de bienestar.' : 'Sin arancel: libre comercio al precio mundial.'}</p>`;
+  }
+  if (st.k === 'minimo') {
+    const qd = 70 + (st.w - 40) / M, qs = 70 + (180 - st.w) / M, binds = st.w < 110, u = binds ? (qs - qd) / (160 - 46) * 100 : 0;
+    return `<div class="ro"><div><span>Empleo</span><b class="${binds ? 'down' : ''}">${binds ? '↓ Qd < Q₁' : '= Q₁'}</b></div><div><span>Desempleo</span><b class="${binds ? 'down' : ''}">${binds ? num(u, 0) + ' % de Q₁' : 'no hay'}</b></div></div><p class="ro-txt">${binds ? 'Cuanto más alto el salario mínimo sobre el de equilibrio, mayor el excedente de trabajo.' : 'Un salario mínimo por debajo del de equilibrio no tiene efecto.'}</p>`;
+  }
+  if (st.k === 'exportaciones') {
+    const q1 = 70 + (st.pw - 40) / M, q2 = 70 + (180 - st.pw) / M, x = q2 - q1;
+    return `<div class="ro"><div><span>Exportaciones</span><b class="${x > 1 ? 'up' : ''}">${x > 1 ? '↑ Q₂ − Q₁' : '= no se exporta'}</b></div><div><span>Precio para consumidores locales</span><b class="${x > 1 ? 'up' : ''}">${x > 1 ? '↑ sube' : '= Pₑ'}</b></div></div><p class="ro-txt">${x > 1 ? 'Cuanto más alto el precio mundial, más ofrecen los productores, menos compran los consumidores locales y más se exporta.' : 'Si el precio mundial iguala al interno, no conviene exportar.'}</p>`;
+  }
+  if (st.k === 'lorenz') {
+    const [a, b] = lorenzCtrl(st.g), g0 = gini(.86, .04), g1 = gini(a, b);
+    return `<div class="ro"><div><span>Gini sin transferencias</span><b>${num(g0, 2)}</b></div><div><span>Gini con transferencias</span><b class="${g1 < g0 - .005 ? 'up' : ''}">${num(g1, 2)}</b></div></div><p class="ro-txt">Más transferencias acercan la curva a la diagonal y bajan el coeficiente de Gini (0 = igualdad total, 1 = desigualdad total). Valores ilustrativos.</p>`;
+  }
+  return '';
+}
+
 function renderDiagram(k) {
-  const d = LIB[k], ns = usos(k);
+  const d = LIB[k], ns = usos(k), c = controlsFor(d.fig);
   $('#app').innerHTML = `<div class="wrap">
     <a class="crumb" href="#diagramas">← Todos los diagramas</a>
     <header class="head"><div class="meta">${unitTag(d.u)}<span>Tema ${d.tema} · ${esc(TEMAS[d.tema] || '')}</span></div><h1>${esc(d.t)}</h1><p class="dek">${esc(d.que)}</p></header>
@@ -601,22 +801,139 @@ function renderDiagram(k) {
         <section class="block"><h2><small>En las noticias</small>Dónde aparece</h2>
           ${ns.length ? `<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))">${ns.map(card).join('')}</div>` : '<p class="note">Todavía no hay noticias con este diagrama.</p>'}</section>
       </div>
-      <aside class="side"><div class="sheet"><div class="hd"><span>Lámina</span><span>Tema ${esc(d.tema)}</span></div><div class="fig">${fig(d.fig)}</div></div></aside>
+      <aside class="side"><div class="sheet"><div class="hd"><span>${c ? 'Diagrama interactivo' : 'Lámina'}</span><span>Tema ${esc(d.tema)}</span></div><div class="fig" id="figbox">${fig(d.fig)}</div>
+        ${c ? `<div class="ctrl">${c.sliders.map(([key, lab, mn, mx, val]) => `<label for="sl-${key}"><span>${lab}<em id="lv-${key}"></em></span><input type="range" id="sl-${key}" data-k="${key}" min="${mn}" max="${mx}" value="${val}"></label>`).join('')}
+          <div id="ro"></div><div><button type="button" class="btn" id="rst">Volver al inicio</button></div></div>` : ''}
+      </div></aside>
     </div></div>`;
+  if (!c) return;
+  const st = Object.assign({}, c.st), map = Object.fromEntries(c.sliders.map(s => [s[0], s[5] || (v => v)]));
+  const desc = (key, v) => { if (key === 'sD' || key === 'sO') return v === 0 ? 'sin mover' : v > 0 ? 'a la derecha' : 'a la izquierda'; if (key === 'g') return v + ' %'; return ''; };
+  const draw = () => {
+    $('#figbox').innerHTML = fig(st.k === 'mercado' || st.k === 'macro' || st.k === 'divisas' ? { k: st.k, sD: st.sD, sO: st.sO } : st);
+    $('#ro').innerHTML = readout(st);
+    c.sliders.forEach(([key]) => { const el = $('#lv-' + key); if (el) el.textContent = desc(key, +$('#sl-' + key).value); });
+  };
+  document.querySelectorAll('.ctrl input[type=range]').forEach(el => el.oninput = () => { st[el.dataset.k] = map[el.dataset.k](+el.value); draw(); });
+  $('#rst').onclick = () => { c.sliders.forEach(([key, , , , val]) => { $('#sl-' + key).value = val; st[key] = map[key](val); }); draw(); };
+  c.sliders.forEach(([key, , , , val]) => { st[key] = map[key](val); });
+  draw();
 }
 
 function renderPress() {
   const cnt = m => NOTICIAS.filter(n => n.medio === m).length;
-  const row = ([n, u, d], off) => `<a class="paper${off ? ' off' : ''}" href="${u}" target="_blank" rel="noopener"><b>${esc(n)}</b><small>${esc(d)}${!off && cnt(n) ? ` · ${cnt(n)} en esta página` : ''}</small></a>`;
+  const row = ([n, u, d], off) => `<a class="paper${off ? ' off' : ''}" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(n)}</b><small>${esc(d)}${!off && cnt(n) ? ` · ${cnt(n)} en esta página` : ''}</small></a>`;
   $('#app').innerHTML = `<div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Fuentes</div><h1>Diarios y fuentes oficiales</h1>
-      <p class="muted" style="max-width:64ch;margin-top:8px">Cada noticia de esta página enlaza al artículo original. Aquí están las secciones de economía de los principales diarios del Paraguay y las fuentes oficiales de los datos. Leer la misma noticia en dos medios es un buen ejercicio para separar hechos de opiniones.</p></div></div>
+      <p class="lede">Cada noticia de esta página enlaza al artículo original. Aquí están las secciones de economía de los principales diarios del Paraguay y las fuentes oficiales de los datos. Leer la misma noticia en dos medios es un buen ejercicio para separar hechos de opiniones.</p></div></div>
     <h2 style="margin-bottom:12px">Diarios</h2>
     <div class="press">${DIARIOS.map(r => row(r)).join('')}</div>
     <h2 style="margin-bottom:12px">Fuentes oficiales de datos</h2>
     <div class="press">${OFICIALES.map(r => row(r, 1)).join('')}</div>
     <div class="callout" style="margin-bottom:40px"><b>Cómo leer una noticia económica:</b> busca primero el dato (qué cambió y cuánto), después la causa que da el medio, y por último pregúntate qué mercado se mueve: ¿un producto, todo el país o la moneda? Eso te dice qué diagrama usar.</div>
   </div>`;
+}
+
+/* Resumen semanal */
+function renderWeek(key) {
+  const groups = {};
+  SORTED.forEach(n => { const w = monday(n.fecha); (groups[w] = groups[w] || []).push(n); });
+  const weeks = Object.keys(groups).sort().reverse();
+  if (!weeks.length) { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">Todavía no hay noticias.</div></div>'; return; }
+  const w = groups[key] ? key : weeks[0], list = groups[w], ed = SEMANAS[w];
+  const end = pd(w); end.setDate(end.getDate() + 6);
+  const must = (ed && ed.claves ? ed.claves.map(id => BYID[id]).filter(Boolean) : list).slice(0, 5);
+  const stats = list.filter(n => n.clave).slice(0, 6);
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Resumen semanal</div><h1>Semana del ${fshort(w)} al ${fdate(iso(end))}</h1></div>
+      <div class="week-nav"><label class="note" for="wsel">Otra semana</label><select id="wsel">${weeks.map(x => { const e = pd(x); e.setDate(e.getDate() + 6); return `<option value="${x}"${x === w ? ' selected' : ''}>${fshort(x)} – ${fshort(iso(e))} (${groups[x].length})</option>`; }).join('')}</select></div></div>
+    ${ed ? `<section class="editorial"><div class="eyebrow">Lo que pasó</div><h2>${esc(ed.titulo)}</h2><p>${esc(ed.texto)}</p></section>` : ''}
+    <h2 style="margin-bottom:12px">Lo esencial</h2>
+    <ol class="must">${must.map(n => `<li><div><a href="#n-${n.id}">${esc(n.titulo)}</a><p>${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p><span class="note">${esc(n.medio)} · ${fdate(n.fecha)}</span></div></li>`).join('')}</ol>
+    ${stats.length ? `<h2 style="margin-bottom:12px">Los números de la semana</h2><div class="stats">${stats.map(n => `<a class="stat" href="#n-${n.id}"><b>${esc(n.clave[0])}</b><span>${esc(n.clave[1])}</span><small>${esc(n.titulo)}</small></a>`).join('')}</div>` : ''}
+    <h2 style="margin-bottom:12px">Todas las noticias de la semana (${list.length})</h2>
+    <div class="grid" style="padding-bottom:40px">${list.map(card).join('')}</div>
+  </div>`;
+  $('#wsel').onchange = e => { location.hash = 'semana-' + e.target.value; };
+}
+
+/* Indicadores */
+function renderIndic() {
+  const keys = Object.keys(HIST);
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Datos</div><h1>Indicadores de Paraguay</h1><p class="lede">Cómo evolucionaron los principales indicadores de la economía paraguaya. Cada punto es un dato publicado; el último aparece resaltado. La actualización diaria agrega los datos nuevos.</p></div></div>
+    <div class="charts">${keys.map(k => { const h = HIST[k], last = h.puntos[h.puntos.length - 1]; return `<section class="chart">
+      <div class="top"><h3>${esc(h.t)}</h3><b>${h.u === 'G.' ? 'G. ' + num(last[1], 0) : num(last[1], 2) + ' ' + esc(h.u)}</b></div>
+      <span class="note">Último dato: ${fdate(last[0])}</span>
+      ${lineChart(h)}
+      <p class="note">${esc(h.lee || '')}</p>
+      <p class="note">Fuente: ${esc(h.fuente || '')}</p></section>`; }).join('')}</div>
+  </div>`;
+}
+
+/* Región */
+function renderRegion() {
+  if (!REGION) { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">Todavía no hay datos de la región.</div></div>'; return; }
+  const R = REGION, C = R.paises, ind = R.indicadores;
+  const get = k => ind.find(i => i.k === k);
+  const tasa = get('tasa'), infl = get('inflacion');
+  const real = tasa && infl ? Object.fromEntries(C.filter(p => tasa.v[p] != null && infl.v[p] != null).map(p => [p, +(tasa.v[p] - infl.v[p]).toFixed(2)])) : {};
+  const all = [...ind]; if (Object.keys(real).length) all.push({ k: 'real', t: 'Tasa de interés real (aprox.)', u: 'puntos', fuente: 'Cálculo propio: tasa del banco central menos inflación interanual', v: real });
+  const fmtv = (i, v) => v == null ? '—' : num(v, i.u === 'pb' ? 0 : 2) + (i.u === 'pb' ? ' pb' : i.u === '%' ? ' %' : '');
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Comparación</div><h1>Paraguay frente a la región</h1><p class="lede">Los principales indicadores de Paraguay junto a sus vecinos. Paraguay aparece resaltado. Los datos vienen de bancos centrales, institutos de estadística y la CEPAL, con la fecha de cada uno.</p></div></div>
+    <div class="tbl"><table><thead><tr><th>País</th>${all.map(i => `<th>${esc(i.t.replace(/ \(.*\)/, ''))}</th>`).join('')}</tr></thead>
+      <tbody>${C.map(p => `<tr class="${p === 'Paraguay' ? 'py' : ''}"><td>${esc(p)}</td>${all.map(i => `<td class="${i.v[p] == null ? 'nd' : ''}">${fmtv(i, i.v[p])}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+    <h2 style="margin-bottom:12px">Lo que muestran los datos</h2>
+    <ul class="reads">${(R.lecturas || []).map(l => `<li>${esc(l)}</li>`).join('')}</ul>
+    <div class="charts">${all.map(i => { const rows = C.filter(p => i.v[p] != null).map(p => [p, i.v[p], p === 'Paraguay' ? 1 : 0]).sort((a, b) => b[1] - a[1]); if (i.ref) rows.push([i.ref[0].replace('América Latina y el Caribe', 'Región'), i.ref[1]]); const miss = C.filter(p => i.v[p] == null);
+      return `<section class="chart"><div class="top"><h3>${esc(i.t)}</h3></div>${fig({ k: 'barras', u: i.u, rows })}
+        ${i.nota ? `<p class="note">${esc(i.nota)}</p>` : ''}${miss.length ? `<p class="note">Sin dato comparable: ${esc(miss.join(', '))}.</p>` : ''}
+        <p class="note">Fuente: ${i.url ? `<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.fuente)}</a>` : esc(i.fuente)}</p></section>`; }).join('')}</div>
+    <p class="note" style="padding-bottom:40px">Datos actualizados al ${fdate(R.actualizado)}. La tasa de interés real es una aproximación de clase: tasa nominal menos inflación.</p>
+  </div>`;
+}
+
+/* Calculadoras */
+const CALCS = [
+  { id:'var', t:'Variación porcentual', d:'Cuánto cambió un valor, en %.', ex:['guarani-cae', 'Ejemplo: el dólar del 30 oct al 6 nov'],
+    f:[['a', 'Valor inicial', '5.895'], ['b', 'Valor final', '6.507,73']],
+    run: v => { const r = (v.b - v.a) / v.a * 100; return [[num(r, 2) + ' %', r >= 0 ? 'Aumentó' : 'Disminuyó'], ['Fórmula', '(final − inicial) ÷ inicial × 100']]; } },
+  { id:'epd', t:'Elasticidad precio de la demanda', d:'Cuánto reacciona la cantidad ante un cambio de precio, y qué pasa con el ingreso total.', ex:['carne-cae', 'Ejemplo: carne bovina exportada'],
+    f:[['p1', 'Precio inicial', '5,85'], ['p2', 'Precio final', '7,12'], ['q1', 'Cantidad inicial', '305'], ['q2', 'Cantidad final', '231']],
+    run: v => { const dp = (v.p2 - v.p1) / v.p1 * 100, dq = (v.q2 - v.q1) / v.q1 * 100, e = dq / dp, a = Math.abs(e), it1 = v.p1 * v.q1, it2 = v.p2 * v.q2;
+      return [[num(e, 2), a > 1.02 ? 'Demanda relativamente elástica' : a < 0.98 ? 'Demanda relativamente inelástica' : 'Elasticidad unitaria'], ['% Δ precio / % Δ cantidad', num(dp, 1) + ' % / ' + num(dq, 1) + ' %'], ['Ingreso total', num(it1, 0) + ' → ' + num(it2, 0) + (it2 < it1 ? ' (baja)' : ' (sube)')]]; } },
+  { id:'real', t:'Valor real (descontando inflación)', d:'Sirve para salarios, tasas de interés o cualquier aumento nominal.', ex:['salario-minimo', 'Ejemplo: salario mínimo +5 % con inflación de 1,7 %'],
+    f:[['n', 'Aumento nominal (%)', '5'], ['i', 'Inflación (%)', '1,7']],
+    run: v => { const r = ((1 + v.n / 100) / (1 + v.i / 100) - 1) * 100; return [[num(r, 2) + ' %', r >= 0 ? 'El poder de compra mejora' : 'El poder de compra empeora'], ['Aproximación de clase', num(v.n - v.i, 2) + ' % (nominal − inflación)']]; } },
+  { id:'tc', t:'Tipo de cambio y deudas en dólares', d:'Cuánto cuesta en guaraníes un monto en dólares con dos cotizaciones.', ex:['dolar-6600', 'Ejemplo: cuota de US$ 1.000'],
+    f:[['us', 'Monto en US$', '1.000'], ['t1', 'Dólar antes (G.)', '6.000'], ['t2', 'Dólar después (G.)', '6.600']],
+    run: v => { const g1 = v.us * v.t1, g2 = v.us * v.t2, dep = (v.t1 / v.t2 - 1) * 100; return [['G. ' + num(g2 - g1, 0), g2 >= g1 ? 'más en guaraníes' : 'menos en guaraníes'], ['Antes / después', 'G. ' + num(g1, 0) + ' → G. ' + num(g2, 0)], ['Valor del guaraní', num(dep, 1) + ' % ' + (dep < 0 ? '(se depreció)' : '(se apreció)')]]; } },
+  { id:'des', t:'Tasa de desempleo', d:'Desocupados ÷ fuerza de trabajo × 100.', ex:['desempleo-41', 'Ejemplo: INE, 3.er trimestre de 2026'],
+    f:[['d', 'Desocupados', '141.250'], ['o', 'Ocupados', '3.290.206']],
+    run: v => { const ft = v.d + v.o, r = v.d / ft * 100; return [[num(r, 2) + ' %', 'Tasa de desempleo'], ['Fuerza de trabajo', num(ft, 0) + ' personas']]; } },
+  { id:'pb', t:'Riesgo país e intereses', d:'Cuánto interés extra se paga cuando sube el riesgo país.', ex:['bonos-embi', 'Ejemplo: EMBI de 125 a 143 pb sobre US$ 1.000 millones'],
+    f:[['a', 'Riesgo país antes (pb)', '125'], ['b', 'Riesgo país después (pb)', '143'], ['m', 'Deuda (US$ millones)', '1.000']],
+    run: v => { const dpb = v.b - v.a, extra = v.m * dpb / 10000; return [['US$ ' + num(extra, 2) + ' M', 'de interés extra por año'], ['Diferencia', num(dpb, 0) + ' pb = ' + num(dpb / 100, 2) + ' puntos porcentuales']]; } }
+];
+function renderCalcs() {
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Herramientas</div><h1>Calculadoras</h1><p class="lede">Los cálculos que aparecen en las noticias, listos para usar. Vienen cargados con un ejemplo real; cambia los números para probar otros casos. Usa coma para los decimales.</p></div></div>
+    <div class="calcs">${CALCS.map(c => `<section class="calc" id="c-${c.id}"><h3>${esc(c.t)}</h3><p class="note">${esc(c.d)}</p>
+      <div class="f">${c.f.map(([k, l, v]) => `<label for="i-${c.id}-${k}">${esc(l)}<input id="i-${c.id}-${k}" data-k="${k}" inputmode="decimal" value="${esc(v)}"></label>`).join('')}</div>
+      <div class="out" id="o-${c.id}"></div>
+      ${BYID[c.ex[0]] ? `<a class="ex" href="#n-${c.ex[0]}">${esc(c.ex[1])} →</a>` : `<span class="ex">${esc(c.ex[1])}</span>`}</section>`).join('')}</div>
+  </div>`;
+  CALCS.forEach(c => {
+    const run = () => {
+      const v = {}; let ok = true;
+      c.f.forEach(([k]) => { const x = parseNum($(`#i-${c.id}-${k}`).value); if (x == null) ok = false; v[k] = x; });
+      let res = null; if (ok) { try { res = c.run(v); } catch (e) { res = null; } }
+      $('#o-' + c.id).innerHTML = res && res[0] && !/NaN|Infinity/.test(res[0][0]) ? res.map(([b, s], i) => i ? `<span><b style="font-size:1rem">${esc(b)}</b> · ${esc(s)}</span>` : `<b>${esc(b)}</b><span>${esc(s)}</span>`).join('') : '<span>Completa todos los campos con números (el valor inicial no puede ser 0).</span>';
+    };
+    document.querySelectorAll(`#c-${c.id} input`).forEach(el => el.oninput = run);
+    run();
+  });
 }
 
 /* =====================================================================
@@ -630,17 +947,40 @@ function render() {
   else if (r === 'diagramas') { nav = 'diagramas'; renderLib(); }
   else if (r.startsWith('d-') && LIB[r.slice(2)]) { nav = 'diagramas'; renderDiagram(r.slice(2)); }
   else if (r === 'diarios') { nav = 'diarios'; renderPress(); }
+  else if (r === 'semana' || r.startsWith('semana-')) { nav = 'semana'; renderWeek(r.slice(7)); }
+  else if (r === 'indicadores') { nav = 'indicadores'; renderIndic(); }
+  else if (r === 'region') { nav = 'region'; renderRegion(); }
+  else if (r === 'calculadoras') { nav = 'calculadoras'; renderCalcs(); }
   else renderHome();
   document.querySelectorAll('[data-nav]').forEach(a => a.dataset.nav === nav ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+  const cur = document.querySelector('[data-nav][aria-current]'); if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest', inline: 'nearest' });
 }
+
 fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
-  ACTUALIZADO = d.actualizado; INDICADORES = d.indicadores || []; DIARIOS = d.diarios || []; OFICIALES = d.oficiales || []; DESTACADO = d.destacado || null;
+  ACTUALIZADO = d.actualizado; DIARIOS = d.diarios || []; OFICIALES = d.oficiales || []; DESTACADO = d.destacado || null;
+  INDICADORES = (d.indicadores || []).map(i => Array.isArray(i) ? { n: i[0], v: i[1], s: i[2], alert: i[3] } : i);
+  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {};
   NOTICIAS = (d.noticias || []).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad]).map(n => Object.assign({ datos: [], pasos: [], conceptos: [], diagramas: [], rel: [], resumen: '', contexto: '' }, n));
   NOTICIAS.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); });
   BYID = Object.fromEntries(NOTICIAS.map(n => [n.id, n]));
   SORTED = NOTICIAS.slice().sort((a, b) => b.fecha.localeCompare(a.fecha));
   renderTicker(); window.addEventListener('hashchange', render); render();
-}).catch(() => { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">No se pudieron cargar las noticias. Recarga la página en unos segundos.</div></div>'; });
+}).catch(() => { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">No se pudieron cargar las noticias. Revisa la conexión y recarga la página.</div></div>'; });
+
+/* =====================================================================
+   6. APP INSTALABLE
+   ===================================================================== */
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => { }); });
+}
+let deferredPrompt = null;
+window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredPrompt = e; $('#install').hidden = false; });
+$('#install').addEventListener('click', async () => { if (!deferredPrompt) return; deferredPrompt.prompt(); try { await deferredPrompt.userChoice; } catch (e) { } deferredPrompt = null; $('#install').hidden = true; });
+window.addEventListener('appinstalled', () => { $('#install').hidden = true; });
+const standalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+if (/iphone|ipad|ipod/i.test(navigator.userAgent) && !standalone) $('#ios-tip').hidden = false;
+const onl = () => { $('#offline').hidden = navigator.onLine; };
+window.addEventListener('online', onl); window.addEventListener('offline', onl); onl();
 </script>
 </body>
 </html>

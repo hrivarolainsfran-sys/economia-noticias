@@ -65,11 +65,29 @@ El sitio tiene dos archivos:
 
 `oferta-demanda`, `ped-ingreso`, `salario-minimo`, `da-oa-da`, `da-oa-oacp`, `politica-monetaria`, `politica-fiscal`, `tipo-cambio`, `exportaciones`, `arancel`, `lorenz`. Otros nombres se ignoran.
 
-## Indicadores y tema de la semana
+## Indicadores, historial, región y semanas
 
-- `indicadores`: `[["Nombre", "Valor", "Fuente · fecha", "alert"]]`. El cuarto valor es opcional y pinta el número en rojo cuando hay un movimiento fuerte.
+- `indicadores`: lista de `{"n": "Dólar", "v": "G. 6.508", "s": "DNIT · 6 nov", "alert": 1, "k": "dolar"}`.
+  - `alert` (opcional) pinta el número en rojo cuando hay un movimiento fuerte.
+  - `k` (opcional) enlaza con una serie de `historial` y dibuja el minigráfico.
+- `historial`: series para la sección **Indicadores**. Claves actuales: `inflacion`, `tpm`, `dolar`, `embi`, `desempleo`.
+  - Cada serie tiene `t` (título), `u` (unidad: `%`, `G.` o `pb`), `fuente`, `lee` (una frase de lectura) y `puntos`: `[["AAAA-MM-DD", valor]]`, en orden de fecha.
+  - Opcionales: `banda` `[min, max]` y `meta` (para la inflación), `escalon: 1` (para la tasa del BCP).
+  - **Cuando un dato nuevo se confirma en un artículo, se agrega un punto al final.** No se borran puntos viejos. El dólar se registra como máximo una vez por día.
+- `region`: datos de **Paraguay frente a la región**.
+  - `paises`: lista de países. `indicadores`: lista de `{"k", "t", "u", "fuente", "url" (opcional), "nota" (opcional), "v": {"País": valor}}`. Un país sin dato confiable simplemente no aparece en `v`.
+  - `lecturas`: 3-5 frases que interpretan la comparación. `actualizado`: fecha.
+  - Solo se cambia un valor cuando sale un dato oficial nuevo (banco central, instituto de estadística, CEPAL), con su fecha en `fuente`.
+- `semanas`: resumen editorial por semana, con la fecha del **lunes** como clave: `{"2026-11-09": {"titulo", "texto", "claves": ["id1", "id2", "id3", "id4", "id5"]}}`.
+  - Se escribe el **lunes** (o el primer día de la semana con noticias) y se completa durante la semana.
+  - `claves` son las 5 noticias más importantes de esa semana.
 - `destacado`: el tema económico dominante, con `eyebrow`, `titulo`, `dek`, `tl` (línea de tiempo: `[["5 nov", "Qué pasó", "id-noticia"]]`) y `lentes` (`[["clave-de-diagrama", "cómo lo explica"]]`).
 - `actualizado`: fecha de la última actualización (`AAAA-MM-DD`).
+
+## Archivos del sitio
+
+- `index.html`: la página. `sw.js` y `manifest.webmanifest`: la app instalable. `iconos/`: íconos de la app.
+- Si se cambia `index.html` o `sw.js`, hay que subir el número de `VERSION` en `sw.js` (por ejemplo `enp-v3`) para que los celulares descarguen la versión nueva.
 
 ## Antes de publicar
 

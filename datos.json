@@ -1,43 +1,48 @@
 {
  "actualizado": "2026-11-09",
  "indicadores": [
-  [
-   "Tasa del BCP",
-   "5,50 %",
-   "TPM · 23 oct"
-  ],
-  [
-   "Inflación anual",
-   "1,7 %",
-   "IPC · octubre"
-  ],
-  [
-   "Dólar",
-   "G. 6.480",
-   "BCP · 6 nov",
-   "alert"
-  ],
-  [
-   "Desempleo",
-   "4,1 %",
-   "INE · 3.er trimestre"
-  ],
-  [
-   "PIB 2026",
-   "5,0 %",
-   "Proyección del BCP"
-  ],
-  [
-   "Riesgo país",
-   "143 pb",
-   "EMBI · 5 nov",
-   "alert"
-  ],
-  [
-   "Pobreza",
-   "16,0 %",
-   "INE · 2025"
-  ]
+  {
+   "n": "Tasa del BCP",
+   "v": "5,50 %",
+   "s": "TPM · 23 oct",
+   "k": "tpm"
+  },
+  {
+   "n": "Inflación anual",
+   "v": "1,7 %",
+   "s": "IPC · octubre",
+   "k": "inflacion"
+  },
+  {
+   "n": "Dólar",
+   "v": "G. 6.508",
+   "s": "DNIT · 6 nov",
+   "alert": 1,
+   "k": "dolar"
+  },
+  {
+   "n": "Desempleo",
+   "v": "4,1 %",
+   "s": "INE · 3.er trimestre",
+   "k": "desempleo"
+  },
+  {
+   "n": "PIB 2026",
+   "v": "5,0 %",
+   "s": "Proyección del BCP"
+  },
+  {
+   "n": "Riesgo país",
+   "v": "143 pb",
+   "s": "EMBI · 5 nov",
+   "alert": 1,
+   "k": "embi"
+  },
+  {
+   "n": "Pobreza",
+   "v": "16,0 %",
+   "s": "INE · 2025"
+  }
  ],
  "diarios": [
   [
@@ -106,7 +111,7 @@
  "destacado": {
   "eyebrow": "Tema de la semana",
   "titulo": "Crisis de Ueno Bank: del banco al dólar",
-  "dek": "En cuatro días, la caída de un banco con 2,9 millones de clientes movió el tipo de cambio, el riesgo país y la discusión política. Es un caso completo para ver cómo se conectan micro, macro y economía global.",
+  "dek": "En una semana, la caída de un banco con casi 3 millones de clientes movió el tipo de cambio, el riesgo país y terminó en un cambio de gobierno. Es un caso completo para ver cómo se conectan micro, macro y economía global.",
   "tl": [
    [
     "2 nov",
@@ -119,19 +124,29 @@
     "ueno-intervencion"
    ],
    [
+    "4 nov",
+    "Ley 7755: se adelanta la devolución de depósitos; el BCP tiene presidente interino.",
+    "ueno-devolucion"
+   ],
+   [
     "5 nov",
-    "El guaraní cae 4,68 % en un día y el dólar llega a G. 6.487. El presidente Peña anuncia su renuncia.",
+    "El guaraní cae 4,68 % en un día; el riesgo país cierra en 143 pb.",
     "guarani-cae"
    ],
    [
-    "5 nov",
-    "Por la noche empiezan las devoluciones de hasta G. 10 millones.",
-    "ueno-intervencion"
+    "6 nov",
+    "El Congreso destituye a Santiago Peña; asume Pedro Alliana.",
+    "alliana-gobierno"
    ],
    [
-    "6 nov",
-    "Caen los bonos soberanos; el EMBI cerró el día 5 en 143 pb.",
-    "bonos-embi"
+    "7 nov",
+    "1,2 millones de personas ya cobraron sus depósitos.",
+    "ueno-devolucion"
+   ],
+   [
+    "8 nov",
+    "El dólar ronda G. 6.500, muy por encima de lo esperado.",
+    "dolar-6600"
    ]
   ],
   "lentes": [
@@ -150,6 +165,688 @@
   ]
  },
  "noticias": [
+  {
+   "id": "ueno-devolucion",
+   "fecha": "2026-11-04",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
+   "mas": [
+    [
+     "France 24",
+     "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
+     "2026-11-07"
+    ]
+   ],
+   "titulo": "Una ley nueva adelanta la devolución de depósitos de Ueno Bank",
+   "unidad": "micro",
+   "tema": "2.10",
+   "kc": "intervencion",
+   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos puede adelantar hasta G. 121.760.000 por cliente de Ueno Bank. El BCP nombró a Pedro de Jesús Acosta como presidente interino y organizó la devolución para casi 1,9 millones de ahorristas. Según el BCP, citado por France 24, el sábado 7 ya habían cobrado 1,2 millones de personas.",
+   "contexto": "La garantía de depósitos protege a los ahorristas que no pueden saber cómo maneja un banco su dinero: el banco sabe mucho más que el cliente, un caso de información asimétrica. Pero también tiene un costo: si los bancos saben que el Estado cubrirá a sus clientes, pueden asumir más riesgos (riesgo moral). Por eso la garantía tiene un tope y viene acompañada de supervisión. Unos 280.000 clientes que solo tenían cuenta en Ueno recibirán cuentas temporales por 90 días en otros bancos.",
+   "datos": [
+    [
+     "G. 121.760.000",
+     "Anticipo máximo por cliente (Ley 7755/26)"
+    ],
+    [
+     "≈ 1,9 M",
+     "Ahorristas incluidos en la devolución"
+    ],
+    [
+     "1,2 M",
+     "Personas que ya cobraron al 7 de noviembre (BCP)"
+    ],
+    [
+     "280.000",
+     "Clientes que solo tenían cuenta en Ueno"
+    ]
+   ],
+   "clave": [
+    "1,2 M",
+    "personas ya cobraron"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "millones de personas",
+    "rows": [
+     [
+      "A devolver",
+      1.9
+     ],
+     [
+      "Ya cobraron (7 nov)",
+      1.2,
+      1
+     ],
+     [
+      "Solo cuenta en Ueno",
+      0.28
+     ]
+    ]
+   },
+   "cap": "Avance de la devolución de depósitos de Ueno Bank, en millones de personas, según el BCP.",
+   "pasos": [
+    "El banco sabe más de su riesgo que sus clientes",
+    "Los ahorristas no pueden vigilar cómo se usa su dinero",
+    "Cuando el banco cae, el Estado garantiza los depósitos hasta un tope",
+    "Se evita una corrida contra otros bancos",
+    "Riesgo: sin control, los bancos podrían arriesgar más (riesgo moral)"
+   ],
+   "conceptos": [
+    [
+     "Información asimétrica",
+     "Una parte de la transacción sabe más que la otra."
+    ],
+    [
+     "Riesgo moral",
+     "Asumir más riesgo cuando otro paga las pérdidas."
+    ],
+    [
+     "Garantía de depósitos",
+     "Fondo que devuelve los ahorros hasta un tope si un banco cae."
+    ],
+    [
+     "Corrida bancaria",
+     "Retiro masivo de depósitos por miedo a que el banco no pague."
+    ]
+   ],
+   "diagramas": [],
+   "rel": [
+    "ueno-intervencion",
+    "alliana-gobierno"
+   ],
+   "pregunta": {
+    "q": "Si el Estado garantizara el 100 % de todos los depósitos sin límite, ¿qué riesgo aparece?",
+    "opts": [
+     "Riesgo moral: bancos y ahorristas vigilarían menos el riesgo",
+     "Deflación inmediata",
+     "Más competencia entre bancos",
+     "Ninguno: siempre es mejor garantizar todo"
+    ],
+    "ok": 0,
+    "fb": "Si nadie pierde cuando un banco cae, ni el banco ni sus clientes tienen incentivos para cuidarse. Por eso la garantía tiene un tope."
+   }
+  },
+  {
+   "id": "alliana-gobierno",
+   "fecha": "2026-11-07",
+   "medio": "France 24",
+   "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
+   "titulo": "Cambio de gobierno en plena crisis bancaria: asume Pedro Alliana",
+   "unidad": "macro",
+   "tema": "3.2",
+   "kc": "cambio",
+   "resumen": "Según France 24, el Congreso destituyó al presidente Santiago Peña el viernes 6 de noviembre mediante juicio político, por su presunta relación con el colapso de Ueno Bank. El vicepresidente Pedro Alliana completará el mandato hasta agosto de 2028 y prometió compensar plenamente a los afectados.",
+   "contexto": "Para la economía, el cambio de gobierno pesa por la confianza. Ueno Bank administraba unos US$ 850 millones en fondos públicos y había conseguido unos US$ 510 millones de financiamiento internacional, incluidos US$ 350 millones en bonos. Cuando aumenta la incertidumbre, empresas e inversores suelen postergar decisiones, compran dólares y piden más interés para prestar al país. Por eso la semana mostró a la vez un dólar más caro y un riesgo país más alto.",
+   "datos": [
+    [
+     "Ago 2028",
+     "Fin del mandato que completará Alliana"
+    ],
+    [
+     "US$ 850 M",
+     "Fondos públicos que administraba Ueno"
+    ],
+    [
+     "US$ 510 M",
+     "Financiamiento internacional de Ueno"
+    ],
+    [
+     "≈ 2,94 M",
+     "Clientes afectados según France 24"
+    ]
+   ],
+   "clave": [
+    "6 nov",
+    "destitución por juicio político"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "La incertidumbre puede frenar la inversión (I) y el consumo (C): la DA pasa de DA₁ a DA₂. Que pase o no depende de cuánto dure la desconfianza.",
+   "pasos": [
+    "Crisis bancaria y cambio de gobierno en pocos días",
+    "Aumenta la incertidumbre sobre las políticas futuras",
+    "Inversores postergan proyectos y compran dólares",
+    "Cae la inversión y sube el riesgo país",
+    "La DA puede desplazarse a la izquierda si la incertidumbre dura"
+   ],
+   "conceptos": [
+    [
+     "Confianza",
+     "Expectativas de empresas y hogares sobre el futuro: influyen en C e I."
+    ],
+    [
+     "Incertidumbre",
+     "No saber qué políticas vendrán; encarece y frena decisiones."
+    ],
+    [
+     "Inversión (I)",
+     "Gasto de empresas en máquinas, edificios y tecnología."
+    ],
+    [
+     "Riesgo país",
+     "Interés extra que exigen los inversores para prestar al país."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da"
+   ],
+   "rel": [
+    "ueno-devolucion",
+    "bonos-embi",
+    "dolar-6600"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la incertidumbre política puede reducir la demanda agregada?",
+    "opts": [
+     "Porque las empresas postergan inversiones y los hogares gastan menos",
+     "Porque sube la oferta agregada a largo plazo",
+     "Porque bajan los impuestos",
+     "Porque aumentan las exportaciones"
+    ],
+    "ok": 0,
+    "fb": "La inversión y el consumo dependen de las expectativas. Con más incertidumbre se posterga gasto: bajan I y C, y la DA se desplaza a la izquierda."
+   }
+  },
+  {
+   "id": "dolar-6600",
+   "fecha": "2026-11-08",
+   "medio": "La Tribuna",
+   "url": "https://www.latribuna.com.py/negocios/economia/2026/11/08/dolar-a-gs-6600-la-crisis-obliga-a-revisar-las-previsiones/",
+   "titulo": "El dólar ronda G. 6.500 y deja atrás todas las previsiones",
+   "unidad": "global",
+   "tema": "4.5",
+   "kc": "cambio",
+   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre y G. 5.905 para fin de año.",
+   "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. Un dólar más caro afecta a quienes tienen deudas en dólares: según el ejemplo de la nota, una cuota de US$ 1.000 cuesta G. 600.000 más si la cotización pasa de 6.000 a 6.600. También encarece los productos importados, lo que puede empujar la inflación en los próximos meses. Un economista citado por la nota estima el equilibrio cerca de G. 6.800, pero es una opinión individual.",
+   "datos": [
+    [
+     "G. 6.507,73",
+     "Dólar en la tabla de la DNIT (6 nov)"
+    ],
+    [
+     "+9,03 %",
+     "Suba semanal medida por Bloomberg"
+    ],
+    [
+     "G. 5.850",
+     "Lo que esperaban los analistas para noviembre"
+    ],
+    [
+     "G. 600.000",
+     "Costo extra de una cuota de US$ 1.000 si el dólar pasa de 6.000 a 6.600"
+    ]
+   ],
+   "clave": [
+    "+9,03 %",
+    "en una semana"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "G. por US$",
+    "rows": [
+     [
+      "Esperado nov",
+      5850
+     ],
+     [
+      "Esperado fin de año",
+      5905
+     ],
+     [
+      "Real 6 nov",
+      6507.73,
+      1
+     ]
+    ]
+   },
+   "cap": "Lo que esperaban los analistas en la encuesta del BCP de octubre frente a la cotización del 6 de noviembre.",
+   "pasos": [
+    "La crisis aumenta la demanda de dólares",
+    "Más oferta de guaraníes: el guaraní se deprecia",
+    "Suben en guaraníes las deudas y los productos en dólares",
+    "Las empresas importadoras trasladan parte del costo a los precios",
+    "Riesgo de inflación importada en los próximos meses"
+   ],
+   "conceptos": [
+    [
+     "Expectativas",
+     "Lo que los agentes creen que pasará; guían sus decisiones."
+    ],
+    [
+     "Depreciación",
+     "El guaraní pierde valor: se necesitan más guaraníes por dólar."
+    ],
+    [
+     "Inflación importada",
+     "Suba de precios por bienes importados más caros."
+    ],
+    [
+     "Deuda en moneda extranjera",
+     "Préstamos en dólares: su costo sube cuando se deprecia el guaraní."
+    ]
+   ],
+   "diagramas": [
+    "tipo-cambio",
+    "da-oa-oacp"
+   ],
+   "rel": [
+    "guarani-cae",
+    "pena-dolar",
+    "combustibles"
+   ],
+   "pregunta": {
+    "q": "Una familia paga una cuota de US$ 1.000. El dólar pasa de G. 6.000 a G. 6.600. ¿Cuánto más paga en guaraníes?",
+    "opts": [
+     "G. 600.000 más (10 %)",
+     "G. 60.000 más",
+     "G. 6.600.000 más",
+     "Lo mismo"
+    ],
+    "ok": 0,
+    "fb": "1.000 × 6.600 − 1.000 × 6.000 = G. 600.000. Es un 10 % más, igual que la suba del dólar."
+   }
+  },
+  {
+   "id": "recaudacion-dnit",
+   "fecha": "2026-11-03",
+   "medio": "Prensa Mercosur",
+   "url": "https://prensamercosur.org/2026/11/03/paraguay-recaudacion-acumulada-de-la-dnit-crece-15-entre-enero-y-octubre-de-2026/",
+   "titulo": "La recaudación crece apenas 1,5 %: el guaraní fuerte bajó los impuestos de aduana",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "interdependencia",
+   "resumen": "La DNIT recaudó G. 35,95 billones entre enero y octubre de 2026, solo 1,5 % más que en 2025. Los impuestos internos subieron 9,9 %, pero los de aduana cayeron 10 %. En octubre la recaudación total bajó 5,4 %.",
+   "contexto": "Los impuestos de aduana se calculan sobre el valor de lo importado en guaraníes. Si el dólar baja, el mismo producto importado vale menos guaraníes y se recauda menos: según la DNIT, la apreciación del guaraní redujo la base imponible y las importaciones cayeron 5,1 % en octubre. Es un ejemplo de cómo el tipo de cambio afecta a las cuentas públicas. Con la depreciación de noviembre el efecto podría invertirse. Son datos preliminares.",
+   "datos": [
+    [
+     "G. 35,95 bill.",
+     "Recaudación enero-octubre"
+    ],
+    [
+     "+1,5 %",
+     "Frente a 2025"
+    ],
+    [
+     "+9,9 %",
+     "Impuestos internos"
+    ],
+    [
+     "−10 %",
+     "Impuestos de aduana"
+    ],
+    [
+     "−5,4 %",
+     "Recaudación de octubre"
+    ]
+   ],
+   "clave": [
+    "+1,5 %",
+    "recaudación anual"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "variación % ene-oct",
+    "rows": [
+     [
+      "Internos",
+      9.9
+     ],
+     [
+      "Total",
+      1.5,
+      1
+     ],
+     [
+      "Aduana",
+      -10
+     ]
+    ]
+   },
+   "cap": "Variación de la recaudación de la DNIT entre enero y octubre de 2026 frente a 2025.",
+   "pasos": [
+    "El guaraní se aprecia frente al dólar",
+    "Lo importado vale menos guaraníes",
+    "Se recaudan menos impuestos de aduana",
+    "El Estado recauda menos de lo previsto",
+    "Más presión sobre el déficit fiscal"
+   ],
+   "conceptos": [
+    [
+     "Recaudación",
+     "Dinero que el Estado cobra en impuestos."
+    ],
+    [
+     "Base imponible",
+     "Valor sobre el que se calcula un impuesto."
+    ],
+    [
+     "Impuestos indirectos",
+     "Gravan el consumo o las importaciones, como el IVA."
+    ],
+    [
+     "Déficit fiscal",
+     "Gasto público mayor que los ingresos."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal",
+    "tipo-cambio"
+   ],
+   "rel": [
+    "pgn-2027",
+    "pena-dolar"
+   ],
+   "pregunta": {
+    "q": "¿Por qué un guaraní más fuerte reduce los impuestos de aduana?",
+    "opts": [
+     "Porque los importados valen menos guaraníes y el impuesto es un porcentaje de ese valor",
+     "Porque se importan más bienes",
+     "Porque suben los aranceles",
+     "Porque bajan los impuestos internos"
+    ],
+    "ok": 0,
+    "fb": "El impuesto es un porcentaje del valor en guaraníes. Si ese valor baja por la apreciación, la recaudación también baja."
+   }
+  },
+  {
+   "id": "maquila",
+   "fecha": "2026-10-16",
+   "medio": "La República",
+   "url": "https://www.larepublica.co/globoeconomia/maquila-exporta-us-1-148-millones-y-genera-un-superavit-de-us-543-millones-en-paraguay-4504329",
+   "titulo": "La maquila exporta US$ 1.148 millones, un 25 % más que en 2025",
+   "unidad": "global",
+   "tema": "4.1",
+   "kc": "interdependencia",
+   "resumen": "Según el Consejo Nacional de las Industrias Maquiladoras de Exportación, entre enero y septiembre las maquiladoras exportaron US$ 1.148 millones (+25 %) e importaron US$ 605 millones (+20 %), con un saldo positivo de US$ 543 millones. Emplean a 36.382 personas.",
+   "contexto": "En la maquila, una empresa importa insumos, los transforma en Paraguay y exporta el producto. Así el país vende bienes industriales y no solo materias primas: autopartes (31 %), confecciones (16 %), bebidas (11 %) y aluminio (11 %). Brasil compra el 59 %, lo que muestra la integración con el vecino. La nota aclara que el saldo comercial no equivale al valor agregado que queda en el país.",
+   "datos": [
+    [
+     "US$ 1.148 M",
+     "Exportaciones de maquila (ene-sep)"
+    ],
+    [
+     "+25 %",
+     "Frente a 2025"
+    ],
+    [
+     "US$ 543 M",
+     "Saldo comercial del sector"
+    ],
+    [
+     "36.382",
+     "Empleos (+4 %)"
+    ],
+    [
+     "59 %",
+     "Ventas a Brasil"
+    ]
+   ],
+   "clave": [
+    "+25 %",
+    "exportaciones de maquila"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% de las exportaciones",
+    "rows": [
+     [
+      "Brasil",
+      59,
+      1
+     ],
+     [
+      "Argentina",
+      14
+     ],
+     [
+      "Países Bajos",
+      11
+     ],
+     [
+      "Estados Unidos",
+      5
+     ]
+    ]
+   },
+   "cap": "Destinos de las exportaciones de maquila entre enero y septiembre de 2026.",
+   "pasos": [
+    "Empresas extranjeras invierten en Paraguay",
+    "Importan insumos y los transforman con trabajo local",
+    "Exportan productos industriales",
+    "Se crean empleos y entran divisas",
+    "La economía se diversifica más allá de la soja y la carne"
+   ],
+   "conceptos": [
+    [
+     "Maquila",
+     "Régimen para importar insumos, transformarlos y exportar el producto."
+    ],
+    [
+     "Diversificación",
+     "Producir y exportar más tipos de bienes."
+    ],
+    [
+     "Valor agregado",
+     "Lo que se suma al valor de los insumos en cada etapa."
+    ],
+    [
+     "Inversión extranjera directa",
+     "Capital de empresas del exterior que se instalan en el país."
+    ]
+   ],
+   "diagramas": [
+    "exportaciones"
+   ],
+   "rel": [
+    "soja-record",
+    "mercosur-ue"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la maquila ayuda a diversificar la economía paraguaya?",
+    "opts": [
+     "Porque agrega exportaciones industriales a las de productos primarios",
+     "Porque reemplaza a la soja",
+     "Porque solo vende a Paraguay",
+     "Porque elimina las importaciones"
+    ],
+    "ok": 0,
+    "fb": "La maquila suma bienes industriales (autopartes, textiles) a una canasta exportadora dominada por soja, carne y energía."
+   }
+  },
+  {
+   "id": "energia-cedida",
+   "fecha": "2026-11-01",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/01/cedimos-32-de-nuestra-energia/",
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/10/19/paraguay-podria-comprar-energia-a-brasil-y-argentina-desde-2030/",
+     "2026-10-19"
+    ]
+   ],
+   "titulo": "Paraguay cedió el 32 % de su energía de Itaipú y Yacyretá",
+   "unidad": "global",
+   "tema": "4.7",
+   "kc": "sostenibilidad",
+   "resumen": "Entre enero y septiembre, Paraguay usó el 68 % de su parte de la energía de las binacionales (74 % de Itaipú y 40 % de Yacyretá) y cedió el 32 % restante a sus socios. Un informe técnico del IPPSE advierte que hacia 2030 el país podría consumir el 100 % y necesitar importar energía.",
+   "contexto": "La energía hidroeléctrica es renovable y barata, pero la demanda local crece rápido: la ANDE retiró en septiembre 9 % más energía que un año antes. Hoy sobra, y la parte que no se usa se cede. Según el IPPSE, entre 2028 y 2030 el país podría quedarse corto y tendría que comprar energía a Brasil o Argentina. Es una decisión de escasez y costo de oportunidad: usar más energía en casa significa ceder menos, y no invertir a tiempo puede encarecer el futuro.",
+   "datos": [
+    [
+     "68 %",
+     "Parte paraguaya usada en el país (ene-sep)"
+    ],
+    [
+     "32 %",
+     "Energía cedida a los socios"
+    ],
+    [
+     "74 % / 40 %",
+     "Uso de Itaipú / Yacyretá"
+    ],
+    [
+     "2030",
+     "Año en que Paraguay podría usar el 100 %"
+    ]
+   ],
+   "clave": [
+    "32 %",
+    "de la energía cedida"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% de la parte paraguaya usada",
+    "rows": [
+     [
+      "Itaipú",
+      74
+     ],
+     [
+      "Yacyretá",
+      40
+     ],
+     [
+      "Total",
+      68,
+      1
+     ]
+    ]
+   },
+   "cap": "Porcentaje de la energía que corresponde a Paraguay en cada binacional y que el país consumió entre enero y septiembre de 2026.",
+   "pasos": [
+    "Crece la demanda de electricidad en Paraguay",
+    "El país usa una parte mayor de su energía",
+    "Se cede menos energía a los socios",
+    "Hacia 2030 la energía disponible podría no alcanzar",
+    "Hace falta invertir o importar energía: costo de oportunidad"
+   ],
+   "conceptos": [
+    [
+     "Escasez",
+     "Recursos limitados frente a necesidades crecientes."
+    ],
+    [
+     "Costo de oportunidad",
+     "Lo que se deja de ganar al elegir un uso del recurso."
+    ],
+    [
+     "Energía renovable",
+     "Se regenera naturalmente, como la hidroeléctrica."
+    ],
+    [
+     "Sostenibilidad",
+     "Satisfacer las necesidades de hoy sin comprometer las futuras."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda"
+   ],
+   "rel": [
+    "itaipu-opinion",
+    "combustibles"
+   ],
+   "pregunta": {
+    "q": "Si la demanda de electricidad sigue creciendo y la oferta no cambia, ¿qué pasa con el excedente que Paraguay cede?",
+    "opts": [
+     "Se reduce, hasta que el país consuma toda su parte",
+     "Aumenta",
+     "No cambia",
+     "Se vuelve infinito"
+    ],
+    "ok": 0,
+    "fb": "Con oferta fija y más demanda interna, queda menos energía sin usar: el excedente cedido se achica hasta desaparecer."
+   }
+  },
+  {
+   "id": "carne-sustitutos",
+   "fecha": "2026-10-25",
+   "medio": "Revista Foco (La Nación)",
+   "url": "https://revistafoco.com.py/2026/10/25/carne-paraguaya-ante-el-desafio-de-competir-en-un-mercado-mas-caro/",
+   "mas": [
+    [
+     "La Prensa",
+     "https://www.laprensaparaguay.com/2026/11/02/exportaciones-avicolas-registran-un-crecimiento-del-76-en-ingresos-hasta-octubre/",
+     "2026-11-02"
+    ]
+   ],
+   "titulo": "Carne vacuna más cara: el consumo se pasa al pollo y al cerdo",
+   "unidad": "micro",
+   "tema": "2.1",
+   "kc": "eleccion",
+   "resumen": "Según la Comisión de Carne de la ARP, la suba de los precios internacionales de la carne vacuna frena los negocios y empuja a los consumidores hacia el pollo y el cerdo. En Chile, algunos compradores pagan entre US$ 200 y 300 más por tonelada de carne paraguaya, pero si la diferencia crece eligen la brasileña.",
+   "contexto": "Es un ejemplo de bienes sustitutos: cuando sube el precio de uno, aumenta la demanda del otro. Los datos acompañan: las exportaciones de pollo crecieron 76 % en ingresos hasta octubre, mientras la carne vacuna perdió volumen. La oferta de carne vacuna también es menor porque los productores reducen el rodeo y retienen hembras para reproducción.",
+   "datos": [
+    [
+     "US$ 200-300",
+     "Precio extra por tonelada que pagan algunos compradores chilenos"
+    ],
+    [
+     "+76 %",
+     "Ingresos por exportaciones de pollo (ene-oct)"
+    ],
+    [
+     "US$ 7,12",
+     "Precio por kilo de la carne vacuna exportada"
+    ]
+   ],
+   "clave": [
+    "+76 %",
+    "exportaciones de pollo"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Mercado del pollo: como la carne vacuna, su sustituto, se encareció, la demanda de pollo pasa de D₁ a D₂; suben el precio y la cantidad.",
+   "pasos": [
+    "Sube el precio de la carne vacuna",
+    "Los consumidores buscan alternativas más baratas",
+    "Aumenta la demanda de pollo y cerdo (sustitutos)",
+    "La curva de demanda de pollo se desplaza a la derecha",
+    "Suben el precio y la cantidad vendida de pollo"
+   ],
+   "conceptos": [
+    [
+     "Bienes sustitutos",
+     "Satisfacen la misma necesidad: si uno sube, se demanda más el otro."
+    ],
+    [
+     "Desplazamiento de la demanda",
+     "Cambio de toda la curva por un factor distinto del precio del bien."
+    ],
+    [
+     "Competencia",
+     "Brasil y Paraguay venden a los mismos compradores."
+    ],
+    [
+     "Oferta",
+     "El rodeo se reduce y hay menos carne para vender."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda"
+   ],
+   "rel": [
+    "carne-cae",
+    "mercosur-ue"
+   ],
+   "pregunta": {
+    "q": "Si sube el precio de la carne vacuna, ¿qué pasa en el mercado del pollo?",
+    "opts": [
+     "La demanda de pollo se desplaza a la derecha",
+     "La oferta de pollo se desplaza a la izquierda",
+     "Hay un movimiento a lo largo de la demanda de pollo",
+     "Nada"
+    ],
+    "ok": 0,
+    "fb": "El precio de un sustituto es un factor distinto del precio del pollo: desplaza toda la curva de demanda de pollo a la derecha."
+   }
+  },
   {
    "id": "ueno-intervencion",
    "fecha": "2026-11-05",
@@ -219,6 +916,7 @@
     "politica-monetaria"
    ],
    "rel": [
+    "ueno-devolucion",
     "guarani-cae",
     "bonos-embi"
    ],
@@ -232,7 +930,19 @@
     ],
     "ok": 0,
     "fb": "Menos consumo (C) e inversión (I) reducen el gasto total: la DA se desplaza a la izquierda y cae el PIB real."
-   }
+   },
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
+     "2026-11-04"
+    ],
+    [
+     "France 24",
+     "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
+     "2026-11-07"
+    ]
+   ]
   },
   {
    "id": "guarani-cae",
@@ -303,9 +1013,9 @@
     "da-oa-oacp"
    ],
    "rel": [
+    "dolar-6600",
     "pena-dolar",
-    "ueno-intervencion",
-    "combustibles"
+    "ueno-intervencion"
    ],
    "pregunta": {
     "q": "¿Qué efecto tiene la depreciación del guaraní sobre los exportadores de soja?",
@@ -422,6 +1132,7 @@
     "da-oa-da"
    ],
    "rel": [
+    "alliana-gobierno",
     "ueno-intervencion",
     "pgn-2027"
    ],
@@ -954,6 +1665,7 @@
     "oferta-demanda"
    ],
    "rel": [
+    "carne-sustitutos",
     "soja-record",
     "mercosur-ue"
    ],
@@ -1154,6 +1866,7 @@
     "da-oa-da"
    ],
    "rel": [
+    "recaudacion-dnit",
     "bonos-embi",
     "pobreza-16"
    ],
@@ -1528,5 +2241,262 @@
     "fb": "Un plazo más largo protege por más tiempo a sectores menos competitivos: es una forma de proteccionismo transitorio."
    }
   }
- ]
+ ],
+ "historial": {
+  "inflacion": {
+   "t": "Inflación interanual",
+   "u": "%",
+   "fuente": "BCP, informes mensuales de inflación",
+   "banda": [
+    1.5,
+    5.5
+   ],
+   "meta": 3.5,
+   "puntos": [
+    [
+     "2026-01-31",
+     2.7
+    ],
+    [
+     "2026-02-28",
+     2.3
+    ],
+    [
+     "2026-03-31",
+     1.9
+    ],
+    [
+     "2026-04-30",
+     2.3
+    ],
+    [
+     "2026-05-31",
+     2.4
+    ],
+    [
+     "2026-06-30",
+     2.1
+    ],
+    [
+     "2026-07-31",
+     1.6
+    ],
+    [
+     "2026-08-31",
+     1.5
+    ],
+    [
+     "2026-09-30",
+     1.7
+    ],
+    [
+     "2026-10-31",
+     1.7
+    ]
+   ],
+   "lee": "La franja muestra el rango meta del BCP (3,5 % ± 2). En 2026 la inflación se mantuvo en la parte baja del rango."
+  },
+  "tpm": {
+   "t": "Tasa de política monetaria",
+   "u": "%",
+   "fuente": "BCP, Comité de Política Monetaria",
+   "escalon": 1,
+   "puntos": [
+    [
+     "2025-12-31",
+     6.0
+    ],
+    [
+     "2026-01-23",
+     5.75
+    ],
+    [
+     "2026-02-20",
+     5.5
+    ],
+    [
+     "2026-10-23",
+     5.5
+    ]
+   ],
+   "lee": "El BCP bajó la tasa dos veces a comienzos de 2026 y desde febrero la mantiene en 5,50 %."
+  },
+  "dolar": {
+   "t": "Dólar (guaraníes por US$)",
+   "u": "G.",
+   "fuente": "BCP, DNIT, La Nación y ABC Color (cotizaciones puntuales)",
+   "puntos": [
+    [
+     "2026-01-02",
+     6576
+    ],
+    [
+     "2026-06-29",
+     6081.67
+    ],
+    [
+     "2026-10-15",
+     5697.95
+    ],
+    [
+     "2026-10-30",
+     5895
+    ],
+    [
+     "2026-11-05",
+     6487
+    ],
+    [
+     "2026-11-06",
+     6507.73
+    ]
+   ],
+   "lee": "El guaraní se apreció casi todo el año y en la primera semana de noviembre se depreció con fuerza por la crisis de Ueno Bank."
+  },
+  "embi": {
+   "t": "Riesgo país (EMBI)",
+   "u": "pb",
+   "fuente": "ABC Color y Bloomberg Línea",
+   "puntos": [
+    [
+     "2026-09-30",
+     115
+    ],
+    [
+     "2026-11-02",
+     125
+    ],
+    [
+     "2026-11-04",
+     137
+    ],
+    [
+     "2026-11-05",
+     143
+    ]
+   ],
+   "lee": "Más puntos básicos significa que el país paga más interés que EE.UU. para endeudarse."
+  },
+  "desempleo": {
+   "t": "Tasa de desempleo",
+   "u": "%",
+   "fuente": "INE, Encuesta Permanente de Hogares",
+   "puntos": [
+    [
+     "2025-09-30",
+     4.9
+    ],
+    [
+     "2026-06-30",
+     4.1
+    ],
+    [
+     "2026-09-30",
+     4.1
+    ]
+   ],
+   "lee": "El desempleo bajó casi un punto en un año, con más empleo en comercio y servicios."
+  }
+ },
+ "region": {
+  "actualizado": "2026-11-09",
+  "paises": [
+   "Paraguay",
+   "Argentina",
+   "Brasil",
+   "Uruguay",
+   "Chile",
+   "Bolivia"
+  ],
+  "indicadores": [
+   {
+    "k": "crecimiento",
+    "t": "Crecimiento del PIB 2026 (proyección)",
+    "u": "%",
+    "fuente": "CEPAL, 22 oct 2026 (vía Bloomberg Línea)",
+    "url": "https://www.bloomberglinea.com/economia/cepal-rebaja-su-prevision-de-crecimiento-para-america-latina-en-2026-asi-quedan-las-proyecciones-por-pais/",
+    "v": {
+     "Paraguay": 4.5,
+     "Argentina": 1.9,
+     "Brasil": 2.1,
+     "Uruguay": 1.0,
+     "Chile": 0.2,
+     "Bolivia": 0.2
+    },
+    "ref": [
+     "América Latina y el Caribe",
+     2.0
+    ]
+   },
+   {
+    "k": "inflacion",
+    "t": "Inflación interanual",
+    "u": "%",
+    "fuente": "BCP (oct), INDEC (sep), IPCA 12 meses (sep), INE Uruguay (oct), INE Chile (oct)",
+    "v": {
+     "Paraguay": 1.7,
+     "Argentina": 33.4,
+     "Brasil": 4.58,
+     "Uruguay": 4.87,
+     "Chile": 4.5
+    },
+    "nota": "Argentina, septiembre; Brasil, 12 meses a septiembre; el resto, octubre."
+   },
+   {
+    "k": "tasa",
+    "t": "Tasa de política monetaria",
+    "u": "%",
+    "fuente": "BCP (23 oct), Copom (4 nov), BCU (8 oct), Banco Central de Chile (27 oct)",
+    "v": {
+     "Paraguay": 5.5,
+     "Brasil": 13.75,
+     "Uruguay": 6.0,
+     "Chile": 4.5
+    }
+   },
+   {
+    "k": "desempleo",
+    "t": "Tasa de desempleo",
+    "u": "%",
+    "fuente": "INE Paraguay (jul-sep), IBGE (jun-ago), INE Uruguay (sep)",
+    "v": {
+     "Paraguay": 4.1,
+     "Brasil": 5.3,
+     "Uruguay": 7.1
+    }
+   },
+   {
+    "k": "embi",
+    "t": "Riesgo país (EMBI)",
+    "u": "pb",
+    "fuente": "Cierre del 5 nov 2026 (ABC Color)",
+    "url": "https://www.abc.com.py/negocios/2026/11/06/en-medio-de-la-crisis-de-ueno-bank-precios-de-bonos-soberanos-de-paraguay-se-desploman/",
+    "v": {
+     "Paraguay": 143,
+     "Brasil": 202,
+     "Uruguay": 85,
+     "Chile": 104
+    }
+   }
+  ],
+  "lecturas": [
+   "Paraguay es el país con más crecimiento proyectado y menos inflación del grupo: según la CEPAL crecerá 4,5 % en 2026, más del doble que la región (2,0 %).",
+   "La tasa de interés real (tasa del banco central menos inflación) muestra cuán restrictiva es la política monetaria: Brasil ≈ 9,2 puntos, Paraguay ≈ 3,8, Uruguay ≈ 1,1 y Chile ≈ 0.",
+   "Argentina tiene la inflación más alta (33,4 % anual), aunque bajó mucho frente a años anteriores.",
+   "Uruguay y Chile tienen menos riesgo país que Paraguay a pesar de crecer menos: los inversores miran también la historia de pagos y la solidez de las instituciones."
+  ]
+ },
+ "semanas": {
+  "2026-11-02": {
+   "titulo": "La semana que sacudió la economía paraguaya",
+   "texto": "La intervención de Ueno Bank el martes 3 desató una cadena de efectos: compra de dólares, depreciación del guaraní, caída de los bonos y un cambio de gobierno el viernes 6. Al mismo tiempo, los datos de fondo siguen sólidos: inflación de 1,7 %, desempleo de 4,1 % y exportaciones récord. La pregunta para la clase es cuánto durará el golpe a la confianza y si llegará a mover la demanda agregada.",
+   "claves": [
+    "ueno-intervencion",
+    "guarani-cae",
+    "alliana-gobierno",
+    "bonos-embi",
+    "inflacion-oct"
+   ]
+  }
+ }
 }
