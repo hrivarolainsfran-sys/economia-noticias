@@ -95,6 +95,13 @@ El sitio tiene dos archivos:
 - `semanas`: resumen editorial por semana, con la fecha del **lunes** como clave: `{"2026-11-09": {"titulo", "texto", "claves": ["id1", "id2", "id3", "id4", "id5"]}}`.
   - Se escribe el **lunes** (o el primer día de la semana con noticias) y se completa durante la semana.
   - `claves` son las 5 noticias más importantes de esa semana.
+- `instituciones`: la sección **BCP y MEF**, con las claves `bcp` y `mef`.
+  - `autoridades`: lista de `{"cargo", "nombre", "estado", "desde" (AAAA-MM-DD o AAAA-MM), "fuente", "url", "nota"}`. El primero es el que aparece en la portada de la sección. `estado` puede ser «En el cargo», «Falta decreto y juramento», «En el cargo hasta que asuma el titular», etc.
+  - **Cuando una noticia confirma un cambio de autoridades** (nombramiento, acuerdo del Senado, decreto, juramento, renuncia), se actualiza la lista y su `estado`, y se suma el hecho a `eventos`. Quien deja el cargo se quita de `autoridades` y se menciona en `autoridades_nota`.
+  - `eventos`: `[["AAAA-MM-DD", "Qué decidió o qué pasó"]]` en orden de fecha (decisiones de tasa, emisiones de deuda, Presupuesto, cambios de autoridades).
+  - `agenda`: próximas fechas confirmadas (por ejemplo, la próxima reunión del Comité de Política Monetaria). Se borran las que ya pasaron.
+  - `cifras`: claves de `historial` que se muestran; `fijas`: cifras sin serie (`[["valor", "qué es"]]`).
+  - En cada noticia, el campo opcional `inst` (`["bcp"]`, `["mef"]` o ambos) la muestra en la página de esa institución.
 - `destacado`: el tema económico dominante, con `eyebrow`, `titulo`, `dek`, `tl` (línea de tiempo: `[["5 nov", "Qué pasó", "id-noticia"]]`) y `lentes` (`[["clave-de-diagrama", "cómo lo explica"]]`).
 - `actualizado`: fecha de la última actualización (`AAAA-MM-DD`).
 

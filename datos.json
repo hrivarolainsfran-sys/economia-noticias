@@ -294,7 +294,10 @@
      "Que no caigan otras entidades."
     ],
     "conclusion": "La garantía es necesaria por la información asimétrica, pero solo funciona bien con un tope y con supervisión fuerte."
-   }
+   },
+   "inst": [
+    "bcp"
+   ]
   },
   {
    "id": "alliana-gobierno",
@@ -402,7 +405,11 @@
      "Que el nuevo gobierno mantenga la política fiscal y monetaria."
     ],
     "conclusion": "Para la economía, lo clave no es el cambio de nombres sino que las reglas y políticas sigan siendo previsibles."
-   }
+   },
+   "inst": [
+    "bcp",
+    "mef"
+   ]
   },
   {
    "id": "dolar-6600",
@@ -529,7 +536,10 @@
      "Que la cotización se mantenga: las previsiones son muy inciertas."
     ],
     "conclusion": "En una crisis las expectativas cambian rápido; endeudarse en una moneda distinta de la que se gana es un riesgo."
-   }
+   },
+   "inst": [
+    "bcp"
+   ]
   },
   {
    "id": "recaudacion-dnit",
@@ -651,7 +661,10 @@
      "Los datos son preliminares."
     ],
     "conclusion": "Muestra la interdependencia entre el tipo de cambio y las finanzas públicas: diversificar los ingresos reduce esa vulnerabilidad."
-   }
+   },
+   "inst": [
+    "mef"
+   ]
   },
   {
    "id": "maquila",
@@ -1144,7 +1157,10 @@
      "Que el fondo de garantía alcance para todos."
     ],
     "conclusion": "La intervención rápida reduce el riesgo de contagio, pero su éxito depende de que la devolución sea ágil y de que se refuerce la supervisión bancaria."
-   }
+   },
+   "inst": [
+    "bcp"
+   ]
   },
   {
    "id": "guarani-cae",
@@ -1258,7 +1274,10 @@
      "Que las empresas trasladen el mayor costo a los precios."
     ],
     "conclusion": "La caída responde a la incertidumbre más que a los fundamentos, que siguen sólidos (exportaciones récord); su efecto real depende de cuánto dure."
-   }
+   },
+   "inst": [
+    "bcp"
+   ]
   },
   {
    "id": "bonos-embi",
@@ -1406,7 +1425,10 @@
      "Que las calificadoras reaccionen a la crisis."
     ],
     "conclusion": "Una suba de 18 puntos básicos es moderada y Paraguay sigue por debajo de Brasil o Colombia, pero mantener la disciplina fiscal es clave para no perder el grado de inversión."
-   }
+   },
+   "inst": [
+    "mef"
+   ]
   },
   {
    "id": "pena-dolar",
@@ -1514,7 +1536,10 @@
      "Que la apreciación responda a fundamentos (exportaciones, inversión) y no a flujos especulativos."
     ],
     "conclusion": "No intervenir respeta el tipo de cambio flotante y evita inflación, pero lo ocurrido en noviembre muestra cuán volátil puede ser un mercado cambiario pequeño."
-   }
+   },
+   "inst": [
+    "bcp"
+   ]
   },
   {
    "id": "inflacion-oct",
@@ -1630,7 +1655,10 @@
      "Que la baja de alimentos no sea solo de temporada."
     ],
     "conclusion": "La inflación baja mejora el bienestar, pero la depreciación reciente podría revertirla: conviene seguir los próximos datos."
-   }
+   },
+   "inst": [
+    "bcp"
+   ]
   },
   {
    "id": "bcp-tpm",
@@ -1750,7 +1778,10 @@
      "Que los bancos trasladen las decisiones del BCP a sus tasas."
     ],
     "conclusion": "Mantener la tasa fue prudente antes de la crisis; la próxima reunión mostrará si el BCP prioriza el crecimiento o contener la presión del dólar."
-   }
+   },
+   "inst": [
+    "bcp"
+   ]
   },
   {
    "id": "desempleo-41",
@@ -2360,7 +2391,10 @@
      "Que la recaudación crezca como prevé el Gobierno."
     ],
     "conclusion": "Sincerar las deudas es positivo, pero pagarlo con deuda solo es sostenible si el ajuste prometido para 2028 se cumple."
-   }
+   },
+   "inst": [
+    "mef"
+   ]
   },
   {
    "id": "pobreza-16",
@@ -2490,7 +2524,10 @@
      "El INE cambió algunos métodos de cálculo, lo que afecta la comparación entre años."
     ],
     "conclusion": "Las transferencias dan resultados, pero depender solo de ellas, sin más empleo formal, limita el avance."
-   }
+   },
+   "inst": [
+    "mef"
+   ]
   },
   {
    "id": "salario-minimo",
@@ -3221,6 +3258,275 @@
     "alliana-gobierno",
     "bonos-embi",
     "inflacion-oct"
+   ]
+  }
+ },
+ "instituciones": {
+  "bcp": {
+   "sigla": "BCP",
+   "nombre": "Banco Central del Paraguay",
+   "web": "https://www.bcp.gov.py/",
+   "tema": "3.5",
+   "diagrama": "politica-monetaria",
+   "que": "Es la autoridad monetaria del país. Su objetivo principal es mantener la estabilidad de los precios, es decir, una inflación baja y predecible, y cuidar que el sistema financiero funcione bien. Es un organismo técnico con autonomía: sus decisiones no dependen del Gobierno de turno.",
+   "funciones": [
+    "Fijar la tasa de política monetaria para alcanzar la meta de inflación.",
+    "Emitir los billetes y monedas del guaraní.",
+    "Administrar las reservas internacionales del país.",
+    "Supervisar a bancos y financieras a través de la Superintendencia de Bancos.",
+    "Administrar el Fondo de Garantía de Depósitos.",
+    "Publicar estadísticas clave: inflación, actividad económica (IMAEP), comercio exterior y cotizaciones."
+   ],
+   "herramientas": [
+    [
+     "Tasa de política monetaria (TPM)",
+     "La tasa de referencia que guía el costo del crédito. Bajarla estimula el gasto; subirla frena la inflación."
+    ],
+    [
+     "Instrumentos de regulación monetaria",
+     "Títulos que el BCP vende o recompra a los bancos para retirar o inyectar guaraníes."
+    ],
+    [
+     "Encaje legal",
+     "Parte de los depósitos que los bancos deben dejar inmovilizada en el BCP."
+    ],
+    [
+     "Intervención cambiaria",
+     "Compra o venta de dólares de las reservas para moderar movimientos bruscos del tipo de cambio."
+    ],
+    [
+     "Fondo de Garantía de Depósitos",
+     "Devuelve los ahorros hasta un tope cuando un banco cae, como en el caso de Ueno Bank."
+    ]
+   ],
+   "autoridades": [
+    {
+     "cargo": "Presidente (aprobado por el Senado)",
+     "nombre": "Jorge Schreiner",
+     "estado": "Falta decreto y juramento",
+     "desde": "2026-11-09",
+     "fuente": "Última Hora",
+     "url": "https://www.ultimahora.com/senado-presta-acuerdo-para-schreiner-y-rivarola-en-el-bcp",
+     "nota": "Propuesto por el presidente Pedro Alliana."
+    },
+    {
+     "cargo": "Presidente interino",
+     "nombre": "Pedro de Jesús Acosta",
+     "estado": "En el cargo hasta que asuma el titular",
+     "desde": "2026-11-04",
+     "fuente": "ABC Color",
+     "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
+     "nota": "Miembro del directorio por el Decreto 7196."
+    },
+    {
+     "cargo": "Miembro del directorio (aprobado por el Senado)",
+     "nombre": "Fernando Rivarola",
+     "estado": "Falta decreto y juramento",
+     "desde": "2026-11-09",
+     "fuente": "ABC Color",
+     "url": "https://www.abc.com.py/politica/2026/11/09/alliana-pide-acuerdo-para-fernando-rivarola-el-tecnico-que-alerto-sobre-ueno-bank/",
+     "nota": "Según ABC Color, es el técnico que alertó sobre Ueno Bank."
+    },
+    {
+     "cargo": "Miembro del directorio",
+     "nombre": "Miguel Mora",
+     "estado": "En el cargo",
+     "desde": "",
+     "fuente": "La Nación",
+     "url": "https://www.lanacion.com.py/negocios/2026/11/09/pedro-alliana-propone-a-jorge-schreiner-para-la-presidencia-del-bcp/",
+     "nota": ""
+    },
+    {
+     "cargo": "Miembro del directorio",
+     "nombre": "Liana Caballero",
+     "estado": "En el cargo",
+     "desde": "",
+     "fuente": "La Nación",
+     "url": "https://www.lanacion.com.py/negocios/2026/11/09/pedro-alliana-propone-a-jorge-schreiner-para-la-presidencia-del-bcp/",
+     "nota": ""
+    }
+   ],
+   "autoridades_nota": "Por la crisis de Ueno Bank renunciaron el presidente Carlos Carvallo y los miembros Carmen Marín y Marco Aurelio González. Los directores los designa el Poder Ejecutivo con acuerdo del Senado.",
+   "cifras": [
+    [
+     "tpm",
+     "Tasa de política monetaria"
+    ],
+    [
+     "inflacion",
+     "Inflación interanual"
+    ],
+    [
+     "dolar",
+     "Dólar"
+    ],
+    [
+     "credito",
+     "Crédito al sector privado"
+    ]
+   ],
+   "fijas": [
+    [
+     "3,5 %",
+     "Meta de inflación (rango de ± 2 puntos)"
+    ]
+   ],
+   "agenda": [
+    [
+     "2026-11-20",
+     "Próxima reunión del Comité de Política Monetaria: decide si cambia la tasa."
+    ]
+   ],
+   "eventos": [
+    [
+     "2026-01",
+     "Baja la tasa de 6,00 % a 5,75 %."
+    ],
+    [
+     "2026-02-20",
+     "Baja la tasa a 5,50 %."
+    ],
+    [
+     "2026-10-23",
+     "Mantiene la tasa en 5,50 % y eleva el crecimiento esperado a 5 %."
+    ],
+    [
+     "2026-11-03",
+     "Interviene Ueno Bank por insolvencia; renuncia el presidente Carlos Carvallo."
+    ],
+    [
+     "2026-11-04",
+     "Pedro de Jesús Acosta asume como presidente interino."
+    ],
+    [
+     "2026-11-05",
+     "Comienza la devolución de depósitos de Ueno Bank."
+    ],
+    [
+     "2026-11-09",
+     "El Senado aprueba a Jorge Schreiner como presidente y a Fernando Rivarola como director."
+    ]
+   ],
+   "enlaces": [
+    [
+     "Sitio oficial",
+     "https://www.bcp.gov.py/"
+    ],
+    [
+     "Cotizaciones del día",
+     "https://www.bcp.gov.py/webapps/web/cotizacion/monedas"
+    ]
+   ]
+  },
+  "mef": {
+   "sigla": "MEF",
+   "nombre": "Ministerio de Economía y Finanzas",
+   "web": "https://www.mef.gov.py/",
+   "tema": "3.6",
+   "diagrama": "politica-fiscal",
+   "que": "Es el ministerio que conduce la política económica y fiscal del Gobierno: prepara el Presupuesto, decide cuánto se gasta y en qué, y gestiona la deuda pública. Fue creado en 2023 por la Ley 7158, que unió al antiguo Ministerio de Hacienda con la Secretaría Técnica de Planificación y la Secretaría de la Función Pública.",
+   "funciones": [
+    "Formular la política económica nacional.",
+    "Definir la política fiscal: gasto público e impuestos.",
+    "Preparar el Presupuesto General de la Nación y controlar su ejecución.",
+    "Definir la política de endeudamiento: emitir bonos y negociar préstamos.",
+    "Planificar el desarrollo y la gestión de los funcionarios públicos."
+   ],
+   "herramientas": [
+    [
+     "Presupuesto General de la Nación",
+     "Define cuánto gasta el Estado y en qué; lo aprueba el Congreso cada año."
+    ],
+    [
+     "Deuda pública",
+     "Bonos y préstamos para financiar el déficit, en guaraníes o en dólares."
+    ],
+    [
+     "Política tributaria",
+     "Propone los impuestos; la recaudación la hace la DNIT (Dirección Nacional de Ingresos Tributarios)."
+    ],
+    [
+     "Regla fiscal",
+     "La Ley de Responsabilidad Fiscal limita el déficit a 1,5 % del PIB."
+    ],
+    [
+     "Programas sociales",
+     "Transferencias como la pensión a adultos mayores, financiadas en el Presupuesto."
+    ]
+   ],
+   "autoridades": [
+    {
+     "cargo": "Ministro de Economía y Finanzas",
+     "nombre": "Óscar Lovera",
+     "estado": "En el cargo",
+     "desde": "2026-04",
+     "fuente": "Última Hora",
+     "url": "https://www.ultimahora.com/quienes-mantienen-sus-cargos-con-pedro-alliana",
+     "nota": "Asumió en abril de 2026, tras la renuncia de Carlos Fernández Valdovinos. Según Última Hora, sigue en el cargo con el presidente Pedro Alliana."
+    }
+   ],
+   "autoridades_nota": "La Ley 7158 organiza el ministerio en tres viceministerios: Economía y Planificación, Administración Financiera, y Capital Humano y Gestión Organizacional, además de la Abogacía del Tesoro. Los viceministros los designa el Poder Ejecutivo por decreto.",
+   "cifras": [
+    [
+     "recaudacion",
+     "Recaudación mensual (DNIT)"
+    ],
+    [
+     "embi",
+     "Riesgo país"
+    ]
+   ],
+   "fijas": [
+    [
+     "G. 166,3 bill.",
+     "Proyecto de Presupuesto 2027"
+    ],
+    [
+     "3,9 %",
+     "Déficit pedido para 2027 (% del PIB)"
+    ],
+    [
+     "1,5 %",
+     "Límite de déficit de la Ley de Responsabilidad Fiscal"
+    ],
+    [
+     "22 %",
+     "Deuda en guaraníes sobre el total (feb 2026, máximo histórico)"
+    ]
+   ],
+   "agenda": [
+    [
+     "2026-11-09",
+     "El Gobierno anuncia una reestructuración del Presupuesto 2027 con recortes; Diputados estudia el proyecto."
+    ]
+   ],
+   "eventos": [
+    [
+     "2026-02-24",
+     "Emite bonos en guaraníes a 12 años por US$ 1.000 millones, al 8,5 %."
+    ],
+    [
+     "2026-04",
+     "Óscar Lovera asume como ministro tras la renuncia de Carlos Fernández Valdovinos."
+    ],
+    [
+     "2026-09-02",
+     "Presenta el Presupuesto 2027 con un déficit de hasta 3,9 % del PIB."
+    ],
+    [
+     "2026-11-09",
+     "Es convocado por el nuevo gobierno para reestructurar el Presupuesto 2027."
+    ]
+   ],
+   "enlaces": [
+    [
+     "Sitio oficial",
+     "https://www.mef.gov.py/"
+    ],
+    [
+     "DNIT (recaudación)",
+     "https://www.dnit.gov.py/"
+    ]
    ]
   }
  }
