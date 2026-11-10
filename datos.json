@@ -4971,6 +4971,1407 @@
     "agro",
     "comercio"
    ]
+  },
+  {
+   "id": "ande-electrointensivas",
+   "fecha": "2026-10-26",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/ande-reglamenta-tarifas-para-centros-de-datos-e-ia",
+   "mas": [
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/electrointensivas-requieren-como-cinco-centrales-acaray",
+     "2026-01-06"
+    ]
+   ],
+   "titulo": "Centros de datos piden 6.000 MW: ¿a quién se le da la electricidad?",
+   "unidad": "micro",
+   "tema": "1.1",
+   "kc": "escasez",
+   "sector": [
+    "energia"
+   ],
+   "resumen": "La ANDE creó una categoría de tarifa para «industrias electrointensivas de tecnología avanzada», como los centros de datos y de inteligencia artificial. Según Última Hora, unas 40 empresas negocian y consultan por cerca de 6.000 MW de potencia. La ANDE ya tiene contratos por 1.100 MW con 50 clientes de consumo intensivo, sobre todo de criptominería: el equivalente a cinco centrales como Acaray.",
+   "contexto": "La electricidad que produce Paraguay es abundante comparada con su consumo, pero no es infinita: la demanda interna crece rápido y cada megavatio que se vende a una industria nueva es un megavatio que no se usa en hogares, comercios o fábricas, ni se vende a Brasil. Ese es el problema central de la economía: recursos escasos frente a deseos ilimitados, que obligan a elegir. Elegir tiene un costo de oportunidad: lo que se deja de lado. La ANDE fijó tarifas en dólares con una actualización de 2,5 % anual, y el ex titular de la ANDE Pedro Ferreira advierte que el precio acordado con una de las empresas cubre los costos solo mientras la energía de Itaipú siga barata.",
+   "datos": [
+    [
+     "6.000 MW",
+     "Potencia que consultan unas 40 empresas interesadas"
+    ],
+    [
+     "1.100 MW",
+     "Potencia ya contratada por 50 clientes de consumo intensivo"
+    ],
+    [
+     "5 Acaray",
+     "Equivalencia de esos 1.100 MW en centrales como Acaray"
+    ],
+    [
+     "US$ 48,91",
+     "Precio por MWh en 220 kV del contrato de referencia (2026)"
+    ],
+    [
+     "2,5 %",
+     "Actualización anual de la tarifa"
+    ]
+   ],
+   "clave": [
+    "6.000 MW",
+    "pedidos por centros de datos"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "MW",
+    "rows": [
+     [
+      "Ya contratado (50 clientes)",
+      1100
+     ],
+     [
+      "Consultas de centros de datos",
+      6000,
+      1
+     ]
+    ]
+   },
+   "cap": "La potencia que piden los centros de datos es más de cinco veces la que ya consumen todos los clientes intensivos juntos. Con energía limitada, hay que elegir a quién se le vende.",
+   "pasos": [
+    "La energía disponible es limitada y la demanda interna crece",
+    "Llegan nuevas industrias que piden mucha electricidad",
+    "Darles energía significa no usarla en otra cosa (costo de oportunidad)",
+    "El Estado y la ANDE deben elegir a quién vender y a qué precio",
+    "La elección afecta empleo, inversión, ingresos de la ANDE y precios futuros"
+   ],
+   "conceptos": [
+    [
+     "Escasez",
+     "Los recursos son limitados frente a necesidades y deseos ilimitados."
+    ],
+    [
+     "Costo de oportunidad",
+     "El valor de la mejor alternativa a la que se renuncia al elegir."
+    ],
+    [
+     "Asignación de recursos",
+     "Cómo se decide qué producir, cómo y para quién."
+    ],
+    [
+     "Frontera de posibilidades de producción",
+     "Muestra las combinaciones máximas que se pueden producir con recursos dados."
+    ]
+   ],
+   "diagramas": [
+    "monopolio"
+   ],
+   "rel": [
+    "ande-tarifa",
+    "energia-cedida"
+   ],
+   "pregunta": {
+    "q": "Si la ANDE vende 1.000 MW a centros de datos, ¿cuál es el costo de oportunidad?",
+    "opts": [
+     "Lo que se deja de producir o vender con esa energía en su mejor uso alternativo",
+     "El precio que pagan los centros de datos",
+     "El costo de construir la represa",
+     "Nada, porque la energía es renovable"
+    ],
+    "ok": 0,
+    "fb": "El costo de oportunidad es la mejor alternativa a la que se renuncia: esa energía ya no está disponible para hogares, otras industrias o para venderla a Brasil."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Empresas tecnológicas",
+      "Acceden a energía limpia y relativamente barata."
+     ],
+     [
+      "La ANDE",
+      "Vende más energía en dólares si el precio cubre sus costos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Otros usuarios futuros",
+      "Si la demanda crece, podría faltar energía o subir su precio."
+     ],
+     [
+      "El Estado",
+      "Si el precio queda por debajo del costo futuro, la ANDE asume pérdidas."
+     ]
+    ],
+    "corto": "Más inversión y facturación en dólares para la ANDE.",
+    "largo": "Si la demanda total supera la oferta, habrá que invertir en nueva generación o racionar.",
+    "supuestos": [
+     "Que la tarifa cubra los costos futuros, no solo los actuales",
+     "Que las empresas generen empleo y actividad en el país"
+    ],
+    "conclusion": "Vender energía a industrias nuevas puede ser buena idea, pero solo si el precio refleja su costo de oportunidad: la energía de hoy no estará disponible mañana."
+   }
+  },
+  {
+   "id": "bcp-proyeccion",
+   "fecha": "2026-07-16",
+   "medio": "Infobae",
+   "url": "https://www.infobae.com/america/america-latina/2026/07/16/el-banco-central-elevo-al-45-la-proyeccion-de-crecimiento-del-pib-de-paraguay-este-ano/",
+   "titulo": "Cómo «adivinan» los economistas: el BCP cambia su proyección de crecimiento",
+   "unidad": "macro",
+   "tema": "1.2",
+   "kc": "cambio",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "En su Informe de Política Monetaria de junio de 2026, el BCP subió su proyección de crecimiento del PIB para 2026 de 4,2 % a 4,5 %, sobre todo por una mayor producción de soja, y bajó la de inflación de 3,5 % a 3,3 %. En octubre volvió a elevar el crecimiento esperado, a 5 %.",
+   "contexto": "Los economistas no pueden hacer experimentos de laboratorio con un país: usan modelos, que simplifican la realidad con supuestos (por ejemplo, «todo lo demás constante», ceteris paribus). Con datos nuevos, el modelo se actualiza y la proyección cambia: aquí, la cosecha de soja fue mejor de lo previsto, y el BCP subió la proyección de la agricultura de 3,2 % a 4,7 %. Una proyección es una afirmación positiva (se puede comprobar con los datos cuando lleguen); decir «el Gobierno debería gastar más para crecer» sería normativa, porque depende de juicios de valor.",
+   "datos": [
+    [
+     "4,5 %",
+     "Crecimiento del PIB 2026 proyectado en junio (antes 4,2 %)"
+    ],
+    [
+     "5,0 %",
+     "Proyección elevada en octubre"
+    ],
+    [
+     "3,3 %",
+     "Inflación 2026 proyectada (antes 3,5 %)"
+    ],
+    [
+     "4,7 %",
+     "Crecimiento proyectado de la agricultura (antes 3,2 %)"
+    ],
+    [
+     "6,6 %",
+     "Crecimiento del PIB en 2025"
+    ]
+   ],
+   "clave": [
+    "4,2 → 4,5 %",
+    "proyección de crecimiento"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Proyección de diciembre 2025",
+      4.2
+     ],
+     [
+      "Proyección de junio 2026",
+      4.5
+     ],
+     [
+      "Proyección de octubre 2026",
+      5.0,
+      1
+     ]
+    ]
+   },
+   "cap": "La proyección cambia cuando llegan datos nuevos: el modelo no cambió, cambió la información sobre la cosecha.",
+   "pasos": [
+    "El BCP usa un modelo con supuestos sobre la economía",
+    "Proyecta el crecimiento con la información disponible",
+    "Llegan datos nuevos: la cosecha de soja es mayor",
+    "El BCP actualiza los supuestos y sube la proyección",
+    "Las empresas y el Gobierno usan esa proyección para decidir"
+   ],
+   "conceptos": [
+    [
+     "Modelo económico",
+     "Representación simplificada de la realidad para explicar o predecir."
+    ],
+    [
+     "Ceteris paribus",
+     "Supuesto de que todo lo demás permanece constante."
+    ],
+    [
+     "Economía positiva",
+     "Afirmaciones que se pueden comprobar con datos."
+    ],
+    [
+     "Economía normativa",
+     "Afirmaciones basadas en juicios de valor sobre lo que debería hacerse."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da"
+   ],
+   "rel": [
+    "bcp-tpm",
+    "pib-2t-2026"
+   ],
+   "pregunta": {
+    "q": "¿Cuál de estas frases es una afirmación positiva?",
+    "opts": [
+     "El BCP proyecta que el PIB crecerá 4,5 % en 2026",
+     "El Gobierno debería gastar más en educación",
+     "Es injusto que la soja crezca más que la industria",
+     "El BCP debería bajar la tasa de interés"
+    ],
+    "ok": 0,
+    "fb": "Una afirmación positiva se puede comprobar con datos. Las otras dicen lo que «debería» ser: son normativas."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Empresas e inversores",
+      "Planifican mejor con proyecciones actualizadas."
+     ]
+    ],
+    "pierden": [
+     [
+      "Quienes decidieron con la proyección vieja",
+      "Pueden haber invertido o ahorrado de más o de menos."
+     ]
+    ],
+    "corto": "La proyección más alta mejora las expectativas.",
+    "largo": "Si las proyecciones fallan seguido, el banco central pierde credibilidad.",
+    "supuestos": [
+     "Que el clima y los precios internacionales se mantengan",
+     "Que no haya shocks como una crisis financiera"
+    ],
+    "conclusion": "Los modelos son útiles aunque fallen: lo importante es entender sus supuestos y actualizarlos con datos nuevos."
+   }
+  },
+  {
+   "id": "agro-oferta",
+   "fecha": "2026-10-05",
+   "medio": "InfoNegocios",
+   "url": "https://infonegocios.com.py/default/soja-arroz-y-poroto-los-cultivos-que-empujaron-al-agro-con-un-salto-de-11-1",
+   "titulo": "Soja, arroz y poroto empujan la oferta agrícola: el agro crece 11,1 %",
+   "unidad": "micro",
+   "tema": "2.2",
+   "kc": "cambio",
+   "sector": [
+    "agro"
+   ],
+   "resumen": "Según las Cuentas Nacionales del BCP, la agricultura creció 11,1 % interanual en el segundo trimestre de 2026 y 12,3 % en el primer semestre. La suba se explica por la soja, el arroz, el poroto, el girasol y el tabaco, mientras que el maíz, el algodón, el sésamo y la yerba mate produjeron menos.",
+   "contexto": "Cuando los productores pueden producir más a cada precio, la curva de oferta se desplaza a la derecha. En el agro, los factores que la mueven son el clima, la tecnología, los costos de insumos y las expectativas de precios. La campaña 2025/2026 dejó más soja y arroz, pero no todos los cultivos crecieron: cada productor elige qué sembrar según el precio esperado y sus costos, y por eso algunos cultivos bajaron mientras otros subían. La mayor oferta agrícola se tradujo en más exportaciones, que crecieron 11,5 % en el trimestre.",
+   "datos": [
+    [
+     "+11,1 %",
+     "Crecimiento de la agricultura (2.º trimestre 2026)"
+    ],
+    [
+     "+12,3 %",
+     "Agricultura en el primer semestre"
+    ],
+    [
+     "+11,5 %",
+     "Exportaciones de bienes y servicios (2.º trimestre)"
+    ],
+    [
+     "+4 %",
+     "Crecimiento del PIB en el 2.º trimestre"
+    ]
+   ],
+   "clave": [
+    "+11,1 %",
+    "más producción agrícola"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "O",
+    "dir": 1
+   },
+   "cap": "Mejor campaña de soja y arroz: la oferta se desplaza a la derecha (O₁ → O₂), aumenta la cantidad y, si nada más cambia, baja el precio.",
+   "pasos": [
+    "El clima y la tecnología favorecen la campaña 2025/2026",
+    "Los productores pueden ofrecer más soja y arroz a cada precio",
+    "La curva de oferta se desplaza a la derecha",
+    "Aumenta la cantidad producida y vendida",
+    "Crecen las exportaciones y el PIB"
+   ],
+   "conceptos": [
+    [
+     "Oferta",
+     "Cantidad que los productores están dispuestos y pueden vender a cada precio."
+    ],
+    [
+     "Desplazamiento de la oferta",
+     "Cambio en la cantidad ofrecida a todos los precios por factores distintos del precio."
+    ],
+    [
+     "Determinantes de la oferta",
+     "Costos, tecnología, clima, expectativas, precios de otros bienes, impuestos y subsidios."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda"
+   ],
+   "rel": [
+    "soja-record",
+    "pib-2t-2026"
+   ],
+   "pregunta": {
+    "q": "¿Qué pasa con la curva de oferta de soja si una cosecha es mejor por el buen clima?",
+    "opts": [
+     "Se desplaza a la derecha",
+     "Se desplaza a la izquierda",
+     "No se mueve: solo cambia la cantidad demandada",
+     "Se mueve la demanda a la derecha"
+    ],
+    "ok": 0,
+    "fb": "El clima es un determinante de la oferta distinto del precio: con mejor clima se ofrece más a cada precio, y la curva se desplaza a la derecha."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores de soja y arroz",
+      "Venden más volumen."
+     ],
+     [
+      "El país",
+      "Entran más dólares por exportaciones."
+     ]
+    ],
+    "pierden": [
+     [
+      "Productores de maíz o algodón",
+      "Su producción cayó."
+     ]
+    ],
+    "corto": "Más exportaciones y crecimiento del PIB.",
+    "largo": "Depender del clima hace que el agro sea volátil.",
+    "supuestos": [
+     "Que los precios internacionales no bajen tanto como para compensar el mayor volumen"
+    ],
+    "conclusion": "Una buena cosecha impulsa la economía, pero muestra lo dependiente que es Paraguay del clima."
+   }
+  },
+  {
+   "id": "tomate-precio",
+   "fecha": "2025-08-19",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/el-tomate-vuelve-a-subir-y-alcanza-en-promedio-los-g-230-000-por-caja-en-el-mercado-de-abasto",
+   "titulo": "Poco tomate y trabas para importar: la caja llega a G. 230.000",
+   "unidad": "micro",
+   "tema": "2.3",
+   "kc": "escasez",
+   "sector": [
+    "agro"
+   ],
+   "resumen": "En el Mercado de Abasto de Asunción, la caja de tomate nacional llegó a un promedio de G. 230.000. Según el presidente de la Asociación de Comerciantes e Importadores Frutihortícolas, Pedro Villarreal, la suba se debe a que falta tomate nacional y a las limitaciones para importar, ya que el Ministerio de Agricultura controla los permisos de importación.",
+   "contexto": "El precio de equilibrio está donde la cantidad que se quiere comprar coincide con la que se ofrece. Si la oferta cae (por el clima o porque se limita la importación) y la demanda sigue igual, a ese precio hay escasez y el precio sube hasta un nuevo equilibrio. El tomate es un buen ejemplo: la demanda cambia poco (se consume a diario, entre 150.000 y 180.000 kilos según el comerciante), así que cuando falta oferta el precio sube mucho. Los productores nacionales y los importadores discuten quién tiene la culpa, y el comerciante criticó un proyecto de ley que solo permitiría importar a quien compre producción nacional.",
+   "datos": [
+    [
+     "G. 230.000",
+     "Precio promedio de la caja de tomate nacional en el Abasto"
+    ],
+    [
+     "150.000-180.000 kg",
+     "Consumo diario de tomate del país, según el comerciante"
+    ]
+   ],
+   "clave": [
+    "G. 230.000",
+    "por caja de tomate"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "O",
+    "dir": -1
+   },
+   "cap": "Menos tomate nacional y menos importación: la oferta se desplaza a la izquierda (O₁ → O₂), sube el precio de equilibrio y baja la cantidad.",
+   "pasos": [
+    "Falta tomate nacional y se limita la importación",
+    "La oferta se desplaza a la izquierda",
+    "Al precio anterior hay escasez: se quiere comprar más de lo que hay",
+    "El precio sube hasta un nuevo equilibrio",
+    "Se compra menos tomate a un precio mayor"
+   ],
+   "conceptos": [
+    [
+     "Equilibrio de mercado",
+     "Precio en el que la cantidad demandada es igual a la ofrecida."
+    ],
+    [
+     "Escasez (exceso de demanda)",
+     "Cantidad demandada mayor que la ofrecida a un precio dado."
+    ],
+    [
+     "Función de señal del precio",
+     "El precio alto indica escasez e incentiva a producir o importar más."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda",
+    "arancel"
+   ],
+   "rel": [
+    "carne-sustitutos",
+    "inflacion-oct"
+   ],
+   "pregunta": {
+    "q": "Si se permite importar más tomate, ¿qué pasa con el equilibrio?",
+    "opts": [
+     "La oferta sube: baja el precio y aumenta la cantidad",
+     "La demanda sube: sube el precio",
+     "La oferta baja: sube el precio",
+     "No cambia nada"
+    ],
+    "ok": 0,
+    "fb": "Más importación aumenta la oferta (se desplaza a la derecha): el precio de equilibrio baja y la cantidad aumenta."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores nacionales",
+      "Venden a mejor precio mientras se limita la importación."
+     ]
+    ],
+    "pierden": [
+     [
+      "Consumidores",
+      "Pagan mucho más por un alimento básico."
+     ],
+     [
+      "Comerciantes",
+      "Venden menos volumen."
+     ]
+    ],
+    "corto": "Precio alto mientras dure la escasez.",
+    "largo": "El precio alto incentiva a sembrar más o a importar, y el precio vuelve a bajar.",
+    "supuestos": [
+     "Que la demanda de tomate sea poco sensible al precio",
+     "Que no haya contrabando que aumente la oferta"
+    ],
+    "conclusion": "El precio alto es la señal del mercado de que falta tomate; limitar la importación protege a los productores, pero el costo lo pagan los consumidores."
+   }
+  },
+  {
+   "id": "apuestas-online",
+   "fecha": "2025-03-27",
+   "medio": "UNICEF Paraguay",
+   "url": "https://www.unicef.org/paraguay/comunicados-prensa/unicef-alerta-sobre-adicci%C3%B3n-de-adolescentes-apuestas-online-y-presenta-gu%C3%ADa",
+   "titulo": "Apuestas en línea: por qué los adolescentes no deciden como el «homo economicus»",
+   "unidad": "micro",
+   "tema": "2.4",
+   "kc": "eleccion",
+   "resumen": "UNICEF alertó sobre la adicción de adolescentes a las apuestas en línea, un problema que también afecta a Paraguay, y presentó una guía para las familias. Entre las señales de alerta menciona movimientos de dinero sin explicación en billeteras virtuales y endeudamiento. Según UNICEF, la ley paraguaya prohíbe a los menores jugar en tragamonedas, pero hay un vacío legal sobre las apuestas en línea, y los menores suelen apostar con la cuenta de un adulto.",
+   "contexto": "La teoría clásica supone consumidores racionales que comparan costos y beneficios con toda la información. La economía del comportamiento muestra que las personas, y más los adolescentes, deciden con sesgos: exceso de confianza («esta vez gano»), preferencia por lo inmediato sobre el futuro, y reacciones a la publicidad y a los influencers. Las plataformas de apuestas aprovechan esos sesgos. Por eso se proponen respuestas como regulación, límites, información clara y «empujones» (nudges) que ayudan a decidir mejor sin prohibir.",
+   "datos": [
+    [
+     "Ley 6903/22",
+     "Ley de juegos de azar; su decreto prohíbe a menores jugar en tragamonedas"
+    ],
+    [
+     "Vacío legal",
+     "No hay regulación específica sobre apuestas en línea de menores, según UNICEF"
+    ]
+   ],
+   "clave": [
+    "Sesgos",
+    "que las plataformas aprovechan"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Con sesgos, el jugador cree que apostar vale más de lo que realmente vale. Si tuviera en cuenta los costos reales (deudas, adicción), su demanda sería menor: D₁ → D₂.",
+   "pasos": [
+    "Las plataformas ofrecen apuestas fáciles desde el celular",
+    "Los adolescentes deciden con sesgos: exceso de confianza y preferencia por lo inmediato",
+    "Apuestan más de lo que harían con toda la información",
+    "Aparecen deudas y problemas familiares",
+    "Se proponen regulación, información y nudges"
+   ],
+   "conceptos": [
+    [
+     "Racionalidad limitada",
+     "Las personas deciden con información, tiempo y capacidad limitados."
+    ],
+    [
+     "Sesgo de exceso de confianza",
+     "Creer que las probabilidades de ganar son mayores de lo que son."
+    ],
+    [
+     "Sesgo del presente",
+     "Valorar mucho más el placer inmediato que los costos futuros."
+    ],
+    [
+     "Nudge (empujón)",
+     "Cambio en cómo se presentan las opciones para ayudar a decidir mejor sin prohibir."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda"
+   ],
+   "rel": [],
+   "pregunta": {
+    "q": "¿Qué sesgo explica que un adolescente siga apostando porque cree que «la próxima vez gana»?",
+    "opts": [
+     "Exceso de confianza",
+     "Aversión a las pérdidas",
+     "Elasticidad precio",
+     "Costo de oportunidad"
+    ],
+    "ok": 0,
+    "fb": "El exceso de confianza lleva a sobrestimar la probabilidad de ganar, y es uno de los sesgos que estudia la economía del comportamiento."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Plataformas de apuestas",
+      "Más jugadores y más ingresos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Adolescentes y familias",
+      "Deudas, adicción y conflictos."
+     ]
+    ],
+    "corto": "Crecen las apuestas y los casos de endeudamiento.",
+    "largo": "La adicción tiene costos de salud y sociales que paga la sociedad.",
+    "supuestos": [
+     "Que los menores puedan acceder con cuentas de adultos",
+     "Que la publicidad influya en sus decisiones"
+    ],
+    "conclusion": "Las apuestas muestran los límites del consumidor racional: con sesgos tan fuertes, regular e informar se justifica, sobre todo para menores."
+   }
+  },
+  {
+   "id": "ganado-oferta",
+   "fecha": "2026-03-17",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/03/17/menor-oferta-de-ganado-mantiene-precios-firmes-senala-appec/",
+   "mas": [
+    [
+     "InfoNegocios",
+     "https://infonegocios.com.py/default/con-medidas-sostenidas-el-sector-ganadero-proyecta-recuperacion-del-hato-para-2027",
+     "2025-05-08"
+    ]
+   ],
+   "titulo": "Hay menos ganado y no se puede producir más rápido: la oferta es inelástica",
+   "unidad": "micro",
+   "tema": "2.6",
+   "kc": "cambio",
+   "sector": [
+    "agro"
+   ],
+   "resumen": "Según la Asociación de Productores y Exportadores de Carne (APPEC), la oferta de ganado para la industria cayó 27 % frente a los mismos meses de 2025 y el precio del ganado subió 3 %. Los frigoríficos trabajan al 50-55 % de su capacidad y su margen bruto cayó 16 %. El hato bovino se redujo cinco años seguidos.",
+   "contexto": "La elasticidad precio de la oferta mide cuánto aumenta la cantidad ofrecida cuando sube el precio. En la ganadería es baja a corto plazo: aunque el novillo valga más, criar un animal para faena lleva años, por los ciclos reproductivos largos. Por eso, cuando cae el hato, el precio sube y la cantidad casi no responde. El presidente de la APPEC, Ramiro Maluff, ya había explicado en 2025 que la reducción seguiría por esos ciclos y que la recuperación del hato recién se esperaba hacia 2027. A largo plazo, con tiempo para retener vientres e invertir en genética, la oferta se vuelve más elástica.",
+   "datos": [
+    [
+     "−27 %",
+     "Oferta de ganado para la industria frente a 2025"
+    ],
+    [
+     "+3 %",
+     "Suba del precio del ganado"
+    ],
+    [
+     "50-55 %",
+     "Capacidad usada por los frigoríficos"
+    ],
+    [
+     "−16 %",
+     "Margen bruto de la industria"
+    ],
+    [
+     "5 años",
+     "Seguidos de reducción del hato"
+    ]
+   ],
+   "clave": [
+    "−27 %",
+    "menos ganado para faenar"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Con una oferta muy inelástica (curva empinada), una demanda mayor sube mucho el precio y poco la cantidad: no se pueden criar más animales de un día para otro.",
+   "pasos": [
+    "El hato bovino se redujo durante cinco años",
+    "Criar un novillo lleva años: la oferta no reacciona rápido",
+    "A corto plazo la oferta es muy inelástica",
+    "El precio del ganado sube y la cantidad casi no cambia",
+    "A largo plazo, retener vientres permite ofrecer más"
+   ],
+   "conceptos": [
+    [
+     "Elasticidad precio de la oferta (EPO)",
+     "% de cambio en la cantidad ofrecida ÷ % de cambio en el precio."
+    ],
+    [
+     "Oferta inelástica",
+     "La cantidad ofrecida responde poco al precio (EPO menor que 1)."
+    ],
+    [
+     "Factores de la EPO",
+     "Tiempo de producción, capacidad ociosa, existencias y movilidad de los factores."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda"
+   ],
+   "rel": [
+    "carne-cae",
+    "carne-sustitutos"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la oferta de ganado es inelástica a corto plazo?",
+    "opts": [
+     "Porque criar un animal para faena lleva años",
+     "Porque la demanda de carne es elástica",
+     "Porque los frigoríficos tienen capacidad ociosa",
+     "Porque el precio está regulado"
+    ],
+    "ok": 0,
+    "fb": "El tiempo de producción es el principal factor: aunque suba el precio, no se pueden tener más animales listos de inmediato."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ganaderos con animales",
+      "Reciben mejores precios."
+     ]
+    ],
+    "pierden": [
+     [
+      "Frigoríficos",
+      "Trabajan a media capacidad y con menos margen."
+     ],
+     [
+      "Consumidores",
+      "Pagan más por la carne."
+     ]
+    ],
+    "corto": "Precios firmes y frigoríficos con capacidad ociosa.",
+    "largo": "Los buenos precios incentivan a retener vientres y el hato se recupera.",
+    "supuestos": [
+     "Que la demanda internacional siga firme"
+    ],
+    "conclusion": "El ganado muestra que el tiempo es clave en la elasticidad de la oferta: lo que hoy no se puede ofrecer, puede ofrecerse en dos o tres años."
+   }
+  },
+  {
+   "id": "bomberos-bien-publico",
+   "fecha": "2026-06-10",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/pais/2026/06/10/bomberos-voluntarios-recibiran-desembolsos-tras-acuerdo-con-el-intendente-bello/",
+   "titulo": "Los bomberos cuidan a todos, pero ¿quién los paga? Un bien público",
+   "unidad": "micro",
+   "tema": "2.9",
+   "kc": "intervencion",
+   "resumen": "La Municipalidad de Asunción firmó convenios para transferir unos G. 3.000 millones a los bomberos voluntarios: 60 % para el Cuerpo de Bomberos Voluntarios del Paraguay y 40 % para el de Asunción. El dinero sale de un fondo financiado con el 3,5 % del impuesto a la construcción que cobra la comuna, y el último pago de este tipo había sido en 2020.",
+   "contexto": "Un bien público es no rival (que te protejan a vos no reduce la protección de tu vecino) y no excluible (no se puede dejar sin protección a quien no paga, porque un incendio se extiende). Por eso el mercado no lo provee bien: cada uno espera que paguen los demás y se aprovecha gratis, el problema del «polizón» (free rider). En Paraguay, el servicio de bomberos depende en gran parte de voluntarios y de transferencias del Estado y de los municipios, que llegan tarde: el intendente Luis Bello dijo que los bomberos cuidan la ciudad y que la ciudad debe cuidarlos a ellos.",
+   "datos": [
+    [
+     "G. 3.000 millones",
+     "Transferencia de la Municipalidad de Asunción a los bomberos"
+    ],
+    [
+     "60 % / 40 %",
+     "Reparto entre el Cuerpo del Paraguay y el de Asunción"
+    ],
+    [
+     "3,5 %",
+     "Parte del impuesto a la construcción que financia el fondo"
+    ],
+    [
+     "2020",
+     "Año del último pago anterior"
+    ]
+   ],
+   "clave": [
+    "G. 3.000 M",
+    "para los bomberos"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% del aporte",
+    "rows": [
+     [
+      "Bomberos Voluntarios del Paraguay",
+      60,
+      1
+     ],
+     [
+      "Bomberos de Asunción",
+      40
+     ]
+    ]
+   },
+   "cap": "Como nadie puede ser excluido de la protección contra incendios, el servicio se financia con impuestos: aquí, una parte del impuesto a la construcción.",
+   "pasos": [
+    "La protección contra incendios beneficia a todos a la vez",
+    "No se puede excluir a quien no paga",
+    "Cada uno espera que paguen los demás (polizón)",
+    "El mercado no lo provee lo suficiente",
+    "El Estado lo financia con impuestos"
+   ],
+   "conceptos": [
+    [
+     "Bien público",
+     "Bien no rival y no excluible."
+    ],
+    [
+     "No rival",
+     "El consumo de uno no reduce el de otro."
+    ],
+    [
+     "No excluible",
+     "No se puede impedir que lo use quien no paga."
+    ],
+    [
+     "Problema del polizón (free rider)",
+     "Beneficiarse sin pagar, esperando que paguen los demás."
+    ]
+   ],
+   "diagramas": [],
+   "rel": [
+    "pgn-2027"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el mercado no proveería suficiente servicio de bomberos?",
+    "opts": [
+     "Porque no se puede excluir a quien no paga y aparecen polizones",
+     "Porque los bomberos son voluntarios",
+     "Porque la demanda es elástica",
+     "Porque es un monopolio natural"
+    ],
+    "ok": 0,
+    "fb": "Al ser no excluible, cada persona tiene incentivo a no pagar y aprovechar el servicio que pagan otros."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Vecinos de Asunción",
+      "Mejor equipamiento para emergencias."
+     ]
+    ],
+    "pierden": [
+     [
+      "Otros usos del presupuesto municipal",
+      "Ese dinero no se usa en otra cosa."
+     ]
+    ],
+    "corto": "Más equipos y cuarteles para los bomberos.",
+    "largo": "Sin pagos regulares, el servicio sigue dependiendo de voluntarios y donaciones.",
+    "supuestos": [
+     "Que los fondos se usen y se rindan bien"
+    ],
+    "conclusion": "Los bienes públicos necesitan financiamiento público estable; pagos esporádicos dejan el servicio en riesgo."
+   }
+  },
+  {
+   "id": "adultos-mayores",
+   "fecha": "2026-09-01",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/09/01/plan-de-gastos-para-el-2027-asciende-a-usd-25751-millones/",
+   "mas": [
+    [
+     "InfoNegocios",
+     "https://infonegocios.com.py/nota-principal/ejecutivo-presento-el-pgn-2027-por-us-25-700-millones-y-con-deficit-fiscal-proyectado-de-hasta-3-9-del-pib",
+     "2026-09-02"
+    ]
+   ],
+   "titulo": "La pensión para adultos mayores llega a 406.000 personas: equidad en el Presupuesto",
+   "unidad": "macro",
+   "tema": "2.12",
+   "kc": "equidad",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "El proyecto de Presupuesto 2027 sube en US$ 65 millones la pensión para adultos mayores, que llega a un total de unos US$ 564 millones y a más de 406.000 beneficiarios. Según InfoNegocios, los beneficiarios pasarían de unos 376.000 a más de 406.000.",
+   "contexto": "El mercado reparte el ingreso según lo que cada uno vende (su trabajo, su capital), y eso puede dejar a muchas personas sin ingresos suficientes, como los adultos mayores que trabajaron en la informalidad y no tienen jubilación. Para corregir esa falta de equidad, el Estado usa transferencias: pagos sin contraprestación financiados con impuestos. La pensión reduce la pobreza en la vejez y la desigualdad, pero tiene un costo de oportunidad: ese dinero no va a otras áreas, y el Presupuesto 2027 ya prevé un déficit alto.",
+   "datos": [
+    [
+     "406.000+",
+     "Beneficiarios de la pensión para adultos mayores en 2027"
+    ],
+    [
+     "US$ 564 M",
+     "Monto total del programa en el proyecto 2027"
+    ],
+    [
+     "+US$ 65 M",
+     "Aumento frente a 2026"
+    ],
+    [
+     "≈376.000",
+     "Beneficiarios antes del aumento"
+    ]
+   ],
+   "clave": [
+    "406.000",
+    "adultos mayores con pensión"
+   ],
+   "fig": {
+    "k": "lorenz",
+    "g": 0.43
+   },
+   "cap": "Las transferencias a los hogares de menos ingresos acercan la curva de Lorenz a la línea de igualdad perfecta.",
+   "pasos": [
+    "El mercado deja sin ingresos a quienes no pudieron aportar",
+    "Muchos adultos mayores no tienen jubilación",
+    "El Estado les transfiere una pensión financiada con impuestos",
+    "Aumenta su ingreso y baja la pobreza en la vejez",
+    "Se reduce la desigualdad, con un costo fiscal"
+   ],
+   "conceptos": [
+    [
+     "Equidad",
+     "Distribución justa del ingreso; no es lo mismo que igualdad."
+    ],
+    [
+     "Pagos de transferencia",
+     "Pagos del Estado sin contraprestación, como pensiones o subsidios."
+    ],
+    [
+     "Redistribución del ingreso",
+     "Pasar ingreso de unos grupos a otros mediante impuestos y transferencias."
+    ]
+   ],
+   "diagramas": [
+    "lorenz"
+   ],
+   "rel": [
+    "gini-2025",
+    "pobreza-16",
+    "pgn-2027"
+   ],
+   "pregunta": {
+    "q": "¿Qué efecto tiene una pensión para adultos mayores sin jubilación?",
+    "opts": [
+     "Reduce la desigualdad y la pobreza en la vejez",
+     "Aumenta la desigualdad",
+     "Es un impuesto regresivo",
+     "No afecta la distribución del ingreso"
+    ],
+    "ok": 0,
+    "fb": "Es una transferencia a un grupo de bajos ingresos: sube su ingreso y acerca la curva de Lorenz a la igualdad."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Adultos mayores sin jubilación",
+      "Reciben un ingreso mensual."
+     ],
+     [
+      "Comercios locales",
+      "Más consumo en los barrios."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes y otras áreas",
+      "El costo se paga con impuestos o con deuda."
+     ]
+    ],
+    "corto": "Baja la pobreza en la vejez.",
+    "largo": "Con una población que envejece, el costo del programa crecerá.",
+    "supuestos": [
+     "Que la pensión llegue a quienes más la necesitan"
+    ],
+    "conclusion": "Es una herramienta eficaz para la equidad, pero su sostenibilidad depende de recaudar más o gastar mejor en otras áreas."
+   }
+  },
+  {
+   "id": "pib-2t-2026",
+   "fecha": "2026-09-29",
+   "medio": "InfoNegocios",
+   "url": "https://infonegocios.com.py/default/economia-local-crecio-4-en-el-segundo-trimestre-y-acumulo-una-expansion-de-5-7-en-el-semestre",
+   "titulo": "Cómo se mide la economía: el PIB creció 4 % en el segundo trimestre",
+   "unidad": "macro",
+   "tema": "3.1",
+   "kc": "cambio",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "Según las Cuentas Nacionales Trimestrales del BCP, el PIB creció 4 % interanual en el segundo trimestre de 2026 y 5,7 % en el primer semestre. La agricultura creció 11,1 % y la electricidad y agua 13 %, mientras la ganadería cayó. Por el lado del gasto, el consumo creció 3,6 %, la inversión cayó 11,8 % y las exportaciones subieron 11,5 %.",
+   "contexto": "El PIB es el valor de todos los bienes y servicios finales producidos en un país en un periodo. Se puede medir de tres formas que deberían dar lo mismo: por la producción (cuánto aporta cada sector), por el gasto (consumo + inversión + gasto público + exportaciones netas) y por el ingreso. Este dato del BCP muestra las dos primeras: por sectores, el agro y las represas empujaron; por el gasto, la demanda externa neta aportó 6,7 puntos al crecimiento, mientras la inversión cayó. El crecimiento es real, es decir, descontando la inflación.",
+   "datos": [
+    [
+     "+4 %",
+     "PIB real, 2.º trimestre 2026 (interanual)"
+    ],
+    [
+     "+5,7 %",
+     "PIB del primer semestre"
+    ],
+    [
+     "+3,6 %",
+     "Consumo total"
+    ],
+    [
+     "−11,8 %",
+     "Inversión (formación bruta de capital fijo)"
+    ],
+    [
+     "+6,7 pts",
+     "Aporte de la demanda externa neta al crecimiento"
+    ],
+    [
+     "48,8 %",
+     "Peso de los servicios en la economía"
+    ]
+   ],
+   "clave": [
+    "+4 %",
+    "crecimiento del PIB real"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% interanual (2.º trim. 2026)",
+    "rows": [
+     [
+      "Agricultura",
+      11.1,
+      1
+     ],
+     [
+      "Electricidad y agua",
+      13
+     ],
+     [
+      "Construcción",
+      4.2
+     ],
+     [
+      "Servicios",
+      3.4
+     ],
+     [
+      "Manufactura",
+      1.8
+     ]
+    ]
+   },
+   "cap": "El PIB por el método de la producción: cuánto creció cada sector. Agro y represas lideraron.",
+   "pasos": [
+    "El BCP suma lo que produce cada sector (método de la producción)",
+    "También mide el gasto: C + I + G + (X − M)",
+    "Descuenta la inflación para obtener el PIB real",
+    "Compara con el mismo trimestre del año anterior",
+    "Resultado: 4 % de crecimiento real"
+   ],
+   "conceptos": [
+    [
+     "PIB",
+     "Valor de mercado de los bienes y servicios finales producidos en un país en un periodo."
+    ],
+    [
+     "PIB real",
+     "PIB ajustado por inflación; mide cambios en la cantidad producida."
+    ],
+    [
+     "Método del gasto",
+     "PIB = C + I + G + (X − M)."
+    ],
+    [
+     "Ciclo económico",
+     "Fluctuaciones del PIB real alrededor de su tendencia."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da"
+   ],
+   "rel": [
+    "agro-oferta",
+    "bcp-proyeccion"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el BCP informa el crecimiento del PIB «real»?",
+    "opts": [
+     "Para descontar el efecto de la inflación y medir la cantidad producida",
+     "Para incluir la economía informal",
+     "Para sumar el PIB de Brasil y Argentina",
+     "Para medir la desigualdad"
+    ],
+    "ok": 0,
+    "fb": "El PIB nominal puede subir solo porque suben los precios; el real elimina la inflación y muestra si se produjo más."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Exportadores agrícolas",
+      "Impulsaron el crecimiento."
+     ]
+    ],
+    "pierden": [
+     [
+      "Sectores ligados a la inversión",
+      "La inversión cayó 11,8 %."
+     ]
+    ],
+    "corto": "Crecimiento sólido apoyado en exportaciones.",
+    "largo": "Con menos inversión hoy, la capacidad de crecer mañana puede ser menor.",
+    "supuestos": [
+     "Que la medición capte bien la economía informal"
+    ],
+    "conclusion": "El PIB creció, pero mirar sus componentes muestra un punto débil: la caída de la inversión."
+   }
+  },
+  {
+   "id": "arancel-eeuu",
+   "fecha": "2025-04-03",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/sector-carnico-el-mayor-exportador-de-paraguay-a-eeuu-que-dice-sobre-los-aranceles-de-trump",
+   "titulo": "Aranceles de EE.UU.: la carne paraguaya paga 26,4 % fuera de la cuota",
+   "unidad": "global",
+   "tema": "4.2",
+   "kc": "interdependencia",
+   "sector": [
+    "agro",
+    "comercio"
+   ],
+   "mundo": [
+    "eeuu"
+   ],
+   "resumen": "Estados Unidos aplicó un arancel recíproco de 10 % a importaciones de más de 180 países, entre ellos los del Mercosur. Además, la carne vacuna paraguaya paga un arancel de 26,4 % cuando entra fuera de la cuota preferencial de 65.000 toneladas que comparte con otros países, una cuota que se agota en los primeros meses del año. Entre enero y marzo de 2025, EE.UU. compró unas 10.442 toneladas de carne paraguaya por US$ 59,6 millones.",
+   "contexto": "Un arancel es un impuesto a las importaciones: encarece el producto extranjero y protege a los productores del país que lo cobra. Una cuota es un límite a la cantidad que puede entrar; aquí se combinan en un «contingente arancelario»: dentro de la cuota el arancel es bajo y, fuera de ella, alto. Para Paraguay, eso significa que su carne compite en EE.UU. con desventaja frente a los productores estadounidenses. Daniel Burt, presidente de la Cámara Paraguaya de Carnes, dijo que la medida afecta al comercio y que habrá que evaluar si sigue siendo rentable exportar.",
+   "datos": [
+    [
+     "10 %",
+     "Arancel recíproco de EE.UU. a más de 180 países"
+    ],
+    [
+     "26,4 %",
+     "Arancel a la carne paraguaya fuera de la cuota"
+    ],
+    [
+     "65.000 t",
+     "Cuota compartida con otros países"
+    ],
+    [
+     "10.442 t",
+     "Carne paraguaya comprada por EE.UU. (ene-mar 2025)"
+    ],
+    [
+     "US$ 59,6 M",
+     "Valor de esas compras"
+    ]
+   ],
+   "clave": [
+    "26,4 %",
+    "arancel fuera de la cuota"
+   ],
+   "fig": {
+    "k": "arancel"
+   },
+   "cap": "El arancel sube el precio de la carne importada en EE.UU.: baja la cantidad importada, ganan los productores estadounidenses y el Gobierno recauda, y hay una pérdida de bienestar.",
+   "pasos": [
+    "EE.UU. cobra un arancel a la carne importada",
+    "La carne paraguaya llega más cara al consumidor estadounidense",
+    "Se importa menos y se produce más dentro de EE.UU.",
+    "Los exportadores paraguayos venden menos o a menor precio",
+    "Paraguay busca otros mercados"
+   ],
+   "conceptos": [
+    [
+     "Arancel",
+     "Impuesto a los bienes importados."
+    ],
+    [
+     "Cuota de importación",
+     "Límite a la cantidad de un bien que puede importarse."
+    ],
+    [
+     "Contingente arancelario",
+     "Arancel bajo dentro de una cuota y alto fuera de ella."
+    ],
+    [
+     "Pérdida de bienestar",
+     "Disminución del excedente total por la protección."
+    ]
+   ],
+   "diagramas": [
+    "arancel"
+   ],
+   "rel": [
+    "carne-cae",
+    "mercosur-ue"
+   ],
+   "pregunta": {
+    "q": "¿Quién gana con el arancel de EE.UU. a la carne importada?",
+    "opts": [
+     "Los productores de carne de EE.UU. y el gobierno de EE.UU.",
+     "Los exportadores paraguayos",
+     "Los consumidores de EE.UU.",
+     "Nadie gana"
+    ],
+    "ok": 0,
+    "fb": "El arancel protege a los productores nacionales y genera recaudación, pero los consumidores pagan más y los exportadores extranjeros venden menos."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores de carne de EE.UU.",
+      "Menos competencia."
+     ]
+    ],
+    "pierden": [
+     [
+      "Frigoríficos y ganaderos paraguayos",
+      "Menos ventas o precios más bajos."
+     ],
+     [
+      "Consumidores de EE.UU.",
+      "Carne más cara."
+     ]
+    ],
+    "corto": "Menos exportaciones de carne a EE.UU.",
+    "largo": "Paraguay diversifica destinos.",
+    "supuestos": [
+     "Que no haya acuerdos que amplíen la cuota"
+    ],
+    "conclusion": "Los aranceles de un país grande trasladan costos a sus socios: por eso a Paraguay le conviene diversificar mercados."
+   }
+  },
+  {
+   "id": "china-taiwan-uip",
+   "fecha": "2025-08-21",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/el-pais-perdera-usd-592-millones-al-ano-si-opta-por-china-continental",
+   "titulo": "¿Libre comercio con China? La UIP calcula ganadores y perdedores",
+   "unidad": "global",
+   "tema": "4.3",
+   "kc": "interdependencia",
+   "sector": [
+    "industria",
+    "comercio"
+   ],
+   "mundo": [
+    "china"
+   ],
+   "resumen": "Un informe del Centro de Estudios Económicos de la Unión Industrial Paraguaya (UIP) estima que relacionarse comercialmente con China continental, incluso con un tratado de libre comercio, dejaría un saldo negativo de unos US$ 592 millones al año. Calcula beneficios por mejores precios de la soja (US$ 202 millones) y ahorro en importaciones, pero costos por perder el mercado de Taiwán, menos recaudación por bajar aranceles y más de 11.500 empleos industriales perdidos en el primer año.",
+   "contexto": "El libre comercio trae beneficios: precios más bajos para los consumidores y nuevos mercados para los exportadores eficientes. Pero también tiene costos concentrados en las industrias que compiten con importaciones baratas. Por eso aparecen argumentos a favor de la protección: proteger el empleo, las industrias nacientes, la recaudación de aranceles o la diversificación. El informe de la UIP, un gremio industrial, advierte que las ganancias irían a grandes exportadores de soja y carne y los costos a trabajadores y a las finanzas públicas. Es importante evaluar quién hace el cálculo y con qué supuestos.",
+   "datos": [
+    [
+     "−US$ 592 M",
+     "Saldo anual estimado frente a la situación actual"
+    ],
+    [
+     "+US$ 202 M",
+     "Mejora por precios de exportación de soja"
+    ],
+    [
+     "US$ 220-250 M",
+     "Ahorro en importaciones (y pérdida similar de recaudación)"
+    ],
+    [
+     "−US$ 299 M",
+     "Exportaciones perdidas a Taiwán"
+    ],
+    [
+     "11.500",
+     "Empleos industriales que se perderían el primer año"
+    ]
+   ],
+   "clave": [
+    "11.500",
+    "empleos en riesgo, según la UIP"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ millones al año",
+    "rows": [
+     [
+      "Mejor precio de la soja",
+      202
+     ],
+     [
+      "Ahorro en importaciones",
+      235
+     ],
+     [
+      "Menos exportaciones a Taiwán",
+      -299,
+      1
+     ],
+     [
+      "Fin de la cooperación de Taiwán",
+      -225
+     ],
+     [
+      "Menos recaudación arancelaria",
+      -235
+     ]
+    ]
+   },
+   "cap": "Beneficios y costos según la UIP (en ahorro y recaudación se usa el punto medio del rango de US$ 220-250 millones). El saldo depende de los supuestos del informe.",
+   "pasos": [
+    "Se baja el arancel a los productos de China",
+    "Las importaciones chinas son más baratas: ganan los consumidores",
+    "Las industrias que compiten con esas importaciones pierden ventas y empleos",
+    "Los exportadores de soja y carne ganan nuevos mercados",
+    "El saldo depende de cuánto pesa cada efecto"
+   ],
+   "conceptos": [
+    [
+     "Argumentos a favor de la protección",
+     "Proteger empleo, industrias nacientes, recaudación, seguridad o diversificación."
+    ],
+    [
+     "Argumentos a favor del libre comercio",
+     "Precios más bajos, más competencia, eficiencia y especialización."
+    ],
+    [
+     "Industria naciente",
+     "Industria nueva que necesitaría protección temporal hasta ser competitiva."
+    ]
+   ],
+   "diagramas": [
+    "arancel",
+    "exportaciones"
+   ],
+   "rel": [
+    "mercosur-ue",
+    "maquila"
+   ],
+   "pregunta": {
+    "q": "¿Cuál es un argumento a favor de la protección que usa el informe de la UIP?",
+    "opts": [
+     "Proteger el empleo en la industria nacional",
+     "Bajar los precios para los consumidores",
+     "Aumentar la competencia",
+     "Aprovechar la ventaja comparativa"
+    ],
+    "ok": 0,
+    "fb": "Proteger el empleo es un argumento clásico a favor de la protección; los otros son argumentos a favor del libre comercio."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Exportadores de soja y carne",
+      "Acceso a un mercado enorme."
+     ],
+     [
+      "Consumidores",
+      "Importaciones más baratas."
+     ]
+    ],
+    "pierden": [
+     [
+      "Industrias textil, química, metalúrgica y de calzado",
+      "Más competencia de productos chinos."
+     ],
+     [
+      "El Estado",
+      "Menos recaudación por aranceles."
+     ]
+    ],
+    "corto": "Pérdidas concentradas en la industria.",
+    "largo": "Depende de si los trabajadores se reubican en sectores más productivos.",
+    "supuestos": [
+     "Los cálculos son de un gremio industrial, parte interesada",
+     "Supone que se pierde el mercado de Taiwán"
+    ],
+    "conclusion": "El libre comercio suele aumentar el bienestar total, pero crea ganadores y perdedores; el debate es cómo compensar a los perdedores."
+   }
+  },
+  {
+   "id": "hambre-cero",
+   "fecha": "2026-07-02",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/politica/2026/07/02/hambre-cero-un-millon-de-alumnos-con-alimentacion-diaria-22000-empleos-y-mas-mipymes/",
+   "titulo": "Hambre Cero: alimentar a un millón de alumnos como estrategia de desarrollo",
+   "unidad": "global",
+   "tema": "4.10",
+   "kc": "equidad",
+   "resumen": "En su informe de gestión ante el Congreso, el Gobierno informó que el programa Hambre Cero en las Escuelas da alimentación diaria a más de un millón de estudiantes en 7.082 instituciones de 263 distritos, entre julio de 2025 y mayo de 2026. Según las cifras oficiales, 22.799 trabajadores de los proveedores están registrados en IPS, y un decreto subió de 5 % a 10 % la compra mínima de insumos a mipymes. El MEF transfirió G. 1,42 billones a las gobernaciones para el programa.",
+   "contexto": "Las estrategias de desarrollo buscan mejorar el bienestar a largo plazo, no solo el crecimiento del PIB. Invertir en la nutrición y la educación de los niños es invertir en capital humano: alumnos mejor alimentados aprenden más y serán trabajadores más productivos. Hambre Cero también intenta crear empleo formal y vincular a la agricultura familiar y a las mipymes como proveedoras. Las cifras son oficiales y no evaluadas de forma independiente, y en 2026 hubo denuncias sobre la calidad de los alimentos en algunas escuelas.",
+   "datos": [
+    [
+     "1.000.000+",
+     "Estudiantes con alimentación diaria"
+    ],
+    [
+     "7.082",
+     "Instituciones educativas en 263 distritos"
+    ],
+    [
+     "22.799",
+     "Trabajadores de proveedores registrados en IPS"
+    ],
+    [
+     "5 % → 10 %",
+     "Compra mínima de insumos a mipymes"
+    ],
+    [
+     "G. 1,42 billones",
+     "Transferido a las gobernaciones (jul 2025-jun 2026)"
+    ]
+   ],
+   "clave": [
+    "1 millón",
+    "de alumnos alimentados cada día"
+   ],
+   "fig": {
+    "k": "oalp",
+    "s": 30
+   },
+   "cap": "Invertir en capital humano (nutrición y educación) aumenta la productividad futura: la OALP se desplaza a la derecha.",
+   "pasos": [
+    "Los alumnos reciben alimentación diaria en la escuela",
+    "Mejoran su nutrición y asistencia",
+    "Aprenden más: aumenta el capital humano",
+    "En el futuro serán trabajadores más productivos",
+    "Aumenta el producto potencial y se reduce la pobreza"
+   ],
+   "conceptos": [
+    [
+     "Capital humano",
+     "Conocimientos, habilidades y salud de las personas que aumentan su productividad."
+    ],
+    [
+     "Estrategias de desarrollo",
+     "Políticas para mejorar el bienestar a largo plazo: educación, salud, infraestructura, inclusión."
+    ],
+    [
+     "Desarrollo económico",
+     "Mejora sostenida del bienestar, no solo del ingreso."
+    ]
+   ],
+   "diagramas": [
+    "politicas-oferta"
+   ],
+   "rel": [
+    "pisa-2025",
+    "pobreza-multidimensional"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la alimentación escolar es una estrategia de desarrollo?",
+    "opts": [
+     "Porque mejora el capital humano y la productividad futura",
+     "Porque baja la inflación",
+     "Porque aumenta las exportaciones de inmediato",
+     "Porque reduce el déficit fiscal"
+    ],
+    "ok": 0,
+    "fb": "Niños mejor alimentados aprenden más; ese capital humano aumenta la productividad y el desarrollo a largo plazo."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Estudiantes y familias pobres",
+      "Comida diaria asegurada."
+     ],
+     [
+      "Mipymes y agricultura familiar",
+      "Más ventas al Estado."
+     ]
+    ],
+    "pierden": [
+     [
+      "Otras áreas del presupuesto",
+      "El programa tiene un costo alto."
+     ]
+    ],
+    "corto": "Más asistencia escolar y empleo en proveedores.",
+    "largo": "Mejor capital humano, si la calidad de la comida y de la enseñanza acompañan.",
+    "supuestos": [
+     "Que las cifras oficiales sean correctas",
+     "Que la comida llegue con calidad a todas las escuelas"
+    ],
+    "conclusion": "Es una estrategia prometedora, pero necesita evaluaciones independientes de sus resultados en aprendizaje."
+   }
   }
  ],
  "historial": {
@@ -9475,13 +10876,13 @@
     "url": "https://infonegocios.com.py/nota-principal/fabia-caceres-uno-de-los-principales-motores-de-las-cooperativas-es-el-credito-de-consumo-que-representa-cerca-del-52-del-total"
    },
    {
-    "n": "Félix Sosa",
+    "n": "Miguel Báez",
     "cargo": "Presidente de la ANDE",
     "tipo": "Empresa pública",
-    "que": "Habla por la empresa estatal de electricidad, que quiere ajustar su tarifa.",
-    "link": "#mirada-ande",
-    "fuente": "La Nación (23 jul 2026)",
-    "url": "https://www.lanacion.com.py/negocios/2026/07/23/tarifa-electrica-estudio-tecnico-recomienda-ajuste-de-hasta-40-para-fortalecer-a-la-ande/"
+    "que": "Habla por la empresa estatal de electricidad; en octubre de 2026 anunció las tarifas para centros de datos e IA.",
+    "link": "#n-ande-electrointensivas",
+    "fuente": "Última Hora (26 oct 2026)",
+    "url": "https://www.ultimahora.com/ande-reglamenta-tarifas-para-centros-de-datos-e-ia"
    },
    {
     "n": "Enio Verri",
