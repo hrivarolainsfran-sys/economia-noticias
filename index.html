@@ -854,6 +854,20 @@ footer .wrap{display:block}
 .card.big.first .plate.ilu img.foto{aspect-ratio:auto;min-height:280px}
 .credito{position:absolute;right:6px;bottom:6px;font-size:.66rem;color:#fff;background:rgba(0,0,0,.55);padding:1px 6px;border-radius:4px}
 @media (max-width:760px){ .card.big.first .plate.ilu img.foto{min-height:0;aspect-ratio:16/9} }
+body:not(.home) .ticker,body:not(.home) .edition{display:none}
+.hub-hero{padding-block:16px 18px;margin-bottom:18px}
+.hub-hero .wrap{gap:14px}
+.hub-hero h1{font-size:clamp(1.7rem,3.2vw,2.3rem)}
+.hub-hero .lede{margin-top:4px;font-size:.95rem}
+.hub-hero .eyebrow{font-size:.72rem}
+.hub-hero .hub-ic{width:52px;height:52px;border-radius:14px}
+.hub-hero .hub-ic .ic{width:28px;height:28px}
+.hub{grid-auto-rows:1fr}
+.hub-card{position:relative;height:100%;padding:16px 46px 16px 16px;grid-template-columns:auto minmax(0,1fr)}
+.hub-card .go{position:absolute;right:16px;bottom:12px}
+.hub-tx span{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.hub-tx small{justify-self:start;margin-top:4px;padding:2px 9px;border-radius:999px;background:color-mix(in srgb,var(--acc) 13%,transparent)}
+@media (max-width:760px){ .hub{grid-auto-rows:auto} .hub-hero .hub-ic{width:44px;height:44px} }
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -1826,6 +1840,7 @@ const BLOQUES = [
 ];
 const bloqueDe = nav => nav === 'buscar' ? null : BLOQUES.find(b => b.home === nav || b.items.some(i => i[0] === nav)) || BLOQUES[0];
 function updateNav(nav) {
+  const hh = location.hash.slice(1); document.body.classList.toggle('home', hh === '' || hh === 'inicio');
   const B = bloqueDe(nav);
   document.body.dataset.block = B ? B.id : 'buscar';
   document.querySelectorAll('[data-block]').forEach(a => a !== document.body && (B && a.dataset.block === B.id ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
