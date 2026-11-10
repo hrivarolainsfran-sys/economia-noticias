@@ -849,6 +849,11 @@ footer .wrap{display:block}
 .card.big .plate.ilu svg.ilus{width:100%;height:100%;max-width:none;max-height:none;display:block;object-fit:cover}
 .card.big.first .plate.ilu{padding:0}
 .card.big:not(.first) .plate.ilu svg{aspect-ratio:16/9}
+.card.big .plate.ilu{position:relative;overflow:hidden;min-height:180px}
+.card.big .plate.ilu img.foto{width:100%;height:100%;object-fit:cover;display:block;aspect-ratio:16/9}
+.card.big.first .plate.ilu img.foto{aspect-ratio:auto;min-height:280px}
+.credito{position:absolute;right:6px;bottom:6px;font-size:.66rem;color:#fff;background:rgba(0,0,0,.55);padding:1px 6px;border-radius:4px}
+@media (max-width:760px){ .card.big.first .plate.ilu img.foto{min-height:0;aspect-ratio:16/9} }
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -2138,7 +2143,16 @@ function temaIlus(n) {
   if (S.includes('comercio') || /export|import|arancel|comercio/.test(t)) return 'comercio';
   return 'grafico';
 }
-const ilus = n => `<svg class="ilus" viewBox="0 0 320 200" role="img" aria-label="Ilustración: ${esc(temaIlus(n))}">${ILUS[temaIlus(n)]}</svg>`;
+const WM = 'https://upload.wikimedia.org/wikipedia/commons/thumb/';
+const FOTOS = {
+  energia: [WM + '0/05/Itaipu_Dam_01.jpg/960px-Itaipu_Dam_01.jpg', 'Represa de Itaipú', 'Gabriel Resende Veiga, CC BY-SA 4.0'],
+  agro: [WM + '6/67/Soja_en_Paraguay_02.jpg/960px-Soja_en_Paraguay_02.jpg', 'Plantación de soja en Santa Rita, Paraguay', 'Patty P, dominio público'],
+  banco: [WM + '6/63/Banco_Central_del_Paraguay_4567_filtered.jpg/960px-Banco_Central_del_Paraguay_4567_filtered.jpg', 'Edificio del Banco Central del Paraguay', 'Cmasi, CC BY-SA 4.0'],
+  comercio: [WM + '3/36/Boat_docked_in_Asuncion_port_1306.jpg/960px-Boat_docked_in_Asuncion_port_1306.jpg', 'Barco en el puerto de Asunción', 'Cmasi, CC BY-SA 4.0'],
+  grafico: [WM + '1/1a/Vista_del_r%C3%ADo_Paraguay_en_el_barrio_Ita_pyta_punta.jpg/960px-Vista_del_r%C3%ADo_Paraguay_en_el_barrio_Ita_pyta_punta.jpg', 'Río Paraguay en Asunción', 'Ybyja, CC BY-SA 4.0'],
+};
+FOTOS.dolar = FOTOS.banco;
+const ilus = n => { const f = FOTOS[temaIlus(n)] || FOTOS.grafico; return `<img class="foto" src="${f[0]}" alt="${esc(f[1])}" loading="lazy" decoding="async"><span class="credito">Foto: ${esc(f[2])} · Wikimedia Commons</span>`; };
 function bigCard(n, i) {
   return `<a class="card big${i ? '' : ' first'}" data-u="${n.unidad}" href="#n-${n.id}"><div class="plate ilu">${ilus(n)}</div><div class="body">
     <div class="meta">${isNew(n) ? '<span class="new">Nuevo</span>' : ''}${unitTag(n.unidad)}<span>${esc(n.medio)} · ${fdate(n.fecha)}</span></div>
