@@ -818,6 +818,12 @@ footer .wrap{display:block}
 .czb[aria-pressed="true"]{background:var(--navy-2);color:#fff;border-color:var(--navy-2)}
 #czh-g svg{width:100%;height:auto}
 @media (max-width:760px){ .cz-tools{grid-template-columns:minmax(0,1fr)} }
+.diadat{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px;align-items:start;margin-top:22px}
+.diadat .pulso,.diadat .cotiz{margin-top:0}
+.diadat .cz-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.diadat .pz-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:900px){ .diadat{grid-template-columns:minmax(0,1fr)} }
+@media (max-width:760px){ .diadat .pz-grid{grid-template-columns:repeat(2,minmax(0,1fr))} }
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -1269,10 +1275,8 @@ function renderHome() {
   <div class="wrap">
     ${bienvenidaHTML()}
     ${topHTML(top)}
-    ${pulsoHTML()}
-    ${cotizHTML()}
+    <div class="diadat">${pulsoHTML()}${cotizHTML(true)}</div>
     ${feat}
-    ${hoyHTML()}
     <div class="sec-head" id="todas"><div><div class="eyebrow">${filtrando ? 'Resultados' : 'Más noticias'}</div><h2>${filtrando ? 'Noticias filtradas' : 'Todas las noticias'}</h2></div><a class="more" href="#semana">Resumen de la semana →</a></div>
     <div class="filters" role="group" aria-label="Filtros">
       ${['todas', 'micro', 'macro', 'global'].map(u => `<button type="button" class="chip" data-u="${u}" aria-pressed="${F.u === u}">${u === 'todas' ? 'Todas' : UNI[u]}</button>`).join('')}
@@ -1283,12 +1287,10 @@ function renderHome() {
     </div>
     <div class="grid">${list.length ? visibles.map(card).join('') : '<div class="empty">No hay noticias con esos filtros. Prueba con otra unidad o borra la búsqueda.</div>'}</div>
     ${!filtrando && !HOMEALL && resto.length > visibles.length ? `<div class="vermas"><button type="button" class="btn" id="vermas">Ver ${resto.length - visibles.length} noticias más</button></div>` : ''}
-    ${exploraHTML()}
-
+    ${hoyHTML()}
     ${proximas().length ? `<div class="sec-head"><div><div class="eyebrow">Agenda</div><h2>Próximas fechas</h2></div><a class="more" href="#calendario">Ver el calendario →</a></div>
     <ol class="cal">${proximas().slice(0, 3).map((e, i) => calItem(e, i ? '' : 'next')).join('')}</ol>` : ''}
-    <div class="sec-head"><div><div class="eyebrow">Fuentes</div><h2>Sigue la economía en los diarios</h2></div><a class="more" href="#diarios">Ver todos →</a></div>
-    <div class="press">${DIARIOS.slice(0, 6).map(([n, u, d]) => `<a class="paper" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(n)}</b><small>${esc(d)}</small></a>`).join('')}</div>
+    ${exploraHTML()}
   </div>`;
   const save = () => store.set('enp-filtro', F);
   document.querySelectorAll('.chip').forEach(b => b.onclick = () => { F.u = b.dataset.u; save(); renderHome(); jump(); });
@@ -1782,7 +1784,7 @@ const BLOQUES = [
   { id: 'noticias', t: 'Noticias', ic: 'noticias', home: 'inicio', d: 'Lo que pasa en la economía paraguaya, explicado con diagramas de Economía IB.', items: [
     ['inicio', 'Portada', 'Las últimas noticias con su análisis IB.', 'noticias'], ['semana', 'Semana', 'El resumen de cada semana y sus noticias clave.', 'semana'], ['historias', 'Historias', 'Los grandes temas contados de principio a fin.', 'historias'], ['calendario', 'Calendario', 'Las próximas fechas que mueven la economía.', 'semana'], ['archivo', 'Archivo', 'Todas las noticias publicadas, por mes y por tema.', 'archivo'], ['diarios', 'Diarios', 'Los medios y las fuentes oficiales.', 'diarios']] },
   { id: 'datos', t: 'Datos', ic: 'datos', home: 'bloque-datos', d: 'Las cifras del país: cuánto crece, cuánto gasta el Estado, con quién comercia y cómo se compara.', items: [
-    ['paraguay', 'Paraguay en datos', 'Las cifras básicas del país en un solo lugar.', 'pin'], ['indicadores', 'Indicadores', 'La evolución de los indicadores, con los hechos que los movieron.', 'linea'], ['metas', 'Metas', 'Semáforo: ¿cumple el país lo que se propuso?', 'semaforo'], ['presupuesto', '¿A dónde van tus impuestos?', 'El Presupuesto en un gráfico simple.', 'monedas'], ['comercio', 'Comercio exterior', 'A quién vende y a quién compra Paraguay.', 'flechas'], ['mapa', 'Mapa', 'Pobreza, desigualdad y producción por departamento.', 'mapa'], ['region', 'Región', 'Paraguay frente a sus vecinos.', 'bandera']] },
+    ['paraguay', 'Paraguay en datos', 'Las cifras básicas del país en un solo lugar.', 'pin'], ['indicadores', 'Indicadores', 'La evolución de los indicadores, con los hechos que los movieron.', 'linea'], ['metas', 'Metas', 'Semáforo: ¿cumple el país lo que se propuso?', 'semaforo'], ['cotizaciones', 'Cotizaciones', 'Dólar, real, peso y euro: compra, venta, conversor e historial.', 'flechas'], ['presupuesto', '¿A dónde van tus impuestos?', 'El Presupuesto en un gráfico simple.', 'monedas'], ['comercio', 'Comercio exterior', 'A quién vende y a quién compra Paraguay.', 'flechas'], ['mapa', 'Mapa', 'Pobreza, desigualdad y producción por departamento.', 'mapa'], ['region', 'Región', 'Paraguay frente a sus vecinos.', 'bandera']] },
   { id: 'sectores', t: 'Sectores', ic: 'sectores', home: 'bloque-sectores', d: 'Quién produce, quién trabaja y quién decide en la economía paraguaya.', items: [
     ['sectores', 'Sectores', 'Agro, energía, industria y comercio.', 'sectores'], ['itaipu', 'Itaipú', 'La represa, la tarifa y el Anexo C.', 'rayo'], ['trabajo', 'Trabajo', 'Informalidad, salario mínimo y brecha de género.', 'maletin'], ['empresas', 'Empresas', 'Cómo deciden empresas reales: competencia y poder de mercado.', 'edificio'], ['cooperativas', 'Cooperativas', 'Ahorro y crédito fuera de los bancos.', 'manos'], ['bolsa', 'Bolsa', 'El mercado de valores de Asunción.', 'bolsa'], ['instituciones', 'Instituciones', 'BCP, MEF, DNIT, INE e IPS.', 'banco'], ['quien', 'Quién es quién', 'Las personas y gremios que aparecen en las noticias.', 'persona']] },
   { id: 'temas', t: 'Temas', ic: 'temas', home: 'bloque-temas', d: 'Para entender la economía más allá del día a día.', items: [
@@ -2104,6 +2106,10 @@ function topHTML(top) {
   return `<section class="top3-sec" id="top3"><div class="sec-head"><div><div class="eyebrow">Lo más importante hoy</div><h2>Las últimas noticias</h2></div><span class="note">Actualizado el ${fdate(ACTUALIZADO)}</span></div>
     <div class="top3">${top.map(bigCard).join('')}</div></section>`;
 }
+function renderCotizaciones() {
+  $('#app').innerHTML = `<div class="wrap"><div class="sec-head"><div><div class="eyebrow">Tipo de cambio · tema 4.5</div><h1>Cotizaciones</h1><p class="lede">Compra y venta del dólar, el peso argentino, el real y el euro, un conversor para calcular cuántos guaraníes recibes o pagas, y cómo se movió cada moneda día a día.</p></div></div>${cotizHTML(false)}<div style="height:30px"></div></div>`;
+  bindCotiz();
+}
 function bindCotiz() {
   const C = CAMB; if (!C || !$('#cv-m')) return;
   const M = Object.fromEntries(C.monedas.map(m => [m[0], m])), g = v => 'G. ' + num(v, v < 100 ? 2 : 0);
@@ -2114,7 +2120,7 @@ function bindCotiz() {
     $('#czh-n').textContent = H.length < 7 ? `Hay ${H.length} ${H.length === 1 ? 'día' : 'días'} registrados: el gráfico se completa con la actualización diaria.` : `Desde el ${fdate(H[0][0])}. Fuente: ${C.fuente}.`; };
   document.querySelectorAll('.czb').forEach(b => b.onclick = () => hist(b.dataset.cz)); hist(C.monedas[0][0]);
 }
-function cotizHTML() {
+function cotizHTML(compacto) {
   const C = CAMB;
   if (!C || !C.monedas) return '';
   const g = v => 'G. ' + num(v, v < 100 ? 2 : 0);
@@ -2122,11 +2128,11 @@ function cotizHTML() {
     <div class="cz-grid">${C.monedas.map(([c, n, co, ve]) => `<div class="cz"><div class="cz-h"><span class="cz-c">${esc(c)}</span><span>${esc(n)}</span></div>
       <div class="cz-v"><div><small>Compra</small><b>${g(co)}</b></div><div><small>Venta</small><b>${g(ve)}</b></div></div>
       <small class="cz-s">Diferencia: ${num((ve - co) / co * 100, 1)} %</small></div>`).join('')}</div>
-    <div class="cz-tools">
+    ${compacto ? `<a class="more" href="#cotizaciones">Conversor e historial →</a>` : `<div class="cz-tools">
       <div class="cz-box"><h3>Conversor</h3><div class="cz-f"><label>Monto<input id="cv-m" inputmode="decimal" value="100"></label><label>Moneda<select id="cv-c">${C.monedas.map(([c, n]) => `<option value="${esc(c)}">${esc(n)}</option>`).join('')}</select></label></div><div id="cv-o" class="cz-out"></div></div>
       <div class="cz-box"><h3>Cómo se movió (precio de venta)</h3><div class="cz-bs">${C.monedas.map(([c, n], i) => `<button type="button" class="czb" data-cz="${esc(c)}" aria-pressed="${i === 0}">${esc(n.split(' ')[0])} ${c === 'ARS' ? 'arg.' : ''}</button>`).join('')}</div><div id="czh-g"></div><p class="note" id="czh-n"></p></div>
-    </div>
-    <p class="note"><b>Compra</b>: lo que la casa de cambios te paga en guaraníes por cada unidad. <b>Venta</b>: lo que te cobra. ${esc(C.nota)} <a href="${esc(C.url)}" target="_blank" rel="noopener">Ver la fuente ↗</a> · <a href="#d-tipo-cambio">Diagrama del tipo de cambio →</a></p></section>`;
+    </div>`}
+    ${compacto ? '' : `<p class="note"><b>Compra</b>: lo que la casa de cambios te paga en guaraníes por cada unidad. <b>Venta</b>: lo que te cobra. ${esc(C.nota)} <a href="${esc(C.url)}" target="_blank" rel="noopener">Ver la fuente ↗</a> · <a href="#d-tipo-cambio">Diagrama del tipo de cambio →</a></p>`}</section>`;
 }
 function pulsoHTML() {
   if (!METAS) return '';
@@ -2636,6 +2642,7 @@ function render() {
   else if (r.startsWith('bloque-') && BLOQUES.some(b => b.id === r.slice(7))) { nav = r; renderBloque(r.slice(7)); }
   else if (r === 'buscar' || r.startsWith('buscar/')) { nav = 'buscar'; renderBuscar(decodeURIComponent(r.slice(7))); }
   else if (r === 'cooperativas') { nav = 'cooperativas'; renderCooperativas(); }
+  else if (r === 'cotizaciones') { nav = 'cotizaciones'; renderCotizaciones(); }
   else if (r === 'presupuesto') { nav = 'presupuesto'; renderPresupuesto(); }
   else if (r === 'comercio') { nav = 'comercio'; renderComercio(); }
   else if (r === 'quien') { nav = 'quien'; renderQuien(); }
