@@ -682,6 +682,17 @@ footer .wrap{display:block}
   .ticker .wrap{display:flex;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none} .ticker .wrap::-webkit-scrollbar{display:none} .ind{flex:0 0 46%;scroll-snap-align:start;border-top:0}
   .edition .wrap span:last-child{display:none} }
 
+.reco{margin-bottom:26px}
+.reco-a{margin-bottom:16px}
+.reco-h{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 12px;margin-bottom:8px}
+.reco-h h3{font-size:1.4rem}
+.reco-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:12px}
+.reco-i{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);box-shadow:var(--shadow-sm);padding:14px;display:grid;gap:6px;align-content:start}
+.reco-t{display:grid;gap:5px;font-weight:700;font-size:.95rem}.reco-t .chipst{justify-self:start}
+.reco-v b{font-family:var(--f-math);font-size:1.9rem;font-weight:600;line-height:1}
+.reco-v small{margin-left:6px;color:var(--muted);font-size:.82rem}
+.reco-i svg{width:100%;height:auto;display:block}
+.reco-ref{font-size:.88rem;color:var(--ink-2)}
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -1683,6 +1694,26 @@ function waffle(parts) {
   const cells = []; base.forEach((n, i) => { for (let k = 0; k < n; k++) cells.push(i); });
   return { pct: base, svg: `<svg viewBox="0 0 230 230" role="img" aria-label="Cien guaraníes del Presupuesto repartidos por destino">${cells.map((c, j) => `<rect x="${(j % 10) * 23 + 1}" y="${Math.floor(j / 10) * 23 + 1}" width="20" height="20" rx="4" class="wf" data-i="${c}" style="fill:var(--p${c + 1})"><title>${esc(parts[c][0])}</title></rect>`).join('')}</svg>` };
 }
+function recoHTML(R) {
+  if (!R) return '';
+  const meter = it => {
+    const W = 320, E = it.escala, X = v => 8 + Math.min(Math.max(v, 0), E) / E * (W - 16);
+    let band = '';
+    if (it.min != null || it.max != null) { const a = it.min != null ? it.min : 0, b = it.max != null ? (it.min != null ? it.max : it.max) : E; band = `<rect x="${X(a).toFixed(1)}" y="12" width="${(X(b) - X(a)).toFixed(1)}" height="12" rx="3" style="fill:var(--ok);opacity:.28"/><line x1="${X(it.min != null ? it.min : it.max).toFixed(1)}" x2="${X(it.min != null ? it.min : it.max).toFixed(1)}" y1="8" y2="28" style="stroke:var(--ok)" stroke-width="2"/>`; }
+    const ticks = [0, E / 2, E].map(t => `<text x="${X(t).toFixed(1)}" y="42" text-anchor="${t === 0 ? 'start' : t === E ? 'end' : 'middle'}" font-size="10" style="fill:var(--muted);font-family:var(--f-body)">${num(t, E < 2 ? 1 : 0)}</text>`).join('');
+    return `<svg viewBox="0 0 ${W} 46" role="img" aria-label="${esc(it.t)}: ${num(it.v, 2)} ${esc(it.u)}"><rect x="8" y="14" width="${W - 16}" height="8" rx="4" style="fill:var(--grid)"/><rect x="8" y="14" width="${(X(it.v) - 8).toFixed(1)}" height="8" rx="4" style="fill:var(--navy-2)"/>${band}<circle cx="${X(it.v).toFixed(1)}" cy="18" r="7" style="fill:var(--gold-2);stroke:var(--sheet)" stroke-width="2"/>${ticks}</svg>`;
+  };
+  const est = it => { if (it.min == null && it.max == null) return ['nd', 'Sin recomendación']; const ok = (it.min == null || it.v >= it.min) && (it.max == null || it.min != null || it.v <= it.max); if (it.aprox) return [ok ? 'ok' : 'mid', ok ? 'Cumple (aprox.)' : 'Por debajo (cálculo aproximado)']; if (it.promedio) return [ok ? 'ok' : 'mid', ok ? 'Sobre el promedio' : 'Debajo del promedio']; return [ok ? 'ok' : 'bad', ok ? 'Cumple lo recomendado' : (it.max != null && it.min == null ? 'Supera el límite' : 'Por debajo de lo recomendado')]; };
+  return `<section class="reco"><div class="sec-head" style="padding-top:8px"><div><div class="eyebrow">Lo que se recomienda</div><h2>¿Cuánto debería ser?</h2><p class="lede">${esc(R.intro)}</p></div></div>
+    ${R.areas.map(A => `<div class="reco-a"><div class="reco-h"><h3>${esc(A.area)}</h3>${temaLink(A.tema)}</div><div class="reco-g">${A.items.map(it => { const [c, l] = est(it); return `<div class="reco-i">
+      <div class="reco-t"><span>${esc(it.t)}</span><span class="chipst ${c}">${esc(l)}</span></div>
+      <div class="reco-v"><b>${num(it.v, it.v < 1 ? 2 : 1)} %</b><small>${esc(it.u.replace(/^% /, ''))}</small></div>
+      ${meter(it)}
+      <p class="reco-ref"><b>Recomendado:</b> ${esc(it.ref)}${it.fr ? ` <a href="${esc(it.fr[1])}" target="_blank" rel="noopener">${esc(it.fr[0])} ↗</a>` : ''}</p>
+      <p class="note">Dato de Paraguay: ${it.uv ? `<a href="${esc(it.uv)}" target="_blank" rel="noopener">${esc(it.fv)}</a>` : esc(it.fv)}</p></div>`; }).join('')}</div></div>`).join('')}
+    <div class="block" style="margin-top:8px"><h3>Para pensar</h3><ul class="reads" style="margin:0">${R.lecturas.map(l => `<li>${esc(l)}</li>`).join('')}</ul></div>
+  </section>`;
+}
 function renderPresupuesto() {
   const P = PRESU;
   if (!P) return emptyView();
@@ -1694,6 +1725,7 @@ function renderPresupuesto() {
       <div class="presu-leg">${P.cien.map(([t, v, d], i) => `<button type="button" class="leg" data-i="${i}"><i style="background:var(--p${i + 1})"></i><span><b>${W.pct[i]} de cada 100</b> · ${esc(t)}<small>G. ${num(v, 1)} billones. ${esc(d)}</small></span></button>`).join('')}
         <p class="note">Fuente: ${srcLinks(P.fuentes)}</p></div>
     </div>
+    ${recoHTML(P.recomendado)}
     ${statsHTML(P.cifras)}
     <div class="charts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr))">${P.graficos.map(g => `<section class="chart"><div class="top"><h3>${esc(g.t)}</h3></div>${fig({ k: 'barras', u: g.u, rows: g.rows })}${g.cap ? `<p class="note">${esc(g.cap)}</p>` : ''}</section>`).join('')}</div>
     <section class="calc tuiva"><h3>¿Cuánto IVA pagas?</h3><p class="note">El IVA es el impuesto que más recauda el Estado y lo pagas cada vez que compras: viene incluido en el precio. La tasa general es 10 % (5 % para algunos productos de la canasta básica).</p>

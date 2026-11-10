@@ -9570,6 +9570,165 @@
    "¿Es justo que el impuesto que más recauda sea el IVA? ¿Qué pasaría si se cobrara más impuesto a la renta?",
    "¿Por qué es difícil bajar los gastos rígidos?"
   ],
-  "nota": "El Presupuesto 2027 todavía no está aprobado: el 9 de noviembre Diputados suspendió su tratamiento a pedido del nuevo gobierno para modificarlo. Los «100 guaraníes» son el total del proyecto (Gobierno central más entidades descentralizadas); el «resto del Gobierno central» es un cálculo propio: G. 87,9 billones menos Salud, Educación y Obras Públicas."
+  "nota": "El Presupuesto 2027 todavía no está aprobado: el 9 de noviembre Diputados suspendió su tratamiento a pedido del nuevo gobierno para modificarlo. Los «100 guaraníes» son el total del proyecto (Gobierno central más entidades descentralizadas); el «resto del Gobierno central» es un cálculo propio: G. 87,9 billones menos Salud, Educación y Obras Públicas.",
+  "recomendado": {
+   "intro": "¿Cuánto debería gastar el Estado en cada área? Algunas reglas se miden como parte del Presupuesto (por ejemplo, la Constitución fija un mínimo para educación) y otras como parte del PIB (las recomendaciones de la UNESCO o de la OPS). Aquí se compara lo que hace Paraguay con cada una. La franja verde marca lo recomendado.",
+   "areas": [
+    {
+     "area": "Educación",
+     "tema": "4.10",
+     "items": [
+      {
+       "t": "Parte del presupuesto del Gobierno central",
+       "u": "% del presupuesto",
+       "v": 11.8,
+       "min": 20,
+       "max": null,
+       "escala": 30,
+       "aprox": true,
+       "ref": "Constitución, artículo 85: al menos el 20 % de lo asignado a la Administración Central, sin contar préstamos ni donaciones.",
+       "fr": [
+        "Constitución Nacional (Constitute Project)",
+        "https://www.constituteproject.org/constitution/Paraguay_2011?lang=es"
+       ],
+       "fv": "Cálculo propio con el proyecto 2027: Ministerio de Educación (G. 10,4 billones) sobre el Gobierno central (G. 87,9 billones). Es aproximado: la Constitución suma todos los recursos para educación, no solo los del ministerio.",
+       "uv": "https://www.lanacion.com.py/negocios/2026/09/01/plan-de-gastos-para-el-2027-asciende-a-usd-25751-millones/"
+      },
+      {
+       "t": "Parte del gasto público total (2023)",
+       "u": "% del gasto público",
+       "v": 21.99,
+       "min": 15,
+       "max": 20,
+       "escala": 30,
+       "ref": "UNESCO (Marco de Acción Educación 2030): al menos entre 15 % y 20 % del gasto público.",
+       "fr": [
+        "UNESCO, vía CLADE",
+        "https://redclade.org/wp-content/uploads/El-financiamiento-del-derecho-humano-a-la-educaci%C3%B3n-en-Am%C3%A9rica-Latina-y-el-Caribe-en-el-contexto-de-la-Agenda-2030.pdf"
+       ],
+       "fv": "Datosmacro, vía ABC Color (26 oct 2025).",
+       "uv": "https://www.abc.com.py/economia/2025/10/26/gran-inversion-en-educacion-pero-aun-lejos-del-6-del-pib-de-paraguay/"
+      },
+      {
+       "t": "Parte del PIB (2023)",
+       "u": "% del PIB",
+       "v": 3.41,
+       "min": 4,
+       "max": 6,
+       "escala": 8,
+       "ref": "UNESCO (Marco de Acción Educación 2030): al menos entre 4 % y 6 % del PIB.",
+       "fr": [
+        "UNESCO, vía CLADE",
+        "https://redclade.org/wp-content/uploads/El-financiamiento-del-derecho-humano-a-la-educaci%C3%B3n-en-Am%C3%A9rica-Latina-y-el-Caribe-en-el-contexto-de-la-Agenda-2030.pdf"
+       ],
+       "fv": "Datosmacro, vía ABC Color (26 oct 2025).",
+       "uv": "https://www.abc.com.py/economia/2025/10/26/gran-inversion-en-educacion-pero-aun-lejos-del-6-del-pib-de-paraguay/"
+      }
+     ]
+    },
+    {
+     "area": "Salud",
+     "tema": "4.10",
+     "items": [
+      {
+       "t": "Parte del PIB",
+       "u": "% del PIB",
+       "v": 4,
+       "min": 6,
+       "max": null,
+       "escala": 8,
+       "ref": "Organización Panamericana de la Salud: un gasto público en salud de al menos 6 % del PIB.",
+       "fr": [
+        "Última Hora (23 jul 2026)",
+        "https://www.ultimahora.com/exponen-crisis-en-salud-de-paraguay-por-baja-inversion"
+       ],
+       "fv": "BBC News Mundo, citado por Última Hora (23 jul 2026).",
+       "uv": "https://www.ultimahora.com/exponen-crisis-en-salud-de-paraguay-por-baja-inversion"
+      },
+      {
+       "t": "Parte del presupuesto total (2026)",
+       "u": "% del presupuesto",
+       "v": 6.8,
+       "min": null,
+       "max": null,
+       "escala": 15,
+       "ref": "No hay una recomendación internacional en % del presupuesto; la OPS mide el gasto en % del PIB.",
+       "fr": null,
+       "fv": "Ministra de Salud sobre el proyecto 2026, vía Última Hora (15 sep 2025).",
+       "uv": "https://www.ultimahora.com/entre-criticas-ministra-defiende-reducido-pgn-2026-para-salud"
+      }
+     ]
+    },
+    {
+     "area": "Déficit fiscal",
+     "tema": "3.6",
+     "items": [
+      {
+       "t": "Déficit de 2026",
+       "u": "% del PIB",
+       "v": 3.2,
+       "min": null,
+       "max": 1.5,
+       "escala": 5,
+       "ref": "Ley de Responsabilidad Fiscal: como máximo 1,5 % del PIB (en una emergencia, nunca más de 3 %). Para 2027 se proponen 3,9 %.",
+       "fr": [
+        "Ley 5098 (BACN)",
+        "https://www.bacn.gov.py/leyes-paraguayas/4671/ley-n-5098-de-responsabilidad-fiscal"
+       ],
+       "fv": "MEF, vía Última Hora (4 ago 2026).",
+       "uv": "https://www.ultimahora.com/deficit-fiscal-cerrara-en-3-2-este-ano-y-en-el-2027-sera-de-3-9-confirma-ministro"
+      }
+     ]
+    },
+    {
+     "area": "Recaudación de impuestos",
+     "tema": "3.6",
+     "items": [
+      {
+       "t": "Presión tributaria (2024)",
+       "u": "% del PIB",
+       "v": 15.8,
+       "min": 21.5,
+       "max": null,
+       "escala": 30,
+       "promedio": true,
+       "ref": "Referencia: el promedio de América Latina es 21,5 % del PIB (CEPAL). No es una meta, sino una comparación. Si se cuenta solo la DNIT, Paraguay recauda 11,4 %.",
+       "fr": [
+        "Última Hora (8 may 2026)",
+        "https://www.ultimahora.com/cepal-paraguay-entre-paises-con-menor-ingreso-tributario-sobre-pib"
+       ],
+       "fv": "CEPAL, vía Última Hora (8 may 2026).",
+       "uv": "https://www.ultimahora.com/cepal-paraguay-entre-paises-con-menor-ingreso-tributario-sobre-pib"
+      }
+     ]
+    },
+    {
+     "area": "Ciencia e investigación",
+     "tema": "3.7",
+     "items": [
+      {
+       "t": "Inversión en investigación y desarrollo",
+       "u": "% del PIB",
+       "v": 0.16,
+       "min": 0.5,
+       "max": null,
+       "escala": 1,
+       "ref": "Meta del Conacyt: 0,5 % del PIB. El promedio de América Latina fue 0,6 % en 2023 (RICYT, vía ABC Color).",
+       "fr": [
+        "ABC Color (4 dic 2025)",
+        "https://www.abc.com.py/ciencia/2025/12/04/latinoamerica-impulsa-la-investigacion-y-el-desarrollo-pero-persiste-brecha-entre-paises/"
+       ],
+       "fv": "Conacyt, vía InfoNegocios (26 oct 2023); es el último dato publicado.",
+       "uv": "https://infonegocios.com.py/nota-principal/paraguay-si-produce-ciencia-pero-como-puede-transformarla-en-productos-de-mercado"
+      }
+     ]
+    }
+   ],
+   "lecturas": [
+    "La forma de medir cambia la conclusión: en educación Paraguay supera la recomendación de la UNESCO como parte del gasto público (22 %), pero no la alcanza como parte del PIB (3,4 %). ¿Por qué? Porque el Estado paraguayo es chico en relación con su economía: recauda poco, así que gasta poco en total.",
+    "Por eso la baja recaudación (15,8 % del PIB, frente a 21,5 % en América Latina) limita lo que se puede gastar en educación, salud o ciencia sin aumentar el déficit.",
+    "Subir el gasto en un área exige recaudar más, recortar otra área o endeudarse: es el costo de oportunidad del gasto público."
+   ]
+  }
  }
 }
