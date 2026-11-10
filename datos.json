@@ -167,6 +167,16 @@
     "10 nov",
     "La ANDE tiene US$ 21 millones atrapados en Ueno y posterga obras.",
     "ande-ueno"
+   ],
+   [
+    "9 nov",
+    "El 93,1 % de los afectados ya cobró su anticipo: 1.738.804 personas.",
+    "ueno-devolucion"
+   ],
+   [
+    "10 nov",
+    "ABC Color: los créditos irrecuperables de Ueno habían llegado a 14,49 % en 2025.",
+    "ueno-morosidad"
    ]
   ],
   "lentes": [
@@ -185,6 +195,539 @@
   ]
  },
  "noticias": [
+  {
+   "id": "ueno-morosidad",
+   "fecha": "2026-11-10",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/10/creditos-irrecuperables-de-ueno-pasaron-de-010-a-1449-antes-de-la-crisis/",
+   "titulo": "Los créditos incobrables de Ueno llegaron a 14,49 % un año antes de la crisis",
+   "unidad": "micro",
+   "tema": "2.10",
+   "kc": "intervencion",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "Según un análisis de MF Economía e Inversiones publicado por ABC Color, la parte de la cartera de Ueno Bank en la categoría 6 (créditos irrecuperables) pasó de 0,10 % en diciembre de 2023 a 12,58 % a fines de 2024 y a 14,49 % en septiembre de 2025, cuando el BNF tenía 2,95 % y Banco Basa 1,41 % (datos de octubre de 2025). Después el indicador bajó a 2,28 % en septiembre de 2026, pero los créditos en las subcategorías 1a y 1b subieron de 5,27 % a 13,93 %.",
+   "contexto": "Los números estaban en tablas públicas del BCP, pero un ahorrista común no lee la calidad de la cartera de su banco: el banco sabe mucho más que sus clientes. Eso es información asimétrica, una falla de mercado que justifica la supervisión bancaria. ABC Color advierte que la baja posterior no prueba una recuperación: puede deberse a ventas de cartera, castigos o reclasificaciones, porque la tabla del BCP no incluye la cartera vendida. El artículo aclara que los datos muestran señales de alerta, pero no dicen si las autoridades actuaron a tiempo ni quién es responsable.",
+   "datos": [
+    [
+     "0,10 %",
+     "Créditos irrecuperables de Ueno en diciembre de 2023"
+    ],
+    [
+     "14,49 %",
+     "Créditos irrecuperables en septiembre de 2025"
+    ],
+    [
+     "2,95 % · 1,41 %",
+     "BNF y Banco Basa (octubre de 2025)"
+    ],
+    [
+     "2,28 %",
+     "Créditos irrecuperables en septiembre de 2026"
+    ],
+    [
+     "5,27 % → 13,93 %",
+     "Subcategorías 1a y 1b, de sep. 2025 a sep. 2026"
+    ]
+   ],
+   "clave": [
+    "14,49 %",
+    "de créditos irrecuperables en 2025"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% de la cartera en categoría 6",
+    "rows": [
+     [
+      "Dic 2023",
+      0.1
+     ],
+     [
+      "Dic 2024",
+      12.58
+     ],
+     [
+      "Sep 2025",
+      14.49,
+      1
+     ],
+     [
+      "Dic 2025",
+      6.84
+     ],
+     [
+      "Sep 2026",
+      2.28
+     ]
+    ]
+   },
+   "cap": "Parte de los créditos de Ueno Bank clasificados como irrecuperables (categoría 6), según MF Economía con datos del BCP, vía ABC Color.",
+   "pasos": [
+    "El banco presta a clientes que luego no pagan",
+    "Los créditos irrecuperables pasan de 0,10 % a 14,49 % de la cartera",
+    "Los ahorristas no ven ese deterioro: información asimétrica",
+    "La cartera se vende o se reclasifica y el indicador baja",
+    "La pérdida aparece de golpe cuando el BCP interviene el banco"
+   ],
+   "conceptos": [
+    [
+     "Información asimétrica",
+     "Una parte de la transacción (el banco) sabe más que la otra (el ahorrista)."
+    ],
+    [
+     "Cartera morosa",
+     "Préstamos que los deudores no pagan a tiempo."
+    ],
+    [
+     "Previsión",
+     "Reserva que el banco debe apartar para cubrir créditos que no se cobrarán (100 % en categoría 6)."
+    ],
+    [
+     "Supervisión bancaria",
+     "Control del Estado para que los bancos no asuman riesgos excesivos con el dinero ajeno."
+    ]
+   ],
+   "diagramas": [],
+   "rel": [
+    "ueno-intervencion",
+    "ueno-devolucion",
+    "bolsa-ueno-bonos"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la supervisión del BCP es necesaria aunque los datos de los bancos sean públicos?",
+    "opts": [
+     "Porque los ahorristas casi nunca pueden evaluar la cartera de un banco: hay información asimétrica",
+     "Porque los bancos no tienen fines de lucro",
+     "Porque así bajan las tasas de interés",
+     "Porque los depósitos son bienes públicos"
+    ],
+    "ok": 0,
+    "fb": "Aunque la información exista, interpretarla cuesta y el banco sabe mucho más que el cliente. La supervisión corrige esa falla de mercado."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ahorristas e inversores atentos",
+      "Datos públicos como estos permiten detectar riesgos antes de que estalle una crisis."
+     ]
+    ],
+    "pierden": [
+     [
+      "Ahorristas de Ueno",
+      "No tenían cómo evaluar el deterioro y ahora dependen del fondo de garantía."
+     ],
+     [
+      "Credibilidad del BCP",
+      "Si las señales eran públicas, se cuestiona si la supervisión reaccionó a tiempo."
+     ],
+     [
+      "Contribuyentes",
+      "Si el fondo de garantía no alcanza, el costo puede pasar al Estado."
+     ]
+    ],
+    "corto": "Más presión para revisar qué hizo la Superintendencia de Bancos y para mirar la cartera de otros bancos.",
+    "largo": "Puede llevar a reglas más estrictas de información y de previsiones, y a una supervisión más independiente.",
+    "supuestos": [
+     "Que las cifras de la tabla del BCP reflejen bien la cartera",
+     "La baja posterior puede deberse a ventas de cartera, no a cobros"
+    ],
+    "conclusion": "Las cifras muestran que el riesgo era visible para quien sabía mirar; la información asimétrica no desaparece con publicar datos, por eso la supervisión activa es clave."
+   }
+  },
+  {
+   "id": "deuda-setiembre",
+   "fecha": "2026-11-09",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/deuda-publica-asciende-a-usd-22-569-millones-13-2-mas-que-el-2025",
+   "titulo": "La deuda pública llega a US$ 22.569 millones, 35,4 % del PIB",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "sostenibilidad",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "Según datos del MEF publicados por Última Hora, la deuda pública llegó a US$ 22.569,1 millones en septiembre de 2026, el 35,4 % del PIB: US$ 2.649,3 millones más que un año antes (+13,2 %) y 10,3 % más que al cierre de 2025. El 82,1 % es deuda externa y el 57,9 % son bonos.",
+   "contexto": "La deuda crece porque el Estado gasta más de lo que recauda (déficit fiscal) y cubre la diferencia pidiendo prestado. La deuda en guaraníes sube (29 % del total) y la deuda en moneda extranjera baja de 77,3 % a 69 %, lo que protege al Estado cuando el guaraní se deprecia, como pasó en noviembre con la crisis de Ueno. Según Última Hora, el proyecto de Presupuesto 2027 prevé que la deuda siga subiendo; algunos economistas, sin nombre en el artículo, plantean que podría llegar a 60 % o 70 % del PIB.",
+   "datos": [
+    [
+     "US$ 22.569,1 M",
+     "Deuda pública a septiembre de 2026"
+    ],
+    [
+     "35,4 %",
+     "Deuda sobre el PIB"
+    ],
+    [
+     "+13,2 %",
+     "Aumento en un año (US$ 2.649,3 M más)"
+    ],
+    [
+     "82,1 %",
+     "Parte que es deuda externa"
+    ],
+    [
+     "69 %",
+     "Parte en moneda extranjera (77,3 % un año antes)"
+    ]
+   ],
+   "clave": [
+    "35,4 %",
+    "del PIB es deuda pública"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ millones",
+    "rows": [
+     [
+      "Dic 2025",
+      20447.9
+     ],
+     [
+      "Sep 2026",
+      22569.1,
+      1
+     ]
+    ]
+   },
+   "cap": "Deuda pública de Paraguay, en millones de dólares, según el MEF vía Última Hora.",
+   "pasos": [
+    "El Estado gasta más de lo que recauda (déficit)",
+    "Emite bonos y toma préstamos para cubrir la diferencia",
+    "La deuda sube a US$ 22.569 millones",
+    "Pagar intereses resta recursos a otros gastos",
+    "Si el guaraní se deprecia, la deuda en dólares pesa más"
+   ],
+   "conceptos": [
+    [
+     "Deuda pública",
+     "Lo que el Estado debe a acreedores internos y externos."
+    ],
+    [
+     "Déficit fiscal",
+     "Cuando el gasto público supera los ingresos en un año."
+    ],
+    [
+     "Ratio deuda/PIB",
+     "Mide la deuda frente al tamaño de la economía."
+    ],
+    [
+     "Riesgo cambiario",
+     "La deuda en dólares se encarece en guaraníes cuando el guaraní se deprecia."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal",
+    "bonos"
+   ],
+   "rel": [
+    "pgn-suspendido",
+    "pgn-2027",
+    "bonos-embi",
+    "guarani-cae"
+   ],
+   "pregunta": {
+    "q": "Si el guaraní se deprecia, ¿qué pasa con el peso de la deuda pública en dólares?",
+    "opts": [
+     "Aumenta: se necesitan más guaraníes para pagar cada dólar",
+     "Disminuye automáticamente",
+     "No cambia",
+     "Se convierte en deuda interna"
+    ],
+    "ok": 0,
+    "fb": "La deuda en moneda extranjera se paga en dólares; si el guaraní vale menos, el Estado necesita más guaraníes de impuestos para pagarla."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Beneficiarios del gasto público",
+      "La deuda financia obras y programas que no alcanzan a cubrir los impuestos."
+     ],
+     [
+      "Inversores en bonos",
+      "Reciben intereses de un país con grado de inversión."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes futuros",
+      "Tendrán que pagar los intereses y el capital."
+     ],
+     [
+      "Otros gastos públicos",
+      "Más intereses dejan menos espacio para salud, educación o inversión (costo de oportunidad)."
+     ]
+    ],
+    "corto": "La crisis de Ueno y la suba del riesgo país pueden encarecer las próximas emisiones de bonos.",
+    "largo": "Con 35,4 % del PIB la deuda sigue siendo moderada, pero si los déficits continúan el ratio seguirá subiendo y la calificación podría peligrar.",
+    "supuestos": [
+     "Que la economía siga creciendo y el PIB crezca más que la deuda",
+     "Que las tasas internacionales no suban"
+    ],
+    "conclusion": "La deuda de Paraguay todavía es baja frente a la región, pero crece rápido; la clave es que el Presupuesto 2027 reduzca el déficit para que el ratio no siga en aumento."
+   }
+  },
+  {
+   "id": "informalidad-bid",
+   "fecha": "2026-11-10",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/negocios/2026/11/10/indice-bid-hay-empleo-e-ingresos-suficientes-pero-la-informalidad-sobra/",
+   "titulo": "Mucho empleo, poca formalidad: Paraguay en el índice laboral del BID",
+   "unidad": "global",
+   "tema": "4.8",
+   "kc": "equidad",
+   "inst": [
+    "ine"
+   ],
+   "resumen": "En el Índice de Mejores Trabajos 2026 del BID, citado por ABC Color, Paraguay queda 7.º de 17 países con 59,8 puntos, sobre el promedio regional (58). Es 3.º en cantidad de empleo (80 puntos), pero 10.º en calidad (39,4) y 12.º de 15 en formalidad (20,1 puntos).",
+   "contexto": "El índice mide dos cosas: cuántas personas trabajan y si esos trabajos son formales y pagan lo suficiente para salir de la pobreza. Paraguay crea empleo, pero según el INE el 61,6 % de los ocupados no agropecuarios era informal en el segundo trimestre de 2026, y en microempresas la informalidad llega a 73 %. Los trabajadores informales no aportan a la jubilación ni tienen seguro social, y el BID advierte que la informalidad baja los salarios, aumenta la desigualdad y frena la productividad. Por eso es una barrera al desarrollo, no solo un problema del mercado laboral.",
+   "datos": [
+    [
+     "7.º de 17",
+     "Puesto de Paraguay en el índice (59,8 puntos)"
+    ],
+    [
+     "80",
+     "Puntaje en cantidad de empleo (3.º de la región)"
+    ],
+    [
+     "39,4",
+     "Puntaje en calidad (10.º; región: 40,6)"
+    ],
+    [
+     "20,1",
+     "Puntaje en formalidad (12.º de 15)"
+    ],
+    [
+     "61,6 %",
+     "Informalidad de ocupados no agropecuarios (INE, 2.º trim. 2026)"
+    ]
+   ],
+   "clave": [
+    "20,1",
+    "puntos en formalidad (12.º de 15)"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "puntos (0 a 100)",
+    "rows": [
+     [
+      "Cantidad",
+      80
+     ],
+     [
+      "Salario suficiente",
+      58.7
+     ],
+     [
+      "Calidad",
+      39.4
+     ],
+     [
+      "Formalidad",
+      20.1,
+      1
+     ]
+    ]
+   },
+   "cap": "Puntajes de Paraguay en el Índice de Mejores Trabajos 2026 del BID, según ABC Color. La formalidad es el punto más débil.",
+   "pasos": [
+    "Muchas personas trabajan, pero en empresas pequeñas y sin registro",
+    "No aportan a la jubilación ni al seguro social",
+    "Las empresas informales no acceden a crédito y crecen poco",
+    "La productividad y los salarios quedan bajos",
+    "El desarrollo se frena y la desigualdad persiste"
+   ],
+   "conceptos": [
+    [
+     "Empleo informal",
+     "Trabajo sin registro, sin aportes a la seguridad social ni protección laboral."
+    ],
+    [
+     "Calidad del empleo",
+     "Si el trabajo es formal y paga lo suficiente para salir de la pobreza."
+    ],
+    [
+     "Barreras al desarrollo",
+     "Factores que impiden que el crecimiento mejore el bienestar de toda la población."
+    ],
+    [
+     "Productividad",
+     "Producción por trabajador; sube con capital, capacitación y tecnología."
+    ]
+   ],
+   "diagramas": [
+    "politicas-oferta"
+   ],
+   "rel": [
+    "desempleo-41",
+    "salario-minimo",
+    "adultos-mayores"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la alta informalidad es una barrera al desarrollo económico?",
+    "opts": [
+     "Porque deja a los trabajadores sin protección social y frena la productividad",
+     "Porque aumenta el desempleo a cero",
+     "Porque sube la inflación",
+     "Porque aprecia el guaraní"
+    ],
+    "ok": 0,
+    "fb": "Los trabajadores informales no tienen jubilación ni seguro, y las empresas informales invierten y crecen poco: el crecimiento no se traduce en más bienestar."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Trabajadores con empleo",
+      "Paraguay tiene alta participación y ocupación: 3.º en la región en cantidad de empleo."
+     ],
+     [
+      "Microempresas informales",
+      "Evitan costos de registro, impuestos y aportes en el corto plazo."
+     ]
+    ],
+    "pierden": [
+     [
+      "Trabajadores informales",
+      "No tienen jubilación, seguro médico ni protección ante despidos."
+     ],
+     [
+      "IPS y el Estado",
+      "Menos aportantes y menos recaudación para financiar servicios."
+     ],
+     [
+      "Mujeres",
+      "Su puntaje de formalidad (17,1) es menor que el de los hombres (23,2)."
+     ]
+    ],
+    "corto": "La informalidad no cambia rápido; el desafío es formalizar a quienes ya trabajan y ganan.",
+    "largo": "Si se reducen los costos de formalizarse y se mejora la capacitación, puede subir la productividad y la cobertura de jubilaciones.",
+    "supuestos": [
+     "Que los datos del BID sean comparables entre países",
+     "Que formalizarse no sea demasiado caro para las microempresas"
+    ],
+    "conclusion": "Paraguay resolvió bastante bien la cantidad de empleo, pero no la calidad; las políticas de oferta que bajan el costo de formalizarse podrían convertir ese empleo en desarrollo."
+   }
+  },
+  {
+   "id": "itaipu-tarifa-2027",
+   "fecha": "2026-11-09",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/itaipu-urge-definir-la-tarifa-antes-del-vencimiento-del-contrato-en-diciembre",
+   "titulo": "Itaipú: la tarifa vence el 31 de diciembre y no hay acuerdo para 2027",
+   "unidad": "micro",
+   "tema": "2.11",
+   "kc": "interdependencia",
+   "sector": [
+    "energia"
+   ],
+   "mundo": [
+    "brasil"
+   ],
+   "resumen": "Félix Sosa, que volvió a presidir la ANDE el lunes 9, dijo a Última Hora que urge definir la tarifa de Itaipú y el acuerdo operativo antes de que venzan el 31 de diciembre de 2026. Según el entendimiento de mayo de 2024, desde 2027 la tarifa reflejaría solo el costo estricto de operación; con la fórmula del Cecuse quedaría entre US$ 8 y US$ 10 por kW al mes.",
+   "contexto": "Itaipú vende electricidad sin competencia: la tarifa no la fija el mercado sino un acuerdo entre Paraguay y Brasil, como en un monopolio regulado. Como la deuda de construcción se terminó de pagar en 2023, una tarifa basada solo en el costo sería mucho más baja y abarataría la energía para la ANDE, pero también reduciría los fondos que Itaipú dedica a gastos sociales. Según el artículo, la negociación la conduce el ministro Javier Giménez, y Sosa adelantó que la ANDE volverá a vender energía al mercado libre de Brasil.",
+   "datos": [
+    [
+     "31 dic 2026",
+     "Vencen el contrato de potencia y la tarifa actual"
+    ],
+    [
+     "US$ 8–10",
+     "Tarifa por kW al mes con la fórmula del Cecuse"
+    ],
+    [
+     "2023",
+     "Año en que se terminó de pagar la deuda de construcción"
+    ],
+    [
+     "US$ 21 M",
+     "Préstamo BID–Taiwán de la ANDE atrapado en Ueno"
+    ]
+   ],
+   "clave": [
+    "31 dic",
+    "vence la tarifa de Itaipú"
+   ],
+   "fig": {
+    "k": "monopolio",
+    "cap": 110
+   },
+   "cap": "Itaipú actúa como un monopolio: sin regulación cobraría el precio de monopolio; una tarifa fijada en el costo de servicio acerca el precio al costo y aumenta la cantidad.",
+   "pasos": [
+    "La deuda de construcción de Itaipú se pagó en 2023",
+    "Paraguay y Brasil acordaron que desde 2027 la tarifa cubra solo el costo de operación",
+    "La tarifa podría bajar a US$ 8–10 por kW al mes",
+    "La ANDE compraría energía más barata",
+    "Pero habría menos fondos para gastos sociales de Itaipú"
+   ],
+   "conceptos": [
+    [
+     "Monopolio natural",
+     "Una sola empresa abastece el mercado a menor costo que varias."
+    ],
+    [
+     "Regulación de precios",
+     "El Estado fija un precio máximo para que el monopolio no abuse de su poder."
+    ],
+    [
+     "Tarifa al costo de servicio",
+     "Precio que solo cubre los costos de operar, sin margen extra."
+    ],
+    [
+     "Anexo C",
+     "Parte del Tratado de Itaipú que fija las bases financieras y la tarifa."
+    ]
+   ],
+   "diagramas": [
+    "monopolio"
+   ],
+   "rel": [
+    "itaipu-opinion",
+    "energia-cedida",
+    "ande-tarifa",
+    "ande-ueno"
+   ],
+   "pregunta": {
+    "q": "Si la tarifa de Itaipú se fija solo en el costo de operación, ¿qué efecto se espera?",
+    "opts": [
+     "Energía más barata para la ANDE, pero menos fondos para gastos sociales de Itaipú",
+     "Energía más cara para los consumidores",
+     "Más ganancias de monopolio para Itaipú",
+     "Ningún efecto sobre la ANDE"
+    ],
+    "ok": 0,
+    "fb": "Una tarifa al costo elimina el margen extra: baja el precio de la energía, pero se pierde lo que se financiaba con ese margen."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "ANDE y usuarios de electricidad",
+      "Una tarifa más baja reduce el costo de comprar energía de Itaipú."
+     ],
+     [
+      "Industrias electrointensivas",
+      "La energía barata atrae inversiones como centros de datos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Programas financiados con gastos sociales de Itaipú",
+      "Con una tarifa al costo, ese margen desaparece."
+     ],
+     [
+      "Planificación de la ANDE",
+      "Sin acuerdo antes del 31 de diciembre, no sabe a qué precio comprará en 2027."
+     ]
+    ],
+    "corto": "Sin un acuerdo a tiempo habrá incertidumbre sobre el precio de la energía en 2027.",
+    "largo": "Una tarifa al costo puede abaratar la energía y atraer inversiones, sobre todo si Paraguay usa más energía propia en vez de cederla a Brasil.",
+    "supuestos": [
+     "Que se respete el entendimiento de mayo de 2024",
+     "Que no haya demoras por el cambio de gobierno"
+    ],
+    "conclusion": "Bajar la tarifa beneficia a la ANDE y a la industria, pero obliga a decidir cómo se financian los gastos sociales; la urgencia es cerrar el acuerdo antes del 31 de diciembre."
+   }
+  },
   {
    "id": "ande-ueno",
    "fecha": "2026-11-10",
@@ -323,6 +866,11 @@
      "La Nación",
      "https://www.lanacion.com.py/negocios_edicion_impresa/2026/11/07/multitiendas-con-caida-del-70-en-ventas-y-perdidas-de-capital-operativo/",
      "2026-11-07"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/09/ueno-bank-gobierno-analiza-opciones-financieras-para-empresas-afectadas-segun-mef/",
+     "2026-11-09"
     ]
    ],
    "titulo": "La crisis de Ueno frena el consumo: multitiendas venden hasta 70 % menos",
@@ -2207,7 +2755,7 @@
   },
   {
    "id": "ueno-devolucion",
-   "fecha": "2026-11-04",
+   "fecha": "2026-11-09",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
    "mas": [
@@ -2215,13 +2763,23 @@
      "France 24",
      "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
      "2026-11-07"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/anticipos-ya-alcanzaron-al-93-de-afectados-por-crisis-de-ueno-afirma-bcp",
+     "2026-11-09"
+    ],
+    [
+     "Diario Hoy",
+     "https://www.hoy.com.py/nacionales/2026/11/09/ueno-bcp-suma-beneficiarios-pero-estos-ahorristas-seguiran-esperando",
+     "2026-11-09"
     ]
    ],
    "titulo": "Una ley nueva adelanta la devolución de depósitos de Ueno Bank",
    "unidad": "micro",
    "tema": "2.10",
    "kc": "intervencion",
-   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos puede adelantar hasta G. 121.760.000 por cliente de Ueno Bank. El BCP nombró a Pedro de Jesús Acosta como presidente interino y organizó la devolución para casi 1,9 millones de ahorristas. Según el BCP, citado por France 24, el sábado 7 ya habían cobrado 1,2 millones de personas.",
+   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos puede adelantar hasta G. 121.760.000 por cliente de Ueno Bank. Según el BCP, citado por Última Hora el 9 de noviembre, los anticipos ya llegaron a 1.738.804 personas (93,1 % de los afectados) por G. 2,1 billones, unos US$ 337,3 millones. Quedan unas 128.000 cuentas, entre ellas las que tienen bloqueos judiciales, certificados de depósito (CDA) u operaciones de la AFD; la ley fija como plazo máximo el miércoles 11 de noviembre.",
    "contexto": "La garantía de depósitos protege a los ahorristas que no pueden saber cómo maneja un banco su dinero: el banco sabe mucho más que el cliente, un caso de información asimétrica. Pero también tiene un costo: si los bancos saben que el Estado cubrirá a sus clientes, pueden asumir más riesgos (riesgo moral). Por eso la garantía tiene un tope y viene acompañada de supervisión. Unos 280.000 clientes que solo tenían cuenta en Ueno recibirán cuentas temporales por 90 días en otros bancos.",
    "datos": [
     [
@@ -2229,42 +2787,42 @@
      "Anticipo máximo por cliente (Ley 7755/26)"
     ],
     [
-     "≈ 1,9 M",
-     "Ahorristas incluidos en la devolución"
+     "1.738.804",
+     "Personas que ya cobraron su anticipo (9 nov, BCP)"
     ],
     [
-     "1,2 M",
-     "Personas que ya cobraron al 7 de noviembre (BCP)"
+     "93,1 %",
+     "Parte de los afectados que ya cobró"
     ],
     [
-     "280.000",
-     "Clientes que solo tenían cuenta en Ueno"
+     "G. 2,1 bill.",
+     "Monto pagado, unos US$ 337,3 millones"
+    ],
+    [
+     "128.000",
+     "Cuentas que faltan pagar"
     ]
    ],
    "clave": [
-    "1,2 M",
-    "personas ya cobraron"
+    "93,1 %",
+    "de los afectados ya cobró"
    ],
    "fig": {
     "k": "barras",
     "u": "millones de personas",
     "rows": [
      [
-      "A devolver",
-      1.9
-     ],
-     [
       "Ya cobraron (7 nov)",
-      1.2,
-      1
+      1.2
      ],
      [
-      "Solo cuenta en Ueno",
-      0.28
+      "Ya cobraron (9 nov)",
+      1.74,
+      1
      ]
     ]
    },
-   "cap": "Avance de la devolución de depósitos de Ueno Bank, en millones de personas, según el BCP.",
+   "cap": "Personas que recibieron el anticipo de sus depósitos de Ueno Bank, en millones, según el BCP (vía France 24 y Última Hora).",
    "pasos": [
     "El banco sabe más de su riesgo que sus clientes",
     "Los ahorristas no pueden vigilar cómo se usa su dinero",
@@ -6836,13 +7394,13 @@
   },
   "2026-11-09": {
    "titulo": "Una semana con plazos: Presupuesto y tasa de interés",
-   "texto": "La semana arranca con el Presupuesto 2027 en suspenso: el nuevo gobierno pidió recortes y Diputados tiene hasta el sábado 14 para aprobar una versión modificada. El dólar empezó a bajar el lunes (G. 6.300 en casas de cambio) a medida que se devuelven los depósitos de Ueno Bank, pero la crisis ya golpeó el consumo: las multitiendas reportan ventas hasta 70 % más bajas. La ANDE admite fondos atrapados en Ueno y obras postergadas, y el 20 de noviembre el BCP decide su tasa.",
+   "texto": "La semana arranca con el Presupuesto 2027 en suspenso: el nuevo gobierno pidió recortes y Diputados tiene hasta el sábado 14 para aprobar una versión modificada, mientras la deuda pública ya llega a 35,4 % del PIB. El dólar empezó a bajar (G. 6.300 en casas de cambio) a medida que se devuelven los depósitos de Ueno Bank: el 93 % de los afectados ya cobró y Jorge Schreiner ya tiene decreto como presidente del BCP. Pero la crisis golpeó el consumo y salen a la luz las señales previas: los créditos irrecuperables de Ueno habían llegado a 14,49 % en 2025. El 20 de noviembre el BCP decide su tasa.",
    "claves": [
     "pgn-suspendido",
-    "consumo-cae",
+    "ueno-morosidad",
     "dolar-6600",
-    "ande-ueno",
-    "ips-ueno"
+    "deuda-setiembre",
+    "consumo-cae"
    ]
   }
  },
@@ -6887,13 +7445,13 @@
    ],
    "autoridades": [
     {
-     "cargo": "Presidente (aprobado por el Senado)",
+     "cargo": "Presidente",
      "nombre": "Jorge Schreiner",
-     "estado": "Falta decreto y juramento",
+     "estado": "Decreto 7212 firmado; falta juramento",
      "desde": "2026-11-09",
      "fuente": "Última Hora",
-     "url": "https://www.ultimahora.com/senado-presta-acuerdo-para-schreiner-y-rivarola-en-el-bcp",
-     "nota": "Propuesto por el presidente Pedro Alliana."
+     "url": "https://www.ultimahora.com/alliana-nombra-a-jorge-schreiner-como-nuevo-presidente-del-bcp",
+     "nota": "Propuesto por el presidente Pedro Alliana y aprobado por el Senado el 9 de noviembre."
     },
     {
      "cargo": "Presidente interino",
@@ -6905,13 +7463,13 @@
      "nota": "Miembro del directorio por el Decreto 7196."
     },
     {
-     "cargo": "Miembro del directorio (aprobado por el Senado)",
+     "cargo": "Miembro del directorio",
      "nombre": "Fernando Rivarola",
-     "estado": "Falta decreto y juramento",
+     "estado": "Decreto 7213 firmado; falta juramento",
      "desde": "2026-11-09",
-     "fuente": "ABC Color",
-     "url": "https://www.abc.com.py/politica/2026/11/09/alliana-pide-acuerdo-para-fernando-rivarola-el-tecnico-que-alerto-sobre-ueno-bank/",
-     "nota": "Según ABC Color, es el técnico que alertó sobre Ueno Bank."
+     "fuente": "Última Hora",
+     "url": "https://www.ultimahora.com/alliana-nombra-a-jorge-schreiner-como-nuevo-presidente-del-bcp",
+     "nota": "Exgerente de Supervisión de la Superintendencia de Bancos; según ABC Color, es el técnico que alertó sobre Ueno Bank."
     },
     {
      "cargo": "Miembro del directorio",
@@ -6959,6 +7517,10 @@
    ],
    "agenda": [
     [
+     "2026-11-11",
+     "Plazo máximo legal para terminar de pagar los anticipos de Ueno Bank."
+    ],
+    [
      "2026-11-20",
      "Próxima reunión del Comité de Política Monetaria: decide si cambia la tasa."
     ]
@@ -6991,6 +7553,14 @@
     [
      "2026-11-09",
      "El Senado aprueba a Jorge Schreiner como presidente y a Fernando Rivarola como director."
+    ],
+    [
+     "2026-11-09",
+     "Alliana firma los decretos 7212 y 7213 que nombran a Jorge Schreiner presidente y a Fernando Rivarola director."
+    ],
+    [
+     "2026-11-09",
+     "Los anticipos de Ueno Bank llegan a 1.738.804 personas (93,1 % de los afectados)."
     ]
    ],
    "enlaces": [
@@ -7079,6 +7649,10 @@
     [
      "22 %",
      "Deuda en guaraníes sobre el total (feb 2026, máximo histórico)"
+    ],
+    [
+     "35,4 %",
+     "Deuda pública sobre el PIB (septiembre de 2026)"
     ]
    ],
    "agenda": [
@@ -7107,6 +7681,14 @@
     [
      "2026-11-09",
      "A pedido del presidente Alliana, Diputados suspende el tratamiento del Presupuesto 2027 para hacerle recortes."
+    ],
+    [
+     "2026-11-09",
+     "Se reúne con la AFD, el BNF y el CAH para crear créditos de capital de trabajo para empresas afectadas por Ueno."
+    ],
+    [
+     "2026-11-09",
+     "Informa una deuda pública de US$ 22.569,1 millones a septiembre (35,4 % del PIB)."
     ]
    ],
    "enlaces": [
@@ -7320,6 +7902,10 @@
     [
      "2026-08-07",
      "Informa una pobreza multidimensional de 13,5 % en 2025."
+    ],
+    [
+     "2026-11-10",
+     "Sus datos de informalidad (61,6 %) acompañan el índice laboral del BID."
     ]
    ],
    "enlaces": [
@@ -7709,6 +8295,15 @@
     "tema": "4.5",
     "url": "https://www.infobae.com/estados-unidos/2026/10/28/la-reserva-federal-de-estados-unidos-mantuvo-sin-cambios-la-tasa-de-interes-de-referencia/",
     "fuente": "Infobae"
+   },
+   {
+    "f": "2026-11-11",
+    "t": "Plazo para terminar los anticipos de Ueno Bank",
+    "d": "La ley de resolución bancaria fija el miércoles 11 como plazo máximo para acreditar los anticipos de la garantía de depósitos.",
+    "tipo": "BCP",
+    "tema": "2.10",
+    "url": "https://www.hoy.com.py/nacionales/2026/11/09/ueno-bcp-suma-beneficiarios-pero-estos-ahorristas-seguiran-esperando",
+    "fuente": "Diario Hoy"
    }
   ],
   "habituales": [
@@ -8284,7 +8879,8 @@
     "dolar-6600",
     "ips-ueno",
     "consumo-cae",
-    "ande-ueno"
+    "ande-ueno",
+    "ueno-morosidad"
    ],
    "hitos": [
     [
@@ -8326,9 +8922,19 @@
      "El Senado aprueba a Jorge Schreiner como presidente del BCP."
     ],
     [
+     "2026-11-09",
+     "El 93,1 % de los afectados ya cobró su anticipo; Alliana firma el decreto de Schreiner.",
+     "ueno-devolucion"
+    ],
+    [
      "2026-11-10",
      "La ANDE admite US$ 21 millones atrapados en Ueno y obras postergadas.",
      "ande-ueno"
+    ],
+    [
+     "2026-11-10",
+     "ABC Color: los créditos irrecuperables de Ueno habían llegado a 14,49 % en 2025.",
+     "ueno-morosidad"
     ],
     [
      "2026-11-17",
@@ -8351,7 +8957,8 @@
     "recaudacion-dnit",
     "bonos-embi",
     "pobreza-16",
-    "pgn-suspendido"
+    "pgn-suspendido",
+    "deuda-setiembre"
    ],
    "hitos": [
     [
@@ -8373,6 +8980,11 @@
      "2026-11-09",
      "A pedido de Alliana, Diputados suspende el tratamiento para recortarlo.",
      "pgn-suspendido"
+    ],
+    [
+     "2026-11-09",
+     "El MEF informa una deuda de US$ 22.569 millones (35,4 % del PIB).",
+     "deuda-setiembre"
     ],
     [
      "2026-11-14",
@@ -9707,6 +10319,7 @@
    "¿Por qué Brasil dice que la tarifa debe bajar ahora que se pagó la deuda?"
   ],
   "noticias": [
+   "itaipu-tarifa-2027",
    "ande-ueno",
    "itaipu-opinion",
    "energia-cedida",
@@ -9936,6 +10549,11 @@
     "10,3 · 10,1",
     "Años de estudio promedio de mujeres y de hombres",
     "INE, vía ABC Color"
+   ],
+   [
+    "7.º de 17",
+    "Puesto de Paraguay en el Índice de Mejores Trabajos 2026 del BID (3.º en cantidad, 10.º en calidad)",
+    "BID, vía ABC Color (10 nov 2026)"
    ]
   ],
   "graficos": [
@@ -10317,18 +10935,18 @@
    {
     "id": "deuda",
     "t": "Deuda pública",
-    "v": 34.4,
+    "v": 35.4,
     "u": " % del PIB",
     "dec": 1,
-    "fecha": "2026-06-30",
+    "fecha": "2026-09-30",
     "meta": "Sin límite legal. Referencia del sitio: menos de 40 % del PIB",
     "max": [
      40.0,
      60.0
     ],
     "oficial": false,
-    "extra": "Era 41,1 % en diciembre de 2025.",
-    "fuente": "MEF (junio 2026)",
+    "extra": "US$ 22.569,1 millones, 13,2 % más que un año antes. Era 34,4 % en junio de 2026.",
+    "fuente": "MEF, vía Última Hora (9 nov 2026)",
     "tema": "3.6",
     "link": "#paraguay",
     "por": "Una deuda baja permite pagar menos intereses y responder mejor ante una crisis."
@@ -10740,13 +11358,13 @@
   "personas": [
    {
     "n": "Jorge Schreiner",
-    "cargo": "Presidente (aprobado por el Senado) · Banco Central del Paraguay",
+    "cargo": "Presidente · Banco Central del Paraguay",
     "tipo": "Gobierno",
-    "estado": "Falta decreto y juramento",
+    "estado": "Decreto 7212 firmado; falta juramento",
     "que": "Habla en nombre de Banco Central del Paraguay.",
     "link": "#inst-bcp",
     "fuente": "Última Hora",
-    "url": "https://www.ultimahora.com/senado-presta-acuerdo-para-schreiner-y-rivarola-en-el-bcp"
+    "url": "https://www.ultimahora.com/alliana-nombra-a-jorge-schreiner-como-nuevo-presidente-del-bcp"
    },
    {
     "n": "Pedro de Jesús Acosta",
@@ -10760,13 +11378,13 @@
    },
    {
     "n": "Fernando Rivarola",
-    "cargo": "Miembro del directorio (aprobado por el Senado) · Banco Central del Paraguay",
+    "cargo": "Miembro del directorio · Banco Central del Paraguay",
     "tipo": "Gobierno",
-    "estado": "Falta decreto y juramento",
+    "estado": "Decreto 7213 firmado; falta juramento",
     "que": "Habla en nombre de Banco Central del Paraguay.",
     "link": "#inst-bcp",
-    "fuente": "ABC Color",
-    "url": "https://www.abc.com.py/politica/2026/11/09/alliana-pide-acuerdo-para-fernando-rivarola-el-tecnico-que-alerto-sobre-ueno-bank/"
+    "fuente": "Última Hora",
+    "url": "https://www.ultimahora.com/alliana-nombra-a-jorge-schreiner-como-nuevo-presidente-del-bcp"
    },
    {
     "n": "Miguel Mora",
@@ -11600,9 +12218,14 @@
   "etiqueta": "Especial Ueno",
   "cifras": [
    [
-    "1,2 millones",
-    "Personas que ya cobraron sus depósitos",
-    "ips-ueno"
+    "1.738.804",
+    "Personas que ya cobraron su anticipo (93,1 %)",
+    "ueno-devolucion"
+   ],
+   [
+    "14,49 %",
+    "Créditos irrecuperables de Ueno en sep. 2025",
+    "ueno-morosidad"
    ],
    [
     "US$ 380 M",
@@ -11635,6 +12258,11 @@
     "ANDE",
     "Tiene US$ 21 millones de un préstamo del BID atrapados en Ueno y posterga obras.",
     "ande-ueno"
+   ],
+   [
+    "MEF",
+    "Analiza con la AFD, el BNF y el CAH créditos de capital de trabajo para empresas afectadas.",
+    "consumo-cae"
    ]
   ],
   "preguntas": [
