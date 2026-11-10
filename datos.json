@@ -9409,7 +9409,7 @@
  },
  "presupuesto": {
   "actualizado": "2026-11-09",
-  "intro": "El Presupuesto General de la Nación dice cuánto puede gastar el Estado y en qué. Imagina que todo el Presupuesto son 100 guaraníes: así se repartirían según el proyecto para 2027 que el Gobierno envió al Congreso.",
+  "intro": "El Presupuesto General de la Nación dice cuánto puede gastar el Estado y en qué. Aquí puedes ver cómo se reparte, de dónde sale el dinero y si se gasta lo que se recomienda.",
   "total": [
    "G. 166,3 billones",
    "Proyecto de Presupuesto 2027 (unos US$ 25.751 millones), 11,2 % más que el de 2026"
@@ -9418,27 +9418,37 @@
    [
     "Salud",
     18.2,
-    "Ministerio de Salud; incluye G. 6,3 billones para pagar deudas atrasadas con proveedores y G. 1,7 billones para medicamentos."
+    "Ministerio de Salud; incluye G. 6,3 billones para pagar deudas atrasadas con proveedores y G. 1,7 billones para medicamentos.",
+    "Hospitales, medicamentos y pago de deudas atrasadas con proveedores.",
+    "cruz"
    ],
    [
     "Educación",
     10.4,
-    "Ministerio de Educación; incluye más fondos para docentes y horas cátedra."
+    "Ministerio de Educación; incluye más fondos para docentes y horas cátedra.",
+    "Escuelas, colegios y salarios de los docentes.",
+    "libro"
    ],
    [
     "Obras públicas",
     9.2,
-    "Ministerio de Obras Públicas (MOPC): rutas, puentes y otras obras."
+    "Ministerio de Obras Públicas (MOPC): rutas, puentes y otras obras.",
+    "Rutas, puentes y otras obras.",
+    "ruta"
    ],
    [
     "Resto del Gobierno central",
     50.1,
-    "Los demás ministerios y gastos del Gobierno central, como seguridad, justicia, programas sociales, jubilaciones del sector público y pago de la deuda."
+    "Los demás ministerios y gastos del Gobierno central, como seguridad, justicia, programas sociales, jubilaciones del sector público y pago de la deuda.",
+    "Seguridad, justicia, programas sociales, jubilaciones públicas y pago de la deuda.",
+    "banco"
    ],
    [
     "Entidades descentralizadas",
     78.4,
-    "Instituciones con presupuesto propio, como el IPS, las universidades nacionales, las gobernaciones y empresas públicas como la ANDE."
+    "Instituciones con presupuesto propio, como el IPS, las universidades nacionales, las gobernaciones y empresas públicas como la ANDE.",
+    "IPS, universidades, gobernaciones y empresas públicas como la ANDE.",
+    "edificio"
    ]
   ],
   "fuentes": [

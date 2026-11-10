@@ -604,9 +604,9 @@ footer .wrap{display:grid;gap:6px}
 /* ================= Diseño renovado ================= */
 :root{--r:14px;--shadow-sm:0 1px 2px rgba(18,28,51,.06),0 3px 10px rgba(18,28,51,.06);--shadow:0 10px 28px rgba(18,28,51,.13);
   --b-noticias:#23407C;--b-datos:#0E7C86;--b-sectores:#2E7D32;--b-temas:#7048B6;--b-estudiar:#B7791F;--acc:var(--b-noticias);
-  --p1:#C0392B;--p2:#1F4E9E;--p3:#C9962F;--p4:#5B6F96;--p5:#A9BAD6}
-:root[data-theme="dark"]{--shadow-sm:0 1px 0 rgba(255,255,255,.03);--shadow:0 10px 28px rgba(0,0,0,.45);--b-noticias:#7EA9F2;--b-datos:#4FC3CF;--b-sectores:#6BCB77;--b-temas:#B49CF0;--b-estudiar:#E2B55C;--p1:#FF8A80;--p2:#7EA9F2;--p3:#E2B55C;--p4:#8FA3C8;--p5:#3F5680}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--shadow-sm:0 1px 0 rgba(255,255,255,.03);--shadow:0 10px 28px rgba(0,0,0,.45);--b-noticias:#7EA9F2;--b-datos:#4FC3CF;--b-sectores:#6BCB77;--b-temas:#B49CF0;--b-estudiar:#E2B55C;--p1:#FF8A80;--p2:#7EA9F2;--p3:#E2B55C;--p4:#8FA3C8;--p5:#3F5680}}
+  --p1:#D64545;--p2:#2F6FD1;--p3:#D99A00;--p4:#7A5CC2;--p5:#2A9D8F}
+:root[data-theme="dark"]{--shadow-sm:0 1px 0 rgba(255,255,255,.03);--shadow:0 10px 28px rgba(0,0,0,.45);--b-noticias:#7EA9F2;--b-datos:#4FC3CF;--b-sectores:#6BCB77;--b-temas:#B49CF0;--b-estudiar:#E2B55C;--p1:#FF8A80;--p2:#7EA9F2;--p3:#F2C14E;--p4:#B49CF0;--p5:#5CC8BC}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--shadow-sm:0 1px 0 rgba(255,255,255,.03);--shadow:0 10px 28px rgba(0,0,0,.45);--b-noticias:#7EA9F2;--b-datos:#4FC3CF;--b-sectores:#6BCB77;--b-temas:#B49CF0;--b-estudiar:#E2B55C;--p1:#FF8A80;--p2:#7EA9F2;--p3:#F2C14E;--p4:#B49CF0;--p5:#5CC8BC}}
 body[data-block="noticias"]{--acc:var(--b-noticias)}body[data-block="datos"]{--acc:var(--b-datos)}body[data-block="sectores"]{--acc:var(--b-sectores)}body[data-block="temas"]{--acc:var(--b-temas)}body[data-block="estudiar"]{--acc:var(--b-estudiar)}
 .ic{width:20px;height:20px;flex:none;display:block}
 .mast{background:linear-gradient(120deg,#0F1D3D 0%,var(--navy) 45%,#203C74 100%)}
@@ -719,6 +719,37 @@ footer .wrap{display:block}
 .reco-why{margin-top:18px;background:var(--gold-soft);border-left:4px solid var(--gold-2);border-radius:10px;padding:14px 16px;display:grid;gap:4px}
 .reco-why b{font-family:var(--f-display);font-size:1.25rem}
 @media (max-width:560px){ .rb b{font-size:.95rem} }
+.cien{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);box-shadow:var(--shadow-sm);padding:20px;display:grid;gap:14px;margin-bottom:10px}
+.cien-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 24px}
+.cien-tot{display:grid;gap:2px}
+.cien-tot small{font-size:.76rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.cien-tot b{font-family:var(--f-math);font-size:2.3rem;font-weight:600;line-height:1}
+.cien-tot span{font-size:.86rem;color:var(--ink-2);max-width:46ch}
+.cien-q{font-size:1.1rem;max-width:30ch}
+.cien-q b{color:var(--gold)}
+.cien-groups{display:flex;gap:6px;font-size:.78rem;font-weight:700;color:var(--ink-2)}
+.cien-groups span{border-bottom:2px solid var(--rule);padding:0 2px 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.cien-bar{display:flex;gap:4px;height:74px}
+.seg{border:0;border-radius:10px;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:0;padding:0;transition:opacity .2s,transform .2s}
+.seg b{font-family:var(--f-display);font-size:1.7rem;line-height:1}
+.seg .ic{width:22px;height:22px}
+.seg:hover{transform:translateY(-2px)}
+.seg.dim,.cc.dim{opacity:.28}
+.cien-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:10px}
+.cc{text-align:left;background:var(--paper);border:1px solid var(--rule);border-top:5px solid var(--c);border-radius:12px;padding:12px 14px;display:grid;gap:4px;align-content:start;transition:opacity .2s,box-shadow .2s,transform .15s}
+.cc:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.cc.on{box-shadow:0 0 0 2px var(--c)}
+.cc-ic{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:color-mix(in srgb,var(--c) 16%,transparent);color:var(--c)}
+.cc-ic .ic{width:20px;height:20px}
+.cc-n b{font-family:var(--f-display);font-size:2.2rem;line-height:1;color:var(--c)}
+.cc-n small{margin-left:6px;font-size:.8rem;color:var(--muted)}
+.cc-t{font-family:var(--f-display);font-size:1.2rem;font-weight:700;line-height:1.1}
+.cc-d{font-size:.86rem;color:var(--ink-2);line-height:1.4}
+.cc-m{font-size:.8rem;font-weight:700;color:var(--muted);margin-top:2px}
+.cien-groups i{font-style:normal}.cien-groups .sh{display:none}
+@media (max-width:560px){ .cien{padding:16px} .cien-bar{height:58px} .seg b{font-size:1.25rem} .seg .ic{display:none} .cien-tot b{font-size:1.9rem}
+  .cien-groups .lg{display:none} .cien-groups .sh{display:inline}
+  .cc{grid-template-columns:64px minmax(0,1fr);column-gap:10px;border-top-width:1px;border-left:5px solid var(--c)} .cc-ic{display:none} .cc-n{grid-row:1/4;display:grid;align-content:start} .cc-n small{margin:0;font-size:.72rem} }
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -1661,6 +1692,7 @@ const ICP = {
   libro: '<path d="M4 4h6a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4zM20 4h-6a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h6z"/>',
   ejes: '<path d="M4 3v17h17"/><path d="M7 7l10 10M7 17L17 7"/>',
   sliders: '<path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>',
+  ruta: '<path d="M8 3L4 21M16 3l4 18M12 4v3M12 10.5v3M12 17v3"/>',
   cruz: '<path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/>',
   matraz: '<path d="M9 3h6M10 3v6L4.5 18.5A2 2 0 0 0 6.2 21.5h11.6a2 2 0 0 0 1.7-3L14 9V3"/><path d="M7 15h10"/>',
   calc: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h2M12 18h2M16 15v3"/>',
@@ -1763,11 +1795,14 @@ function renderPresupuesto() {
   const W = waffle(P.cien);
   $('#app').innerHTML = `<div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Política fiscal · tema 3.6</div><h1>¿A dónde van tus impuestos?</h1><p class="lede">${esc(P.intro)}</p></div></div>
-    <div class="presu">
-      <div class="presu-fig"><div class="presu-tot"><b>${esc(P.total[0])}</b><span>${esc(P.total[1])}</span></div>${W.svg}<p class="note">Cada cuadradito es 1 guaraní de cada 100 del Presupuesto. Toca un destino para resaltarlo.</p></div>
-      <div class="presu-leg">${P.cien.map(([t, v, d], i) => `<button type="button" class="leg" data-i="${i}"><i style="background:var(--p${i + 1})"></i><span><b>${W.pct[i]} de cada 100</b> · ${esc(t)}<small>G. ${num(v, 1)} billones. ${esc(d)}</small></span></button>`).join('')}
-        <p class="note">Fuente: ${srcLinks(P.fuentes)}</p></div>
-    </div>
+    <section class="cien">
+      <div class="cien-head"><div class="cien-tot"><small>Presupuesto 2027 · proyecto</small><b>${esc(P.total[0])}</b><span>${esc(P.total[1])}</span></div>
+        <p class="cien-q">Si todo el Presupuesto fueran <b>100 guaraníes</b>, así se repartirían:</p></div>
+      <div class="cien-groups"><span style="flex:${W.pct.slice(0, 4).reduce((a, b) => a + b, 0)}">Gobierno central · ${W.pct.slice(0, 4).reduce((a, b) => a + b, 0)}</span><span style="flex:${W.pct[4]}"><i class="lg">Entidades descentralizadas</i><i class="sh">Descentralizadas</i> · ${W.pct[4]}</span></div>
+      <div class="cien-bar" role="img" aria-label="Reparto de 100 guaraníes del Presupuesto">${P.cien.map(([t], i) => `<button type="button" class="seg" data-i="${i}" style="flex:${W.pct[i]};background:var(--p${i + 1})" title="${esc(t)}: ${W.pct[i]} de cada 100">${W.pct[i] >= 10 ? icon(P.cien[i][4]) : ''}<b>${W.pct[i]}</b></button>`).join('')}</div>
+      <div class="cien-cards">${P.cien.map(([t, v, d, c, ic], i) => `<button type="button" class="cc" data-i="${i}" style="--c:var(--p${i + 1})" title="${esc(d)}"><span class="cc-ic">${icon(ic)}</span><span class="cc-n"><b>${W.pct[i]}</b><small>de cada 100</small></span><span class="cc-t">${esc(t)}</span><span class="cc-d">${esc(c)}</span><span class="cc-m">G. ${num(v, 1)} billones</span></button>`).join('')}</div>
+      <p class="note">Toca una parte para resaltarla. Fuente: ${srcLinks(P.fuentes)}</p>
+    </section>
     ${recoHTML(P.recomendado)}
     ${statsHTML(P.cifras)}
     <div class="charts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr))">${P.graficos.map(g => `<section class="chart"><div class="top"><h3>${esc(g.t)}</h3></div>${fig({ k: 'barras', u: g.u, rows: g.rows })}${g.cap ? `<p class="note">${esc(g.cap)}</p>` : ''}</section>`).join('')}</div>
@@ -1782,8 +1817,8 @@ function renderPresupuesto() {
       <div class="block"><h3>Sigue leyendo</h3><div class="rel"><a href="#mirada-deficit">Dos miradas: el déficit<small>¿Está bien gastar más de lo que se recauda?</small></a><a href="#metas">Semáforo de metas<small>Déficit y deuda frente a la regla fiscal</small></a><a href="#inst-mef">Ministerio de Economía<small>Quién hace el Presupuesto</small></a>${BYID['pgn-suspendido'] ? `<a href="#n-pgn-suspendido">${esc(BYID['pgn-suspendido'].titulo)}<small>La última noticia</small></a>` : ''}</div></div>
     </aside></div>
     <p class="note" style="padding-bottom:40px">${esc(P.nota)}</p></div>`;
-  const hl = i => { document.querySelectorAll('.wf').forEach(r => r.classList.toggle('dim', i != null && r.dataset.i !== String(i))); document.querySelectorAll('.leg').forEach(b => b.classList.toggle('on', b.dataset.i === String(i))); };
-  let sel = null; document.querySelectorAll('.leg').forEach(b => b.onclick = () => { sel = sel === b.dataset.i ? null : b.dataset.i; hl(sel); });
+  const hl = i => { document.querySelectorAll('.seg,.cc').forEach(r => { r.classList.toggle('dim', i != null && r.dataset.i !== String(i)); r.classList.toggle('on', r.dataset.i === String(i)); }); };
+  let sel = null; document.querySelectorAll('.seg,.cc').forEach(b => b.onclick = () => { sel = sel === b.dataset.i ? null : b.dataset.i; hl(sel); });
   const iv = () => { const g = parseNum($('#iva-g').value); $('#iva-o').innerHTML = g > 0 ? `<b>G. ${num(g * 10 / 110, 0)} por mes</b><span>Es el IVA incluido si todo paga la tasa de 10 %: unos G. ${num(g * 10 / 110 * 12, 0)} al año. Si todo pagara 5 %, serían G. ${num(g * 5 / 105, 0)} por mes.</span><span class="note">El IVA no se separa para un gasto en particular: todo lo que recauda el Tesoro se junta y se reparte según el Presupuesto.</span>` : '<span>Escribe un monto en guaraníes.</span>'; };
   $('#iva-g').oninput = iv; iv();
   document.querySelectorAll('.rs[data-go]').forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById('reco-' + a.dataset.go); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'center' }); });
