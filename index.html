@@ -844,6 +844,11 @@ footer .wrap{display:block}
   @keyframes dibujar{to{stroke-dashoffset:0}}
   @keyframes aparecer{from{opacity:0}to{opacity:1}}
 }
+.card.big .plate.ilu{padding:0;background:none}
+.anim svg.ilus *{animation:none!important;stroke-dasharray:none!important;stroke-dashoffset:0!important}
+.card.big .plate.ilu svg.ilus{width:100%;height:100%;max-width:none;max-height:none;display:block;object-fit:cover}
+.card.big.first .plate.ilu{padding:0}
+.card.big:not(.first) .plate.ilu svg{aspect-ratio:16/9}
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -2115,8 +2120,27 @@ function bienvenidaHTML() {
     <div class="hello-stats"><a href="#archivo"><b>${NOTICIAS.length}</b><span>noticias explicadas</span></a><a href="#programa"><b>${cub}<small> de ${ALLTEMAS.length}</small></b><span>subtemas del programa</span></a><a href="#diagramas"><b>${Object.keys(LIB).length}</b><span>diagramas interactivos</span></a></div>
   </section>`;
 }
+/* ---------- Ilustraciones propias para las noticias destacadas ---------- */
+const ILUS = {
+  agro: `<rect width="320" height="200" fill="#DCEFD9"/><circle cx="262" cy="46" r="22" fill="#F2C14E"/><path d="M0 130 Q160 100 320 130 V200 H0Z" fill="#7BB661"/><path d="M0 150 Q160 125 320 150 V200 H0Z" fill="#5E9E48"/>${[60,120,180,240].map(x => `<g transform="translate(${x} 0)"><path d="M0 170 V92" stroke="#3E7A2F" stroke-width="4" fill="none"/>${[100,118,136,154].map((y, i) => `<ellipse cx="${i % 2 ? 12 : -12}" cy="${y}" rx="13" ry="7" fill="#4C8C3A" transform="rotate(${i % 2 ? -25 : 25} ${i % 2 ? 12 : -12} ${y})"/>`).join('')}<ellipse cx="0" cy="88" rx="5" ry="9" fill="#C9A227"/></g>`).join('')}`,
+  dolar: `<rect width="320" height="200" fill="#E3EDF7"/><rect x="40" y="58" width="150" height="84" rx="10" fill="#6BAF7A"/><rect x="50" y="68" width="130" height="64" rx="6" fill="none" stroke="#E8F5EA" stroke-width="3"/><circle cx="115" cy="100" r="22" fill="#E8F5EA"/><text x="115" y="111" text-anchor="middle" font-size="30" font-weight="700" fill="#3C7D4C" font-family="Georgia,serif">$</text><circle cx="232" cy="86" r="38" fill="#F2C14E"/><circle cx="232" cy="86" r="30" fill="none" stroke="#C9962F" stroke-width="3"/><text x="232" y="99" text-anchor="middle" font-size="34" font-weight="700" fill="#8A6216" font-family="Georgia,serif">₲</text><path d="M196 160 L230 136 L252 150 L292 118" stroke="#C0392B" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M280 116 L294 116 L294 130" stroke="#C0392B" stroke-width="6" fill="none" stroke-linecap="round"/>`,
+  energia: `<rect width="320" height="200" fill="#DDEBF7"/><path d="M0 120 H320 V200 H0Z" fill="#4A90C8"/><path d="M0 140 Q40 132 80 140 T160 140 T240 140 T320 140" stroke="#A8D0EE" stroke-width="3" fill="none"/><path d="M70 60 H210 L230 140 H50Z" fill="#9AA7B8"/>${[90,120,150,180].map(x => `<rect x="${x}" y="80" width="14" height="58" fill="#7B8798"/>`).join('')}<path d="M252 30 L232 92 H252 L240 150 L286 74 H264 L280 30Z" fill="#F2C14E" stroke="#C9962F" stroke-width="3" stroke-linejoin="round"/>`,
+  banco: `<rect width="320" height="200" fill="#ECE6F7"/><path d="M60 78 L150 36 L240 78Z" fill="#6E58B5"/><rect x="66" y="78" width="168" height="12" fill="#5A479B"/>${[80,114,148,182,216].map(x => `<rect x="${x - 6}" y="92" width="16" height="62" fill="#B9AEE0"/>`).join('')}<rect x="56" y="154" width="188" height="14" fill="#5A479B"/>${[0,1,2,3].map(i => `<ellipse cx="270" cy="${160 - i * 12}" rx="26" ry="9" fill="${i % 2 ? '#F2C14E' : '#E0AE3A'}" stroke="#B58520" stroke-width="2"/>`).join('')}`,
+  comercio: `<rect width="320" height="200" fill="#DFF1F1"/><path d="M0 150 H320 V200 H0Z" fill="#2A9D8F"/><path d="M40 118 H280 L258 152 H62Z" fill="#264653"/>${[[70,'#E76F51'],[110,'#F2C14E'],[150,'#2F6FD1'],[190,'#E76F51'],[230,'#7BB661']].map(([x, c]) => `<rect x="${x}" y="92" width="36" height="26" fill="${c}"/>`).join('')}${[[90,'#2F6FD1'],[130,'#7BB661'],[170,'#F2C14E'],[210,'#2F6FD1']].map(([x, c]) => `<rect x="${x}" y="66" width="36" height="26" fill="${c}"/>`).join('')}<path d="M0 166 Q40 158 80 166 T160 166 T240 166 T320 166" stroke="#8FD3CB" stroke-width="3" fill="none"/>`,
+  grafico: `<rect width="320" height="200" fill="#E8EDF6"/>${[[60,110],[110,85],[160,95],[210,60],[260,40]].map(([x, y]) => `<rect x="${x - 18}" y="${y}" width="36" height="${160 - y}" rx="4" fill="#9FB2D3"/>`).join('')}<path d="M50 120 L110 96 L160 104 L210 70 L268 46" stroke="#C9962F" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M40 160 H290" stroke="#5B6F96" stroke-width="3"/>`,
+};
+function temaIlus(n) {
+  const t = norm(n.titulo + ' ' + n.resumen), S = n.sector || [], I = n.inst || [];
+  if (/dolar|tipo de cambio|cotizac|guarani se|deprecia|aprecia/.test(t)) return 'dolar';
+  if (S.includes('energia') || /ande|itaipu|energi|electric|petroleo|combustib/.test(t)) return 'energia';
+  if (I.includes('bcp') || I.includes('bolsa') || /banco|ueno|deposit|tasa de interes|bonos|bolsa/.test(t)) return 'banco';
+  if (S.includes('agro') || /soja|carne|ganad|cosecha|tomate|agro/.test(t)) return 'agro';
+  if (S.includes('comercio') || /export|import|arancel|comercio/.test(t)) return 'comercio';
+  return 'grafico';
+}
+const ilus = n => `<svg class="ilus" viewBox="0 0 320 200" role="img" aria-label="Ilustración: ${esc(temaIlus(n))}">${ILUS[temaIlus(n)]}</svg>`;
 function bigCard(n, i) {
-  return `<a class="card big${i ? '' : ' first'}" data-u="${n.unidad}" href="#n-${n.id}"><div class="plate">${fig(n.fig)}</div><div class="body">
+  return `<a class="card big${i ? '' : ' first'}" data-u="${n.unidad}" href="#n-${n.id}"><div class="plate ilu">${ilus(n)}</div><div class="body">
     <div class="meta">${isNew(n) ? '<span class="new">Nuevo</span>' : ''}${unitTag(n.unidad)}<span>${esc(n.medio)} · ${fdate(n.fecha)}</span></div>
     ${secIcons(n)}<h3>${esc(n.titulo)}</h3>
     ${n.clave ? `<div class="bigkey"><b>${esc(n.clave[0])}</b><span>${esc(n.clave[1])}</span></div>` : ''}
