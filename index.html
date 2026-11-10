@@ -750,6 +750,50 @@ footer .wrap{display:block}
 @media (max-width:560px){ .cien{padding:16px} .cien-bar{height:58px} .seg b{font-size:1.25rem} .seg .ic{display:none} .cien-tot b{font-size:1.9rem}
   .cien-groups .lg{display:none} .cien-groups .sh{display:inline}
   .cc{grid-template-columns:64px minmax(0,1fr);column-gap:10px;border-top-width:1px;border-left:5px solid var(--c)} .cc-ic{display:none} .cc-n{grid-row:1/4;display:grid;align-content:start} .cc-n small{margin:0;font-size:.72rem} }
+.hello{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:22px;align-items:center;margin-top:22px;padding:26px 28px;border-radius:calc(var(--r) + 4px);background:linear-gradient(125deg,var(--navy) 0%,#203C74 70%,color-mix(in srgb,var(--gold-2) 35%,#203C74) 140%);color:var(--navy-ink);box-shadow:var(--shadow)}
+.hello .eyebrow{color:var(--gold-2)}
+.hello h1{font-size:clamp(1.9rem,4.2vw,3rem);margin-top:6px}
+.hello .lede{color:rgba(255,255,255,.88);margin-top:10px}
+.hello-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.hello .btn{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.3);color:#fff}
+.hello .btn.primary{background:var(--gold-2);border-color:var(--gold-2);color:var(--navy);font-weight:700}
+.hello-stats{display:grid;gap:10px}
+.hello-stats a{display:grid;grid-template-columns:auto 1fr;align-items:baseline;gap:4px 12px;text-decoration:none;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:10px 14px}
+.hello-stats a:hover{border-color:var(--gold-2)}
+.hello-stats b{font-family:var(--f-display);font-size:2rem;line-height:1;color:var(--gold-2)}
+.hello-stats b small{font-size:1rem;color:#fff;opacity:.75}
+.hello-stats span{font-size:.9rem;opacity:.88}
+.hello.mini{padding:16px 22px}
+.hello.mini h1{font-size:clamp(1.4rem,2.8vw,1.9rem)}
+.hello.mini .hello-btns{margin-top:10px}
+.hello.mini .hello-stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+.hello.mini .hello-stats a{grid-template-columns:1fr;padding:8px 10px}
+.hello.mini .hello-stats b{font-size:1.5rem}
+.hello.mini .hello-stats span{font-size:.76rem}
+.top3{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding-bottom:6px}
+.card.big.first{grid-column:1/-1;flex-direction:row}
+.card.big.first .plate{flex:0 0 46%;display:grid;place-items:center;padding:16px}
+.card.big.first .plate svg{width:100%;max-width:440px}
+.card.big.first h3{font-size:clamp(1.5rem,2.8vw,2.1rem)}
+.card.big h3{font-size:1.5rem}
+.card.big .body{gap:11px;padding:18px 20px 20px}
+.bigkey{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.bigkey b{font-family:var(--f-math);font-size:2.1rem;font-weight:600;line-height:1;color:var(--gold)}
+.bigkey span{font-size:.92rem;color:var(--ink-2)}
+.card.big .more{font-weight:700;color:var(--navy-2);font-size:.92rem}
+.pulso{margin-top:26px;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);box-shadow:var(--shadow-sm);padding:18px 20px}
+.pulso-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:6px 14px;margin-bottom:12px}
+.pz-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:10px}
+.pz{text-decoration:none;display:grid;gap:3px;padding:12px 14px;border-radius:12px;background:var(--paper);border:1px solid var(--rule);border-top:4px solid var(--sem,var(--navy-2));transition:transform .15s}
+.pz:hover{transform:translateY(-2px)}
+.pz-t{display:flex;align-items:center;gap:7px;font-size:.8rem;font-weight:700;color:var(--ink-2)}
+.pz-t i{width:10px;height:10px;border-radius:50%;background:var(--sem,var(--navy-2));flex:none}
+.pz b{font-family:var(--f-math);font-size:1.55rem;font-weight:600;line-height:1.1}
+.pz small{font-size:.76rem;color:var(--muted)}
+.vermas{display:flex;justify-content:center;padding:4px 0 22px}
+@media (max-width:760px){ .hello{grid-template-columns:minmax(0,1fr);padding:20px} .hello-stats{grid-template-columns:repeat(3,minmax(0,1fr))} .hello-stats a{grid-template-columns:1fr;padding:8px 10px} .hello-stats b{font-size:1.5rem} .hello-stats span{font-size:.76rem}
+  .top3{grid-template-columns:minmax(0,1fr)} .card.big.first{flex-direction:column} .card.big.first .plate{flex:none} .card.big .plate svg{max-height:200px}
+  .pz-grid{grid-template-columns:repeat(2,minmax(0,1fr))} .pz{padding:10px 12px} .pz b{font-size:1.3rem} .pulso{padding:16px} }
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -1179,6 +1223,8 @@ function renderHome() {
   const list = SORTED.filter(n => (F.u === 'todas' || n.unidad === F.u) && (F.kc === 'todos' || n.kc === F.kc) && (F.medio === 'todos' || n.medio === F.medio) &&
     (!F.q || norm([n.titulo, n.resumen, n.contexto, n.medio, ...n.conceptos.map(c => c[0]), ...n.diagramas.map(k => LIB[k].t)].join(' ')).includes(norm(F.q))));
   const medios = [...new Set(NOTICIAS.map(n => n.medio))].sort();
+  const filtrando = F.u !== 'todas' || F.kc !== 'todos' || F.medio !== 'todos' || !!F.q;
+  const top = filtrando ? [] : SORTED.slice(0, 3), resto = filtrando ? list : list.filter(n => !top.includes(n)), visibles = filtrando || HOMEALL ? resto : resto.slice(0, 9);
   const feat = D ? `
     <section class="feature">
       <div class="lead">
@@ -1197,9 +1243,12 @@ function renderHome() {
     </section>` : '';
   $('#app').innerHTML = `
   <div class="wrap">
+    ${bienvenidaHTML()}
+    ${topHTML(top)}
+    ${pulsoHTML()}
     ${feat}
     ${hoyHTML()}
-    <div class="sec-head"><div><div class="eyebrow">Últimas noticias</div><h2>La economía paraguaya, explicada</h2></div><a class="more" href="#semana">Resumen de la semana →</a></div>
+    <div class="sec-head" id="todas"><div><div class="eyebrow">${filtrando ? 'Resultados' : 'Más noticias'}</div><h2>${filtrando ? 'Noticias filtradas' : 'Todas las noticias'}</h2></div><a class="more" href="#semana">Resumen de la semana →</a></div>
     <div class="filters" role="group" aria-label="Filtros">
       ${['todas', 'micro', 'macro', 'global'].map(u => `<button type="button" class="chip" data-u="${u}" aria-pressed="${F.u === u}">${u === 'todas' ? 'Todas' : UNI[u]}</button>`).join('')}
       <select id="fkc" aria-label="Concepto clave"><option value="todos">Todos los conceptos clave</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${F.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select>
@@ -1207,7 +1256,8 @@ function renderHome() {
       <input id="fq" type="search" placeholder="Buscar: dólar, inflación, soja, déficit…" value="${esc(F.q)}" aria-label="Buscar noticias">
       <span class="note">${list.length} de ${NOTICIAS.length}</span>
     </div>
-    <div class="grid">${list.length ? list.map(card).join('') : '<div class="empty">No hay noticias con esos filtros. Prueba con otra unidad o borra la búsqueda.</div>'}</div>
+    <div class="grid">${list.length ? visibles.map(card).join('') : '<div class="empty">No hay noticias con esos filtros. Prueba con otra unidad o borra la búsqueda.</div>'}</div>
+    ${!filtrando && !HOMEALL && resto.length > visibles.length ? `<div class="vermas"><button type="button" class="btn" id="vermas">Ver ${resto.length - visibles.length} noticias más</button></div>` : ''}
     ${exploraHTML()}
 
     ${proximas().length ? `<div class="sec-head"><div><div class="eyebrow">Agenda</div><h2>Próximas fechas</h2></div><a class="more" href="#calendario">Ver el calendario →</a></div>
@@ -1221,6 +1271,8 @@ function renderHome() {
   $('#fmed').onchange = e => { F.medio = e.target.value; save(); renderHome(); jump(); };
   $('#fq').oninput = e => { F.q = e.target.value; save(); const p = e.target.selectionStart; renderHome(); jump(); const i = $('#fq'); i.focus(); i.setSelectionRange(p, p); };
   bindHoy();
+  const vm = $('#vermas'); if (vm) vm.onclick = () => { HOMEALL = true; const y = scrollY; renderHome(); window.scrollTo(0, y); };
+  document.querySelectorAll('[data-jump]').forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById(a.dataset.jump); if (t) t.scrollIntoView({ behavior: 'smooth' }); });
 }
 function jump() { const f = $('.filters'); if (f) window.scrollTo(0, f.getBoundingClientRect().top + window.scrollY - 90); }
 
@@ -2000,6 +2052,40 @@ function bindHoy() {
   });
 }
 
+/* ---------- Portada: bienvenida, destacadas y Paraguay en 30 segundos ---------- */
+const PRIMERA = !store.get('enp-visto', false); store.set('enp-visto', true);
+let HOMEALL = false;
+function bienvenidaHTML() {
+  const cub = ALLTEMAS.filter(t => SORTED.some(n => n.tema === t)).length;
+  return `<section class="hello${PRIMERA ? '' : ' mini'}">
+    <div class="hello-tx"><div class="eyebrow">Economía IB · Paraguay</div>
+      <h1>Las noticias económicas de Paraguay, explicadas con Economía IB</h1>
+      ${PRIMERA ? '<p class="lede">Cada noticia trae su diagrama, los conceptos clave, una pregunta y una evaluación al estilo IB. Se actualiza todos los días con los diarios del país.</p>' : ''}
+      <div class="hello-btns"><a class="btn primary" href="#inicio" data-jump="top3">Ver las noticias de hoy ↓</a><a class="btn" href="#programa">Estudiar por tema</a></div></div>
+    <div class="hello-stats"><a href="#archivo"><b>${NOTICIAS.length}</b><span>noticias explicadas</span></a><a href="#programa"><b>${cub}<small> de ${ALLTEMAS.length}</small></b><span>subtemas del programa</span></a><a href="#diagramas"><b>${Object.keys(LIB).length}</b><span>diagramas interactivos</span></a></div>
+  </section>`;
+}
+function bigCard(n, i) {
+  return `<a class="card big${i ? '' : ' first'}" href="#n-${n.id}"><div class="plate">${fig(n.fig)}</div><div class="body">
+    <div class="meta">${isNew(n) ? '<span class="new">Nuevo</span>' : ''}${unitTag(n.unidad)}<span>${esc(n.medio)} · ${fdate(n.fecha)}</span></div>
+    <h3>${esc(n.titulo)}</h3>
+    ${n.clave ? `<div class="bigkey"><b>${esc(n.clave[0])}</b><span>${esc(n.clave[1])}</span></div>` : ''}
+    <p class="sum">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p>
+    <span class="more">Leer y ver el diagrama →</span></div></a>`;
+}
+function topHTML(top) {
+  if (!top.length) return '';
+  return `<section class="top3-sec" id="top3"><div class="sec-head"><div><div class="eyebrow">Lo más importante hoy</div><h2>Las últimas noticias</h2></div><span class="note">Actualizado el ${fdate(ACTUALIZADO)}</span></div>
+    <div class="top3">${top.map(bigCard).join('')}</div></section>`;
+}
+function pulsoHTML() {
+  if (!METAS) return '';
+  const its = ['inflacion', 'crecimiento', 'desempleo', 'deficit', 'riesgo'].map(id => METAS.items.find(m => m.id === id)).filter(Boolean).map(m => Object.assign({ m }, metaEstado(m)));
+  const hD = HIST.dolar, pD = hD && hD.puntos[hD.puntos.length - 1], pD0 = hD && hD.puntos[hD.puntos.length - 2];
+  const tile = (t, v, e, s, href) => `<a class="pz ${e}" href="${href}"><span class="pz-t"><i></i>${esc(t)}</span><b>${esc(v)}</b><small>${esc(s)}</small></a>`;
+  return `<section class="pulso"><div class="pulso-h"><div><div class="eyebrow">Paraguay en 30 segundos</div><h2>¿Cómo está la economía?</h2></div><a class="more" href="#metas">Ver el semáforo completo →</a></div>
+    <div class="pz-grid">${its.map(x => tile(x.m.t.replace(/ 2026| \(EMBI\)/g, ''), x.txt, x.e, SEMTXT[x.e], '#metas')).join('')}${pD ? tile('Dólar', 'G. ' + num(pD[1], 0), 'info', pD0 ? (pD[1] >= pD0[1] ? 'Subió' : 'Bajó') + ' desde el ' + fshort(pD0[0]) : '', '#indicadores') : ''}</div></section>`;
+}
 /* Mapa por departamentos (mapa esquemático de mosaicos) */
 const DEPTS = [['Alto Paraguay','A. Paraguay',0,0],['Concepción','Concepción',2,0],['Amambay','Amambay',3,0],['Boquerón','Boquerón',0,1],['Presidente Hayes','Pte. Hayes',1,1],['San Pedro','San Pedro',2,1],['Canindeyú','Canindeyú',3,1],['Asunción','Asunción',1,2],['Cordillera','Cordillera',2,2],['Caaguazú','Caaguazú',3,2],['Alto Paraná','Alto Paraná',4,2],['Central','Central',1,3],['Paraguarí','Paraguarí',2,3],['Guairá','Guairá',3,3],['Ñeembucú','Ñeembucú',1,4],['Misiones','Misiones',2,4],['Caazapá','Caazapá',3,4],['Itapúa','Itapúa',4,4]];
 let MAPST = { capa: 'pobreza', dep: 'Concepción' };
