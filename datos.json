@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09",
+ "actualizado": "2026-11-10",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -15,8 +15,8 @@
   },
   {
    "n": "Dólar",
-   "v": "G. 6.508",
-   "s": "DNIT · 6 nov",
+   "v": "G. 6.226",
+   "s": "BCP interbancario · 9 nov",
    "alert": 1,
    "k": "dolar"
   },
@@ -144,6 +144,11 @@
     "ueno-devolucion"
    ],
    [
+    "7 nov",
+    "Multitiendas reportan ventas hasta 70 % más bajas.",
+    "consumo-cae"
+   ],
+   [
     "8 nov",
     "El dólar ronda G. 6.500, muy por encima de lo esperado.",
     "dolar-6600"
@@ -152,6 +157,16 @@
     "9 nov",
     "Diputados suspende el Presupuesto 2027 a pedido de Alliana; el plazo vence el 14.",
     "pgn-suspendido"
+   ],
+   [
+    "9 nov",
+    "El dólar baja a G. 6.300 en casas de cambio: primeras señales de calma.",
+    "dolar-6600"
+   ],
+   [
+    "10 nov",
+    "La ANDE tiene US$ 21 millones atrapados en Ueno y posterga obras.",
+    "ande-ueno"
    ]
   ],
   "lentes": [
@@ -170,6 +185,269 @@
   ]
  },
  "noticias": [
+  {
+   "id": "ande-ueno",
+   "fecha": "2026-11-10",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/10/sosa-admite-que-la-ande-no-sabe-como-recuperar-sus-fondos-de-ueno-bank-y-que-habra-obras-postergadas/",
+   "mas": [
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/09/atome-afirma-que-cumple-contrato-y-que-apuesta-por-el-dialogo/",
+     "2026-11-09"
+    ]
+   ],
+   "titulo": "La ANDE tiene US$ 21 millones atrapados en Ueno y posterga obras",
+   "unidad": "macro",
+   "tema": "3.7",
+   "kc": "intervencion",
+   "sector": [
+    "energia"
+   ],
+   "resumen": "Félix Sosa volvió a la presidencia de la ANDE y, según ABC Color, admitió que no sabe cómo recuperará unos US$ 21 millones de un préstamo del BID que quedaron en Ueno Bank. Ese dinero financia la línea de 500 kV entre Itaipú y Villa Hayes y obras de 220 kV en el área metropolitana; algunas obras se postergarán y los pagos de G. 115.000 millones a proveedores se revisarán «caso por caso».",
+   "contexto": "Las líneas de transmisión son infraestructura: permiten usar más energía de Itaipú en el país y amplían la capacidad productiva a largo plazo, por eso son una política de oferta. Si se retrasan, la OALP crece más lento. Además, ABC Color recuerda que el contrato de potencia y la tarifa de Itaipú vencen el 31 de diciembre de 2026, y que la emisión de bonos de la ANDE quedó en pausa. En paralelo, según La Nación, la empresa Atome (proyecto de fertilizantes de US$ 665 millones en Villeta) notificó que da por terminado su contrato de energía con la ANDE a fines de 2026, aunque dice estar dispuesta a firmar uno nuevo.",
+   "datos": [
+    [
+     "US$ 21 M",
+     "Fondos de la ANDE que quedaron en Ueno Bank"
+    ],
+    [
+     "G. 115.000 M",
+     "Pagos a proveedores y contratistas que se revisarán"
+    ],
+    [
+     "500 kV",
+     "Línea Itaipú–Villa Hayes, aún en adjudicación"
+    ],
+    [
+     "140 MW",
+     "Primera licitación solar a gran escala anunciada para el Chaco"
+    ],
+    [
+     "31 dic 2026",
+     "Vencen el contrato de potencia y la tarifa de Itaipú"
+    ]
+   ],
+   "clave": [
+    "US$ 21 M",
+    "atrapados en Ueno Bank"
+   ],
+   "fig": {
+    "k": "oalp",
+    "s": 20
+   },
+   "cap": "La inversión en transmisión eléctrica desplaza la OALP a la derecha; si las obras se postergan, el desplazamiento es menor y llega más tarde.",
+   "pasos": [
+    "La ANDE depositó parte de un préstamo del BID en Ueno Bank",
+    "El banco es intervenido y el dinero queda retenido",
+    "La ANDE posterga obras y revisa pagos a contratistas",
+    "Se retrasa la línea de 500 kV que trae más energía de Itaipú",
+    "La capacidad productiva (OALP) crece más lento"
+   ],
+   "conceptos": [
+    [
+     "Políticas de oferta",
+     "Medidas que aumentan la capacidad productiva, como la inversión en infraestructura."
+    ],
+    [
+     "Infraestructura",
+     "Bienes de capital públicos (rutas, líneas eléctricas) que usan todas las empresas."
+    ],
+    [
+     "Empresa pública",
+     "Empresa del Estado; la ANDE es además un monopolio natural en distribución."
+    ],
+    [
+     "Contrato de compraventa de energía (PPA)",
+     "Acuerdo de largo plazo para comprar electricidad a un precio y plazo pactados."
+    ]
+   ],
+   "diagramas": [
+    "politicas-oferta",
+    "monopolio"
+   ],
+   "rel": [
+    "ande-tarifa",
+    "energia-cedida",
+    "ueno-intervencion",
+    "itaipu-opinion"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el retraso de una línea de transmisión eléctrica afecta a la economía a largo plazo?",
+    "opts": [
+     "Porque frena el crecimiento de la capacidad productiva (OALP)",
+     "Porque baja la demanda agregada de inmediato",
+     "Porque sube la tasa de interés del BCP",
+     "Porque aprecia el guaraní"
+    ],
+    "ok": 0,
+    "fb": "La infraestructura eléctrica es una política de oferta: amplía la capacidad de producir. Si se retrasa, la OALP se mueve a la derecha más tarde y menos."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Obras que se reorientan",
+      "Según Sosa, algunos recursos podrían ir a obras más urgentes."
+     ]
+    ],
+    "pierden": [
+     [
+      "Usuarios de electricidad",
+      "Las mejoras de transmisión llegan más tarde y puede haber cortes por falta de capacidad."
+     ],
+     [
+      "Proveedores y contratistas de la ANDE",
+      "Sus pagos quedan en revisión."
+     ],
+     [
+      "Empresas que necesitan energía",
+      "Inversiones intensivas en electricidad dependen de redes y contratos estables."
+     ]
+    ],
+    "corto": "Pagos en revisión, obras postergadas y emisión de bonos en pausa.",
+    "largo": "Si no se recuperan los fondos o se consigue otro financiamiento, la red crecerá más lento y será más difícil usar toda la energía de Itaipú.",
+    "supuestos": [
+     "Que no se consiga financiamiento alternativo pronto",
+     "El artículo no precisa qué obras se postergan"
+    ],
+    "conclusion": "El monto es chico frente al tamaño de la ANDE, pero muestra cómo una crisis bancaria puede frenar la inversión pública; la clave es recuperar los fondos y no detener la línea de 500 kV."
+   }
+  },
+  {
+   "id": "consumo-cae",
+   "fecha": "2026-11-09",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/09/crisis-de-ueno-bank-pone-en-riesgo-el-repunte-de-ventas-en-diciembre-advierte-capasu/",
+   "mas": [
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios_edicion_impresa/2026/11/07/multitiendas-con-caida-del-70-en-ventas-y-perdidas-de-capital-operativo/",
+     "2026-11-07"
+    ]
+   ],
+   "titulo": "La crisis de Ueno frena el consumo: multitiendas venden hasta 70 % menos",
+   "unidad": "macro",
+   "tema": "3.2",
+   "kc": "cambio",
+   "sector": [
+    "comercio"
+   ],
+   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo.",
+   "contexto": "El consumo es el componente más grande de la demanda agregada. Cuando miles de familias no pueden usar sus ahorros por unos días y crece la incertidumbre, gastan menos y la DA se mueve a la izquierda. Según Capasu, las ventas empezaron a normalizarse a medida que el Fondo de Garantía de Depósitos devolvió el dinero a los pequeños ahorristas, pero el riesgo ahora es el desempleo: hasta octubre los supermercados crecían entre 8 % y 10 %, y en diciembre suelen vender entre 15 % y 20 % más que otros meses por el aguinaldo. Asimcopar advierte además que muchos comercios perdieron capital para reponer mercadería, y que la mitad de lo que venden las multitiendas lo producen mipymes nacionales.",
+   "datos": [
+    [
+     "hasta 70 %",
+     "Caída de ventas que reportan socios de Asimcopar (multitiendas)"
+    ],
+    [
+     "≈10 %",
+     "Caída de ventas de supermercados en las primeras 72 horas (Capasu)"
+    ],
+    [
+     "9.000",
+     "Personas que podrían quedar sin empleo, directos e indirectos (Capasu)"
+    ],
+    [
+     "15-20 %",
+     "Suba habitual de ventas de supermercados en diciembre"
+    ],
+    [
+     "50 %",
+     "Parte de los productos de las multitiendas hechos por mipymes nacionales"
+    ]
+   ],
+   "clave": [
+    "hasta 70 %",
+    "menos ventas en multitiendas"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Menos consumo por la incertidumbre y los ahorros retenidos: la DA se desplaza a la izquierda, baja el PIB real y presiona a la baja el nivel de precios.",
+   "pasos": [
+    "Ueno Bank es intervenido y sus clientes no pueden usar sus ahorros por unos días",
+    "La incertidumbre hace que las familias posterguen compras",
+    "Cae el consumo (C), el componente más grande de la DA",
+    "La DA se mueve a la izquierda: menos ventas y menos producción",
+    "Si se pierden empleos, cae el ingreso y el consumo baja otra vez (multiplicador)"
+   ],
+   "conceptos": [
+    [
+     "Demanda agregada (DA)",
+     "Gasto total en bienes y servicios: C + I + G + (X − M)."
+    ],
+    [
+     "Confianza del consumidor",
+     "Cuánto confían las familias en su futuro económico; si baja, gastan menos."
+    ],
+    [
+     "Efecto multiplicador",
+     "Una caída inicial del gasto reduce ingresos y provoca nuevas caídas del gasto."
+    ],
+    [
+     "Capital de trabajo",
+     "Dinero que una empresa usa para comprar mercadería y pagar gastos corrientes."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da",
+    "da-oa-oacp"
+   ],
+   "rel": [
+    "ueno-intervencion",
+    "ueno-devolucion",
+    "desempleo-41"
+   ],
+   "inst": [
+    "bcp"
+   ],
+   "pregunta": {
+    "q": "Tras la crisis bancaria, las familias gastan menos por la incertidumbre. ¿Qué pasa en el diagrama DA-OA a corto plazo?",
+    "opts": [
+     "La DA se mueve a la izquierda: baja el PIB real",
+     "La OACP se mueve a la izquierda: suben los precios",
+     "La DA se mueve a la derecha: sube el PIB real",
+     "No cambia nada porque el dinero se devuelve"
+    ],
+    "ok": 0,
+    "fb": "Menos consumo reduce la demanda agregada. La curva DA se desplaza a la izquierda y bajan la producción y el empleo a corto plazo."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Comercios con buena liquidez",
+      "Pueden ganar clientes con promociones mientras sus competidores no reponen mercadería."
+     ],
+     [
+      "Medios de pago en efectivo",
+      "Según Capasu, parte de los consumidores podría volver al efectivo por desconfianza."
+     ]
+    ],
+    "pierden": [
+     [
+      "Multitiendas y mipymes proveedoras",
+      "Venden menos y perdieron capital para reponer mercadería."
+     ],
+     [
+      "Trabajadores del grupo vinculado a Ueno",
+      "Unas 9.000 personas podrían quedar sin empleo, según Capasu."
+     ],
+     [
+      "Comercio de fin de año",
+      "El repunte habitual de diciembre está en riesgo."
+     ]
+    ],
+    "corto": "Menos ventas en noviembre; parte se recupera a medida que se devuelven los depósitos.",
+    "largo": "Si la confianza vuelve y los despedidos se reubican, el consumo puede recuperar su ritmo; si no, el crecimiento de 2027 sería menor.",
+    "supuestos": [
+     "Que la devolución de depósitos siga sin problemas",
+     "Las cifras son de gremios y de los primeros días: falta una medición oficial"
+    ],
+    "conclusion": "La crisis golpeó primero la confianza y el consumo; el daño duradero depende del empleo y de cuán rápido vuelva la normalidad financiera."
+   }
+  },
   {
    "id": "petroleo-baja",
    "fecha": "2026-11-09",
@@ -2176,36 +2454,44 @@
   },
   {
    "id": "dolar-6600",
-   "fecha": "2026-11-08",
+   "fecha": "2026-11-09",
    "medio": "La Tribuna",
    "url": "https://www.latribuna.com.py/negocios/economia/2026/11/08/dolar-a-gs-6600-la-crisis-obliga-a-revisar-las-previsiones/",
-   "titulo": "El dólar ronda G. 6.500 y deja atrás todas las previsiones",
+   "titulo": "El dólar saltó a G. 6.600 y empieza a bajar: G. 6.300 el 9 de noviembre",
    "unidad": "global",
    "tema": "4.5",
    "kc": "cambio",
-   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre y G. 5.905 para fin de año.",
-   "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. Un dólar más caro afecta a quienes tienen deudas en dólares: según el ejemplo de la nota, una cuota de US$ 1.000 cuesta G. 600.000 más si la cotización pasa de 6.000 a 6.600. También encarece los productos importados, lo que puede empujar la inflación en los próximos meses. Un economista citado por la nota estima el equilibrio cerca de G. 6.800, pero es una opinión individual.",
+   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre.",
+   "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. El economista Aníbal Insfrán explicó a ABC Color que no faltan dólares: lo que subió fue la demanda, porque personas y empresas buscaron una moneda más segura. Según ABC, la calma del lunes llegó con el pago a los ahorristas y la resolución de la crisis política, aunque los importadores siguen comprando dólares para las ventas de fin de año. Un dólar más caro encarece las deudas en dólares y los productos importados; Insfrán sugiere además revisar el dólar de G. 6.458 que usa el Presupuesto 2027.",
    "datos": [
+    [
+     "G. 6.226",
+     "Dólar interbancario del BCP (9 nov)"
+    ],
+    [
+     "G. 6.300",
+     "Promedio de casas de cambio (9 nov); el viernes 6 fue G. 6.600"
+    ],
     [
      "G. 6.507,73",
      "Dólar en la tabla de la DNIT (6 nov)"
     ],
     [
-     "+9,03 %",
-     "Suba semanal medida por Bloomberg"
+     "+5,8 %",
+     "Suba del dólar en lo que va de noviembre"
     ],
     [
      "G. 5.850",
      "Lo que esperaban los analistas para noviembre"
     ],
     [
-     "G. 600.000",
-     "Costo extra de una cuota de US$ 1.000 si el dólar pasa de 6.000 a 6.600"
+     "G. 6.458",
+     "Dólar previsto en el Presupuesto 2027"
     ]
    ],
    "clave": [
-    "+9,03 %",
-    "en una semana"
+    "G. 6.300",
+    "tras tocar G. 6.600"
    ],
    "fig": {
     "k": "barras",
@@ -2216,23 +2502,27 @@
       5850
      ],
      [
-      "Esperado fin de año",
-      5905
+      "Casas de cambio 6 nov",
+      6600,
+      1
      ],
      [
-      "Real 6 nov",
-      6507.73,
-      1
+      "Casas de cambio 9 nov",
+      6300
+     ],
+     [
+      "Interbancario BCP 9 nov",
+      6226
      ]
     ]
    },
-   "cap": "Lo que esperaban los analistas en la encuesta del BCP de octubre frente a la cotización del 6 de noviembre.",
+   "cap": "Lo que esperaban los analistas en la encuesta del BCP de octubre frente a las cotizaciones del 6 y 9 de noviembre (ABC Color).",
    "pasos": [
-    "La crisis aumenta la demanda de dólares",
+    "La crisis aumenta la demanda de dólares como refugio",
     "Más oferta de guaraníes: el guaraní se deprecia",
-    "Suben en guaraníes las deudas y los productos en dólares",
-    "Las empresas importadoras trasladan parte del costo a los precios",
-    "Riesgo de inflación importada en los próximos meses"
+    "Se devuelven depósitos y baja la incertidumbre: la demanda de dólares se modera",
+    "El dólar retrocede de G. 6.600 a G. 6.300",
+    "Lo que quedó de la suba encarece deudas y productos en dólares"
    ],
    "conceptos": [
     [
@@ -2250,6 +2540,10 @@
     [
      "Deuda en moneda extranjera",
      "Préstamos en dólares: su costo sube cuando se deprecia el guaraní."
+    ],
+    [
+     "Activo refugio",
+     "Bien o moneda que la gente compra para protegerse en momentos de incertidumbre."
     ]
    ],
    "diagramas": [
@@ -2293,15 +2587,28 @@
       "Los productos importados se encarecen."
      ]
     ],
-    "corto": "Cuotas en dólares más caras y presión sobre los precios.",
-    "largo": "Si el dólar se estabiliza, parte del salto podría revertirse.",
+    "corto": "El dólar se calma, pero sigue por encima de lo esperado: cuotas en dólares más caras y presión sobre los precios.",
+    "largo": "Si la confianza en el BCP se recupera, parte del salto puede revertirse; si no, podría verse afectada la calificación del país, según Insfrán.",
     "supuestos": [
-     "Que la cotización se mantenga: las previsiones son muy inciertas."
+     "Que la cotización siga bajando: las previsiones son muy inciertas",
+     "Que las nuevas autoridades del BCP actúen rápido, como pide Insfrán"
     ],
     "conclusion": "En una crisis las expectativas cambian rápido; endeudarse en una moneda distinta de la que se gana es un riesgo."
    },
    "inst": [
     "bcp"
+   ],
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/negocios/2026/11/09/tras-turbulenta-semana-mercado-vuelve-a-estabilizarse-y-dolar-baja-a-g-6300/",
+     "2026-11-09"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/09/dolar-en-paraguay-economista-explica-que-impulsa-su-suba-y-advierte-sobre-la-confianza-en-el-bcp/",
+     "2026-11-09"
+    ]
    ]
   },
   {
@@ -4891,9 +5198,13 @@
     [
      "2026-11-06",
      6507.73
+    ],
+    [
+     "2026-11-09",
+     6226
     ]
    ],
-   "lee": "El guaraní se apreció casi todo el año y en la primera semana de noviembre se depreció con fuerza por la crisis de Ueno Bank.",
+   "lee": "El guaraní se apreció casi todo el año, se depreció con fuerza en la primera semana de noviembre por la crisis de Ueno Bank y empezó a recuperarse el 9 de noviembre.",
    "grupo": "Sector externo",
    "eventos": [
     [
@@ -5124,9 +5435,12 @@
   },
   "2026-11-09": {
    "titulo": "Una semana con plazos: Presupuesto y tasa de interés",
-   "texto": "La semana arranca con el Presupuesto 2027 en suspenso: el nuevo gobierno pidió recortes y Diputados tiene hasta el sábado 14 para aprobar una versión modificada. El dólar y el riesgo país siguen bajo la lupa tras la crisis de Ueno Bank, y el 20 de noviembre el BCP decide su tasa.",
+   "texto": "La semana arranca con el Presupuesto 2027 en suspenso: el nuevo gobierno pidió recortes y Diputados tiene hasta el sábado 14 para aprobar una versión modificada. El dólar empezó a bajar el lunes (G. 6.300 en casas de cambio) a medida que se devuelven los depósitos de Ueno Bank, pero la crisis ya golpeó el consumo: las multitiendas reportan ventas hasta 70 % más bajas. La ANDE admite fondos atrapados en Ueno y obras postergadas, y el 20 de noviembre el BCP decide su tasa.",
    "claves": [
     "pgn-suspendido",
+    "consumo-cae",
+    "dolar-6600",
+    "ande-ueno",
     "ips-ueno"
    ]
   }
@@ -6567,7 +6881,9 @@
     "bonos-embi",
     "alliana-gobierno",
     "dolar-6600",
-    "ips-ueno"
+    "ips-ueno",
+    "consumo-cae",
+    "ande-ueno"
    ],
    "hitos": [
     [
@@ -6600,8 +6916,18 @@
      "ips-ueno"
     ],
     [
+     "2026-11-07",
+     "Multitiendas reportan caídas de ventas de hasta 70 %.",
+     "consumo-cae"
+    ],
+    [
      "2026-11-09",
      "El Senado aprueba a Jorge Schreiner como presidente del BCP."
+    ],
+    [
+     "2026-11-10",
+     "La ANDE admite US$ 21 millones atrapados en Ueno y obras postergadas.",
+     "ande-ueno"
     ],
     [
      "2026-11-17",
@@ -6703,6 +7029,11 @@
     [
      "2026-11-06",
      "El dólar llega a G. 6.507,73.",
+     "dolar-6600"
+    ],
+    [
+     "2026-11-09",
+     "El dólar baja a G. 6.300 en casas de cambio; interbancario a G. 6.226.",
      "dolar-6600"
     ]
    ]
@@ -7975,6 +8306,7 @@
    "¿Por qué Brasil dice que la tarifa debe bajar ahora que se pagó la deuda?"
   ],
   "noticias": [
+   "ande-ueno",
    "itaipu-opinion",
    "energia-cedida",
    "ande-tarifa"
