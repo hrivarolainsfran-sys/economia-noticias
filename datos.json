@@ -11513,10 +11513,10 @@
  },
  "cambios": {
   "fecha": "2026-11-10",
-  "hora": "02:41",
-  "fuente": "Cambios Alberdi",
-  "url": "https://www.cambiosalberdi.com/",
-  "nota": "Precios de referencia de una casa de cambios, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
+  "hora": "03:47",
+  "fuente": "Maxicambios (Asunción)",
+  "url": "https://www.maxicambios.com.py/",
+  "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
   "monedas": [
    [
     "USD",
@@ -11527,20 +11527,20 @@
    [
     "ARS",
     "Peso argentino",
-    3.7,
-    3.9
+    3.5,
+    4.2
    ],
    [
     "BRL",
     "Real brasileño",
-    1060,
-    1170
+    1100,
+    1220
    ],
    [
     "EUR",
     "Euro",
-    6200,
-    7100
+    6000,
+    7000
    ]
   ]
  }
