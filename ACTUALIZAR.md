@@ -110,6 +110,15 @@ La lámina `{"k": "bono", "r": 14}` dibuja el precio de un bono según la tasa d
   - `eventos`: hechos clave del mercado (nuevas emisiones grandes, suspensiones, nuevas normas, récords). Fecha `AAAA-MM-DD`, `AAAA-MM` o `AAAA`.
   - `instrumentos`, `actores`, `regulacion`, `ib`, `enlaces`: contenido explicativo; solo se cambia si cambia la regulación.
   - Las noticias del mercado de valores llevan `"inst": ["bolsa"]` (pueden combinarse, por ejemplo `["bcp", "bolsa"]`). El diagrama `bonos` sirve para noticias sobre bonos y tasas de interés.
+- `calendario`: la sección **Calendario**.
+  - `fechas`: lista de `{"f": "AAAA-MM-DD", "t": "título", "d": "por qué importa", "tipo": "BCP | MEF | Congreso | Región | Energía | Datos | Bolsa", "tema": "3.5", "url", "fuente"}`. **Solo fechas confirmadas en un artículo o fuente oficial.**
+  - Agregar cada fecha nueva que aparezca en las noticias (reuniones del BCP, plazos del Congreso, publicación de datos con fecha anunciada, decisiones de bancos centrales vecinos, vencimientos). Las fechas pasadas pueden quedar: la página las muestra como «ya pasaron». Borrar las que tengan más de 60 días.
+  - `habituales`: `[["cuándo", "qué se publica", "tema"]]`; solo se cambia si cambia la costumbre.
+  - Mantener coherentes `calendario.fechas` y la `agenda` de `instituciones`.
+- `sectores`: la sección **Sectores** con las claves `agro`, `energia`, `industria`, `comercio`.
+  - Cada sector tiene `cifras`, `graficos` (`{"t", "u", "rows", "cap"}`), `fuente`, `actores`, `riesgos`, `ib` y `diagramas`; `comercio` usa además `"serie": "exportaciones"` para mostrar el gráfico del historial.
+  - Cuando salga un dato nuevo confirmado del sector (exportaciones de soja o carne, maquila, energía, comercio exterior), actualizar la cifra o el gráfico y su `fuente` con medio y fecha.
+  - En cada noticia, el campo opcional `sector` (`["agro"]`, `["energia"]`, `["industria"]`, `["comercio"]` o varios) la muestra en la página del sector.
 - `destacado`: el tema económico dominante, con `eyebrow`, `titulo`, `dek`, `tl` (línea de tiempo: `[["5 nov", "Qué pasó", "id-noticia"]]`) y `lentes` (`[["clave-de-diagrama", "cómo lo explica"]]`).
 - `actualizado`: fecha de la última actualización (`AAAA-MM-DD`).
 

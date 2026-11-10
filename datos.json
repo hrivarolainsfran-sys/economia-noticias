@@ -147,6 +147,11 @@
     "8 nov",
     "El dólar ronda G. 6.500, muy por encima de lo esperado.",
     "dolar-6600"
+   ],
+   [
+    "9 nov",
+    "Diputados suspende el Presupuesto 2027 a pedido de Alliana; el plazo vence el 14.",
+    "pgn-suspendido"
    ]
   ],
   "lentes": [
@@ -165,6 +170,123 @@
   ]
  },
  "noticias": [
+  {
+   "id": "pgn-suspendido",
+   "fecha": "2026-11-09",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/politica/2026/11/09/a-pedido-de-alliana-diputados-suspende-de-forma-repentina-el-tratamiento-del-presupuesto-2027/",
+   "titulo": "El nuevo gobierno frena el Presupuesto 2027 en Diputados para recortarlo",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "intervencion",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "A pedido del presidente Pedro Alliana, la Cámara de Diputados suspendió el 9 de noviembre la sesión en la que iba a tratar el Presupuesto 2027, para que el Gobierno le haga cambios. El plazo vence el sábado 14: si no se aprueba una versión modificada, queda sancionada la original presentada durante el gobierno de Peña.",
+   "contexto": "El proyecto original suma G. 166,3 billones y pide un déficit de hasta 3,9 % del PIB. El jefe de Gabinete, Rolando De Barros, anunció recortes de gastos superfluos y convocó al ministro de Economía para reestructurar el Presupuesto. Recortar gasto reduce el déficit y la necesidad de endeudarse, lo que puede calmar a los inversores después de la suba del riesgo país; pero también puede frenar la demanda agregada a corto plazo. Si Diputados no vota a tiempo, cualquier cambio quedaría en manos del Senado.",
+   "datos": [
+    [
+     "14 nov",
+     "Plazo para que Diputados apruebe el Presupuesto"
+    ],
+    [
+     "G. 166,3 bill.",
+     "Monto del proyecto original"
+    ],
+    [
+     "3,9 %",
+     "Déficit pedido en el proyecto original (% del PIB)"
+    ],
+    [
+     "1,5 %",
+     "Límite de la Ley de Responsabilidad Fiscal"
+    ]
+   ],
+   "clave": [
+    "14 nov",
+    "plazo en Diputados"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Un recorte del gasto público (G) es política fiscal contractiva: la DA pasa de DA₁ a DA₂ a corto plazo, a cambio de menos déficit y menos deuda.",
+   "pasos": [
+    "El nuevo gobierno quiere recortar gastos",
+    "Baja el gasto público (G) previsto para 2027",
+    "El déficit y la nueva deuda serían menores",
+    "A corto plazo la DA se desplaza a la izquierda",
+    "Puede mejorar la confianza y bajar el riesgo país"
+   ],
+   "conceptos": [
+    [
+     "Sanción ficta",
+     "Aprobación automática de un proyecto cuando el Congreso no vota en el plazo."
+    ],
+    [
+     "Política fiscal contractiva",
+     "Menos gasto o más impuestos para reducir el déficit o frenar la economía."
+    ],
+    [
+     "Consolidación fiscal",
+     "Reducir el déficit de forma sostenida."
+    ],
+    [
+     "Déficit fiscal",
+     "Gasto público mayor que los ingresos en un año."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal",
+    "da-oa-da"
+   ],
+   "rel": [
+    "pgn-2027",
+    "bonos-embi",
+    "alliana-gobierno"
+   ],
+   "pregunta": {
+    "q": "Si el Gobierno recorta el gasto público, ¿qué pasa con la demanda agregada a corto plazo?",
+    "opts": [
+     "Se desplaza a la izquierda",
+     "Se desplaza a la derecha",
+     "No cambia",
+     "Se desplaza la OALP"
+    ],
+    "ok": 0,
+    "fb": "El gasto público (G) es un componente de la DA. Si baja, la DA se desplaza a la izquierda: es política fiscal contractiva."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Contribuyentes futuros",
+      "Menos deuda y menos intereses que pagar."
+     ],
+     [
+      "Inversores y calificación del país",
+      "Un déficit menor reduce el riesgo."
+     ]
+    ],
+    "pierden": [
+     [
+      "Beneficiarios de gastos recortados",
+      "Programas u obras que podrían reducirse."
+     ],
+     [
+      "Proveedores del Estado",
+      "Menos contratos y pagos."
+     ]
+    ],
+    "corto": "Menos gasto público y algo menos de demanda agregada.",
+    "largo": "Menos deuda y más chances de mantener el grado de inversión.",
+    "supuestos": [
+     "Que los recortes sean de gastos superfluos y no de inversión pública o programas sociales.",
+     "Que Diputados apruebe los cambios antes del 14 de noviembre."
+    ],
+    "conclusion": "Recortar el déficit puede devolver confianza tras la crisis, pero el efecto depende de qué se recorte: no es lo mismo eliminar gastos superfluos que reducir inversión o ayuda social."
+   }
+  },
   {
    "id": "bolsa-ueno-bonos",
    "fecha": "2026-11-03",
@@ -503,7 +625,10 @@
      "Que el crecimiento se sostenga y no sea un mes aislado."
     ],
     "conclusion": "Es una señal de un mercado de capitales que madura, aunque las acciones siguen siendo una parte pequeña frente a los bonos."
-   }
+   },
+   "sector": [
+    "industria"
+   ]
   },
   {
    "id": "ueno-devolucion",
@@ -1005,6 +1130,9 @@
    },
    "inst": [
     "mef"
+   ],
+   "sector": [
+    "comercio"
    ]
   },
   {
@@ -1134,7 +1262,11 @@
      "Que Brasil siga comprando."
     ],
     "conclusion": "La maquila diversifica la economía, pero su aporte real depende del valor agregado y de cuántos proveedores locales se sumen."
-   }
+   },
+   "sector": [
+    "industria",
+    "comercio"
+   ]
   },
   {
    "id": "energia-cedida",
@@ -1262,7 +1394,10 @@
      "Son proyecciones del IPPSE: dependen de cuánto crezca la demanda y de los caudales de los ríos."
     ],
     "conclusion": "La escasez futura es un problema de planificación: invertir a tiempo es más barato que importar en emergencia."
-   }
+   },
+   "sector": [
+    "energia"
+   ]
   },
   {
    "id": "carne-sustitutos",
@@ -1372,7 +1507,10 @@
      "Que la sustitución sea duradera."
     ],
     "conclusion": "Muestra cómo los precios relativos guían las elecciones del consumidor y por qué importa la competitividad frente a Brasil."
-   }
+   },
+   "sector": [
+    "agro"
+   ]
   },
   {
    "id": "ueno-intervencion",
@@ -1619,6 +1757,9 @@
    },
    "inst": [
     "bcp"
+   ],
+   "sector": [
+    "comercio"
    ]
   },
   {
@@ -1881,6 +2022,9 @@
    },
    "inst": [
     "bcp"
+   ],
+   "sector": [
+    "comercio"
    ]
   },
   {
@@ -2363,7 +2507,11 @@
      "Que se mantengan los precios internacionales y el buen clima."
     ],
     "conclusion": "El récord impulsa el crecimiento, pero diversificar productos y mercados reduciría el riesgo."
-   }
+   },
+   "sector": [
+    "agro",
+    "comercio"
+   ]
   },
   {
    "id": "carne-cae",
@@ -2474,7 +2622,11 @@
      "Que la caída del volumen se deba a la reacción de la demanda y no solo a que hubo menos oferta."
     ],
     "conclusion": "El dato sugiere una demanda relativamente elástica, pero parte de la caída viene de menos oferta: la estimación es aproximada."
-   }
+   },
+   "sector": [
+    "agro",
+    "comercio"
+   ]
   },
   {
    "id": "combustibles",
@@ -2594,7 +2746,10 @@
      "Que el congelamiento de noviembre no se extienda."
     ],
     "conclusion": "El combustible es un costo que llega a toda la economía, y la depreciación del guaraní puede agrandar su impacto."
-   }
+   },
+   "sector": [
+    "energia"
+   ]
   },
   {
    "id": "pgn-2027",
@@ -2690,6 +2845,7 @@
     "da-oa-da"
    ],
    "rel": [
+    "pgn-suspendido",
     "recaudacion-dnit",
     "bonos-embi",
     "pobreza-16"
@@ -3082,7 +3238,10 @@
      "Las cifras son cálculos del autor; otros análisis pueden llegar a otros resultados."
     ],
     "conclusion": "Es un debate normativo: equidad (gasto social) frente a eficiencia y transparencia (precio de la energía)."
-   }
+   },
+   "sector": [
+    "energia"
+   ]
   },
   {
    "id": "mercosur-ue",
@@ -3199,7 +3358,11 @@
      "Que el Parlamento Europeo no frene el acuerdo."
     ],
     "conclusion": "Los beneficios dependen de que Paraguay aproveche el acceso y de que los sectores afectados se adapten en los 15 años de transición."
-   }
+   },
+   "sector": [
+    "agro",
+    "comercio"
+   ]
   }
  ],
  "historial": {
@@ -3602,6 +3765,13 @@
     "bonos-embi",
     "inflacion-oct"
    ]
+  },
+  "2026-11-09": {
+   "titulo": "Una semana con plazos: Presupuesto y tasa de interés",
+   "texto": "La semana arranca con el Presupuesto 2027 en suspenso: el nuevo gobierno pidió recortes y Diputados tiene hasta el sábado 14 para aprobar una versión modificada. El dólar y el riesgo país siguen bajo la lupa tras la crisis de Ueno Bank, y el 20 de noviembre el BCP decide su tasa.",
+   "claves": [
+    "pgn-suspendido"
+   ]
   }
  },
  "instituciones": {
@@ -3840,8 +4010,8 @@
    ],
    "agenda": [
     [
-     "2026-11-09",
-     "El Gobierno anuncia una reestructuración del Presupuesto 2027 con recortes; Diputados estudia el proyecto."
+     "2026-11-14",
+     "Vence el plazo para que Diputados apruebe el Presupuesto 2027; si no, queda sancionada la versión original."
     ]
    ],
    "eventos": [
@@ -3860,6 +4030,10 @@
     [
      "2026-11-09",
      "Es convocado por el nuevo gobierno para reestructurar el Presupuesto 2027."
+    ],
+    [
+     "2026-11-09",
+     "A pedido del presidente Alliana, Diputados suspende el tratamiento del Presupuesto 2027 para hacerle recortes."
     ]
    ],
    "enlaces": [
@@ -4106,5 +4280,604 @@
     "https://www.siv.bcp.gov.py/"
    ]
   ]
+ },
+ "calendario": {
+  "fechas": [
+   {
+    "f": "2026-11-14",
+    "t": "Vence el plazo del Presupuesto 2027 en Diputados",
+    "d": "Si la Cámara no aprueba una versión modificada, queda sancionada la versión original del gobierno de Peña (sanción ficta).",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.abc.com.py/politica/2026/11/09/a-pedido-de-alliana-diputados-suspende-de-forma-repentina-el-tratamiento-del-presupuesto-2027/",
+    "fuente": "ABC Color"
+   },
+   {
+    "f": "2026-11-20",
+    "t": "Reunión del Comité de Política Monetaria del BCP",
+    "d": "Decide si mantiene la tasa en 5,50 % o la cambia, en plena presión del dólar.",
+    "tipo": "BCP",
+    "tema": "3.5",
+    "url": "https://infonegocios.com.py/default/bcp-mantiene-la-tasa-en-5-50-y-mejora-su-proyeccion-de-crecimiento-a-5",
+    "fuente": "InfoNegocios"
+   },
+   {
+    "f": "2026-12-09",
+    "t": "Brasil decide su tasa de interés (Copom)",
+    "d": "El Banco Central de Brasil anuncia la Selic, hoy en 13,75 %. Lo que pase en Brasil afecta al comercio y al tipo de cambio de Paraguay.",
+    "tipo": "Región",
+    "tema": "3.5",
+    "url": "https://www.infomoney.com.br/mercados/banco-central-divulga-calendario-das-reunioes-do-copom-para-2026/",
+    "fuente": "InfoMoney"
+   },
+   {
+    "f": "2026-12-15",
+    "t": "Chile decide su tasa de interés",
+    "d": "El Banco Central de Chile anuncia su tasa, hoy en 4,5 %, con la inflación en alza.",
+    "tipo": "Región",
+    "tema": "3.5",
+    "url": "https://www.riotimesonline.com/chile-inflation-outlook-central-bank-next-steps-2026/",
+    "fuente": "The Rio Times"
+   },
+   {
+    "f": "2026-12-31",
+    "t": "Termina el periodo de la tarifa acordada de Itaipú",
+    "d": "La tarifa de US$ 19,28 por kW-mes se acordó para 2024-2026; lo que siga depende de la revisión del Anexo C con Brasil.",
+    "tipo": "Energía",
+    "tema": "2.7",
+    "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/08/gastos-sociales-de-itaipu-43-de-la-tarifa-vs-sobrecosto-para-ande/",
+    "fuente": "ABC Color"
+   }
+  ],
+  "habituales": [
+   [
+    "Primeros días hábiles del mes",
+    "El BCP publica la inflación (IPC) del mes anterior.",
+    "3.3"
+   ],
+   [
+    "Primeros días del mes",
+    "La DNIT informa la recaudación de impuestos del mes anterior.",
+    "3.6"
+   ],
+   [
+    "Primeros días del mes",
+    "La Bolsa de Valores de Asunción informa el volumen negociado del mes anterior.",
+    "3.1"
+   ],
+   [
+    "Una vez por mes",
+    "El Comité de Política Monetaria del BCP decide la tasa de interés.",
+    "3.5"
+   ],
+   [
+    "Unos 40 días después de cada mes",
+    "El BCP publica el IMAEP, el indicador mensual de actividad económica.",
+    "3.1"
+   ],
+   [
+    "Al terminar cada trimestre (con un mes de demora)",
+    "El INE publica el desempleo de la Encuesta Permanente de Hogares.",
+    "3.3"
+   ],
+   [
+    "1 de julio",
+    "Entra en vigor el reajuste anual del salario mínimo.",
+    "2.7"
+   ],
+   [
+    "1 de septiembre",
+    "El Poder Ejecutivo presenta al Congreso el Presupuesto del año siguiente.",
+    "3.6"
+   ],
+   [
+    "Diciembre",
+    "Las empresas pagan el aguinaldo: más consumo en las fiestas.",
+    "3.2"
+   ]
+  ],
+  "nota": "Las fechas habituales son aproximadas y se basan en cómo se publicaron los datos en 2026."
+ },
+ "sectores": {
+  "agro": {
+   "sigla": "AG",
+   "nombre": "Agro y ganadería",
+   "tema": "4.1",
+   "que": "La soja y la carne son los productos que más divisas traen al país. El complejo de la soja (grano, aceite y harina) generó el 41 % de las divisas por exportaciones hasta septiembre de 2026.",
+   "por_que": "Un país que exporta mucho de pocos productos primarios crece rápido cuando los precios internacionales y el clima acompañan, pero sufre cuando caen. Por eso el agro es el mejor ejemplo para estudiar la ventaja comparativa y, a la vez, los riesgos de depender de materias primas.",
+   "cifras": [
+    [
+     "7,9 M t",
+     "Soja en grano exportada a septiembre (récord igualado)"
+    ],
+    [
+     "US$ 4.264 M",
+     "Complejo sojero a septiembre (41 % de las divisas)"
+    ],
+    [
+     "86 %",
+     "Envíos de soja con destino a Argentina"
+    ],
+    [
+     "US$ 1.645 M",
+     "Carne bovina exportada en enero-octubre (−7,9 %)"
+    ],
+    [
+     "US$ 7,12",
+     "Precio por kilo de la carne bovina exportada"
+    ],
+    [
+     "+76 %",
+     "Ingresos por exportaciones de pollo"
+    ]
+   ],
+   "graficos": [
+    {
+     "t": "Soja en grano: ingresos a septiembre",
+     "u": "US$ M",
+     "rows": [
+      [
+       "2025",
+       2141
+      ],
+      [
+       "2026",
+       3107,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Carne bovina exportada (ene-oct)",
+     "u": "millones de kg",
+     "rows": [
+      [
+       "2025",
+       305
+      ],
+      [
+       "2026",
+       231,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Destinos de la carne bovina (ene-oct 2026)",
+     "u": "US$ M",
+     "rows": [
+      [
+       "Chile",
+       505.7,
+       1
+      ],
+      [
+       "Estados Unidos",
+       315.8
+      ],
+      [
+       "Israel",
+       277.5
+      ],
+      [
+       "Taiwán",
+       209.6
+      ],
+      [
+       "Brasil",
+       75.5
+      ]
+     ]
+    }
+   ],
+   "fuente": "Capeco y La Nación (15 oct 2026); Senacsa y La Prensa (2 nov 2026).",
+   "actores": [
+    [
+     "Capeco",
+     "Cámara de exportadores de cereales y oleaginosas: publica los datos de soja."
+    ],
+    [
+     "CAPPRO",
+     "Cámara de procesadores de oleaginosas: aceite y harina de soja."
+    ],
+    [
+     "ARP",
+     "Asociación Rural del Paraguay: reúne a los ganaderos."
+    ],
+    [
+     "Senacsa",
+     "Servicio Nacional de Calidad y Salud Animal: controla la sanidad y certifica las exportaciones de carne."
+    ],
+    [
+     "MAG",
+     "Ministerio de Agricultura y Ganadería."
+    ]
+   ],
+   "riesgos": [
+    "Clima: una sequía o el fenómeno de El Niño puede reducir la cosecha.",
+    "Precios internacionales: la soja bajó 6 % y el maíz 13,6 % en el último informe del BCP.",
+    "Concentración: Argentina compra el 86 % de la soja.",
+    "Competencia de Brasil en el mercado de la carne.",
+    "Logística: congestión en los pasos de frontera y dependencia de los ríos."
+   ],
+   "ib": [
+    [
+     "4.1",
+     "Ventaja comparativa: Paraguay produce soja y carne a bajo costo de oportunidad."
+    ],
+    [
+     "4.9",
+     "Dependencia de productos primarios y volatilidad de precios."
+    ],
+    [
+     "2.5",
+     "Elasticidad: la carne más cara perdió volumen e ingresos."
+    ],
+    [
+     "2.1",
+     "Sustitutos: el consumo pasa de carne vacuna a pollo y cerdo."
+    ]
+   ],
+   "diagramas": [
+    "exportaciones",
+    "ped-ingreso"
+   ]
+  },
+  "energia": {
+   "sigla": "EN",
+   "nombre": "Energía",
+   "tema": "4.7",
+   "que": "Paraguay produce casi toda su electricidad en dos represas hidroeléctricas que comparte con sus vecinos: Itaipú con Brasil y Yacyretá con Argentina. Es energía renovable y barata. Los combustibles, en cambio, son todos importados.",
+   "por_que": "La energía es un costo de casi toda la producción. Electricidad barata atrae industrias, pero la demanda crece rápido y la parte que Paraguay no usa se cede a los socios. A la vez, depender de combustibles importados expone al país a los precios del petróleo y al tipo de cambio.",
+   "cifras": [
+    [
+     "68 %",
+     "Parte paraguaya de las binacionales usada en el país (ene-sep)"
+    ],
+    [
+     "32 %",
+     "Energía cedida a Brasil y Argentina"
+    ],
+    [
+     "US$ 19,28",
+     "Tarifa de Itaipú por kW-mes (2024-2026)"
+    ],
+    [
+     "2030",
+     "Año en que Paraguay podría usar el 100 % de su parte"
+    ],
+    [
+     "G. 9.285",
+     "Litro de diésel común en Petropar (+48,6 % desde febrero)"
+    ]
+   ],
+   "graficos": [
+    {
+     "t": "Parte paraguaya usada en el país (ene-sep 2026)",
+     "u": "%",
+     "rows": [
+      [
+       "Itaipú",
+       74
+      ],
+      [
+       "Yacyretá",
+       40
+      ],
+      [
+       "Total",
+       68,
+       1
+      ]
+     ]
+    },
+    {
+     "t": "Diésel común: suba desde febrero",
+     "u": "%",
+     "rows": [
+      [
+       "Petropar",
+       48.6,
+       1
+      ],
+      [
+       "Emblemas privados",
+       51.8
+      ]
+     ]
+    }
+   ],
+   "fuente": "ABC Color (1 nov y 28 oct 2026); informe del IPPSE citado por ABC Color (19 oct 2026).",
+   "actores": [
+    [
+     "ANDE",
+     "Administración Nacional de Electricidad: empresa estatal que distribuye la electricidad."
+    ],
+    [
+     "Itaipú Binacional",
+     "Represa compartida con Brasil sobre el río Paraná."
+    ],
+    [
+     "Entidad Binacional Yacyretá",
+     "Represa compartida con Argentina."
+    ],
+    [
+     "Petropar",
+     "Empresa estatal que importa y vende combustibles."
+    ]
+   ],
+   "riesgos": [
+    "Entre 2028 y 2030 la demanda podría superar la energía disponible.",
+    "La revisión del Anexo C de Itaipú definirá la tarifa desde 2027.",
+    "Los combustibles dependen del precio del petróleo y del dólar.",
+    "Los caudales de los ríos afectan la generación."
+   ],
+   "ib": [
+    [
+     "1.1",
+     "Escasez y costo de oportunidad: usar la energía en el país o cederla."
+    ],
+    [
+     "4.7",
+     "Sostenibilidad: energía renovable frente a combustibles fósiles."
+    ],
+    [
+     "2.7",
+     "Precios regulados: tarifas de la ANDE y de Itaipú."
+    ],
+    [
+     "3.3",
+     "Shock de oferta: el combustible caro desplaza la OACP."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-oacp",
+    "oferta-demanda"
+   ]
+  },
+  "industria": {
+   "sigla": "IN",
+   "nombre": "Industria y maquila",
+   "tema": "4.10",
+   "que": "La industria paraguaya crece sobre todo a través de la maquila: empresas que importan insumos, los transforman en el país y exportan el producto, con autopartes, textiles, bebidas y aluminio. Hasta septiembre de 2026 exportó US$ 1.148 millones, 25 % más que un año antes.",
+   "por_que": "La maquila es la principal vía de diversificación de una economía muy dependiente del agro. Crea empleo formal y atrae inversión extranjera, sobre todo de Brasil. El desafío es que deje más valor agregado en el país y sume proveedores locales.",
+   "cifras": [
+    [
+     "US$ 1.148 M",
+     "Exportaciones de maquila (ene-sep, +25 %)"
+    ],
+    [
+     "US$ 543 M",
+     "Saldo comercial del sector"
+    ],
+    [
+     "36.382",
+     "Empleos (+4 %)"
+    ],
+    [
+     "59 %",
+     "Ventas a Brasil"
+    ],
+    [
+     "49 %",
+     "Empresas ubicadas en Alto Paraná"
+    ]
+   ],
+   "graficos": [
+    {
+     "t": "Qué exporta la maquila",
+     "u": "% del total",
+     "rows": [
+      [
+       "Autopartes",
+       31,
+       1
+      ],
+      [
+       "Confecciones y textiles",
+       16
+      ],
+      [
+       "Bebidas",
+       11
+      ],
+      [
+       "Aluminio",
+       11
+      ]
+     ]
+    },
+    {
+     "t": "A dónde exporta",
+     "u": "% del total",
+     "rows": [
+      [
+       "Brasil",
+       59,
+       1
+      ],
+      [
+       "Argentina",
+       14
+      ],
+      [
+       "Países Bajos",
+       11
+      ],
+      [
+       "Estados Unidos",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "Dónde están las empresas",
+     "u": "% de las empresas",
+     "rows": [
+      [
+       "Alto Paraná",
+       49,
+       1
+      ],
+      [
+       "Central",
+       28
+      ],
+      [
+       "Asunción",
+       8
+      ],
+      [
+       "Amambay",
+       7
+      ]
+     ]
+    }
+   ],
+   "fuente": "Consejo Nacional de las Industrias Maquiladoras de Exportación, vía La República y 5Días (16 oct 2026).",
+   "actores": [
+    [
+     "CNIME",
+     "Consejo Nacional de las Industrias Maquiladoras de Exportación: aprueba los programas y publica los datos."
+    ],
+    [
+     "MIC",
+     "Ministerio de Industria y Comercio."
+    ],
+    [
+     "Empresas extranjeras",
+     "Sobre todo brasileñas, que instalan plantas en Paraguay."
+    ]
+   ],
+   "riesgos": [
+    "Dependencia de Brasil, que compra el 59 %.",
+    "El saldo comercial no es igual al valor agregado que queda en el país.",
+    "Un guaraní muy fuerte encarece la producción local frente a la de los vecinos."
+   ],
+   "ib": [
+    [
+     "4.10",
+     "Diversificación e inversión extranjera directa como estrategia de crecimiento."
+    ],
+    [
+     "3.1",
+     "Valor agregado: lo que la producción local suma a los insumos."
+    ],
+    [
+     "4.1",
+     "Comercio y especialización con los socios del Mercosur."
+    ]
+   ],
+   "diagramas": [
+    "exportaciones"
+   ]
+  },
+  "comercio": {
+   "sigla": "CE",
+   "nombre": "Comercio exterior",
+   "tema": "4.6",
+   "serie": "exportaciones",
+   "que": "Paraguay vende al mundo soja, carne, energía y productos de la maquila, y compra maquinaria, combustibles y bienes de consumo. En 2026 las exportaciones van camino a un récord y el comercio deja superávit.",
+   "por_que": "Las exportaciones traen dólares, influyen en el tipo de cambio y suman a la demanda agregada a través de las exportaciones netas (X − M). El acuerdo Mercosur–Unión Europea, aplicado desde mayo, abre un mercado grande para los productos paraguayos.",
+   "cifras": [
+    [
+     "US$ 10.223 M",
+     "Exportaciones registradas a septiembre (+19,7 %)"
+    ],
+    [
+     "+25,7 %",
+     "Exportaciones totales a septiembre"
+    ],
+    [
+     "+15,0 %",
+     "Importaciones a septiembre"
+    ],
+    [
+     "US$ 712 M",
+     "Superávit comercial a septiembre"
+    ],
+    [
+     "US$ 63",
+     "De cada US$ 100 nuevos exportados, los aportó la soja"
+    ]
+   ],
+   "graficos": [
+    {
+     "t": "Qué explica la suba de las exportaciones (ene-ago 2026)",
+     "u": "US$ M de diferencia frente a 2025",
+     "rows": [
+      [
+       "Soja en grano",
+       907.7,
+       1
+      ],
+      [
+       "Cobre",
+       67.8
+      ],
+      [
+       "Barcos y barcazas",
+       47.7
+      ],
+      [
+       "Carne bovina",
+       -98.6
+      ],
+      [
+       "Maíz",
+       -100.7
+      ]
+     ]
+    }
+   ],
+   "fuente": "BCP vía InfoNegocios (2 nov 2026) y ABC Color (23 oct 2026, datos de Rediex).",
+   "actores": [
+    [
+     "BCP",
+     "Publica las estadísticas de comercio exterior."
+    ],
+    [
+     "Rediex",
+     "Red de Inversiones y Exportaciones del Ministerio de Industria y Comercio."
+    ],
+    [
+     "DNIT",
+     "Controla las aduanas y cobra los impuestos a las importaciones."
+    ],
+    [
+     "Mercosur",
+     "Bloque con Argentina, Brasil y Uruguay: arancel externo común y acuerdos comerciales."
+    ]
+   ],
+   "riesgos": [
+    "Precios internacionales de los productos primarios.",
+    "Tipo de cambio: un guaraní fuerte resta competitividad; uno débil encarece las importaciones.",
+    "Concentración en pocos productos y compradores.",
+    "Logística: el país no tiene salida al mar y depende de la hidrovía y de los vecinos."
+   ],
+   "ib": [
+    [
+     "4.6",
+     "Balanza comercial y cuenta corriente."
+    ],
+    [
+     "4.5",
+     "Tipo de cambio: más exportaciones aprecian el guaraní."
+    ],
+    [
+     "4.4",
+     "Integración: Mercosur y el acuerdo con la Unión Europea."
+    ],
+    [
+     "3.2",
+     "Exportaciones netas (X − M) como parte de la demanda agregada."
+    ]
+   ],
+   "diagramas": [
+    "exportaciones",
+    "tipo-cambio",
+    "arancel"
+   ]
+  }
  }
 }
