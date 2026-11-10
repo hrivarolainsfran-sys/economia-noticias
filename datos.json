@@ -9572,7 +9572,7 @@
   ],
   "nota": "El Presupuesto 2027 todavía no está aprobado: el 9 de noviembre Diputados suspendió su tratamiento a pedido del nuevo gobierno para modificarlo. Los «100 guaraníes» son el total del proyecto (Gobierno central más entidades descentralizadas); el «resto del Gobierno central» es un cálculo propio: G. 87,9 billones menos Salud, Educación y Obras Públicas.",
   "recomendado": {
-   "intro": "¿Cuánto debería gastar el Estado en cada área? Algunas reglas se miden como parte del Presupuesto (por ejemplo, la Constitución fija un mínimo para educación) y otras como parte del PIB (las recomendaciones de la UNESCO o de la OPS). Aquí se compara lo que hace Paraguay con cada una. La franja verde marca lo recomendado.",
+   "intro": "¿Gasta Paraguay lo que se recomienda? Cada tarjeta compara el dato del país con la meta que fija una ley o un organismo internacional.",
    "areas": [
     {
      "area": "Educación",
@@ -9592,7 +9592,11 @@
         "https://www.constituteproject.org/constitution/Paraguay_2011?lang=es"
        ],
        "fv": "Cálculo propio con el proyecto 2027: Ministerio de Educación (G. 10,4 billones) sobre el Gobierno central (G. 87,9 billones). Es aproximado: la Constitución suma todos los recursos para educación, no solo los del ministerio.",
-       "uv": "https://www.lanacion.com.py/negocios/2026/09/01/plan-de-gastos-para-el-2027-asciende-a-usd-25751-millones/"
+       "uv": "https://www.lanacion.com.py/negocios/2026/09/01/plan-de-gastos-para-el-2027-asciende-a-usd-25751-millones/",
+       "q": "¿Qué parte del presupuesto del Gobierno central va a educación?",
+       "quien": "Constitución (art. 85)",
+       "rec": "mínimo 20 %",
+       "anio": "Proyecto 2027"
       },
       {
        "t": "Parte del gasto público total (2023)",
@@ -9607,7 +9611,11 @@
         "https://redclade.org/wp-content/uploads/El-financiamiento-del-derecho-humano-a-la-educaci%C3%B3n-en-Am%C3%A9rica-Latina-y-el-Caribe-en-el-contexto-de-la-Agenda-2030.pdf"
        ],
        "fv": "Datosmacro, vía ABC Color (26 oct 2025).",
-       "uv": "https://www.abc.com.py/economia/2025/10/26/gran-inversion-en-educacion-pero-aun-lejos-del-6-del-pib-de-paraguay/"
+       "uv": "https://www.abc.com.py/economia/2025/10/26/gran-inversion-en-educacion-pero-aun-lejos-del-6-del-pib-de-paraguay/",
+       "q": "¿Qué parte de todo el gasto público va a educación?",
+       "quien": "UNESCO",
+       "rec": "entre 15 % y 20 %",
+       "anio": "2023"
       },
       {
        "t": "Parte del PIB (2023)",
@@ -9622,9 +9630,14 @@
         "https://redclade.org/wp-content/uploads/El-financiamiento-del-derecho-humano-a-la-educaci%C3%B3n-en-Am%C3%A9rica-Latina-y-el-Caribe-en-el-contexto-de-la-Agenda-2030.pdf"
        ],
        "fv": "Datosmacro, vía ABC Color (26 oct 2025).",
-       "uv": "https://www.abc.com.py/economia/2025/10/26/gran-inversion-en-educacion-pero-aun-lejos-del-6-del-pib-de-paraguay/"
+       "uv": "https://www.abc.com.py/economia/2025/10/26/gran-inversion-en-educacion-pero-aun-lejos-del-6-del-pib-de-paraguay/",
+       "q": "¿Cuánto se invierte en educación en relación con el tamaño de la economía?",
+       "quien": "UNESCO",
+       "rec": "entre 4 % y 6 % del PIB",
+       "anio": "2023"
       }
-     ]
+     ],
+     "ic": "libro"
     },
     {
      "area": "Salud",
@@ -9643,7 +9656,11 @@
         "https://www.ultimahora.com/exponen-crisis-en-salud-de-paraguay-por-baja-inversion"
        ],
        "fv": "BBC News Mundo, citado por Última Hora (23 jul 2026).",
-       "uv": "https://www.ultimahora.com/exponen-crisis-en-salud-de-paraguay-por-baja-inversion"
+       "uv": "https://www.ultimahora.com/exponen-crisis-en-salud-de-paraguay-por-baja-inversion",
+       "q": "¿Cuánto gasta el Estado en salud en relación con el tamaño de la economía?",
+       "quien": "OPS",
+       "rec": "mínimo 6 % del PIB",
+       "anio": "Publicado en 2026"
       },
       {
        "t": "Parte del presupuesto total (2026)",
@@ -9655,9 +9672,14 @@
        "ref": "No hay una recomendación internacional en % del presupuesto; la OPS mide el gasto en % del PIB.",
        "fr": null,
        "fv": "Ministra de Salud sobre el proyecto 2026, vía Última Hora (15 sep 2025).",
-       "uv": "https://www.ultimahora.com/entre-criticas-ministra-defiende-reducido-pgn-2026-para-salud"
+       "uv": "https://www.ultimahora.com/entre-criticas-ministra-defiende-reducido-pgn-2026-para-salud",
+       "q": "¿Qué parte del presupuesto total va a salud?",
+       "quien": "",
+       "rec": "sin meta internacional",
+       "anio": "Proyecto 2026"
       }
-     ]
+     ],
+     "ic": "cruz"
     },
     {
      "area": "Déficit fiscal",
@@ -9676,9 +9698,14 @@
         "https://www.bacn.gov.py/leyes-paraguayas/4671/ley-n-5098-de-responsabilidad-fiscal"
        ],
        "fv": "MEF, vía Última Hora (4 ago 2026).",
-       "uv": "https://www.ultimahora.com/deficit-fiscal-cerrara-en-3-2-este-ano-y-en-el-2027-sera-de-3-9-confirma-ministro"
+       "uv": "https://www.ultimahora.com/deficit-fiscal-cerrara-en-3-2-este-ano-y-en-el-2027-sera-de-3-9-confirma-ministro",
+       "q": "¿Cuánto más gasta el Estado de lo que recauda?",
+       "quien": "Ley de Responsabilidad Fiscal",
+       "rec": "máximo 1,5 % del PIB",
+       "anio": "2026"
       }
-     ]
+     ],
+     "ic": "balanza"
     },
     {
      "area": "Recaudación de impuestos",
@@ -9698,9 +9725,14 @@
         "https://www.ultimahora.com/cepal-paraguay-entre-paises-con-menor-ingreso-tributario-sobre-pib"
        ],
        "fv": "CEPAL, vía Última Hora (8 may 2026).",
-       "uv": "https://www.ultimahora.com/cepal-paraguay-entre-paises-con-menor-ingreso-tributario-sobre-pib"
+       "uv": "https://www.ultimahora.com/cepal-paraguay-entre-paises-con-menor-ingreso-tributario-sobre-pib",
+       "q": "¿Cuánto recauda el Estado en impuestos?",
+       "quien": "Promedio de América Latina (CEPAL)",
+       "rec": "21,5 % del PIB",
+       "anio": "2024"
       }
-     ]
+     ],
+     "ic": "monedas"
     },
     {
      "area": "Ciencia e investigación",
@@ -9719,9 +9751,14 @@
         "https://www.abc.com.py/ciencia/2025/12/04/latinoamerica-impulsa-la-investigacion-y-el-desarrollo-pero-persiste-brecha-entre-paises/"
        ],
        "fv": "Conacyt, vía InfoNegocios (26 oct 2023); es el último dato publicado.",
-       "uv": "https://infonegocios.com.py/nota-principal/paraguay-si-produce-ciencia-pero-como-puede-transformarla-en-productos-de-mercado"
+       "uv": "https://infonegocios.com.py/nota-principal/paraguay-si-produce-ciencia-pero-como-puede-transformarla-en-productos-de-mercado",
+       "q": "¿Cuánto se invierte en ciencia e investigación?",
+       "quien": "Meta del Conacyt",
+       "rec": "0,5 % del PIB",
+       "anio": "2020"
       }
-     ]
+     ],
+     "ic": "matraz"
     }
    ],
    "lecturas": [

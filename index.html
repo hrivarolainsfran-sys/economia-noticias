@@ -682,17 +682,43 @@ footer .wrap{display:block}
   .ticker .wrap{display:flex;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none} .ticker .wrap::-webkit-scrollbar{display:none} .ind{flex:0 0 46%;scroll-snap-align:start;border-top:0}
   .edition .wrap span:last-child{display:none} }
 
-.reco{margin-bottom:26px}
-.reco-a{margin-bottom:16px}
-.reco-h{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 12px;margin-bottom:8px}
-.reco-h h3{font-size:1.4rem}
-.reco-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:12px}
-.reco-i{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);box-shadow:var(--shadow-sm);padding:14px;display:grid;gap:6px;align-content:start}
-.reco-t{display:grid;gap:5px;font-weight:700;font-size:.95rem}.reco-t .chipst{justify-self:start}
-.reco-v b{font-family:var(--f-math);font-size:1.9rem;font-weight:600;line-height:1}
-.reco-v small{margin-left:6px;color:var(--muted);font-size:.82rem}
-.reco-i svg{width:100%;height:auto;display:block}
-.reco-ref{font-size:.88rem;color:var(--ink-2)}
+.reco{margin:6px 0 30px}
+.reco-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:14px;padding-block:20px 14px}
+.reco-score{background:var(--navy);color:var(--navy-ink);border-radius:var(--r);padding:12px 18px;text-align:center;display:grid;gap:2px;min-width:150px}
+.reco-score b{font-family:var(--f-display);font-size:2.6rem;line-height:1;color:var(--gold-2)}
+.reco-score b small{font-size:1.2rem;color:var(--navy-ink);opacity:.8}
+.reco-score span{font-size:.82rem;opacity:.85}
+.reco-sum{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.rs{display:inline-flex;align-items:center;gap:8px;text-decoration:none;background:var(--sheet);border:1px solid var(--rule);border-radius:999px;padding:5px 12px 5px 5px;font-size:.86rem;line-height:1.15}
+.rs small{display:block;font-size:.72rem;color:var(--muted)}
+.rs-i{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-weight:800;color:#fff;background:var(--muted);flex:none}
+.rs.ok .rs-i{background:var(--ok)}.rs.bad .rs-i{background:var(--bad)}.rs.mid .rs-i{background:var(--gold-2)}
+.rs:hover{border-color:var(--ink-2)}
+.reco-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr));gap:14px}
+.rc{background:var(--sheet);border:1px solid var(--rule);border-left:5px solid var(--muted);border-radius:var(--r);box-shadow:var(--shadow-sm);padding:16px 18px;display:grid;gap:12px;align-content:start;scroll-margin:90px}
+.rc.ok{border-left-color:var(--ok)}.rc.bad{border-left-color:var(--bad)}.rc.mid{border-left-color:var(--gold-2)}
+.rc-h{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start}
+.rc-h small{font-size:.76rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.rc-h h3{font-family:var(--f-body);font-size:1.05rem;font-weight:700;line-height:1.3;margin-top:2px}
+.rc-v{grid-column:1/-1;justify-self:start;font-size:.82rem;font-weight:800;border-radius:999px;padding:3px 11px;background:var(--paper);color:var(--muted)}
+.rc-v.ok{background:var(--ok-bg);color:var(--ok)}.rc-v.bad{background:var(--bad-bg);color:var(--bad)}.rc-v.mid{background:var(--gold-soft);color:var(--gold)}
+.rc-bars{display:grid;gap:10px}
+.rb{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:baseline}
+.rb .rb-t{grid-column:1/-1}
+.rb-l{font-size:.85rem;color:var(--ink-2);font-weight:700;line-height:1.2}
+.rb-t{position:relative;height:16px;background:var(--grid);border-radius:8px;overflow:hidden}
+.rb-t i{position:absolute;top:0;bottom:0;left:0;border-radius:8px}
+.rb-v{background:var(--muted)}.rb-v.ok{background:var(--ok)}.rb-v.bad{background:var(--bad)}.rb-v.mid{background:var(--gold-2)}
+.rb-m{background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--ok) 55%,transparent) 0 6px,color-mix(in srgb,var(--ok) 30%,transparent) 6px 12px)}
+.rb-x{background:color-mix(in srgb,var(--ok) 22%,transparent);border-radius:0 8px 8px 0!important}
+.rb b{font-family:var(--f-math);font-size:1.08rem;font-weight:600;white-space:nowrap;text-align:right}
+.rc-g{font-size:.95rem;font-weight:600}
+.rc-d{font-size:.86rem;color:var(--ink-2);border-top:1px dashed var(--rule);padding-top:8px}
+.rc-d summary{cursor:pointer;color:var(--muted);font-weight:700;font-size:.82rem}
+.rc-d p{margin-top:6px}
+.reco-why{margin-top:18px;background:var(--gold-soft);border-left:4px solid var(--gold-2);border-radius:10px;padding:14px 16px;display:grid;gap:4px}
+.reco-why b{font-family:var(--f-display);font-size:1.25rem}
+@media (max-width:560px){ .rb b{font-size:.95rem} }
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -1635,6 +1661,8 @@ const ICP = {
   libro: '<path d="M4 4h6a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4zM20 4h-6a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h6z"/>',
   ejes: '<path d="M4 3v17h17"/><path d="M7 7l10 10M7 17L17 7"/>',
   sliders: '<path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>',
+  cruz: '<path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/>',
+  matraz: '<path d="M9 3h6M10 3v6L4.5 18.5A2 2 0 0 0 6.2 21.5h11.6a2 2 0 0 0 1.7-3L14 9V3"/><path d="M7 15h10"/>',
   calc: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h2M12 18h2M16 15v3"/>',
 };
 const icon = (k, c) => `<svg class="ic${c ? ' ' + c : ''}" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICP[k] || ICP.noticias}</svg>`;
@@ -1696,22 +1724,37 @@ function waffle(parts) {
 }
 function recoHTML(R) {
   if (!R) return '';
-  const meter = it => {
-    const W = 320, E = it.escala, X = v => 8 + Math.min(Math.max(v, 0), E) / E * (W - 16);
-    let band = '';
-    if (it.min != null || it.max != null) { const a = it.min != null ? it.min : 0, b = it.max != null ? (it.min != null ? it.max : it.max) : E; band = `<rect x="${X(a).toFixed(1)}" y="12" width="${(X(b) - X(a)).toFixed(1)}" height="12" rx="3" style="fill:var(--ok);opacity:.28"/><line x1="${X(it.min != null ? it.min : it.max).toFixed(1)}" x2="${X(it.min != null ? it.min : it.max).toFixed(1)}" y1="8" y2="28" style="stroke:var(--ok)" stroke-width="2"/>`; }
-    const ticks = [0, E / 2, E].map(t => `<text x="${X(t).toFixed(1)}" y="42" text-anchor="${t === 0 ? 'start' : t === E ? 'end' : 'middle'}" font-size="10" style="fill:var(--muted);font-family:var(--f-body)">${num(t, E < 2 ? 1 : 0)}</text>`).join('');
-    return `<svg viewBox="0 0 ${W} 46" role="img" aria-label="${esc(it.t)}: ${num(it.v, 2)} ${esc(it.u)}"><rect x="8" y="14" width="${W - 16}" height="8" rx="4" style="fill:var(--grid)"/><rect x="8" y="14" width="${(X(it.v) - 8).toFixed(1)}" height="8" rx="4" style="fill:var(--navy-2)"/>${band}<circle cx="${X(it.v).toFixed(1)}" cy="18" r="7" style="fill:var(--gold-2);stroke:var(--sheet)" stroke-width="2"/>${ticks}</svg>`;
+  const pc = v => num(v, v < 1 ? 2 : 1) + ' %';
+  const verdict = it => {
+    if (it.min == null && it.max == null) return { c: 'nd', i: '—', l: 'Sin meta', g: 'No hay una meta internacional para esta medida.' };
+    if (it.max != null && it.min == null) { const ok = it.v <= it.max; return { c: ok ? 'ok' : 'bad', i: ok ? '✓' : '✗', l: ok ? 'Cumple' : 'Se pasa del límite', g: ok ? 'Está dentro del límite.' : `Se pasa ${num(it.v - it.max, 1)} puntos del límite.` }; }
+    const ok = it.v >= it.min;
+    if (it.promedio) return { c: ok ? 'ok' : 'mid', i: ok ? '✓' : '↓', l: ok ? 'Sobre el promedio' : 'Debajo del promedio', g: ok ? 'Está por encima del promedio.' : `Está ${num(it.min - it.v, 1)} puntos debajo del promedio.` };
+    if (ok) return { c: 'ok', i: '✓', l: 'Cumple', g: it.max != null && it.v > it.max ? 'Supera incluso el máximo del rango recomendado.' : 'Alcanza lo recomendado.' };
+    return { c: it.aprox ? 'mid' : 'bad', i: '✗', l: it.aprox ? 'No llega (aprox.)' : 'No llega', g: `Le faltan ${num(it.min - it.v, it.min < 1 ? 2 : 1)} puntos para llegar al mínimo.` };
   };
-  const est = it => { if (it.min == null && it.max == null) return ['nd', 'Sin recomendación']; const ok = (it.min == null || it.v >= it.min) && (it.max == null || it.min != null || it.v <= it.max); if (it.aprox) return [ok ? 'ok' : 'mid', ok ? 'Cumple (aprox.)' : 'Por debajo (cálculo aproximado)']; if (it.promedio) return [ok ? 'ok' : 'mid', ok ? 'Sobre el promedio' : 'Debajo del promedio']; return [ok ? 'ok' : 'bad', ok ? 'Cumple lo recomendado' : (it.max != null && it.min == null ? 'Supera el límite' : 'Por debajo de lo recomendado')]; };
-  return `<section class="reco"><div class="sec-head" style="padding-top:8px"><div><div class="eyebrow">Lo que se recomienda</div><h2>¿Cuánto debería ser?</h2><p class="lede">${esc(R.intro)}</p></div></div>
-    ${R.areas.map(A => `<div class="reco-a"><div class="reco-h"><h3>${esc(A.area)}</h3>${temaLink(A.tema)}</div><div class="reco-g">${A.items.map(it => { const [c, l] = est(it); return `<div class="reco-i">
-      <div class="reco-t"><span>${esc(it.t)}</span><span class="chipst ${c}">${esc(l)}</span></div>
-      <div class="reco-v"><b>${num(it.v, it.v < 1 ? 2 : 1)} %</b><small>${esc(it.u.replace(/^% /, ''))}</small></div>
-      ${meter(it)}
-      <p class="reco-ref"><b>Recomendado:</b> ${esc(it.ref)}${it.fr ? ` <a href="${esc(it.fr[1])}" target="_blank" rel="noopener">${esc(it.fr[0])} ↗</a>` : ''}</p>
-      <p class="note">Dato de Paraguay: ${it.uv ? `<a href="${esc(it.uv)}" target="_blank" rel="noopener">${esc(it.fv)}</a>` : esc(it.fv)}</p></div>`; }).join('')}</div></div>`).join('')}
-    <div class="block" style="margin-top:8px"><h3>Para pensar</h3><ul class="reads" style="margin:0">${R.lecturas.map(l => `<li>${esc(l)}</li>`).join('')}</ul></div>
+  const all = R.areas.flatMap(A => A.items.map(it => Object.assign({ A }, it, { vd: verdict(it) }))), conMeta = all.filter(x => x.vd.c !== 'nd'), cumple = conMeta.filter(x => x.vd.c === 'ok').length;
+  const bars = it => {
+    const E = it.escala, w = v => Math.min(100, Math.max(0, v / E * 100)).toFixed(1) + '%', vd = it.vd;
+    let rec = '';
+    if (it.min != null || it.max != null) {
+      const a = it.min != null ? it.min : it.max, b = it.min != null && it.max != null ? it.max : null;
+      rec = `<div class="rb"><span class="rb-l">${esc(it.quien)}</span><b>${esc(it.rec)}</b><div class="rb-t"><i class="rb-m" style="width:${w(a)}"></i>${b != null ? `<i class="rb-x" style="left:${w(a)};width:${(Math.min(b, E) - a) / E * 100}%"></i>` : ''}</div></div>`;
+    }
+    return `<div class="rb"><span class="rb-l">Paraguay</span><b>${pc(it.v)}</b><div class="rb-t"><i class="rb-v ${vd.c}" style="width:${w(it.v)}"></i></div></div>${rec}`;
+  };
+  return `<section class="reco">
+    <div class="reco-top"><div><div class="eyebrow">Lo que se recomienda</div><h2>¿Cuánto debería ser?</h2><p class="lede">${esc(R.intro)}</p></div>
+      <div class="reco-score"><b>${cumple}<small> de ${conMeta.length}</small></b><span>metas que Paraguay cumple</span></div></div>
+    <div class="reco-sum">${conMeta.map(x => `<a href="#reco-${all.indexOf(x)}" class="rs ${x.vd.c}" data-go="${all.indexOf(x)}"><span class="rs-i">${x.vd.i}</span><span>${esc(x.A.area)}<small>${esc(x.u)}</small></span></a>`).join('')}</div>
+    <div class="reco-list">${all.map((x, n) => `<article class="rc ${x.vd.c}" id="reco-${n}">
+      <div class="rc-h"><span class="hub-ic sm">${icon(x.A.ic)}</span><div><small>${esc(x.A.area)} · ${esc(x.anio)}</small><h3>${esc(x.q)}</h3></div><span class="rc-v ${x.vd.c}">${x.vd.i} ${esc(x.vd.l)}</span></div>
+      <div class="rc-bars">${bars(x)}</div>
+      <p class="rc-g">${esc(x.vd.g)}${x.aprox ? ' Es un cálculo aproximado.' : ''}</p>
+      <details class="rc-d"><summary>Fuentes y detalles</summary><p><b>La meta:</b> ${esc(x.ref)}${x.fr ? ` <a href="${esc(x.fr[1])}" target="_blank" rel="noopener">${esc(x.fr[0])} ↗</a>` : ''}</p><p><b>El dato de Paraguay:</b> ${x.uv ? `<a href="${esc(x.uv)}" target="_blank" rel="noopener">${esc(x.fv)}</a>` : esc(x.fv)}</p>${temaLink(x.A.tema)}</details>
+    </article>`).join('')}</div>
+    <div class="reco-why"><b>¿Cómo puede cumplir y no cumplir a la vez?</b><p>${esc(R.lecturas[0])}</p></div>
+    <ul class="reads" style="margin:12px 0 0">${R.lecturas.slice(1).map(l => `<li>${esc(l)}</li>`).join('')}</ul>
   </section>`;
 }
 function renderPresupuesto() {
@@ -1743,6 +1786,7 @@ function renderPresupuesto() {
   let sel = null; document.querySelectorAll('.leg').forEach(b => b.onclick = () => { sel = sel === b.dataset.i ? null : b.dataset.i; hl(sel); });
   const iv = () => { const g = parseNum($('#iva-g').value); $('#iva-o').innerHTML = g > 0 ? `<b>G. ${num(g * 10 / 110, 0)} por mes</b><span>Es el IVA incluido si todo paga la tasa de 10 %: unos G. ${num(g * 10 / 110 * 12, 0)} al año. Si todo pagara 5 %, serían G. ${num(g * 5 / 105, 0)} por mes.</span><span class="note">El IVA no se separa para un gasto en particular: todo lo que recauda el Tesoro se junta y se reparte según el Presupuesto.</span>` : '<span>Escribe un monto en guaraníes.</span>'; };
   $('#iva-g').oninput = iv; iv();
+  document.querySelectorAll('.rs[data-go]').forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById('reco-' + a.dataset.go); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'center' }); });
 }
 
 /* ---------- Buscador general ---------- */
