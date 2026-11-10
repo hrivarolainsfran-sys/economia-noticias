@@ -9002,38 +9002,6 @@
    ]
   ]
  },
- "finanzas": {
-  "tasas": [
-   [
-    "pasiva_g",
-    6.35,
-    "Tasa pasiva promedio en guaraníes (lo que pagan los bancos por los depósitos), septiembre de 2026",
-    "BCP, vía InfoNegocios (6 nov 2026)",
-    "https://infonegocios.com.py/conosur/creditos-y-depositos-mantienen-fuerte-expansion-en-septiembre-segun-el-bcp"
-   ],
-   [
-    "pasiva_us",
-    3.64,
-    "Tasa pasiva promedio en dólares, septiembre de 2026",
-    "BCP, vía InfoNegocios (6 nov 2026)",
-    "https://infonegocios.com.py/conosur/creditos-y-depositos-mantienen-fuerte-expansion-en-septiembre-segun-el-bcp"
-   ],
-   [
-    "activa_g",
-    15.58,
-    "Tasa activa promedio en guaraníes (lo que cobran por los préstamos), septiembre de 2026",
-    "BCP, vía InfoNegocios (6 nov 2026)",
-    "https://infonegocios.com.py/conosur/creditos-y-depositos-mantienen-fuerte-expansion-en-septiembre-segun-el-bcp"
-   ],
-   [
-    "tarjeta",
-    19.1,
-    "Tasa de las tarjetas de crédito, marzo de 2026",
-    "BCP, vía La Nación (10 may 2026)",
-    "https://www.lanacion.com.py/negocios/2026/05/10/endeudarse-con-tarjetas-de-credito-sale-mas-caro/"
-   ]
-  ]
- },
  "quien": {
   "intro": "Cuando leas una noticia, pregúntate quién habla y desde dónde. Un ministro defiende la política de su gobierno; un gremio, los intereses de sus empresas; un centro de estudios o un exministro, su análisis. Ninguno es neutral del todo: conocer su lugar ayuda a evaluar sus argumentos.",
   "personas": [
@@ -9438,5 +9406,170 @@
     "#metas"
    ]
   ]
+ },
+ "presupuesto": {
+  "actualizado": "2026-11-09",
+  "intro": "El Presupuesto General de la Nación dice cuánto puede gastar el Estado y en qué. Imagina que todo el Presupuesto son 100 guaraníes: así se repartirían según el proyecto para 2027 que el Gobierno envió al Congreso.",
+  "total": [
+   "G. 166,3 billones",
+   "Proyecto de Presupuesto 2027 (unos US$ 25.751 millones), 11,2 % más que el de 2026"
+  ],
+  "cien": [
+   [
+    "Salud",
+    18.2,
+    "Ministerio de Salud; incluye G. 6,3 billones para pagar deudas atrasadas con proveedores y G. 1,7 billones para medicamentos."
+   ],
+   [
+    "Educación",
+    10.4,
+    "Ministerio de Educación; incluye más fondos para docentes y horas cátedra."
+   ],
+   [
+    "Obras públicas",
+    9.2,
+    "Ministerio de Obras Públicas (MOPC): rutas, puentes y otras obras."
+   ],
+   [
+    "Resto del Gobierno central",
+    50.1,
+    "Los demás ministerios y gastos del Gobierno central, como seguridad, justicia, programas sociales, jubilaciones del sector público y pago de la deuda."
+   ],
+   [
+    "Entidades descentralizadas",
+    78.4,
+    "Instituciones con presupuesto propio, como el IPS, las universidades nacionales, las gobernaciones y empresas públicas como la ANDE."
+   ]
+  ],
+  "fuentes": [
+   [
+    "La Nación (1 sep 2026)",
+    "https://www.lanacion.com.py/negocios/2026/09/01/plan-de-gastos-para-el-2027-asciende-a-usd-25751-millones/"
+   ],
+   [
+    "InfoNegocios (2 sep 2026)",
+    "https://infonegocios.com.py/nota-principal/ejecutivo-presento-el-pgn-2027-por-us-25-700-millones-y-con-deficit-fiscal-proyectado-de-hasta-3-9-del-pib"
+   ]
+  ],
+  "cifras": [
+   [
+    "30 de cada 100",
+    "Guaraníes del Presupuesto 2027 que son gastos rígidos (sueldos, jubilaciones y programas sociales): G. 49,7 billones",
+    "Hoy (7 sep 2026)"
+   ],
+   [
+    "62 de cada 100",
+    "Guaraníes de impuestos del Gobierno central que se usan para pagar salarios (el máximo fue 77)",
+    "Ministro de Economía, vía La Nación (25 ago 2025)"
+   ],
+   [
+    "49,1 %",
+    "Parte de la recaudación de la DNIT que viene del IVA (enero a septiembre de 2026)",
+    "InfoNegocios (13 oct 2026)"
+   ],
+   [
+    "US$ 2.100 M",
+    "Deuda nueva que el Gobierno pide para 2027",
+    "InfoNegocios (2 sep 2026)"
+   ],
+   [
+    "3,9 % del PIB",
+    "Déficit previsto para 2027 (el límite legal es 1,5 %)",
+    "InfoNegocios (2 sep 2026)"
+   ]
+  ],
+  "graficos": [
+   {
+    "t": "De dónde sale el dinero (Presupuesto 2026)",
+    "u": "% del total",
+    "rows": [
+     [
+      "Ingresos propios de las entidades",
+      52
+     ],
+     [
+      "Tesoro: impuestos y royalties",
+      34,
+      1
+     ],
+     [
+      "Préstamos y bonos",
+      14
+     ]
+    ],
+    "cap": "Fuentes de financiamiento del Presupuesto 2026 aprobado: recursos institucionales (fuente 30), del Tesoro (fuente 10) y del crédito público (fuente 20). Fuente: ABC Color (3 dic 2025)."
+   },
+   {
+    "t": "Qué impuestos se recaudan (enero a septiembre de 2026)",
+    "u": "% de la recaudación de la DNIT",
+    "rows": [
+     [
+      "IVA",
+      49.1,
+      1
+     ],
+     [
+      "Impuesto a la renta empresarial (IRE)",
+      24.7
+     ],
+     [
+      "Otros impuestos y aduana",
+      26.2
+     ]
+    ],
+    "cap": "Total: G. 32,9 billones (+2,3 %). Fuente: DNIT, vía InfoNegocios (13 oct 2026)."
+   },
+   {
+    "t": "Los tres ministerios con más fondos (2027)",
+    "u": "billones de G.",
+    "rows": [
+     [
+      "Salud",
+      18.2,
+      1
+     ],
+     [
+      "Educación",
+      10.4
+     ],
+     [
+      "Obras Públicas",
+      9.2
+     ]
+    ],
+    "cap": "Proyecto de Presupuesto 2027. Fuente: La Nación (1 sep 2026)."
+   }
+  ],
+  "lecturas": [
+   "Casi la mitad del Presupuesto (47 de cada 100 guaraníes) es de entidades descentralizadas, que en gran parte se financian con ingresos propios, como los aportes al IPS o las tarifas de la ANDE.",
+   "Salud recibe el mayor aumento para 2027, pero buena parte es para pagar deudas atrasadas con proveedores, no para nuevos servicios.",
+   "Una gran parte del gasto es rígido: sueldos, jubilaciones y programas sociales no se pueden recortar fácilmente de un año a otro.",
+   "El IVA aporta casi la mitad de lo que recauda la DNIT. Como lo pagan todos al comprar, pesa más sobre los hogares de menores ingresos: es un impuesto regresivo.",
+   "Cuando los gastos superan a los ingresos hay déficit, y se cubre con deuda: para 2027 el Gobierno pide US$ 2.100 millones de deuda nueva."
+  ],
+  "ib": [
+   [
+    "3.6",
+    "Política fiscal: gasto público, impuestos y déficit."
+   ],
+   [
+    "3.4",
+    "Impuestos directos e indirectos; el IVA es regresivo."
+   ],
+   [
+    "2.9",
+    "Bienes públicos: rutas, seguridad, justicia."
+   ],
+   [
+    "3.3",
+    "Deuda pública y sostenibilidad."
+   ]
+  ],
+  "preguntas": [
+   "Si tuvieras que recortar 5 de cada 100 guaraníes, ¿de dónde los sacarías y por qué?",
+   "¿Es justo que el impuesto que más recauda sea el IVA? ¿Qué pasaría si se cobrara más impuesto a la renta?",
+   "¿Por qué es difícil bajar los gastos rígidos?"
+  ],
+  "nota": "El Presupuesto 2027 todavía no está aprobado: el 9 de noviembre Diputados suspendió su tratamiento a pedido del nuevo gobierno para modificarlo. Los «100 guaraníes» son el total del proyecto (Gobierno central más entidades descentralizadas); el «resto del Gobierno central» es un cálculo propio: G. 87,9 billones menos Salud, Educación y Obras Públicas."
  }
 }
