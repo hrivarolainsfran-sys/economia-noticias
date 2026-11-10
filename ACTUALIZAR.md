@@ -110,6 +110,11 @@ La lámina `{"k": "bono", "r": 14}` dibuja el precio de un bono según la tasa d
   - `eventos`: hechos clave del mercado (nuevas emisiones grandes, suspensiones, nuevas normas, récords). Fecha `AAAA-MM-DD`, `AAAA-MM` o `AAAA`.
   - `instrumentos`, `actores`, `regulacion`, `ib`, `enlaces`: contenido explicativo; solo se cambia si cambia la regulación.
   - Las noticias del mercado de valores llevan `"inst": ["bolsa"]` (pueden combinarse, por ejemplo `["bcp", "bolsa"]`). El diagrama `bonos` sirve para noticias sobre bonos y tasas de interés.
+- `instituciones` incluye también `dnit`, `ine` e `ips` (además de `bcp` y `mef`), con el mismo formato y un campo `area` («Impuestos y aduanas», «Estadísticas oficiales», «Seguridad social»…). Las noticias se marcan con `inst` (`["dnit"]`, `["ine"]`, `["ips"]`).
+- `historias`: la sección **Historias**. Lista de `{"id", "titulo", "estado" ("En curso", "En el Congreso", "Cerrada"…), "dek", "serie" (opcional: clave de `historial` para mostrar un gráfico), "aprender": [frases], "noticias": [ids], "hitos": [["AAAA-MM-DD", "qué pasó", "id-noticia opcional"]]}`.
+  - **Cada noticia nueva que continúe una historia se agrega a su `noticias` y como `hito`.** Los hitos futuros (fechas confirmadas) se pueden cargar y se muestran como «Próximo».
+  - Cuando surge un tema que va a durar varias semanas, se crea una historia nueva. Cuando un tema termina, `estado` pasa a «Cerrada».
+- `pais`: la página **Paraguay en datos**. `secciones` (`{"t", "items": [["valor", "qué es", "fuente y fecha"]]}`), `graficos` y `nota`. Se actualiza solo cuando sale un dato oficial nuevo (población, crecimiento, deuda, reservas, exportaciones anuales), con su fuente.
 - `calendario`: la sección **Calendario**.
   - `fechas`: lista de `{"f": "AAAA-MM-DD", "t": "título", "d": "por qué importa", "tipo": "BCP | MEF | Congreso | Región | Energía | Datos | Bolsa", "tema": "3.5", "url", "fuente"}`. **Solo fechas confirmadas en un artículo o fuente oficial.**
   - Agregar cada fecha nueva que aparezca en las noticias (reuniones del BCP, plazos del Congreso, publicación de datos con fecha anunciada, decisiones de bancos centrales vecinos, vencimientos). Las fechas pasadas pueden quedar: la página las muestra como «ya pasaron». Borrar las que tengan más de 60 días.

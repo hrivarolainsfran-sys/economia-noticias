@@ -171,6 +171,132 @@
  },
  "noticias": [
   {
+   "id": "ips-ueno",
+   "fecha": "2026-11-07",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/03/ips-garantiza-el-pago-de-jubilaciones-y-aguinaldos-ante-intervencion-del-bcp-a-ueno-bank/",
+     "2026-11-03"
+    ]
+   ],
+   "titulo": "El IPS tenía US$ 380 millones en Ueno: garantiza pagar jubilaciones el 17 de noviembre",
+   "unidad": "macro",
+   "tema": "3.4",
+   "kc": "bienestar",
+   "inst": [
+    "ips"
+   ],
+   "resumen": "El Instituto de Previsión Social tenía unos US$ 380 millones del fondo de jubilaciones invertidos en bonos y certificados de depósito de Ueno Bank. Unos 32.000 de sus 90.000 jubilados cobraban por ese banco. Tras reunirse con el presidente Alliana, el IPS garantizó el pago de haberes y aguinaldo para el 17 de noviembre a través de otros siete bancos.",
+   "contexto": "El fondo de jubilaciones es el ahorro de los trabajadores para su vejez. Para que crezca se invierte, y toda inversión tiene riesgo. El IPS tiene recursos en 14 entidades, pero una parte grande estaba en un solo banco que quebró. El caso muestra por qué los fondos de pensiones deben diversificar y por qué la supervisión importa: si el fondo pierde, el costo lo pagan los jubilados o el Estado.",
+   "datos": [
+    [
+     "US$ 380 M",
+     "Fondos del IPS en Ueno Bank"
+    ],
+    [
+     "32.000",
+     "Jubilados que cobraban por Ueno"
+    ],
+    [
+     "90.000",
+     "Jubilados en el padrón del IPS"
+    ],
+    [
+     "17 nov",
+     "Fecha de pago de haberes y aguinaldo"
+    ]
+   ],
+   "clave": [
+    "US$ 380 M",
+    "del IPS en Ueno"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "jubilados",
+    "rows": [
+     [
+      "Padrón del IPS",
+      90000
+     ],
+     [
+      "Cobraban por Ueno",
+      32000,
+      1
+     ]
+    ]
+   },
+   "cap": "Jubilados del IPS y cuántos cobraban a través de Ueno Bank.",
+   "pasos": [
+    "El IPS invierte el fondo de jubilaciones",
+    "Una parte grande va a un solo banco",
+    "El banco queda en resolución y sus títulos se congelan",
+    "El fondo puede perder parte de su valor",
+    "Riesgo para las jubilaciones futuras si no se recupera"
+   ],
+   "conceptos": [
+    [
+     "Fondo de pensiones",
+     "Ahorro colectivo que paga las jubilaciones."
+    ],
+    [
+     "Diversificación",
+     "Repartir las inversiones para no depender de una sola."
+    ],
+    [
+     "Seguridad social",
+     "Protección ante la vejez, la enfermedad o el desempleo."
+    ],
+    [
+     "Bienestar económico",
+     "Calidad de vida y seguridad financiera de la población."
+    ]
+   ],
+   "diagramas": [],
+   "rel": [
+    "ueno-intervencion",
+    "ueno-devolucion",
+    "bolsa-ueno-bonos"
+   ],
+   "pregunta": {
+    "q": "¿Qué enseña este caso sobre cómo invertir un fondo de jubilaciones?",
+    "opts": [
+     "Que hay que diversificar para no depender de una sola entidad",
+     "Que conviene poner todo en el banco que más paga",
+     "Que el fondo no debería invertirse nunca",
+     "Que el riesgo no importa si el banco es grande"
+    ],
+    "ok": 0,
+    "fb": "Concentrar una parte grande en una sola entidad aumenta el riesgo. Diversificar reduce la pérdida si una de ellas falla."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Jubilados",
+      "Cobran en fecha gracias a la intervención del Gobierno."
+     ]
+    ],
+    "pierden": [
+     [
+      "El fondo jubilatorio",
+      "Puede perder parte de los US$ 380 millones."
+     ],
+     [
+      "Trabajadores activos",
+      "Sus futuras jubilaciones dependen de la salud del fondo."
+     ]
+    ],
+    "corto": "Los pagos se mantienen y se cambian de banco.",
+    "largo": "Si no se recupera el dinero, el fondo se debilita y puede necesitar más aportes o ayuda del Estado.",
+    "supuestos": [
+     "Que el proceso de resolución devuelva una parte importante del dinero."
+    ],
+    "conclusion": "Garantizar los pagos calma a los jubilados, pero el problema de fondo es cómo se invierte el ahorro previsional y quién lo supervisa."
+   }
+  },
+  {
    "id": "pgn-suspendido",
    "fecha": "2026-11-09",
    "medio": "ABC Color",
@@ -1129,7 +1255,7 @@
     "conclusion": "Muestra la interdependencia entre el tipo de cambio y las finanzas públicas: diversificar los ingresos reduce esa vulnerabilidad."
    },
    "inst": [
-    "mef"
+    "dnit"
    ],
    "sector": [
     "comercio"
@@ -1584,7 +1710,8 @@
     "ueno-devolucion",
     "guarani-cae",
     "bonos-embi",
-    "bolsa-ueno-bonos"
+    "bolsa-ueno-bonos",
+    "ips-ueno"
    ],
    "pregunta": {
     "q": "Si la crisis de confianza se extiende y la gente gasta menos, ¿qué pasa en el diagrama DA/OA?",
@@ -2393,7 +2520,10 @@
      "Los datos son de antes de la crisis de noviembre."
     ],
     "conclusion": "El mercado laboral está fuerte, pero la crisis podría frenar las contrataciones si la incertidumbre dura."
-   }
+   },
+   "inst": [
+    "ine"
+   ]
   },
   {
    "id": "soja-record",
@@ -3024,7 +3154,7 @@
     "conclusion": "Las transferencias dan resultados, pero depender solo de ellas, sin más empleo formal, limita el avance."
    },
    "inst": [
-    "mef"
+    "ine"
    ]
   },
   {
@@ -3770,7 +3900,8 @@
    "titulo": "Una semana con plazos: Presupuesto y tasa de interés",
    "texto": "La semana arranca con el Presupuesto 2027 en suspenso: el nuevo gobierno pidió recortes y Diputados tiene hasta el sábado 14 para aprobar una versión modificada. El dólar y el riesgo país siguen bajo la lupa tras la crisis de Ueno Bank, y el 20 de noviembre el BCP decide su tasa.",
    "claves": [
-    "pgn-suspendido"
+    "pgn-suspendido",
+    "ips-ueno"
    ]
   }
  },
@@ -3930,7 +4061,8 @@
      "Cotizaciones del día",
      "https://www.bcp.gov.py/webapps/web/cotizacion/monedas"
     ]
-   ]
+   ],
+   "area": "Política monetaria"
   },
   "mef": {
    "sigla": "MEF",
@@ -4044,6 +4176,289 @@
     [
      "DNIT (recaudación)",
      "https://www.dnit.gov.py/"
+    ]
+   ],
+   "area": "Política fiscal"
+  },
+  "dnit": {
+   "sigla": "DNIT",
+   "nombre": "Dirección Nacional de Ingresos Tributarios",
+   "area": "Impuestos y aduanas",
+   "web": "https://www.dnit.gov.py/",
+   "tema": "3.6",
+   "diagrama": "politica-fiscal",
+   "que": "Es el organismo que cobra los impuestos y controla las aduanas. Fue creado por la Ley 7143 de 2023, que unió a la antigua Subsecretaría de Estado de Tributación (SET) con la Dirección Nacional de Aduanas. Lo que recauda financia el Presupuesto que prepara el MEF.",
+   "funciones": [
+    "Recaudar los impuestos internos: IVA, impuesto a la renta de empresas (IRE) y de personas (IRP), impuesto a los dividendos (IDU) y otros.",
+    "Cobrar los impuestos a las importaciones y controlar el paso de mercaderías por las aduanas.",
+    "Controlar que personas y empresas declaren y paguen lo que corresponde.",
+    "Administrar la facturación electrónica.",
+    "Publicar cada mes cuánto se recaudó."
+   ],
+   "herramientas": [
+    [
+     "Impuestos directos",
+     "Gravan el ingreso o la ganancia, como el impuesto a la renta."
+    ],
+    [
+     "Impuestos indirectos",
+     "Gravan el consumo, como el IVA, o las importaciones."
+    ],
+    [
+     "Fiscalización",
+     "Controles y auditorías para reducir la evasión."
+    ],
+    [
+     "Factura electrónica",
+     "Registra las ventas en tiempo real y dificulta la evasión."
+    ]
+   ],
+   "autoridades": [
+    {
+     "cargo": "Director nacional",
+     "nombre": "Óscar Alcides Orué",
+     "estado": "En el cargo",
+     "desde": "2023",
+     "fuente": "DNIT",
+     "url": "https://www.dnit.gov.py/en/web/portal-institucional/authorities",
+     "nota": "Designado por el Decreto 83/2023."
+    },
+    {
+     "cargo": "Gerente general de Impuestos Internos",
+     "nombre": "Ever Ramón Otazú",
+     "estado": "En el cargo",
+     "desde": "",
+     "fuente": "DNIT",
+     "url": "https://www.dnit.gov.py/en/web/portal-institucional/authorities",
+     "nota": ""
+    },
+    {
+     "cargo": "Gerente general de Aduanas",
+     "nombre": "Juan Francisco Olmedo Florentín",
+     "estado": "En el cargo",
+     "desde": "",
+     "fuente": "DNIT",
+     "url": "https://www.dnit.gov.py/en/web/portal-institucional/authorities",
+     "nota": ""
+    }
+   ],
+   "autoridades_nota": "Según la página de autoridades de la DNIT, consultada el 9 de noviembre de 2026.",
+   "cifras": [
+    [
+     "recaudacion",
+     "Recaudación del mes"
+    ]
+   ],
+   "fijas": [
+    [
+     "G. 35,95 bill.",
+     "Recaudación de enero a octubre de 2026 (+1,5 %)"
+    ],
+    [
+     "+9,9 %",
+     "Impuestos internos en el año"
+    ],
+    [
+     "−10 %",
+     "Impuestos de aduana en el año, por el guaraní fuerte"
+    ]
+   ],
+   "agenda": [],
+   "eventos": [
+    [
+     "2023",
+     "Se crea la DNIT (Ley 7143), que une la SET y Aduanas."
+    ],
+    [
+     "2026-10-01",
+     "Recauda G. 3,94 billones en septiembre (+3,4 %)."
+    ],
+    [
+     "2026-11-03",
+     "Informa que la recaudación de octubre cayó 5,4 % por la baja de los impuestos de aduana."
+    ]
+   ],
+   "enlaces": [
+    [
+     "Sitio oficial",
+     "https://www.dnit.gov.py/"
+    ]
+   ]
+  },
+  "ine": {
+   "sigla": "INE",
+   "nombre": "Instituto Nacional de Estadística",
+   "area": "Estadísticas oficiales",
+   "web": "https://www.ine.gov.py/",
+   "tema": "3.1",
+   "diagrama": "lorenz",
+   "que": "Es el organismo que produce las estadísticas oficiales sobre la población: censos, empleo, pobreza y condiciones de vida. Fue creado por la Ley 6670 de 2020, que modernizó el Sistema Estadístico Nacional. Sus datos son la base para medir el desempleo y la pobreza que se estudian en IB.",
+   "funciones": [
+    "Realizar el censo de población y vivienda (el último, en 2022).",
+    "Medir el empleo y el desempleo con la Encuesta Permanente de Hogares Continua (EPHC).",
+    "Medir la pobreza y la desigualdad cada año.",
+    "Proyectar la población y otros datos demográficos.",
+    "Coordinar el Sistema Estadístico Nacional."
+   ],
+   "herramientas": [
+    [
+     "Censo",
+     "Cuenta a toda la población y sus viviendas, aproximadamente cada diez años."
+    ],
+    [
+     "EPHC",
+     "Encuesta trimestral a hogares: empleo, desempleo e ingresos."
+    ],
+    [
+     "Línea de pobreza",
+     "Costo de una canasta básica: quien gana menos es pobre."
+    ],
+    [
+     "Proyecciones",
+     "Estiman cómo cambiará la población en el futuro."
+    ]
+   ],
+   "autoridades": [
+    {
+     "cargo": "Director nacional",
+     "nombre": "Iván Mauricio Ojeda Aguilera",
+     "estado": "En el cargo",
+     "desde": "",
+     "fuente": "INE",
+     "url": "https://www.ine.gov.py/institucion/autoridades.php",
+     "nota": ""
+    }
+   ],
+   "autoridades_nota": "Según la página de autoridades del INE, consultada el 9 de noviembre de 2026.",
+   "cifras": [
+    [
+     "desempleo",
+     "Tasa de desempleo"
+    ]
+   ],
+   "fijas": [
+    [
+     "6.460.159",
+     "Población estimada en 2026"
+    ],
+    [
+     "6.109.903",
+     "Población según el Censo 2022"
+    ],
+    [
+     "16,0 %",
+     "Pobreza monetaria en 2025"
+    ],
+    [
+     "31 %",
+     "Población con seguro médico (2025)"
+    ]
+   ],
+   "agenda": [],
+   "eventos": [
+    [
+     "2020",
+     "La Ley 6670 crea el INE."
+    ],
+    [
+     "2026-03-27",
+     "Informa que la pobreza bajó a 16 % en 2025."
+    ],
+    [
+     "2026-06-19",
+     "Presenta una población estimada de 6.460.159 habitantes para 2026."
+    ],
+    [
+     "2026-10-30",
+     "Informa un desempleo de 4,1 % en el tercer trimestre."
+    ]
+   ],
+   "enlaces": [
+    [
+     "Sitio oficial",
+     "https://www.ine.gov.py/"
+    ]
+   ]
+  },
+  "ips": {
+   "sigla": "IPS",
+   "nombre": "Instituto de Previsión Social",
+   "area": "Seguridad social",
+   "web": "https://portal.ips.gov.py/",
+   "tema": "3.4",
+   "diagrama": "",
+   "que": "Es la institución de seguridad social de los trabajadores del sector privado: da atención médica a los asegurados y paga las jubilaciones y pensiones. Se financia con aportes de trabajadores y empleadores, e invierte el fondo de jubilaciones para que crezca.",
+   "funciones": [
+    "Dar atención de salud a los trabajadores asegurados y sus familias.",
+    "Pagar jubilaciones, pensiones e indemnizaciones.",
+    "Cobrar los aportes de trabajadores y empleadores.",
+    "Invertir el fondo jubilatorio para cubrir los pagos futuros."
+   ],
+   "herramientas": [
+    [
+     "Aportes",
+     "Parte del salario que pagan el trabajador y el empleador cada mes."
+    ],
+    [
+     "Fondo jubilatorio",
+     "Ahorro colectivo que se invierte para pagar las jubilaciones."
+    ],
+    [
+     "Inversiones",
+     "El IPS coloca el fondo en bonos y depósitos de bancos; en 2026 tenía recursos en 14 entidades."
+    ]
+   ],
+   "autoridades": [
+    {
+     "cargo": "Presidente",
+     "nombre": "Derlis León",
+     "estado": "En el cargo",
+     "desde": "",
+     "fuente": "ABC Color",
+     "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
+     "nota": "Se reunió con el presidente Pedro Alliana y garantizó el pago de jubilaciones."
+    }
+   ],
+   "autoridades_nota": "",
+   "cifras": [],
+   "fijas": [
+    [
+     "US$ 380 M",
+     "Fondos del IPS invertidos en Ueno Bank (bonos y CDA)"
+    ],
+    [
+     "32.000",
+     "Jubilados que cobraban por Ueno Bank"
+    ],
+    [
+     "90.000",
+     "Jubilados en el padrón del IPS"
+    ],
+    [
+     "14",
+     "Entidades financieras donde invierte"
+    ]
+   ],
+   "agenda": [
+    [
+     "2026-11-17",
+     "Pago de jubilaciones y aguinaldo, incluidos los jubilados que cobraban por Ueno."
+    ]
+   ],
+   "eventos": [
+    [
+     "2026-11-03",
+     "Informa que tiene unos US$ 380 millones invertidos en Ueno Bank y garantiza los pagos."
+    ],
+    [
+     "2026-11-07",
+     "Tras reunirse con Alliana, fija el pago para el 17 de noviembre en otros siete bancos."
+    ]
+   ],
+   "enlaces": [
+    [
+     "Sitio oficial",
+     "https://portal.ips.gov.py/"
     ]
    ]
   }
@@ -4326,6 +4741,15 @@
     "tipo": "Energía",
     "tema": "2.7",
     "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/08/gastos-sociales-de-itaipu-43-de-la-tarifa-vs-sobrecosto-para-ande/",
+    "fuente": "ABC Color"
+   },
+   {
+    "f": "2026-11-17",
+    "t": "El IPS paga jubilaciones y aguinaldo",
+    "d": "Incluye a los 32.000 jubilados que cobraban por Ueno Bank, ahora a través de otros siete bancos.",
+    "tipo": "IPS",
+    "tema": "3.4",
+    "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
     "fuente": "ABC Color"
    }
   ],
@@ -4879,5 +5303,393 @@
     "arancel"
    ]
   }
+ },
+ "historias": [
+  {
+   "id": "crisis-ueno",
+   "titulo": "La crisis de Ueno Bank",
+   "estado": "En curso",
+   "serie": "embi",
+   "dek": "La caída de un banco con casi 3 millones de clientes que terminó moviendo el dólar, el riesgo país, la bolsa, las jubilaciones y el Gobierno.",
+   "aprender": [
+    "Cómo la quiebra de un banco puede convertirse en una crisis de confianza (riesgo sistémico).",
+    "Por qué existen la garantía de depósitos y la supervisión bancaria (información asimétrica y riesgo moral).",
+    "Cómo la incertidumbre mueve el tipo de cambio y el costo de la deuda del país."
+   ],
+   "noticias": [
+    "ueno-intervencion",
+    "ueno-devolucion",
+    "bolsa-ueno-bonos",
+    "guarani-cae",
+    "bonos-embi",
+    "alliana-gobierno",
+    "dolar-6600",
+    "ips-ueno"
+   ],
+   "hitos": [
+    [
+     "2026-11-02",
+     "El riesgo país está en 125 puntos básicos."
+    ],
+    [
+     "2026-11-03",
+     "El BCP interviene Ueno Bank; se suspenden sus bonos en la bolsa.",
+     "ueno-intervencion"
+    ],
+    [
+     "2026-11-04",
+     "Ley 7755: se adelanta la devolución de depósitos; el BCP tiene presidente interino.",
+     "ueno-devolucion"
+    ],
+    [
+     "2026-11-05",
+     "El guaraní cae 4,68 % en un día; el riesgo país cierra en 143 pb.",
+     "guarani-cae"
+    ],
+    [
+     "2026-11-06",
+     "El Congreso destituye a Santiago Peña; asume Pedro Alliana.",
+     "alliana-gobierno"
+    ],
+    [
+     "2026-11-07",
+     "1,2 millones de personas ya cobraron; el IPS fija el pago a jubilados para el 17.",
+     "ips-ueno"
+    ],
+    [
+     "2026-11-09",
+     "El Senado aprueba a Jorge Schreiner como presidente del BCP."
+    ],
+    [
+     "2026-11-17",
+     "El IPS paga jubilaciones y aguinaldo."
+    ]
+   ]
+  },
+  {
+   "id": "presupuesto-2027",
+   "titulo": "El Presupuesto 2027",
+   "estado": "En el Congreso",
+   "dek": "Un presupuesto con un déficit de hasta 3,9 % del PIB, presentado por un gobierno y revisado por otro en medio de una crisis.",
+   "aprender": [
+    "Qué es el déficit fiscal y cómo se financia con deuda.",
+    "Para qué sirve una regla fiscal (límite de 1,5 % del PIB).",
+    "Cómo un recorte del gasto es política fiscal contractiva."
+   ],
+   "noticias": [
+    "pgn-2027",
+    "recaudacion-dnit",
+    "bonos-embi",
+    "pobreza-16",
+    "pgn-suspendido"
+   ],
+   "hitos": [
+    [
+     "2026-09-02",
+     "El Ejecutivo presenta el Presupuesto 2027: G. 166,3 billones y déficit de hasta 3,9 %.",
+     "pgn-2027"
+    ],
+    [
+     "2026-09-17",
+     "Economistas alertan sobre el déficit, la deuda y la menor inversión pública.",
+     "pgn-2027"
+    ],
+    [
+     "2026-11-03",
+     "La recaudación crece solo 1,5 % en el año.",
+     "recaudacion-dnit"
+    ],
+    [
+     "2026-11-09",
+     "A pedido de Alliana, Diputados suspende el tratamiento para recortarlo.",
+     "pgn-suspendido"
+    ],
+    [
+     "2026-11-14",
+     "Vence el plazo en Diputados: si no aprueba cambios, queda la versión original."
+    ]
+   ]
+  },
+  {
+   "id": "dolar-2026",
+   "titulo": "El dólar en 2026: de la apreciación a la crisis",
+   "estado": "En curso",
+   "serie": "dolar",
+   "dek": "Casi todo el año el guaraní se fortaleció por las exportaciones récord; en noviembre la crisis de Ueno lo hizo caer en pocos días.",
+   "aprender": [
+    "Qué mueve un tipo de cambio flotante: oferta y demanda de guaraníes.",
+    "Cómo afecta el tipo de cambio a la inflación, la recaudación y las deudas en dólares.",
+    "Por qué una misma cifra cambia si se mide en guaraníes o en dólares."
+   ],
+   "noticias": [
+    "pena-dolar",
+    "inflacion-oct",
+    "recaudacion-dnit",
+    "bolsa-octubre",
+    "guarani-cae",
+    "dolar-6600"
+   ],
+   "hitos": [
+    [
+     "2026-01-02",
+     "El dólar empieza el año en G. 6.576."
+    ],
+    [
+     "2026-06-29",
+     "Baja a G. 6.081,67, el mínimo del primer semestre."
+    ],
+    [
+     "2026-10-15",
+     "Toca G. 5.697,95, el mínimo del año."
+    ],
+    [
+     "2026-10-26",
+     "El Gobierno descarta que el BCP intervenga.",
+     "pena-dolar"
+    ],
+    [
+     "2026-11-03",
+     "La inflación de octubre es −0,1 %, ayudada por importados más baratos.",
+     "inflacion-oct"
+    ],
+    [
+     "2026-11-05",
+     "El guaraní cae 4,68 % en un día.",
+     "guarani-cae"
+    ],
+    [
+     "2026-11-06",
+     "El dólar llega a G. 6.507,73.",
+     "dolar-6600"
+    ]
+   ]
+  },
+  {
+   "id": "exportaciones-2026",
+   "titulo": "Un año récord de exportaciones",
+   "estado": "En curso",
+   "serie": "exportaciones",
+   "dek": "La soja impulsa un récord de ventas al exterior, mientras la carne pierde volumen y la maquila diversifica.",
+   "aprender": [
+    "Ventaja comparativa y dependencia de productos primarios.",
+    "Elasticidad: la carne más cara vendió menos y ganó menos.",
+    "Cómo las exportaciones aprecian el guaraní y suman a la demanda agregada."
+   ],
+   "noticias": [
+    "soja-record",
+    "carne-cae",
+    "carne-sustitutos",
+    "maquila",
+    "mercosur-ue",
+    "energia-cedida"
+   ],
+   "hitos": [
+    [
+     "2026-05-01",
+     "Empieza a aplicarse el acuerdo Mercosur–Unión Europea.",
+     "mercosur-ue"
+    ],
+    [
+     "2026-10-15",
+     "Capeco anticipa un récord de más de 8 millones de toneladas de soja.",
+     "soja-record"
+    ],
+    [
+     "2026-10-16",
+     "La maquila exporta US$ 1.148 millones, 25 % más.",
+     "maquila"
+    ],
+    [
+     "2026-10-23",
+     "De cada US$ 100 nuevos exportados, 63 los aporta la soja.",
+     "soja-record"
+    ],
+    [
+     "2026-11-02",
+     "La carne bovina pierde 24 % de volumen; el pollo crece 76 %.",
+     "carne-cae"
+    ]
+   ]
+  }
+ ],
+ "pais": {
+  "actualizado": "2026-11-09",
+  "secciones": [
+   {
+    "t": "Territorio y población",
+    "items": [
+     [
+      "6.460.159",
+      "Habitantes estimados en 2026",
+      "INE, junio 2026"
+     ],
+     [
+      "6.109.903",
+      "Habitantes según el Censo 2022",
+      "INE"
+     ],
+     [
+      "406.752 km²",
+      "Superficie; sin salida al mar",
+      "INE"
+     ],
+     [
+      "Asunción",
+      "Capital",
+      ""
+     ],
+     [
+      "78,7 / 73",
+      "Esperanza de vida de mujeres / hombres (años)",
+      "INE, junio 2026"
+     ],
+     [
+      "Castellano y guaraní",
+      "Idiomas oficiales",
+      "Constitución Nacional"
+     ]
+    ]
+   },
+   {
+    "t": "Economía",
+    "items": [
+     [
+      "6,6 %",
+      "Crecimiento del PIB en 2025",
+      "BCP y CEPAL"
+     ],
+     [
+      "5,0 %",
+      "Crecimiento proyectado para 2026",
+      "BCP, octubre 2026"
+     ],
+     [
+      "1,7 %",
+      "Inflación interanual",
+      "BCP, octubre 2026"
+     ],
+     [
+      "4,1 %",
+      "Desempleo",
+      "INE, 3.er trimestre 2026"
+     ],
+     [
+      "16,0 %",
+      "Pobreza",
+      "INE, 2025"
+     ],
+     [
+      "Guaraní (PYG)",
+      "Moneda; tipo de cambio flotante",
+      "BCP"
+     ]
+    ]
+   },
+   {
+    "t": "Finanzas públicas y dinero",
+    "items": [
+     [
+      "US$ 21.947 M",
+      "Deuda pública total",
+      "MEF, junio 2026"
+     ],
+     [
+      "34,4 %",
+      "Deuda pública sobre el PIB (41,1 % en dic 2025)",
+      "MEF, junio 2026"
+     ],
+     [
+      "83,5 %",
+      "Parte de la deuda que es externa",
+      "MEF, junio 2026"
+     ],
+     [
+      "US$ 11.740 M",
+      "Reservas internacionales, récord",
+      "BCP, agosto 2026"
+     ],
+     [
+      "Baa3 / BBB− / BB+",
+      "Calificación de Moody’s, S&P y Fitch",
+      "2026"
+     ],
+     [
+      "5,50 %",
+      "Tasa de política monetaria",
+      "BCP, 23 oct 2026"
+     ]
+    ]
+   },
+   {
+    "t": "Comercio exterior y energía",
+    "items": [
+     [
+      "US$ 16.720 M",
+      "Exportaciones totales de 2025",
+      "BCP, enero 2026"
+     ],
+     [
+      "+24,7 %",
+      "Exportaciones de enero a agosto de 2026",
+      "BCP"
+     ],
+     [
+      "41 %",
+      "Parte de la soja y sus derivados en las divisas por exportaciones",
+      "Capeco, septiembre 2026"
+     ],
+     [
+      "Mercosur",
+      "Miembro fundador desde 1991 (Tratado de Asunción)",
+      ""
+     ],
+     [
+      "Itaipú y Yacyretá",
+      "Represas hidroeléctricas compartidas con Brasil y Argentina",
+      ""
+     ],
+     [
+      "68 %",
+      "Parte de su energía binacional que Paraguay usa",
+      "ABC Color, ene-sep 2026"
+     ]
+    ]
+   }
+  ],
+  "graficos": [
+   {
+    "t": "Deuda pública sobre el PIB",
+    "u": "% del PIB",
+    "rows": [
+     [
+      "Dic 2025",
+      41.1
+     ],
+     [
+      "Jun 2026",
+      34.4,
+      1
+     ]
+    ],
+    "cap": "La deuda creció en dólares, pero bajó como porcentaje del PIB porque el PIB medido en dólares subió por la apreciación del guaraní (MEF)."
+   },
+   {
+    "t": "Población",
+    "u": "habitantes",
+    "rows": [
+     [
+      "Censo 2022",
+      6109903
+     ],
+     [
+      "Estimación 2026",
+      6460159,
+      1
+     ]
+    ],
+    "cap": "Son dos series distintas del INE: el censo cuenta a la población; la estimación la proyecta."
+   }
+  ],
+  "nota": "Cifras de fuentes oficiales citadas por la prensa. El PIB nominal en dólares no se incluye porque no se pudo confirmar en una fuente oficial."
  }
 }
