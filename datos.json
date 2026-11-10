@@ -11510,5 +11510,38 @@
     "Subir el gasto en un área exige recaudar más, recortar otra área o endeudarse: es el costo de oportunidad del gasto público."
    ]
   }
+ },
+ "cambios": {
+  "fecha": "2026-11-10",
+  "hora": "02:41",
+  "fuente": "Cambios Alberdi",
+  "url": "https://www.cambiosalberdi.com/",
+  "nota": "Precios de referencia de una casa de cambios, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
+  "monedas": [
+   [
+    "USD",
+    "Dólar estadounidense",
+    5900,
+    6300
+   ],
+   [
+    "ARS",
+    "Peso argentino",
+    3.7,
+    3.9
+   ],
+   [
+    "BRL",
+    "Real brasileño",
+    1060,
+    1170
+   ],
+   [
+    "EUR",
+    "Euro",
+    6200,
+    7100
+   ]
+  ]
  }
 }

@@ -794,6 +794,16 @@ footer .wrap{display:block}
 @media (max-width:760px){ .hello{grid-template-columns:minmax(0,1fr);padding:20px} .hello-stats{grid-template-columns:repeat(3,minmax(0,1fr))} .hello-stats a{grid-template-columns:1fr;padding:8px 10px} .hello-stats b{font-size:1.5rem} .hello-stats span{font-size:.76rem}
   .top3{grid-template-columns:minmax(0,1fr)} .card.big.first{flex-direction:column} .card.big.first .plate{flex:none} .card.big .plate svg{max-height:200px}
   .pz-grid{grid-template-columns:repeat(2,minmax(0,1fr))} .pz{padding:10px 12px} .pz b{font-size:1.3rem} .pulso{padding:16px} }
+.cotiz{margin-top:18px;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);box-shadow:var(--shadow-sm);padding:18px 20px;display:grid;gap:10px}
+.cz-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:10px}
+.cz{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:12px 14px;display:grid;gap:8px}
+.cz-h{display:flex;align-items:center;gap:8px;font-weight:700;font-size:.9rem}
+.cz-c{font-family:var(--f-display);font-weight:800;font-size:.9rem;letter-spacing:.05em;background:var(--navy);color:var(--gold-2);border-radius:6px;padding:2px 7px}
+.cz-v{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.cz-v small{display:block;font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+.cz-v b{font-family:var(--f-math);font-size:1.25rem;font-weight:600;white-space:nowrap}
+.cz-s{font-size:.76rem;color:var(--muted)}
+@media (max-width:760px){ .cz-grid{grid-template-columns:repeat(2,minmax(0,1fr))} .cz{padding:10px} .cz-v{grid-template-columns:1fr} .cz-v b{font-size:1.1rem} .cotiz{padding:16px} }
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -855,7 +865,7 @@ footer .wrap{display:block}
 /* =====================================================================
    1. DATOS: noticias, indicadores, región y semanas viven en datos.json
    ===================================================================== */
-let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null, CRONO = null, ITAIPU = null, MIRADAS = [], TRABAJO = null, EMPRESAS = [], METAS = null, ARCH = null, COOP = null, COMEX = null, QUIEN = null, PRESU = null;
+let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null, CRONO = null, ITAIPU = null, MIRADAS = [], TRABAJO = null, EMPRESAS = [], METAS = null, ARCH = null, COOP = null, COMEX = null, QUIEN = null, PRESU = null, CAMB = null;
 
 const KC = { escasez:'Escasez', eleccion:'Elección', eficiencia:'Eficiencia', equidad:'Equidad', bienestar:'Bienestar económico', sostenibilidad:'Sostenibilidad', cambio:'Cambio', interdependencia:'Interdependencia', intervencion:'Intervención' };
 const UNI = { micro:'Microeconomía', macro:'Macroeconomía', global:'Economía global' };
@@ -1246,6 +1256,7 @@ function renderHome() {
     ${bienvenidaHTML()}
     ${topHTML(top)}
     ${pulsoHTML()}
+    ${cotizHTML()}
     ${feat}
     ${hoyHTML()}
     <div class="sec-head" id="todas"><div><div class="eyebrow">${filtrando ? 'Resultados' : 'Más noticias'}</div><h2>${filtrando ? 'Noticias filtradas' : 'Todas las noticias'}</h2></div><a class="more" href="#semana">Resumen de la semana →</a></div>
@@ -2078,6 +2089,16 @@ function topHTML(top) {
   return `<section class="top3-sec" id="top3"><div class="sec-head"><div><div class="eyebrow">Lo más importante hoy</div><h2>Las últimas noticias</h2></div><span class="note">Actualizado el ${fdate(ACTUALIZADO)}</span></div>
     <div class="top3">${top.map(bigCard).join('')}</div></section>`;
 }
+function cotizHTML() {
+  const C = CAMB;
+  if (!C || !C.monedas) return '';
+  const g = v => 'G. ' + num(v, v < 100 ? 2 : 0);
+  return `<section class="cotiz"><div class="pulso-h"><div><div class="eyebrow">Tipo de cambio</div><h2>Cotizaciones de hoy</h2></div><span class="note">${esc(C.fuente)} · ${fdate(C.fecha)}${C.hora ? ', ' + esc(C.hora) : ''}</span></div>
+    <div class="cz-grid">${C.monedas.map(([c, n, co, ve]) => `<div class="cz"><div class="cz-h"><span class="cz-c">${esc(c)}</span><span>${esc(n)}</span></div>
+      <div class="cz-v"><div><small>Compra</small><b>${g(co)}</b></div><div><small>Venta</small><b>${g(ve)}</b></div></div>
+      <small class="cz-s">Diferencia: ${num((ve - co) / co * 100, 1)} %</small></div>`).join('')}</div>
+    <p class="note"><b>Compra</b>: lo que la casa de cambios te paga en guaraníes por cada unidad. <b>Venta</b>: lo que te cobra. ${esc(C.nota)} <a href="${esc(C.url)}" target="_blank" rel="noopener">Ver la fuente ↗</a> · <a href="#d-tipo-cambio">Diagrama del tipo de cambio →</a></p></section>`;
+}
 function pulsoHTML() {
   if (!METAS) return '';
   const its = ['inflacion', 'crecimiento', 'desempleo', 'deficit', 'riesgo'].map(id => METAS.items.find(m => m.id === id)).filter(Boolean).map(m => Object.assign({ m }, metaEstado(m)));
@@ -2612,7 +2633,7 @@ function render() {
 fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   ACTUALIZADO = d.actualizado; DIARIOS = d.diarios || []; OFICIALES = d.oficiales || []; DESTACADO = d.destacado || null;
   INDICADORES = (d.indicadores || []).map(i => Array.isArray(i) ? { n: i[0], v: i[1], s: i[2], alert: i[3] } : i);
-  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null; CRONO = d.cronologia || null; ITAIPU = d.itaipu || null; MIRADAS = d.miradas || []; TRABAJO = d.trabajo || null; EMPRESAS = d.empresas || []; METAS = d.metas || null; COOP = d.cooperativas || null; COMEX = d.comercio || null; QUIEN = d.quien || null; PRESU = d.presupuesto || null;
+  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null; CRONO = d.cronologia || null; ITAIPU = d.itaipu || null; MIRADAS = d.miradas || []; TRABAJO = d.trabajo || null; EMPRESAS = d.empresas || []; METAS = d.metas || null; COOP = d.cooperativas || null; COMEX = d.comercio || null; QUIEN = d.quien || null; PRESU = d.presupuesto || null; CAMB = d.cambios || null;
   NOTICIAS = (d.noticias || []).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad]).map(n => Object.assign({ datos: [], pasos: [], conceptos: [], diagramas: [], rel: [], resumen: '', contexto: '' }, n));
   NOTICIAS.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); });
   BYID = Object.fromEntries(NOTICIAS.map(n => [n.id, n]));
