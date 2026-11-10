@@ -171,6 +171,1177 @@
  },
  "noticias": [
   {
+   "id": "petroleo-baja",
+   "fecha": "2026-11-09",
+   "medio": "El blog del Euríbor (Reuters)",
+   "url": "https://www.euribor.com.es/2026/11/09/precio-petroleo-hoy-9-noviembre-2026/",
+   "titulo": "El petróleo cae 16 % en una semana: alivio para los combustibles",
+   "unidad": "macro",
+   "tema": "3.3",
+   "kc": "interdependencia",
+   "mundo": [
+    "petroleo"
+   ],
+   "sector": [
+    "energia"
+   ],
+   "resumen": "El barril de Brent cerró el viernes 7 de noviembre por debajo de US$ 97, con una caída semanal de 16,42 %, la mayor desde 2020. Según Reuters, el mercado espera una desescalada entre Estados Unidos e Irán y la OPEP+ decidió no cambiar su producción de diciembre.",
+   "contexto": "A comienzos de noviembre el Brent superaba los US$ 110 y era uno de los riesgos que vigilaba el BCP. Paraguay importa todos sus combustibles, así que un petróleo más barato reduce costos de transporte y producción. Pero el efecto en el surtidor no es automático: Petropar revisará sus precios a fin de mes y, al mismo tiempo, el guaraní se depreció, lo que encarece lo importado.",
+   "datos": [
+    [
+     "< US$ 97",
+     "Brent al cierre del 7 de noviembre"
+    ],
+    [
+     "−16,42 %",
+     "Caída semanal, la mayor desde 2020"
+    ],
+    [
+     "> US$ 110",
+     "Nivel del Brent a comienzos de noviembre"
+    ]
+   ],
+   "clave": [
+    "−16,4 %",
+    "el petróleo en una semana"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "O",
+    "dir": 1
+   },
+   "cap": "Si el combustible se abarata, bajan los costos de producción: la OACP pasa de OACP₁ a OACP₂, baja el nivel de precios y sube el PIB real.",
+   "pasos": [
+    "Se espera menos tensión en Medio Oriente",
+    "Baja el precio internacional del petróleo",
+    "Paraguay paga menos por los combustibles importados",
+    "Bajan los costos: la OACP se desplaza a la derecha",
+    "Menos inflación por costos, si la depreciación del guaraní no lo compensa"
+   ],
+   "conceptos": [
+    [
+     "Shock de oferta positivo",
+     "Baja de costos que desplaza la OACP a la derecha."
+    ],
+    [
+     "Precio internacional",
+     "Precio que se fija en los mercados mundiales y que Paraguay toma como dado."
+    ],
+    [
+     "Traslado a precios",
+     "Cuánto de un cambio de costos llega al precio final."
+    ],
+    [
+     "Interdependencia",
+     "Lo que pasa en el mundo afecta a la economía paraguaya."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-oacp"
+   ],
+   "rel": [
+    "combustibles",
+    "dolar-6600"
+   ],
+   "pregunta": {
+    "q": "Si el petróleo baja 16 % pero el guaraní se deprecia 9 %, ¿qué pasa con el costo del combustible importado en guaraníes?",
+    "opts": [
+     "Baja, pero menos que el 16 %",
+     "Baja exactamente 16 %",
+     "Sube 25 %",
+     "No cambia"
+    ],
+    "ok": 0,
+    "fb": "La baja en dólares se compensa en parte porque cada dólar cuesta más guaraníes: el costo en guaraníes baja menos."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Transportistas, agro e industria",
+      "Sus costos podrían bajar."
+     ],
+     [
+      "Consumidores",
+      "Menos presión sobre los precios."
+     ]
+    ],
+    "pierden": [
+     [
+      "Países exportadores de petróleo",
+      "Reciben menos por sus ventas."
+     ]
+    ],
+    "corto": "Alivio en la inflación por costos y menos presión para nuevas subas de combustibles.",
+    "largo": "Depende de que se mantenga la paz en Medio Oriente: el precio puede volver a subir.",
+    "supuestos": [
+     "Que la baja del petróleo dure.",
+     "Que la depreciación del guaraní no anule el efecto."
+    ],
+    "conclusion": "Es una buena noticia para un país que importa todo su combustible, pero el tipo de cambio decide cuánto llega al surtidor."
+   }
+  },
+  {
+   "id": "deforestacion-chaco",
+   "fecha": "2025-03-21",
+   "medio": "RDN",
+   "url": "https://www.rdn.com.py/2025/03/21/paraguay-conserva-443-de-su-territorio-con-cobertura-forestal/",
+   "titulo": "El Chaco concentra casi toda la pérdida de bosque del país",
+   "unidad": "micro",
+   "tema": "2.8",
+   "kc": "sostenibilidad",
+   "sector": [
+    "agro"
+   ],
+   "resumen": "Según datos del INFONA, Paraguay conserva el 44,3 % de su territorio con cobertura forestal, unos 17,7 millones de hectáreas. Entre 2020 y 2022 se transformaron 412.428 hectáreas de bosque nativo, y 361.928 de ellas estaban en el Chaco.",
+   "contexto": "La mayor parte del desmonte en el Chaco se hace para la ganadería y el 77,9 % fue con planes de cambio de uso aprobados por el INFONA: es legal. Desde la economía, es un caso de externalidad negativa de la producción: el productor gana con la tierra para ganado, pero la sociedad pierde biodiversidad, captura de carbono y regulación del clima, costos que no entran en el precio de la carne. Entre 2021 y 2022, Boquerón (90.116 ha) y Alto Paraguay (78.029 ha) fueron los departamentos con más bosque transformado.",
+   "datos": [
+    [
+     "44,3 %",
+     "Territorio con cobertura forestal (2022)"
+    ],
+    [
+     "412.428 ha",
+     "Bosque nativo transformado (2020-2022)"
+    ],
+    [
+     "361.928 ha",
+     "De ese total, en el Chaco"
+    ],
+    [
+     "77,9 %",
+     "Con planes de cambio de uso aprobados"
+    ]
+   ],
+   "clave": [
+    "88 %",
+    "de la pérdida, en el Chaco"
+   ],
+   "fig": {
+    "k": "externalidad"
+   },
+   "cap": "El mercado produce Qₘ, donde el beneficio privado iguala al costo privado. El costo social es mayor (CMS), así que lo óptimo es Qₒ: el triángulo es la pérdida de bienestar.",
+   "pasos": [
+    "El productor convierte bosque en pastura",
+    "Gana con la producción de carne",
+    "La sociedad pierde biodiversidad y captura de carbono",
+    "Ese costo no está en el precio: externalidad negativa",
+    "Se produce más de lo socialmente óptimo"
+   ],
+   "conceptos": [
+    [
+     "Externalidad negativa",
+     "Costo que una actividad impone a terceros sin pagarlo."
+    ],
+    [
+     "Costo marginal social",
+     "Costo privado más el costo para el resto de la sociedad."
+    ],
+    [
+     "Sobreproducción",
+     "El mercado produce más que el óptimo social."
+    ],
+    [
+     "Sostenibilidad",
+     "Usar los recursos sin comprometer a las generaciones futuras."
+    ]
+   ],
+   "diagramas": [
+    "externalidad"
+   ],
+   "rel": [
+    "energia-cedida",
+    "carne-cae"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la deforestación es una falla de mercado?",
+    "opts": [
+     "Porque el costo para la sociedad no se refleja en el precio de lo que se produce",
+     "Porque los ganaderos no quieren ganar dinero",
+     "Porque el bosque es un bien público puro",
+     "Porque el Estado no cobra impuestos"
+    ],
+    "ok": 0,
+    "fb": "Es una externalidad negativa: parte del costo (pérdida de bosque, clima) lo paga la sociedad y no el productor, así que se produce de más."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores ganaderos",
+      "Más tierra productiva."
+     ],
+     [
+      "Exportaciones de carne",
+      "Más producción y divisas."
+     ]
+    ],
+    "pierden": [
+     [
+      "La sociedad y las generaciones futuras",
+      "Pérdida de biodiversidad y de regulación del clima."
+     ],
+     [
+      "Comunidades del Chaco",
+      "Cambios en su entorno y sus recursos."
+     ]
+    ],
+    "corto": "Más producción ganadera.",
+    "largo": "Costos ambientales que no se pueden revertir y riesgo de perder mercados exigentes, como la Unión Europea.",
+    "supuestos": [
+     "Que los datos de 2020-2022 sigan representando la tendencia actual."
+    ],
+    "conclusion": "El desmonte legal no significa que sea eficiente para la sociedad: sin impuestos, regulación o incentivos, el mercado no tiene en cuenta el costo ambiental."
+   }
+  },
+  {
+   "id": "pisa-2025",
+   "fecha": "2026-09-12",
+   "medio": "Prensa Mercosur",
+   "url": "https://prensamercosur.org/2026/09/12/paraguay-tras-pisa-2025-expertos-advierten-que-el-sistema-educativo-esta-desfasado-y-carece-de-un-plan-claro-de-mejora/",
+   "titulo": "PISA 2025: solo 24 % de los estudiantes alcanza el nivel básico de lectura",
+   "unidad": "macro",
+   "tema": "3.7",
+   "kc": "bienestar",
+   "resumen": "En la prueba internacional PISA 2025, solo el 24 % de los estudiantes paraguayos de 15 años alcanzó el nivel básico en lectura, frente a 69 % del promedio internacional. En matemáticas fue 10 % (frente a 64 %) y en ciencias 24 % (frente a 74 %).",
+   "contexto": "El puntaje de lectura bajó de 373 en 2022 a 352 en 2025. Según la nota, Paraguay es último en la región en matemáticas y penúltimo en ciencias. La educación es capital humano: trabajadores mejor formados son más productivos. Por eso la inversión en educación es una política de oferta, que a largo plazo aumenta el PIB potencial (desplaza la OALP), aunque sus efectos tardan años.",
+   "datos": [
+    [
+     "24 %",
+     "Nivel básico en lectura (promedio internacional 69 %)"
+    ],
+    [
+     "10 %",
+     "Nivel básico en matemáticas (64 %)"
+    ],
+    [
+     "24 %",
+     "Nivel básico en ciencias (74 %)"
+    ],
+    [
+     "373 → 352",
+     "Puntaje de lectura 2022 → 2025"
+    ]
+   ],
+   "clave": [
+    "24 %",
+    "nivel básico en lectura"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% con nivel básico o más",
+    "rows": [
+     [
+      "Lectura Paraguay",
+      24,
+      1
+     ],
+     [
+      "Lectura promedio",
+      69
+     ],
+     [
+      "Matemática Paraguay",
+      10,
+      1
+     ],
+     [
+      "Matemática promedio",
+      64
+     ],
+     [
+      "Ciencias Paraguay",
+      24,
+      1
+     ],
+     [
+      "Ciencias promedio",
+      74
+     ]
+    ]
+   },
+   "cap": "Porcentaje de estudiantes de 15 años con nivel básico o superior en PISA 2025.",
+   "pasos": [
+    "Pocos estudiantes alcanzan competencias básicas",
+    "Menos capital humano en el futuro",
+    "Menor productividad de los trabajadores",
+    "Crecimiento potencial más bajo",
+    "Mejorar la educación es una política de oferta de largo plazo"
+   ],
+   "conceptos": [
+    [
+     "Capital humano",
+     "Conocimientos y habilidades de las personas."
+    ],
+    [
+     "Productividad",
+     "Producción por trabajador u hora trabajada."
+    ],
+    [
+     "Política de oferta",
+     "Medidas para aumentar la capacidad productiva del país."
+    ],
+    [
+     "OALP",
+     "Oferta agregada de largo plazo: el PIB potencial."
+    ]
+   ],
+   "diagramas": [
+    "politicas-oferta"
+   ],
+   "rel": [
+    "pobreza-16",
+    "corredor-bioceanico"
+   ],
+   "pregunta": {
+    "q": "¿Por qué mejorar la educación es una política de oferta?",
+    "opts": [
+     "Porque aumenta la productividad y el PIB potencial a largo plazo",
+     "Porque sube la demanda de inmediato",
+     "Porque baja la inflación en un mes",
+     "Porque reduce el déficit fiscal"
+    ],
+    "ok": 0,
+    "fb": "Más capital humano aumenta la capacidad productiva: desplaza la OALP a la derecha, aunque el efecto tarda años."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Estudiantes, si mejora el sistema",
+      "Más oportunidades e ingresos futuros."
+     ]
+    ],
+    "pierden": [
+     [
+      "Toda la economía con el nivel actual",
+      "Menos productividad y crecimiento potencial."
+     ]
+    ],
+    "corto": "Ningún efecto visible: la educación tarda en dar frutos.",
+    "largo": "Sin mejoras, Paraguay tendrá dificultades para pasar de exportar materias primas a producir bienes de mayor valor.",
+    "supuestos": [
+     "Que PISA mida bien las competencias que necesita la economía."
+    ],
+    "conclusion": "La educación es la política de oferta más lenta pero más profunda: invertir hoy define el crecimiento de las próximas décadas."
+   }
+  },
+  {
+   "id": "gini-2025",
+   "fecha": "2026-05-05",
+   "medio": "INE",
+   "url": "https://www.ine.gov.py/noticias/2869/el-ine-presenta-el-analisis-sobre-la-desigualdad-de-ingresos-en-paraguay",
+   "titulo": "La desigualdad baja levemente: el Gini pasa de 0,439 a 0,431",
+   "unidad": "macro",
+   "tema": "3.4",
+   "kc": "equidad",
+   "inst": [
+    "ine"
+   ],
+   "resumen": "Según el INE, el coeficiente de Gini de los ingresos bajó de 0,439 en 2024 a 0,431 en 2025, una caída de alrededor de 1,7 %. La desigualdad es mayor en el campo que en las ciudades.",
+   "contexto": "El Gini va de 0 (todos ganan lo mismo) a 1 (uno se queda con todo). Por departamento hay grandes diferencias: Caaguazú (0,605) y Canindeyú (0,545) son los más desiguales; Central (0,359), Cordillera (0,362) y Ñeembucú (0,366) los menos. La desigualdad importa porque reduce el desarrollo: según el PNUD, el índice de desarrollo humano de Paraguay pierde 20,8 % cuando se ajusta por desigualdad.",
+   "datos": [
+    [
+     "0,431",
+     "Gini 2025"
+    ],
+    [
+     "0,439",
+     "Gini 2024"
+    ],
+    [
+     "0,605",
+     "Caaguazú, el más desigual"
+    ],
+    [
+     "0,359",
+     "Central, el menos desigual"
+    ]
+   ],
+   "clave": [
+    "0,431",
+    "coeficiente de Gini"
+   ],
+   "fig": {
+    "k": "lorenz",
+    "g": 0.55
+   },
+   "cap": "Cuanto más cerca está la curva de Lorenz de la diagonal, menor es la desigualdad y menor el coeficiente de Gini.",
+   "pasos": [
+    "Crecen los ingresos de los hogares más pobres",
+    "La distribución se vuelve un poco más pareja",
+    "La curva de Lorenz se acerca a la diagonal",
+    "Baja el coeficiente de Gini",
+    "Mejora la equidad, aunque con grandes diferencias entre departamentos"
+   ],
+   "conceptos": [
+    [
+     "Coeficiente de Gini",
+     "Mide la desigualdad del ingreso entre 0 y 1."
+    ],
+    [
+     "Curva de Lorenz",
+     "Muestra qué parte del ingreso recibe cada parte de la población."
+    ],
+    [
+     "Equidad",
+     "Reparto justo del ingreso y de las oportunidades."
+    ],
+    [
+     "Desigualdad regional",
+     "Diferencias entre zonas del mismo país."
+    ]
+   ],
+   "diagramas": [
+    "lorenz"
+   ],
+   "rel": [
+    "pobreza-16",
+    "pobreza-multidimensional"
+   ],
+   "pregunta": {
+    "q": "El Gini bajó de 0,439 a 0,431. ¿Qué significa?",
+    "opts": [
+     "Que la desigualdad del ingreso bajó levemente",
+     "Que la pobreza bajó a la mitad",
+     "Que todos ganan lo mismo",
+     "Que la desigualdad subió"
+    ],
+    "ok": 0,
+    "fb": "Un Gini menor indica una distribución algo más pareja. La caída es pequeña: 1,7 %."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Hogares de menores ingresos",
+      "Su parte del ingreso total aumentó un poco."
+     ]
+    ],
+    "pierden": [
+     [
+      "Nadie en forma directa",
+      "Es una mejora leve de la distribución."
+     ]
+    ],
+    "corto": "Mejora pequeña en la equidad.",
+    "largo": "Las grandes diferencias entre departamentos siguen siendo un desafío.",
+    "supuestos": [
+     "Que la encuesta capte bien los ingresos más altos, que suelen subestimarse."
+    ],
+    "conclusion": "La desigualdad baja, pero despacio y con mucha diferencia entre regiones: es uno de los principales frenos al desarrollo humano."
+   }
+  },
+  {
+   "id": "pobreza-multidimensional",
+   "fecha": "2026-08-07",
+   "medio": "INE",
+   "url": "https://www.ine.gov.py/noticias/2974/la-pobreza-multidimensional-en-el-ano-2025-fue-de-135-en-paraguay",
+   "titulo": "La pobreza multidimensional fue de 13,5 % y llega a 30,3 % en el campo",
+   "unidad": "global",
+   "tema": "4.8",
+   "kc": "bienestar",
+   "inst": [
+    "ine"
+   ],
+   "resumen": "El INE informó que en 2025 el 13,5 % de la población, unas 830.000 personas, vivía en pobreza multidimensional. En las zonas rurales llegó a 30,3 % y en las urbanas a 6,8 %.",
+   "contexto": "La pobreza multidimensional no mide solo el ingreso: también cuenta privaciones en educación, salud, vivienda y servicios. Por eso es una mejor medida del desarrollo. Los departamentos con más pobreza multidimensional fueron San Pedro (28,1 %) y Caazapá (27,1 %); los de menos, Central (6,3 %) y Asunción (1,8 %). La medición no incluye Boquerón ni Alto Paraguay.",
+   "datos": [
+    [
+     "13,5 %",
+     "Pobreza multidimensional 2025"
+    ],
+    [
+     "30,3 %",
+     "En zonas rurales"
+    ],
+    [
+     "6,8 %",
+     "En zonas urbanas"
+    ],
+    [
+     "28,1 %",
+     "San Pedro, el departamento más afectado"
+    ]
+   ],
+   "clave": [
+    "30,3 %",
+    "pobreza rural"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% de la población",
+    "rows": [
+     [
+      "Rural",
+      30.3,
+      1
+     ],
+     [
+      "Nacional",
+      13.5
+     ],
+     [
+      "Urbana",
+      6.8
+     ]
+    ]
+   },
+   "cap": "Pobreza multidimensional 2025 según el INE.",
+   "pasos": [
+    "Se miden privaciones en educación, salud, vivienda y servicios",
+    "La pobreza no es solo falta de ingreso",
+    "El campo concentra más privaciones",
+    "Se necesitan políticas distintas a las transferencias de dinero",
+    "Inversión en servicios públicos e infraestructura rural"
+   ],
+   "conceptos": [
+    [
+     "Pobreza multidimensional",
+     "Privaciones en varias dimensiones, no solo en el ingreso."
+    ],
+    [
+     "Desarrollo",
+     "Mejora del bienestar en salud, educación y nivel de vida."
+    ],
+    [
+     "Indicador compuesto",
+     "Combina varios indicadores en uno."
+    ],
+    [
+     "Brecha urbano-rural",
+     "Diferencia de condiciones entre ciudad y campo."
+    ]
+   ],
+   "diagramas": [],
+   "rel": [
+    "pobreza-16",
+    "gini-2025"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la pobreza multidimensional mide mejor el desarrollo que la pobreza monetaria?",
+    "opts": [
+     "Porque incluye educación, salud, vivienda y servicios además del ingreso",
+     "Porque siempre da un número más bajo",
+     "Porque solo mide el ingreso",
+     "Porque la publica el BCP"
+    ],
+    "ok": 0,
+    "fb": "El desarrollo es más que ingreso: una familia puede superar la línea de pobreza y seguir sin agua potable o sin acceso a la salud."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Políticas mejor dirigidas",
+      "Saber qué falta permite invertir donde más se necesita."
+     ]
+    ],
+    "pierden": [
+     [
+      "Hogares rurales",
+      "Concentran las privaciones."
+     ]
+    ],
+    "corto": "Diagnóstico más completo de la pobreza.",
+    "largo": "Reducirla exige inversión en educación, salud e infraestructura, no solo transferencias.",
+    "supuestos": [
+     "Que la medición incluya a todo el país: hoy faltan Boquerón y Alto Paraguay."
+    ],
+    "conclusion": "La brecha entre el campo (30,3 %) y la ciudad (6,8 %) muestra que el crecimiento no llega igual a todos."
+   }
+  },
+  {
+   "id": "ied-record",
+   "fecha": "2026-10-30",
+   "medio": "Revista Plus",
+   "url": "https://revistaplus.com.py/2026/10/30/inversion-extranjera-neta-en-paraguay-alcanza-record-de-us-1-151-millones-en-2025/",
+   "titulo": "La inversión extranjera directa marca un récord de US$ 1.151 millones en 2025",
+   "unidad": "global",
+   "tema": "4.6",
+   "kc": "interdependencia",
+   "mundo": [
+    "brasil",
+    "eeuu"
+   ],
+   "resumen": "Según el BCP, el flujo neto de inversión extranjera directa (IED) en Paraguay fue de US$ 1.151 millones en 2025, el mayor de la serie que empieza en 2008. El saldo acumulado llegó a US$ 14.774 millones.",
+   "contexto": "La IED entra en la cuenta financiera de la balanza de pagos. Brasil es el principal origen del saldo acumulado (US$ 2.608 millones, 15 %), seguido por Países Bajos, Estados Unidos, Uruguay e Islas Caimán. La IED trae capital, tecnología y empleo, y aumenta la oferta de dólares, lo que tiende a apreciar el guaraní. A cambio, parte de las ganancias sale del país como remesas de utilidades.",
+   "datos": [
+    [
+     "US$ 1.151 M",
+     "Flujo neto de IED en 2025 (récord)"
+    ],
+    [
+     "US$ 14.774 M",
+     "Saldo acumulado al cierre de 2025"
+    ],
+    [
+     "15 %",
+     "Parte de Brasil en el saldo"
+    ],
+    [
+     "+3 %",
+     "Crecimiento del flujo frente a 2024"
+    ]
+   ],
+   "clave": [
+    "US$ 1.151 M",
+    "IED récord"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ M de saldo acumulado",
+    "rows": [
+     [
+      "Brasil",
+      2608,
+      1
+     ],
+     [
+      "Países Bajos",
+      2194
+     ],
+     [
+      "Estados Unidos",
+      2191
+     ],
+     [
+      "Uruguay",
+      1358
+     ],
+     [
+      "Islas Caimán",
+      1077
+     ]
+    ]
+   },
+   "cap": "Principales orígenes del saldo de inversión extranjera directa al cierre de 2025.",
+   "pasos": [
+    "Empresas extranjeras invierten en Paraguay",
+    "Entran dólares por la cuenta financiera",
+    "Aumenta la oferta de dólares: el guaraní tiende a apreciarse",
+    "Crece la capacidad productiva y el empleo",
+    "Parte de las ganancias vuelve al exterior"
+   ],
+   "conceptos": [
+    [
+     "Inversión extranjera directa",
+     "Capital extranjero para crear o ampliar empresas en el país."
+    ],
+    [
+     "Cuenta financiera",
+     "Registra los flujos de inversión y préstamos con el exterior."
+    ],
+    [
+     "Balanza de pagos",
+     "Registro de todas las transacciones del país con el resto del mundo."
+    ],
+    [
+     "Remesas de utilidades",
+     "Ganancias que las empresas extranjeras envían a sus países."
+    ]
+   ],
+   "diagramas": [
+    "tipo-cambio",
+    "politicas-oferta"
+   ],
+   "rel": [
+    "maquila",
+    "remesas-2026"
+   ],
+   "pregunta": {
+    "q": "¿En qué cuenta de la balanza de pagos se registra la inversión extranjera directa?",
+    "opts": [
+     "En la cuenta financiera",
+     "En la cuenta corriente, como exportación",
+     "En el Presupuesto",
+     "En la cuenta de capital del BCP"
+    ],
+    "ok": 0,
+    "fb": "La IED es un flujo de capital: va en la cuenta financiera. Sus ganancias, cuando se envían al exterior, van a la cuenta corriente (renta)."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Trabajadores",
+      "Nuevos empleos."
+     ],
+     [
+      "Economía en general",
+      "Más capital y tecnología."
+     ]
+    ],
+    "pierden": [
+     [
+      "Empresas locales",
+      "Más competencia."
+     ],
+     [
+      "Cuenta corriente futura",
+      "Salida de utilidades."
+     ]
+    ],
+    "corto": "Más dólares y apreciación del guaraní.",
+    "largo": "Más capacidad productiva si la inversión es productiva y se vincula con proveedores locales.",
+    "supuestos": [
+     "Que el clima de inversión se mantenga tras la crisis de noviembre."
+    ],
+    "conclusion": "Un récord de IED es una señal de confianza, pero la crisis bancaria y política de noviembre pone a prueba esa confianza."
+   }
+  },
+  {
+   "id": "remesas-2026",
+   "fecha": "2026-05-24",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/05/24/remesas-familiares-crecieron-32-durante-el-primer-trimestre/",
+   "titulo": "Las remesas crecen 3,2 %: España envía más de la mitad",
+   "unidad": "global",
+   "tema": "4.6",
+   "kc": "interdependencia",
+   "mundo": [
+    "espana",
+    "argentina",
+    "eeuu"
+   ],
+   "resumen": "Según datos preliminares del BCP, las remesas que paraguayos en el exterior envían a sus familias sumaron US$ 318,9 millones en el primer trimestre de 2026, 3,2 % más que un año antes. España aportó US$ 180,6 millones.",
+   "contexto": "Las remesas se registran en la cuenta corriente de la balanza de pagos, como transferencias. Para muchas familias son un ingreso clave para el consumo y la educación. Después de España vienen Argentina (US$ 51,7 millones), Estados Unidos (US$ 35,2 millones), Brasil y Francia. Dependen del empleo y los salarios en esos países: si la economía española se frena, llegan menos remesas.",
+   "datos": [
+    [
+     "US$ 318,9 M",
+     "Remesas del primer trimestre de 2026"
+    ],
+    [
+     "+3,2 %",
+     "Frente al primer trimestre de 2025"
+    ],
+    [
+     "US$ 180,6 M",
+     "Desde España"
+    ],
+    [
+     "US$ 51,7 M",
+     "Desde Argentina"
+    ]
+   ],
+   "clave": [
+    "+3,2 %",
+    "remesas"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ M, 1.er trimestre 2026",
+    "rows": [
+     [
+      "España",
+      180.6,
+      1
+     ],
+     [
+      "Argentina",
+      51.7
+     ],
+     [
+      "Estados Unidos",
+      35.2
+     ],
+     [
+      "Brasil",
+      10.6
+     ],
+     [
+      "Francia",
+      8.1
+     ]
+    ]
+   },
+   "cap": "Origen de las remesas familiares del primer trimestre de 2026.",
+   "pasos": [
+    "Paraguayos trabajan en el exterior",
+    "Envían parte de su salario a sus familias",
+    "Entran dólares por la cuenta corriente",
+    "Las familias consumen más",
+    "Aumenta la demanda agregada (C)"
+   ],
+   "conceptos": [
+    [
+     "Remesas",
+     "Dinero que los emigrantes envían a sus familias."
+    ],
+    [
+     "Cuenta corriente",
+     "Registra comercio de bienes y servicios, renta y transferencias."
+    ],
+    [
+     "Transferencias corrientes",
+     "Pagos sin contrapartida, como las remesas."
+    ],
+    [
+     "Interdependencia",
+     "El ingreso de familias paraguayas depende de economías lejanas."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da"
+   ],
+   "rel": [
+    "ied-record"
+   ],
+   "pregunta": {
+    "q": "¿En qué parte de la balanza de pagos se registran las remesas familiares?",
+    "opts": [
+     "En la cuenta corriente, como transferencias",
+     "En la cuenta financiera, como inversión",
+     "En las exportaciones de bienes",
+     "En las reservas del BCP"
+    ],
+    "ok": 0,
+    "fb": "Las remesas son transferencias corrientes: no hay un bien o servicio a cambio, y van en la cuenta corriente."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Familias receptoras",
+      "Más ingresos para consumo y educación."
+     ]
+    ],
+    "pierden": [
+     [
+      "El país, a largo plazo",
+      "La emigración se lleva trabajadores jóvenes."
+     ]
+    ],
+    "corto": "Más consumo de los hogares que reciben remesas.",
+    "largo": "Dependencia de la situación económica de España y otros países.",
+    "supuestos": [
+     "Son datos preliminares y pueden revisarse."
+    ],
+    "conclusion": "Las remesas sostienen a muchas familias, pero también muestran que parte de la fuerza de trabajo encuentra mejores oportunidades fuera del país."
+   }
+  },
+  {
+   "id": "ande-tarifa",
+   "fecha": "2026-03-19",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/03/19/ande-necesita-subir-tarifas-para-sostener-el-sistema-electrico-advierte-el-titular/",
+   "titulo": "La ANDE dice que su tarifa no cubre los costos y que debe subir",
+   "unidad": "micro",
+   "tema": "2.11",
+   "kc": "eficiencia",
+   "sector": [
+    "energia"
+   ],
+   "resumen": "El presidente de la ANDE, Félix Sosa, afirmó que la tarifa eléctrica es una tarifa «política» que no cubre los costos reales para la mayoría de los usuarios; solo el consumo intensivo, como la criptominería, paga la tarifa técnica. Las pérdidas de energía bajaron de 23,4 % a 20 % en dos años.",
+   "contexto": "La ANDE es una empresa estatal que distribuye la electricidad sin competencia: un monopolio natural, porque duplicar las redes sería muy caro. En un monopolio, el precio lo fija el Estado. Si la tarifa queda por debajo del costo, los usuarios pagan poco, pero la empresa no tiene recursos para invertir en redes y reducir pérdidas. Se analiza una suba gradual empezando por los grandes consumidores. Según Sosa, llegar al promedio regional de pérdidas significaría unos US$ 50 millones.",
+   "datos": [
+    [
+     "20 %",
+     "Pérdidas de energía actuales"
+    ],
+    [
+     "23,4 %",
+     "Pérdidas hace dos años"
+    ],
+    [
+     "5 puntos",
+     "Para llegar al promedio regional"
+    ],
+    [
+     "US$ 50 M",
+     "Valor de esa diferencia, según la ANDE"
+    ]
+   ],
+   "clave": [
+    "20 %",
+    "de pérdidas de energía"
+   ],
+   "fig": {
+    "k": "monopolio"
+   },
+   "cap": "Un monopolio sin regulación produce menos (Qₘ) y cobra más (Pₘ) que un mercado competitivo; el triángulo es la pérdida de bienestar. Por eso el Estado regula su precio.",
+   "pasos": [
+    "La ANDE es el único distribuidor: monopolio natural",
+    "El Estado fija la tarifa",
+    "La tarifa queda por debajo del costo",
+    "Faltan recursos para invertir y reducir pérdidas",
+    "Dilema: tarifa baja hoy o mejor servicio mañana"
+   ],
+   "conceptos": [
+    [
+     "Monopolio natural",
+     "Un solo productor abastece al mercado más barato que varios."
+    ],
+    [
+     "Regulación de precios",
+     "El Estado fija el precio de un monopolio."
+    ],
+    [
+     "Eficiencia",
+     "Usar los recursos sin desperdicio: las pérdidas de energía son ineficiencia."
+    ],
+    [
+     "Tarifa técnica",
+     "Precio que cubre los costos reales del servicio."
+    ]
+   ],
+   "diagramas": [
+    "monopolio"
+   ],
+   "rel": [
+    "itaipu-opinion",
+    "energia-cedida"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la distribución de electricidad es un monopolio natural?",
+    "opts": [
+     "Porque es más barato que una sola empresa tenga la red que construir varias redes paralelas",
+     "Porque la ley prohíbe la competencia en todo",
+     "Porque la electricidad es un bien público",
+     "Porque no tiene costos fijos"
+    ],
+    "ok": 0,
+    "fb": "Los costos fijos de la red son enormes: una sola empresa abastece más barato. Por eso hay monopolio y el Estado regula el precio."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Usuarios con la tarifa actual",
+      "Pagan menos que el costo real."
+     ]
+    ],
+    "pierden": [
+     [
+      "La ANDE y la calidad del servicio",
+      "Menos recursos para invertir en redes."
+     ],
+     [
+      "Contribuyentes",
+      "Si la empresa pierde, la diferencia la cubre el Estado."
+     ]
+    ],
+    "corto": "Una suba de tarifa reduciría el poder de compra de los hogares.",
+    "largo": "Sin inversión, más cortes y pérdidas cuando crezca la demanda hacia 2030.",
+    "supuestos": [
+     "Que la suba se use para invertir en redes y reducir pérdidas."
+    ],
+    "conclusion": "Regular un monopolio exige equilibrio: una tarifa muy baja protege al usuario hoy pero debilita el servicio de mañana."
+   }
+  },
+  {
+   "id": "corredor-bioceanico",
+   "fecha": "2026-02-16",
+   "medio": "InfoNegocios",
+   "url": "https://infonegocios.com.py/y-ademas/us-200-millones-para-acelerar-el-corredor-bioceanico-y-potenciar-la-competitividad-paraguaya",
+   "titulo": "US$ 200 millones del BID para acelerar el Corredor Bioceánico",
+   "unidad": "macro",
+   "tema": "3.7",
+   "kc": "cambio",
+   "sector": [
+    "comercio"
+   ],
+   "resumen": "El BID aprobó un préstamo de US$ 200 millones para una nueva etapa del Corredor Bioceánico, la ruta que cruzará el Chaco para unir el Atlántico con el Pacífico. Según el MOPC, Paraguay ya invierte unos US$ 915 millones en la obra.",
+   "contexto": "El préstamo financia 102,5 kilómetros del tramo II, además de accesos a Mariscal Estigarribia y a la zona industrial de Loma Plata. El puente entre Carmelo Peralta y Puerto Murtinho (Brasil) está cerca de su unión definitiva. La infraestructura es una política de oferta: reduce los costos de transporte, mejora la competitividad y aumenta la capacidad productiva. También permite depender menos de los ríos, que en las bajantes encarecen el flete.",
+   "datos": [
+    [
+     "US$ 200 M",
+     "Préstamo del BID"
+    ],
+    [
+     "US$ 915 M",
+     "Inversión que ya realiza Paraguay"
+    ],
+    [
+     "102,5 km",
+     "Tramo II financiado por el préstamo"
+    ],
+    [
+     "≈ 100 km",
+     "Distancia que se ahorraría en la ruta"
+    ]
+   ],
+   "clave": [
+    "US$ 200 M",
+    "del BID"
+   ],
+   "fig": {
+    "k": "oalp",
+    "s": 40
+   },
+   "cap": "Mejor infraestructura baja los costos y aumenta la capacidad productiva: la OALP y la OACP se desplazan a la derecha.",
+   "pasos": [
+    "Se construye una ruta que cruza el Chaco",
+    "Bajan los costos y tiempos de transporte",
+    "Las empresas producen y exportan más barato",
+    "Aumenta la capacidad productiva (OALP a la derecha)",
+    "Más crecimiento potencial, sobre todo en el Chaco"
+   ],
+   "conceptos": [
+    [
+     "Infraestructura",
+     "Rutas, puentes, puertos y redes que facilitan la producción."
+    ],
+    [
+     "Política de oferta",
+     "Medidas para aumentar la capacidad productiva."
+    ],
+    [
+     "Competitividad",
+     "Capacidad de vender a precios convenientes frente a otros países."
+    ],
+    [
+     "Préstamo multilateral",
+     "Crédito de organismos como el BID o el Banco Mundial."
+    ]
+   ],
+   "diagramas": [
+    "politicas-oferta"
+   ],
+   "rel": [
+    "hidrovia-2026",
+    "pisa-2025"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el Corredor Bioceánico es una política de oferta?",
+    "opts": [
+     "Porque baja los costos de producción y aumenta la capacidad productiva",
+     "Porque sube el consumo de inmediato",
+     "Porque reduce la tasa de interés",
+     "Porque baja los impuestos"
+    ],
+    "ok": 0,
+    "fb": "La infraestructura mejora la capacidad de producir y exportar: desplaza la OALP. Su construcción también suma gasto (DA) a corto plazo."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores y exportadores del Chaco",
+      "Transporte más barato y nuevos mercados."
+     ],
+     [
+      "Empleo en la construcción",
+      "Puestos de trabajo durante la obra."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes futuros",
+      "Pagarán el préstamo con intereses."
+     ],
+     [
+      "Medio ambiente del Chaco",
+      "Más presión sobre los bosques si crece la actividad."
+     ]
+    ],
+    "corto": "El gasto en la obra suma a la demanda agregada.",
+    "largo": "Más competitividad, siempre que se terminen todos los tramos.",
+    "supuestos": [
+     "Que la obra se complete y se mantenga.",
+     "Que se controle el impacto ambiental."
+    ],
+    "conclusion": "Es una apuesta de largo plazo por la productividad; su éxito depende de terminar los tramos y de cuidar el ambiente del Chaco."
+   }
+  },
+  {
+   "id": "hidrovia-2026",
+   "fecha": "2026-08-12",
+   "medio": "Prensa Mercosur",
+   "url": "https://prensamercosur.org/2026/08/12/paraguay-la-bajante-no-detiene-a-la-hidrovia-cafym-proyecta-mover-28-millones-de-toneladas-y-prepara-una-nueva-etapa-de-dragado/",
+   "titulo": "La bajante no frena la hidrovía: se proyectan 28 millones de toneladas",
+   "unidad": "global",
+   "tema": "4.9",
+   "kc": "sostenibilidad",
+   "sector": [
+    "comercio"
+   ],
+   "resumen": "El Centro de Armadores Fluviales y Marítimos (CAFyM) proyecta mover 28 millones de toneladas por la hidrovía en 2026, a pesar de la bajante de los ríos. Se prepara una nueva etapa de dragado en el Alto Paraná.",
+   "contexto": "Paraguay no tiene salida al mar: la mayor parte de su comercio exterior viaja en barcazas por los ríos Paraguay y Paraná. Cuando baja el nivel del agua, las barcazas cargan menos, se necesitan más viajes y sube el costo por tonelada. El dragado de 11 pasos críticos busca mantener unos 10 pies de profundidad. Japón donó una draga con una inversión superior a US$ 24 millones, que llegó a Pilar en junio de 2026.",
+   "datos": [
+    [
+     "28 M t",
+     "Carga proyectada por la hidrovía en 2026"
+    ],
+    [
+     "11",
+     "Pasos críticos a dragar en el Alto Paraná"
+    ],
+    [
+     "10 pies",
+     "Profundidad objetivo del canal"
+    ],
+    [
+     "US$ 24 M",
+     "Inversión en la draga donada por Japón"
+    ]
+   ],
+   "clave": [
+    "28 M t",
+    "por la hidrovía"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "O",
+    "dir": -1
+   },
+   "cap": "Una bajante encarece el transporte: es un shock de costos que desplaza la OACP a la izquierda.",
+   "pasos": [
+    "Baja el nivel de los ríos",
+    "Las barcazas cargan menos y hacen más viajes",
+    "Sube el costo del flete por tonelada",
+    "Exportar e importar se vuelve más caro",
+    "Dragado e infraestructura para reducir el riesgo"
+   ],
+   "conceptos": [
+    [
+     "País sin litoral",
+     "No tiene salida al mar: depende de vecinos y ríos para comerciar."
+    ],
+    [
+     "Barrera al desarrollo",
+     "Factor que dificulta crecer, como la geografía."
+    ],
+    [
+     "Costo de transporte",
+     "Parte del costo de exportar que reduce la competitividad."
+    ],
+    [
+     "Cambio climático",
+     "Afecta los caudales de los ríos y la logística."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-oacp"
+   ],
+   "rel": [
+    "corredor-bioceanico",
+    "soja-record"
+   ],
+   "pregunta": {
+    "q": "¿Por qué no tener salida al mar es una barrera al desarrollo?",
+    "opts": [
+     "Porque encarece el transporte y depende de vecinos y ríos",
+     "Porque impide producir alimentos",
+     "Porque prohíbe exportar",
+     "Porque no afecta a nada"
+    ],
+    "ok": 0,
+    "fb": "Los países sin litoral pagan más por transportar sus exportaciones e importaciones, lo que reduce su competitividad."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Armadores y exportadores",
+      "Si el dragado mantiene la navegación."
+     ]
+    ],
+    "pierden": [
+     [
+      "Exportadores en las bajantes",
+      "Fletes más caros y cargas reducidas."
+     ]
+    ],
+    "corto": "La bajante encarece el flete.",
+    "largo": "El dragado y el Corredor Bioceánico reducen la dependencia de un solo camino.",
+    "supuestos": [
+     "Que el dragado se complete con los requisitos ambientales."
+    ],
+    "conclusion": "La geografía es una barrera, pero la infraestructura puede reducirla: Paraguay ya tiene una de las mayores flotas fluviales del mundo."
+   }
+  },
+  {
    "id": "ips-ueno",
    "fecha": "2026-11-07",
    "medio": "ABC Color",
@@ -4371,6 +5542,14 @@
     [
      "2026-10-30",
      "Informa un desempleo de 4,1 % en el tercer trimestre."
+    ],
+    [
+     "2026-05-05",
+     "Informa que el Gini bajó a 0,431 en 2025."
+    ],
+    [
+     "2026-08-07",
+     "Informa una pobreza multidimensional de 13,5 % en 2025."
     ]
    ],
    "enlaces": [
@@ -4751,6 +5930,15 @@
     "tema": "3.4",
     "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
     "fuente": "ABC Color"
+   },
+   {
+    "f": "2026-12-09",
+    "t": "La Reserva Federal de EE.UU. decide su tasa",
+    "d": "La reunión es el 8 y 9 de diciembre. Una suba fortalecería el dólar y encarecería la deuda de países como Paraguay.",
+    "tipo": "Región",
+    "tema": "4.5",
+    "url": "https://www.infobae.com/estados-unidos/2026/10/28/la-reserva-federal-de-estados-unidos-mantuvo-sin-cambios-la-tasa-de-interes-de-referencia/",
+    "fuente": "Infobae"
    }
   ],
   "habituales": [
@@ -5691,5 +6879,582 @@
    }
   ],
   "nota": "Cifras de fuentes oficiales citadas por la prensa. El PIB nominal en dólares no se incluye porque no se pudo confirmar en una fuente oficial."
+ },
+ "desarrollo": {
+  "actualizado": "2026-11-09",
+  "intro": "El desarrollo es más que crecimiento: incluye vivir más y mejor, educarse, tener ingresos suficientes, vivir con igualdad de oportunidades y cuidar el ambiente. Aquí están los principales indicadores de Paraguay, con su fuente.",
+  "bloques": [
+   {
+    "t": "Desarrollo humano",
+    "tema": "4.8",
+    "items": [
+     [
+      "0,756",
+      "Índice de desarrollo humano (2023)",
+      "PNUD, Informe Regional 2025"
+     ],
+     [
+      "Puesto 99",
+      "En el ranking mundial",
+      "PNUD"
+     ],
+     [
+      "0,599",
+      "IDH ajustado por desigualdad (pierde 20,8 %)",
+      "PNUD"
+     ],
+     [
+      "14 años",
+      "Años esperados de escolaridad",
+      "PNUD"
+     ]
+    ],
+    "url": "https://mentu.com.py/2026/04/30/paraguay-avanza-en-desarrollo-humano-aunque-persisten-brechas-de-resiliencia"
+   },
+   {
+    "t": "Pobreza y desigualdad",
+    "tema": "3.4",
+    "items": [
+     [
+      "16,0 %",
+      "Pobreza monetaria (2025)",
+      "INE"
+     ],
+     [
+      "2,4 %",
+      "Pobreza extrema (2025)",
+      "INE"
+     ],
+     [
+      "13,5 %",
+      "Pobreza multidimensional (2025)",
+      "INE"
+     ],
+     [
+      "0,431",
+      "Coeficiente de Gini (2025)",
+      "INE"
+     ]
+    ],
+    "url": "https://www.ine.gov.py/noticias/2974/la-pobreza-multidimensional-en-el-ano-2025-fue-de-135-en-paraguay"
+   },
+   {
+    "t": "Educación",
+    "tema": "3.7",
+    "items": [
+     [
+      "24 %",
+      "Estudiantes con nivel básico en lectura (PISA 2025)",
+      "OCDE, vía Prensa Mercosur"
+     ],
+     [
+      "10 %",
+      "Nivel básico en matemáticas",
+      "OCDE"
+     ],
+     [
+      "352",
+      "Puntaje de lectura (373 en 2022)",
+      "OCDE"
+     ]
+    ],
+    "url": "https://prensamercosur.org/2026/09/12/paraguay-tras-pisa-2025-expertos-advierten-que-el-sistema-educativo-esta-desfasado-y-carece-de-un-plan-claro-de-mejora/"
+   },
+   {
+    "t": "Medio ambiente",
+    "tema": "4.7",
+    "items": [
+     [
+      "44,3 %",
+      "Territorio con cobertura forestal (2022)",
+      "INFONA, vía RDN"
+     ],
+     [
+      "17,7 M ha",
+      "Superficie de bosque",
+      "INFONA"
+     ],
+     [
+      "412.428 ha",
+      "Bosque nativo transformado (2020-2022)",
+      "INFONA"
+     ],
+     [
+      "88 %",
+      "Parte de esa pérdida en el Chaco",
+      "INFONA"
+     ]
+    ],
+    "url": "https://www.rdn.com.py/2025/03/21/paraguay-conserva-443-de-su-territorio-con-cobertura-forestal/"
+   }
+  ],
+  "graficos": [
+   {
+    "t": "Pobreza rural y urbana (2025)",
+    "u": "% de la población",
+    "rows": [
+     [
+      "Monetaria rural",
+      22.1,
+      1
+     ],
+     [
+      "Monetaria urbana",
+      13.6
+     ],
+     [
+      "Multidimensional rural",
+      30.3,
+      1
+     ],
+     [
+      "Multidimensional urbana",
+      6.8
+     ]
+    ],
+    "cap": "El campo concentra más pobreza, sobre todo cuando se miden también educación, salud y servicios."
+   },
+   {
+    "t": "Bosque transformado por departamento (2021-2022)",
+    "u": "hectáreas",
+    "rows": [
+     [
+      "Boquerón",
+      90116,
+      1
+     ],
+     [
+      "Alto Paraguay",
+      78029
+     ],
+     [
+      "Presidente Hayes",
+      28109
+     ],
+     [
+      "Canindeyú",
+      6108
+     ],
+     [
+      "San Pedro",
+      5910
+     ],
+     [
+      "Concepción",
+      5552
+     ]
+    ],
+    "cap": "Los tres departamentos del Chaco concentran casi todo el desmonte."
+   }
+  ],
+  "ods": [
+   [
+    "1",
+    "Fin de la pobreza",
+    "Pobreza monetaria 16,0 % (19 % en 2024)",
+    "mejora"
+   ],
+   [
+    "4",
+    "Educación de calidad",
+    "Solo 24 % alcanza el nivel básico de lectura; el puntaje bajó desde 2022",
+    "empeora"
+   ],
+   [
+    "10",
+    "Reducción de las desigualdades",
+    "Gini 0,431 (0,439 en 2024)",
+    "mejora leve"
+   ],
+   [
+    "8",
+    "Trabajo decente y crecimiento",
+    "Desempleo 4,1 % y crecimiento de 6,6 % en 2025",
+    "mejora"
+   ],
+   [
+    "15",
+    "Vida de ecosistemas terrestres",
+    "Se siguen transformando bosques, sobre todo en el Chaco",
+    "desafío"
+   ],
+   [
+    "6",
+    "Agua limpia y saneamiento",
+    "Sin dato reciente confiable en esta página",
+    "sin dato"
+   ]
+  ],
+  "nota": "No hay un dato reciente y confiable de acceso a agua potable; se agregará cuando se publique."
+ },
+ "mundo": {
+  "actualizado": "2026-11-09",
+  "intro": "Paraguay es una economía pequeña y abierta: lo que pasa con el petróleo, sus vecinos, China o las tasas de Estados Unidos llega rápido a los precios, al dólar y a las exportaciones. Cada tarjeta explica por qué importa y por dónde llega el efecto.",
+  "actores": [
+   {
+    "id": "petroleo",
+    "t": "Petróleo",
+    "sub": "Precio internacional del crudo",
+    "por": "Paraguay importa todos sus combustibles. Su precio llega al transporte, a los alimentos y a la inflación.",
+    "datos": [
+     [
+      "< US$ 97",
+      "Brent al 7 de noviembre"
+     ],
+     [
+      "−16,42 %",
+      "Caída en la primera semana de noviembre"
+     ],
+     [
+      "+48,6 %",
+      "Suba del diésel en Petropar desde febrero"
+     ]
+    ],
+    "canal": [
+     "Cambia el precio del petróleo",
+     "Cambia el costo de los combustibles importados",
+     "Se mueven los costos de transporte y producción (OACP)",
+     "Cambian la inflación y la producción"
+    ],
+    "mirar": "La revisión de precios de Petropar a fin de noviembre.",
+    "diagrama": "da-oa-oacp"
+   },
+   {
+    "id": "brasil",
+    "t": "Brasil",
+    "sub": "Socio en Itaipú y principal inversor",
+    "por": "Compra el 59 % de la maquila, es el principal origen de la inversión extranjera y es socio de Paraguay en Itaipú.",
+    "datos": [
+     [
+      "13,75 %",
+      "Tasa Selic (4 nov 2026)"
+     ],
+     [
+      "2,1 %",
+      "Crecimiento proyectado 2026 (CEPAL)"
+     ],
+     [
+      "US$ 2.608 M",
+      "Inversión brasileña acumulada en Paraguay"
+     ],
+     [
+      "59 %",
+      "Parte de Brasil en las exportaciones de maquila"
+     ]
+    ],
+    "canal": [
+     "Cambia la economía o la moneda de Brasil",
+     "Cambia su demanda de productos paraguayos e inversiones",
+     "Se mueven las exportaciones netas y la inversión",
+     "Cambian la DA y el empleo en Paraguay"
+    ],
+    "mirar": "La decisión de tasa del 9 de diciembre.",
+    "diagrama": "da-oa-da"
+   },
+   {
+    "id": "argentina",
+    "t": "Argentina",
+    "sub": "Principal comprador de soja",
+    "por": "Compra el 86 % de la soja paraguaya en grano, es socia en Yacyretá y es el segundo origen de remesas.",
+    "datos": [
+     [
+      "86 %",
+      "Parte de la soja paraguaya enviada a Argentina"
+     ],
+     [
+      "33,4 %",
+      "Inflación interanual (septiembre)"
+     ],
+     [
+      "1,9 %",
+      "Crecimiento proyectado 2026 (CEPAL)"
+     ],
+     [
+      "US$ 51,7 M",
+      "Remesas desde Argentina (1.er trim. 2026)"
+     ]
+    ],
+    "canal": [
+     "Cambian el tipo de cambio y los precios argentinos",
+     "Cambian las compras de soja y el comercio de frontera",
+     "Se mueven las exportaciones y el consumo en las ciudades fronterizas",
+     "Efecto en la DA paraguaya"
+    ],
+    "mirar": "La evolución del peso y del comercio de frontera.",
+    "diagrama": "exportaciones"
+   },
+   {
+    "id": "china",
+    "t": "China y la soja",
+    "sub": "El gran comprador mundial",
+    "por": "China es el mayor comprador de soja del mundo: sus compras mueven el precio internacional que reciben los productores paraguayos, aunque Paraguay no le venda directamente (mantiene relaciones diplomáticas con Taiwán).",
+    "datos": [
+     [
+      "US$ 489,52",
+      "Precio máximo de la soja en Chicago en casi tres años (10 sep)"
+     ],
+     [
+      "136.000 t",
+      "Nueva compra china de soja de EE.UU. (9 nov)"
+     ],
+     [
+      "US$ 209,6 M",
+      "Carne bovina vendida a Taiwán (ene-oct)"
+     ]
+    ],
+    "canal": [
+     "China compra más o menos soja",
+     "Sube o baja el precio internacional",
+     "Cambia el ingreso de los productores paraguayos",
+     "Cambian las exportaciones, las divisas y el tipo de cambio"
+    ],
+    "mirar": "El informe del USDA sobre cosechas y las compras chinas.",
+    "diagrama": "exportaciones"
+   },
+   {
+    "id": "eeuu",
+    "t": "Estados Unidos",
+    "sub": "Tasas de interés y dólar",
+    "por": "La tasa de la Reserva Federal mueve el valor del dólar y el costo de la deuda en todo el mundo. Además, es el segundo comprador de carne paraguaya.",
+    "datos": [
+     [
+      "3,75-4 %",
+      "Tasa de la Reserva Federal (28 oct)"
+     ],
+     [
+      "3,7 %",
+      "Inflación de EE.UU. (septiembre)"
+     ],
+     [
+      "US$ 315,8 M",
+      "Carne bovina vendida a EE.UU. (ene-oct)"
+     ]
+    ],
+    "canal": [
+     "Suben las tasas en EE.UU.",
+     "Los capitales prefieren activos en dólares",
+     "El dólar se fortalece y sube el costo de endeudarse",
+     "Presión sobre el guaraní y el riesgo país"
+    ],
+    "mirar": "La reunión de la Reserva Federal del 8 y 9 de diciembre.",
+    "diagrama": "tipo-cambio"
+   },
+   {
+    "id": "espana",
+    "t": "España",
+    "sub": "Principal origen de remesas",
+    "por": "Más de la mitad de las remesas que reciben las familias paraguayas viene de España.",
+    "datos": [
+     [
+      "US$ 180,6 M",
+      "Remesas desde España (1.er trim. 2026)"
+     ],
+     [
+      "57 %",
+      "Parte de España en las remesas"
+     ]
+    ],
+    "canal": [
+     "Cambian el empleo y los salarios en España",
+     "Cambian las remesas",
+     "Cambia el ingreso de las familias que las reciben",
+     "Efecto en el consumo (C)"
+    ],
+    "mirar": "El empleo en España.",
+    "diagrama": "da-oa-da"
+   }
+  ],
+  "graficos": [
+   {
+    "t": "De dónde viene la inversión extranjera (saldo 2025)",
+    "u": "US$ M",
+    "rows": [
+     [
+      "Brasil",
+      2608,
+      1
+     ],
+     [
+      "Países Bajos",
+      2194
+     ],
+     [
+      "Estados Unidos",
+      2191
+     ],
+     [
+      "Uruguay",
+      1358
+     ],
+     [
+      "Islas Caimán",
+      1077
+     ]
+    ]
+   },
+   {
+    "t": "De dónde vienen las remesas (1.er trim. 2026)",
+    "u": "US$ M",
+    "rows": [
+     [
+      "España",
+      180.6,
+      1
+     ],
+     [
+      "Argentina",
+      51.7
+     ],
+     [
+      "Estados Unidos",
+      35.2
+     ],
+     [
+      "Brasil",
+      10.6
+     ],
+     [
+      "Francia",
+      8.1
+     ]
+    ]
+   }
+  ]
+ },
+ "mapa": {
+  "nota": "Datos del INE (EPHC 2025) para 16 departamentos: la encuesta no incluye Boquerón ni Alto Paraguay. El INE no publica la tasa de desempleo por departamento.",
+  "capas": [
+   {
+    "id": "pobreza",
+    "t": "Pobreza monetaria 2025",
+    "u": "%",
+    "fuente": "INE, marzo 2026",
+    "url": "https://www.ine.gov.py/noticias/2806/en-paraguay-la-pobreza-monetaria-total-se-ubico-en-160-en-el-ano-2025",
+    "v": {
+     "Concepción": 28.7,
+     "Caazapá": 25.1,
+     "San Pedro": 24.8,
+     "Guairá": 24.3,
+     "Paraguarí": 23.0,
+     "Caaguazú": 22.9,
+     "Itapúa": 22.3,
+     "Canindeyú": 21.7,
+     "Misiones": 20.5,
+     "Ñeembucú": 16.8,
+     "Cordillera": 16.2,
+     "Alto Paraná": 15.1,
+     "Amambay": 14.1,
+     "Presidente Hayes": 12.6,
+     "Central": 9.9,
+     "Asunción": 6.0
+    }
+   },
+   {
+    "id": "extrema",
+    "t": "Pobreza extrema 2025",
+    "u": "%",
+    "fuente": "INE, marzo 2026",
+    "url": "https://www.ine.gov.py/noticias/2806/en-paraguay-la-pobreza-monetaria-total-se-ubico-en-160-en-el-ano-2025",
+    "v": {
+     "Concepción": 6.7,
+     "San Pedro": 5.8,
+     "Canindeyú": 5.1,
+     "Caazapá": 5.0,
+     "Itapúa": 4.3,
+     "Caaguazú": 4.2,
+     "Paraguarí": 4.0,
+     "Guairá": 3.1,
+     "Cordillera": 2.2,
+     "Amambay": 1.7,
+     "Presidente Hayes": 1.7,
+     "Ñeembucú": 1.4,
+     "Misiones": 1.2,
+     "Alto Paraná": 1.1,
+     "Central": 1.0,
+     "Asunción": 0.1
+    }
+   },
+   {
+    "id": "multi",
+    "t": "Pobreza multidimensional 2025",
+    "u": "%",
+    "fuente": "INE, agosto 2026",
+    "url": "https://www.ine.gov.py/noticias/2974/la-pobreza-multidimensional-en-el-ano-2025-fue-de-135-en-paraguay",
+    "v": {
+     "San Pedro": 28.1,
+     "Caazapá": 27.1,
+     "Concepción": 23.9,
+     "Canindeyú": 23.6,
+     "Paraguarí": 22.4,
+     "Caaguazú": 22.1,
+     "Guairá": 19.0,
+     "Presidente Hayes": 18.5,
+     "Itapúa": 16.3,
+     "Cordillera": 15.3,
+     "Amambay": 13.5,
+     "Alto Paraná": 12.9,
+     "Misiones": 12.7,
+     "Ñeembucú": 9.4,
+     "Central": 6.3,
+     "Asunción": 1.8
+    }
+   },
+   {
+    "id": "gini",
+    "t": "Desigualdad (Gini) 2025",
+    "u": "",
+    "fuente": "INE, mayo 2026 (solo los departamentos publicados)",
+    "url": "https://www.ine.gov.py/noticias/2869/el-ine-presenta-el-analisis-sobre-la-desigualdad-de-ingresos-en-paraguay",
+    "v": {
+     "Caaguazú": 0.605,
+     "Canindeyú": 0.545,
+     "Ñeembucú": 0.366,
+     "Cordillera": 0.362,
+     "Central": 0.359
+    }
+   },
+   {
+    "id": "bosque",
+    "t": "Bosque transformado 2021-2022",
+    "u": "ha",
+    "fuente": "INFONA, vía RDN (marzo 2025)",
+    "url": "https://www.rdn.com.py/2025/03/21/paraguay-conserva-443-de-su-territorio-con-cobertura-forestal/",
+    "v": {
+     "Boquerón": 90116,
+     "Alto Paraguay": 78029,
+     "Presidente Hayes": 28109,
+     "Canindeyú": 6108,
+     "San Pedro": 5910,
+     "Concepción": 5552
+    }
+   },
+   {
+    "id": "maquila",
+    "t": "Empresas maquiladoras",
+    "u": "% de las empresas",
+    "fuente": "CNIME, vía La República (oct 2026)",
+    "url": "https://www.larepublica.co/globoeconomia/maquila-exporta-us-1-148-millones-y-genera-un-superavit-de-us-543-millones-en-paraguay-4504329",
+    "v": {
+     "Alto Paraná": 49,
+     "Central": 28,
+     "Asunción": 8,
+     "Amambay": 7
+    }
+   }
+  ],
+  "notas_dep": {
+   "Alto Paraná": "Principal zona sojera y de maquila; Ciudad del Este, comercio de frontera.",
+   "Itapúa": "Gran productor de soja; frontera con Argentina (Encarnación).",
+   "Canindeyú": "Zona sojera; mayor desigualdad junto con Caaguazú.",
+   "Boquerón": "Chaco central: ganadería y colonias; mayor desmonte 2021-2022.",
+   "Alto Paraguay": "Norte del Chaco: puente bioceánico de Carmelo Peralta.",
+   "Presidente Hayes": "Chaco: ganadería; Corredor Bioceánico.",
+   "Central": "Mayor población y actividad urbana, menor pobreza tras Asunción.",
+   "Asunción": "Capital; la menor pobreza del país.",
+   "Concepción": "La mayor pobreza monetaria (28,7 %).",
+   "San Pedro": "La mayor pobreza multidimensional (28,1 %).",
+   "Caazapá": "Alta pobreza en todas las mediciones.",
+   "Amambay": "Frontera con Brasil (Pedro Juan Caballero); maquila."
+  }
  }
 }

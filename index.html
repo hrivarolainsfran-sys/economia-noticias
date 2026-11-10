@@ -341,6 +341,57 @@ a.ind:hover b{text-decoration:underline;text-decoration-color:var(--gold-2)}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--paper);padding:9px 16px;border-radius:999px;font-size:.9rem;z-index:20}
 .print-only{display:none}
 
+/* ---------- mapa ---------- */
+:root{--seq-lo:#EEF2F8;--seq-hi:#16284F}
+:root[data-theme="dark"]{--seq-lo:#1E2A42;--seq-hi:#E2B55C}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--seq-lo:#1E2A42;--seq-hi:#E2B55C}}
+.map-wrap{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:24px;align-items:start;padding-bottom:40px}
+.map-box{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:14px;display:grid;gap:10px}
+.map-box svg{width:100%;height:auto;display:block}
+.map-box .tile{cursor:pointer}
+.map-box .tile:focus-visible rect,.map-box .tile.sel rect{stroke:var(--gold-2);stroke-width:3}
+.legend{display:flex;align-items:center;gap:8px;font-size:.8rem;color:var(--muted)}
+.legend i{flex:1;height:10px;border-radius:5px;background:linear-gradient(90deg,var(--seq-lo),var(--seq-hi));max-width:220px}
+.rank{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.rank li{display:grid;grid-template-columns:24px 1fr auto;gap:8px;font-size:.9rem;padding:4px 6px;border-radius:6px;cursor:pointer}
+.rank li:hover,.rank li.sel{background:var(--gold-soft)}
+.rank b{font-variant-numeric:tabular-nums}
+.dep-card{background:var(--navy);color:var(--navy-ink);border-radius:var(--r);padding:16px;display:grid;gap:8px}
+.dep-card h3{font-size:1.5rem}
+.dep-card .rows div{display:flex;justify-content:space-between;gap:10px;border-top:1px solid rgba(255,255,255,.15);padding:5px 0;font-size:.9rem}
+.dep-card .rows b{color:var(--gold-2);font-variant-numeric:tabular-nums}
+
+/* ---------- mundo ---------- */
+.world{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:16px;padding-bottom:20px}
+.wcard{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);overflow:hidden;display:grid;align-content:start}
+.wcard .top{background:var(--navy);color:var(--navy-ink);padding:14px 16px}
+.wcard .top h3{font-size:1.45rem}
+.wcard .top small{opacity:.8}
+.wcard .bd{padding:14px 16px;display:grid;gap:10px}
+.chain-s{list-style:none;margin:0;padding:0;display:grid;gap:4px;counter-reset:c}
+.chain-s li{counter-increment:c;font-size:.88rem;display:grid;grid-template-columns:22px 1fr;gap:6px}
+.chain-s li::before{content:counter(c);font-family:var(--f-display);font-weight:700;color:var(--gold)}
+
+/* ---------- ODS ---------- */
+.ods{display:grid;gap:8px;margin-bottom:24px}
+.ods div{display:grid;grid-template-columns:52px 1fr auto;gap:12px;align-items:center;background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:10px 12px}
+.ods .n{font-family:var(--f-display);font-weight:800;font-size:1.4rem;color:var(--gold)}
+.ods small{display:block;color:var(--ink-2);font-size:.86rem}
+.chipst{font-size:.75rem;font-weight:700;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.chipst.ok{background:var(--ok-bg);color:var(--ok)}.chipst.bad{background:var(--bad-bg);color:var(--bad)}.chipst.mid{background:var(--gold-soft);color:var(--gold)}.chipst.nd{background:var(--paper);color:var(--muted)}
+
+/* ---------- simulador ---------- */
+.sim{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:24px;align-items:start;padding-bottom:40px}
+.sim .ctrl{border-top:0;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r)}
+.scen{display:flex;flex-wrap:wrap;gap:6px}
+.kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.kpi{background:var(--sheet);border:1px solid var(--rule);border-radius:8px;padding:10px 12px;display:grid;gap:2px}
+.kpi span{font-size:.8rem;color:var(--muted);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.kpi b{font-family:var(--f-math);font-size:1.6rem;font-weight:600;font-variant-numeric:tabular-nums lining-nums}
+.kpi small{font-size:.78rem}
+.kpi.ok{border-left:4px solid var(--ok)}.kpi.bad{border-left:4px solid var(--bad)}
+@media (max-width:860px){ .map-wrap,.sim{grid-template-columns:minmax(0,1fr)} }
+
 /* ---------- calendario ---------- */
 .cal{list-style:none;margin:0 0 26px;padding:0;display:grid;gap:10px}
 .cal li{display:grid;grid-template-columns:78px 1fr;gap:16px;align-items:start;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:12px 14px}
@@ -457,6 +508,10 @@ footer .wrap{display:grid;gap:6px}
       <a href="#historias" data-nav="historias">Historias</a>
       <a href="#calendario" data-nav="calendario">Calendario</a>
       <a href="#paraguay" data-nav="paraguay">Paraguay en datos</a>
+      <a href="#mapa" data-nav="mapa">Mapa</a>
+      <a href="#mundo" data-nav="mundo">El mundo</a>
+      <a href="#desarrollo" data-nav="desarrollo">Desarrollo</a>
+      <a href="#simulador" data-nav="simulador">Simulador</a>
       <a href="#indicadores" data-nav="indicadores">Indicadores</a>
       <a href="#sectores" data-nav="sectores">Sectores</a>
       <a href="#instituciones" data-nav="instituciones">Instituciones</a>
@@ -487,7 +542,7 @@ footer .wrap{display:grid;gap:6px}
 /* =====================================================================
    1. DATOS: noticias, indicadores, región y semanas viven en datos.json
    ===================================================================== */
-let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null;
+let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null;
 
 const KC = { escasez:'Escasez', eleccion:'Elección', eficiencia:'Eficiencia', equidad:'Equidad', bienestar:'Bienestar económico', sostenibilidad:'Sostenibilidad', cambio:'Cambio', interdependencia:'Interdependencia', intervencion:'Intervención' };
 const UNI = { micro:'Microeconomía', macro:'Macroeconomía', global:'Economía global' };
@@ -542,7 +597,19 @@ const LIB = {
   'lorenz': { t:'Curva de Lorenz', u:'macro', tema:'3.4', fig:{ k:'lorenz' },
     que:'Cómo se reparte el ingreso entre la población y cómo lo cambian las transferencias.',
     lee:['Eje horizontal: % acumulado de la población, de menor a mayor ingreso.','Eje vertical: % acumulado del ingreso que recibe esa población.','La diagonal es la igualdad perfecta.','Cuanto más se aleja la curva de la diagonal, más desigualdad (mayor coeficiente de Gini).'],
-    err:['Confundir pobreza (ingresos bajos) con desigualdad (cómo se reparte el ingreso).'] }
+    err:['Confundir pobreza (ingresos bajos) con desigualdad (cómo se reparte el ingreso).'] },
+  'externalidad': { t:'Externalidad negativa de la producción', u:'micro', tema:'2.8', fig:{ k:'externalidad', t:0 },
+    que:'Por qué el mercado produce de más cuando una actividad daña a terceros, y cómo un impuesto puede corregirlo.',
+    lee:['La demanda refleja el beneficio marginal privado y social (D = BMP = BMS).','La oferta refleja el costo marginal privado (CMP). El costo marginal social (CMS) es mayor porque incluye el daño a terceros.','El mercado produce Qₘ (donde D corta al CMP), pero lo óptimo para la sociedad es Qₒ (donde D corta al CMS).','El triángulo entre Qₒ y Qₘ es la pérdida de bienestar. Un impuesto igual al daño (impuesto pigouviano) lleva la producción al óptimo.'],
+    err:['Dibujar el CMS por debajo del CMP: en una externalidad negativa está por encima.','Ubicar mal el triángulo de pérdida: va entre Qₒ y Qₘ, apuntando al óptimo.'] },
+  'monopolio': { t:'Monopolio y regulación de precios', u:'micro', tema:'2.11', fig:{ k:'monopolio' },
+    que:'Por qué un monopolio produce menos y cobra más que un mercado competitivo, y cómo lo corrige un precio regulado.',
+    lee:['El monopolio enfrenta toda la demanda (D) y su ingreso marginal (IMg) está por debajo de ella.','Maximiza su ganancia donde IMg = CMg: produce Qₘ y cobra Pₘ, el precio que marca la demanda.','En competencia se produciría Q꜀, donde la demanda corta al costo marginal.','El triángulo es la pérdida de bienestar. Un precio máximo regulado hace que se produzca más y se pierda menos.'],
+    err:['Leer el precio sobre el IMg: el precio sale de la curva de demanda.','Olvidar que un monopolio natural puede ser la forma más barata de abastecer un mercado.'] },
+  'politicas-oferta': { t:'Políticas de oferta: aumento del PIB potencial', u:'macro', tema:'3.7', fig:{ k:'oalp', s:40 },
+    que:'Cómo la infraestructura, la educación y las reformas aumentan la capacidad productiva del país.',
+    lee:['La OALP marca el PIB potencial: lo máximo que la economía produce de forma sostenible.','La infraestructura, la educación y la tecnología reducen costos y aumentan la productividad.','La OACP y la OALP se desplazan a la derecha: más producción con menos presión sobre los precios.','Los efectos tardan años y, mientras se construyen las obras, el gasto también aumenta la DA.'],
+    err:['Confundir política de oferta con política de demanda: aquí se mueve la oferta, no la DA.','Esperar efectos inmediatos: la educación tarda años en mejorar la productividad.'] }
 };
 
 /* =====================================================================
@@ -575,7 +642,7 @@ const saveProg = () => store.set('enp-prog', PROG);
    ===================================================================== */
 let FIGN = 0;
 const M = 140 / 180;
-function shifts(f) { if (f.sD != null || f.sO != null) return [f.sD || 0, f.sO || 0]; const s = 46 * (f.dir || 1); return f.mueve === 'D' ? [s, 0] : f.mueve === 'O' ? [0, s] : [0, 0]; }
+function shifts(f) { if (f.k === 'oalp') return [0, f.s == null ? 40 : f.s]; if (f.sD != null || f.sO != null) return [f.sD || 0, f.sO || 0]; const s = 46 * (f.dir || 1); return f.mueve === 'D' ? [s, 0] : f.mueve === 'O' ? [0, s] : [0, 0]; }
 function fig(f) {
   if (!f) return '';
   const id = 'f' + (++FIGN);
@@ -591,10 +658,11 @@ function fig(f) {
   const seg = (fy, k, col) => { let x1 = 70 + k; if (x1 < ox + 8) x1 = ox + 8; const x2 = 230 + k; return L(x1, fy(x1, k), x2, fy(x2, k), col, 2.6); };
   const arrow = (x1, x2, y) => Math.abs(x2 - x1) < 8 ? '' : `<line x1="${x1.toFixed(1)}" y1="${y}" x2="${x2.toFixed(1)}" y2="${y}" style="stroke:var(--k-new)" stroke-width="2" marker-end="url(#${id}a)"/>`;
 
-  if (f.k === 'mercado' || f.k === 'macro' || f.k === 'divisas') {
-    const AX = { mercado:['Precio', 'Cantidad'], macro:['Nivel general de precios', 'PIB real'], divisas:['Valor del guaraní (US$)', 'Cantidad de guaraníes'] }[f.k];
-    const CV = { mercado:['D', 'O'], macro:['DA', 'OACP'], divisas:['D', 'O'] }[f.k];
-    const PT = { mercado:['P', 'Q'], macro:['NP', 'Y'], divisas:['TC', 'Q'] }[f.k];
+  if (f.k === 'mercado' || f.k === 'macro' || f.k === 'divisas' || f.k === 'oalp') {
+    const kk = f.k === 'oalp' ? 'macro' : f.k;
+    const AX = { mercado:['Precio', 'Cantidad'], macro:['Nivel general de precios', 'PIB real'], divisas:['Valor del guaraní (US$)', 'Cantidad de guaraníes'] }[kk];
+    const CV = { mercado:['D', 'O'], macro:['DA', 'OACP'], divisas:['D', 'O'] }[kk];
+    const PT = { mercado:['P', 'Q'], macro:['NP', 'Y'], divisas:['TC', 'Q'] }[kk];
     const [sD, sO] = shifts(f), moved = sD || sO;
     let s = open() + axes(AX[0], AX[1]);
     s += seg(Dy, 0, 'var(--k-d)') + seg(Oy, 0, 'var(--k-s)');
@@ -610,6 +678,37 @@ function fig(f) {
     });
     if (sD) { const x0 = 70 + 30 / m; s += arrow(x0 + 5 * Math.sign(sD), x0 + sD * 0.85, 70); }
     if (sO) { const x0 = 70 + 96 / m; s += arrow(x0 + 5 * Math.sign(sO), x0 + sO * 0.85, 84); }
+    if (f.k === 'oalp') {
+      s += L(160, 22, 160, oy, 'var(--ink-2)', 2, 1) + T(160, 20, 'OALP₁', 'var(--ink-2)', 'middle', 11);
+      if (sO) s += L(E2[0], 22, E2[0], oy, 'var(--k-new)', 2.2) + T(E2[0] + 2, 34, 'OALP₂', 'var(--k-new)', 'start', 11);
+    }
+    return s + '</svg>';
+  }
+  if (f.k === 'externalidad') {
+    const e = 40, t = Math.max(0, Math.min(e, f.t || 0)), Sy = (x, k) => 180 - k - (x - 70) * m;
+    const eq = k => [70 + (140 - k) / (2 * m), 40 + (140 - k) / 2];
+    const [xo, yo] = eq(e), [xq, yq] = eq(t), [xm, ym] = eq(0);
+    let s = open() + axes('Precio / costo', 'Cantidad');
+    if (xq - xo > 1) s += `<polygon points="${xo.toFixed(1)},${yo.toFixed(1)} ${xq.toFixed(1)},${Dy(xq, 0).toFixed(1)} ${xq.toFixed(1)},${Sy(xq, e).toFixed(1)}" style="fill:var(--f-dwl)"/>`;
+    s += seg(Dy, 0, 'var(--k-d)') + L(70, Sy(70, 0), 230, Sy(230, 0), 'var(--k-s)', 2.6);
+    const x1 = 70 + (180 - e - 22) / m; s += L(Math.max(70, 70), Math.min(Sy(70, e), 178), 230, Sy(230, e), 'var(--ink)', 2.4);
+    if (t > 0 && t < e) s += L(70, Sy(70, t), 230, Sy(230, t), 'var(--k-new)', 2, 1);
+    s += T(234, Dy(230, 0) + 5, 'D = BMS', 'var(--k-d)', 'start', 11) + T(234, Sy(230, 0) + 5, 'CMP', 'var(--k-s)', 'start', 11) + T(234, Sy(230, e) + 4, 'CMS', 'var(--ink)', 'start', 11);
+    if (t > 0 && t < e) s += T(234, Sy(230, t) - 2, '+ impuesto', 'var(--k-new)', 'start', 10, 'var(--f-body)');
+    [[xm, ym, 'ₘ'], [xo, yo, 'ₒ']].forEach(([x, y, i]) => { s += L(ox, y, x, y, 'var(--muted)', 1, 1) + L(x, y, x, oy, 'var(--muted)', 1, 1) + dot(x, y) + T(ox - 5, y + 4, 'P' + i, 'var(--ink)', 'end', 12) + T(x + (i === 'ₒ' ? -8 : 8), oy + 14, 'Q' + i, 'var(--ink)', 'middle', 12); });
+    if (t > 0 && t < e) s += dot(xq, yq);
+    return s + '</svg>';
+  }
+  if (f.k === 'monopolio') {
+    const Dm = x => 30 + (x - 50) * 0.65, IM = x => 30 + (x - 50) * 1.3, cm = 150, qm = 50 + 120 / 1.3, pm = Dm(qm), qc = 50 + 120 / 0.65;
+    const pc = f.cap == null ? null : Math.max(pm, Math.min(cm, f.cap)), q = pc == null ? qm : 50 + (pc - 30) / 0.65, p = pc == null ? pm : pc;
+    let s = open() + axes('Precio', 'Cantidad');
+    if (qc - q > 1) s += `<polygon points="${q.toFixed(1)},${Dm(q).toFixed(1)} ${q.toFixed(1)},${cm} ${qc.toFixed(1)},${cm}" style="fill:var(--f-dwl)"/>`;
+    s += L(50, Dm(50), 270, Dm(270), 'var(--k-d)', 2.6) + L(50, IM(50), 168, IM(168), 'var(--k-s)', 2.2, 1) + L(ox, cm, W - 14, cm, 'var(--ink)', 2.2);
+    s += T(272, Dm(270) - 4, 'D', 'var(--k-d)', 'end') + T(170, IM(168) + 2, 'IMg', 'var(--k-s)', 'start', 11) + T(W - 14, cm - 6, 'CMg = CMe', 'var(--ink)', 'end', 11);
+    if (pc != null && pc > pm + 0.5) s += L(ox, pc, q, pc, 'var(--gold)', 2.2) + T(ox + 4, pc - 4, 'precio máximo', 'var(--gold)', 'start', 10, 'var(--f-body)');
+    s += L(ox, p, q, p, 'var(--muted)', 1, 1) + L(q, p, q, oy, 'var(--muted)', 1, 1) + dot(q, p) + T(ox - 5, p + 4, pc != null && pc > pm + 0.5 ? 'Pᵣ' : 'Pₘ', 'var(--ink)', 'end', 12) + T(q, oy + 14, pc != null && pc > pm + 0.5 ? 'Qᵣ' : 'Qₘ', 'var(--ink)', 'middle', 12);
+    s += L(qc, cm, qc, oy, 'var(--muted)', 1, 1) + T(qc, oy + 14, 'Q꜀', 'var(--ink)', 'middle', 12) + T(ox - 5, cm + 4, 'P꜀', 'var(--ink)', 'end', 12);
     return s + '</svg>';
   }
   if (f.k === 'arancel') {
@@ -1102,6 +1201,141 @@ function renderPais() {
   </div>`;
 }
 
+/* Mapa por departamentos (mapa esquemático de mosaicos) */
+const DEPTS = [['Alto Paraguay','A. Paraguay',0,0],['Concepción','Concepción',2,0],['Amambay','Amambay',3,0],['Boquerón','Boquerón',0,1],['Presidente Hayes','Pte. Hayes',1,1],['San Pedro','San Pedro',2,1],['Canindeyú','Canindeyú',3,1],['Asunción','Asunción',1,2],['Cordillera','Cordillera',2,2],['Caaguazú','Caaguazú',3,2],['Alto Paraná','Alto Paraná',4,2],['Central','Central',1,3],['Paraguarí','Paraguarí',2,3],['Guairá','Guairá',3,3],['Ñeembucú','Ñeembucú',1,4],['Misiones','Misiones',2,4],['Caazapá','Caazapá',3,4],['Itapúa','Itapúa',4,4]];
+let MAPST = { capa: 'pobreza', dep: 'Concepción' };
+const fmtCapa = (c, v) => v == null ? 's/d' : c.u === '' ? num(v, 3) : c.u === 'ha' ? num(v, 0) + ' ha' : num(v, 1) + (c.u.startsWith('%') ? ' %' : ' ' + c.u);
+function mapSVG(c) {
+  const vals = Object.values(c.v), lo = Math.min(...vals), hi = Math.max(...vals), TW = 92, TH = 62, G = 6;
+  let s = `<svg viewBox="0 0 ${5 * (TW + G)} ${5 * (TH + G) + 18}" role="img" aria-label="Mapa de ${esc(c.t)} por departamento">`;
+  s += `<text x="${(TW + G) * 0.5}" y="${5 * (TH + G) + 12}" text-anchor="middle" font-size="11" style="fill:var(--muted);font-family:var(--f-display);letter-spacing:.08em">CHACO</text><text x="${(TW + G) * 3}" y="${5 * (TH + G) + 12}" text-anchor="middle" font-size="11" style="fill:var(--muted);font-family:var(--f-display);letter-spacing:.08em">REGIÓN ORIENTAL</text>`;
+  DEPTS.forEach(([n, sh, cx, cy]) => {
+    const v = c.v[n], x = cx * (TW + G), y = cy * (TH + G), r = v == null ? null : (hi === lo ? 1 : (v - lo) / (hi - lo)), pct = r == null ? 0 : Math.round(15 + r * 85);
+    const fill = v == null ? 'var(--paper)' : `color-mix(in srgb, var(--seq-hi) ${pct}%, var(--seq-lo))`, txt = r != null && r > 0.55 ? 'var(--paper)' : 'var(--ink)';
+    s += `<g class="tile${MAPST.dep === n ? ' sel' : ''}" data-dep="${esc(n)}" tabindex="0" role="button" aria-label="${esc(n)}: ${esc(fmtCapa(c, v))}"><rect x="${x}" y="${y}" width="${TW}" height="${TH}" rx="7" style="fill:${fill};stroke:var(--rule)"${v == null ? ' stroke-dasharray="4 3"' : ''}/>`;
+    s += `<text x="${x + 8}" y="${y + 18}" font-size="11.5" font-weight="700" style="fill:${v == null ? 'var(--muted)' : txt};font-family:var(--f-body)">${esc(sh)}</text>`;
+    s += `<text x="${x + 8}" y="${y + 46}" font-size="${c.u === 'ha' ? 13 : 17}" style="fill:${v == null ? 'var(--muted)' : txt};font-family:var(--f-math)">${esc(fmtCapa(c, v))}</text></g>`;
+  });
+  return s + '</svg>';
+}
+function renderMapa() {
+  if (!MAPA) { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">Todavía no hay datos del mapa.</div></div>'; return; }
+  const c = MAPA.capas.find(x => x.id === MAPST.capa) || MAPA.capas[0], rank = Object.entries(c.v).sort((a, b) => b[1] - a[1]), dep = MAPST.dep;
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Territorio</div><h1>Mapa por departamentos</h1><p class="lede">Cómo cambian la pobreza, la desigualdad, el desmonte y la industria de un departamento a otro. Elige un indicador y toca un departamento para ver todos sus datos. Es un mapa esquemático: cada cuadro es un departamento ubicado en su región.</p></div></div>
+    <div class="filters" role="group" aria-label="Indicador">${MAPA.capas.map(x => `<button type="button" class="chip" data-capa="${x.id}" aria-pressed="${x.id === c.id}">${esc(x.t)}</button>`).join('')}</div>
+    <div class="map-wrap">
+      <div class="map-box">${mapSVG(c)}
+        <div class="legend"><span>${esc(fmtCapa(c, Math.min(...Object.values(c.v))))}</span><i></i><span>${esc(fmtCapa(c, Math.max(...Object.values(c.v))))}</span><span>· Cuadro punteado: sin dato</span></div>
+        <p class="note">Fuente: <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.fuente)}</a>. ${esc(MAPA.nota)}</p></div>
+      <div class="col" style="gap:16px">
+        <div class="dep-card" id="depcard"></div>
+        <div class="block"><h3>${esc(c.t)}: de mayor a menor</h3><ol class="rank">${rank.map(([n, v], i) => `<li data-dep="${esc(n)}" class="${n === dep ? 'sel' : ''}"><span class="note">${i + 1}</span><span>${esc(n)}</span><b>${esc(fmtCapa(c, v))}</b></li>`).join('')}</ol></div>
+      </div>
+    </div></div>`;
+  const showDep = n => {
+    MAPST.dep = n;
+    document.querySelectorAll('.tile').forEach(t => t.classList.toggle('sel', t.dataset.dep === n));
+    document.querySelectorAll('.rank li').forEach(t => t.classList.toggle('sel', t.dataset.dep === n));
+    $('#depcard').innerHTML = `<div class="eyebrow" style="color:var(--gold-2)">Departamento</div><h3>${esc(n)}</h3>${MAPA.notas_dep && MAPA.notas_dep[n] ? `<p style="opacity:.85;font-size:.92rem">${esc(MAPA.notas_dep[n])}</p>` : ''}
+      <div class="rows">${MAPA.capas.map(x => `<div><span>${esc(x.t)}</span><b>${esc(fmtCapa(x, x.v[n]))}</b></div>`).join('')}</div>`;
+  };
+  document.querySelectorAll('[data-capa]').forEach(b => b.onclick = () => { MAPST.capa = b.dataset.capa; renderMapa(); });
+  document.querySelectorAll('.tile, .rank li').forEach(t => { t.onclick = () => showDep(t.dataset.dep); t.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showDep(t.dataset.dep); } }; });
+  showDep(dep);
+}
+
+/* El mundo y Paraguay */
+function renderMundo() {
+  if (!MUNDO) { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">Todavía no hay datos.</div></div>'; return; }
+  const cal = (CAL && CAL.fechas || []).filter(e => e.tipo === 'Región' && e.f >= hoyISO());
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Contexto internacional</div><h1>El mundo y Paraguay</h1><p class="lede">${esc(MUNDO.intro)}</p></div></div>
+    <div class="world">${MUNDO.actores.map(a => { const ns = SORTED.filter(n => (n.mundo || []).includes(a.id)).slice(0, 3), D = LIB[a.diagrama]; return `<section class="wcard" id="w-${a.id}">
+      <div class="top"><h3>${esc(a.t)}</h3><small>${esc(a.sub)}</small></div>
+      <div class="bd"><p style="font-size:.95rem">${esc(a.por)}</p>
+        <div class="minis">${a.datos.map(([v, l]) => `<div class="mini-stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join('')}</div>
+        <div><p class="note" style="margin-bottom:4px"><b>Cómo llega el efecto a Paraguay</b></p><ol class="chain-s">${a.canal.map(c => `<li><span>${esc(c)}</span></li>`).join('')}</ol></div>
+        <p class="callout" style="font-size:.86rem"><b>Qué mirar:</b> ${esc(a.mirar)}</p>
+        ${D ? `<a class="more" href="#d-${a.diagrama}">Diagrama: ${esc(D.t)} →</a>` : ''}
+        ${ns.length ? `<div class="rel">${ns.map(n => `<a href="#n-${n.id}">${esc(n.titulo)}<small>${esc(n.medio)} · ${fdate(n.fecha)}</small></a>`).join('')}</div>` : ''}
+      </div></section>`; }).join('')}</div>
+    ${cal.length ? `<h2 style="margin:10px 0 12px">Próximas decisiones en el exterior</h2><ol class="cal">${cal.map(e => calItem(e)).join('')}</ol>` : ''}
+    <div class="charts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr))">${(MUNDO.graficos || []).map(g => `<section class="chart"><div class="top"><h3>${esc(g.t)}</h3></div>${fig({ k: 'barras', u: g.u, rows: g.rows })}</section>`).join('')}</div>
+    <p class="note" style="padding-bottom:40px">Datos al ${fdate(MUNDO.actualizado)}. Fuentes: BCP, CEPAL, Revista Plus, ABC Color, La Prensa, Reuters vía El blog del Euríbor, La Nación (Argentina), Agrositio e Infobae.</p>
+  </div>`;
+}
+
+/* Desarrollo y medio ambiente */
+function renderDesarrollo() {
+  const D = DESA;
+  if (!D) { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">Todavía no hay datos.</div></div>'; return; }
+  const temas = ['2.8', '2.12', '3.4', '3.7', '4.7', '4.8', '4.9', '4.10'], ns = SORTED.filter(n => temas.includes(n.tema));
+  const st = s => /empeora/.test(s) ? 'bad' : /mejora/.test(s) ? 'ok' : /sin dato/.test(s) ? 'nd' : 'mid';
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Desarrollo y medio ambiente</div><h1>¿Cuánto se desarrolla Paraguay?</h1><p class="lede">${esc(D.intro)}</p></div></div>
+    ${D.bloques.map(b => `<div class="sec-head" style="padding-top:10px"><h2>${esc(b.t)}</h2><a class="tema-link note" href="#${temaHash(b.tema)}">Tema ${esc(b.tema)} · ${esc(TEMAS[b.tema] || '')}</a></div>
+      <div class="stats">${b.items.map(([v, l, f]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span><small>${esc(f)}</small></div>`).join('')}</div>
+      ${b.url ? `<p class="note" style="margin:-14px 0 14px"><a href="${esc(b.url)}" target="_blank" rel="noopener">Ver la fuente ↗</a></p>` : ''}`).join('')}
+    <h2 style="margin:10px 0 12px">Paraguay frente a los Objetivos de Desarrollo Sostenible</h2>
+    <div class="ods">${D.ods.map(([n, t, dato, est]) => `<div><span class="n">ODS ${esc(n)}</span><span><b>${esc(t)}</b><small>${esc(dato)}</small></span><span class="chipst ${st(est)}">${esc(est)}</span></div>`).join('')}</div>
+    <div class="charts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr))">${(D.graficos || []).map(g => `<section class="chart"><div class="top"><h3>${esc(g.t)}</h3></div>${fig({ k: 'barras', u: g.u, rows: g.rows })}<p class="note">${esc(g.cap || '')}</p></section>`).join('')}</div>
+    <div class="tools" style="margin-bottom:18px"><a class="btn primary" href="#mapa">Ver el mapa por departamentos</a><a class="btn" href="#d-externalidad">Diagrama de externalidades</a><a class="btn" href="#d-lorenz">Curva de Lorenz</a><a class="btn" href="#d-politicas-oferta">Políticas de oferta</a></div>
+    ${ns.length ? `<h2 style="margin:10px 0 12px">Noticias sobre desarrollo, desigualdad y ambiente</h2><div class="grid">${ns.map(card).join('')}</div>` : ''}
+    ${D.nota ? `<p class="note" style="padding-bottom:40px">${esc(D.nota)}</p>` : ''}
+  </div>`;
+}
+
+/* Simulador «Sé el ministro o el BCP» */
+const SIMBASE = { tpm: 5.5, g: 0, tax: 0, conf: 0, oil: 0 };
+let SIM = Object.assign({}, SIMBASE);
+const ESCENARIOS = [['Situación actual', {}], ['Crisis de confianza', { conf: -25 }], ['Petróleo caro', { oil: 30 }], ['Presupuesto 2027 original', { g: 2.4 }], ['Ajuste fiscal', { g: -1 }], ['El BCP sube la tasa', { tpm: 7 }]];
+function simCalc(s) {
+  const clamp = (v, a) => Math.max(-a, Math.min(a, v));
+  const dA = clamp(-9 * (s.tpm - 5.5) + 12 * s.g - 9 * s.tax + 0.8 * s.conf, 50), dS = clamp(-0.7 * s.oil, 50);
+  const dQ = (dA + dS) / 2, dP = (dA - dS) * M / 2;
+  const crec = 5.0 + dQ * 0.08, infl = 1.7 + dP * 0.12, des = Math.max(1.5, 4.1 - 0.35 * (crec - 5.0)), def = 1.5 + s.g - s.tax - 0.25 * (crec - 5.0);
+  return { dA, dS, crec, infl, des, def };
+}
+function renderSimulador() {
+  const sliders = [['tpm', 'Tasa de interés del BCP (%)', 3, 9, 0.25], ['g', 'Gasto público (cambio, % del PIB)', -2, 3, 0.1], ['tax', 'Impuestos (cambio, % del PIB)', -2, 2, 0.1], ['conf', 'Confianza de hogares y empresas', -30, 30, 1], ['oil', 'Precio del petróleo (cambio %)', -30, 30, 1]];
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Simulador</div><h1>Sé el ministro o el BCP</h1><p class="lede">Mueve la tasa de interés, el gasto público y los impuestos, o prueba un shock, y mira cómo cambian el crecimiento, la inflación, el desempleo y el déficit. Ningún ajuste mejora todo a la vez: ese es el dilema de la política económica.</p></div></div>
+    <div class="scen" style="margin-bottom:14px">${ESCENARIOS.map(([t], i) => `<button type="button" class="chip" data-esc="${i}">${esc(t)}</button>`).join('')}</div>
+    <div class="sim">
+      <div class="col" style="gap:14px">
+        <div class="ctrl">${sliders.map(([k, l, mn, mx, st]) => `<label for="sim-${k}"><span>${l}<em id="sv-${k}"></em></span><input type="range" id="sim-${k}" data-k="${k}" min="${mn}" max="${mx}" step="${st}" value="${SIM[k]}"></label>`).join('')}</div>
+        <div class="block"><h3>Lo que muestra el resultado</h3><ul class="reads" id="dilemas" style="margin:0"></ul></div>
+        <p class="note">Modelo simplificado con fines didácticos: parte de los datos de 2026 (crecimiento 5 %, inflación 1,7 %, desempleo 4,1 % y el límite de déficit de 1,5 %) y aplica relaciones de manual. Los números no son pronósticos.</p>
+      </div>
+      <div class="col" style="gap:14px">
+        <div class="sheet"><div class="hd"><span>Demanda y oferta agregadas</span><span>3.2</span></div><div class="fig" id="simfig"></div></div>
+        <div class="kpis" id="kpis"></div>
+      </div>
+    </div></div>`;
+  const draw = () => {
+    const r = simCalc(SIM);
+    $('#simfig').innerHTML = fig({ k: 'macro', sD: r.dA, sO: r.dS });
+    const k = (lab, v, unit, ok, meta) => `<div class="kpi ${ok ? 'ok' : 'bad'}"><span>${lab}</span><b>${num(v, 1)}${unit}</b><small>${esc(meta)}</small></div>`;
+    $('#kpis').innerHTML = k('Crecimiento del PIB', r.crec, ' %', r.crec >= 3, r.crec >= 3 ? 'Crecimiento sólido' : 'Crecimiento débil') + k('Inflación', r.infl, ' %', r.infl >= 1.5 && r.infl <= 5.5, r.infl > 5.5 ? 'Por encima del rango meta (1,5-5,5 %)' : r.infl < 1.5 ? 'Por debajo del rango meta' : 'Dentro del rango meta del BCP') + k('Desempleo', r.des, ' %', r.des <= 5, r.des <= 5 ? 'Desempleo bajo' : 'Desempleo en aumento') + k('Déficit fiscal', r.def, ' % del PIB', r.def <= 1.5, r.def <= 1.5 ? 'Cumple la regla fiscal (1,5 %)' : 'Supera la regla fiscal (1,5 %)');
+    const d = [];
+    if (r.infl > 5.5) d.push('La inflación supera el rango meta: el BCP debería subir la tasa, aunque eso frene el crecimiento.');
+    if (r.infl < 1.5) d.push('La inflación queda por debajo del rango meta: hay espacio para bajar la tasa y estimular la economía.');
+    if (r.def > 1.5) d.push('El déficit supera la regla fiscal: hay que financiarlo con deuda, lo que puede subir el riesgo país.');
+    if (SIM.oil > 5 && r.infl > 1.7 && r.crec < 5) d.push('Estanflación: el petróleo caro sube los precios y baja la producción a la vez. Si el BCP sube la tasa, frena más la economía; si la baja, la inflación sube más.');
+    if (SIM.conf < -5) d.push('La desconfianza reduce el consumo y la inversión: la DA cae aunque nadie haya cambiado ninguna política.');
+    if (SIM.g > 0 && r.crec > 5) d.push('Más gasto público impulsa el crecimiento a corto plazo, pero aumenta el déficit y la deuda.');
+    if (SIM.tpm > 6 && r.crec < 5) d.push('Subir la tasa enfría la economía: baja la inflación a costa de crecer menos y de más desempleo.');
+    if (!d.length) d.push('Todos los objetivos están en equilibrio. Prueba un escenario o mueve un control para ver los dilemas.');
+    $('#dilemas').innerHTML = d.map(x => `<li>${esc(x)}</li>`).join('');
+    const fm = { tpm: v => num(v, 2) + ' %', g: v => (v > 0 ? '+' : '') + num(v, 1), tax: v => (v > 0 ? '+' : '') + num(v, 1), conf: v => v === 0 ? 'normal' : v > 0 ? 'alta' : 'baja', oil: v => (v > 0 ? '+' : '') + v + ' %' };
+    sliders.forEach(([key]) => { const el = $('#sv-' + key); if (el) el.textContent = fm[key](SIM[key]); });
+  };
+  document.querySelectorAll('.sim input[type=range]').forEach(el => el.oninput = () => { SIM[el.dataset.k] = +el.value; draw(); });
+  document.querySelectorAll('[data-esc]').forEach(b => b.onclick = () => { SIM = Object.assign({}, SIMBASE, ESCENARIOS[+b.dataset.esc][1]); sliders.forEach(([key]) => { $('#sim-' + key).value = SIM[key]; }); draw(); });
+  draw();
+}
+
 /* Calendario */
 const hoyISO = () => iso(new Date());
 const faltan = f => { const n = Math.round((pd(f) - pd(hoyISO())) / 864e5); return n === 0 ? 'Hoy' : n === 1 ? 'Mañana' : n > 1 ? 'En ' + n + ' días' : 'Hace ' + (-n) + (n === -1 ? ' día' : ' días'); };
@@ -1220,6 +1454,9 @@ function controlsFor(f) {
   if (k === 'minimo') return { st: { k, w: 80 }, sliders: [['w', 'Salario mínimo', 0, 60, 30, v => 110 - v]] };
   if (k === 'exportaciones') return { st: { k, pw: 70 }, sliders: [['pw', 'Precio mundial', 0, 60, 40, v => 110 - v]] };
   if (k === 'lorenz') return { st: { k, g: .6 }, sliders: [['g', 'Transferencias del Estado', 0, 100, 60, v => v / 100]] };
+  if (k === 'externalidad') return { st: { k, t: 0 }, sliders: [['t', 'Impuesto pigouviano', 0, 40, 0]] };
+  if (k === 'monopolio') return { st: { k, cap: null }, sliders: [['cap', 'Precio máximo regulado', 0, 60, 0, v => v === 0 ? null : 90 + v]] };
+  if (k === 'oalp') return { st: { k, s: 40 }, sliders: [['s', 'Inversión en infraestructura y educación', 0, 50, 40]] };
   if (k === 'bono') return { st: { k, r: f.r == null ? 8 : f.r }, sliders: [['r', 'Tasa de interés del mercado', 2, 16, f.r == null ? 8 : f.r, v => v, 0.5]] };
   return null;
 }
@@ -1257,6 +1494,17 @@ function readout(st) {
   if (st.k === 'exportaciones') {
     const q1 = 70 + (st.pw - 40) / M, q2 = 70 + (180 - st.pw) / M, x = q2 - q1;
     return `<div class="ro"><div><span>Exportaciones</span><b class="${x > 1 ? 'up' : ''}">${x > 1 ? '↑ Q₂ − Q₁' : '= no se exporta'}</b></div><div><span>Precio para consumidores locales</span><b class="${x > 1 ? 'up' : ''}">${x > 1 ? '↑ sube' : '= Pₑ'}</b></div></div><p class="ro-txt">${x > 1 ? 'Cuanto más alto el precio mundial, más ofrecen los productores, menos compran los consumidores locales y más se exporta.' : 'Si el precio mundial iguala al interno, no conviene exportar.'}</p>`;
+  }
+  if (st.k === 'externalidad') {
+    const left = 40 - st.t, pct = left / 40 * 100;
+    return `<div class="ro"><div><span>Sobreproducción respecto del óptimo</span><b class="${pct > 1 ? 'down' : 'up'}">${pct > 1 ? num(pct, 0) + ' % de la inicial' : 'Ninguna: óptimo'}</b></div><div><span>Pérdida de bienestar</span><b class="${pct > 1 ? 'down' : 'up'}">${pct > 1 ? num(pct * pct / 100, 0) + ' % de la inicial' : 'Eliminada'}</b></div></div><p class="ro-txt">${st.t === 0 ? 'Sin intervención el mercado produce Qₘ, más de lo socialmente óptimo. Mueve el impuesto.' : pct > 1 ? 'El impuesto encarece producir y reduce la cantidad, pero todavía es menor que el daño a terceros.' : 'El impuesto es igual al daño: la producción baja hasta el óptimo social Qₒ.'}</p>`;
+  }
+  if (st.k === 'monopolio') {
+    const qm = 50 + 120 / 1.3, qc = 50 + 120 / 0.65, pm = 30 + (qm - 50) * 0.65, q = st.cap == null ? qm : 50 + (st.cap - 30) / 0.65, dw = Math.pow((qc - q) / (qc - qm), 2) * 100;
+    return `<div class="ro"><div><span>Precio</span><b class="${st.cap ? 'up' : ''}">${st.cap ? '↓ baja' : 'Pₘ (monopolio)'}</b></div><div><span>Cantidad</span><b class="${st.cap ? 'up' : ''}">${st.cap ? '↑ ' + num((q / qm - 1) * 100, 0) + ' % más' : 'Qₘ'}</b></div><div><span>Pérdida de bienestar</span><b class="${dw < 99 ? 'up' : 'down'}">${num(dw, 0)} % de la inicial</b></div></div><p class="ro-txt">${st.cap ? 'Con un precio máximo, el monopolio ya no puede cobrar Pₘ y le conviene vender más: se acerca al resultado competitivo.' : 'Sin regulación, el monopolio produce donde IMg = CMg: menos cantidad y más precio que en competencia.'}</p>`;
+  }
+  if (st.k === 'oalp') {
+    return `<div class="ro"><div><span>PIB potencial</span><b class="${st.s ? 'up' : ''}">${st.s ? '↑ sube' : '= sin cambio'}</b></div><div><span>Nivel general de precios</span><b class="${st.s ? 'up' : ''}">${st.s ? '↓ baja' : '= sin cambio'}</b></div></div><p class="ro-txt">${st.s ? 'Más capacidad productiva: se puede crecer más sin generar inflación. Los efectos tardan años.' : 'Mueve el control para ver el efecto de invertir en infraestructura y educación.'}</p>`;
   }
   if (st.k === 'bono') {
     const p = bondPrice(st.r, 8, 10), ch = p - 100;
@@ -1448,6 +1696,10 @@ function render() {
   else if (r === 'historias') { nav = 'historias'; renderHistorias(); }
   else if (r.startsWith('historia-') && HISTORIAS.some(h => h.id === r.slice(9))) { nav = 'historias'; renderHistoria(r.slice(9)); }
   else if (r === 'paraguay') { nav = 'paraguay'; renderPais(); }
+  else if (r === 'mapa') { nav = 'mapa'; renderMapa(); }
+  else if (r === 'mundo') { nav = 'mundo'; renderMundo(); }
+  else if (r === 'desarrollo') { nav = 'desarrollo'; renderDesarrollo(); }
+  else if (r === 'simulador') { nav = 'simulador'; renderSimulador(); }
   else if (r === 'sectores') { nav = 'sectores'; renderSectores(); }
   else if (r.startsWith('sector-') && SECT[r.slice(7)]) { nav = 'sectores'; renderSector(r.slice(7)); }
   else if (r.startsWith('inst-') && INST[r.slice(5)]) { nav = 'instituciones'; renderInst(r.slice(5)); }
@@ -1460,7 +1712,7 @@ function render() {
 fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   ACTUALIZADO = d.actualizado; DIARIOS = d.diarios || []; OFICIALES = d.oficiales || []; DESTACADO = d.destacado || null;
   INDICADORES = (d.indicadores || []).map(i => Array.isArray(i) ? { n: i[0], v: i[1], s: i[2], alert: i[3] } : i);
-  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null;
+  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null;
   NOTICIAS = (d.noticias || []).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad]).map(n => Object.assign({ datos: [], pasos: [], conceptos: [], diagramas: [], rel: [], resumen: '', contexto: '' }, n));
   NOTICIAS.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); });
   BYID = Object.fromEntries(NOTICIAS.map(n => [n.id, n]));

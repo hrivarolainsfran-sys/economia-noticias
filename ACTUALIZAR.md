@@ -13,7 +13,7 @@ El sitio tiene dos archivos:
 4. En temas políticos, se dice solo lo que el artículo afirma y se atribuye («según La Nación…»).
 5. Las columnas de opinión llevan `"opinion": true` y sus cifras se atribuyen al autor.
 6. No se repiten noticias: si el tema ya está, se actualiza la noticia existente (datos, `fecha`, fuente nueva en `mas`) en lugar de duplicarla.
-7. Se mantienen como máximo 40 noticias; se borran primero las más antiguas que no sean del tema de la semana.
+7. Se mantienen como máximo 60 noticias; se borran primero las más antiguas que no sean del tema de la semana.
 
 ## Formato de una noticia
 
@@ -51,6 +51,7 @@ El sitio tiene dos archivos:
 }
 ```
 
+- `mundo` (opcional): países o mercados externos que explican la noticia (`petroleo`, `brasil`, `argentina`, `china`, `eeuu`, `espana`); la muestra en **El mundo y Paraguay**.
 - `mas`, `opinion` y `rel` son opcionales. `evaluacion` es obligatoria en noticias nuevas.
 - `evaluacion` es el análisis al estilo IB: 1-3 grupos que ganan y 1-3 que pierden (consumidores, productores, trabajadores, Estado, exportadores, importadores…), efectos a corto y largo plazo, supuestos y una conclusión que pese los argumentos. Debe basarse en lo que dice el artículo y en teoría económica, sin inventar datos.
 - `tema`: subtema del programa IB (1.1 a 4.10).
@@ -68,11 +69,14 @@ El sitio tiene dos archivos:
 | `minimo` | Salario mínimo / precio mínimo | — |
 | `ingreso` | EPD e ingreso total | — |
 | `lorenz` | Curva de Lorenz | — |
+| `externalidad` | Externalidad negativa (contaminación, desmonte) | `t`: impuesto pigouviano 0-40 (0 = sin impuesto) |
+| `monopolio` | Monopolio y regulación (ANDE, ESSAP, telefonía) | `cap`: precio máximo 90-150 (opcional) |
+| `oalp` | Políticas de oferta: OALP a la derecha | `s`: tamaño del desplazamiento 0-50 (por defecto 40) |
 | `barras` | Datos de la noticia | `u`: unidad; `rows`: `[["Etiqueta", 4.1, 1]]` (el `1` resalta la barra) |
 
 ### Diagramas de la biblioteca (`diagramas`)
 
-`oferta-demanda`, `ped-ingreso`, `salario-minimo`, `da-oa-da`, `da-oa-oacp`, `politica-monetaria`, `politica-fiscal`, `bonos`, `tipo-cambio`, `exportaciones`, `arancel`, `lorenz`. Otros nombres se ignoran.
+`oferta-demanda`, `ped-ingreso`, `salario-minimo`, `da-oa-da`, `da-oa-oacp`, `politica-monetaria`, `politica-fiscal`, `bonos`, `tipo-cambio`, `exportaciones`, `arancel`, `lorenz`, `externalidad`, `monopolio`, `politicas-oferta`. Otros nombres se ignoran.
 
 La lámina `{"k": "bono", "r": 14}` dibuja el precio de un bono según la tasa de interés `r` (entre 2 y 16).
 
@@ -115,6 +119,9 @@ La lámina `{"k": "bono", "r": 14}` dibuja el precio de un bono según la tasa d
   - **Cada noticia nueva que continúe una historia se agrega a su `noticias` y como `hito`.** Los hitos futuros (fechas confirmadas) se pueden cargar y se muestran como «Próximo».
   - Cuando surge un tema que va a durar varias semanas, se crea una historia nueva. Cuando un tema termina, `estado` pasa a «Cerrada».
 - `pais`: la página **Paraguay en datos**. `secciones` (`{"t", "items": [["valor", "qué es", "fuente y fecha"]]}`), `graficos` y `nota`. Se actualiza solo cuando sale un dato oficial nuevo (población, crecimiento, deuda, reservas, exportaciones anuales), con su fuente.
+- `desarrollo`: la página **Desarrollo** (temas 2.8, 3.4, 4.7-4.10). `intro`; `bloques` (`{"t", "tema", "items": [["valor", "qué es", "fuente y fecha"]], "url"}`); `graficos` (`{"t", "u", "rows", "cap"}`); `ods` (`[["número", "nombre", "dato con fuente", "estado"]]`, con estado «mejora», «mejora leve», «empeora», «desafío» o «sin dato»); `nota`. Se actualiza cuando salen el IDH del PNUD, la pobreza y el Gini del INE (EPHC), PISA, datos de bosques del INFONA o informes de ODS.
+- `mundo`: la página **El mundo y Paraguay**. `intro`, `actualizado`, `actores` (`{"id", "t", "sub", "por", "datos": [["valor", "qué es"]], "canal": ["paso de la cadena de transmisión"], "mirar", "diagrama"}`) para `petroleo`, `brasil`, `argentina`, `china`, `eeuu` y `espana`, y `graficos` (barras). Actualizar los `datos` cuando un artículo confirme una cifra nueva (precio del petróleo, tasa Selic, tasa de la Fed, inflación argentina, precio de la soja, remesas), con su fuente. Las decisiones futuras de bancos centrales van a `calendario.fechas` con `"tipo": "Región"`.
+- `mapa`: la página **Mapa por departamentos**. `nota`; `capas` (`{"id", "t", "u", "fuente", "url", "v": {"Departamento": valor}}`) y `notas_dep` (`{"Departamento": "texto corto"}`). Los nombres de los departamentos deben ser exactamente: Alto Paraguay, Concepción, Amambay, Boquerón, Presidente Hayes, San Pedro, Canindeyú, Asunción, Cordillera, Caaguazú, Alto Paraná, Central, Paraguarí, Guairá, Ñeembucú, Misiones, Caazapá, Itapúa. Un departamento sin dato se omite (el mapa lo muestra punteado). **Solo cifras oficiales** (INE, INFONA, CEMAQ, MAG) con su año; no hay desempleo por departamento publicado y la EPHC no cubre Boquerón ni Alto Paraguay.
 - `calendario`: la sección **Calendario**.
   - `fechas`: lista de `{"f": "AAAA-MM-DD", "t": "título", "d": "por qué importa", "tipo": "BCP | MEF | Congreso | Región | Energía | Datos | Bolsa", "tema": "3.5", "url", "fuente"}`. **Solo fechas confirmadas en un artículo o fuente oficial.**
   - Agregar cada fecha nueva que aparezca en las noticias (reuniones del BCP, plazos del Congreso, publicación de datos con fecha anunciada, decisiones de bancos centrales vecinos, vencimientos). Las fechas pasadas pueden quedar: la página las muestra como «ya pasaron». Borrar las que tengan más de 60 días.
