@@ -1,7 +1,7 @@
 /* Economía en las Noticias: funciona sin conexión.
    La página y los íconos se guardan al instalar; datos.json se pide primero a la red
    y, si no hay conexión, se usa la última copia guardada. */
-const VERSION = 'enp-v10';
+const VERSION = 'enp-v11';
 const BASE = ['./', 'index.html', 'manifest.webmanifest', 'iconos/icono-180.png', 'iconos/icono-192.png', 'iconos/icono-512.png'];
 
 self.addEventListener('install', e => {
@@ -21,7 +21,7 @@ self.addEventListener('fetch', e => {
   if (!same && !fonts) return;
 
   // Datos y página: primero la red (para tener siempre lo último), si falla la copia guardada.
-  if (same && (url.pathname.endsWith('datos.json') || req.mode === 'navigate' || url.pathname.endsWith('index.html'))) {
+  if (same && (url.pathname.endsWith('datos.json') || url.pathname.endsWith('archivo.json') || req.mode === 'navigate' || url.pathname.endsWith('index.html'))) {
     e.respondWith(
       fetch(req).then(res => {
         if (res.ok) { const copy = res.clone(); caches.open(VERSION).then(c => c.put(req, copy)); }

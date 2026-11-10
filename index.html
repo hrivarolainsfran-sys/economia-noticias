@@ -392,6 +392,72 @@ a.ind:hover b{text-decoration:underline;text-decoration-color:var(--gold-2)}
 .kpi.ok{border-left:4px solid var(--ok)}.kpi.bad{border-left:4px solid var(--bad)}
 @media (max-width:860px){ .map-wrap,.sim{grid-template-columns:minmax(0,1fr)} }
 
+/* ---------- semáforo, historia, Itaipú, miradas, empresas, archivo ---------- */
+.sel{padding:6px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet);max-width:100%;min-width:0}
+input.sel{flex:1 1 160px}
+.sem-sum{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+.sem-pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--rule);background:var(--sheet);border-radius:999px;padding:6px 14px;font-size:.92rem}
+.sem-pill i{width:12px;height:12px;border-radius:50%;background:var(--sem)}
+.sem-pill b{font-family:var(--f-math);font-size:1.1rem}
+.verde{--sem:var(--ok)}.amarillo{--sem:var(--gold-2)}.rojo{--sem:var(--bad)}
+.sem-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:14px;padding-bottom:18px}
+.sem{display:grid;grid-template-columns:44px minmax(0,1fr);gap:14px;background:var(--sheet);border:1px solid var(--rule);border-top:4px solid var(--sem);border-radius:var(--r);padding:14px}
+.lamps{display:grid;gap:7px;align-content:start;background:var(--navy);border-radius:22px;padding:8px 7px}
+.lamps i{display:block;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.12)}
+.lamps i:nth-child(1).on{background:var(--bad);box-shadow:0 0 12px var(--bad)}
+.lamps i:nth-child(2).on{background:var(--gold-2);box-shadow:0 0 12px var(--gold-2)}
+.lamps i:nth-child(3).on{background:var(--ok);box-shadow:0 0 12px var(--ok)}
+.sem-bd{display:grid;gap:6px;min-width:0;align-content:start}
+.sem-top{display:flex;justify-content:space-between;align-items:start;gap:8px}
+.sem-top h3{font-size:1.25rem}
+.sem-v{font-family:var(--f-math);font-size:2rem;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums lining-nums}
+.sem-meta{font-size:.88rem;color:var(--ink-2);font-weight:600}
+.sem-links{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.crono{list-style:none;margin:0 0 20px;padding:0;display:grid;gap:0;position:relative}
+.crono li{display:grid;grid-template-columns:92px minmax(0,1fr);gap:18px;position:relative;padding-bottom:16px}
+.crono li::before{content:"";position:absolute;left:46px;top:0;bottom:0;width:2px;background:var(--rule)}
+.cr-dt{position:relative;z-index:1;background:var(--navy);color:var(--navy-ink);border-radius:8px;padding:8px 4px;text-align:center;line-height:1.05;align-self:start}
+.cr-dt b{display:block;font-family:var(--f-display);font-weight:800;font-size:1.6rem}
+.cr-dt span{display:block;font-size:.72rem;color:var(--gold-2);margin-top:3px;font-weight:600}
+.cr-bd{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:12px 16px;display:grid;gap:6px;min-width:0}
+.cr-bd h3{font-size:1.3rem}
+.cr-bd p{font-size:.95rem}
+.cr-ib{background:var(--gold-soft);border-radius:6px;padding:6px 10px;font-size:.9rem!important}
+.cr-ft{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 14px;align-items:center}
+.parts{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:14px;margin-bottom:22px}
+.part{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;display:grid;gap:8px;align-content:start}
+.part-hd{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 12px}
+.part h2{font-size:1.4rem}
+.lados{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:14px;margin-bottom:12px}
+.lado{background:var(--sheet);border:1px solid var(--rule);border-top:4px solid var(--navy-2);border-radius:var(--r);padding:12px 16px;display:grid;gap:10px;align-content:start}
+.lado.b{border-top-color:var(--gold)}
+.lado h3{font-size:1.25rem}
+.lado ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:.93rem}
+.arg{display:grid;gap:3px;border-top:1px solid var(--rule);padding-top:8px}
+.arg:first-of-type{border-top:0;padding-top:0}
+.arg b{font-size:.95rem}.arg p{font-size:.93rem;color:var(--ink-2)}.arg small{font-size:.78rem;color:var(--muted)}
+.mirada{border-top:1px solid var(--rule);padding-block:22px 10px;scroll-margin-top:12px}
+.mi-hd{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:6px 14px;margin-bottom:10px}
+.mi-hd h2{font-size:clamp(1.4rem,3vw,1.9rem)}
+.eval-q{margin:0;padding-left:20px;display:grid;gap:6px;font-size:.94rem}
+.spectrum{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-bottom:14px}
+.spectrum a{text-decoration:none;display:grid;gap:2px;padding:10px 12px;border-radius:8px;color:var(--navy-ink);background:color-mix(in srgb,var(--navy) 70%,var(--navy-2))}
+.spectrum a:nth-child(1){background:color-mix(in srgb,var(--navy-2) 55%,var(--sheet));color:var(--ink)}
+.spectrum a:nth-child(2){background:color-mix(in srgb,var(--navy-2) 80%,var(--sheet))}
+.spectrum a:hover{outline:2px solid var(--gold-2)}
+.spectrum small{font-size:.72rem;opacity:.85;text-transform:uppercase;letter-spacing:.05em}
+.spectrum b{font-family:var(--f-display);font-size:1.1rem;line-height:1.1}
+.spectrum span{font-size:.85rem;opacity:.9}
+.wcard{scroll-margin-top:12px}
+.arch-m{margin-bottom:18px}
+.arch-m h2{font-size:1.5rem;text-transform:capitalize;border-bottom:2px solid var(--navy);padding-bottom:4px;margin-bottom:6px}
+.arch-m h2 small{font-family:var(--f-body);font-size:.85rem;color:var(--muted);text-transform:none}
+.arch-m ul{list-style:none;margin:0;padding:0}
+.arch-m li{display:grid;grid-template-columns:62px minmax(0,1fr);gap:2px 12px;padding:8px 0;border-bottom:1px solid var(--rule)}
+.arch-m time{font-family:var(--f-display);font-weight:700;color:var(--gold);text-transform:uppercase;grid-row:span 2}
+.arch-m a{font-weight:700;text-decoration:none}.arch-m a:hover{text-decoration:underline}
+@media (max-width:640px){ .spectrum{grid-template-columns:repeat(2,minmax(0,1fr))} .crono li{grid-template-columns:70px minmax(0,1fr);gap:12px} .crono li::before{left:35px} .cr-dt b{font-size:1.3rem} }
+
 /* ---------- calendario ---------- */
 .cal{list-style:none;margin:0 0 26px;padding:0;display:grid;gap:10px}
 .cal li{display:grid;grid-template-columns:78px 1fr;gap:16px;align-items:start;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:12px 14px}
@@ -505,9 +571,16 @@ footer .wrap{display:grid;gap:6px}
     <nav aria-label="Secciones">
       <a href="#inicio" data-nav="inicio">Noticias</a>
       <a href="#semana" data-nav="semana">Semana</a>
+      <a href="#archivo" data-nav="archivo">Archivo</a>
       <a href="#historias" data-nav="historias">Historias</a>
       <a href="#calendario" data-nav="calendario">Calendario</a>
       <a href="#paraguay" data-nav="paraguay">Paraguay en datos</a>
+      <a href="#metas" data-nav="metas">Metas</a>
+      <a href="#cronologia" data-nav="cronologia">Historia económica</a>
+      <a href="#itaipu" data-nav="itaipu">Itaipú</a>
+      <a href="#trabajo" data-nav="trabajo">Trabajo</a>
+      <a href="#empresas" data-nav="empresas">Empresas</a>
+      <a href="#miradas" data-nav="miradas">Dos miradas</a>
       <a href="#mapa" data-nav="mapa">Mapa</a>
       <a href="#mundo" data-nav="mundo">El mundo</a>
       <a href="#desarrollo" data-nav="desarrollo">Desarrollo</a>
@@ -542,7 +615,7 @@ footer .wrap{display:grid;gap:6px}
 /* =====================================================================
    1. DATOS: noticias, indicadores, región y semanas viven en datos.json
    ===================================================================== */
-let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null;
+let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null, CRONO = null, ITAIPU = null, MIRADAS = [], TRABAJO = null, EMPRESAS = [], METAS = null, ARCH = null;
 
 const KC = { escasez:'Escasez', eleccion:'Elección', eficiencia:'Eficiencia', equidad:'Equidad', bienestar:'Bienestar económico', sostenibilidad:'Sostenibilidad', cambio:'Cambio', interdependencia:'Interdependencia', intervencion:'Intervención' };
 const UNI = { micro:'Microeconomía', macro:'Macroeconomía', global:'Economía global' };
@@ -1201,6 +1274,190 @@ function renderPais() {
   </div>`;
 }
 
+/* Helpers comunes de las secciones de referencia */
+const emptyView = t => { $('#app').innerHTML = `<div class="wrap"><div class="empty" style="margin-block:40px">${t || 'Todavía no hay datos.'}</div></div>`; };
+const temaLink = t => t && TEMAS[t] ? `<a class="tema-link note" href="#${temaHash(t)}">Tema ${esc(t)} · ${esc(TEMAS[t])}</a>` : '';
+const chartsHTML = gs => (gs || []).length ? `<div class="charts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr))">${gs.map(g => `<section class="chart"><div class="top"><h3>${esc(g.t)}</h3></div>${fig({ k: 'barras', u: g.u, rows: g.rows })}${g.cap ? `<p class="note">${esc(g.cap)}</p>` : ''}</section>`).join('')}</div>` : '';
+const statsHTML = items => `<div class="stats">${items.map(([v, l, f]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span>${f ? `<small>${esc(f)}</small>` : ''}</div>`).join('')}</div>`;
+const srcLinks = fs => (fs || []).map(([t, u]) => u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)} ↗</a>` : esc(t)).join(' · ');
+const ibList = ib => `<ul class="reads" style="margin:0">${ib.map(([t, x]) => `<li><a class="tema-link" href="#${temaHash(t)}"><b>${esc(t)}</b></a> ${esc(x)}</li>`).join('')}</ul>`;
+
+/* Semáforo de metas */
+function metaEstado(m) {
+  let v = m.v, f = m.fecha, fuente = m.fuente;
+  const h = m.serie && HIST[m.serie];
+  if (h && h.puntos.length) { const p = h.puntos[h.puntos.length - 1]; v = p[1]; f = p[0]; fuente = h.fuente; }
+  let e = m.estado || 'rojo';
+  if (!m.estado && v != null) {
+    if (m.rango) e = v >= m.rango[0] && v <= m.rango[1] ? 'verde' : (m.amarillo && v >= m.amarillo[0] && v <= m.amarillo[1] ? 'amarillo' : 'rojo');
+    else if (m.max) e = v <= m.max[0] ? 'verde' : v <= m.max[1] ? 'amarillo' : 'rojo';
+    else if (m.min) e = v >= m.min[0] ? 'verde' : v >= m.min[1] ? 'amarillo' : 'rojo';
+  }
+  return { v, f, e, fuente, txt: m.txt || (v == null ? 's/d' : num(v, m.dec) + (m.u || '')) };
+}
+const SEMTXT = { verde: 'Se cumple', amarillo: 'Hay que mirarlo', rojo: 'No se cumple' };
+function renderMetas() {
+  const S = METAS;
+  if (!S) return emptyView();
+  const its = S.items.map(m => Object.assign({ m }, metaEstado(m))), cnt = e => its.filter(x => x.e === e).length;
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Objetivos macroeconómicos</div><h1>Semáforo de metas</h1><p class="lede">${esc(S.intro)}</p></div></div>
+    <div class="sem-sum">${['verde', 'amarillo', 'rojo'].map(e => `<span class="sem-pill ${e}"><i></i><b>${cnt(e)}</b> ${SEMTXT[e].toLowerCase()}</span>`).join('')}</div>
+    <div class="sem-grid">${its.map(({ m, e, txt, f, fuente }) => `<section class="sem ${e}">
+      <div class="lamps" aria-hidden="true"><i class="${e === 'rojo' ? 'on' : ''}"></i><i class="${e === 'amarillo' ? 'on' : ''}"></i><i class="${e === 'verde' ? 'on' : ''}"></i></div>
+      <div class="sem-bd">
+        <div class="sem-top"><h3>${esc(m.t)}</h3><span class="chipst ${e === 'verde' ? 'ok' : e === 'rojo' ? 'bad' : 'mid'}">${SEMTXT[e]}</span></div>
+        <b class="sem-v">${esc(txt)}</b>
+        <p class="sem-meta">${esc(m.meta)}${m.oficial ? '' : ''}</p>
+        ${m.extra ? `<p class="note">${esc(m.extra)}</p>` : ''}
+        <p style="font-size:.9rem">${esc(m.por)}</p>
+        <p class="note">${f ? 'Dato al ' + esc(fflex(f)) + '. ' : ''}${m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(fuente || '')} ↗</a>` : esc(fuente || '')}</p>
+        <div class="sem-links">${temaLink(m.tema)}${m.link ? `<a class="more" href="${esc(m.link)}">Ver más →</a>` : ''}</div>
+      </div></section>`).join('')}</div>
+    <p class="note" style="padding-bottom:40px">${esc(S.nota)}</p>
+  </div>`;
+}
+
+/* Historia económica de Paraguay */
+const ERAS = [['todas', 'Todas', '0', '9999'], ['antes', 'Hasta 1989', '0', '1989-99'], ['90', '1990 a 2009', '1990', '2009-99'], ['hoy', 'Desde 2010', '2010', '9999']];
+let ERA = 'todas';
+function renderCronologia() {
+  const C = CRONO;
+  if (!C) return emptyView();
+  const [, , a, b] = ERAS.find(e => e[0] === ERA), hs = C.hitos.slice().sort((x, y) => x.f.localeCompare(y.f)).filter(h => h.f >= a && h.f <= b);
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Historia económica</div><h1>La economía de Paraguay en el tiempo</h1><p class="lede">${esc(C.intro)}</p></div></div>
+    <div class="filters" role="group" aria-label="Época">${ERAS.map(([k, t]) => `<button type="button" class="chip" data-era="${k}" aria-pressed="${k === ERA}">${t}</button>`).join('')}</div>
+    <ol class="crono">${hs.map(h => `<li>
+      <div class="cr-dt"><b>${esc(h.f.slice(0, 4))}</b>${h.f.length > 4 ? `<span>${esc(fflex(h.f).replace(/\s*\d{4}$/, '').replace(/ de$/, ''))}</span>` : ''}</div>
+      <div class="cr-bd"><h3>${esc(h.t)}</h3><p>${esc(h.d)}</p>
+        <p class="cr-ib"><b>En IB:</b> ${esc(h.ib)} ${temaLink(h.tema)}</p>
+        <div class="cr-ft"><span class="note">${h.url ? `Fuente: <a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.fuente)} ↗</a>` : esc(h.fuente)}</span>${h.link ? `<a class="more" href="${esc(h.link[0])}">${esc(h.link[1])} →</a>` : ''}</div></div>
+    </li>`).join('')}</ol>
+    <p class="note" style="padding-bottom:40px">${esc(C.nota)}</p>
+  </div>`;
+  document.querySelectorAll('[data-era]').forEach(x => x.onclick = () => { ERA = x.dataset.era; renderCronologia(); });
+}
+
+/* Itaipú a fondo */
+function renderItaipu() {
+  const I = ITAIPU;
+  if (!I) return emptyView();
+  const ns = (I.noticias || []).map(id => BYID[id]).filter(Boolean), P = I.posiciones || {};
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Energía · Paraguay y Brasil</div><h1>Itaipú a fondo</h1><p class="lede">${esc(I.intro)}</p></div></div>
+    ${statsHTML(I.cifras)}
+    <div class="parts">${I.partes.map(x => `<section class="part"><div class="part-hd"><h2>${esc(x.t)}</h2>${temaLink(x.tema)}</div><p>${esc(x.texto)}</p><p class="note">Fuentes: ${srcLinks(x.fuentes)}</p></section>`).join('')}</div>
+    <h2 style="margin:10px 0 12px">Qué quiere cada país en la negociación del Anexo C</h2>
+    <div class="lados"><section class="lado"><h3>Paraguay</h3><ul>${(P.paraguay || []).map(t => `<li>${esc(t)}</li>`).join('')}</ul></section><section class="lado b"><h3>Brasil</h3><ul>${(P.brasil || []).map(t => `<li>${esc(t)}</li>`).join('')}</ul></section></div>
+    <p class="note" style="margin:-8px 0 20px">Fuentes: ${srcLinks(P.fuentes)}</p>
+    ${chartsHTML(I.graficos)}
+    <div class="art" style="padding-top:6px"><div class="col">
+      <section class="block"><h2><small>Programa IB</small>Qué conceptos explica Itaipú</h2>${ibList(I.ib)}</section>
+      ${ns.length ? `<section class="block"><h2><small>Noticias</small>Itaipú y la energía en las noticias</h2><div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))">${ns.map(card).join('')}</div></section>` : ''}
+    </div><aside class="side">
+      <div class="block"><h3>Para debatir en clase</h3><ul class="reads" style="margin:0">${I.preguntas.map(q => `<li>${esc(q)}</li>`).join('')}</ul></div>
+      <div class="block"><h3>Sigue leyendo</h3><div class="rel"><a href="#sector-energia">Sector energía<small>Cifras, actores y riesgos</small></a><a href="#miradas">Dos miradas: la tarifa de la ANDE<small>Argumentos a favor y en contra</small></a><a href="#cronologia">Historia económica<small>De 1973 a hoy</small></a></div></div>
+    </aside></div>
+    <div style="height:30px"></div></div>`;
+}
+
+/* Dos miradas */
+function renderMiradas() {
+  if (!MIRADAS.length) return emptyView();
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Pensamiento crítico</div><h1>Dos miradas</h1><p class="lede">En los temas polémicos no hay una sola respuesta. Aquí están los argumentos a favor y en contra que dieron economistas, gremios y autoridades en los diarios. Para evaluar como en IB: identifica quién gana y quién pierde, distingue el corto del largo plazo, revisa los supuestos y llega a una conclusión propia.</p></div></div>
+    <div class="filters">${MIRADAS.map(x => `<a class="chip" href="#mirada-${x.id}" data-go="${x.id}">${esc(x.t)}</a>`).join('')}</div>
+    ${MIRADAS.map(x => { const D = LIB[x.diagrama], N = x.noticia && BYID[x.noticia]; return `<section class="mirada" id="mirada-${x.id}">
+      <div class="mi-hd"><div><div class="eyebrow">${esc(x.t)}</div><h2>${esc(x.pregunta)}</h2></div>${temaLink(x.tema)}</div>
+      <p class="callout">${esc(x.contexto)}</p>
+      <div class="lados">${x.lados.map((l, i) => `<section class="lado${i ? ' b' : ''}"><h3>${esc(l.t)}</h3>${l.args.map(([q, a, m, u, f]) => `<div class="arg"><b>${esc(q)}</b><p>${esc(a)}</p><small><a href="${esc(u)}" target="_blank" rel="noopener">${esc(m)}</a> · ${fdate(f)}</small></div>`).join('')}</section>`).join('')}</div>
+      ${x.decision ? `<p class="note" style="margin-top:10px"><b>Qué se decidió:</b> ${esc(x.decision)}</p>` : ''}
+      <div class="block" style="margin-top:12px"><h3>Para evaluar</h3><ol class="eval-q">${x.evaluar.map(q => `<li>${esc(q)}</li>`).join('')}</ol></div>
+      <div class="tools" style="margin-top:12px">${D ? `<a class="btn" href="#d-${x.diagrama}">Diagrama: ${esc(D.t)}</a>` : ''}${N ? `<a class="btn" href="#n-${N.id}">Leer la noticia</a>` : ''}</div>
+    </section>`; }).join('')}
+    <div style="height:30px"></div></div>`;
+  document.querySelectorAll('[data-go]').forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById('mirada-' + a.dataset.go); if (t) t.scrollIntoView({ behavior: 'smooth' }); });
+}
+
+/* Trabajo e informalidad */
+function renderTrabajo() {
+  const T = TRABAJO;
+  if (!T) return emptyView();
+  const ns = ['salario-minimo', 'desempleo-41', 'gini-2025', 'pobreza-16', 'ips-ueno'].map(id => BYID[id]).filter(Boolean);
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Mercado laboral</div><h1>Trabajo e informalidad</h1><p class="lede">${esc(T.intro)}</p></div></div>
+    ${statsHTML(T.cifras)}
+    <p class="callout" style="margin:-8px 0 22px"><b>¿Qué es el empleo informal?</b> ${esc(T.definicion)}</p>
+    ${chartsHTML(T.graficos)}
+    <p class="note" style="margin:-6px 0 18px">Fuentes: ${srcLinks(T.fuentes)}</p>
+    <div class="art" style="padding-top:0"><div class="col">
+      <section class="block"><h2><small>Programa IB</small>Qué conceptos se aprenden</h2>${ibList(T.ib)}</section>
+      ${ns.length ? `<section class="block"><h2><small>Noticias</small>Empleo, salarios y desigualdad</h2><div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))">${ns.map(card).join('')}</div></section>` : ''}
+    </div><aside class="side">
+      <div class="block"><h3>Para debatir en clase</h3><ul class="reads" style="margin:0">${T.preguntas.map(q => `<li>${esc(q)}</li>`).join('')}</ul></div>
+      <div class="block"><h3>Sigue leyendo</h3><div class="rel"><a href="#mirada-salario-minimo">Dos miradas: el salario mínimo<small>Argumentos a favor y en contra</small></a><a href="#d-salario-minimo">Diagrama del salario mínimo<small>Precio mínimo en el mercado de trabajo</small></a><a href="#inst-ips">IPS<small>Seguridad social</small></a><a href="#mapa">Mapa por departamentos<small>Pobreza y desigualdad</small></a></div></div>
+    </aside></div>
+    <div style="height:30px"></div></div>`;
+}
+
+/* Casos de empresas */
+function renderEmpresas() {
+  if (!EMPRESAS.length) return emptyView();
+  const spec = [['Muchas empresas', 'Competencia monopolística', 'supermercados'], ['Pocas empresas', 'Oligopolio', 'telefonia'], ['Pocos compradores', 'Oligopsonio', 'frigorificos'], ['Una sola empresa', 'Monopolio', 'ande']];
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Microeconomía · empresas reales</div><h1>Casos de empresas</h1><p class="lede">Cómo deciden empresas reales de Paraguay: cuánto cobrar, dónde producir, cómo competir. Cada caso muestra la estructura de su mercado y su poder para fijar precios, con datos de la prensa y su fuente.</p></div></div>
+    <div class="spectrum" aria-label="Estructuras de mercado">${spec.map(([a, b, id]) => { const E = EMPRESAS.find(e => e.id === id); return `<a href="#emp-${id}" data-go="${id}"><small>${a}</small><b>${b}</b><span>${E ? esc(E.t) : ''}</span></a>`; }).join('')}</div>
+    <p class="note" style="margin:-6px 0 18px">De izquierda a derecha, cada vez menos empresas y más poder de mercado (tema 2.11).</p>
+    <div class="world">${EMPRESAS.map(E => { const D = E.diagrama && LIB[E.diagrama]; return `<section class="wcard" id="emp-${E.id}">
+      <div class="top"><h3>${esc(E.t)}</h3><small>${esc(E.sub)}</small></div>
+      <div class="bd">
+        <div class="minis">${E.cifras.map(([v, l]) => `<div class="mini-stat"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join('')}</div>
+        ${E.cifras_nota ? `<p class="note">${esc(E.cifras_nota)}</p>` : ''}
+        <p style="font-size:.95rem">${esc(E.texto)}</p>
+        <div><p class="note" style="margin-bottom:4px"><b>Para pensar</b></p><ul class="reads" style="margin:0;gap:6px">${E.preguntas.map(q => `<li style="font-size:.9rem">${esc(q)}</li>`).join('')}</ul></div>
+        <div class="sem-links">${temaLink(E.tema)}${D ? `<a class="more" href="#d-${E.diagrama}">Diagrama: ${esc(D.t)} →</a>` : ''}${E.link ? `<a class="more" href="${esc(E.link[0])}">${esc(E.link[1])} →</a>` : ''}</div>
+        <p class="note">Fuentes: ${srcLinks(E.fuentes)}</p>
+      </div></section>`; }).join('')}</div>
+    <div style="height:30px"></div></div>`;
+  document.querySelectorAll('.spectrum [data-go]').forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById('emp-' + a.dataset.go); if (t) t.scrollIntoView({ behavior: 'smooth' }); });
+}
+
+/* Archivo de noticias */
+const loadArch = () => ARCH ? Promise.resolve(ARCH) : fetch('archivo.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : []).catch(() => []).then(a => {
+  ARCH = (Array.isArray(a) ? a : (a.noticias || [])).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad] && !BYID[n.id])
+    .map(n => Object.assign({ datos: [], pasos: [], conceptos: [], diagramas: [], rel: [], resumen: '', contexto: '' }, n, { archivada: true }));
+  ARCH.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); BYID[n.id] = n; });
+  return ARCH;
+});
+const AF = { u: 'todas', tema: 'todos', q: '' };
+function renderArchivo() {
+  if (!ARCH) { $('#app').innerHTML = '<div class="wrap"><p class="note" style="padding-block:40px">Cargando el archivo…</p></div>'; loadArch().then(() => { if (location.hash === '#archivo') renderArchivo(); }); return; }
+  const all = SORTED.concat(ARCH).sort((a, b) => b.fecha.localeCompare(a.fecha));
+  const temas = [...new Set(all.map(n => n.tema).filter(Boolean))].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  const draw = () => {
+    const list = all.filter(n => (AF.u === 'todas' || n.unidad === AF.u) && (AF.tema === 'todos' || n.tema === AF.tema) && (!AF.q || norm([n.titulo, n.resumen, n.medio, ...(n.conceptos || []).map(c => c[0])].join(' ')).includes(norm(AF.q))));
+    const groups = {}; list.forEach(n => { const k = n.fecha.slice(0, 7); (groups[k] = groups[k] || []).push(n); });
+    $('#arch-n').textContent = list.length + (list.length === 1 ? ' noticia' : ' noticias');
+    $('#arch-list').innerHTML = list.length ? Object.keys(groups).sort().reverse().map(k => { const [y, m] = k.split('-'); return `<section class="arch-m"><h2>${MESES[+m - 1]} ${y} <small>${groups[k].length}</small></h2><ul>${groups[k].map(n => `<li><time>${fshort(n.fecha)}</time><a href="#n-${n.id}">${esc(n.titulo)}</a><span class="note">${esc(n.medio)} · ${n.tema ? 'tema ' + esc(n.tema) : ''}${n.archivada ? ' · archivada' : ''}</span></li>`).join('')}</ul></section>`; }).join('') : '<div class="empty">No hay noticias con esos filtros.</div>';
+  };
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Hemeroteca</div><h1>Archivo de noticias</h1><p class="lede">Todas las noticias publicadas en el sitio, ordenadas por mes. Las más antiguas salen de la portada, pero se guardan aquí con su análisis completo, para que puedas usarlas en clase o en tus trabajos.</p></div></div>
+    <div class="stats"><div class="stat"><b>${all.length}</b><span>Noticias en total</span></div><div class="stat"><b>${new Set(all.map(n => n.fecha.slice(0, 7))).size}</b><span>Meses</span></div><div class="stat"><b>${temas.length}</b><span>Subtemas del programa IB con noticias</span></div><div class="stat"><b>${new Set(all.map(n => n.medio)).size}</b><span>Medios</span></div></div>
+    <div class="filters">
+      ${[['todas', 'Todas'], ...Object.entries(UNI).map(([k, v]) => [k, v.t || v])].map(([k, t]) => `<button type="button" class="chip" data-au="${k}" aria-pressed="${AF.u === k}">${esc(typeof t === 'string' ? t : k)}</button>`).join('')}
+      <select id="arch-tema" class="sel" aria-label="Subtema del programa"><option value="todos">Todos los subtemas</option>${temas.map(t => `<option value="${t}"${AF.tema === t ? ' selected' : ''}>${t} · ${esc(TEMAS[t] || '')} (${all.filter(n => n.tema === t).length})</option>`).join('')}</select>
+      <input id="arch-q" class="sel" type="search" placeholder="Buscar…" value="${esc(AF.q)}" aria-label="Buscar en el archivo">
+      <span class="note" id="arch-n"></span>
+    </div>
+    <div id="arch-list"></div>
+    <div style="height:30px"></div></div>`;
+  document.querySelectorAll('[data-au]').forEach(b => b.onclick = () => { AF.u = b.dataset.au; document.querySelectorAll('[data-au]').forEach(x => x.setAttribute('aria-pressed', x === b)); draw(); });
+  $('#arch-tema').onchange = e => { AF.tema = e.target.value; draw(); };
+  $('#arch-q').oninput = e => { AF.q = e.target.value; draw(); };
+  draw();
+}
+
 /* Mapa por departamentos (mapa esquemático de mosaicos) */
 const DEPTS = [['Alto Paraguay','A. Paraguay',0,0],['Concepción','Concepción',2,0],['Amambay','Amambay',3,0],['Boquerón','Boquerón',0,1],['Presidente Hayes','Pte. Hayes',1,1],['San Pedro','San Pedro',2,1],['Canindeyú','Canindeyú',3,1],['Asunción','Asunción',1,2],['Cordillera','Cordillera',2,2],['Caaguazú','Caaguazú',3,2],['Alto Paraná','Alto Paraná',4,2],['Central','Central',1,3],['Paraguarí','Paraguarí',2,3],['Guairá','Guairá',3,3],['Ñeembucú','Ñeembucú',1,4],['Misiones','Misiones',2,4],['Caazapá','Caazapá',3,4],['Itapúa','Itapúa',4,4]];
 let MAPST = { capa: 'pobreza', dep: 'Concepción' };
@@ -1289,12 +1546,12 @@ function renderDesarrollo() {
 /* Simulador «Sé el ministro o el BCP» */
 const SIMBASE = { tpm: 5.5, g: 0, tax: 0, conf: 0, oil: 0 };
 let SIM = Object.assign({}, SIMBASE);
-const ESCENARIOS = [['Situación actual', {}], ['Crisis de confianza', { conf: -25 }], ['Petróleo caro', { oil: 30 }], ['Presupuesto 2027 original', { g: 2.4 }], ['Ajuste fiscal', { g: -1 }], ['El BCP sube la tasa', { tpm: 7 }]];
+const ESCENARIOS = [['Situación actual', {}], ['Crisis de confianza', { conf: -25 }], ['Petróleo caro', { oil: 30 }], ['Presupuesto 2027 (déficit 3,9 %)', { g: 0.7 }], ['Volver a la regla fiscal (1,5 %)', { g: -1.7 }], ['El BCP sube la tasa', { tpm: 7 }]];
 function simCalc(s) {
   const clamp = (v, a) => Math.max(-a, Math.min(a, v));
   const dA = clamp(-9 * (s.tpm - 5.5) + 12 * s.g - 9 * s.tax + 0.8 * s.conf, 50), dS = clamp(-0.7 * s.oil, 50);
   const dQ = (dA + dS) / 2, dP = (dA - dS) * M / 2;
-  const crec = 5.0 + dQ * 0.08, infl = 1.7 + dP * 0.12, des = Math.max(1.5, 4.1 - 0.35 * (crec - 5.0)), def = 1.5 + s.g - s.tax - 0.25 * (crec - 5.0);
+  const crec = 5.0 + dQ * 0.08, infl = 1.7 + dP * 0.12, des = Math.max(1.5, 4.1 - 0.35 * (crec - 5.0)), def = 3.2 + s.g - s.tax - 0.25 * (crec - 5.0);
   return { dA, dS, crec, infl, des, def };
 }
 function renderSimulador() {
@@ -1306,7 +1563,7 @@ function renderSimulador() {
       <div class="col" style="gap:14px">
         <div class="ctrl">${sliders.map(([k, l, mn, mx, st]) => `<label for="sim-${k}"><span>${l}<em id="sv-${k}"></em></span><input type="range" id="sim-${k}" data-k="${k}" min="${mn}" max="${mx}" step="${st}" value="${SIM[k]}"></label>`).join('')}</div>
         <div class="block"><h3>Lo que muestra el resultado</h3><ul class="reads" id="dilemas" style="margin:0"></ul></div>
-        <p class="note">Modelo simplificado con fines didácticos: parte de los datos de 2026 (crecimiento 5 %, inflación 1,7 %, desempleo 4,1 % y el límite de déficit de 1,5 %) y aplica relaciones de manual. Los números no son pronósticos.</p>
+        <p class="note">Modelo simplificado con fines didácticos: parte de los datos de 2026 (crecimiento 5 %, inflación 1,7 %, desempleo 4,1 % y déficit de 3,2 % del PIB, según el MEF) y aplica relaciones de manual. El límite legal del déficit es 1,5 %. Los números no son pronósticos.</p>
       </div>
       <div class="col" style="gap:14px">
         <div class="sheet"><div class="hd"><span>Demanda y oferta agregadas</span><span>3.2</span></div><div class="fig" id="simfig"></div></div>
@@ -1681,6 +1938,7 @@ function render() {
   const r = location.hash.slice(1) || 'inicio';
   window.scrollTo(0, 0);
   let nav = 'inicio';
+  if (r.startsWith('n-') && !BYID[r.slice(2)] && !ARCH) { $('#app').innerHTML = '<div class="wrap"><p class="note" style="padding-block:40px">Buscando en el archivo…</p></div>'; loadArch().then(render); return; }
   if (r.startsWith('n-') && BYID[r.slice(2)]) renderNews(BYID[r.slice(2)]);
   else if (r === 'diagramas') { nav = 'diagramas'; renderLib(); }
   else if (r.startsWith('d-') && LIB[r.slice(2)]) { nav = 'diagramas'; renderDiagram(r.slice(2)); }
@@ -1696,6 +1954,13 @@ function render() {
   else if (r === 'historias') { nav = 'historias'; renderHistorias(); }
   else if (r.startsWith('historia-') && HISTORIAS.some(h => h.id === r.slice(9))) { nav = 'historias'; renderHistoria(r.slice(9)); }
   else if (r === 'paraguay') { nav = 'paraguay'; renderPais(); }
+  else if (r === 'archivo') { nav = 'archivo'; renderArchivo(); }
+  else if (r === 'metas') { nav = 'metas'; renderMetas(); }
+  else if (r === 'cronologia') { nav = 'cronologia'; renderCronologia(); }
+  else if (r === 'itaipu') { nav = 'itaipu'; renderItaipu(); }
+  else if (r === 'trabajo') { nav = 'trabajo'; renderTrabajo(); }
+  else if (r === 'empresas') { nav = 'empresas'; renderEmpresas(); }
+  else if (r === 'miradas' || r.startsWith('mirada-')) { nav = 'miradas'; renderMiradas(); const t = r.startsWith('mirada-') && document.getElementById(r); if (t) t.scrollIntoView(); }
   else if (r === 'mapa') { nav = 'mapa'; renderMapa(); }
   else if (r === 'mundo') { nav = 'mundo'; renderMundo(); }
   else if (r === 'desarrollo') { nav = 'desarrollo'; renderDesarrollo(); }
@@ -1712,7 +1977,7 @@ function render() {
 fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   ACTUALIZADO = d.actualizado; DIARIOS = d.diarios || []; OFICIALES = d.oficiales || []; DESTACADO = d.destacado || null;
   INDICADORES = (d.indicadores || []).map(i => Array.isArray(i) ? { n: i[0], v: i[1], s: i[2], alert: i[3] } : i);
-  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null;
+  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null; CRONO = d.cronologia || null; ITAIPU = d.itaipu || null; MIRADAS = d.miradas || []; TRABAJO = d.trabajo || null; EMPRESAS = d.empresas || []; METAS = d.metas || null;
   NOTICIAS = (d.noticias || []).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad]).map(n => Object.assign({ datos: [], pasos: [], conceptos: [], diagramas: [], rel: [], resumen: '', contexto: '' }, n));
   NOTICIAS.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); });
   BYID = Object.fromEntries(NOTICIAS.map(n => [n.id, n]));

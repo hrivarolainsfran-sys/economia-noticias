@@ -7456,5 +7456,1114 @@
    "Caazapá": "Alta pobreza en todas las mediciones.",
    "Amambay": "Frontera con Brasil (Pedro Juan Caballero); maquila."
   }
+ },
+ "cronologia": {
+  "intro": "Los hechos que formaron la economía paraguaya, desde el nacimiento del guaraní hasta hoy. Cada hito está conectado con un tema del programa de Economía IB y con su fuente, para que puedas usarlo como ejemplo real en tus respuestas.",
+  "hitos": [
+   {
+    "f": "1943-10-05",
+    "t": "Nace el guaraní",
+    "d": "Un decreto ley del gobierno de Higinio Morínigo crea el guaraní, que reemplaza al peso paraguayo: un guaraní equivalía a 100 pesos.",
+    "tema": "3.5",
+    "ib": "Tener moneda propia es lo que permite a un país tener su propia política monetaria.",
+    "fuente": "Wikipedia: Guaraní (moneda)",
+    "url": "https://es.wikipedia.org/wiki/Guaran%C3%AD_(moneda)"
+   },
+   {
+    "f": "1952-03-25",
+    "t": "Se crea el Banco Central del Paraguay",
+    "d": "El Decreto Ley n.º 18 crea el BCP, que desde entonces emite los billetes y conduce la política monetaria del país.",
+    "tema": "3.5",
+    "ib": "El banco central maneja la tasa de interés y la cantidad de dinero para mantener los precios estables.",
+    "fuente": "Wikipedia: Guaraní (moneda)",
+    "url": "https://es.wikipedia.org/wiki/Guaran%C3%AD_(moneda)",
+    "link": [
+     "#inst-bcp",
+     "El BCP hoy"
+    ]
+   },
+   {
+    "f": "1973-04-26",
+    "t": "Paraguay y Brasil firman el Tratado de Itaipú",
+    "d": "Acuerdan construir sobre el río Paraná una represa compartida en partes iguales. Las obras empiezan en 1975.",
+    "tema": "4.7",
+    "ib": "Recursos naturales y energía renovable: un recurso compartido entre dos países.",
+    "fuente": "Wikipedia: Represa de Itaipú",
+    "url": "https://es.wikipedia.org/wiki/Represa_de_Itaip%C3%BA",
+    "link": [
+     "#itaipu",
+     "Itaipú a fondo"
+    ]
+   },
+   {
+    "f": "1973-12-03",
+    "t": "Se firma el Tratado de Yacyretá con Argentina",
+    "d": "Crea la Entidad Binacional Yacyretá para otra represa sobre el Paraná. La construcción empieza en 1983 y la primera turbina funciona en 1994.",
+    "tema": "4.7",
+    "ib": "Energía hidroeléctrica: otra fuente renovable compartida con un vecino.",
+    "fuente": "Wikipedia: Represa de Yacyretá",
+    "url": "https://es.wikipedia.org/wiki/Entidad_Binacional_Yacyret%C3%A1"
+   },
+   {
+    "f": "1976",
+    "t": "El auge de la construcción de Itaipú",
+    "d": "Entre 1976 y 1981 la economía crece con fuerza gracias a la inversión en la represa. En 1982 llega una crisis y cae la inversión extranjera.",
+    "tema": "3.2",
+    "ib": "Una gran inversión desplaza la DA a la derecha y tiene efecto multiplicador; cuando la obra termina, la DA cae.",
+    "fuente": "Wikipedia: Economía de Paraguay",
+    "url": "https://es.wikipedia.org/wiki/Econom%C3%ADa_de_Paraguay",
+    "link": [
+     "#d-da-oa-da",
+     "Diagrama DA-OA"
+    ]
+   },
+   {
+    "f": "1984-05-05",
+    "t": "Itaipú empieza a generar electricidad",
+    "d": "Entra en operación la primera turbina y la producción comercial empieza en 1985. Hoy tiene 20 turbinas de 700 MW: 14.000 MW en total.",
+    "tema": "4.7",
+    "ib": "Energía barata y renovable como ventaja para producir.",
+    "fuente": "Wikipedia: Represa de Itaipú",
+    "url": "https://es.wikipedia.org/wiki/Represa_de_Itaip%C3%BA"
+   },
+   {
+    "f": "1990",
+    "t": "La inflación llega al 40 %",
+    "d": "Tras el fin de la dictadura en 1989, la inflación es de 25 % en 1989 y de 40 % en 1990; en 1991 baja a 11,5 %.",
+    "tema": "3.3",
+    "ib": "Costos de la inflación alta: pierde valor el ahorro y suben la incertidumbre y las tasas de interés.",
+    "fuente": "Wikipedia: Banco Central del Paraguay",
+    "url": "https://es.wikipedia.org/wiki/Banco_Central_del_Paraguay",
+    "link": [
+     "#indicadores",
+     "La inflación hoy"
+    ]
+   },
+   {
+    "f": "1991-03-26",
+    "t": "Nace el Mercosur",
+    "d": "Paraguay, Argentina, Brasil y Uruguay firman en Asunción el Tratado de Asunción, que crea un mercado común.",
+    "tema": "4.4",
+    "ib": "Integración económica: unión aduanera y mercado común; creación y desviación de comercio.",
+    "fuente": "Wikipedia: Tratado de Asunción",
+    "url": "https://es.wikipedia.org/wiki/Tratado_de_Asunci%C3%B3n",
+    "link": [
+     "#region",
+     "Paraguay frente a la región"
+    ]
+   },
+   {
+    "f": "1995-05",
+    "t": "La gran crisis bancaria",
+    "d": "Se intervienen Bancopar y Banco General por falta de liquidez y después caen más bancos y financieras. Quebró más de la mitad de los bancos; el costo se estima entre 10 % y 12 % del PIB.",
+    "tema": "3.5",
+    "ib": "Por qué el banco central supervisa a los bancos: riesgo moral, confianza y estabilidad financiera.",
+    "fuente": "Ámbito (16 ene 2025)",
+    "url": "https://www.ambito.com/economia/el-ano-que-quebraron-la-mitad-los-bancos-paraguay-que-paso-la-crisis-economica-1995-n6103117",
+    "link": [
+     "#historia-crisis-ueno",
+     "Compárala con la crisis de Ueno"
+    ]
+   },
+   {
+    "f": "1995-06-29",
+    "t": "Nueva ley del Banco Central",
+    "d": "La Ley 489/95, orgánica del BCP, rige desde entonces el funcionamiento del banco central y la emisión de billetes.",
+    "tema": "3.5",
+    "ib": "Las reglas que dan independencia y objetivos al banco central.",
+    "fuente": "Wikipedia: Guaraní (moneda)",
+    "url": "https://es.wikipedia.org/wiki/Guaran%C3%AD_(moneda)"
+   },
+   {
+    "f": "1997-07-03",
+    "t": "Ley de maquila",
+    "d": "La Ley 1064/97 crea el régimen de maquila: empresas que importan insumos, los transforman en Paraguay y exportan el producto con beneficios tributarios. Se reglamenta en 2000.",
+    "tema": "4.10",
+    "ib": "Estrategia de desarrollo orientada a la exportación y atracción de inversión extranjera directa.",
+    "fuente": "RSM Paraguay",
+    "url": "https://www.rsm.global/paraguay/sites/default/files/media/Ley%20de%20Maquila%20un%20incentivo.pdf",
+    "link": [
+     "#empresas",
+     "La maquila hoy"
+    ]
+   },
+   {
+    "f": "2002",
+    "t": "Recesión y salto del dólar",
+    "d": "Después del estancamiento de 1998 a 2002, el dólar supera los G. 7.000 en 2002-2003 y en junio de 2002 el BCP liquida el Banco Alemán. La recuperación empieza en 2003.",
+    "tema": "4.5",
+    "ib": "Depreciación de la moneda: encarece las importaciones y las deudas en dólares.",
+    "fuente": "Wikipedia: Economía de Paraguay; Guaraní (moneda); BCP",
+    "url": "https://es.wikipedia.org/wiki/Econom%C3%ADa_de_Paraguay",
+    "link": [
+     "#d-tipo-cambio",
+     "Diagrama del tipo de cambio"
+    ]
+   },
+   {
+    "f": "2011-05",
+    "t": "El BCP adopta metas de inflación",
+    "d": "El BCP anuncia un esquema de metas de inflación. La meta fue 5 % entre 2011 y 2014, 4,5 % en 2015-2016 y 4 % desde 2017; después la bajó a 3,5 %, con un rango de ± 2 puntos.",
+    "tema": "3.5",
+    "ib": "Política monetaria con metas de inflación: la tasa de interés se mueve para mantener la inflación cerca de la meta.",
+    "fuente": "ABC Color (11 may 2011) y El Observador",
+    "url": "https://www.elobservador.com.uy/economia-y-empresas/banco-central-paraguay-reduce-su-meta-inflacion-35-n5975397/amp",
+    "link": [
+     "#d-politica-monetaria",
+     "Diagrama de política monetaria"
+    ]
+   },
+   {
+    "f": "2013-10-29",
+    "t": "Ley de Responsabilidad Fiscal",
+    "d": "La Ley 5098 limita el déficit del Gobierno central a 1,5 % del PIB y el aumento del gasto corriente a la inflación más 4 %. En una emergencia el Congreso puede suspender el tope, pero el déficit nunca puede pasar de 3 %.",
+    "tema": "3.6",
+    "ib": "Reglas fiscales: disciplina y credibilidad de la política fiscal.",
+    "fuente": "Biblioteca del Congreso (BACN)",
+    "url": "https://www.bacn.gov.py/leyes-paraguayas/4671/ley-n-5098-de-responsabilidad-fiscal",
+    "link": [
+     "#metas",
+     "Semáforo de metas"
+    ]
+   },
+   {
+    "f": "2019-09-25",
+    "t": "Reforma tributaria",
+    "d": "Se promulga la Ley 6380 de modernización y simplificación del sistema tributario, que rige desde enero de 2020.",
+    "tema": "3.6",
+    "ib": "Impuestos directos e indirectos, presión tributaria y equidad.",
+    "fuente": "PwC",
+    "url": "https://periscopiofiscalylegal.pwc.es/paraguay-reforma-tributaria-para-el-ano-2020/"
+   },
+   {
+    "f": "2024-05-08",
+    "t": "Nueva tarifa de Itaipú",
+    "d": "Paraguay y Brasil acuerdan una tarifa de US$ 19,28 por kW al mes hasta 2026, 15,4 % más que la anterior.",
+    "tema": "2.7",
+    "ib": "Precio regulado: la tarifa la negocian dos gobiernos, no la fija el mercado.",
+    "fuente": "InfoNegocios (8 may 2024)",
+    "url": "https://infonegocios.com.py/default/hay-acuerdo-tarifa-para-contratacion-de-energia-de-itaipu-cerrara-en-us-19-28-se-mantiene-pago-por-cesiones",
+    "link": [
+     "#itaipu",
+     "Itaipú a fondo"
+    ]
+   },
+   {
+    "f": "2024-07-26",
+    "t": "Paraguay obtiene el grado de inversión",
+    "d": "Moody’s sube la calificación del país de Ba1 a Baa3: por primera vez Paraguay tiene grado de inversión. S&P y Fitch lo mantenían un escalón abajo.",
+    "tema": "3.6",
+    "ib": "Riesgo país y costo de la deuda: una mejor calificación suele abaratar el crédito.",
+    "fuente": "Bloomberg Línea (26 jul 2024)",
+    "url": "https://www.bloomberglinea.com/2024/07/27/moodys-eleva-la-calificacion-de-paraguay-a-grado-de-inversion-por-su-crecimiento/"
+   },
+   {
+    "f": "2025-09-08",
+    "t": "Nueva ley de maquila",
+    "d": "La Ley 7547/2025 reemplaza a la de 1997 y extiende el régimen a los servicios; se reglamenta con el Decreto 5714/2026.",
+    "tema": "4.10",
+    "ib": "Diversificar exportaciones: de bienes a servicios.",
+    "fuente": "MIC, Decreto 5714/2026",
+    "url": "https://www.mic.gov.py/wp-content/uploads/2026/04/DECRETO-N%C2%B0-5714-2026.pdf"
+   },
+   {
+    "f": "2026-08-04",
+    "t": "El déficit se aleja de la regla fiscal",
+    "d": "El ministro de Economía, Óscar Lovera, anuncia que el déficit cerrará 2026 en 3,2 % del PIB y llegará a 3,9 % en 2027 por deudas atrasadas con proveedores; la meta es volver a 1,5 % en 2028.",
+    "tema": "3.6",
+    "ib": "Déficit, deuda y credibilidad de una regla fiscal.",
+    "fuente": "Última Hora (4 ago 2026)",
+    "url": "https://www.ultimahora.com/deficit-fiscal-cerrara-en-3-2-este-ano-y-en-el-2027-sera-de-3-9-confirma-ministro",
+    "link": [
+     "#miradas",
+     "Dos miradas sobre el déficit"
+    ]
+   },
+   {
+    "f": "2026-11-02",
+    "t": "La crisis de Ueno Bank",
+    "d": "La caída de un banco con casi 3 millones de clientes que terminó moviendo el dólar, el riesgo país, la bolsa, las jubilaciones y el Gobierno.",
+    "tema": "3.5",
+    "ib": "Estabilidad financiera, confianza y papel del banco central como prestamista de última instancia.",
+    "fuente": "Ver la historia completa en el sitio",
+    "url": "",
+    "link": [
+     "#historia-crisis-ueno",
+     "Seguir la historia"
+    ]
+   }
+  ],
+  "nota": "Cada hito indica su fuente. Solo se incluyen hechos con fecha confirmada; las fechas que solo indican el año o el mes son las que da la fuente."
+ },
+ "itaipu": {
+  "actualizado": "2026-11-09",
+  "intro": "Itaipú es la represa que Paraguay comparte con Brasil sobre el río Paraná. Es la mayor fuente de electricidad del país. Cada país es dueño de la mitad de la energía, pero Paraguay usa solo una parte de la suya y cede el resto a Brasil a cambio de una compensación. Desde 2023 se negocia el Anexo C, la parte del tratado que fija cómo se calcula la tarifa.",
+  "cifras": [
+   [
+    "14.000 MW",
+    "20 turbinas de 700 MW",
+    "Wikipedia"
+   ],
+   [
+    "72.879 GWh",
+    "Producción de 2025 (+8,9 % frente a 2024)",
+    "Informe anual de Itaipú, vía ABC Color (17 jun 2026)"
+   ],
+   [
+    "87,6 %",
+    "Parte del consumo eléctrico de Paraguay cubierta por Itaipú en 2025",
+    "ABC Color (17 jun 2026)"
+   ],
+   [
+    "36 % · 64 %",
+    "Parte de la energía de Itaipú que consumen Paraguay y Brasil",
+    "Agência iNFRA (14 abr 2026)"
+   ],
+   [
+    "US$ 19,28",
+    "Tarifa por kW al mes, vigente de 2024 a 2026",
+    "InfoNegocios (8 may 2024)"
+   ],
+   [
+    "US$ 462 M",
+    "Lo que Itaipú transfirió al Estado paraguayo en 2025",
+    "La Nación (5 ene 2026)"
+   ]
+  ],
+  "partes": [
+   {
+    "t": "El tratado y el Anexo C",
+    "tema": "2.7",
+    "texto": "El Tratado de Itaipú se firmó el 26 de abril de 1973. Su Anexo C fija las bases financieras: cómo se calcula la tarifa que cubre los costos de la represa. A los 50 años del tratado se abrió la revisión de ese anexo, y la deuda de la construcción ya terminó de pagarse. En marzo de 2026, tras un encuentro de Peña y Lula, ambos países coincidieron en que Itaipú debe reinvertir en nuevas fuentes de energía, porque los excedentes de energía se agotarían en unos ocho años.",
+    "fuentes": [
+     [
+      "Wikipedia",
+      "https://es.wikipedia.org/wiki/Represa_de_Itaip%C3%BA"
+     ],
+     [
+      "Última Hora (23 mar 2026)",
+      "https://www.ultimahora.com/anexo-c-itaipu-priorizara-la-inversion-en-generacion-ante-fin-de-la-abundancia"
+     ]
+    ]
+   },
+   {
+    "t": "La tarifa",
+    "tema": "2.7",
+    "texto": "La tarifa es el precio en dólares por kW al mes que pagan la ANDE y la empresa brasileña ENBPar por la potencia que contratan. Bajó de US$ 22,60 a 20,75 en 2022, y el acuerdo de 2024 la fijó en US$ 19,28 hasta 2026. Brasil quiere bajarla a US$ 10-12 desde 2027, porque la deuda ya se pagó y el precio debería reflejar solo el costo de operar. Paraguay prefiere una tarifa que financie inversiones, como nuevas turbinas y la renovación de las existentes.",
+    "fuentes": [
+     [
+      "InfoNegocios (8 may 2024)",
+      "https://infonegocios.com.py/default/hay-acuerdo-tarifa-para-contratacion-de-energia-de-itaipu-cerrara-en-us-19-28-se-mantiene-pago-por-cesiones"
+     ],
+     [
+      "Agência iNFRA (14 abr 2026)",
+      "https://agenciainfra.com/blog/itaipu-negociacao-com-paraguaios-avanca-e-tarifa-deve-ser-reduzida/"
+     ],
+     [
+      "Última Hora (23 mar 2026)",
+      "https://www.ultimahora.com/anexo-c-itaipu-priorizara-la-inversion-en-generacion-ante-fin-de-la-abundancia"
+     ]
+    ]
+   },
+   {
+    "t": "Lo que recibe Paraguay",
+    "tema": "3.6",
+    "texto": "En 2025 Itaipú transfirió al Estado paraguayo US$ 462 millones: US$ 247 millones de royalties (lo que paga por usar el agua del río), US$ 165 millones de compensación por la energía cedida a Brasil y US$ 50 millones a la ANDE. Desde agosto de 2023 hasta diciembre de 2025 las transferencias sumaron US$ 1.222 millones. Son ingresos importantes para el Presupuesto.",
+    "fuentes": [
+     [
+      "La Nación (5 ene 2026)",
+      "https://www.lanacion.com.py/negocios/2026/01/05/itaipu-transfirio-un-total-de-usd-462-millones-al-estado-paraguayo-en-2025/"
+     ]
+    ]
+   },
+   {
+    "t": "La energía cedida",
+    "tema": "1.1",
+    "texto": "Paraguay es dueño del 50 % de la energía, pero consume cerca del 36 % de lo que produce Itaipú; el resto de su mitad se cede a Brasil. Según un cálculo de ABC Color con datos de enero a mayo de 2025, Brasil pagó unos US$ 15 por MWh de energía cedida, cuando la tarifa media de la ANDE ronda los US$ 49 por MWh. Por eso muchos analistas consideran que el precio de la cesión es bajo. A medida que crece la demanda interna, Paraguay usa más de su parte y cede menos.",
+    "fuentes": [
+     [
+      "ABC Color (10 jun 2025)",
+      "https://www.abc.com.py/economia/2025/06/10/apenas-us-15mwh-pagan-desde-itaipu-al-paraguay-por-energia-cedida/"
+     ],
+     [
+      "Agência iNFRA (14 abr 2026)",
+      "https://agenciainfra.com/blog/itaipu-negociacao-com-paraguaios-avanca-e-tarifa-deve-ser-reduzida/"
+     ]
+    ]
+   }
+  ],
+  "graficos": [
+   {
+    "t": "Lo que Itaipú transfirió al Estado en 2025",
+    "u": "US$ millones",
+    "rows": [
+     [
+      "Royalties",
+      247,
+      1
+     ],
+     [
+      "Energía cedida",
+      165
+     ],
+     [
+      "ANDE",
+      50
+     ]
+    ],
+    "cap": "Total: US$ 462 millones. Fuente: La Nación (5 ene 2026)."
+   },
+   {
+    "t": "Tarifa de Itaipú",
+    "u": "US$ por kW al mes",
+    "rows": [
+     [
+      "Antes de 2022",
+      22.6
+     ],
+     [
+      "2022",
+      20.75
+     ],
+     [
+      "2024-2026",
+      19.28,
+      1
+     ]
+    ],
+    "cap": "Brasil propone bajarla a US$ 10-12 desde 2027. Fuentes: InfoNegocios (8 may 2024) y Agência iNFRA (14 abr 2026)."
+   },
+   {
+    "t": "Precio de la electricidad por MWh",
+    "u": "US$ por MWh",
+    "rows": [
+     [
+      "Compensación por energía cedida (2025)",
+      15.1,
+      1
+     ],
+     [
+      "Tarifa media de la ANDE (2026)",
+      49.2
+     ],
+     [
+      "Tarifa media propuesta para 2030",
+      68.6
+     ]
+    ],
+    "cap": "Fuentes: ABC Color (10 jun 2025) y La Nación (23 jul 2026)."
+   }
+  ],
+  "posiciones": {
+   "paraguay": [
+    "Una tarifa que permita a Itaipú y a la ANDE invertir en nueva generación y transmisión.",
+    "Poder vender libremente la energía que le sobra, a un precio de mercado.",
+    "Mantener los gastos socioambientales de la binacional."
+   ],
+   "brasil": [
+    "Una tarifa más baja (US$ 10-12 por kW al mes) que refleje solo el costo de operar, porque la deuda ya se pagó.",
+    "Hoy sus distribuidoras pagan US$ 16,71: el Gobierno brasileño cubre la diferencia con un subsidio de unos US$ 300 millones al año."
+   ],
+   "fuentes": [
+    [
+     "Última Hora (23 mar 2026)",
+     "https://www.ultimahora.com/anexo-c-itaipu-priorizara-la-inversion-en-generacion-ante-fin-de-la-abundancia"
+    ],
+    [
+     "Agência iNFRA (14 abr 2026)",
+     "https://agenciainfra.com/blog/itaipu-negociacao-com-paraguaios-avanca-e-tarifa-deve-ser-reduzida/"
+    ]
+   ]
+  },
+  "ib": [
+   [
+    "1.1",
+    "Costo de oportunidad: usar la energía en el país o cederla a Brasil."
+   ],
+   [
+    "2.7",
+    "Precio regulado: la tarifa la negocian dos gobiernos, no la fija el mercado."
+   ],
+   [
+    "2.11",
+    "Monopolio natural: una sola represa abastece a dos países."
+   ],
+   [
+    "3.6",
+    "Ingresos públicos: royalties y compensaciones financian el Presupuesto."
+   ],
+   [
+    "4.6",
+    "Balanza de pagos: la energía cedida entra como exportación y trae dólares."
+   ],
+   [
+    "4.7",
+    "Desarrollo sostenible: energía limpia y renovable."
+   ]
+  ],
+  "preguntas": [
+   "¿A quién conviene una tarifa alta y a quién una baja? Piensa en la ANDE, en los consumidores y en el Estado.",
+   "Si Paraguay usara toda su mitad de la energía, ¿qué ganaría y qué dejaría de recibir?",
+   "¿Por qué Brasil dice que la tarifa debe bajar ahora que se pagó la deuda?"
+  ],
+  "noticias": [
+   "itaipu-opinion",
+   "energia-cedida",
+   "ande-tarifa"
+  ]
+ },
+ "miradas": [
+  {
+   "id": "salario-minimo",
+   "t": "El salario mínimo",
+   "pregunta": "¿Fue correcto subir el salario mínimo un 5 %?",
+   "tema": "2.7",
+   "diagrama": "salario-minimo",
+   "noticia": "salario-minimo",
+   "contexto": "En junio de 2026 el Gobierno subió el salario mínimo un 5 %, a G. 3.044.000 desde el 1 de julio. La ley toma como base la inflación de los últimos doce meses (2,4 %), pero el Gobierno decidió subir más. Según la ministra de Trabajo, los empresarios pedían 2,4 % y los trabajadores, 20 %.",
+   "lados": [
+    {
+     "t": "Debió subir más",
+     "args": [
+      [
+       "Rodrigo Ibarrola, investigador del Cadep",
+       "El 5 % no alcanza para recuperar el poder de compra perdido: los salarios están estancados aunque la economía y la productividad crecieron.",
+       "Última Hora",
+       "https://www.ultimahora.com/economista-afirma-que-aumento-de-salario-minimo-no-es-suficiente-para-recuperar-poder-adquisitivo",
+       "2026-06-18"
+      ],
+      [
+       "Centrales de trabajadores",
+       "Pedían una suba del 20 %, según contó la ministra de Trabajo.",
+       "Infobae",
+       "https://www.infobae.com/america/america-latina/2026/06/18/el-presidente-de-paraguay-reajusto-un-5-el-salario-minimo-supero-a-la-inflacion-y-alcanzara-los-usd-500/",
+       "2026-06-18"
+      ]
+     ]
+    },
+    {
+     "t": "Subió demasiado",
+     "args": [
+      [
+       "Luis Tavella (Fedemipymes), Enrique Duarte (Feprinco) y Carla Bacigalupo (Asomipymes)",
+       "El costo recae sobre todo en las micro, pequeñas y medianas empresas, que tienen márgenes chicos; puede afectar su competitividad.",
+       "Última Hora",
+       "https://www.ultimahora.com/reajuste-del-salario-minimo-impactara-mas-en-mipymes",
+       "2026-07-27"
+      ],
+      [
+       "Gremios empresariales",
+       "Pedían una suba igual a la inflación (2,4 %), según contó la ministra de Trabajo.",
+       "Infobae",
+       "https://www.infobae.com/america/america-latina/2026/06/18/el-presidente-de-paraguay-reajusto-un-5-el-salario-minimo-supero-a-la-inflacion-y-alcanzara-los-usd-500/",
+       "2026-06-18"
+      ]
+     ]
+    }
+   ],
+   "decision": "El presidente Santiago Peña lo llamó un número equilibrado: supera la inflación sin ser excesivo (Infobae, 18 jun 2026).",
+   "evaluar": [
+    "¿Quién gana y quién pierde: trabajadores formales, informales, mipymes, consumidores?",
+    "Usa el diagrama: ¿qué pasa con el empleo si el salario mínimo queda por encima del de equilibrio?",
+    "Con más de la mitad del empleo en la informalidad, ¿a cuántos trabajadores alcanza en la práctica el salario mínimo?",
+    "Corto y largo plazo: poder de compra hoy frente a empleo y productividad mañana."
+   ]
+  },
+  {
+   "id": "deficit",
+   "t": "El déficit fiscal",
+   "pregunta": "¿Está bien subir el déficit a 3,9 % del PIB en 2027?",
+   "tema": "3.6",
+   "diagrama": "politica-fiscal",
+   "noticia": "",
+   "contexto": "La Ley de Responsabilidad Fiscal limita el déficit a 1,5 % del PIB. El Gobierno cerrará 2026 con 3,2 % y propone 3,9 % para 2027, dentro de un Presupuesto de US$ 25.700 millones, porque encontró deudas atrasadas con proveedores por unos US$ 1.270 millones (sobre todo en salud y obras públicas). Promete volver a 1,5 % en 2028.",
+   "lados": [
+    {
+     "t": "A favor",
+     "args": [
+      [
+       "Óscar Lovera, ministro de Economía",
+       "Un déficit mayor permite pagar las deudas atrasadas y ordenar las cuentas; sin esos atrasos el déficit de 2027 sería de cerca de 1,9 %. En 2028 se volvería a cumplir la ley.",
+       "Última Hora",
+       "https://www.ultimahora.com/deficit-fiscal-cerrara-en-3-2-este-ano-y-en-el-2027-sera-de-3-9-confirma-ministro",
+       "2026-08-04"
+      ],
+      [
+       "Rodrigo Ibarrola, economista del Cadep",
+       "No había otra salida: la alternativa era no pagar a los proveedores.",
+       "InfoNegocios",
+       "https://infonegocios.com.py/nota-principal/deficit-subira-al-3-9-para-ordenar-las-cuentas-publicas-y-saldar-deudas-atrasadas-del-estado-con-proveedores",
+       "2026-08-05"
+      ]
+     ]
+    },
+    {
+     "t": "En contra o con dudas",
+     "args": [
+      [
+       "César Barreto, exministro de Hacienda",
+       "El déficit estructural ya supera el 2 % del PIB; volver a 1,5 % en 2028 es casi imposible sin recortar mucho la inversión. Pide presupuestos ajustados a lo que realmente se recauda.",
+       "ABC Color",
+       "https://www.abc.com.py/economia/2026/08/05/meta-fiscal-del-gobierno-es-practicamente-imposible-volver-al-15-en-2028/",
+       "2026-08-05"
+      ],
+      [
+       "Óscar Llamosas, exministro de Hacienda",
+       "Transparentar las deudas es positivo, pero el problema puede ser permanente. Antes de subir impuestos hay que mejorar el gasto y revisar las exoneraciones.",
+       "ABC Color",
+       "https://www.abc.com.py/economia/2026/08/05/deudas-del-estado-podrian-revelar-un-problema-fiscal-estructural-advierte-exministro/",
+       "2026-08-05"
+      ],
+      [
+       "Fondo Monetario Internacional",
+       "Había recomendado respetar el tope de 1,5 % del PIB.",
+       "La Política Online",
+       "https://www.lapoliticaonline.com/paraguay/economia-py/lovera-presenta-el-presupuesto-con-un-deficit-del-3-9-y-se-expone-al-escrutinio-del-fmi/",
+       "2026-09-01"
+      ]
+     ]
+    }
+   ],
+   "decision": "El Presupuesto 2027 está en estudio en el Congreso.",
+   "evaluar": [
+    "¿El déficit se debe a una causa excepcional (deudas atrasadas) o es estructural?",
+    "Efectos sobre la DA, la deuda pública y el riesgo país.",
+    "¿Qué conviene para cerrar el déficit: subir impuestos, recortar gasto corriente o recortar inversión?",
+    "Credibilidad: ¿qué pasa si una regla fiscal se suspende muy seguido?"
+   ]
+  },
+  {
+   "id": "ande",
+   "t": "La tarifa de la ANDE",
+   "pregunta": "¿Debe subir la tarifa de la electricidad?",
+   "tema": "2.11",
+   "diagrama": "monopolio",
+   "noticia": "ande-tarifa",
+   "contexto": "La ANDE es la única empresa que distribuye electricidad en el país. Un estudio del Ceare (Universidad de Buenos Aires), hecho con apoyo del BID a pedido de la ANDE, propone subir la tarifa media en forma gradual de US$ 49,2 a 68,6 por MWh entre 2026 y 2030 (+39,4 %), porque la tarifa actual no cubre los costos ni las obras del Plan Maestro.",
+   "lados": [
+    {
+     "t": "A favor",
+     "args": [
+      [
+       "Victorio Oxilia, especialista en energía",
+       "La tarifa debe cubrir los costos reales y las inversiones, aunque también hay que bajar las pérdidas (cerca del 10 % en distribución) y cuidar el efecto del tipo de cambio.",
+       "Última Hora",
+       "https://www.ultimahora.com/expertos-coinciden-en-necesidad-de-reajuste-de-tarifas-de-la-ande",
+       "2026-07-25"
+      ],
+      [
+       "Fabián Cáceres, ex gerente técnico de la ANDE",
+       "La ANDE tiene rentabilidad negativa desde 2021 y en varias categorías vende por debajo del costo.",
+       "Última Hora",
+       "https://www.ultimahora.com/expertos-coinciden-en-necesidad-de-reajuste-de-tarifas-de-la-ande",
+       "2026-07-25"
+      ],
+      [
+       "Ángel María Recalde, ex director de Yacyretá",
+       "La ANDE no puede ser obligada a subsidiar industrias: cualquier tarifa especial debería aprobarse por ley.",
+       "Última Hora",
+       "https://www.ultimahora.com/la-ande-no-puede-ser-obligada-a-subsidiar-industrias-afirma-experto",
+       "2026-06-16"
+      ]
+     ]
+    },
+    {
+     "t": "En contra o con condiciones",
+     "args": [
+      [
+       "Enrique Duarte, presidente de la Unión Industrial Paraguaya",
+       "Hace falta un organismo regulador independiente que fije tarifas técnicas y separar los papeles de regulador, operador y comprador.",
+       "Última Hora",
+       "https://www.ultimahora.com/industriales-urgen-crear-organismo-regulador-que-fije-tarifas-de-ande",
+       "2026-07-24"
+      ],
+      [
+       "Rubén Jacks, presidente del CEAL Paraguay",
+       "Las pérdidas de la ANDE (cerca del 25 %, frente a 15 % en la región) y la morosidad son altas: hay que corregir eso y abrir el sector a la inversión privada.",
+       "Última Hora",
+       "https://www.ultimahora.com/industriales-urgen-crear-organismo-regulador-que-fije-tarifas-de-ande",
+       "2026-07-24"
+      ]
+     ]
+    }
+   ],
+   "decision": "La ANDE dijo que el aumento no sería inmediato y que diferenciaría por tipo de usuario (La Nación, 23 jul 2026).",
+   "evaluar": [
+    "Monopolio natural: ¿el precio regulado debe cubrir el costo medio aunque sea más alto?",
+    "Eficiencia: ¿primero subir la tarifa o primero bajar las pérdidas?",
+    "Equidad: efecto en los hogares pobres frente a las industrias que usan mucha energía.",
+    "Largo plazo: sin inversión en redes, ¿qué pasa con los cortes de luz?"
+   ]
+  }
+ ],
+ "trabajo": {
+  "actualizado": "2026-11-09",
+  "intro": "Cómo trabajan los paraguayos: cuántos tienen empleo formal, cuántos aportan para jubilarse, cuánto es el salario mínimo y cuánto menos ganan las mujeres. Todos los datos vienen del INE y de fuentes oficiales citadas por la prensa.",
+  "definicion": "Para el INE, un trabajador es formal si aporta a una caja de jubilación o si está inscrito en el RUC (registro de contribuyentes). Si no cumple ninguna de las dos condiciones, es informal: no tiene jubilación ni seguro de salud por su trabajo y, por lo general, no paga impuestos por sus ingresos.",
+  "cifras": [
+   [
+    "61,6 %",
+    "Ocupados no agropecuarios con empleo informal (2.º trimestre de 2026)",
+    "INE, vía ABC Color (2 ago 2026)"
+   ],
+   [
+    "1.753.316",
+    "Personas con empleo informal: 74.307 más que un año antes",
+    "INE, vía ABC Color"
+   ],
+   [
+    "27,8 %",
+    "Ocupados que aportan a una caja de jubilación (2025)",
+    "Cadep con datos del INE, vía Última Hora"
+   ],
+   [
+    "4,1 %",
+    "Desempleo (3.er trimestre de 2026)",
+    "INE"
+   ],
+   [
+    "G. 3.044.000",
+    "Salario mínimo desde el 1 de julio de 2026 (+5 %)",
+    "Decreto 6225/2026, vía Bloomberg Línea"
+   ],
+   [
+    "27,3 %",
+    "Cuánto menos ganan en promedio las mujeres que los hombres (2025)",
+    "INE, vía ABC Color (6 mar 2026)"
+   ],
+   [
+    "10,3 · 10,1",
+    "Años de estudio promedio de mujeres y de hombres",
+    "INE, vía ABC Color"
+   ]
+  ],
+  "graficos": [
+   {
+    "t": "Ocupados no agropecuarios (2.º trimestre de 2026)",
+    "u": "personas",
+    "rows": [
+     [
+      "Informales",
+      1753316,
+      1
+     ],
+     [
+      "Formales",
+      1090118
+     ]
+    ],
+    "cap": "Fuente: INE, vía ABC Color (2 ago 2026)."
+   },
+   {
+    "t": "Informalidad por zona",
+    "u": "%",
+    "rows": [
+     [
+      "Rural",
+      72.4,
+      1
+     ],
+     [
+      "Urbana",
+      59
+     ]
+    ],
+    "cap": "Ocupación no agropecuaria, 2.º trimestre de 2026. Fuente: INE, vía ABC Color."
+   },
+   {
+    "t": "Ingreso medio mensual por sexo (2025)",
+    "u": "miles de G.",
+    "rows": [
+     [
+      "Hombres",
+      3815
+     ],
+     [
+      "Mujeres",
+      2772,
+      1
+     ]
+    ],
+    "cap": "Las mujeres estudian más años en promedio, pero ganan 27,3 % menos. Fuente: INE, vía ABC Color."
+   },
+   {
+    "t": "Salario mínimo mensual",
+    "u": "G.",
+    "rows": [
+     [
+      "Hasta junio de 2026",
+      2899048
+     ],
+     [
+      "Desde julio de 2026",
+      3044000,
+      1
+     ]
+    ],
+    "cap": "Suba de 5 %, con una inflación de 2,4 %. Fuentes: Infobae y Bloomberg Línea."
+   }
+  ],
+  "fuentes": [
+   [
+    "ABC Color (2 ago 2026)",
+    "https://www.abc.com.py/economia/2026/08/02/empleo-informal-supero-las-1750000-personas-en-el-segundo-trimestre/"
+   ],
+   [
+    "ABC Color (6 mar 2026)",
+    "https://www.abc.com.py/nacionales/2026/03/06/el-empleo-femenino-en-paraguay-las-mujeres-estudian-mas-pero-ganan-30-menos-que-los-hombres/"
+   ],
+   [
+    "Última Hora",
+    "https://www.ultimahora.com/solo-28-de-ocupados-aportan-a-una-caja"
+   ],
+   [
+    "Bloomberg Línea",
+    "https://www.bloomberglinea.com/latinoamerica/como-queda-el-salario-minimo-en-paraguay-tras-el-reajuste-del-5-anunciado-por-pena/"
+   ]
+  ],
+  "ib": [
+   [
+    "2.7",
+    "Salario mínimo: un precio mínimo en el mercado de trabajo."
+   ],
+   [
+    "3.3",
+    "Desempleo y subempleo: tipos y costos."
+   ],
+   [
+    "3.4",
+    "Desigualdad: brecha de ingresos entre hombres y mujeres."
+   ],
+   [
+    "3.7",
+    "Políticas de oferta: formalizar el empleo y capacitar a los trabajadores."
+   ],
+   [
+    "4.9",
+    "Barreras al desarrollo: informalidad y desigualdad de género."
+   ]
+  ],
+  "preguntas": [
+   "¿Por qué una empresa o un trabajador eligen la informalidad? Piensa en costos y beneficios.",
+   "¿Qué efectos tiene la informalidad sobre el IPS, la recaudación y la productividad?",
+   "¿Qué políticas podrían reducir la brecha de ingresos entre hombres y mujeres?"
+  ]
+ },
+ "empresas": [
+  {
+   "id": "frigorificos",
+   "t": "Frigoríficos",
+   "sub": "Pocos compradores de ganado: oligopsonio",
+   "tema": "2.11",
+   "diagrama": "oferta-demanda",
+   "cifras": [
+    [
+     "5",
+     "Frigoríficos que lideraron la faena en 2025: Belén, Concepción, Frigomerc, Frigochaco y Frigochorti"
+    ],
+    [
+     "160.000-220.000",
+     "Cabezas de ganado faenadas por mes en el país (enero a noviembre de 2025)"
+    ],
+    [
+     "40.000+",
+     "Cabezas que faenó el frigorífico Belén en sus mejores meses"
+    ]
+   ],
+   "texto": "Miles de ganaderos venden su ganado, pero unos pocos frigoríficos compran la mayor parte. Cuando hay pocos compradores, estos tienen poder para influir en el precio que pagan: es un oligopsonio. Por eso los ganaderos siguen de cerca las compras y alquileres entre frigoríficos. En 2020, cuando Athena Foods (del grupo brasileño Minerva) quiso alquilar el frigorífico FrigoNorte, la Asociación de Productores y Exportadores de Carne pidió a la Comisión Nacional de la Competencia (Conacom) que no lo aprobara, porque temía que el grupo concentrara más de la mitad de la faena y bajara el precio del ganado.",
+   "preguntas": [
+    "¿Por qué a los ganaderos les preocupa que haya pocos frigoríficos?",
+    "¿Qué hace la Conacom y por qué revisa las compras entre empresas?"
+   ],
+   "fuentes": [
+    [
+     "InfoNegocios (31 dic 2025)",
+     "https://infonegocios.com.py/infoganaderia/quienes-mueven-la-carne-los-frigorificos-que-concentran-la-faena-y-la-exportacion-en-2025"
+    ],
+    [
+     "InfoNegocios (24 jun 2020)",
+     "https://infonegocios.com.py/amp/infoganaderia/acaparamiento-de-athena-foods-ganaderos-esperan-que-la-conacom-no-apruebe-alquiler-de-frigonorte"
+    ]
+   ]
+  },
+  {
+   "id": "maquila",
+   "t": "Maquiladoras",
+   "sub": "Producir en Paraguay para exportar",
+   "tema": "4.10",
+   "diagrama": "exportaciones",
+   "cifras": [
+    [
+     "US$ 717 M",
+     "Exportaciones del primer semestre de 2026 (+25 %)"
+    ],
+    [
+     "36.052",
+     "Empleos en el primer semestre de 2026; 45 % son mujeres"
+    ],
+    [
+     "78 %",
+     "Exportaciones que van al Mercosur; Brasil compra el 62 %"
+    ],
+    [
+     "32 %",
+     "Parte de las autopartes en lo que exporta la maquila"
+    ]
+   ],
+   "texto": "Una maquiladora importa insumos, los transforma en Paraguay y exporta el producto, sobre todo a Brasil: autopartes, ropa, aluminio y alimentos. Elige instalarse aquí por sus costos: según la cámara del sector, el atractivo principal fue el bajo costo de la mano de obra, junto con la energía limpia y la estabilidad económica. Su presidente, Jorge Bunchicoff, advierte que el bajo costo laboral ya no alcanza por sí solo y que el sector incorpora automatización sin eliminar empleos.",
+   "preguntas": [
+    "¿Qué ventaja comparativa aprovecha la maquila en Paraguay?",
+    "¿Qué riesgo tiene depender tanto de un solo comprador como Brasil?"
+   ],
+   "fuentes": [
+    [
+     "La República (14 jul 2026)",
+     "https://www.larepublica.co/globoeconomia/exportaciones-del-regimen-de-maquila-en-paraguay-superan-us-700-millones-4435619"
+    ],
+    [
+     "ABC Color (31 jul 2026)",
+     "https://www.abc.com.py/negocios/2026/07/31/maquila-paraguaya-la-automatizacion-avanza-sin-arrasar-empleos/"
+    ]
+   ]
+  },
+  {
+   "id": "telefonia",
+   "t": "Telefonía móvil",
+   "sub": "Pocas empresas grandes: oligopolio",
+   "tema": "2.11",
+   "diagrama": "",
+   "cifras": [
+    [
+     "42 %",
+     "Tigo"
+    ],
+    [
+     "31 %",
+     "Personal"
+    ],
+    [
+     "22 %",
+     "Claro"
+    ],
+    [
+     "4 %",
+     "Vox"
+    ]
+   ],
+   "cifras_nota": "Participación en líneas móviles a junio de 2019 (Conatel, vía Última Hora): es el último reparto por empresa publicado en la prensa.",
+   "texto": "Tres empresas tienen casi todas las líneas: es un oligopolio. Entrar al mercado es caro, porque hay que construir antenas y comprar al Estado el derecho a usar frecuencias (espectro): son barreras de entrada. Las empresas compiten más con planes, promociones y publicidad que bajando precios, porque cada una sabe que las otras reaccionarán. Desde 2012 existe la portabilidad numérica, que permite cambiar de empresa sin perder el número: entre enero y septiembre de 2019 la usaron 553.981 personas. Eso baja el costo de cambiar y aumenta la competencia.",
+   "preguntas": [
+    "¿Por qué hay tan pocas empresas de telefonía móvil?",
+    "¿Cómo la portabilidad numérica cambia el poder de las empresas?"
+   ],
+   "fuentes": [
+    [
+     "Última Hora (20 oct 2019)",
+     "https://www.ultimahora.com/mas-550000-usuarios-telefonia-cambiaron-operadora-n2850327.html"
+    ]
+   ]
+  },
+  {
+   "id": "supermercados",
+   "t": "Supermercados",
+   "sub": "Muchas tiendas, una cadena líder",
+   "tema": "2.11",
+   "diagrama": "",
+   "cifras": [
+    [
+     "2",
+     "Investigaciones de la Conacom sobre Retail S.A. (Superseis y Stock) en 2025"
+    ],
+    [
+     "27",
+     "Sucursales de Superseis en 2020, más su tienda en línea"
+    ]
+   ],
+   "texto": "Hay muchos supermercados y cada uno se diferencia por su ubicación, sus precios, sus ofertas y su servicio: se parece a la competencia monopolística. Pero la cadena más grande tiene mucho poder frente a sus proveedores. En 2025 la Conacom abrió un estudio sobre la política de Retail S.A. (Grupo Vierci, dueño de Superseis y Stock) con sus proveedores (bonificaciones, descuentos y aportes) y un sumario por supuestos incumplimientos de las condiciones de una fusión autorizada. Abrir un sumario no es una sanción. La cámara de supermercados dijo que negociar con proveedores es normal y que el caso es una zona gris.",
+   "preguntas": [
+    "¿Qué poder tiene un supermercado grande frente a una pequeña empresa que le vende?",
+    "¿Por qué la Conacom revisa las fusiones entre empresas?"
+   ],
+   "fuentes": [
+    [
+     "ABC Color (17 oct 2025)",
+     "https://www.abc.com.py/economia/2025/10/17/conacom-abrio-dos-sumarios-que-afectan-a-cadena-de-supermercados/"
+    ],
+    [
+     "InfoNegocios (23 sep 2020)",
+     "https://infonegocios.com.py/y-ademas/superseis-llega-a-su-aniversario-apostando-a-la-omnicanalidad-y-aguarda-un-futuro-competitivo"
+    ]
+   ]
+  },
+  {
+   "id": "ande",
+   "t": "ANDE",
+   "sub": "Una sola empresa: monopolio natural",
+   "tema": "2.11",
+   "diagrama": "monopolio",
+   "cifras": [
+    [
+     "US$ 49,2",
+     "Tarifa media por MWh (2026)"
+    ],
+    [
+     "+39,4 %",
+     "Suba gradual que propone un estudio para 2026-2030"
+    ],
+    [
+     "18,3 %",
+     "Aumento de la demanda de electricidad en el primer semestre de 2026"
+    ]
+   ],
+   "texto": "La ANDE es la única empresa que distribuye electricidad. No tiene sentido construir dos redes de cables en la misma calle: una sola empresa produce más barato (economías de escala). Por eso es un monopolio natural y el Estado regula su precio. El debate es cuánto cobrar: una tarifa baja ayuda a hogares e industrias, pero si no cubre los costos falta dinero para invertir en redes.",
+   "preguntas": [
+    "¿Por qué tiene sentido que haya una sola empresa de electricidad?",
+    "¿Qué pasaría si la ANDE cobrara como un monopolio sin regular?"
+   ],
+   "fuentes": [
+    [
+     "La Nación (23 jul 2026)",
+     "https://www.lanacion.com.py/negocios/2026/07/23/tarifa-electrica-estudio-tecnico-recomienda-ajuste-de-hasta-40-para-fortalecer-a-la-ande/"
+    ],
+    [
+     "Última Hora (25 jul 2026)",
+     "https://www.ultimahora.com/expertos-coinciden-en-necesidad-de-reajuste-de-tarifas-de-la-ande"
+    ]
+   ],
+   "link": [
+    "#miradas",
+    "Ver el debate sobre la tarifa"
+   ]
+  }
+ ],
+ "metas": {
+  "actualizado": "2026-11-09",
+  "intro": "¿Cumple el país lo que se propuso? Cada indicador se compara con su meta oficial o con una referencia. Verde: se cumple. Amarillo: hay que mirarlo. Rojo: no se cumple.",
+  "items": [
+   {
+    "id": "inflacion",
+    "t": "Inflación",
+    "serie": "inflacion",
+    "u": " %",
+    "dec": 1,
+    "meta": "Meta del BCP: 3,5 %, con un rango de 1,5 % a 5,5 %",
+    "rango": [
+     1.5,
+     5.5
+    ],
+    "amarillo": [
+     1.0,
+     6.5
+    ],
+    "oficial": true,
+    "tema": "3.5",
+    "link": "#d-politica-monetaria",
+    "por": "Mantener los precios estables protege el poder de compra. Si la inflación sale del rango, el BCP mueve la tasa de interés."
+   },
+   {
+    "id": "deficit",
+    "t": "Déficit fiscal 2026",
+    "v": 3.2,
+    "u": " % del PIB",
+    "dec": 1,
+    "fecha": "2026-08-04",
+    "meta": "Ley de Responsabilidad Fiscal: hasta 1,5 % (en una emergencia, nunca más de 3 %)",
+    "max": [
+     1.5,
+     3.0
+    ],
+    "oficial": true,
+    "extra": "Proyección del MEF para el cierre del año. Acumulado a septiembre: 2,0 %; últimos doce meses: 3,0 %.",
+    "fuente": "MEF, vía Última Hora (4 ago y 20 oct 2026)",
+    "tema": "3.6",
+    "link": "#miradas",
+    "por": "Un déficit alto obliga a endeudarse; la ley busca que la deuda no crezca demasiado."
+   },
+   {
+    "id": "crecimiento",
+    "t": "Crecimiento del PIB 2026",
+    "v": 5.0,
+    "u": " %",
+    "dec": 1,
+    "fecha": "2026-10-31",
+    "meta": "Sin meta oficial. Referencia del sitio: 3 % o más es un crecimiento sólido",
+    "min": [
+     3.0,
+     1.0
+    ],
+    "oficial": false,
+    "fuente": "Proyección del BCP (octubre 2026)",
+    "tema": "3.3",
+    "link": "#indicadores",
+    "por": "El crecimiento genera empleo e ingresos; si es muy rápido puede presionar los precios."
+   },
+   {
+    "id": "desempleo",
+    "t": "Desempleo",
+    "serie": "desempleo",
+    "u": " %",
+    "dec": 1,
+    "meta": "Sin meta oficial. Referencia del sitio: menos de 6 %",
+    "max": [
+     6.0,
+     8.0
+    ],
+    "oficial": false,
+    "tema": "3.3",
+    "link": "#trabajo",
+    "por": "Mide a quienes buscan trabajo y no lo encuentran; no capta la informalidad."
+   },
+   {
+    "id": "deuda",
+    "t": "Deuda pública",
+    "v": 34.4,
+    "u": " % del PIB",
+    "dec": 1,
+    "fecha": "2026-06-30",
+    "meta": "Sin límite legal. Referencia del sitio: menos de 40 % del PIB",
+    "max": [
+     40.0,
+     60.0
+    ],
+    "oficial": false,
+    "extra": "Era 41,1 % en diciembre de 2025.",
+    "fuente": "MEF (junio 2026)",
+    "tema": "3.6",
+    "link": "#paraguay",
+    "por": "Una deuda baja permite pagar menos intereses y responder mejor ante una crisis."
+   },
+   {
+    "id": "riesgo",
+    "t": "Riesgo país (EMBI)",
+    "serie": "embi",
+    "u": " pb",
+    "dec": 0,
+    "meta": "Sin meta oficial. Referencia del sitio: menos de 250 puntos básicos",
+    "max": [
+     250,
+     400
+    ],
+    "oficial": false,
+    "tema": "3.6",
+    "link": "#indicadores",
+    "por": "Mide cuánto más que EE.UU. paga Paraguay por endeudarse; sube cuando los inversores desconfían."
+   },
+   {
+    "id": "calificacion",
+    "t": "Calificación de riesgo",
+    "txt": "Baa3",
+    "estado": "verde",
+    "fecha": "2026-07-17",
+    "meta": "Mantener el grado de inversión (Moody’s)",
+    "oficial": false,
+    "extra": "Moody’s la ratificó en julio de 2026 con perspectiva estable.",
+    "fuente": "La Nación (17 jul 2026)",
+    "url": "https://www.lanacion.com.py/negocios/2026/07/17/moodys-ratifica-a-paraguay-en-grado-de-inversion-con-perspectiva-estable/",
+    "tema": "3.6",
+    "link": "#cronologia",
+    "por": "El grado de inversión abarata el crédito para el Estado y las empresas."
+   }
+  ],
+  "nota": "Los indicadores de inflación, desempleo y riesgo país se actualizan solos con cada dato nuevo. Las metas marcadas como «referencia del sitio» no son oficiales: son criterios didácticos para leer el dato."
  }
 }
