@@ -1191,7 +1191,7 @@ function spark(h) {
 /* =====================================================================
    4. VISTAS
    ===================================================================== */
-const F = Object.assign({ u: 'todas', kc: 'todos', medio: 'todos', q: '' }, store.get('enp-filtro', {}));
+const F = { u: 'todas', kc: 'todos', medio: 'todos', q: '' }; /* los filtros empiezan limpios en cada visita */
 const unitTag = u => `<span class="unit ${u}">${UNI[u]}</span>`;
 const isNew = n => (pd(ACTUALIZADO) - pd(n.fecha)) / 864e5 <= 2;
 
