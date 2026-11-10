@@ -4720,7 +4720,14 @@
     ]
    ],
    "lee": "El desempleo bajó casi un punto en un año, con más empleo en comercio y servicios.",
-   "grupo": "Actividad y empleo"
+   "grupo": "Actividad y empleo",
+   "eventos": [
+    [
+     "2026-09-30",
+     "El desempleo baja a 4,1 %",
+     "desempleo-41"
+    ]
+   ]
   },
   "inflacion": {
    "t": "Inflación interanual",
@@ -4774,7 +4781,14 @@
     ]
    ],
    "lee": "La franja muestra el rango meta del BCP (3,5 % ± 2). En 2026 la inflación se mantuvo en la parte baja del rango.",
-   "grupo": "Precios y dinero"
+   "grupo": "Precios y dinero",
+   "eventos": [
+    [
+     "2026-10-31",
+     "Bajan los alimentos: inflación mensual de −0,1 %",
+     "inflacion-oct"
+    ]
+   ]
   },
   "tpm": {
    "t": "Tasa de política monetaria",
@@ -4801,7 +4815,24 @@
    ],
    "lee": "El BCP bajó la tasa dos veces a comienzos de 2026 y desde febrero la mantiene en 5,50 %.",
    "grupo": "Precios y dinero",
-   "dec": 2
+   "dec": 2,
+   "eventos": [
+    [
+     "2026-01-23",
+     "El BCP baja la tasa a 5,75 %",
+     ""
+    ],
+    [
+     "2026-02-20",
+     "El BCP baja la tasa a 5,50 %",
+     ""
+    ],
+    [
+     "2026-10-23",
+     "El BCP mantiene la tasa en 5,50 %",
+     "bcp-tpm"
+    ]
+   ]
   },
   "credito": {
    "t": "Crédito al sector privado",
@@ -4863,7 +4894,19 @@
     ]
    ],
    "lee": "El guaraní se apreció casi todo el año y en la primera semana de noviembre se depreció con fuerza por la crisis de Ueno Bank.",
-   "grupo": "Sector externo"
+   "grupo": "Sector externo",
+   "eventos": [
+    [
+     "2026-11-03",
+     "El BCP interviene Ueno Bank",
+     "ueno-intervencion"
+    ],
+    [
+     "2026-11-06",
+     "Destitución de Peña; asume Alliana",
+     "alliana-gobierno"
+    ]
+   ]
   },
   "exportaciones": {
    "t": "Exportaciones registradas (acumulado del año)",
@@ -4964,7 +5007,19 @@
     ]
    ],
    "lee": "Más puntos básicos significa que el país paga más interés que EE.UU. para endeudarse.",
-   "grupo": "Finanzas públicas"
+   "grupo": "Finanzas públicas",
+   "eventos": [
+    [
+     "2026-11-03",
+     "El BCP interviene Ueno Bank",
+     "ueno-intervencion"
+    ],
+    [
+     "2026-11-05",
+     "Caen los bonos de Paraguay",
+     "bonos-embi"
+    ]
+   ]
   }
  },
  "region": {
@@ -7691,6 +7746,19 @@
      "#historia-crisis-ueno",
      "Seguir la historia"
     ]
+   },
+   {
+    "f": "2026-11-06",
+    "t": "Cambio de gobierno en plena crisis bancaria",
+    "d": "Según France 24, el Congreso destituyó al presidente Santiago Peña por su presunta relación con el colapso de Ueno Bank; el vicepresidente Pedro Alliana completará el mandato hasta agosto de 2028.",
+    "tema": "3.3",
+    "ib": "Estabilidad política y confianza: afectan el riesgo país, el tipo de cambio y la inversión.",
+    "fuente": "France 24 (7 nov 2026)",
+    "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
+    "link": [
+     "#n-alliana-gobierno",
+     "Leer la noticia"
+    ]
    }
   ],
   "nota": "Cada hito indica su fuente. Solo se incluyen hechos con fecha confirmada; las fechas que solo indican el año o el mes son las que da la fuente."
@@ -7975,7 +8043,7 @@
    "pregunta": "¿Está bien subir el déficit a 3,9 % del PIB en 2027?",
    "tema": "3.6",
    "diagrama": "politica-fiscal",
-   "noticia": "",
+   "noticia": "pgn-suspendido",
    "contexto": "La Ley de Responsabilidad Fiscal limita el déficit a 1,5 % del PIB. El Gobierno cerrará 2026 con 3,2 % y propone 3,9 % para 2027, dentro de un Presupuesto de US$ 25.700 millones, porque encontró deudas atrasadas con proveedores por unos US$ 1.270 millones (sobre todo en salud y obras públicas). Promete volver a 1,5 % en 2028.",
    "lados": [
     {
@@ -8024,7 +8092,7 @@
      ]
     }
    ],
-   "decision": "El Presupuesto 2027 está en estudio en el Congreso.",
+   "decision": "El 9 de noviembre, a pedido del nuevo presidente Pedro Alliana, Diputados suspendió el tratamiento del Presupuesto 2027 para que el Gobierno lo modifique. Si no aprueba una versión nueva antes del 14 de noviembre, queda sancionada la original (ABC Color, 9 nov 2026).",
    "evaluar": [
     "¿El déficit se debe a una causa excepcional (deudas atrasadas) o es estructural?",
     "Efectos sobre la DA, la deuda pública y el riesgo país.",
@@ -8565,5 +8633,810 @@
    }
   ],
   "nota": "Los indicadores de inflación, desempleo y riesgo país se actualizan solos con cada dato nuevo. Las metas marcadas como «referencia del sitio» no son oficiales: son criterios didácticos para leer el dato."
+ },
+ "cooperativas": {
+  "actualizado": "2026-11-09",
+  "intro": "Casi dos millones de paraguayos son socios de una cooperativa: ahorran, piden préstamos y usan tarjetas como en un banco. Pero una cooperativa no es un banco: es de sus socios, la controla otra institución y sus ahorros no tienen la misma garantía. Después de la caída de Ueno Bank, entender esa diferencia es clave.",
+  "cifras": [
+   [
+    "1.952.944",
+    "Socios de las cooperativas de ahorro y crédito",
+    "Incoop, vía InfoNegocios (2 jul 2026)"
+   ],
+   [
+    "G. 19 billones",
+    "Ahorros de los socios (mayo de 2026)",
+    "Incoop, vía InfoNegocios"
+   ],
+   [
+    "G. 21,3 billones",
+    "Créditos otorgados (mayo de 2026)",
+    "Incoop, vía InfoNegocios"
+   ],
+   [
+    "52 %",
+    "Parte de los créditos que son de consumo",
+    "Incoop, vía InfoNegocios"
+   ],
+   [
+    "US$ 8.000 M",
+    "Activos de las cooperativas grandes de ahorro y crédito y de producción (2025)",
+    "Incoop, vía ABC Color (14 mar 2026)"
+   ],
+   [
+    "22",
+    "Cooperativas a las que el Incoop canceló la licencia en 2024",
+    "ABC Color (4 ago 2025)"
+   ]
+  ],
+  "comparacion": [
+   [
+    "¿De quién es?",
+    "De sus accionistas, que buscan ganancias.",
+    "De sus socios: cada socio tiene un voto y los excedentes se reparten o se reinvierten."
+   ],
+   [
+    "¿Quién la controla?",
+    "La Superintendencia de Bancos, que es parte del Banco Central del Paraguay.",
+    "El Instituto Nacional de Cooperativismo (Incoop), creado por la Ley 2157 de 2003."
+   ],
+   [
+    "¿Están garantizados los ahorros?",
+    "Sí: el Fondo de Garantía de Depósitos cubre hasta 75 salarios mínimos por ahorrista.",
+    "No: no existe un fondo de garantía público para los ahorros de cooperativas. El proyecto lleva años sin aprobarse."
+   ],
+   [
+    "¿Quién puede usarla?",
+    "Cualquier cliente.",
+    "Solo los socios, que aportan capital al entrar."
+   ],
+   [
+    "Si quiebra…",
+    "El BCP la interviene y el fondo devuelve los depósitos garantizados (como pasó con Ueno).",
+    "El Incoop puede intervenirla hasta 90 días (prorrogables una vez) y cancelar su licencia; los socios pueden perder sus ahorros."
+   ]
+  ],
+  "comparacion_fuentes": [
+   [
+    "Ley 2157 (BACN)",
+    "https://www.bacn.gov.py/leyes-paraguayas/2423/ley-n-2157-regula-el-funcionamiento-del-instituto-nacional-de-cooperativismo-y-establece-su-carta-organica-br"
+   ],
+   [
+    "Última Hora: Fondo de Garantía de Depósitos",
+    "https://www.ultimahora.com/fondo-garantias-cubre-287-los-depositos-del-sistema-financiero-n1104499"
+   ],
+   [
+    "ABC Color (4 ago 2025)",
+    "https://www.abc.com.py/economia/2025/08/04/cooperativistas-en-pie-de-guerra-urgen-una-superintendencia-y-fondo-de-garantia/"
+   ]
+  ],
+  "partes": [
+   {
+    "t": "El Incoop",
+    "tema": "2.7",
+    "texto": "El Instituto Nacional de Cooperativismo es el organismo público que autoriza a las cooperativas, las fiscaliza, puede intervenirlas, sancionarlas y cancelar su licencia. También dicta normas sobre solvencia y lleva una central de riesgos. Su directora es Fabia Cáceres, según InfoNegocios (julio de 2026).",
+    "fuentes": [
+     [
+      "Ley 2157 (BACN)",
+      "https://www.bacn.gov.py/leyes-paraguayas/2423/ley-n-2157-regula-el-funcionamiento-del-instituto-nacional-de-cooperativismo-y-establece-su-carta-organica-br"
+     ],
+     [
+      "InfoNegocios (2 jul 2026)",
+      "https://infonegocios.com.py/nota-principal/fabia-caceres-uno-de-los-principales-motores-de-las-cooperativas-es-el-credito-de-consumo-que-representa-cerca-del-52-del-total"
+     ]
+    ]
+   },
+   {
+    "t": "Ahorros sin garantía",
+    "tema": "3.5",
+    "texto": "Los depósitos en bancos y financieras tienen un fondo de garantía; los ahorros en cooperativas no. Desde hace años el sector pide un fondo propio y una superintendencia que lo supervise con más rigor. En 2024 la federación de cooperativas Concopar anunció un fondo privado de prueba, administrado por un fideicomiso, pero no existe una garantía pública aprobada por ley.",
+    "fuentes": [
+     [
+      "ABC Color (4 ago 2025)",
+      "https://www.abc.com.py/economia/2025/08/04/cooperativistas-en-pie-de-guerra-urgen-una-superintendencia-y-fondo-de-garantia/"
+     ],
+     [
+      "ABC Color (22 may 2024)",
+      "https://www.abc.com.py/economia/2024/05/22/cooperativas-tendran-su-fondo-de-garantia/"
+     ]
+    ]
+   },
+   {
+    "t": "Cuando una cooperativa cae",
+    "tema": "2.10",
+    "texto": "En la Cooperativa Poravoty, de Fernando de la Mora, los socios no podían retirar sus ahorros a fines de 2024 y pidieron la intervención del Incoop; la cooperativa tenía entre 10.000 y 12.000 socios y, según ABC Color, las pérdidas superaron los US$ 35 millones. Es un ejemplo de información asimétrica: el socio no puede saber cómo se administra su dinero, por eso hace falta un buen supervisor.",
+    "fuentes": [
+     [
+      "Última Hora (28 nov 2024)",
+      "https://www.ultimahora.com/socios-de-la-cooperativa-poravoty-no-pueden-retirar-su-dinero-y-piden-intervencion"
+     ],
+     [
+      "ABC Color (4 ago 2025)",
+      "https://www.abc.com.py/economia/2025/08/04/cooperativistas-en-pie-de-guerra-urgen-una-superintendencia-y-fondo-de-garantia/"
+     ]
+    ]
+   },
+   {
+    "t": "Qué enseña la crisis de Ueno",
+    "tema": "3.5",
+    "texto": "Cuando cayó Ueno Bank, el Fondo de Garantía de Depósitos permitió empezar a devolver el dinero a los ahorristas. Si una cooperativa grande tuviera un problema parecido, sus socios no tendrían esa red de seguridad. Por eso la crisis volvió a poner sobre la mesa la idea de una garantía y una supervisión más fuertes para todo el sistema.",
+    "fuentes": [
+     [
+      "Ver la historia de Ueno en el sitio",
+      "#historia-crisis-ueno"
+     ]
+    ]
+   }
+  ],
+  "graficos": [
+   {
+    "t": "Cooperativas de ahorro y crédito (mayo de 2026)",
+    "u": "billones de G.",
+    "rows": [
+     [
+      "Activos",
+      27.8
+     ],
+     [
+      "Créditos",
+      21.3
+     ],
+     [
+      "Ahorros de los socios",
+      19,
+      1
+     ]
+    ],
+    "cap": "Fuente: Incoop, vía InfoNegocios (2 jul 2026)."
+   },
+   {
+    "t": "Las cinco mayores cooperativas de ahorro y crédito",
+    "u": "US$ millones de activos",
+    "rows": [
+     [
+      "Coomecipar",
+      701,
+      1
+     ],
+     [
+      "Universitaria",
+      675
+     ],
+     [
+      "8 de Marzo",
+      250
+     ],
+     [
+      "Credit Unión",
+      235
+     ],
+     [
+      "Loma Plata",
+      225
+     ]
+    ],
+    "cap": "Concentran el 49,7 % de los activos del sector (cierre de 2025). Fuente: Incoop, vía ABC Color."
+   },
+   {
+    "t": "En qué prestan las cooperativas",
+    "u": "% de la cartera",
+    "rows": [
+     [
+      "Consumo",
+      52,
+      1
+     ],
+     [
+      "Vivienda",
+      14.5
+     ],
+     [
+      "Microempresa",
+      12.4
+     ]
+    ],
+    "cap": "Fuente: Incoop, vía InfoNegocios (2 jul 2026)."
+   }
+  ],
+  "ib": [
+   [
+    "2.10",
+    "Información asimétrica: el socio no sabe cómo se administra su dinero; por eso existe un supervisor."
+   ],
+   [
+    "2.7",
+    "Regulación: el Incoop fija normas de solvencia y puede intervenir."
+   ],
+   [
+    "3.5",
+    "Sistema financiero y estabilidad: garantía de depósitos y riesgo de contagio."
+   ],
+   [
+    "4.10",
+    "Microcrédito e inclusión financiera: las cooperativas llegan a socios que los bancos no atienden."
+   ]
+  ],
+  "preguntas": [
+   "¿Por qué una persona elige una cooperativa en vez de un banco?",
+   "Con un fondo de garantía, ¿los socios controlarían menos a sus dirigentes? (riesgo moral)",
+   "¿Quién debería supervisar a las cooperativas: el Incoop o el Banco Central?"
+  ]
+ },
+ "comercio": {
+  "actualizado": "2026-11-09",
+  "intro": "Paraguay vende sobre todo a sus vecinos y compra sobre todo a China y Brasil. Las flechas del mapa son proporcionales al monto. Los datos son del primer semestre de 2026, del Informe de Comercio Exterior del BCP.",
+  "periodo": "Enero a junio de 2026",
+  "paises": {
+   "Paraguay": [
+    -58,
+    -23
+   ],
+   "Argentina": [
+    -64,
+    -34
+   ],
+   "Brasil": [
+    -51,
+    -12
+   ],
+   "Chile": [
+    -71,
+    -32
+   ],
+   "China": [
+    104,
+    35
+   ],
+   "Estados Unidos": [
+    -98,
+    39
+   ]
+  },
+  "exportaciones": [
+   [
+    "Argentina",
+    2770.8,
+    "+52,5 %"
+   ],
+   [
+    "Brasil",
+    1667.6,
+    "+2,4 %"
+   ],
+   [
+    "Chile",
+    424.6,
+    "−10,4 %"
+   ]
+  ],
+  "importaciones": [
+   [
+    "China",
+    3317,
+    "+36 %"
+   ],
+   [
+    "Brasil",
+    1979.6,
+    "+21,5 %"
+   ],
+   [
+    "Estados Unidos",
+    585.7,
+    "+6,4 %"
+   ]
+  ],
+  "fuente": [
+   "BCP, vía InfoNegocios (23 jul 2026)",
+   "https://infonegocios.com.py/default/argentina-lidera-las-exportaciones-y-china-las-importaciones-el-mapa-de-nuestros-socios-comerciales-al-cierre-del-semestre"
+  ],
+  "cifras": [
+   [
+    "US$ 16.720 M",
+    "Exportaciones totales de 2025 (+5,8 %)",
+    "BCP, vía ABC Color (14 ene 2026)"
+   ],
+   [
+    "US$ 18.111 M",
+    "Importaciones totales de 2025 (+10,6 %)",
+    "BCP, vía ABC Color"
+   ],
+   [
+    "−US$ 1.391 M",
+    "Déficit comercial de 2025",
+    "BCP, vía ABC Color"
+   ],
+   [
+    "27,4 %",
+    "Parte de las exportaciones de 2025 que fueron reexportaciones",
+    "BCP, vía ABC Color"
+   ],
+   [
+    "34,2 %",
+    "Parte de las importaciones que vino de China (enero a octubre de 2025)",
+    "BCP, vía Última Hora"
+   ],
+   [
+    "148 · 184",
+    "Países a los que Paraguay vendió y de los que compró en 2025",
+    "BCP, vía ABC Color"
+   ]
+  ],
+  "lecturas": [
+   "Argentina compra la mayor parte de la soja en grano, que se procesa allá; por eso es el primer destino en el primer semestre, cuando sale la cosecha.",
+   "Brasil es socio en las dos direcciones: es el principal comprador de la maquila y el segundo origen de las importaciones.",
+   "China no figura entre los principales destinos de las exportaciones, pero es el primer origen de las importaciones: el 34,2 % de lo importado entre enero y octubre de 2025.",
+   "Las reexportaciones (productos importados que se vuelven a vender a compradores de otros países, sobre todo en las ciudades de frontera) son más de la cuarta parte de lo exportado."
+  ],
+  "nota": "No se incluye Rusia ni otros destinos de la carne porque no se encontraron montos por país verificados para 2026. El mapa es esquemático: los continentes están simplificados.",
+  "ib": [
+   [
+    "4.1",
+    "Comercio internacional: ventaja comparativa y especialización."
+   ],
+   [
+    "4.4",
+    "Integración económica: el peso del Mercosur."
+   ],
+   [
+    "4.6",
+    "Balanza de pagos: el déficit comercial de 2025."
+   ],
+   [
+    "4.5",
+    "Tipo de cambio: un guaraní más débil abarata las exportaciones."
+   ]
+  ],
+  "fuentes": [
+   [
+    "InfoNegocios (23 jul 2026)",
+    "https://infonegocios.com.py/default/argentina-lidera-las-exportaciones-y-china-las-importaciones-el-mapa-de-nuestros-socios-comerciales-al-cierre-del-semestre"
+   ],
+   [
+    "ABC Color (14 ene 2026)",
+    "https://www.abc.com.py/negocios/2026/01/14/comercio-exterior-como-cerro-la-balanza-comercial-en-el-2025/"
+   ],
+   [
+    "Última Hora (13 nov 2025)",
+    "https://www.ultimahora.com/saldo-negativo-del-comercio-exterior-a-octubre-asciende-a-usd-791-millones"
+   ]
+  ]
+ },
+ "finanzas": {
+  "tasas": [
+   [
+    "pasiva_g",
+    6.35,
+    "Tasa pasiva promedio en guaraníes (lo que pagan los bancos por los depósitos), septiembre de 2026",
+    "BCP, vía InfoNegocios (6 nov 2026)",
+    "https://infonegocios.com.py/conosur/creditos-y-depositos-mantienen-fuerte-expansion-en-septiembre-segun-el-bcp"
+   ],
+   [
+    "pasiva_us",
+    3.64,
+    "Tasa pasiva promedio en dólares, septiembre de 2026",
+    "BCP, vía InfoNegocios (6 nov 2026)",
+    "https://infonegocios.com.py/conosur/creditos-y-depositos-mantienen-fuerte-expansion-en-septiembre-segun-el-bcp"
+   ],
+   [
+    "activa_g",
+    15.58,
+    "Tasa activa promedio en guaraníes (lo que cobran por los préstamos), septiembre de 2026",
+    "BCP, vía InfoNegocios (6 nov 2026)",
+    "https://infonegocios.com.py/conosur/creditos-y-depositos-mantienen-fuerte-expansion-en-septiembre-segun-el-bcp"
+   ],
+   [
+    "tarjeta",
+    19.1,
+    "Tasa de las tarjetas de crédito, marzo de 2026",
+    "BCP, vía La Nación (10 may 2026)",
+    "https://www.lanacion.com.py/negocios/2026/05/10/endeudarse-con-tarjetas-de-credito-sale-mas-caro/"
+   ]
+  ]
+ },
+ "quien": {
+  "intro": "Cuando leas una noticia, pregúntate quién habla y desde dónde. Un ministro defiende la política de su gobierno; un gremio, los intereses de sus empresas; un centro de estudios o un exministro, su análisis. Ninguno es neutral del todo: conocer su lugar ayuda a evaluar sus argumentos.",
+  "personas": [
+   {
+    "n": "Jorge Schreiner",
+    "cargo": "Presidente (aprobado por el Senado) · Banco Central del Paraguay",
+    "tipo": "Gobierno",
+    "estado": "Falta decreto y juramento",
+    "que": "Habla en nombre de Banco Central del Paraguay.",
+    "link": "#inst-bcp",
+    "fuente": "Última Hora",
+    "url": "https://www.ultimahora.com/senado-presta-acuerdo-para-schreiner-y-rivarola-en-el-bcp"
+   },
+   {
+    "n": "Pedro de Jesús Acosta",
+    "cargo": "Presidente interino · Banco Central del Paraguay",
+    "tipo": "Gobierno",
+    "estado": "En el cargo hasta que asuma el titular",
+    "que": "Habla en nombre de Banco Central del Paraguay.",
+    "link": "#inst-bcp",
+    "fuente": "ABC Color",
+    "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/"
+   },
+   {
+    "n": "Fernando Rivarola",
+    "cargo": "Miembro del directorio (aprobado por el Senado) · Banco Central del Paraguay",
+    "tipo": "Gobierno",
+    "estado": "Falta decreto y juramento",
+    "que": "Habla en nombre de Banco Central del Paraguay.",
+    "link": "#inst-bcp",
+    "fuente": "ABC Color",
+    "url": "https://www.abc.com.py/politica/2026/11/09/alliana-pide-acuerdo-para-fernando-rivarola-el-tecnico-que-alerto-sobre-ueno-bank/"
+   },
+   {
+    "n": "Miguel Mora",
+    "cargo": "Miembro del directorio · Banco Central del Paraguay",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Habla en nombre de Banco Central del Paraguay.",
+    "link": "#inst-bcp",
+    "fuente": "La Nación",
+    "url": "https://www.lanacion.com.py/negocios/2026/11/09/pedro-alliana-propone-a-jorge-schreiner-para-la-presidencia-del-bcp/"
+   },
+   {
+    "n": "Liana Caballero",
+    "cargo": "Miembro del directorio · Banco Central del Paraguay",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Habla en nombre de Banco Central del Paraguay.",
+    "link": "#inst-bcp",
+    "fuente": "La Nación",
+    "url": "https://www.lanacion.com.py/negocios/2026/11/09/pedro-alliana-propone-a-jorge-schreiner-para-la-presidencia-del-bcp/"
+   },
+   {
+    "n": "Óscar Lovera",
+    "cargo": "Ministro de Economía y Finanzas · Ministerio de Economía y Finanzas",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Habla en nombre de Ministerio de Economía y Finanzas.",
+    "link": "#inst-mef",
+    "fuente": "Última Hora",
+    "url": "https://www.ultimahora.com/quienes-mantienen-sus-cargos-con-pedro-alliana"
+   },
+   {
+    "n": "Óscar Alcides Orué",
+    "cargo": "Director nacional · Dirección Nacional de Ingresos Tributarios",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Habla en nombre de Dirección Nacional de Ingresos Tributarios.",
+    "link": "#inst-dnit",
+    "fuente": "DNIT",
+    "url": "https://www.dnit.gov.py/en/web/portal-institucional/authorities"
+   },
+   {
+    "n": "Ever Ramón Otazú",
+    "cargo": "Gerente general de Impuestos Internos · Dirección Nacional de Ingresos Tributarios",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Habla en nombre de Dirección Nacional de Ingresos Tributarios.",
+    "link": "#inst-dnit",
+    "fuente": "DNIT",
+    "url": "https://www.dnit.gov.py/en/web/portal-institucional/authorities"
+   },
+   {
+    "n": "Juan Francisco Olmedo Florentín",
+    "cargo": "Gerente general de Aduanas · Dirección Nacional de Ingresos Tributarios",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Habla en nombre de Dirección Nacional de Ingresos Tributarios.",
+    "link": "#inst-dnit",
+    "fuente": "DNIT",
+    "url": "https://www.dnit.gov.py/en/web/portal-institucional/authorities"
+   },
+   {
+    "n": "Iván Mauricio Ojeda Aguilera",
+    "cargo": "Director nacional · Instituto Nacional de Estadística",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Habla en nombre de Instituto Nacional de Estadística.",
+    "link": "#inst-ine",
+    "fuente": "INE",
+    "url": "https://www.ine.gov.py/institucion/autoridades.php"
+   },
+   {
+    "n": "Derlis León",
+    "cargo": "Presidente · Instituto de Previsión Social",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Habla en nombre de Instituto de Previsión Social.",
+    "link": "#inst-ips",
+    "fuente": "ABC Color",
+    "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/"
+   },
+   {
+    "n": "Pedro Alliana",
+    "cargo": "Presidente de la República",
+    "tipo": "Gobierno",
+    "que": "Asumió tras la destitución de Santiago Peña el 6 de noviembre de 2026, según France 24; completa el mandato hasta agosto de 2028.",
+    "link": "#n-alliana-gobierno",
+    "fuente": "France 24",
+    "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank"
+   },
+   {
+    "n": "Santiago Peña",
+    "cargo": "Expresidente de la República (2023-2026)",
+    "tipo": "Gobierno",
+    "que": "Fue destituido por el Congreso el 6 de noviembre de 2026, según France 24. Firmó el acuerdo de 2024 sobre la tarifa de Itaipú y el aumento del salario mínimo de 2026.",
+    "link": "#n-alliana-gobierno",
+    "fuente": "France 24",
+    "url": ""
+   },
+   {
+    "n": "Fabia Cáceres",
+    "cargo": "Directora del Instituto Nacional de Cooperativismo (Incoop)",
+    "tipo": "Gobierno",
+    "que": "Habla por el organismo que controla a las cooperativas.",
+    "link": "#cooperativas",
+    "fuente": "InfoNegocios (2 jul 2026)",
+    "url": "https://infonegocios.com.py/nota-principal/fabia-caceres-uno-de-los-principales-motores-de-las-cooperativas-es-el-credito-de-consumo-que-representa-cerca-del-52-del-total"
+   },
+   {
+    "n": "Félix Sosa",
+    "cargo": "Presidente de la ANDE",
+    "tipo": "Empresa pública",
+    "que": "Habla por la empresa estatal de electricidad, que quiere ajustar su tarifa.",
+    "link": "#mirada-ande",
+    "fuente": "La Nación (23 jul 2026)",
+    "url": "https://www.lanacion.com.py/negocios/2026/07/23/tarifa-electrica-estudio-tecnico-recomienda-ajuste-de-hasta-40-para-fortalecer-a-la-ande/"
+   },
+   {
+    "n": "Enio Verri",
+    "cargo": "Director general brasileño de Itaipú",
+    "tipo": "Gobierno extranjero",
+    "que": "Defiende la posición de Brasil: bajar la tarifa de Itaipú desde 2027.",
+    "link": "#itaipu",
+    "fuente": "Agência iNFRA (14 abr 2026)",
+    "url": "https://agenciainfra.com/blog/itaipu-negociacao-com-paraguaios-avanca-e-tarifa-deve-ser-reduzida/"
+   },
+   {
+    "n": "César Barreto",
+    "cargo": "Exministro de Hacienda",
+    "tipo": "Economista",
+    "que": "Opina como exministro y analista; crítico del aumento del déficit.",
+    "link": "#mirada-deficit",
+    "fuente": "ABC Color (5 ago 2026)",
+    "url": "https://www.abc.com.py/economia/2026/08/05/meta-fiscal-del-gobierno-es-practicamente-imposible-volver-al-15-en-2028/"
+   },
+   {
+    "n": "Óscar Llamosas",
+    "cargo": "Exministro de Hacienda (2020-2023)",
+    "tipo": "Economista",
+    "que": "Opina como exministro; pide mejorar el gasto antes de subir impuestos.",
+    "link": "#mirada-deficit",
+    "fuente": "ABC Color (5 ago 2026)",
+    "url": "https://www.abc.com.py/economia/2026/08/05/deudas-del-estado-podrian-revelar-un-problema-fiscal-estructural-advierte-exministro/"
+   },
+   {
+    "n": "Rodrigo Ibarrola",
+    "cargo": "Investigador del Cadep",
+    "tipo": "Centro de estudios",
+    "que": "Economista de un centro de investigación independiente; opina sobre salarios y finanzas públicas.",
+    "link": "#miradas",
+    "fuente": "Última Hora (18 jun 2026)",
+    "url": "https://www.ultimahora.com/economista-afirma-que-aumento-de-salario-minimo-no-es-suficiente-para-recuperar-poder-adquisitivo"
+   },
+   {
+    "n": "Victorio Oxilia",
+    "cargo": "Especialista en energía, docente de la Facultad Politécnica",
+    "tipo": "Experto",
+    "que": "Opina como académico sobre la tarifa de la ANDE.",
+    "link": "#mirada-ande",
+    "fuente": "Última Hora (25 jul 2026)",
+    "url": "https://www.ultimahora.com/expertos-coinciden-en-necesidad-de-reajuste-de-tarifas-de-la-ande"
+   },
+   {
+    "n": "Fabián Cáceres",
+    "cargo": "Ex gerente técnico de la ANDE",
+    "tipo": "Experto",
+    "que": "Opina desde su experiencia en la empresa eléctrica.",
+    "link": "#mirada-ande",
+    "fuente": "Última Hora (25 jul 2026)",
+    "url": "https://www.ultimahora.com/expertos-coinciden-en-necesidad-de-reajuste-de-tarifas-de-la-ande"
+   },
+   {
+    "n": "Ángel María Recalde",
+    "cargo": "Ex director de la Entidad Binacional Yacyretá",
+    "tipo": "Experto",
+    "que": "Opina sobre energía desde su experiencia en Yacyretá.",
+    "link": "#mirada-ande",
+    "fuente": "Última Hora (16 jun 2026)",
+    "url": "https://www.ultimahora.com/la-ande-no-puede-ser-obligada-a-subsidiar-industrias-afirma-experto"
+   },
+   {
+    "n": "Enrique Duarte",
+    "cargo": "Presidente de la Unión Industrial Paraguaya (UIP)",
+    "tipo": "Gremio empresarial",
+    "que": "Defiende los intereses de la industria; también habló por Feprinco sobre el salario mínimo, según Última Hora.",
+    "link": "#miradas",
+    "fuente": "Última Hora (24 jul 2026)",
+    "url": "https://www.ultimahora.com/industriales-urgen-crear-organismo-regulador-que-fije-tarifas-de-ande"
+   },
+   {
+    "n": "Rubén Jacks",
+    "cargo": "Presidente del CEAL Paraguay",
+    "tipo": "Gremio empresarial",
+    "que": "Representa a empresarios; pide más participación privada en energía.",
+    "link": "#mirada-ande",
+    "fuente": "Última Hora (24 jul 2026)",
+    "url": "https://www.ultimahora.com/industriales-urgen-crear-organismo-regulador-que-fije-tarifas-de-ande"
+   },
+   {
+    "n": "Luis Tavella",
+    "cargo": "Fedemipymes",
+    "tipo": "Gremio empresarial",
+    "que": "Representa a las micro, pequeñas y medianas empresas.",
+    "link": "#mirada-salario-minimo",
+    "fuente": "Última Hora (27 jul 2026)",
+    "url": "https://www.ultimahora.com/reajuste-del-salario-minimo-impactara-mas-en-mipymes"
+   },
+   {
+    "n": "Carla Bacigalupo",
+    "cargo": "Asomipymes",
+    "tipo": "Gremio empresarial",
+    "que": "Representa a las micro, pequeñas y medianas empresas.",
+    "link": "#mirada-salario-minimo",
+    "fuente": "Última Hora (27 jul 2026)",
+    "url": "https://www.ultimahora.com/reajuste-del-salario-minimo-impactara-mas-en-mipymes"
+   },
+   {
+    "n": "Jorge Bunchicoff",
+    "cargo": "Presidente de la Cámara de Empresas Maquiladoras (Cemap)",
+    "tipo": "Gremio empresarial",
+    "que": "Habla por las maquiladoras.",
+    "link": "#emp-maquila",
+    "fuente": "ABC Color (31 jul 2026)",
+    "url": "https://www.abc.com.py/negocios/2026/07/31/maquila-paraguaya-la-automatizacion-avanza-sin-arrasar-empleos/"
+   },
+   {
+    "n": "José Luis Heisecke",
+    "cargo": "Cámara Paraguaya de la Construcción (Capaco)",
+    "tipo": "Gremio empresarial",
+    "que": "Defiende la inversión en obras públicas.",
+    "link": "#mirada-deficit",
+    "fuente": "InfoNegocios (5 ago 2026)",
+    "url": "https://infonegocios.com.py/nota-principal/deficit-subira-al-3-9-para-ordenar-las-cuentas-publicas-y-saldar-deudas-atrasadas-del-estado-con-proveedores"
+   },
+   {
+    "n": "Gustavo Lezcano",
+    "cargo": "Presidente de la Cámara Paraguaya de Supermercados (Capasu)",
+    "tipo": "Gremio empresarial",
+    "que": "Habla por las cadenas de supermercados.",
+    "link": "#emp-supermercados",
+    "fuente": "ABC Color (17 oct 2025)",
+    "url": "https://www.abc.com.py/economia/2025/10/17/conacom-abrio-dos-sumarios-que-afectan-a-cadena-de-supermercados/"
+   }
+  ],
+  "instituciones": [
+   [
+    "BCP",
+    "Banco Central del Paraguay",
+    "Organismo público",
+    "Fija la tasa de interés, emite la moneda y supervisa a los bancos.",
+    "#inst-bcp"
+   ],
+   [
+    "MEF",
+    "Ministerio de Economía y Finanzas",
+    "Organismo público",
+    "Hace el Presupuesto, maneja el gasto, la deuda y la política fiscal.",
+    "#inst-mef"
+   ],
+   [
+    "DNIT",
+    "Dirección Nacional de Ingresos Tributarios",
+    "Organismo público",
+    "Cobra los impuestos y controla la aduana.",
+    "#inst-dnit"
+   ],
+   [
+    "INE",
+    "Instituto Nacional de Estadística",
+    "Organismo público",
+    "Mide el empleo, la pobreza y la población.",
+    "#inst-ine"
+   ],
+   [
+    "IPS",
+    "Instituto de Previsión Social",
+    "Organismo público",
+    "Paga jubilaciones y da atención de salud a los trabajadores formales.",
+    "#inst-ips"
+   ],
+   [
+    "Incoop",
+    "Instituto Nacional de Cooperativismo",
+    "Organismo público",
+    "Autoriza y controla a las cooperativas.",
+    "#cooperativas"
+   ],
+   [
+    "Conacom",
+    "Comisión Nacional de la Competencia",
+    "Organismo público",
+    "Vigila que las empresas no abusen de su poder de mercado y revisa fusiones.",
+    "#empresas"
+   ],
+   [
+    "ANDE",
+    "Administración Nacional de Electricidad",
+    "Empresa pública",
+    "Distribuye la electricidad en todo el país.",
+    "#emp-ande"
+   ],
+   [
+    "Itaipú",
+    "Itaipú Binacional",
+    "Empresa binacional",
+    "Represa compartida con Brasil.",
+    "#itaipu"
+   ],
+   [
+    "Cadep",
+    "Centro de Análisis y Difusión de la Economía Paraguaya",
+    "Centro de estudios",
+    "Investiga y publica análisis económicos independientes.",
+    "#miradas"
+   ],
+   [
+    "UIP",
+    "Unión Industrial Paraguaya",
+    "Gremio empresarial",
+    "Representa a la industria.",
+    "#mirada-ande"
+   ],
+   [
+    "Feprinco",
+    "Federación de la Producción, la Industria y el Comercio",
+    "Gremio empresarial",
+    "Agrupa a gremios de empresas de distintos sectores.",
+    "#mirada-salario-minimo"
+   ],
+   [
+    "ARP",
+    "Asociación Rural del Paraguay",
+    "Gremio empresarial",
+    "Representa a los productores ganaderos.",
+    "#emp-frigorificos"
+   ],
+   [
+    "Capeco",
+    "Cámara Paraguaya de Exportadores y Comercializadores de Cereales y Oleaginosas",
+    "Gremio empresarial",
+    "Representa a los exportadores de soja y granos.",
+    "#sector-agro"
+   ],
+   [
+    "Cemap",
+    "Cámara de Empresas Maquiladoras del Paraguay",
+    "Gremio empresarial",
+    "Representa a las maquiladoras.",
+    "#emp-maquila"
+   ],
+   [
+    "FMI",
+    "Fondo Monetario Internacional",
+    "Organismo internacional",
+    "Evalúa la economía del país y da recomendaciones de política.",
+    "#mirada-deficit"
+   ],
+   [
+    "BID",
+    "Banco Interamericano de Desarrollo",
+    "Organismo internacional",
+    "Presta dinero y financia estudios para obras y reformas.",
+    "#n-corredor-bioceanico"
+   ],
+   [
+    "Moody's",
+    "Moody's",
+    "Calificadora de riesgo",
+    "Califica la capacidad de pago del país; le dio el grado de inversión en 2024.",
+    "#metas"
+   ]
+  ]
  }
 }

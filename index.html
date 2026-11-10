@@ -458,6 +458,65 @@ input.sel{flex:1 1 160px}
 .arch-m a{font-weight:700;text-decoration:none}.arch-m a:hover{text-decoration:underline}
 @media (max-width:640px){ .spectrum{grid-template-columns:repeat(2,minmax(0,1fr))} .crono li{grid-template-columns:70px minmax(0,1fr);gap:12px} .crono li::before{left:35px} .cr-dt b{font-size:1.3rem} }
 
+/* ---------- menú por bloques, buscador, cooperativas, comercio, quién es quién, finanzas, portada ---------- */
+:root{--sea:#E6EEF8;--land:#FFFFFF}
+:root[data-theme="dark"]{--sea:#101a2c;--land:#1C2740}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--sea:#101a2c;--land:#1C2740}}
+.mast nav.blocks a{font-size:1rem;padding:6px 10px 9px}
+.mast nav.blocks a.srch{margin-left:auto;opacity:.9}
+.mast nav.subnav{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:6px 0 10px;margin-top:0}
+.subnav::-webkit-scrollbar{display:none}
+.mast nav.subnav a{white-space:nowrap;text-decoration:none;font-family:var(--f-body);font-weight:500;font-size:.85rem;letter-spacing:0;text-transform:none;padding:4px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.22);opacity:.88;box-shadow:none}
+.mast nav.subnav a:hover{opacity:1;border-color:var(--gold-2)}
+.mast nav.subnav a.cur{background:var(--gold-2);color:var(--navy);border-color:var(--gold-2);opacity:1;font-weight:700;box-shadow:none}
+@media (max-width:760px){ .mast nav.blocks{flex-wrap:wrap;overflow:visible} .mast nav.blocks a{font-size:.84rem;letter-spacing:.02em;padding:5px 7px 7px} .mast nav.blocks a.srch span{display:none} }
+.hub{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:12px}
+.hub-card{display:grid;gap:4px;align-content:start;text-decoration:none;background:var(--sheet);border:1px solid var(--rule);border-left:4px solid var(--gold-2);border-radius:var(--r);padding:14px 16px}
+.hub-card:hover{border-color:var(--gold)}
+.hub-card b{font-family:var(--f-display);font-size:1.35rem;line-height:1.1}
+.hub-card span{font-size:.92rem;color:var(--ink-2)}
+.hub-card small{font-size:.8rem;color:var(--gold);font-weight:700}
+.sbox input{width:100%;font-size:1.15rem;padding:12px 16px;border:2px solid var(--navy-2);border-radius:12px;background:var(--sheet)}
+.sgrp{margin-bottom:18px}
+.sgrp h2{font-size:1.35rem;border-bottom:2px solid var(--navy);padding-bottom:4px;margin-bottom:4px}
+.sgrp h2 small{font-family:var(--f-body);font-size:.85rem;color:var(--muted)}
+.sgrp ul{list-style:none;margin:0;padding:0}
+.sgrp li{padding:8px 0;border-bottom:1px solid var(--rule);display:grid;gap:2px}
+.sgrp li a{font-weight:700;text-decoration:none}.sgrp li a:hover{text-decoration:underline}
+.sgrp li small{font-size:.78rem;color:var(--muted)}
+.sgrp li p{font-size:.9rem;color:var(--ink-2)}
+mark{background:var(--gold-soft);color:inherit;border-radius:3px;padding:0 1px}
+.tbl table.cmp{min-width:560px}
+.tbl table.cmp th,.tbl table.cmp td{white-space:normal;text-align:left;vertical-align:top}
+.tbl table.cmp tbody th{font-weight:700;width:22%}
+.rank.cx li{grid-template-columns:minmax(0,1fr) auto auto;cursor:default;align-items:center}
+.rbar{display:block;height:6px;border-radius:3px;background:var(--navy-2);margin-top:3px;opacity:.6}
+.people{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:12px}
+.person{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:14px;display:grid;gap:8px;align-content:start}
+.person .ph{display:flex;gap:10px;align-items:center}
+.person h3{font-size:1.2rem;line-height:1.1}
+.person small{font-size:.82rem;color:var(--ink-2)}
+.person p{font-size:.9rem}
+.av{flex:none;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:var(--gold-2);font-family:var(--f-display);font-weight:800}
+.ptype{justify-self:start;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--gold-soft);color:var(--gold);border-radius:4px;padding:2px 8px}
+table.inf{min-width:560px}
+table.inf td{padding:4px 6px!important}
+table.inf input{width:100%;min-width:90px;padding:6px 8px;border:1px solid var(--rule);border-radius:6px;background:var(--paper);text-align:right}
+table.inf td:first-child input{text-align:left;min-width:150px}
+.x{border:0;background:none;font-size:1.3rem;color:var(--muted);padding:0 6px}
+.calcs.fin{grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr))}
+.today{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:16px;padding-block:22px 4px}
+.qday h3{font-size:1.25rem}
+.otd{background:var(--navy);color:var(--navy-ink);border-radius:var(--r);padding:16px;display:grid;gap:8px;align-content:start}
+.otd .eyebrow{color:var(--gold-2)}
+.otd-y{font-family:var(--f-display);font-weight:800;font-size:2.6rem;line-height:1;color:var(--gold-2)}
+.otd-y small{display:block;font-family:var(--f-body);font-weight:600;font-size:.8rem;color:var(--navy-ink);opacity:.8;margin-top:4px}
+.otd h3{font-size:1.35rem}.otd p{font-size:.93rem;opacity:.9}
+.otd a{color:var(--gold-2)}
+.evs{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:4px}
+.evs li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:8px;font-size:.86rem;align-items:start}
+.evs i{font-style:normal;width:20px;height:20px;border-radius:50%;background:var(--bad);color:#fff;font-size:.72rem;font-weight:800;display:grid;place-items:center}
+
 /* ---------- calendario ---------- */
 .cal{list-style:none;margin:0 0 26px;padding:0;display:grid;gap:10px}
 .cal li{display:grid;grid-template-columns:78px 1fr;gap:16px;align-items:start;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:12px 14px}
@@ -568,33 +627,15 @@ footer .wrap{display:grid;gap:6px}
     <button type="button" class="install" id="install" hidden>Instalar app</button>
   </div>
   <div class="wrap">
-    <nav aria-label="Secciones">
-      <a href="#inicio" data-nav="inicio">Noticias</a>
-      <a href="#semana" data-nav="semana">Semana</a>
-      <a href="#archivo" data-nav="archivo">Archivo</a>
-      <a href="#historias" data-nav="historias">Historias</a>
-      <a href="#calendario" data-nav="calendario">Calendario</a>
-      <a href="#paraguay" data-nav="paraguay">Paraguay en datos</a>
-      <a href="#metas" data-nav="metas">Metas</a>
-      <a href="#cronologia" data-nav="cronologia">Historia económica</a>
-      <a href="#itaipu" data-nav="itaipu">Itaipú</a>
-      <a href="#trabajo" data-nav="trabajo">Trabajo</a>
-      <a href="#empresas" data-nav="empresas">Empresas</a>
-      <a href="#miradas" data-nav="miradas">Dos miradas</a>
-      <a href="#mapa" data-nav="mapa">Mapa</a>
-      <a href="#mundo" data-nav="mundo">El mundo</a>
-      <a href="#desarrollo" data-nav="desarrollo">Desarrollo</a>
-      <a href="#simulador" data-nav="simulador">Simulador</a>
-      <a href="#indicadores" data-nav="indicadores">Indicadores</a>
-      <a href="#sectores" data-nav="sectores">Sectores</a>
-      <a href="#instituciones" data-nav="instituciones">Instituciones</a>
-      <a href="#bolsa" data-nav="bolsa">Bolsa</a>
-      <a href="#region" data-nav="region">Región</a>
-      <a href="#programa" data-nav="programa">Programa IB</a>
-      <a href="#diagramas" data-nav="diagramas">Diagramas</a>
-      <a href="#calculadoras" data-nav="calculadoras">Calculadoras</a>
-      <a href="#diarios" data-nav="diarios">Diarios</a>
+    <nav class="blocks" aria-label="Secciones">
+      <a href="#inicio" data-block="noticias">Noticias</a>
+      <a href="#bloque-paraguay" data-block="paraguay">Paraguay</a>
+      <a href="#bloque-temas" data-block="temas">Temas</a>
+      <a href="#bloque-estudiar" data-block="estudiar">Estudiar</a>
+      <a href="#bloque-herramientas" data-block="herramientas">Herramientas</a>
+      <a href="#buscar" class="srch" aria-label="Buscar en el sitio">🔍<span> Buscar</span></a>
     </nav>
+    <nav class="subnav" id="subnav" aria-label="Páginas de la sección"></nav>
   </div>
   <div class="edition"><div class="wrap"><span id="ed-date"></span><span id="ed-count"></span><span>Se actualiza todos los días · cada noticia enlaza al diario original</span></div></div>
 </header>
@@ -615,7 +656,7 @@ footer .wrap{display:grid;gap:6px}
 /* =====================================================================
    1. DATOS: noticias, indicadores, región y semanas viven en datos.json
    ===================================================================== */
-let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null, CRONO = null, ITAIPU = null, MIRADAS = [], TRABAJO = null, EMPRESAS = [], METAS = null, ARCH = null;
+let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null, CRONO = null, ITAIPU = null, MIRADAS = [], TRABAJO = null, EMPRESAS = [], METAS = null, ARCH = null, COOP = null, COMEX = null, QUIEN = null, FIN = null;
 
 const KC = { escasez:'Escasez', eleccion:'Elección', eficiencia:'Eficiencia', equidad:'Equidad', bienestar:'Bienestar económico', sostenibilidad:'Sostenibilidad', cambio:'Cambio', interdependencia:'Interdependencia', intervencion:'Intervención' };
 const UNI = { micro:'Microeconomía', macro:'Macroeconomía', global:'Economía global' };
@@ -906,6 +947,8 @@ function colChart(h, o) {
   s += `<line x1="${L0}" x2="${W - R0}" y1="${z.toFixed(1)}" y2="${z.toFixed(1)}" style="stroke:var(--ink)" stroke-width="1.2"/>`;
   return s + '</svg>';
 }
+const evIn = h => { if (!h.eventos || !h.puntos.length || h.col) return []; const a = h.puntos[0][0], b = h.puntos[h.puntos.length - 1][0]; return h.eventos.filter(e => e[0] >= a && e[0] <= b).sort((x, y) => x[0].localeCompare(y[0])); };
+const evList = h => { const ev = evIn(h); return ev.length ? `<ol class="evs">${ev.map((e, i) => `<li><i>${i + 1}</i><span><b>${esc(fshort(e[0]))}:</b> ${esc(e[1])}${e[2] && BYID[e[2]] ? ` <a href="#n-${e[2]}">Leer →</a>` : ''}</span></li>`).join('')}</ol>` : ''; };
 function lineChart(h, o) {
   o = o || {};
   if (h.col) return colChart(h, o);
@@ -932,6 +975,7 @@ function lineChart(h, o) {
   P.forEach(([t, v], i) => { const x = X(t), y = Y(v); if (!i) path += `M${x.toFixed(1)},${y.toFixed(1)}`; else if (h.escalon) path += `H${x.toFixed(1)}V${y.toFixed(1)}`; else path += `L${x.toFixed(1)},${y.toFixed(1)}`; });
   s += `<path d="${path}" style="fill:none;stroke:var(--navy-2)" stroke-width="2.4" stroke-linejoin="round"/>`;
   P.forEach(([t, v], i) => { const last = i === P.length - 1; s += `<circle cx="${X(t).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="${last ? 5 : 3}" style="fill:${last ? 'var(--gold-2)' : 'var(--navy-2)'}"><title>${fdate(iso(new Date(t)))}: ${fmt(v)} ${h.u}</title></circle>`; });
+  if (o.ev !== false) evIn(h).forEach((e, i) => { const x = X(pd(e[0]).getTime()), y = T0 + 9 + (i % 2) * 20; s += `<line x1="${x.toFixed(1)}" x2="${x.toFixed(1)}" y1="${y}" y2="${H - B0}" style="stroke:var(--bad)" stroke-width="1.2" stroke-dasharray="3 3"/><circle cx="${x.toFixed(1)}" cy="${y}" r="8.5" style="fill:var(--bad)"><title>${esc(fdate(e[0]))}: ${esc(e[1])}</title></circle><text x="${x.toFixed(1)}" y="${y + 3.6}" text-anchor="middle" font-size="10.5" font-weight="800" style="fill:#fff;font-family:var(--f-body)">${i + 1}</text>`; });
   const [lt, lv] = P[P.length - 1];
   s += `<text x="${(X(lt) + 8).toFixed(1)}" y="${(Y(lv) + 4).toFixed(1)}" font-size="12.5" font-weight="700" style="fill:var(--ink);font-family:var(--f-body)">${fmt(lv)}</text>`;
   return s + '</svg>';
@@ -999,6 +1043,7 @@ function renderHome() {
   $('#app').innerHTML = `
   <div class="wrap">
     ${feat}
+    ${hoyHTML()}
     <div class="sec-head"><div><div class="eyebrow">Últimas noticias</div><h2>La economía paraguaya, explicada</h2></div><a class="more" href="#semana">Resumen de la semana →</a></div>
     <div class="filters" role="group" aria-label="Filtros">
       ${['todas', 'micro', 'macro', 'global'].map(u => `<button type="button" class="chip" data-u="${u}" aria-pressed="${F.u === u}">${u === 'todas' ? 'Todas' : UNI[u]}</button>`).join('')}
@@ -1019,6 +1064,7 @@ function renderHome() {
   $('#fkc').onchange = e => { F.kc = e.target.value; save(); renderHome(); jump(); };
   $('#fmed').onchange = e => { F.medio = e.target.value; save(); renderHome(); jump(); };
   $('#fq').oninput = e => { F.q = e.target.value; save(); const p = e.target.selectionStart; renderHome(); jump(); const i = $('#fq'); i.focus(); i.setSelectionRange(p, p); };
+  bindHoy();
 }
 function jump() { const f = $('.filters'); if (f) window.scrollTo(0, f.getBoundingClientRect().top + window.scrollY - 90); }
 
@@ -1458,6 +1504,303 @@ function renderArchivo() {
   draw();
 }
 
+/* ---------- Menú por bloques ---------- */
+const BLOQUES = [
+  { id: 'noticias', t: 'Noticias', home: 'inicio', d: 'Lo que pasa en la economía paraguaya, explicado con diagramas.', items: [
+    ['inicio', 'Portada', 'Las últimas noticias con su análisis IB.'], ['semana', 'Semana', 'El resumen de cada semana y sus noticias clave.'], ['historias', 'Historias', 'Los grandes temas contados de principio a fin.'], ['archivo', 'Archivo', 'Todas las noticias publicadas, por mes y por tema.'], ['calendario', 'Calendario', 'Las próximas fechas que mueven la economía.'], ['diarios', 'Diarios', 'Los medios y fuentes oficiales.']] },
+  { id: 'paraguay', t: 'Paraguay', home: 'bloque-paraguay', d: 'Los datos del país: cuánto crece, cuánto produce, cómo trabaja y quién decide.', items: [
+    ['paraguay', 'Paraguay en datos', 'Las cifras básicas del país en un solo lugar.'], ['metas', 'Metas', 'Semáforo: ¿cumple el país lo que se propuso?'], ['indicadores', 'Indicadores', 'La evolución de los principales indicadores, con los hechos que los movieron.'], ['mapa', 'Mapa', 'Pobreza, desigualdad y producción por departamento.'], ['comercio', 'Comercio exterior', 'A quién vende y a quién compra Paraguay.'], ['sectores', 'Sectores', 'Agro, energía, industria y comercio.'], ['itaipu', 'Itaipú', 'La represa, la tarifa y el Anexo C.'], ['trabajo', 'Trabajo', 'Informalidad, salario mínimo y brecha de género.'], ['cooperativas', 'Cooperativas', 'Ahorro y crédito fuera de los bancos.'], ['instituciones', 'Instituciones', 'BCP, MEF, DNIT, INE e IPS.'], ['quien', 'Quién es quién', 'Las personas y gremios que aparecen en las noticias.'], ['bolsa', 'Bolsa', 'El mercado de valores de Asunción.']] },
+  { id: 'temas', t: 'Temas', home: 'bloque-temas', d: 'Para entender la economía más allá del día a día.', items: [
+    ['cronologia', 'Historia económica', 'Los hechos que formaron la economía del país.'], ['mundo', 'El mundo', 'Cómo afectan a Paraguay el petróleo, Brasil, Argentina, China y EE.UU.'], ['region', 'Región', 'Paraguay frente a sus vecinos.'], ['desarrollo', 'Desarrollo', 'IDH, pobreza, educación, ambiente y ODS.'], ['empresas', 'Empresas', 'Cómo deciden empresas reales: competencia y poder de mercado.'], ['miradas', 'Dos miradas', 'Argumentos a favor y en contra en los temas polémicos.']] },
+  { id: 'estudiar', t: 'Estudiar', home: 'bloque-estudiar', d: 'Para preparar Economía IB con ejemplos de Paraguay.', items: [
+    ['programa', 'Programa IB', 'Cada subtema con sus noticias y diagramas.'], ['diagramas', 'Diagramas', 'Diagramas interactivos para mover las curvas.'], ['simulador', 'Simulador', 'Sé el ministro o el BCP y mira qué pasa.']] },
+  { id: 'herramientas', t: 'Herramientas', home: 'bloque-herramientas', d: 'Calculadoras y buscador para usar con datos reales.', items: [
+    ['calculadoras', 'Calculadoras', 'Los cálculos que aparecen en las noticias.'], ['inflacion', 'Tu inflación', 'Calcula la inflación de tu propia familia.'], ['finanzas', 'Finanzas personales', 'Interés compuesto, tarjetas y ahorro en guaraníes o dólares.'], ['buscar', 'Buscador', 'Busca en todo el sitio.']] },
+];
+const bloqueDe = nav => BLOQUES.find(b => b.home === nav || b.items.some(i => i[0] === nav)) || BLOQUES[0];
+function updateNav(nav) {
+  const B = bloqueDe(nav);
+  document.querySelectorAll('[data-block]').forEach(a => a.dataset.block === B.id ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+  const sn = $('#subnav');
+  if (sn) {
+    sn.innerHTML = (B.id === 'noticias' ? '' : `<a href="#${B.home}" class="${nav === B.home ? 'cur' : ''}">Todo ${esc(B.t.toLowerCase())}</a>`) + B.items.map(([r, t]) => `<a href="#${r}" class="${r === nav ? 'cur' : ''}"${r === nav ? ' aria-current="page"' : ''}>${esc(t)}</a>`).join('');
+    const cur = sn.querySelector('.cur'); if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  }
+}
+function renderBloque(id) {
+  const B = BLOQUES.find(b => b.id === id);
+  const extra = r => {
+    if (r === 'metas' && METAS) { const es = METAS.items.map(m => metaEstado(m).e); return `${es.filter(e => e === 'verde').length} en verde · ${es.filter(e => e === 'rojo').length} en rojo`; }
+    if (r === 'indicadores' && HIST.inflacion) { const p = HIST.inflacion.puntos; return 'Inflación: ' + num(p[p.length - 1][1], 1) + ' %'; }
+    if (r === 'archivo') return NOTICIAS.length + ' noticias en portada';
+    if (r === 'miradas') return MIRADAS.length + ' debates';
+    if (r === 'diagramas') return Object.keys(LIB).length + ' diagramas';
+    if (r === 'cronologia' && CRONO) return CRONO.hitos.length + ' hechos';
+    if (r === 'quien' && QUIEN) return QUIEN.personas.length + ' personas';
+    return '';
+  };
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Sección</div><h1>${esc(B.t)}</h1><p class="lede">${esc(B.d)}</p></div></div>
+    <div class="hub">${B.items.map(([r, t, d]) => `<a class="hub-card" href="#${r}"><b>${esc(t)}</b><span>${esc(d)}</span>${extra(r) ? `<small>${esc(extra(r))}</small>` : ''}</a>`).join('')}</div>
+    <div style="height:30px"></div></div>`;
+}
+
+/* ---------- Buscador general ---------- */
+let SIDX = null;
+function buildIndex() {
+  const E = [], add = (tipo, t, txt, href, sub) => E.push({ tipo, t, txt: txt || '', href, sub: sub || '', n: norm(t + ' ' + (txt || '') + ' ' + (sub || '')), nt: norm(t) });
+  const news = SORTED.concat(ARCH || []);
+  news.forEach(n => add('Noticias', n.titulo, [n.resumen, n.contexto, ...(n.conceptos || []).map(c => c.join(' '))].join(' '), '#n-' + n.id, n.medio + ' · ' + fdate(n.fecha)));
+  const conc = {}; news.forEach(n => (n.conceptos || []).forEach(([c, def]) => { const k = norm(c); if (!conc[k]) conc[k] = [c, def, n.id]; }));
+  Object.values(conc).forEach(([c, def, id]) => add('Conceptos', c, def, '#n-' + id, 'Aparece en una noticia'));
+  Object.entries(LIB).forEach(([k, L]) => add('Diagramas', L.t, (L.que || '') + ' ' + (L.lee || []).join(' '), '#d-' + k, 'Tema ' + L.tema));
+  Object.entries(TEMAS).forEach(([k, t]) => add('Programa IB', k + ' · ' + t, '', '#' + temaHash(k), 'Subtema del programa'));
+  MIRADAS.forEach(m => add('Debates', m.pregunta, m.contexto + ' ' + m.lados.map(l => l.args.map(a => a.join(' ')).join(' ')).join(' '), '#mirada-' + m.id, 'Dos miradas'));
+  (CRONO ? CRONO.hitos : []).forEach(h => add('Historia', h.t, h.d + ' ' + h.ib, h.link ? h.link[0] : '#cronologia', fflex(h.f)));
+  HISTORIAS.forEach(h => add('Historias', h.titulo, h.dek, '#historia-' + h.id, h.estado));
+  const dato = (v, l, f, href) => add('Datos', v + ' · ' + l, f || '', href, f || '');
+  if (PAIS) PAIS.secciones.forEach(s => s.items.forEach(([v, l, f]) => dato(v, l, f, '#paraguay')));
+  Object.entries(HIST).forEach(([k, h]) => { const p = h.puntos[h.puntos.length - 1]; if (p) dato(fmtUnit(h, p[1]), h.t, 'Último dato: ' + fdate(p[0]), '#indicadores'); });
+  [[TRABAJO, '#trabajo'], [ITAIPU, '#itaipu'], [COOP, '#cooperativas'], [COMEX, '#comercio']].forEach(([o, h]) => o && (o.cifras || []).forEach(([v, l, f]) => dato(v, l, f, h)));
+  if (METAS) METAS.items.forEach(m => { const s = metaEstado(m); dato(s.txt, m.t, m.meta, '#metas'); });
+  EMPRESAS.forEach(e => add('Empresas', e.t + ': ' + e.sub, e.texto, '#emp-' + e.id, 'Casos de empresas'));
+  if (QUIEN) { QUIEN.personas.forEach(p => add('Personas', p.n, p.cargo + ' ' + p.que, '#quien', p.cargo)); QUIEN.instituciones.forEach(([s, n, t, d]) => add('Instituciones', s + ' · ' + n, d, '#quien', t)); }
+  BLOQUES.forEach(B => B.items.forEach(([r, t, d]) => add('Secciones', t, d, '#' + r, B.t)));
+  return E;
+}
+const markQ = (s, toks) => { let h = esc(s); toks.forEach(t => { if (t.length < 2) return; const re = new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'); h = h.replace(re, '<mark>$1</mark>'); }); return h; };
+const snip = (s, tok) => { if (!s) return ''; const i = norm(s).indexOf(tok); if (i < 0) return s.slice(0, 150) + (s.length > 150 ? '…' : ''); const a = Math.max(0, i - 60); return (a ? '…' : '') + s.slice(a, a + 170) + (a + 170 < s.length ? '…' : ''); };
+function renderBuscar(q0) {
+  q0 = q0 || '';
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Herramientas</div><h1>Buscador</h1><p class="lede">Busca en todo el sitio: noticias, conceptos, diagramas, debates, historia, datos, personas y secciones.</p></div></div>
+    <div class="sbox"><input id="sq" type="search" placeholder="Ejemplo: inflación, Itaipú, déficit, soja, cooperativas…" value="${esc(q0)}" aria-label="Buscar en el sitio" autocomplete="off"></div>
+    <div class="filters" style="padding-top:10px">${['inflación', 'dólar', 'déficit', 'Itaipú', 'soja', 'salario mínimo', 'Ueno'].map(t => `<button type="button" class="chip" data-sq="${esc(t)}">${esc(t)}</button>`).join('')}</div>
+    <div id="sres"></div><div style="height:30px"></div></div>`;
+  const run = q => {
+    history.replaceState(null, '', '#buscar' + (q ? '/' + encodeURIComponent(q) : ''));
+    const toks = norm(q).split(/\s+/).filter(Boolean);
+    if (!toks.length) { $('#sres').innerHTML = '<p class="note">Escribe al menos una palabra.</p>'; return; }
+    SIDX = SIDX || buildIndex();
+    const hits = SIDX.filter(e => toks.every(t => e.n.includes(t))).map(e => Object.assign({ sc: toks.filter(t => e.nt.includes(t)).length }, e)).sort((a, b) => b.sc - a.sc);
+    const order = ['Secciones', 'Datos', 'Noticias', 'Conceptos', 'Diagramas', 'Programa IB', 'Debates', 'Historia', 'Historias', 'Empresas', 'Personas', 'Instituciones'];
+    const groups = order.map(g => [g, hits.filter(h => h.tipo === g)]).filter(([, l]) => l.length);
+    $('#sres').innerHTML = hits.length ? `<p class="note" style="margin-bottom:10px">${hits.length} resultados para «${esc(q)}»</p>` + groups.map(([g, l]) => `<section class="sgrp"><h2>${esc(g)} <small>${l.length}</small></h2><ul>${l.slice(0, 12).map(h => `<li><a href="${esc(h.href)}">${markQ(h.t, toks)}</a>${h.sub ? `<small>${esc(h.sub)}</small>` : ''}${h.txt && g !== 'Datos' ? `<p>${markQ(snip(h.txt, toks[0]), toks)}</p>` : ''}</li>`).join('')}</ul>${l.length > 12 ? `<p class="note">Y ${l.length - 12} más: agrega otra palabra para afinar la búsqueda.</p>` : ''}</section>`).join('') : `<div class="empty">No se encontró «${esc(q)}». Prueba con otra palabra o sin tildes.</div>`;
+  };
+  const inp = $('#sq'); let tm;
+  inp.oninput = () => { clearTimeout(tm); tm = setTimeout(() => run(inp.value.trim()), 180); };
+  document.querySelectorAll('[data-sq]').forEach(b => b.onclick = () => { inp.value = b.dataset.sq; run(b.dataset.sq); });
+  if (!ARCH) loadArch().then(() => { SIDX = null; if (inp.value.trim()) run(inp.value.trim()); });
+  if (q0) run(q0); else $('#sres').innerHTML = '';
+  setTimeout(() => inp.focus(), 50);
+}
+
+/* ---------- Cooperativas ---------- */
+function renderCooperativas() {
+  const C = COOP;
+  if (!C) return emptyView();
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Sistema financiero</div><h1>Cooperativas</h1><p class="lede">${esc(C.intro)}</p></div></div>
+    ${statsHTML(C.cifras)}
+    <h2 style="margin:6px 0 12px">Banco o cooperativa: en qué se diferencian</h2>
+    <div class="tbl"><table class="cmp"><thead><tr><th></th><th>Banco</th><th>Cooperativa</th></tr></thead><tbody>${C.comparacion.map(([a, b, c]) => `<tr><th scope="row">${esc(a)}</th><td>${esc(b)}</td><td>${esc(c)}</td></tr>`).join('')}</tbody></table></div>
+    <p class="note" style="margin:-8px 0 22px">Fuentes: ${srcLinks(C.comparacion_fuentes)}</p>
+    <div class="parts">${C.partes.map(x => `<section class="part"><div class="part-hd"><h2>${esc(x.t)}</h2>${temaLink(x.tema)}</div><p>${esc(x.texto)}</p><p class="note">Fuentes: ${srcLinks(x.fuentes)}</p></section>`).join('')}</div>
+    ${chartsHTML(C.graficos)}
+    <div class="art" style="padding-top:6px"><div class="col">
+      <section class="block"><h2><small>Programa IB</small>Qué conceptos explican las cooperativas</h2>${ibList(C.ib)}</section>
+    </div><aside class="side">
+      <div class="block"><h3>Para debatir en clase</h3><ul class="reads" style="margin:0">${C.preguntas.map(q => `<li>${esc(q)}</li>`).join('')}</ul></div>
+      <div class="block"><h3>Sigue leyendo</h3><div class="rel"><a href="#historia-crisis-ueno">La crisis de Ueno Bank<small>Cómo funcionó la garantía de depósitos</small></a><a href="#inst-bcp">Banco Central del Paraguay<small>El supervisor de los bancos</small></a><a href="#finanzas">Finanzas personales<small>Calcula cuánto rinde tu ahorro</small></a></div></div>
+    </aside></div><div style="height:30px"></div></div>`;
+}
+
+/* ---------- Comercio exterior: mapa ---------- */
+const CONTINENTES = [
+  [[-80, 12], [-72, 12], [-60, 10], [-50, 0], [-35, -6], [-40, -22], [-48, -28], [-58, -38], [-65, -55], [-72, -50], [-73, -40], [-71, -18], [-81, -5]],
+  [[-168, 66], [-140, 70], [-95, 72], [-80, 63], [-60, 55], [-66, 45], [-75, 35], [-81, 25], [-97, 26], [-97, 16], [-88, 15], [-80, 9], [-86, 13], [-105, 20], [-117, 32], [-124, 40], [-125, 49], [-140, 60], [-165, 60]],
+  [[-50, 82], [-25, 80], [-22, 70], [-45, 60], [-55, 68]],
+  [[-10, 36], [-9, 44], [-2, 47], [-5, 49], [5, 52], [8, 57], [5, 62], [15, 69], [28, 71], [40, 67], [45, 60], [40, 48], [30, 45], [26, 40], [20, 40], [15, 38], [10, 44], [3, 42], [-5, 36]],
+  [[-17, 15], [-17, 21], [-10, 30], [-5, 36], [10, 37], [20, 32], [32, 31], [35, 25], [43, 12], [51, 12], [40, -2], [40, -15], [33, -26], [20, -35], [15, -27], [12, -5], [9, 4], [-8, 4]],
+  [[26, 40], [36, 36], [35, 30], [43, 13], [60, 24], [67, 24], [73, 19], [78, 8], [81, 15], [88, 22], [92, 22], [100, 13], [103, 1], [106, 10], [108, 20], [118, 24], [122, 30], [121, 40], [130, 43], [135, 48], [142, 55], [160, 60], [170, 66], [180, 68], [180, 72], [140, 73], [110, 77], [80, 74], [60, 70], [45, 68], [40, 66], [30, 70], [28, 60], [30, 45]],
+  [[114, -22], [114, -34], [130, -32], [140, -38], [150, -37], [153, -28], [146, -19], [142, -11], [136, -12], [130, -12], [122, -17]],
+];
+let COMDIR = 'exportaciones';
+function comercioSVG(C, dir) {
+  const [L, R, T, Bt, W] = dir === 'exportaciones' ? [-90, -30, 10, -50, 520] : [-170, 180, 80, -58, 720], k = W / (R - L), H = Math.round((T - Bt) * k), P = ([lo, la]) => [(lo - L) * k, (T - la) * k];
+  const rows = C[dir], max = Math.max(...rows.map(r => r[1])), py = P(C.paises.Paraguay), col = dir === 'exportaciones' ? 'var(--navy-2)' : 'var(--gold)';
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Mapa de ${dir} de Paraguay por país"><defs><marker id="cm-a" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:${col}"/></marker></defs>`;
+  s += `<rect width="${W}" height="${H}" rx="10" style="fill:var(--sea)"/>`;
+  for (let la = 60; la >= -40; la -= dir === 'exportaciones' ? 10 : 20) { const y = P([0, la])[1]; s += `<line x1="0" x2="${W}" y1="${y}" y2="${y}" style="stroke:var(--grid)" stroke-width=".6"/>`; }
+  CONTINENTES.forEach(c => { s += `<path d="${c.map((p, i) => (i ? 'L' : 'M') + P(p).map(v => v.toFixed(1)).join(',')).join('')}Z" style="fill:var(--land);stroke:var(--rule)" stroke-width=".8"/>`; });
+  rows.forEach(([n, v, varr], i) => {
+    const q = P(C.paises[n]); if (!q) return;
+    const [a, b] = dir === 'exportaciones' ? [py, q] : [q, py];
+    const mx = (a[0] + b[0]) / 2, my = Math.min(a[1], b[1]) - Math.max(18, Math.abs(a[0] - b[0]) * 0.22), w = 2 + 12 * v / max;
+    s += `<path d="M${a[0].toFixed(1)},${a[1].toFixed(1)} Q${mx.toFixed(1)},${my.toFixed(1)} ${b[0].toFixed(1)},${b[1].toFixed(1)}" style="fill:none;stroke:${col};opacity:.85" stroke-width="${w.toFixed(1)}" stroke-linecap="round" marker-end="url(#cm-a)"><title>${esc(n)}: US$ ${num(v, 1)} millones</title></path>`;
+    const lx = q[0] + (q[0] < py[0] ? -6 : 6), anchor = n === 'China' ? 'end' : q[0] < py[0] ? 'end' : 'start';
+    s += `<circle cx="${q[0].toFixed(1)}" cy="${q[1].toFixed(1)}" r="4" style="fill:${col};stroke:var(--sheet)" stroke-width="1.5"/><text x="${(n === 'China' ? q[0] - 8 : lx).toFixed(1)}" y="${(q[1] + (n === 'Argentina' ? 14 : n === 'Chile' ? 4 : -8)).toFixed(1)}" text-anchor="${anchor}" font-size="${(W / 36).toFixed(1)}" font-weight="700" style="fill:var(--ink);font-family:var(--f-body);paint-order:stroke;stroke:var(--sea);stroke-width:3px">${esc(n)} · ${num(v, 0)}</text>`;
+  });
+  s += `<circle cx="${py[0].toFixed(1)}" cy="${py[1].toFixed(1)}" r="6" style="fill:var(--bad);stroke:var(--sheet)" stroke-width="2"/><text x="${(py[0] + 9).toFixed(1)}" y="${(py[1] + 4).toFixed(1)}" font-size="${(W / 34).toFixed(1)}" font-weight="800" style="fill:var(--ink);font-family:var(--f-body);paint-order:stroke;stroke:var(--sea);stroke-width:3px">Paraguay</text>`;
+  return s + '</svg>';
+}
+function renderComercio() {
+  const C = COMEX;
+  if (!C) return emptyView();
+  const rows = C[COMDIR], tot = rows.reduce((a, r) => a + r[1], 0), max = Math.max(...rows.map(r => r[1]));
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Sector externo</div><h1>¿Con quién comercia Paraguay?</h1><p class="lede">${esc(C.intro)}</p></div></div>
+    <div class="filters" role="group" aria-label="Flujo">${[['exportaciones', 'A quién le vende (exportaciones)'], ['importaciones', 'A quién le compra (importaciones)']].map(([k, t]) => `<button type="button" class="chip" data-cd="${k}" aria-pressed="${k === COMDIR}">${t}</button>`).join('')}</div>
+    <div class="map-wrap"><div class="map-box">${comercioSVG(C, COMDIR)}<p class="note">${esc(C.periodo)}. Montos en US$ millones. Fuente: <a href="${esc(C.fuente[1])}" target="_blank" rel="noopener">${esc(C.fuente[0])}</a>.</p></div>
+      <div class="block"><h3>${COMDIR === 'exportaciones' ? 'Principales destinos' : 'Principales orígenes'}</h3>
+        <ol class="rank cx">${rows.map(([n, v, x]) => `<li><span>${esc(n)}<i class="rbar" style="width:${(v / max * 100).toFixed(0)}%"></i></span><b>US$ ${num(v, 1)} M</b><span class="note">${esc(x)}</span></li>`).join('')}</ol>
+        <p class="note">La variación es frente al primer semestre de 2025.</p></div></div>
+    <h2 style="margin:18px 0 12px">El comercio de Paraguay en cifras</h2>
+    ${statsHTML(C.cifras)}
+    <div class="art" style="padding-top:0"><div class="col">
+      <section class="block"><h2><small>Para leer el mapa</small>Lo que muestran los datos</h2><ul class="reads" style="margin:0">${C.lecturas.map(l => `<li>${esc(l)}</li>`).join('')}</ul></section>
+      <section class="block"><h2><small>Programa IB</small>Conceptos</h2>${ibList(C.ib)}</section>
+    </div><aside class="side"><div class="block"><h3>Sigue leyendo</h3><div class="rel"><a href="#sector-comercio">Sector comercio<small>Exportaciones mes a mes</small></a><a href="#mundo">El mundo y Paraguay<small>Brasil, Argentina, China y EE.UU.</small></a><a href="#d-exportaciones">Diagrama de exportaciones<small>Libre comercio</small></a></div></div></aside></div>
+    <p class="note" style="padding-bottom:40px">${esc(C.nota)} Fuentes: ${srcLinks(C.fuentes)}</p></div>`;
+  document.querySelectorAll('[data-cd]').forEach(b => b.onclick = () => { COMDIR = b.dataset.cd; renderComercio(); });
+}
+
+/* ---------- Quién es quién ---------- */
+let QF = 'Todos';
+function renderQuien() {
+  const Q = QUIEN;
+  if (!Q) return emptyView();
+  const tipos = ['Todos', ...new Set(Q.personas.map(p => p.tipo))], ps = Q.personas.filter(p => QF === 'Todos' || p.tipo === QF);
+  const enNews = name => { const k = norm(name); return SORTED.filter(n => norm(n.titulo + ' ' + n.resumen + ' ' + n.contexto).includes(k)).slice(0, 2); };
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Actores</div><h1>Quién es quién</h1><p class="lede">${esc(Q.intro)}</p></div></div>
+    <div class="filters" role="group" aria-label="Tipo">${tipos.map(t => `<button type="button" class="chip" data-qt="${esc(t)}" aria-pressed="${t === QF}">${esc(t)}</button>`).join('')}</div>
+    <div class="people">${ps.map(p => { const ns = enNews(p.n); return `<section class="person">
+      <div class="ph"><span class="av" aria-hidden="true">${esc(p.n.split(' ').filter(w => /^[A-ZÁÉÍÓÚÑ]/.test(w)).slice(0, 2).map(w => w[0]).join(''))}</span><div><h3>${esc(p.n)}</h3><small>${esc(p.cargo)}</small></div></div>
+      <span class="ptype">${esc(p.tipo)}</span>
+      <p>${esc(p.que)}</p>${p.estado && !/En el cargo/.test(p.estado) ? `<p class="note">Estado: ${esc(p.estado)}</p>` : ''}
+      ${ns.length ? `<div class="rel">${ns.map(n => `<a href="#n-${n.id}">${esc(n.titulo)}<small>${esc(n.medio)} · ${fdate(n.fecha)}</small></a>`).join('')}</div>` : ''}
+      <div class="sem-links"><a class="more" href="${esc(p.link)}">Dónde aparece →</a>${p.url ? `<a class="note" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.fuente)} ↗</a>` : `<span class="note">${esc(p.fuente)}</span>`}</div>
+    </section>`; }).join('')}</div>
+    <h2 style="margin:22px 0 12px">Instituciones y gremios</h2>
+    <div class="tbl"><table class="cmp"><thead><tr><th>Sigla</th><th>Nombre</th><th>Qué es</th><th>Qué hace</th></tr></thead><tbody>${Q.instituciones.map(([s, n, t, d, h]) => `<tr><th scope="row"><a href="${esc(h)}">${esc(s)}</a></th><td>${esc(n)}</td><td><span class="ptype">${esc(t)}</span></td><td>${esc(d)}</td></tr>`).join('')}</tbody></table></div>
+    <p class="note" style="padding-bottom:40px">Los cargos son los que publicaron las fuentes citadas en cada ficha; pueden cambiar. Las autoridades de las instituciones se actualizan en la sección Instituciones.</p></div>`;
+  document.querySelectorAll('[data-qt]').forEach(b => b.onclick = () => { QF = b.dataset.qt; renderQuien(); });
+}
+
+/* ---------- Tu inflación personal ---------- */
+const INFROWS = () => store.get('enp-infl', null) || [['Comida del supermercado', '', '', ''], ['Carne', '', '', ''], ['Combustible o pasaje', '', '', ''], ['Luz y agua', '', '', ''], ['Internet y celular', '', '', ''], ['Colegio o universidad', '', '', '']];
+const INFEJ = [['Comida del supermercado', '2.000.000', '100.000', '98.000'], ['Carne', '600.000', '45.000', '52.000'], ['Combustible', '800.000', '6.250', '9.285'], ['Luz y agua', '450.000', '300.000', '300.000'], ['Internet y celular', '250.000', '250.000', '250.000'], ['Colegio', '1.200.000', '1.100.000', '1.150.000']];
+function renderInflacion() {
+  const h = HIST.inflacion, last = h && h.puntos[h.puntos.length - 1];
+  let rows = INFROWS();
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Herramientas · tema 3.3</div><h1>Tu inflación personal</h1><p class="lede">La inflación oficial mide cómo cambian los precios de una canasta promedio. Pero cada familia compra cosas distintas, así que su inflación también es distinta. Anota lo que gasta tu familia por mes y el precio de cada cosa hace un año y hoy.</p></div></div>
+    <div class="sim"><div class="col" style="gap:12px">
+      <div class="tbl"><table class="inf"><thead><tr><th>Producto o gasto</th><th>Gasto mensual (G.)</th><th>Precio hace un año</th><th>Precio hoy</th><th></th></tr></thead><tbody id="infb"></tbody></table></div>
+      <div class="tools"><button type="button" class="btn" id="infadd">+ Agregar fila</button><button type="button" class="btn" id="infej">Cargar un ejemplo</button><button type="button" class="btn" id="infclr">Borrar todo</button></div>
+      <p class="note">El precio puede ser de una unidad (un litro, un kilo, una cuota). Lo que importa es comparar el mismo producto en las dos fechas. El ejemplo tiene precios inventados para practicar, salvo el diésel de Petropar (G. 9.285 el litro, según ABC Color). Tus datos quedan solo en este dispositivo.</p>
+    </div><div class="col" style="gap:12px">
+      <div class="kpis" id="infk"></div>
+      <div class="chart" id="infc"></div>
+      <div class="block"><h3>Por qué tu inflación es distinta</h3><ul class="reads" style="margin:0">
+        <li>El IPC del BCP pondera cada grupo de gastos según la canasta de consumo del año base (2017); la de tu familia tiene otros pesos.</li>
+        <li>Si gastas mucho en algo que subió (por ejemplo, combustible), tu inflación será mayor que la oficial.</li>
+        <li>El IPC tiene límites: no capta bien los cambios de calidad, los productos nuevos ni cuando las familias cambian a productos más baratos (sesgo de sustitución).</li></ul></div>
+    </div></div><div style="height:30px"></div></div>`;
+  const save = () => store.set('enp-infl', rows);
+  const drawRows = () => {
+    $('#infb').innerHTML = rows.map((r, i) => `<tr>${r.map((v, j) => `<td><input data-r="${i}" data-c="${j}" value="${esc(v)}" ${j ? 'inputmode="decimal"' : ''} aria-label="${['Producto', 'Gasto mensual', 'Precio hace un año', 'Precio hoy'][j]} ${i + 1}"></td>`).join('')}<td><button type="button" class="x" data-del="${i}" aria-label="Borrar fila">×</button></td></tr>`).join('');
+    document.querySelectorAll('#infb input').forEach(el => el.oninput = () => { rows[+el.dataset.r][+el.dataset.c] = el.value; save(); calc(); });
+    document.querySelectorAll('[data-del]').forEach(b => b.onclick = () => { rows.splice(+b.dataset.del, 1); save(); drawRows(); calc(); });
+  };
+  const calc = () => {
+    const ok = rows.map(([n, g, a, b]) => [n || 'Sin nombre', parseNum(g), parseNum(a), parseNum(b)]).filter(([, g, a, b]) => g > 0 && a > 0 && b != null);
+    const G = ok.reduce((s, r) => s + r[1], 0);
+    if (!ok.length || !G) { $('#infk').innerHTML = '<div class="kpi"><span>Tu inflación</span><b>—</b><small>Completa al menos una fila con gasto y los dos precios.</small></div>'; $('#infc').innerHTML = ''; return; }
+    const parts = ok.map(([n, g, a, b]) => [n, g / G * (b / a - 1) * 100, (b / a - 1) * 100]), mine = parts.reduce((s, p) => s + p[1], 0), of = last ? last[1] : null;
+    $('#infk').innerHTML = `<div class="kpi ${of != null && mine > of ? 'bad' : 'ok'}"><span>Tu inflación anual</span><b>${num(mine, 1)} %</b><small>Promedio ponderado por lo que gasta tu familia</small></div>` + (of != null ? `<div class="kpi"><span>Inflación oficial (IPC)</span><b>${num(of, 1)} %</b><small>BCP, ${esc(fflex(last[0]))}</small></div><div class="kpi"><span>Diferencia</span><b>${mine >= of ? '+' : ''}${num(mine - of, 1)} pts</b><small>${mine > of ? 'Tus precios subieron más que el promedio' : 'Tus precios subieron menos que el promedio'}</small></div>` : '');
+    $('#infc').innerHTML = `<div class="top"><h3>Cuánto aporta cada gasto a tu inflación</h3></div>${fig({ k: 'barras', u: 'puntos', rows: parts.map(([n, c]) => [n.slice(0, 24), +c.toFixed(2), 0]) })}<p class="note">Aporte = peso del gasto × variación de su precio. La suma da tu inflación.</p>`;
+  };
+  $('#infadd').onclick = () => { rows.push(['', '', '', '']); save(); drawRows(); };
+  $('#infej').onclick = () => { rows = INFEJ.map(r => r.slice()); save(); drawRows(); calc(); };
+  $('#infclr').onclick = () => { rows = [['', '', '', '']]; save(); drawRows(); calc(); };
+  drawRows(); calc();
+}
+
+/* ---------- Finanzas personales ---------- */
+const tasaRef = k => { const t = FIN && FIN.tasas.find(x => x[0] === k); return t ? t[1] : null; };
+function renderFinanzas() {
+  const hI = HIST.inflacion, hD = HIST.dolar, inf = hI ? hI.puntos[hI.puntos.length - 1][1] : 2, dol = hD ? hD.puntos[hD.puntos.length - 1][1] : 6500;
+  const pg = tasaRef('pasiva_g') || 6, pu = tasaRef('pasiva_us') || 3.5, tj = tasaRef('tarjeta') || 19;
+  const FC = [
+    { id: 'ic', t: 'Interés compuesto: cuánto crece tu ahorro', tema: '3.5', f: [['c', 'Ahorro inicial (G.)', '1.000.000'], ['m', 'Ahorro cada mes (G.)', '200.000'], ['r', 'Tasa de interés anual (%)', num(pg, 2)], ['y', 'Años', '10'], ['i', 'Inflación esperada por año (%)', num(inf, 1)]],
+      run: v => { const n = Math.round(v.y), rm = v.r / 100 / 12; let s = v.c; const yr = []; for (let mth = 1; mth <= n * 12; mth++) { s = s * (1 + rm) + v.m; if (mth % 12 === 0) yr.push(s); } const ap = v.c + v.m * 12 * n, real = s / Math.pow(1 + v.i / 100, n);
+        const step = Math.max(1, Math.ceil(n / 8)); return { out: [['G. ' + num(s, 0), 'tendrás en ' + n + ' años'], ['Pusiste', 'G. ' + num(ap, 0)], ['Ganaste en intereses', 'G. ' + num(s - ap, 0)], ['Valor real', 'G. ' + num(real, 0) + ' en precios de hoy, descontando la inflación']], chart: { t: 'Ahorro acumulado', u: 'millones de G.', rows: yr.map((x, i) => [String(i + 1) + (i ? '' : ' año'), +(x / 1e6).toFixed(1), i === yr.length - 1 ? 1 : 0]).filter((_, i) => (i + 1) % step === 0 || i === yr.length - 1) } }; } },
+    { id: 'tj', t: 'Tarjeta de crédito: cuánto cuesta la deuda', tema: '3.5', f: [['d', 'Deuda (G.)', '2.000.000'], ['r', 'Tasa de interés anual (%)', num(tj, 2)], ['p', 'Pago cada mes (G.)', '150.000']],
+      run: v => { const rm = v.r / 100 / 12, sim = p => { let s = v.d, m = 0, paid = 0; while (s > 0.5 && m < 600) { s = s * (1 + rm); const x = Math.min(p, s); s -= x; paid += x; m++; } return [m, paid, s > 0.5]; };
+        if (v.p <= v.d * rm) return { out: [['Nunca', 'el pago no alcanza a cubrir los intereses del mes (G. ' + num(v.d * rm, 0) + ')']] };
+        const [m, paid] = sim(v.p), [m2, paid2] = sim(v.p * 2);
+        return { out: [[m + ' meses', 'para terminar de pagar (' + num(m / 12, 1) + ' años)'], ['Pagas en total', 'G. ' + num(paid, 0) + ', de los que G. ' + num(paid - v.d, 0) + ' son intereses'], ['Si pagas el doble cada mes', m2 + ' meses y G. ' + num(paid2 - v.d, 0) + ' de intereses']], chart: { t: 'Intereses pagados', u: 'G.', rows: [['Pago de G. ' + num(v.p, 0), Math.round(paid - v.d), 1], ['Pago de G. ' + num(v.p * 2, 0), Math.round(paid2 - v.d)]] } }; } },
+    { id: 'gd', t: '¿Ahorrar en guaraníes o en dólares?', tema: '4.5', f: [['g', 'Monto a ahorrar (G.)', '10.000.000'], ['ig', 'Tasa en guaraníes (%)', num(pg, 2)], ['iu', 'Tasa en dólares (%)', num(pu, 2)], ['t0', 'Dólar hoy (G.)', num(dol, 0)], ['t1', 'Dólar dentro de un año (G.)', num(dol, 0)]],
+      run: v => { const fg = v.g * (1 + v.ig / 100), fu = v.g / v.t0 * (1 + v.iu / 100) * v.t1, be = v.t0 * (1 + v.ig / 100) / (1 + v.iu / 100);
+        return { out: [[fu > fg ? 'Convienen los dólares' : 'Convienen los guaraníes', 'con el dólar que supusiste'], ['En guaraníes', 'G. ' + num(fg, 0) + ' en un año'], ['En dólares', 'G. ' + num(fu, 0) + ' al cambiarlos de vuelta'], ['Punto de equilibrio', 'si el dólar pasa de G. ' + num(be, 0) + ' (+' + num((be / v.t0 - 1) * 100, 1) + ' %), conviene ahorrar en dólares']], chart: { t: 'Lo que tendrías en un año', u: 'millones de G.', rows: [['Guaraníes', +(fg / 1e6).toFixed(2), fg >= fu ? 1 : 0], ['Dólares', +(fu / 1e6).toFixed(2), fu > fg ? 1 : 0]] } }; } },
+  ];
+  $('#app').innerHTML = `<div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">Herramientas</div><h1>Finanzas personales</h1><p class="lede">La economía también se usa en casa: cuánto rinde un ahorro, cuánto cuesta deber en la tarjeta y en qué moneda conviene ahorrar. Las calculadoras vienen cargadas con las tasas promedio del sistema financiero; cambia los números para tu caso.</p></div></div>
+    <div class="calcs fin">${FC.map(c => `<section class="calc" id="c-${c.id}"><h3>${esc(c.t)}</h3>${temaLink(c.tema)}
+      <div class="f">${c.f.map(([k, l, v]) => `<label for="i-${c.id}-${k}">${esc(l)}<input id="i-${c.id}-${k}" data-k="${k}" inputmode="decimal" value="${esc(v)}"></label>`).join('')}</div>
+      <div class="out" id="o-${c.id}"></div><div id="g-${c.id}"></div></section>`).join('')}</div>
+    <h2 style="margin:18px 0 12px">Tasas de referencia</h2>
+    <div class="stats">${(FIN ? FIN.tasas : []).map(([, v, l, f, u]) => `<div class="stat"><b>${num(v, 2)} %</b><span>${esc(l)}</span><small><a href="${esc(u)}" target="_blank" rel="noopener">${esc(f)} ↗</a></small></div>`).join('')}</div>
+    <div class="block" style="margin-bottom:30px"><h3>Para recordar</h3><ul class="reads" style="margin:0">
+      <li>La tasa real es la tasa nominal menos la inflación: si tu ahorro rinde menos que la inflación, pierdes poder de compra.</li>
+      <li>Ahorrar en dólares paga menos interés, pero gana si el guaraní se deprecia. Es la idea de la paridad de tasas de interés.</li>
+      <li>Las tasas de cada banco o cooperativa son distintas: compara antes de elegir. Los resultados son estimaciones, no consejos financieros.</li></ul></div></div>`;
+  FC.forEach(c => {
+    const run = () => {
+      const v = {}; let ok = true; c.f.forEach(([k]) => { const x = parseNum($(`#i-${c.id}-${k}`).value); if (x == null) ok = false; v[k] = x; });
+      let r = null; if (ok) { try { r = c.run(v); } catch (e) { r = null; } }
+      $('#o-' + c.id).innerHTML = r ? r.out.map(([b, s], i) => i ? `<span><b style="font-size:1rem">${esc(b)}</b> · ${esc(s)}</span>` : `<b>${esc(b)}</b><span>${esc(s)}</span>`).join('') : '<span>Completa todos los campos con números.</span>';
+      $('#g-' + c.id).innerHTML = r && r.chart ? `<div class="chart" style="padding:8px 0 0;border:0"><p class="note"><b>${esc(r.chart.t)}</b></p>${fig({ k: 'barras', u: r.chart.u, rows: r.chart.rows })}</div>` : '';
+    };
+    document.querySelectorAll(`#c-${c.id} input`).forEach(el => el.oninput = run); run();
+  });
+}
+
+/* ---------- Pregunta del día y Un día como hoy ---------- */
+const diaDelAno = d => Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 864e5);
+function hoyHTML() {
+  const hoy = new Date(), md = iso(hoy).slice(5), qs = SORTED.filter(n => n.pregunta && n.pregunta.opts);
+  const nq = qs.length ? qs[diaDelAno(hoy) % qs.length] : null;
+  let hito = null, lab = 'Un día como hoy';
+  if (CRONO) {
+    const hs = CRONO.hitos.filter(h => h.f.length === 10);
+    hito = hs.find(h => h.f.slice(5) === md);
+    if (!hito && hs.length) {
+      const dist = h => { const a = diaDelAno(pd(hoy.getFullYear() + h.f.slice(4))), b = diaDelAno(hoy); return Math.min(Math.abs(a - b), 365 - Math.abs(a - b)); };
+      const near = hs.slice().sort((a, b) => dist(a) - dist(b))[0];
+      if (dist(near) <= 7) { hito = near; lab = 'Esta semana en la historia'; } else { hito = hs[diaDelAno(hoy) % hs.length]; lab = 'Un hecho de nuestra historia'; }
+    }
+  }
+  if (!nq && !hito) return '';
+  const q = nq && nq.pregunta;
+  return `<div class="today">
+    ${q ? `<section class="quiz qday" id="qday"><div class="eyebrow">Pregunta del día</div><h3>${esc(q.q)}</h3><div class="opts">${q.opts.map((_, i) => (i + diaDelAno(hoy)) % q.opts.length).map(i => `<button type="button" class="opt" data-qi="${i}">${esc(q.opts[i])}</button>`).join('')}</div><div id="qfb"></div><a class="more" href="#n-${nq.id}">De la noticia: ${esc(nq.titulo)} →</a></section>` : ''}
+    ${hito ? `<section class="otd"><div class="eyebrow">${lab}</div><div class="otd-y">${esc(hito.f.slice(0, 4))}<small>${esc(fflex(hito.f))}</small></div><h3>${esc(hito.t)}</h3><p>${esc(hito.d)}</p><a class="more" href="#cronologia">Ver la historia económica →</a></section>` : ''}
+  </div>`;
+}
+function bindHoy() {
+  const qs = SORTED.filter(n => n.pregunta && n.pregunta.opts), nq = qs.length ? qs[diaDelAno(new Date()) % qs.length] : null;
+  if (!nq) return; const q = nq.pregunta;
+  document.querySelectorAll('#qday [data-qi]').forEach(b => b.onclick = () => {
+    const i = +b.dataset.qi, ok = i === q.ok;
+    document.querySelectorAll('#qday [data-qi]').forEach(x => { x.disabled = true; if (+x.dataset.qi === q.ok) x.classList.add('ok'); });
+    if (!ok) b.classList.add('bad');
+    $('#qfb').innerHTML = `<p class="fb ${ok ? 'ok' : 'bad'}"><b>${ok ? '¡Correcto!' : 'No es esa.'}</b> ${esc(q.fb || '')}</p>`;
+  });
+}
+
 /* Mapa por departamentos (mapa esquemático de mosaicos) */
 const DEPTS = [['Alto Paraguay','A. Paraguay',0,0],['Concepción','Concepción',2,0],['Amambay','Amambay',3,0],['Boquerón','Boquerón',0,1],['Presidente Hayes','Pte. Hayes',1,1],['San Pedro','San Pedro',2,1],['Canindeyú','Canindeyú',3,1],['Asunción','Asunción',1,2],['Cordillera','Cordillera',2,2],['Caaguazú','Caaguazú',3,2],['Alto Paraná','Alto Paraná',4,2],['Central','Central',1,3],['Paraguarí','Paraguarí',2,3],['Guairá','Guairá',3,3],['Ñeembucú','Ñeembucú',1,4],['Misiones','Misiones',2,4],['Caazapá','Caazapá',3,4],['Itapúa','Itapúa',4,4]];
 let MAPST = { capa: 'pobreza', dep: 'Concepción' };
@@ -1851,10 +2194,11 @@ function renderIndic() {
       <div class="top"><h3>${esc(h.t)}</h3><b>${esc(fmtUnit(h, last[1]))}</b></div>
       <span class="note">Último dato: ${fdate(last[0])}${h.col ? '' : ` · ${h.puntos.length} datos`}</span>
       ${lineChart(h)}
+      ${evList(h)}
       <p class="note">${esc(h.lee || '')}</p>
       <p class="note">Fuente: ${esc(h.fuente || '')}</p></section>`; };
   $('#app').innerHTML = `<div class="wrap">
-    <div class="sec-head"><div><div class="eyebrow">Datos</div><h1>Indicadores de Paraguay</h1><p class="lede">Cómo evolucionaron los principales indicadores de la economía paraguaya, agrupados como en el programa de IB. Cada punto o barra es un dato publicado; el último aparece resaltado. La actualización diaria agrega los datos nuevos.</p></div></div>
+    <div class="sec-head"><div><div class="eyebrow">Datos</div><h1>Indicadores de Paraguay</h1><p class="lede">Cómo evolucionaron los principales indicadores de la economía paraguaya, agrupados como en el programa de IB. Cada punto o barra es un dato publicado; el último aparece resaltado. Los círculos rojos numerados marcan los hechos que movieron el dato: debajo de cada gráfico está qué pasó y la noticia.</p></div></div>
     <div class="tools" style="margin-bottom:6px">${groups.map(g => `<a class="chip" href="#indicadores" data-g="${esc(g)}">${esc(g)}</a>`).join('')}</div>
     ${groups.map(g => `<div class="sec-head" id="grp-${groups.indexOf(g)}"><h2>${esc(g)}</h2></div><div class="charts">${keys.filter(k => (HIST[k].grupo || 'Otros') === g).map(chart).join('')}</div>`).join('')}
   </div>`;
@@ -1954,6 +2298,14 @@ function render() {
   else if (r === 'historias') { nav = 'historias'; renderHistorias(); }
   else if (r.startsWith('historia-') && HISTORIAS.some(h => h.id === r.slice(9))) { nav = 'historias'; renderHistoria(r.slice(9)); }
   else if (r === 'paraguay') { nav = 'paraguay'; renderPais(); }
+  else if (r.startsWith('bloque-') && BLOQUES.some(b => b.id === r.slice(7))) { nav = r; renderBloque(r.slice(7)); }
+  else if (r === 'buscar' || r.startsWith('buscar/')) { nav = 'buscar'; renderBuscar(decodeURIComponent(r.slice(7))); }
+  else if (r === 'cooperativas') { nav = 'cooperativas'; renderCooperativas(); }
+  else if (r === 'comercio') { nav = 'comercio'; renderComercio(); }
+  else if (r === 'quien') { nav = 'quien'; renderQuien(); }
+  else if (r === 'inflacion') { nav = 'inflacion'; renderInflacion(); }
+  else if (r === 'finanzas') { nav = 'finanzas'; renderFinanzas(); }
+  else if (r.startsWith('emp-')) { nav = 'empresas'; renderEmpresas(); const t = document.getElementById(r); if (t) t.scrollIntoView(); }
   else if (r === 'archivo') { nav = 'archivo'; renderArchivo(); }
   else if (r === 'metas') { nav = 'metas'; renderMetas(); }
   else if (r === 'cronologia') { nav = 'cronologia'; renderCronologia(); }
@@ -1970,14 +2322,13 @@ function render() {
   else if (r.startsWith('inst-') && INST[r.slice(5)]) { nav = 'instituciones'; renderInst(r.slice(5)); }
   else if (r.startsWith('tema-') && ALLTEMAS.includes(r.slice(5).replace('-', '.'))) { nav = 'programa'; renderTema(r.slice(5).replace('-', '.')); }
   else renderHome();
-  document.querySelectorAll('[data-nav]').forEach(a => a.dataset.nav === nav ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
-  const cur = document.querySelector('[data-nav][aria-current]'); if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  updateNav(nav);
 }
 
 fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   ACTUALIZADO = d.actualizado; DIARIOS = d.diarios || []; OFICIALES = d.oficiales || []; DESTACADO = d.destacado || null;
   INDICADORES = (d.indicadores || []).map(i => Array.isArray(i) ? { n: i[0], v: i[1], s: i[2], alert: i[3] } : i);
-  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null; CRONO = d.cronologia || null; ITAIPU = d.itaipu || null; MIRADAS = d.miradas || []; TRABAJO = d.trabajo || null; EMPRESAS = d.empresas || []; METAS = d.metas || null;
+  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null; CRONO = d.cronologia || null; ITAIPU = d.itaipu || null; MIRADAS = d.miradas || []; TRABAJO = d.trabajo || null; EMPRESAS = d.empresas || []; METAS = d.metas || null; COOP = d.cooperativas || null; COMEX = d.comercio || null; QUIEN = d.quien || null; FIN = d.finanzas || null;
   NOTICIAS = (d.noticias || []).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad]).map(n => Object.assign({ datos: [], pasos: [], conceptos: [], diagramas: [], rel: [], resumen: '', contexto: '' }, n));
   NOTICIAS.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); });
   BYID = Object.fromEntries(NOTICIAS.map(n => [n.id, n]));
