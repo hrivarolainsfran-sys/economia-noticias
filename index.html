@@ -824,6 +824,26 @@ footer .wrap{display:block}
 .diadat .pz-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media (max-width:900px){ .diadat{grid-template-columns:minmax(0,1fr)} }
 @media (max-width:760px){ .diadat .pz-grid{grid-template-columns:repeat(2,minmax(0,1fr))} }
+.card[data-u="micro"]{--uc:var(--u-micro)}.card[data-u="macro"]{--uc:var(--u-macro)}.card[data-u="global"]{--uc:var(--u-global)}
+.card[data-u]{border-top:4px solid var(--uc)}
+.card[data-u] .plate{background:linear-gradient(180deg,color-mix(in srgb,var(--uc) 12%,var(--sheet)),var(--sheet))}
+.card[data-u]:hover{border-color:var(--uc)}
+.secs{display:flex;flex-wrap:wrap;gap:6px}
+.sec{display:inline-flex;align-items:center;gap:5px;font-size:.74rem;font-weight:700;padding:2px 9px 2px 6px;border-radius:999px;background:var(--paper);border:1px solid var(--rule);color:var(--ink-2)}
+.sec .ic{width:15px;height:15px}
+.sec-agro{color:#2E7D32}.sec-energia{color:#B7791F}.sec-industria{color:#5B6F96}.sec-comercio{color:#0E7C86}.sec-finanzas{color:#7048B6}
+:root[data-theme="dark"] .sec{color:var(--ink-2)}
+.edicion{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;gap:4px 14px;text-align:center;padding:20px 0 6px;border-bottom:3px double var(--rule)}
+.edicion span{font-family:var(--f-display);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem;color:var(--muted)}
+.edicion b{font-family:var(--f-display);font-weight:800;font-size:clamp(1.7rem,4.4vw,2.8rem);line-height:1.05;color:var(--ink)}
+.card.big.first h3{font-size:clamp(1.8rem,3.6vw,2.7rem);line-height:1.02}
+@media (prefers-reduced-motion: no-preference){
+  .anim svg line:not([stroke-dasharray]),.anim svg path{stroke-dasharray:800;stroke-dashoffset:800;animation:dibujar 1.2s ease-out forwards}
+  .anim svg text,.anim svg circle{animation:aparecer .6s .7s ease both}
+  .anim svg polygon,.anim svg rect{animation:aparecer .8s .3s ease both}
+  @keyframes dibujar{to{stroke-dashoffset:0}}
+  @keyframes aparecer{from{opacity:0}to{opacity:1}}
+}
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -1237,11 +1257,11 @@ function renderTicker() {
 
 function card(n) {
   const seen = PROG[n.id] && PROG[n.id].v;
-  return `<a class="card" href="#n-${n.id}">
+  return `<a class="card" data-u="${n.unidad}" href="#n-${n.id}">
     <div class="plate">${fig(n.fig)}</div>
     <div class="body">
       <div class="meta">${isNew(n) ? '<span class="new">Nuevo</span>' : ''}${n.opinion ? '<span class="op">Opinión</span>' : ''}${unitTag(n.unidad)}<span>${esc(n.medio)} · ${fdate(n.fecha)}</span>${seen ? '<span class="seen">✓ Leída</span>' : ''}</div>
-      <h3>${esc(n.titulo)}</h3>
+      ${secIcons(n)}<h3>${esc(n.titulo)}</h3>
       <p class="sum">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p>
       <div class="tags">${n.diagramas.map(k => `<span class="tag">${esc(LIB[k].t)}</span>`).join('')}${KC[n.kc] ? `<span class="tag kc">${KC[n.kc]}</span>` : ''}</div>
       ${n.clave ? `<div class="key"><b>${esc(n.clave[0])}</b><span>${esc(n.clave[1])}</span></div>` : ''}
@@ -1273,6 +1293,7 @@ function renderHome() {
     </section>` : '';
   $('#app').innerHTML = `
   <div class="wrap">
+    ${filtrando ? '' : `<div class="edicion"><span>Edición del</span><b>${esc(flong(ACTUALIZADO).replace(/^./, c => c.toUpperCase()))}</b><span>${NOTICIAS.length} noticias explicadas · se actualiza todos los días</span></div>`}
     ${bienvenidaHTML()}
     ${topHTML(top)}
     <div class="diadat">${pulsoHTML()}${cotizHTML(true)}</div>
@@ -1299,6 +1320,7 @@ function renderHome() {
   $('#fq').oninput = e => { F.q = e.target.value; save(); const p = e.target.selectionStart; renderHome(); jump(); const i = $('#fq'); i.focus(); i.setSelectionRange(p, p); };
   bindHoy();
   bindCotiz();
+  countUp($('#app'));
   const vm = $('#vermas'); if (vm) vm.onclick = () => { HOMEALL = true; const y = scrollY; renderHome(); window.scrollTo(0, y); };
   document.querySelectorAll('[data-jump]').forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById(a.dataset.jump); if (t) t.scrollIntoView({ behavior: 'smooth' }); });
 }
@@ -2094,9 +2116,9 @@ function bienvenidaHTML() {
   </section>`;
 }
 function bigCard(n, i) {
-  return `<a class="card big${i ? '' : ' first'}" href="#n-${n.id}"><div class="plate">${fig(n.fig)}</div><div class="body">
+  return `<a class="card big${i ? '' : ' first'}" data-u="${n.unidad}" href="#n-${n.id}"><div class="plate">${fig(n.fig)}</div><div class="body">
     <div class="meta">${isNew(n) ? '<span class="new">Nuevo</span>' : ''}${unitTag(n.unidad)}<span>${esc(n.medio)} · ${fdate(n.fecha)}</span></div>
-    <h3>${esc(n.titulo)}</h3>
+    ${secIcons(n)}<h3>${esc(n.titulo)}</h3>
     ${n.clave ? `<div class="bigkey"><b>${esc(n.clave[0])}</b><span>${esc(n.clave[1])}</span></div>` : ''}
     <p class="sum">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p>
     <span class="more">Leer y ver el diagrama →</span></div></a>`;
@@ -2142,6 +2164,26 @@ function pulsoHTML() {
   return `<section class="pulso"><div class="pulso-h"><div><div class="eyebrow">Paraguay en 30 segundos</div><h2>¿Cómo está la economía?</h2></div><a class="more" href="#metas">Ver el semáforo completo →</a></div>
     <div class="pz-grid">${its.map(x => tile(x.m.t.replace(/ 2026| \(EMBI\)/g, ''), x.txt, x.e, SEMTXT[x.e], '#metas')).join('')}${pD ? tile('Dólar', 'G. ' + num(pD[1], 0), 'info', pD0 ? (pD[1] >= pD0[1] ? 'Subió' : 'Bajó') + ' desde el ' + fshort(pD0[0]) : '', '#indicadores') : ''}</div></section>`;
 }
+/* ---------- Animaciones, íconos de sector ---------- */
+const QUIETO = () => window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+function countUp(root) {
+  if (!root || QUIETO()) return;
+  root.querySelectorAll('.pz b, .hello-stats b, .bigkey b').forEach(el => {
+    const tn = [...el.childNodes].find(x => x.nodeType === 3 && /\d/.test(x.textContent)); if (!tn) return;
+    const m = tn.textContent.match(/^([^\d−-]*)([−-]?[\d.]+(?:,\d+)?)(.*)$/s); if (!m) return;
+    const v = parseNum(m[2].replace('−', '-')), dec = (m[2].split(',')[1] || '').length; if (v == null || !isFinite(v)) return;
+    const neg = /^[−-]/.test(m[2]), t0 = performance.now(), D = 900;
+    const step = t => { const k = Math.min(1, (t - t0) / D), e = 1 - Math.pow(1 - k, 3), x = Math.abs(v) * e; tn.textContent = m[1] + (neg ? '−' : '') + num(x, dec) + m[3]; if (k < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
+  });
+}
+function animFigs() {
+  if (QUIETO() || !('IntersectionObserver' in window)) return;
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('anim'); io.unobserve(e.target); } }), { threshold: 0.25 });
+  document.querySelectorAll('#app .plate, #app .fig').forEach(el => io.observe(el));
+}
+const SECIC = { agro: ['hoja', 'Agro'], energia: ['rayo', 'Energía'], industria: ['sectores', 'Industria'], comercio: ['flechas', 'Comercio'], finanzas: ['banco', 'Finanzas'] };
+const secIcons = n => { const k = [...(n.sector || [])]; if ((n.inst || []).some(i => i === 'bcp' || i === 'bolsa')) k.push('finanzas'); const u = k.filter((x, i) => SECIC[x] && k.indexOf(x) === i); return u.length ? `<span class="secs">${u.map(x => `<span class="sec sec-${x}">${icon(SECIC[x][0])}${SECIC[x][1]}</span>`).join('')}</span>` : ''; };
 /* Mapa por departamentos (mapa esquemático de mosaicos) */
 const DEPTS = [['Alto Paraguay','A. Paraguay',0,0],['Concepción','Concepción',2,0],['Amambay','Amambay',3,0],['Boquerón','Boquerón',0,1],['Presidente Hayes','Pte. Hayes',1,1],['San Pedro','San Pedro',2,1],['Canindeyú','Canindeyú',3,1],['Asunción','Asunción',1,2],['Cordillera','Cordillera',2,2],['Caaguazú','Caaguazú',3,2],['Alto Paraná','Alto Paraná',4,2],['Central','Central',1,3],['Paraguarí','Paraguarí',2,3],['Guairá','Guairá',3,3],['Ñeembucú','Ñeembucú',1,4],['Misiones','Misiones',2,4],['Caazapá','Caazapá',3,4],['Itapúa','Itapúa',4,4]];
 let MAPST = { capa: 'pobreza', dep: 'Concepción' };
@@ -2664,6 +2706,7 @@ function render() {
   else if (r.startsWith('tema-') && ALLTEMAS.includes(r.slice(5).replace('-', '.'))) { nav = 'programa'; renderTema(r.slice(5).replace('-', '.')); }
   else renderHome();
   updateNav(nav);
+  animFigs();
 }
 
 fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
