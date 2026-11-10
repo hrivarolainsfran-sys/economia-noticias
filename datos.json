@@ -11593,5 +11593,55 @@
     ]
    ]
   }
+ },
+ "especial": {
+  "activo": true,
+  "historia": "crisis-ueno",
+  "etiqueta": "Especial Ueno",
+  "cifras": [
+   [
+    "1,2 millones",
+    "Personas que ya cobraron sus depósitos",
+    "ips-ueno"
+   ],
+   [
+    "US$ 380 M",
+    "Fondos del IPS que estaban en Ueno",
+    "ips-ueno"
+   ],
+   [
+    "US$ 21 M",
+    "Fondos de la ANDE atrapados en Ueno",
+    "ande-ueno"
+   ]
+  ],
+  "actores": [
+   [
+    "BCP",
+    "Intervino Ueno Bank por insolvencia y empezó a devolver los depósitos con el Fondo de Garantía.",
+    "ueno-intervencion"
+   ],
+   [
+    "Gobierno",
+    "El Congreso destituyó a Santiago Peña; asumió Pedro Alliana y prometió compensar a los afectados.",
+    "alliana-gobierno"
+   ],
+   [
+    "IPS",
+    "Tenía US$ 380 millones en Ueno y garantizó el pago de las jubilaciones.",
+    "ips-ueno"
+   ],
+   [
+    "ANDE",
+    "Tiene US$ 21 millones de un préstamo del BID atrapados en Ueno y posterga obras.",
+    "ande-ueno"
+   ]
+  ],
+  "preguntas": [
+   "¿Por qué el dólar subió cuando cayó un banco? Explícalo con el diagrama del mercado del guaraní.",
+   "¿Cómo afecta la crisis a la demanda agregada? Piensa en el consumo y la confianza.",
+   "¿Qué es el riesgo moral y por qué existe un fondo de garantía de depósitos?",
+   "¿Quién debería pagar el costo de la crisis: los ahorristas, los bancos o el Estado? Evalúa."
+  ]
  }
 }

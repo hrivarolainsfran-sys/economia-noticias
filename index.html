@@ -868,6 +868,16 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 .hub-tx span{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .hub-tx small{justify-self:start;margin-top:4px;padding:2px 9px;border-radius:999px;background:color-mix(in srgb,var(--acc) 13%,transparent)}
 @media (max-width:760px){ .hub{grid-auto-rows:auto} .hub-hero .hub-ic{width:44px;height:44px} }
+.mast nav.blocks a.esp-link{background:var(--gold-2);color:var(--navy);opacity:1;border-radius:999px;padding:5px 12px;margin:2px 6px 6px;font-weight:800;align-self:center}
+.esp-mini{margin-top:26px;background:var(--sheet);border:1px solid var(--rule);border-left:6px solid var(--gold-2);border-radius:var(--r);box-shadow:var(--shadow-sm);padding:18px 20px;display:grid;gap:10px}
+.esp-mini h2{font-size:clamp(1.5rem,3vw,2.1rem)}
+.esp-mini p{color:var(--ink-2);max-width:75ch}
+.esp-mini .btn{justify-self:start}
+.esp-tl{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.esp-tl li{display:grid;grid-template-columns:62px 1fr;gap:10px;font-size:.95rem}
+.esp-tl time{font-family:var(--f-display);font-weight:700;color:var(--gold);text-transform:uppercase}
+.esp-hero{--acc:#B7791F}
+.esp-hero .hub-ic{font-size:1.8rem}
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -929,7 +939,7 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 /* =====================================================================
    1. DATOS: noticias, indicadores, región y semanas viven en datos.json
    ===================================================================== */
-let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null, CRONO = null, ITAIPU = null, MIRADAS = [], TRABAJO = null, EMPRESAS = [], METAS = null, ARCH = null, COOP = null, COMEX = null, QUIEN = null, PRESU = null, CAMB = null;
+let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null, CRONO = null, ITAIPU = null, MIRADAS = [], TRABAJO = null, EMPRESAS = [], METAS = null, ARCH = null, COOP = null, COMEX = null, QUIEN = null, PRESU = null, CAMB = null, ESP = null;
 
 const KC = { escasez:'Escasez', eleccion:'Elección', eficiencia:'Eficiencia', equidad:'Equidad', bienestar:'Bienestar económico', sostenibilidad:'Sostenibilidad', cambio:'Cambio', interdependencia:'Interdependencia', intervencion:'Intervención' };
 const UNI = { micro:'Microeconomía', macro:'Macroeconomía', global:'Economía global' };
@@ -1321,7 +1331,7 @@ function renderHome() {
     ${bienvenidaHTML()}
     ${topHTML(top)}
     <div class="diadat">${pulsoHTML()}${cotizHTML(true)}</div>
-    ${feat}
+    ${ESP && !filtrando ? especialMini() : feat}
     <div class="sec-head" id="todas"><div><div class="eyebrow">${filtrando ? 'Resultados' : 'Más noticias'}</div><h2>${filtrando ? 'Noticias filtradas' : 'Todas las noticias'}</h2></div><a class="more" href="#semana">Resumen de la semana →</a></div>
     <div class="filters" role="group" aria-label="Filtros">
       ${['todas', 'micro', 'macro', 'global'].map(u => `<button type="button" class="chip" data-u="${u}" aria-pressed="${F.u === u}">${u === 'todas' ? 'Todas' : UNI[u]}</button>`).join('')}
@@ -2237,6 +2247,34 @@ function animFigs() {
 }
 const SECIC = { agro: ['hoja', 'Agro'], energia: ['rayo', 'Energía'], industria: ['sectores', 'Industria'], comercio: ['flechas', 'Comercio'], finanzas: ['banco', 'Finanzas'] };
 const secIcons = n => { const k = [...(n.sector || [])]; if ((n.inst || []).some(i => i === 'bcp' || i === 'bolsa')) k.push('finanzas'); const u = k.filter((x, i) => SECIC[x] && k.indexOf(x) === i); return u.length ? `<span class="secs">${u.map(x => `<span class="sec sec-${x}">${icon(SECIC[x][0])}${SECIC[x][1]}</span>`).join('')}</span>` : ''; };
+/* ---------- Especial (tema vigente) ---------- */
+const espH = () => HISTORIAS.find(h => h.id === ESP.historia);
+function especialMini() {
+  const H = espH(); if (!H) return '';
+  const hs = (H.hitos || []).filter(h => h[0] <= hoyISO()).sort((a, b) => b[0].localeCompare(a[0])).slice(0, 3);
+  return `<section class="esp-mini"><div class="eyebrow">⚡ ${esc(ESP.etiqueta)}</div><h2>${esc(H.titulo)}</h2><p>${esc(H.dek)}</p>
+    <ol class="esp-tl">${hs.map(([f, t, id]) => `<li><time>${esc(fshort(f))}</time><span>${esc(t)}${id && BYID[id] ? ` <a href="#n-${id}">Leer →</a>` : ''}</span></li>`).join('')}</ol>
+    <a class="btn primary" href="#especial">Ver el especial completo →</a></section>`;
+}
+function renderEspecial() {
+  const H = espH(); if (!H) return emptyView();
+  const hd = HIST.dolar && HIST.dolar.puntos.slice(-1)[0], he = HIST.embi && HIST.embi.puntos.slice(-1)[0];
+  const cif = [...ESP.cifras.map(([v, l, id]) => [v, l, id ? '#n-' + id : '']), ...(hd ? [['G. ' + num(hd[1], 0), 'Dólar (' + fshort(hd[0]) + ')', '#indicadores']] : []), ...(he ? [[num(he[1], 0) + ' pb', 'Riesgo país (' + fshort(he[0]) + ')', '#indicadores']] : [])];
+  const hitos = (H.hitos || []).slice().sort((a, b) => a[0].localeCompare(b[0])), today = hoyISO();
+  $('#app').innerHTML = `<div class="hub-hero esp-hero"><div class="wrap"><span class="hub-ic">⚡</span><div><div class="eyebrow">${esc(ESP.etiqueta)} · ${esc(H.estado || '')}</div><h1>${esc(H.titulo)}</h1><p class="lede">${esc(H.dek)}</p></div></div></div>
+  <div class="wrap">
+    <div class="stats">${cif.map(([v, l, h]) => `<a class="stat" href="${h || '#especial'}"><b>${esc(v)}</b><span>${esc(l)}</span></a>`).join('')}</div>
+    <div class="art" style="padding-top:0"><div class="col">
+      <section class="block"><h2><small>Línea de tiempo</small>Cómo fue pasando</h2><ol class="tline">${hitos.map(([f, t, id]) => `<li${f > today ? ' style="opacity:.75"' : ''}><time>${esc(fflex(f))}</time><span>${esc(t)}${id && BYID[id] ? ` <a class="more" href="#n-${id}">Leer →</a>` : ''}</span></li>`).join('')}</ol></section>
+      <section class="block"><h2><small>Los actores</small>Quién es quién en la crisis</h2><div class="people">${ESP.actores.map(([n, t, id]) => `<div class="person"><h3>${esc(n)}</h3><p>${esc(t)}</p>${id ? `<a class="more" href="#n-${id}">Leer la noticia →</a>` : ''}</div>`).join('')}</div></section>
+    </div><aside class="side">
+      <div class="block"><h3>Léela con tres diagramas</h3><div class="rel">${['tipo-cambio', 'da-oa-da', 'politica-fiscal'].filter(k => LIB[k]).map(k => `<a href="#d-${k}">${esc(LIB[k].t)}<small>Tema ${esc(LIB[k].tema)}</small></a>`).join('')}</div></div>
+      <div class="block"><h3>Preguntas para clase</h3><ol class="eval-q">${ESP.preguntas.map(q => `<li>${esc(q)}</li>`).join('')}</ol></div>
+      <a class="btn" href="#historia-${H.id}">Ver la historia con su gráfico →</a>
+    </aside></div>
+    <section class="block"><h2><small>Noticias</small>Todas las noticias del especial</h2><div class="grid">${historyNews(H).slice().reverse().map(card).join('')}</div></section>
+    <div style="height:30px"></div></div>`;
+}
 /* Mapa por departamentos (mapa esquemático de mosaicos) */
 const DEPTS = [['Alto Paraguay','A. Paraguay',0,0],['Concepción','Concepción',2,0],['Amambay','Amambay',3,0],['Boquerón','Boquerón',0,1],['Presidente Hayes','Pte. Hayes',1,1],['San Pedro','San Pedro',2,1],['Canindeyú','Canindeyú',3,1],['Asunción','Asunción',1,2],['Cordillera','Cordillera',2,2],['Caaguazú','Caaguazú',3,2],['Alto Paraná','Alto Paraná',4,2],['Central','Central',1,3],['Paraguarí','Paraguarí',2,3],['Guairá','Guairá',3,3],['Ñeembucú','Ñeembucú',1,4],['Misiones','Misiones',2,4],['Caazapá','Caazapá',3,4],['Itapúa','Itapúa',4,4]];
 let MAPST = { capa: 'pobreza', dep: 'Concepción' };
@@ -2736,6 +2774,7 @@ function render() {
   else if (r === 'paraguay') { nav = 'paraguay'; renderPais(); }
   else if (r.startsWith('bloque-') && BLOQUES.some(b => b.id === r.slice(7))) { nav = r; renderBloque(r.slice(7)); }
   else if (r === 'buscar' || r.startsWith('buscar/')) { nav = 'buscar'; renderBuscar(decodeURIComponent(r.slice(7))); }
+  else if (r === 'especial' && ESP) { nav = 'historias'; renderEspecial(); }
   else if (r === 'cooperativas') { nav = 'cooperativas'; renderCooperativas(); }
   else if (r === 'cotizaciones') { nav = 'cotizaciones'; renderCotizaciones(); }
   else if (r === 'presupuesto') { nav = 'presupuesto'; renderPresupuesto(); }
@@ -2765,11 +2804,12 @@ function render() {
 fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   ACTUALIZADO = d.actualizado; DIARIOS = d.diarios || []; OFICIALES = d.oficiales || []; DESTACADO = d.destacado || null;
   INDICADORES = (d.indicadores || []).map(i => Array.isArray(i) ? { n: i[0], v: i[1], s: i[2], alert: i[3] } : i);
-  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null; CRONO = d.cronologia || null; ITAIPU = d.itaipu || null; MIRADAS = d.miradas || []; TRABAJO = d.trabajo || null; EMPRESAS = d.empresas || []; METAS = d.metas || null; COOP = d.cooperativas || null; COMEX = d.comercio || null; QUIEN = d.quien || null; PRESU = d.presupuesto || null; CAMB = d.cambios || null;
+  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null; CRONO = d.cronologia || null; ITAIPU = d.itaipu || null; MIRADAS = d.miradas || []; TRABAJO = d.trabajo || null; EMPRESAS = d.empresas || []; METAS = d.metas || null; COOP = d.cooperativas || null; COMEX = d.comercio || null; QUIEN = d.quien || null; PRESU = d.presupuesto || null; CAMB = d.cambios || null; ESP = d.especial && d.especial.activo ? d.especial : null;
   NOTICIAS = (d.noticias || []).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad]).map(n => Object.assign({ datos: [], pasos: [], conceptos: [], diagramas: [], rel: [], resumen: '', contexto: '' }, n));
   NOTICIAS.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); });
   BYID = Object.fromEntries(NOTICIAS.map(n => [n.id, n]));
   SORTED = NOTICIAS.slice().sort((a, b) => b.fecha.localeCompare(a.fecha));
+  if (ESP) { const nb = document.querySelector('nav.blocks a[data-block="noticias"]'); if (nb) nb.insertAdjacentHTML('afterend', `<a href="#especial" class="esp-link">⚡ ${esc(ESP.etiqueta)}</a>`); }
   renderTicker(); $('#ft-cols').innerHTML = BLOQUES.map(B => `<div><b>${esc(B.t)}</b>${B.items.map(([r, t]) => `<a href="#${r}">${esc(t)}</a>`).join('')}</div>`).join(''); window.addEventListener('hashchange', render); render();
 }).catch(() => { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">No se pudieron cargar las noticias. Revisa la conexión y recarga la página.</div></div>'; });
 
