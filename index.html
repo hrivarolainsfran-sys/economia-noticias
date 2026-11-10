@@ -804,6 +804,20 @@ footer .wrap{display:block}
 .cz-v b{font-family:var(--f-math);font-size:1.25rem;font-weight:600;white-space:nowrap}
 .cz-s{font-size:.76rem;color:var(--muted)}
 @media (max-width:760px){ .cz-grid{grid-template-columns:repeat(2,minmax(0,1fr))} .cz{padding:10px} .cz-v{grid-template-columns:1fr} .cz-v b{font-size:1.1rem} .cotiz{padding:16px} }
+.cz-tools{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:12px}
+.cz-box{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:12px 14px;display:grid;gap:8px;align-content:start}
+.cz-box h3{font-size:1.1rem}
+.cz-f{display:grid;grid-template-columns:1fr 1.3fr;gap:8px}
+.cz-f label{display:grid;gap:3px;font-size:.78rem;font-weight:700;color:var(--muted)}
+.cz-f input,.cz-f select{padding:7px 9px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet);font-size:1rem;color:var(--ink);min-width:0}
+.cz-out{display:grid;gap:6px}
+.cz-out small{display:block;font-size:.78rem;color:var(--muted)}
+.cz-out b{font-family:var(--f-math);font-size:1.35rem;font-weight:600}
+.cz-bs{display:flex;flex-wrap:wrap;gap:6px}
+.czb{border:1px solid var(--rule);background:var(--sheet);border-radius:999px;padding:4px 12px;font-size:.84rem}
+.czb[aria-pressed="true"]{background:var(--navy-2);color:#fff;border-color:var(--navy-2)}
+#czh-g svg{width:100%;height:auto}
+@media (max-width:760px){ .cz-tools{grid-template-columns:minmax(0,1fr)} }
 @media print{
   :root{--paper:#fff;--sheet:#fff;--grid:#eee;--ink:#000;--ink-2:#222;--muted:#555;--rule:#bbb;--navy:#fff;--navy-ink:#000;--navy-2:#000;--gold:#000;--gold-2:#000;--gold-soft:#f2f2f2;color-scheme:light}
   body{font-size:11.5pt;background:#fff}
@@ -1282,6 +1296,7 @@ function renderHome() {
   $('#fmed').onchange = e => { F.medio = e.target.value; save(); renderHome(); jump(); };
   $('#fq').oninput = e => { F.q = e.target.value; save(); const p = e.target.selectionStart; renderHome(); jump(); const i = $('#fq'); i.focus(); i.setSelectionRange(p, p); };
   bindHoy();
+  bindCotiz();
   const vm = $('#vermas'); if (vm) vm.onclick = () => { HOMEALL = true; const y = scrollY; renderHome(); window.scrollTo(0, y); };
   document.querySelectorAll('[data-jump]').forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById(a.dataset.jump); if (t) t.scrollIntoView({ behavior: 'smooth' }); });
 }
@@ -2089,6 +2104,16 @@ function topHTML(top) {
   return `<section class="top3-sec" id="top3"><div class="sec-head"><div><div class="eyebrow">Lo más importante hoy</div><h2>Las últimas noticias</h2></div><span class="note">Actualizado el ${fdate(ACTUALIZADO)}</span></div>
     <div class="top3">${top.map(bigCard).join('')}</div></section>`;
 }
+function bindCotiz() {
+  const C = CAMB; if (!C || !$('#cv-m')) return;
+  const M = Object.fromEntries(C.monedas.map(m => [m[0], m])), g = v => 'G. ' + num(v, v < 100 ? 2 : 0);
+  const conv = () => { const x = parseNum($('#cv-m').value), m = M[$('#cv-c').value]; $('#cv-o').innerHTML = x > 0 && m ? `<div><small>Si vendes ${num(x, 2)} ${esc(m[0])}, recibes</small><b>${g(x * m[2])}</b></div><div><small>Si compras ${num(x, 2)} ${esc(m[0])}, pagas</small><b>${g(x * m[3])}</b></div>` : '<small>Escribe un monto.</small>'; };
+  $('#cv-m').oninput = conv; $('#cv-c').onchange = conv; conv();
+  const hist = c => { const H = (C.historial || {})[c] || []; document.querySelectorAll('.czb').forEach(b => b.setAttribute('aria-pressed', b.dataset.cz === c));
+    $('#czh-g').innerHTML = H.length > 1 ? lineChart({ t: M[c][1], u: c === 'ARS' ? 'G' : 'G.', puntos: H.map(p => [p[0], p[2]]) }, { W: 520, H: 200 }) : '';
+    $('#czh-n').textContent = H.length < 7 ? `Hay ${H.length} ${H.length === 1 ? 'día' : 'días'} registrados: el gráfico se completa con la actualización diaria.` : `Desde el ${fdate(H[0][0])}. Fuente: ${C.fuente}.`; };
+  document.querySelectorAll('.czb').forEach(b => b.onclick = () => hist(b.dataset.cz)); hist(C.monedas[0][0]);
+}
 function cotizHTML() {
   const C = CAMB;
   if (!C || !C.monedas) return '';
@@ -2097,6 +2122,10 @@ function cotizHTML() {
     <div class="cz-grid">${C.monedas.map(([c, n, co, ve]) => `<div class="cz"><div class="cz-h"><span class="cz-c">${esc(c)}</span><span>${esc(n)}</span></div>
       <div class="cz-v"><div><small>Compra</small><b>${g(co)}</b></div><div><small>Venta</small><b>${g(ve)}</b></div></div>
       <small class="cz-s">Diferencia: ${num((ve - co) / co * 100, 1)} %</small></div>`).join('')}</div>
+    <div class="cz-tools">
+      <div class="cz-box"><h3>Conversor</h3><div class="cz-f"><label>Monto<input id="cv-m" inputmode="decimal" value="100"></label><label>Moneda<select id="cv-c">${C.monedas.map(([c, n]) => `<option value="${esc(c)}">${esc(n)}</option>`).join('')}</select></label></div><div id="cv-o" class="cz-out"></div></div>
+      <div class="cz-box"><h3>Cómo se movió (precio de venta)</h3><div class="cz-bs">${C.monedas.map(([c, n], i) => `<button type="button" class="czb" data-cz="${esc(c)}" aria-pressed="${i === 0}">${esc(n.split(' ')[0])} ${c === 'ARS' ? 'arg.' : ''}</button>`).join('')}</div><div id="czh-g"></div><p class="note" id="czh-n"></p></div>
+    </div>
     <p class="note"><b>Compra</b>: lo que la casa de cambios te paga en guaraníes por cada unidad. <b>Venta</b>: lo que te cobra. ${esc(C.nota)} <a href="${esc(C.url)}" target="_blank" rel="noopener">Ver la fuente ↗</a> · <a href="#d-tipo-cambio">Diagrama del tipo de cambio →</a></p></section>`;
 }
 function pulsoHTML() {
