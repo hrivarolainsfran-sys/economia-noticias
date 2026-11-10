@@ -1533,6 +1533,7 @@ function renderInstituciones() {
   const keys = Object.keys(INST);
   $('#app').innerHTML = `<div class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Instituciones</div><h1>Instituciones económicas</h1><p class="lede">Los organismos que deciden, cobran, miden y pagan en la economía paraguaya. El Banco Central maneja la política monetaria y el Ministerio de Economía la política fiscal. La DNIT cobra los impuestos, el INE produce las estadísticas y el IPS paga las jubilaciones. Aquí está quién los dirige, qué hacen y sus últimas decisiones.</p></div></div>
+    <div class="tools" style="margin-bottom:14px"><a class="btn primary" href="#quien">Quién es quién: personas y gremios →</a></div>
     <div class="inst-grid">${keys.map(k => { const I = INST[k], lead = (I.autoridades || [])[0], st = instStats(I).slice(0, 4); return `<a class="inst-card" href="#inst-${k}">
       <div class="inst-top"><span class="mono">${esc(I.sigla)}</span><div><h2>${esc(I.nombre)}</h2><small>${esc(I.area || '')} · Tema ${esc(I.tema)} del programa IB</small></div></div>
       <div class="inst-body"><p>${esc(I.que.split(/\.\s/)[0])}.</p>
@@ -1607,7 +1608,7 @@ function renderPais() {
     <div class="sec-head"><div><div class="eyebrow">Referencia</div><h1>Paraguay en datos</h1><p class="lede">Las cifras básicas del país en un solo lugar, para poner en contexto cualquier noticia. Cada dato indica su fuente y su fecha.</p></div></div>
     ${P.secciones.map(sct => `<h2 style="margin:8px 0 12px">${esc(sct.t)}</h2><div class="stats">${sct.items.map(([v, l, f]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(l)}</span>${f ? `<small>${esc(f)}</small>` : ''}</div>`).join('')}</div>`).join('')}
     ${(P.graficos || []).length ? `<h2 style="margin:8px 0 12px">Para entender las cifras</h2><div class="charts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr))">${P.graficos.map(g => `<section class="chart"><div class="top"><h3>${esc(g.t)}</h3></div>${fig({ k: 'barras', u: g.u, rows: g.rows })}<p class="note">${esc(g.cap || '')}</p></section>`).join('')}</div>` : ''}
-    <div class="tools" style="margin-bottom:12px"><a class="btn" href="#indicadores">Ver la evolución en Indicadores</a><a class="btn" href="#region">Comparar con la región</a><a class="btn" href="#sectores">Ver los sectores</a></div>
+    <div class="tools" style="margin-bottom:12px"><a class="btn primary" href="#mapa">Ver el mapa por departamentos</a><a class="btn" href="#indicadores">Ver la evolución en Indicadores</a><a class="btn" href="#region">Comparar con la región</a><a class="btn" href="#sectores">Ver los sectores</a></div>
     ${P.nota ? `<p class="note" style="padding-bottom:40px">${esc(P.nota)} Datos al ${fdate(P.actualizado)}.</p>` : ''}
   </div>`;
 }
@@ -1840,16 +1841,21 @@ const BLOQUES = [
   { id: 'noticias', t: 'Noticias', ic: 'noticias', home: 'inicio', d: 'Lo que pasa en la economía paraguaya, explicado con diagramas de Economía IB.', items: [
     ['inicio', 'Portada', 'Las últimas noticias con su análisis IB.', 'noticias'], ['semana', 'Semana', 'El resumen de cada semana y sus noticias clave.', 'semana'], ['historias', 'Historias', 'Los grandes temas contados de principio a fin.', 'historias'], ['calendario', 'Calendario', 'Las próximas fechas que mueven la economía.', 'semana'], ['archivo', 'Archivo', 'Todas las noticias publicadas, por mes y por tema.', 'archivo'], ['diarios', 'Diarios', 'Los medios y las fuentes oficiales.', 'diarios']] },
   { id: 'datos', t: 'Datos', ic: 'datos', home: 'bloque-datos', d: 'Las cifras del país: cuánto crece, cuánto gasta el Estado, con quién comercia y cómo se compara.', items: [
-    ['paraguay', 'Paraguay en datos', 'Las cifras básicas del país en un solo lugar.', 'pin'], ['indicadores', 'Indicadores', 'La evolución de los indicadores, con los hechos que los movieron.', 'linea'], ['metas', 'Metas', 'Semáforo: ¿cumple el país lo que se propuso?', 'semaforo'], ['cotizaciones', 'Cotizaciones', 'Dólar, real, peso y euro: compra, venta, conversor e historial.', 'flechas'], ['presupuesto', '¿A dónde van tus impuestos?', 'El Presupuesto en un gráfico simple.', 'monedas'], ['comercio', 'Comercio exterior', 'A quién vende y a quién compra Paraguay.', 'flechas'], ['mapa', 'Mapa', 'Pobreza, desigualdad y producción por departamento.', 'mapa'], ['region', 'Región', 'Paraguay frente a sus vecinos.', 'bandera']] },
+    ['paraguay', 'Paraguay en datos', 'Las cifras del país y el mapa por departamentos.', 'pin'], ['indicadores', 'Indicadores', 'La evolución de los indicadores, con los hechos que los movieron.', 'linea'], ['metas', 'Metas', 'Semáforo: ¿cumple el país lo que se propuso?', 'semaforo'], ['cotizaciones', 'Mercados', 'Cotizaciones del dólar, real, peso y euro, y la Bolsa de Asunción.', 'flechas'], ['presupuesto', '¿A dónde van tus impuestos?', 'El Presupuesto en un gráfico simple.', 'monedas'], ['comercio', 'Comercio exterior', 'A quién vende y a quién compra Paraguay.', 'flechas'], ['region', 'Región', 'Paraguay frente a sus vecinos.', 'bandera']] },
   { id: 'sectores', t: 'Sectores', ic: 'sectores', home: 'bloque-sectores', d: 'Quién produce, quién trabaja y quién decide en la economía paraguaya.', items: [
-    ['sectores', 'Sectores', 'Agro, energía, industria y comercio.', 'sectores'], ['itaipu', 'Itaipú', 'La represa, la tarifa y el Anexo C.', 'rayo'], ['trabajo', 'Trabajo', 'Informalidad, salario mínimo y brecha de género.', 'maletin'], ['empresas', 'Empresas', 'Cómo deciden empresas reales: competencia y poder de mercado.', 'edificio'], ['cooperativas', 'Cooperativas', 'Ahorro y crédito fuera de los bancos.', 'manos'], ['bolsa', 'Bolsa', 'El mercado de valores de Asunción.', 'bolsa'], ['instituciones', 'Instituciones', 'BCP, MEF, DNIT, INE e IPS.', 'banco'], ['quien', 'Quién es quién', 'Las personas y gremios que aparecen en las noticias.', 'persona']] },
+    ['sectores', 'Sectores', 'Agro, energía, industria y comercio.', 'sectores'], ['itaipu', 'Itaipú', 'La represa, la tarifa y el Anexo C.', 'rayo'], ['trabajo', 'Trabajo', 'Informalidad, salario mínimo y brecha de género.', 'maletin'], ['empresas', 'Empresas', 'Cómo deciden empresas reales: competencia y poder de mercado.', 'edificio'], ['cooperativas', 'Cooperativas', 'Ahorro y crédito fuera de los bancos.', 'manos'], ['instituciones', 'Instituciones y actores', 'BCP, MEF, DNIT, INE e IPS, y quién es quién en las noticias.', 'banco']] },
   { id: 'temas', t: 'Temas', ic: 'temas', home: 'bloque-temas', d: 'Para entender la economía más allá del día a día.', items: [
     ['cronologia', 'Historia económica', 'Los hechos que formaron la economía del país.', 'reloj'], ['mundo', 'El mundo y Paraguay', 'Petróleo, Brasil, Argentina, China y EE.UU.', 'temas'], ['desarrollo', 'Desarrollo', 'IDH, pobreza, educación, ambiente y ODS.', 'hoja'], ['miradas', 'Dos miradas', 'Argumentos a favor y en contra en los temas polémicos.', 'balanza']] },
   { id: 'estudiar', t: 'Estudiar', ic: 'estudiar', home: 'bloque-estudiar', d: 'Para preparar Economía IB con ejemplos de Paraguay.', items: [
     ['programa', 'Programa IB', 'Cada subtema con sus noticias y diagramas.', 'libro'], ['diagramas', 'Diagramas', 'Diagramas interactivos para mover las curvas.', 'ejes'], ['simulador', 'Simulador', 'Sé el ministro o el BCP y mira qué pasa.', 'sliders'], ['calculadoras', 'Calculadoras', 'Los cálculos que aparecen en las noticias.', 'calc']] },
 ];
-const bloqueDe = nav => nav === 'buscar' ? null : BLOQUES.find(b => b.home === nav || b.items.some(i => i[0] === nav)) || BLOQUES[0];
+const PADRE = { mapa: 'paraguay', bolsa: 'cotizaciones', quien: 'instituciones' };
+const bloqueDe = nav0 => { const nav = PADRE[nav0] || nav0; return bloqueDe0(nav); };
+const bloqueDe0 = nav => nav === 'buscar' ? null : BLOQUES.find(b => b.home === nav || b.items.some(i => i[0] === nav)) || BLOQUES[0];
+const CONTADOR = ''; /* código de GoatCounter, por ejemplo 'economianoticias'; vacío = desactivado */
+function contarVisita() { if (!CONTADOR) return; const go = () => window.goatcounter && window.goatcounter.count && window.goatcounter.count({ path: '/' + (location.hash.slice(1).split('/')[0] || 'inicio'), title: document.title }); if (window.goatcounter && window.goatcounter.count) go(); else if (!document.getElementById('gc-js')) { window.goatcounter = { no_onload: true }; const sc = document.createElement('script'); sc.id = 'gc-js'; sc.async = true; sc.src = 'https://gc.zgo.at/count.js'; sc.dataset.goatcounter = 'https://' + CONTADOR + '.goatcounter.com/count'; sc.onload = go; document.head.appendChild(sc); } }
 function updateNav(nav) {
+  contarVisita();
   const hh = location.hash.slice(1); document.body.classList.toggle('home', hh === '' || hh === 'inicio');
   const B = bloqueDe(nav);
   document.body.dataset.block = B ? B.id : 'buscar';
@@ -1857,7 +1863,8 @@ function updateNav(nav) {
   const sr = document.querySelector('.mast .srch'); if (sr) nav === 'buscar' ? sr.setAttribute('aria-current', 'page') : sr.removeAttribute('aria-current');
   const sn = $('#subnav');
   if (sn) {
-    sn.innerHTML = B ? (B.id === 'noticias' ? '' : `<a href="#${B.home}" class="${nav === B.home ? 'cur' : ''}">Todo ${esc(B.t.toLowerCase())}</a>`) + B.items.map(([r, t]) => `<a href="#${r}" class="${r === nav ? 'cur' : ''}"${r === nav ? ' aria-current="page"' : ''}>${esc(t)}</a>`).join('') : '';
+    const navS = PADRE[nav] || nav;
+    sn.innerHTML = B ? (B.id === 'noticias' ? '' : `<a href="#${B.home}" class="${nav === B.home ? 'cur' : ''}">Todo ${esc(B.t.toLowerCase())}</a>`) + B.items.map(([r, t]) => `<a href="#${r}" class="${r === navS ? 'cur' : ''}"${r === navS ? ' aria-current="page"' : ''}>${esc(t)}</a>`).join('') : '';
     const cur = sn.querySelector('.cur'); if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest', inline: 'nearest' });
   }
 }
@@ -2192,7 +2199,7 @@ function topHTML(top) {
     <div class="top3">${top.map(bigCard).join('')}</div></section>`;
 }
 function renderCotizaciones() {
-  $('#app').innerHTML = `<div class="wrap"><div class="sec-head"><div><div class="eyebrow">Tipo de cambio · tema 4.5</div><h1>Cotizaciones</h1><p class="lede">Compra y venta del dólar, el peso argentino, el real y el euro, un conversor para calcular cuántos guaraníes recibes o pagas, y cómo se movió cada moneda día a día.</p></div></div>${cotizHTML(false)}<div style="height:30px"></div></div>`;
+  $('#app').innerHTML = `<div class="wrap"><div class="sec-head"><div><div class="eyebrow">Tipo de cambio · tema 4.5</div><h1>Mercados</h1><p class="lede">Compra y venta del dólar, el peso argentino, el real y el euro, un conversor para calcular cuántos guaraníes recibes o pagas, y cómo se movió cada moneda día a día.</p></div></div><div class="tools" style="margin-bottom:14px"><a class="btn primary" href="#bolsa">Bolsa de Valores de Asunción →</a></div>${cotizHTML(false)}<div style="height:30px"></div></div>`;
   bindCotiz();
 }
 function bindCotiz() {
