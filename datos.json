@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10",
+ "actualizado": "2026-11-11",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -182,6 +182,26 @@
     "9 nov",
     "La DNIT perdona multas a 45.000 afectados; el IPS dice tener más de US$ 516 M en Ueno.",
     "dnit-ueno"
+   ],
+   [
+    "6 nov",
+    "S&P mantiene la nota BBB− de Paraguay.",
+    "sp-calificacion"
+   ],
+   [
+    "10 nov",
+    "Renuncia Liana Caballero al directorio del BCP.",
+    "bcp-caballero"
+   ],
+   [
+    "10 nov",
+    "La ANDE congela la tarifa por un año; tiene más de US$ 90 M en Ueno.",
+    "ande-tarifa"
+   ],
+   [
+    "10 nov",
+    "El dólar baja a G. 6.200 en casas de cambio.",
+    "dolar-6600"
    ]
   ],
   "lentes": [
@@ -1113,6 +1133,11 @@
      "La Nación",
      "https://www.lanacion.com.py/negocios/2026/11/09/atome-afirma-que-cumple-contrato-y-que-apuesta-por-el-dialogo/",
      "2026-11-09"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/10/ande-no-subira-la-tarifa-por-un-ano-y-alivia-a-afectados-por-ueno-bank/",
+     "2026-11-10"
     ]
    ],
    "titulo": "La ANDE tiene US$ 21 millones atrapados en Ueno y posterga obras",
@@ -1128,6 +1153,10 @@
     [
      "US$ 21 M",
      "Fondos de la ANDE que quedaron en Ueno Bank"
+    ],
+    [
+     "US$ 90 M+",
+     "Total de fondos de la ANDE retenidos en Ueno, según Sosa (10 nov)"
     ],
     [
      "G. 115.000 M",
@@ -1246,6 +1275,11 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/09/ueno-bank-gobierno-analiza-opciones-financieras-para-empresas-afectadas-segun-mef/",
      "2026-11-09"
+    ],
+    [
+     "5Días (editorial)",
+     "https://5dias.com.py/article/la-confianza-rota",
+     "2026-11-10"
     ]
    ],
    "titulo": "La crisis de Ueno frena el consumo: multitiendas venden hasta 70 % menos",
@@ -1265,6 +1299,10 @@
     [
      "≈10 %",
      "Caída de ventas de supermercados en las primeras 72 horas (Capasu)"
+    ],
+    [
+     "8-10 %",
+     "Caída del volumen de ventas de supermercados, según Capasu (citado por 5Días, 10 nov)"
     ],
     [
      "9.000",
@@ -1400,6 +1438,10 @@
     [
      "> US$ 110",
      "Nivel del Brent a comienzos de noviembre"
+    ],
+    [
+     "US$ 92,90",
+     "Brent el lunes 9 de noviembre (−5,5 % en el día), según La Nación"
     ]
    ],
    "clave": [
@@ -1479,7 +1521,14 @@
      "Que la depreciación del guaraní no anule el efecto."
     ],
     "conclusion": "Es una buena noticia para un país que importa todo su combustible, pero el tipo de cambio decide cuánto llega al surtidor."
-   }
+   },
+   "mas": [
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/09/caida-global-del-petroleo-abre-la-expectativa-de-una-baja-en-los-costos-de-importacion/",
+     "2026-11-09"
+    ]
+   ]
   },
   {
    "id": "deforestacion-chaco",
@@ -2216,50 +2265,55 @@
   },
   {
    "id": "ande-tarifa",
-   "fecha": "2026-03-19",
+   "fecha": "2026-11-10",
    "medio": "ABC Color",
-   "url": "https://www.abc.com.py/economia/2026/03/19/ande-necesita-subir-tarifas-para-sostener-el-sistema-electrico-advierte-el-titular/",
-   "titulo": "La ANDE dice que su tarifa no cubre los costos y que debe subir",
+   "url": "https://www.abc.com.py/economia/2026/11/10/ande-no-subira-la-tarifa-por-un-ano-y-alivia-a-afectados-por-ueno-bank/",
+   "titulo": "Giro en la ANDE: la tarifa no subirá por al menos un año",
    "unidad": "micro",
    "tema": "2.11",
    "kc": "eficiencia",
    "sector": [
     "energia"
    ],
-   "resumen": "El presidente de la ANDE, Félix Sosa, afirmó que la tarifa eléctrica es una tarifa «política» que no cubre los costos reales para la mayoría de los usuarios; solo el consumo intensivo, como la criptominería, paga la tarifa técnica. Las pérdidas de energía bajaron de 23,4 % a 20 % en dos años.",
-   "contexto": "La ANDE es una empresa estatal que distribuye la electricidad sin competencia: un monopolio natural, porque duplicar las redes sería muy caro. En un monopolio, el precio lo fija el Estado. Si la tarifa queda por debajo del costo, los usuarios pagan poco, pero la empresa no tiene recursos para invertir en redes y reducir pérdidas. Se analiza una suba gradual empezando por los grandes consumidores. Según Sosa, llegar al promedio regional de pérdidas significaría unos US$ 50 millones.",
+   "resumen": "El presidente de la ANDE, Félix Sosa, anunció que la tarifa eléctrica no se reajustará por al menos un año, por indicación del presidente Pedro Alliana. Además, la ANDE no corta la luz a los afectados por Ueno Bank y les permite pagar la factura hasta en 24 cuotas sin intereses ni recargos. La morosidad general de la empresa ronda el 15 %.",
+   "contexto": "La ANDE distribuye la electricidad sin competencia: es un monopolio natural y el Estado fija su precio. En marzo, Sosa decía que la tarifa no cubría los costos reales, y en julio confirmó una suba gradual para los grandes consumidores; ahora la suba se posterga. Congelar la tarifa protege a los hogares en plena crisis, pero la ANDE tiene además más de US$ 90 millones retenidos en Ueno, según su presidente, y ya posterga obras. Con menos ingresos de los necesarios, invertir en redes y reducir pérdidas se vuelve más difícil.",
    "datos": [
     [
+     "1 año",
+     "Mínimo sin reajuste de tarifa"
+    ],
+    [
+     "24 cuotas",
+     "Plan sin intereses para afectados por Ueno"
+    ],
+    [
+     "≈15 %",
+     "Morosidad general de la ANDE (30 % tras la pandemia)"
+    ],
+    [
+     "US$ 90 M+",
+     "Fondos de la ANDE retenidos en Ueno, según Sosa"
+    ],
+    [
      "20 %",
-     "Pérdidas de energía actuales"
-    ],
-    [
-     "23,4 %",
-     "Pérdidas hace dos años"
-    ],
-    [
-     "5 puntos",
-     "Para llegar al promedio regional"
-    ],
-    [
-     "US$ 50 M",
-     "Valor de esa diferencia, según la ANDE"
+     "Pérdidas de energía (marzo 2026)"
     ]
    ],
    "clave": [
-    "20 %",
-    "de pérdidas de energía"
+    "1 año",
+    "sin suba de la tarifa eléctrica"
    ],
    "fig": {
-    "k": "monopolio"
+    "k": "monopolio",
+    "cap": 110
    },
-   "cap": "Un monopolio sin regulación produce menos (Qₘ) y cobra más (Pₘ) que un mercado competitivo; el triángulo es la pérdida de bienestar. Por eso el Estado regula su precio.",
+   "cap": "El Estado fija un precio máximo a un monopolio: por debajo del precio de monopolio (Pₘ), se produce más y baja la pérdida de bienestar. Pero si el precio regulado queda por debajo del costo medio, la empresa pierde y no invierte.",
    "pasos": [
-    "La ANDE es el único distribuidor: monopolio natural",
-    "El Estado fija la tarifa",
-    "La tarifa queda por debajo del costo",
-    "Faltan recursos para invertir y reducir pérdidas",
-    "Dilema: tarifa baja hoy o mejor servicio mañana"
+    "La crisis de Ueno golpea los ingresos de los hogares",
+    "El Gobierno congela la tarifa de la ANDE por un año",
+    "Los usuarios pagan menos que el costo real",
+    "La ANDE recibe menos ingresos y tiene fondos atrapados en Ueno",
+    "Se postergan obras: menos inversión y riesgo de más pérdidas y cortes"
    ],
    "conceptos": [
     [
@@ -2267,60 +2321,78 @@
      "Un solo productor abastece al mercado más barato que varios."
     ],
     [
-     "Regulación de precios",
-     "El Estado fija el precio de un monopolio."
-    ],
-    [
-     "Eficiencia",
-     "Usar los recursos sin desperdicio: las pérdidas de energía son ineficiencia."
+     "Precio máximo",
+     "Tope que fija el Estado al precio de un bien o servicio."
     ],
     [
      "Tarifa técnica",
      "Precio que cubre los costos reales del servicio."
+    ],
+    [
+     "Morosidad",
+     "Parte de las facturas o deudas que no se pagan a tiempo."
     ]
    ],
    "diagramas": [
     "monopolio"
    ],
    "rel": [
+    "ande-ueno",
+    "itaipu-tarifa-2027",
     "itaipu-opinion",
     "energia-cedida"
    ],
    "pregunta": {
-    "q": "¿Por qué la distribución de electricidad es un monopolio natural?",
+    "q": "Si el Estado fija la tarifa de la ANDE por debajo de su costo medio durante mucho tiempo, ¿qué es lo más probable?",
     "opts": [
-     "Porque es más barato que una sola empresa tenga la red que construir varias redes paralelas",
-     "Porque la ley prohíbe la competencia en todo",
-     "Porque la electricidad es un bien público",
-     "Porque no tiene costos fijos"
+     "La empresa tiene pérdidas y le faltan recursos para invertir en la red",
+     "La empresa gana más porque vende más",
+     "Aparecen muchas empresas competidoras",
+     "El costo de producir electricidad baja solo"
     ],
     "ok": 0,
-    "fb": "Los costos fijos de la red son enormes: una sola empresa abastece más barato. Por eso hay monopolio y el Estado regula el precio."
+    "fb": "Con un precio por debajo del costo medio, el monopolio pierde dinero. Si el Estado no cubre la diferencia, se reduce la inversión y empeora el servicio."
    },
    "evaluacion": {
     "ganan": [
      [
-      "Usuarios con la tarifa actual",
-      "Pagan menos que el costo real."
+      "Hogares y empresas",
+      "Pagan la misma tarifa durante al menos un año, en plena crisis."
+     ],
+     [
+      "Afectados por Ueno",
+      "Pueden pagar en 24 cuotas sin cortes ni recargos."
      ]
     ],
     "pierden": [
      [
-      "La ANDE y la calidad del servicio",
-      "Menos recursos para invertir en redes."
+      "La ANDE",
+      "Menos ingresos que los necesarios y fondos retenidos en Ueno."
+     ],
+     [
+      "Usuarios futuros",
+      "Menos inversión en redes puede traer más cortes y pérdidas."
      ],
      [
       "Contribuyentes",
-      "Si la empresa pierde, la diferencia la cubre el Estado."
+      "Si la ANDE no se sostiene, el Estado tendrá que cubrirla."
      ]
     ],
-    "corto": "Una suba de tarifa reduciría el poder de compra de los hogares.",
-    "largo": "Sin inversión, más cortes y pérdidas cuando crezca la demanda hacia 2030.",
+    "corto": "Alivio para el bolsillo de los usuarios y menos presión sobre la inflación.",
+    "largo": "Si la tarifa sigue por debajo del costo, se acumula atraso en obras justo cuando crece la demanda de energía.",
     "supuestos": [
-     "Que la suba se use para invertir en redes y reducir pérdidas."
+     "Que la tarifa actual siga por debajo del costo, como dijo la ANDE en marzo.",
+     "Que la ANDE no reciba otros recursos, como los de Itaipú, para cubrir la diferencia."
     ],
-    "conclusion": "Regular un monopolio exige equilibrio: una tarifa muy baja protege al usuario hoy pero debilita el servicio de mañana."
-   }
+    "conclusion": "Congelar la tarifa es una medida social razonable en una crisis, pero no resuelve el problema de fondo: un monopolio regulado necesita ingresos suficientes para invertir."
+   },
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/03/19/ande-necesita-subir-tarifas-para-sostener-el-sistema-electrico-advierte-el-titular/",
+     "2026-03-19"
+    ]
+   ]
   },
   {
    "id": "corredor-bioceanico",
@@ -2683,7 +2755,7 @@
   },
   {
    "id": "pgn-suspendido",
-   "fecha": "2026-11-09",
+   "fecha": "2026-11-10",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/politica/2026/11/09/a-pedido-de-alliana-diputados-suspende-de-forma-repentina-el-tratamiento-del-presupuesto-2027/",
    "titulo": "El nuevo gobierno frena el Presupuesto 2027 en Diputados para recortarlo",
@@ -2693,9 +2765,13 @@
    "inst": [
     "mef"
    ],
-   "resumen": "A pedido del presidente Pedro Alliana, la Cámara de Diputados suspendió el 9 de noviembre la sesión en la que iba a tratar el Presupuesto 2027, para que el Gobierno le haga cambios. El plazo vence el sábado 14: si no se aprueba una versión modificada, queda sancionada la original presentada durante el gobierno de Peña.",
-   "contexto": "El proyecto original suma G. 166,3 billones y pide un déficit de hasta 3,9 % del PIB. El jefe de Gabinete, Rolando De Barros, anunció recortes de gastos superfluos y convocó al ministro de Economía para reestructurar el Presupuesto. Recortar gasto reduce el déficit y la necesidad de endeudarse, lo que puede calmar a los inversores después de la suba del riesgo país; pero también puede frenar la demanda agregada a corto plazo. Si Diputados no vota a tiempo, cualquier cambio quedaría en manos del Senado.",
+   "resumen": "A pedido del presidente Pedro Alliana, la Cámara de Diputados suspendió el 9 de noviembre el tratamiento del Presupuesto 2027 para que el Gobierno le haga recortes. Según ABC Color, el presidente de Diputados, Raúl Latorre, prevé tratarlo el jueves 12 o el viernes 13, y los cambios deben presentarse antes del viernes 13. El plazo vence el sábado 14: si no se aprueba una versión modificada, queda sancionada la original.",
+   "contexto": "El proyecto original suma G. 166,3 billones y pide un déficit de hasta 3,9 % del PIB. Latorre dijo que el Ejecutivo quiere recortar gastos para dar prioridad a la salud, la educación, la seguridad y las obras, pero todavía no se conocen los montos ni las partidas; el MEF dijo no tener aún esos datos. El economista Aníbal Insfrán pidió en ABC TV que el MEF transparente el déficit real y la deuda total para recuperar la confianza. Recortar gasto reduce el déficit y la necesidad de endeudarse, pero también puede frenar la demanda agregada a corto plazo.",
    "datos": [
+    [
+     "13 nov",
+     "Plazo para presentar los cambios (Comisión Bicameral)"
+    ],
     [
      "14 nov",
      "Plazo para que Diputados apruebe el Presupuesto"
@@ -2754,6 +2830,7 @@
    ],
    "rel": [
     "pgn-2027",
+    "sp-calificacion",
     "bonos-embi",
     "alliana-gobierno"
    ],
@@ -2796,7 +2873,19 @@
      "Que Diputados apruebe los cambios antes del 14 de noviembre."
     ],
     "conclusion": "Recortar el déficit puede devolver confianza tras la crisis, pero el efecto depende de qué se recorte: no es lo mismo eliminar gastos superfluos que reducir inversión o ayuda social."
-   }
+   },
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/10/pgn-2027-diputados-preve-tratar-el-presupuesto-entre-el-jueves-y-el-viernes/",
+     "2026-11-10"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/11/pgn-y-deficit-economista-pide-a-autoridades-transparentar-las-cuentas-del-estado/",
+     "2026-11-11"
+    ]
+   ]
   },
   {
    "id": "bolsa-ueno-bonos",
@@ -3407,16 +3496,20 @@
   },
   {
    "id": "dolar-6600",
-   "fecha": "2026-11-09",
+   "fecha": "2026-11-10",
    "medio": "La Tribuna",
    "url": "https://www.latribuna.com.py/negocios/economia/2026/11/08/dolar-a-gs-6600-la-crisis-obliga-a-revisar-las-previsiones/",
-   "titulo": "El dólar saltó a G. 6.600 y empieza a bajar: G. 6.300 el 9 de noviembre",
+   "titulo": "El dólar saltó a G. 6.600 y vuelve a bajar: G. 6.200 el 10 de noviembre",
    "unidad": "global",
    "tema": "4.5",
    "kc": "cambio",
-   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre.",
+   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre. El martes 10, según RDN, la venta bajó a G. 6.200 en algunas casas de cambio; el sector lo atribuye al pago de depósitos de Ueno, aunque los importadores siguen comprando dólares para las ventas de fin de año.",
    "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. El economista Aníbal Insfrán explicó a ABC Color que no faltan dólares: lo que subió fue la demanda, porque personas y empresas buscaron una moneda más segura. Según ABC, la calma del lunes llegó con el pago a los ahorristas y la resolución de la crisis política, aunque los importadores siguen comprando dólares para las ventas de fin de año. Un dólar más caro encarece las deudas en dólares y los productos importados; Insfrán sugiere además revisar el dólar de G. 6.458 que usa el Presupuesto 2027.",
    "datos": [
+    [
+     "G. 6.200",
+     "Venta en algunas casas de cambio (10 nov); compra G. 5.900"
+    ],
     [
      "G. 6.226",
      "Dólar interbancario del BCP (9 nov)"
@@ -3440,6 +3533,10 @@
     [
      "G. 6.458",
      "Dólar previsto en el Presupuesto 2027"
+    ],
+    [
+     "G. 6.200–6.400",
+     "Rango que espera el economista Aníbal Insfrán para fin de año"
     ]
    ],
    "clave": [
@@ -3561,6 +3658,21 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/09/dolar-en-paraguay-economista-explica-que-impulsa-su-suba-y-advierte-sobre-la-confianza-en-el-bcp/",
      "2026-11-09"
+    ],
+    [
+     "RDN",
+     "https://www.rdn.com.py/2026/11/10/dolar-baja-a-g-6-200-tras-turbulenta-semana-por-ueno-bank/",
+     "2026-11-10"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios_edicion_impresa/2026/11/10/dolar-vuelve-a-bajar-luego-de-dias-de-intensa-valorizacion/",
+     "2026-11-10"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/11/pgn-y-deficit-economista-pide-a-autoridades-transparentar-las-cuentas-del-estado/",
+     "2026-11-11"
     ]
    ]
   },
@@ -7325,6 +7437,291 @@
     ],
     "conclusion": "Es una estrategia prometedora, pero necesita evaluaciones independientes de sus resultados en aprendizaje."
    }
+  },
+  {
+   "id": "sp-calificacion",
+   "fecha": "2026-11-07",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/07/transicion-politica-no-altera-la-calificacion-de-paraguay-segun-sp-global-ratings/",
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/negocios/2026/11/06/sp-las-calificaciones-de-paraguay-no-se-verian-afectadas-de-inmediato-por-el-proceso-de-transicion-presidencial/",
+     "2026-11-06"
+    ]
+   ],
+   "titulo": "S&P mantiene el grado de inversión de Paraguay pese a la crisis",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "cambio",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "La calificadora S&P Global Ratings informó que la crisis de Ueno Bank y el cambio de presidente no tienen un efecto inmediato en la nota de Paraguay, que sigue en BBB− con perspectiva estable, el primer escalón del grado de inversión. S&P proyecta que el PIB crecerá 4,8 % en 2026 y 3,5 % en 2027 y 2028.",
+   "contexto": "Una calificación de riesgo es la opinión de una agencia sobre la capacidad de un país de pagar su deuda; con grado de inversión, el Estado y las empresas consiguen crédito más barato. Según ABC Color, S&P advirtió que la transición política podría frenar la corrección del déficit y que cubrir los depósitos de Ueno no garantizados, incluidos fondos públicos, podría tener un costo fiscal. También recordó que en agosto el Gobierno postergó hasta 2028 la meta de la Ley de Responsabilidad Fiscal. Si la incertidumbre política crece o cae la confianza en las instituciones, la agencia podría revisar la nota a la baja.",
+   "datos": [
+    [
+     "BBB−",
+     "Calificación de S&P, con perspectiva estable"
+    ],
+    [
+     "4,8 %",
+     "Crecimiento del PIB que S&P proyecta para 2026"
+    ],
+    [
+     "3,5 %",
+     "Crecimiento proyectado para 2027 y 2028"
+    ],
+    [
+     "≈97 %",
+     "Depositantes de Ueno cubiertos por el Fondo de Garantía (según ABC Color)"
+    ],
+    [
+     "2028",
+     "Año al que se postergó la meta de la Ley de Responsabilidad Fiscal"
+    ]
+   ],
+   "clave": [
+    "BBB−",
+    "S&P mantiene el grado de inversión"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "PIB 2026 (S&P)",
+      4.8,
+      1
+     ],
+     [
+      "PIB 2027 (S&P)",
+      3.5,
+      0
+     ],
+     [
+      "PIB 2028 (S&P)",
+      3.5,
+      0
+     ]
+    ]
+   },
+   "cap": "Crecimiento del PIB que proyecta S&P: 4,8 % en 2026 y 3,5 % en 2027 y 2028. Un crecimiento firme ayuda a pagar la deuda y sostiene la calificación.",
+   "pasos": [
+    "Cae Ueno Bank y cambia el gobierno",
+    "Los inversores dudan y bajan los precios de los bonos",
+    "S&P revisa si Paraguay puede seguir pagando su deuda",
+    "Mantiene BBB−: la economía crece y la deuda es moderada",
+    "Pero advierte: si el déficit no se corrige o crece la incertidumbre, la nota puede bajar"
+   ],
+   "conceptos": [
+    [
+     "Calificación de riesgo",
+     "Opinión de una agencia sobre la capacidad de un deudor de pagar."
+    ],
+    [
+     "Grado de inversión",
+     "Nota desde BBB− (S&P) o Baa3 (Moody’s): deuda considerada segura."
+    ],
+    [
+     "Perspectiva estable",
+     "No se espera un cambio de la nota en el corto plazo."
+    ],
+    [
+     "Regla fiscal",
+     "Límite legal al déficit; en Paraguay, 1,5 % del PIB."
+    ]
+   ],
+   "diagramas": [
+    "bonos",
+    "politica-fiscal"
+   ],
+   "rel": [
+    "bonos-embi",
+    "pgn-suspendido",
+    "deuda-setiembre",
+    "alliana-gobierno"
+   ],
+   "pregunta": {
+    "q": "Si S&P bajara la calificación de Paraguay, ¿qué pasaría probablemente con la tasa de interés que paga el Estado por su deuda?",
+    "opts": [
+     "Subiría, porque los inversores pedirían más compensación por el riesgo",
+     "Bajaría, porque habría menos demanda de bonos",
+     "No cambiaría, porque la tasa la fija el BCP",
+     "Bajaría a cero"
+    ],
+    "ok": 0,
+    "fb": "Una nota más baja significa más riesgo: los inversores pagan menos por los bonos, su precio cae y la tasa (rendimiento) sube. Endeudarse sale más caro."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Estado paraguayo",
+      "Conserva el acceso a crédito más barato en los mercados internacionales."
+     ],
+     [
+      "Empresas que se financian afuera",
+      "La nota del país sirve de techo para su propio costo de crédito."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes",
+      "Si el Estado cubre los depósitos de Ueno no garantizados, el costo fiscal lo terminan pagando ellos."
+     ],
+     [
+      "Gobierno",
+      "Queda con menos margen: S&P vigila que no se frene la corrección del déficit."
+     ]
+    ],
+    "corto": "La nota no cambia y eso evita una suba mayor del riesgo país, aunque la confianza de los inversores puede seguir golpeada unas semanas.",
+    "largo": "Mantener el grado de inversión depende de bajar el déficit y de reforzar las instituciones de control; si no, la nota puede bajar.",
+    "supuestos": [
+     "Que la crisis quede limitada a Ueno y no se extienda al resto de los bancos.",
+     "Que el nuevo gobierno mantenga la orientación macroeconómica."
+    ],
+    "conclusion": "La decisión de S&P es una buena noticia de corto plazo, pero es condicional: la agencia avisa que el costo fiscal de Ueno y una corrección lenta del déficit pueden poner en riesgo el grado de inversión."
+   }
+  },
+  {
+   "id": "bcp-caballero",
+   "fecha": "2026-11-10",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/10/liana-caballero-renuncio-al-directorio-del-bcp/",
+   "mas": [
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/liana-caballero-renuncia-al-directorio-del-bcp-tras-colapso-y-denunciada-por-caso-ueno-bank",
+     "2026-11-10"
+    ],
+    [
+     "Diario Hoy",
+     "https://www.hoy.com.py/nacionales/2026/11/10/renuncia-otra-integrante-del-directorio-del-bcp",
+     "2026-11-10"
+    ]
+   ],
+   "titulo": "Renuncia Liana Caballero: el directorio del BCP queda casi vacío",
+   "unidad": "macro",
+   "tema": "3.5",
+   "kc": "intervencion",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "La economista Liana Caballero presentó el 10 de noviembre al Senado su renuncia como miembro titular del directorio del Banco Central del Paraguay, una semana después de la intervención de Ueno Bank. Había ocupado la presidencia interina tras la salida de Carlos Carvallo. Según Última Hora, figura entre las autoridades denunciadas por un grupo de senadores por el caso Ueno.",
+   "contexto": "El directorio del BCP tiene un presidente y cuatro directores, y necesita al menos tres miembros para sesionar, según Diario Hoy. Antes ya habían renunciado Carvallo, Carmen Marín y Marco Aurelio González; Última Hora señala que de quienes supervisaban a Ueno solo queda Miguel Mora. El BCP decide la tasa de interés y supervisa a los bancos, y su fuerza depende de la credibilidad: si el público duda del banco central, es más difícil anclar la inflación y el tipo de cambio. Por eso importa que el directorio se complete pronto con Jorge Schreiner y Fernando Rivarola, ya aprobados por el Senado.",
+   "datos": [
+    [
+     "5",
+     "Miembros del directorio del BCP (presidente y 4 directores)"
+    ],
+    [
+     "3",
+     "Mínimo de miembros para sesionar (cuórum)"
+    ],
+    [
+     "4",
+     "Renuncias en el directorio desde la crisis de Ueno"
+    ],
+    [
+     "20 nov",
+     "Próxima reunión de política monetaria"
+    ]
+   ],
+   "clave": [
+    "4",
+    "renuncias en el directorio del BCP"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "miembros",
+    "rows": [
+     [
+      "Miembros por ley",
+      5,
+      0
+     ],
+     [
+      "Cuórum para sesionar",
+      3,
+      1
+     ]
+    ]
+   },
+   "cap": "El directorio del BCP tiene 5 miembros y necesita al menos 3 para tomar decisiones válidas, como fijar la tasa de interés.",
+   "pasos": [
+    "Cae Ueno Bank y se cuestiona la supervisión del BCP",
+    "Renuncian el presidente y varios directores",
+    "El directorio queda con menos miembros de los necesarios",
+    "Se demoran decisiones y cae la credibilidad",
+    "El Gobierno nombra nuevas autoridades para recuperar la confianza"
+   ],
+   "conceptos": [
+    [
+     "Banco central",
+     "Institución que fija la política monetaria y supervisa a los bancos."
+    ],
+    [
+     "Independencia del banco central",
+     "Que decida la tasa sin presión política, para mantener la inflación baja."
+    ],
+    [
+     "Credibilidad",
+     "Confianza del público en que el banco central cumplirá sus metas."
+    ],
+    [
+     "Superintendencia de Bancos",
+     "Área del BCP que controla la solvencia de los bancos."
+    ]
+   ],
+   "diagramas": [
+    "politica-monetaria"
+   ],
+   "rel": [
+    "ueno-intervencion",
+    "bcp-tpm",
+    "ueno-morosidad",
+    "alliana-gobierno"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la credibilidad del banco central es importante para la política monetaria?",
+    "opts": [
+     "Porque si el público confía en sus metas, las expectativas de inflación se mantienen ancladas",
+     "Porque así el banco central puede imprimir dinero sin límite",
+     "Porque la credibilidad sube automáticamente el PIB potencial",
+     "Porque elimina la necesidad de supervisar a los bancos"
+    ],
+    "ok": 0,
+    "fb": "Si el público cree que el BCP mantendrá la inflación en su meta, ajusta precios y salarios en consecuencia y la política monetaria funciona con menos costo."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ahorristas y contribuyentes",
+      "Si el directorio se renueva, puede mejorar el control sobre los bancos."
+     ],
+     [
+      "Nuevas autoridades",
+      "Asumen con margen para cambiar la supervisión."
+     ]
+    ],
+    "pierden": [
+     [
+      "El BCP como institución",
+      "Pierde credibilidad y por momentos no puede sesionar."
+     ],
+     [
+      "Mercados",
+      "Más incertidumbre sobre decisiones como la tasa del 20 de noviembre."
+     ]
+    ],
+    "corto": "Hasta que juren las nuevas autoridades, el BCP funciona con un directorio incompleto en plena crisis.",
+    "largo": "Un directorio renovado y una supervisión más estricta podrían devolver la confianza; si las denuncias se confirman, puede haber reformas a la ley del BCP.",
+    "supuestos": [
+     "Que Schreiner y Rivarola juren pronto y completen el cuórum.",
+     "Que la investigación aclare las fallas de supervisión."
+    ],
+    "conclusion": "Las renuncias abren la puerta a renovar la supervisión, pero dejan al BCP debilitado justo cuando más necesita credibilidad; la rapidez para completar el directorio es clave."
+   }
   }
  ],
  "historial": {
@@ -7789,12 +8186,12 @@
   },
   "2026-11-09": {
    "titulo": "Una semana con plazos: Presupuesto y tasa de interés",
-   "texto": "La semana arranca con el Presupuesto 2027 en suspenso: el nuevo gobierno pidió recortes y Diputados tiene hasta el sábado 14 para aprobar una versión modificada, mientras la deuda pública ya llega a 35,4 % del PIB. El dólar empezó a bajar (G. 6.300 en casas de cambio) a medida que se devuelven los depósitos de Ueno Bank: el 93 % de los afectados ya cobró y Jorge Schreiner ya tiene decreto como presidente del BCP. Pero la crisis golpeó el consumo y salen a la luz las señales previas: los créditos irrecuperables de Ueno habían llegado a 14,49 % en 2025. El 20 de noviembre el BCP decide su tasa.",
+   "texto": "La semana arranca con el Presupuesto 2027 en suspenso: el nuevo gobierno pidió recortes, los cambios deben llegar antes del viernes 13 y Diputados tiene hasta el sábado 14, mientras la deuda pública ya llega a 35,4 % del PIB. El dólar baja (G. 6.200 en casas de cambio el martes) a medida que se devuelven los depósitos de Ueno, y S&P mantuvo el grado de inversión, aunque advirtió sobre el costo fiscal. El BCP sigue sin directorio completo tras la renuncia de Liana Caballero, y la crisis golpea el consumo y a la ANDE, que congela la tarifa por un año. El 20 de noviembre el BCP decide su tasa.",
    "claves": [
     "pgn-suspendido",
-    "ueno-morosidad",
+    "bcp-caballero",
+    "sp-calificacion",
     "dolar-6600",
-    "deuda-setiembre",
     "consumo-cae"
    ]
   }
@@ -7874,18 +8271,9 @@
      "fuente": "La Nación",
      "url": "https://www.lanacion.com.py/negocios/2026/11/09/pedro-alliana-propone-a-jorge-schreiner-para-la-presidencia-del-bcp/",
      "nota": ""
-    },
-    {
-     "cargo": "Miembro del directorio",
-     "nombre": "Liana Caballero",
-     "estado": "En el cargo",
-     "desde": "",
-     "fuente": "La Nación",
-     "url": "https://www.lanacion.com.py/negocios/2026/11/09/pedro-alliana-propone-a-jorge-schreiner-para-la-presidencia-del-bcp/",
-     "nota": ""
     }
    ],
-   "autoridades_nota": "Por la crisis de Ueno Bank renunciaron el presidente Carlos Carvallo y los miembros Carmen Marín y Marco Aurelio González. Los directores los designa el Poder Ejecutivo con acuerdo del Senado.",
+   "autoridades_nota": "Por la crisis de Ueno Bank renunciaron el presidente Carlos Carvallo y los miembros Carmen Marín, Marco Aurelio González y Liana Caballero (10 de noviembre). Los directores los designa el Poder Ejecutivo con acuerdo del Senado.",
    "cifras": [
     [
      "tpm",
@@ -7956,6 +8344,10 @@
     [
      "2026-11-09",
      "Los anticipos de Ueno Bank llegan a 1.738.804 personas (93,1 % de los afectados)."
+    ],
+    [
+     "2026-11-10",
+     "Liana Caballero, que había sido presidenta interina, renuncia al directorio ante el Senado."
     ]
    ],
    "enlaces": [
@@ -8052,6 +8444,10 @@
    ],
    "agenda": [
     [
+     "2026-11-13",
+     "Plazo para que el Ejecutivo presente los cambios al Presupuesto 2027."
+    ],
+    [
      "2026-11-14",
      "Vence el plazo para que Diputados apruebe el Presupuesto 2027; si no, queda sancionada la versión original."
     ]
@@ -8088,6 +8484,10 @@
     [
      "2026-11-10",
      "Conatel advierte que no podrá transferir los G. 200.000 millones previstos al Tesoro por sus fondos atrapados en Ueno."
+    ],
+    [
+     "2026-11-10",
+     "Diputados prevé tratar el Presupuesto 2027 el 12 o 13 de noviembre; el Ejecutivo debe presentar los recortes antes del 13."
     ]
    ],
    "enlaces": [
@@ -8719,6 +9119,15 @@
     "tema": "2.10",
     "url": "https://www.hoy.com.py/nacionales/2026/11/09/ueno-bcp-suma-beneficiarios-pero-estos-ahorristas-seguiran-esperando",
     "fuente": "Diario Hoy"
+   },
+   {
+    "f": "2026-11-13",
+    "t": "Plazo para los cambios al Presupuesto 2027",
+    "d": "El Ejecutivo debe presentar los recortes antes de este viernes; Diputados prevé votar el 12 o el 13.",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.abc.com.py/economia/2026/11/10/pgn-2027-diputados-preve-tratar-el-presupuesto-entre-el-jueves-y-el-viernes/",
+    "fuente": "ABC Color"
    }
   ],
   "habituales": [
@@ -9298,7 +9707,10 @@
     "ueno-morosidad",
     "dnit-ueno",
     "mtess-ueno",
-    "conatel-ueno"
+    "conatel-ueno",
+    "sp-calificacion",
+    "bcp-caballero",
+    "ande-tarifa"
    ],
    "hitos": [
     [
@@ -9324,6 +9736,11 @@
      "2026-11-06",
      "El Congreso destituye a Santiago Peña; asume Pedro Alliana.",
      "alliana-gobierno"
+    ],
+    [
+     "2026-11-06",
+     "S&P mantiene la nota BBB− pese a la crisis y el cambio de gobierno.",
+     "sp-calificacion"
     ],
     [
      "2026-11-07",
@@ -9375,6 +9792,16 @@
      "conatel-ueno"
     ],
     [
+     "2026-11-10",
+     "Renuncia Liana Caballero al directorio del BCP.",
+     "bcp-caballero"
+    ],
+    [
+     "2026-11-10",
+     "La ANDE congela la tarifa por un año y da 24 cuotas a los afectados.",
+     "ande-tarifa"
+    ],
+    [
      "2026-11-17",
      "El IPS paga jubilaciones y aguinaldo."
     ]
@@ -9396,7 +9823,8 @@
     "bonos-embi",
     "pobreza-16",
     "pgn-suspendido",
-    "deuda-setiembre"
+    "deuda-setiembre",
+    "sp-calificacion"
    ],
    "hitos": [
     [
@@ -9423,6 +9851,11 @@
      "2026-11-09",
      "El MEF informa una deuda de US$ 22.569 millones (35,4 % del PIB).",
      "deuda-setiembre"
+    ],
+    [
+     "2026-11-10",
+     "Diputados prevé tratarlo el 12 o 13; los recortes deben llegar antes del 13.",
+     "pgn-suspendido"
     ],
     [
      "2026-11-14",
@@ -9925,7 +10358,7 @@
   "nota": "No hay un dato reciente y confiable de acceso a agua potable; se agregará cuando se publique."
  },
  "mundo": {
-  "actualizado": "2026-11-09",
+  "actualizado": "2026-11-11",
   "intro": "Paraguay es una economía pequeña y abierta: lo que pasa con el petróleo, sus vecinos, China o las tasas de Estados Unidos llega rápido a los precios, al dólar y a las exportaciones. Cada tarjeta explica por qué importa y por dónde llega el efecto.",
   "actores": [
    {
@@ -9935,8 +10368,8 @@
     "por": "Paraguay importa todos sus combustibles. Su precio llega al transporte, a los alimentos y a la inflación.",
     "datos": [
      [
-      "< US$ 97",
-      "Brent al 7 de noviembre"
+      "US$ 92,90",
+      "Brent el 9 de noviembre (La Nación)"
      ],
      [
       "−16,42 %",
@@ -11555,7 +11988,7 @@
     "fecha": "2026-07-17",
     "meta": "Mantener el grado de inversión (Moody’s)",
     "oficial": false,
-    "extra": "Moody’s la ratificó en julio de 2026 con perspectiva estable.",
+    "extra": "Moody’s la ratificó en julio de 2026 con perspectiva estable. S&P mantuvo BBB− estable el 6 de noviembre, tras la crisis de Ueno.",
     "fuente": "La Nación (17 jul 2026)",
     "url": "https://www.lanacion.com.py/negocios/2026/07/17/moodys-ratifica-a-paraguay-en-grado-de-inversion-con-perspectiva-estable/",
     "tema": "3.6",
@@ -11978,13 +12411,13 @@
    },
    {
     "n": "Liana Caballero",
-    "cargo": "Miembro del directorio · Banco Central del Paraguay",
+    "cargo": "Exmiembro del directorio · Banco Central del Paraguay",
     "tipo": "Gobierno",
-    "estado": "En el cargo",
-    "que": "Habla en nombre de Banco Central del Paraguay.",
+    "estado": "Renunció el 10 de noviembre de 2026",
+    "que": "Fue presidenta interina del BCP tras la renuncia de Carlos Carvallo.",
     "link": "#inst-bcp",
     "fuente": "La Nación",
-    "url": "https://www.lanacion.com.py/negocios/2026/11/09/pedro-alliana-propone-a-jorge-schreiner-para-la-presidencia-del-bcp/"
+    "url": "https://www.lanacion.com.py/negocios/2026/11/10/liana-caballero-renuncio-al-directorio-del-bcp/"
    },
    {
     "n": "Óscar Lovera",
@@ -12728,8 +13161,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-10",
-  "hora": "03:47",
+  "fecha": "2026-11-11",
+  "hora": "06:53",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -12738,19 +13171,19 @@
     "USD",
     "Dólar estadounidense",
     5900,
-    6300
+    6250
    ],
    [
     "ARS",
     "Peso argentino",
     3.5,
-    4.2
+    4
    ],
    [
     "BRL",
     "Real brasileño",
-    1100,
-    1220
+    1080,
+    1200
    ],
    [
     "EUR",
@@ -12770,6 +13203,11 @@
      "2026-11-10",
      5900,
      6300
+    ],
+    [
+     "2026-11-11",
+     5900,
+     6250
     ]
    ],
    "ARS": [
@@ -12782,6 +13220,11 @@
      "2026-11-10",
      3.5,
      4.2
+    ],
+    [
+     "2026-11-11",
+     3.5,
+     4
     ]
    ],
    "BRL": [
@@ -12794,6 +13237,11 @@
      "2026-11-10",
      1100,
      1220
+    ],
+    [
+     "2026-11-11",
+     1080,
+     1200
     ]
    ],
    "EUR": [
@@ -12804,6 +13252,11 @@
     ],
     [
      "2026-11-10",
+     6000,
+     7000
+    ],
+    [
+     "2026-11-11",
      6000,
      7000
     ]
@@ -12831,8 +13284,8 @@
     "ips-ueno"
    ],
    [
-    "US$ 21 M",
-    "Fondos de la ANDE atrapados en Ueno",
+    "US$ 90 M+",
+    "Fondos de la ANDE retenidos en Ueno, según su presidente",
     "ande-ueno"
    ],
    [
@@ -12859,7 +13312,7 @@
    ],
    [
     "ANDE",
-    "Tiene US$ 21 millones de un préstamo del BID atrapados en Ueno y posterga obras.",
+    "Tiene más de US$ 90 millones retenidos en Ueno, posterga obras y congela la tarifa por un año.",
     "ande-ueno"
    ],
    [
