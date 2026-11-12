@@ -1,1 +1,323 @@
-[]
+[
+ {
+  "id": "deforestacion-chaco",
+  "fecha": "2025-03-21",
+  "medio": "RDN",
+  "url": "https://www.rdn.com.py/2025/03/21/paraguay-conserva-443-de-su-territorio-con-cobertura-forestal/",
+  "titulo": "El Chaco concentra casi toda la pérdida de bosque del país",
+  "unidad": "micro",
+  "tema": "2.8",
+  "kc": "sostenibilidad",
+  "sector": [
+   "agro"
+  ],
+  "resumen": "Según datos del INFONA, Paraguay conserva el 44,3 % de su territorio con cobertura forestal, unos 17,7 millones de hectáreas. Entre 2020 y 2022 se transformaron 412.428 hectáreas de bosque nativo, y 361.928 de ellas estaban en el Chaco.",
+  "contexto": "La mayor parte del desmonte en el Chaco se hace para la ganadería y el 77,9 % fue con planes de cambio de uso aprobados por el INFONA: es legal. Desde la economía, es un caso de externalidad negativa de la producción: el productor gana con la tierra para ganado, pero la sociedad pierde biodiversidad, captura de carbono y regulación del clima, costos que no entran en el precio de la carne. Entre 2021 y 2022, Boquerón (90.116 ha) y Alto Paraguay (78.029 ha) fueron los departamentos con más bosque transformado.",
+  "datos": [
+   [
+    "44,3 %",
+    "Territorio con cobertura forestal (2022)"
+   ],
+   [
+    "412.428 ha",
+    "Bosque nativo transformado (2020-2022)"
+   ],
+   [
+    "361.928 ha",
+    "De ese total, en el Chaco"
+   ],
+   [
+    "77,9 %",
+    "Con planes de cambio de uso aprobados"
+   ]
+  ],
+  "clave": [
+   "88 %",
+   "de la pérdida, en el Chaco"
+  ],
+  "fig": {
+   "k": "externalidad"
+  },
+  "cap": "El mercado produce Qₘ, donde el beneficio privado iguala al costo privado. El costo social es mayor (CMS), así que lo óptimo es Qₒ: el triángulo es la pérdida de bienestar.",
+  "pasos": [
+   "El productor convierte bosque en pastura",
+   "Gana con la producción de carne",
+   "La sociedad pierde biodiversidad y captura de carbono",
+   "Ese costo no está en el precio: externalidad negativa",
+   "Se produce más de lo socialmente óptimo"
+  ],
+  "conceptos": [
+   [
+    "Externalidad negativa",
+    "Costo que una actividad impone a terceros sin pagarlo."
+   ],
+   [
+    "Costo marginal social",
+    "Costo privado más el costo para el resto de la sociedad."
+   ],
+   [
+    "Sobreproducción",
+    "El mercado produce más que el óptimo social."
+   ],
+   [
+    "Sostenibilidad",
+    "Usar los recursos sin comprometer a las generaciones futuras."
+   ]
+  ],
+  "diagramas": [
+   "externalidad"
+  ],
+  "rel": [
+   "energia-cedida",
+   "carne-cae"
+  ],
+  "pregunta": {
+   "q": "¿Por qué la deforestación es una falla de mercado?",
+   "opts": [
+    "Porque el costo para la sociedad no se refleja en el precio de lo que se produce",
+    "Porque los ganaderos no quieren ganar dinero",
+    "Porque el bosque es un bien público puro",
+    "Porque el Estado no cobra impuestos"
+   ],
+   "ok": 0,
+   "fb": "Es una externalidad negativa: parte del costo (pérdida de bosque, clima) lo paga la sociedad y no el productor, así que se produce de más."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Productores ganaderos",
+     "Más tierra productiva."
+    ],
+    [
+     "Exportaciones de carne",
+     "Más producción y divisas."
+    ]
+   ],
+   "pierden": [
+    [
+     "La sociedad y las generaciones futuras",
+     "Pérdida de biodiversidad y de regulación del clima."
+    ],
+    [
+     "Comunidades del Chaco",
+     "Cambios en su entorno y sus recursos."
+    ]
+   ],
+   "corto": "Más producción ganadera.",
+   "largo": "Costos ambientales que no se pueden revertir y riesgo de perder mercados exigentes, como la Unión Europea.",
+   "supuestos": [
+    "Que los datos de 2020-2022 sigan representando la tendencia actual."
+   ],
+   "conclusion": "El desmonte legal no significa que sea eficiente para la sociedad: sin impuestos, regulación o incentivos, el mercado no tiene en cuenta el costo ambiental."
+  }
+ },
+ {
+  "id": "apuestas-online",
+  "fecha": "2025-03-27",
+  "medio": "UNICEF Paraguay",
+  "url": "https://www.unicef.org/paraguay/comunicados-prensa/unicef-alerta-sobre-adicci%C3%B3n-de-adolescentes-apuestas-online-y-presenta-gu%C3%ADa",
+  "titulo": "Apuestas en línea: por qué los adolescentes no deciden como el «homo economicus»",
+  "unidad": "micro",
+  "tema": "2.4",
+  "kc": "eleccion",
+  "resumen": "UNICEF alertó sobre la adicción de adolescentes a las apuestas en línea, un problema que también afecta a Paraguay, y presentó una guía para las familias. Entre las señales de alerta menciona movimientos de dinero sin explicación en billeteras virtuales y endeudamiento. Según UNICEF, la ley paraguaya prohíbe a los menores jugar en tragamonedas, pero hay un vacío legal sobre las apuestas en línea, y los menores suelen apostar con la cuenta de un adulto.",
+  "contexto": "La teoría clásica supone consumidores racionales que comparan costos y beneficios con toda la información. La economía del comportamiento muestra que las personas, y más los adolescentes, deciden con sesgos: exceso de confianza («esta vez gano»), preferencia por lo inmediato sobre el futuro, y reacciones a la publicidad y a los influencers. Las plataformas de apuestas aprovechan esos sesgos. Por eso se proponen respuestas como regulación, límites, información clara y «empujones» (nudges) que ayudan a decidir mejor sin prohibir.",
+  "datos": [
+   [
+    "Ley 6903/22",
+    "Ley de juegos de azar; su decreto prohíbe a menores jugar en tragamonedas"
+   ],
+   [
+    "Vacío legal",
+    "No hay regulación específica sobre apuestas en línea de menores, según UNICEF"
+   ]
+  ],
+  "clave": [
+   "Sesgos",
+   "que las plataformas aprovechan"
+  ],
+  "fig": {
+   "k": "mercado",
+   "mueve": "D",
+   "dir": -1
+  },
+  "cap": "Con sesgos, el jugador cree que apostar vale más de lo que realmente vale. Si tuviera en cuenta los costos reales (deudas, adicción), su demanda sería menor: D₁ → D₂.",
+  "pasos": [
+   "Las plataformas ofrecen apuestas fáciles desde el celular",
+   "Los adolescentes deciden con sesgos: exceso de confianza y preferencia por lo inmediato",
+   "Apuestan más de lo que harían con toda la información",
+   "Aparecen deudas y problemas familiares",
+   "Se proponen regulación, información y nudges"
+  ],
+  "conceptos": [
+   [
+    "Racionalidad limitada",
+    "Las personas deciden con información, tiempo y capacidad limitados."
+   ],
+   [
+    "Sesgo de exceso de confianza",
+    "Creer que las probabilidades de ganar son mayores de lo que son."
+   ],
+   [
+    "Sesgo del presente",
+    "Valorar mucho más el placer inmediato que los costos futuros."
+   ],
+   [
+    "Nudge (empujón)",
+    "Cambio en cómo se presentan las opciones para ayudar a decidir mejor sin prohibir."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [],
+  "pregunta": {
+   "q": "¿Qué sesgo explica que un adolescente siga apostando porque cree que «la próxima vez gana»?",
+   "opts": [
+    "Exceso de confianza",
+    "Aversión a las pérdidas",
+    "Elasticidad precio",
+    "Costo de oportunidad"
+   ],
+   "ok": 0,
+   "fb": "El exceso de confianza lleva a sobrestimar la probabilidad de ganar, y es uno de los sesgos que estudia la economía del comportamiento."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Plataformas de apuestas",
+     "Más jugadores y más ingresos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Adolescentes y familias",
+     "Deudas, adicción y conflictos."
+    ]
+   ],
+   "corto": "Crecen las apuestas y los casos de endeudamiento.",
+   "largo": "La adicción tiene costos de salud y sociales que paga la sociedad.",
+   "supuestos": [
+    "Que los menores puedan acceder con cuentas de adultos",
+    "Que la publicidad influya en sus decisiones"
+   ],
+   "conclusion": "Las apuestas muestran los límites del consumidor racional: con sesgos tan fuertes, regular e informar se justifica, sobre todo para menores."
+  }
+ },
+ {
+  "id": "arancel-eeuu",
+  "fecha": "2025-04-03",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/sector-carnico-el-mayor-exportador-de-paraguay-a-eeuu-que-dice-sobre-los-aranceles-de-trump",
+  "titulo": "Aranceles de EE.UU.: la carne paraguaya paga 26,4 % fuera de la cuota",
+  "unidad": "global",
+  "tema": "4.2",
+  "kc": "interdependencia",
+  "sector": [
+   "agro",
+   "comercio"
+  ],
+  "mundo": [
+   "eeuu"
+  ],
+  "resumen": "Estados Unidos aplicó un arancel recíproco de 10 % a importaciones de más de 180 países, entre ellos los del Mercosur. Además, la carne vacuna paraguaya paga un arancel de 26,4 % cuando entra fuera de la cuota preferencial de 65.000 toneladas que comparte con otros países, una cuota que se agota en los primeros meses del año. Entre enero y marzo de 2025, EE.UU. compró unas 10.442 toneladas de carne paraguaya por US$ 59,6 millones.",
+  "contexto": "Un arancel es un impuesto a las importaciones: encarece el producto extranjero y protege a los productores del país que lo cobra. Una cuota es un límite a la cantidad que puede entrar; aquí se combinan en un «contingente arancelario»: dentro de la cuota el arancel es bajo y, fuera de ella, alto. Para Paraguay, eso significa que su carne compite en EE.UU. con desventaja frente a los productores estadounidenses. Daniel Burt, presidente de la Cámara Paraguaya de Carnes, dijo que la medida afecta al comercio y que habrá que evaluar si sigue siendo rentable exportar.",
+  "datos": [
+   [
+    "10 %",
+    "Arancel recíproco de EE.UU. a más de 180 países"
+   ],
+   [
+    "26,4 %",
+    "Arancel a la carne paraguaya fuera de la cuota"
+   ],
+   [
+    "65.000 t",
+    "Cuota compartida con otros países"
+   ],
+   [
+    "10.442 t",
+    "Carne paraguaya comprada por EE.UU. (ene-mar 2025)"
+   ],
+   [
+    "US$ 59,6 M",
+    "Valor de esas compras"
+   ]
+  ],
+  "clave": [
+   "26,4 %",
+   "arancel fuera de la cuota"
+  ],
+  "fig": {
+   "k": "arancel"
+  },
+  "cap": "El arancel sube el precio de la carne importada en EE.UU.: baja la cantidad importada, ganan los productores estadounidenses y el Gobierno recauda, y hay una pérdida de bienestar.",
+  "pasos": [
+   "EE.UU. cobra un arancel a la carne importada",
+   "La carne paraguaya llega más cara al consumidor estadounidense",
+   "Se importa menos y se produce más dentro de EE.UU.",
+   "Los exportadores paraguayos venden menos o a menor precio",
+   "Paraguay busca otros mercados"
+  ],
+  "conceptos": [
+   [
+    "Arancel",
+    "Impuesto a los bienes importados."
+   ],
+   [
+    "Cuota de importación",
+    "Límite a la cantidad de un bien que puede importarse."
+   ],
+   [
+    "Contingente arancelario",
+    "Arancel bajo dentro de una cuota y alto fuera de ella."
+   ],
+   [
+    "Pérdida de bienestar",
+    "Disminución del excedente total por la protección."
+   ]
+  ],
+  "diagramas": [
+   "arancel"
+  ],
+  "rel": [
+   "carne-cae",
+   "mercosur-ue"
+  ],
+  "pregunta": {
+   "q": "¿Quién gana con el arancel de EE.UU. a la carne importada?",
+   "opts": [
+    "Los productores de carne de EE.UU. y el gobierno de EE.UU.",
+    "Los exportadores paraguayos",
+    "Los consumidores de EE.UU.",
+    "Nadie gana"
+   ],
+   "ok": 0,
+   "fb": "El arancel protege a los productores nacionales y genera recaudación, pero los consumidores pagan más y los exportadores extranjeros venden menos."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Productores de carne de EE.UU.",
+     "Menos competencia."
+    ]
+   ],
+   "pierden": [
+    [
+     "Frigoríficos y ganaderos paraguayos",
+     "Menos ventas o precios más bajos."
+    ],
+    [
+     "Consumidores de EE.UU.",
+     "Carne más cara."
+    ]
+   ],
+   "corto": "Menos exportaciones de carne a EE.UU.",
+   "largo": "Paraguay diversifica destinos.",
+   "supuestos": [
+    "Que no haya acuerdos que amplíen la cuota"
+   ],
+   "conclusion": "Los aranceles de un país grande trasladan costos a sus socios: por eso a Paraguay le conviene diversificar mercados."
+  }
+ }
+]

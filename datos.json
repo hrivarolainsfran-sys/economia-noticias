@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-12",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -202,6 +202,26 @@
     "10 nov",
     "El dólar baja a G. 6.200 en casas de cambio.",
     "dolar-6600"
+   ],
+   [
+    "10 nov",
+    "Asume Jorge Schreiner en el BCP: podría comprar dólares para estabilizar la cotización.",
+    "bcp-cambiaria"
+   ],
+   [
+    "11 nov",
+    "El anticipo del FGD llega al 100 %: 1.812.348 personas, US$ 644 millones.",
+    "ueno-devolucion"
+   ],
+   [
+    "11 nov",
+    "Fitch pone la nota BB+ de Paraguay en revisión negativa.",
+    "fitch-revision"
+   ],
+   [
+    "11 nov",
+    "El MEF propone recortar US$ 276 millones del Presupuesto 2027.",
+    "pgn-suspendido"
    ]
   ],
   "lentes": [
@@ -220,6 +240,398 @@
   ]
  },
  "noticias": [
+  {
+   "id": "fitch-revision",
+   "fecha": "2026-11-11",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/fitch-calificacion-de-paraguay-en-observacion-negativa-tras-la-caida-de-ueno",
+   "mas": [
+    [
+     "5Días",
+     "https://5dias.com.py/article/fitch-pone-calificacin-de-paraguay-en-revisin-negativa-por-caso-ueno-bank",
+     "2026-11-11"
+    ]
+   ],
+   "titulo": "Fitch pone la nota de Paraguay en revisión negativa por Ueno",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "interdependencia",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "La calificadora Fitch Ratings mantuvo la nota BB+ de Paraguay, pero la puso en revisión negativa y le quitó la perspectiva positiva que tenía, por la caída de Ueno Bank y la destitución de Santiago Peña. Según Última Hora, Fitch calcula que Ueno tenía US$ 2.900 millones en depósitos, de los que US$ 2.100 millones no están asegurados; si el Estado tuviera que cubrir a los depositantes públicos, el costo inicial sería de al menos 1,5 % del PIB (US$ 900 millones).",
+   "contexto": "Una calificación de riesgo es una opinión sobre la probabilidad de que un país pague su deuda; una nota más baja suele encarecer los préstamos del Estado y de las empresas. Fitch advierte que el déficit fiscal proyectado por el Gobierno sube a 3,2 % del PIB en 2026 y 3,9 % en 2027, por lo que ve improbable volver al tope de 1,5 % en 2028, aunque la deuda (32,6 % del PIB según su cálculo) sigue por debajo de la mediana de países BB (52 %). También espera que el crédito, que crecía 16,5 % interanual en septiembre, se frene porque Ueno aportaba una cuarta parte de ese crecimiento. A diferencia de S&P, que mantuvo su nota la semana pasada, Fitch abre la puerta a una rebaja.",
+   "datos": [
+    [
+     "BB+",
+     "Nota de Fitch, ahora en revisión negativa"
+    ],
+    [
+     "US$ 2.100 M",
+     "Depósitos de Ueno no asegurados"
+    ],
+    [
+     "US$ 900 M",
+     "De esos, del sector público (IPS, binacionales…)"
+    ],
+    [
+     "1,5 % del PIB",
+     "Costo fiscal inicial si se rescata a esos depositantes"
+    ],
+    [
+     "16,5 %",
+     "Crecimiento interanual del crédito en septiembre"
+    ]
+   ],
+   "clave": [
+    "BB+",
+    "en revisión negativa"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ millones",
+    "rows": [
+     [
+      "Depósitos asegurados",
+      900,
+      0
+     ],
+     [
+      "No asegurados: sector público",
+      900,
+      1
+     ],
+     [
+      "No asegurados: privados",
+      1200,
+      0
+     ]
+    ]
+   },
+   "cap": "Depósitos de Ueno según Fitch: el fondo de garantía cubre los asegurados; el riesgo fiscal está en los US$ 900 millones no asegurados del sector público.",
+   "pasos": [
+    "Cae Ueno Bank y quedan US$ 2.100 millones de depósitos sin seguro",
+    "Crece la presión para que el Estado cubra a los depositantes públicos",
+    "Eso sumaría al menos 1,5 % del PIB al déficit y a la deuda",
+    "Fitch pone la nota en revisión negativa",
+    "Si la baja, la deuda de Paraguay se vuelve más cara"
+   ],
+   "conceptos": [
+    [
+     "Calificación de riesgo",
+     "Opinión de una agencia sobre la capacidad de un país de pagar su deuda."
+    ],
+    [
+     "Revisión negativa",
+     "Aviso de que la nota puede bajar en los próximos meses."
+    ],
+    [
+     "Pasivo contingente",
+     "Gasto que el Estado podría tener que asumir si ocurre un hecho, como rescatar depósitos."
+    ],
+    [
+     "Déficit fiscal",
+     "Cuando el gasto del Estado supera sus ingresos en un año."
+    ]
+   ],
+   "diagramas": [
+    "bonos",
+    "politica-fiscal"
+   ],
+   "rel": [
+    "sp-calificacion",
+    "bonos-embi",
+    "pgn-suspendido",
+    "ips-ueno"
+   ],
+   "pregunta": {
+    "q": "Si Fitch baja la nota de Paraguay, ¿qué es lo más probable?",
+    "opts": [
+     "Que el Estado pague tasas de interés más altas por su deuda",
+     "Que bajen las tasas de interés de los bonos paraguayos",
+     "Que la inflación baje de inmediato",
+     "Que suban automáticamente las exportaciones"
+    ],
+    "ok": 0,
+    "fb": "Una nota más baja indica más riesgo de impago; los inversores piden más rendimiento, así que los bonos bajan de precio y la tasa de interés sube."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Inversores que compran bonos nuevos",
+      "Si sube el riesgo, cobran tasas más altas."
+     ]
+    ],
+    "pierden": [
+     [
+      "El Estado y los contribuyentes",
+      "Endeudarse costaría más y aumentarían los intereses."
+     ],
+     [
+      "Empresas que se financian afuera",
+      "Su costo de crédito suele seguir al del país."
+     ],
+     [
+      "Depositantes públicos (IPS, binacionales)",
+      "Siguen sin saber cuánto recuperarán."
+     ]
+    ],
+    "corto": "Más incertidumbre y bonos más baratos (tasas más altas) mientras dure la revisión.",
+    "largo": "Si el déficit no baja y el Estado absorbe el costo de Ueno, una rebaja haría más difícil llegar al grado de inversión.",
+    "supuestos": [
+     "Que el Estado tenga que cubrir parte de los depósitos no asegurados.",
+     "Que el déficit siga cerca de las proyecciones del Gobierno."
+    ],
+    "conclusion": "La revisión no es todavía una rebaja: depende de cómo se reparta el costo de Ueno y de si el Presupuesto 2027 muestra disciplina fiscal."
+   }
+  },
+  {
+   "id": "bcp-cambiaria",
+   "fecha": "2026-11-10",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/nuevo-titular-de-bcp-dice-que-apuntan-a-recuperar-credibilidad-e-intervenir-en-tipo-de-cambio",
+   "titulo": "El nuevo presidente del BCP abre la puerta a comprar dólares",
+   "unidad": "global",
+   "tema": "4.5",
+   "kc": "intervencion",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "Jorge Schreiner, nuevo presidente del Banco Central del Paraguay, dijo en su primera conferencia que su prioridad es recuperar la credibilidad del BCP y que se revisará la política cambiaria. Según Última Hora, hasta ahora el BCP solo vendía dólares; ahora podría también comprarlos a los bancos para estabilizar la cotización cuando hay muchas exportaciones, saltos bruscos o especulación, como permite la ley orgánica del BCP.",
+   "contexto": "Paraguay tiene un tipo de cambio flotante: el precio del dólar lo fija la oferta y la demanda, pero el BCP puede intervenir para suavizar movimientos fuertes (flotación administrada). Durante 2026 el guaraní se apreció y los exportadores reclamaron pérdida de competitividad; con la crisis de Ueno el dólar saltó y luego volvió a bajar. Comprar dólares con guaraníes aumenta la oferta de guaraníes y frena su apreciación; vender dólares hace lo contrario. Schreiner aclaró que la meta principal sigue siendo controlar la inflación.",
+   "datos": [
+    [
+     "Art. 50",
+     "Artículo de la Ley 489/95 que regula la intervención cambiaria"
+    ],
+    [
+     "3",
+     "Casos en que el BCP intervendría: mucha exportación, saltos bruscos o especulación"
+    ],
+    [
+     "2028",
+     "Hasta cuando dura el mandato de Schreiner"
+    ]
+   ],
+   "clave": [
+    "Compra y venta",
+    "de dólares por el BCP"
+   ],
+   "fig": {
+    "k": "divisas",
+    "mueve": "O",
+    "dir": 1
+   },
+   "cap": "Si el BCP compra dólares pagando con guaraníes, aumenta la oferta de guaraníes (O a la derecha) y el guaraní se aprecia menos.",
+   "pasos": [
+    "Entran muchos dólares por exportaciones y el guaraní se aprecia",
+    "El BCP compra dólares a los bancos pagando con guaraníes",
+    "Aumenta la oferta de guaraníes en el mercado de divisas",
+    "El guaraní se aprecia menos y los exportadores reciben más guaraníes por dólar",
+    "El BCP acumula reservas internacionales"
+   ],
+   "conceptos": [
+    [
+     "Flotación administrada",
+     "Tipo de cambio de mercado con intervenciones del banco central para evitar saltos."
+    ],
+    [
+     "Apreciación",
+     "Cuando la moneda nacional sube de valor frente a otra."
+    ],
+    [
+     "Reservas internacionales",
+     "Divisas que guarda el banco central para intervenir y dar confianza."
+    ],
+    [
+     "Credibilidad",
+     "Confianza en que el banco central cumplirá lo que anuncia."
+    ]
+   ],
+   "diagramas": [
+    "tipo-cambio",
+    "politica-monetaria"
+   ],
+   "rel": [
+    "dolar-6600",
+    "pena-dolar",
+    "guarani-cae",
+    "bcp-caballero"
+   ],
+   "pregunta": {
+    "q": "Si el BCP compra dólares pagando con guaraníes, ¿qué pasa en el mercado del guaraní?",
+    "opts": [
+     "Aumenta la oferta de guaraníes y el guaraní se aprecia menos (o se deprecia)",
+     "Aumenta la demanda de guaraníes y el guaraní se aprecia",
+     "Baja la oferta de guaraníes y el guaraní se aprecia",
+     "No cambia nada porque el tipo de cambio es fijo"
+    ],
+    "ok": 0,
+    "fb": "Al pagar con guaraníes, el BCP pone más guaraníes en el mercado: la curva de oferta de guaraníes se desplaza a la derecha y su precio en dólares baja."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Exportadores",
+      "Un guaraní menos apreciado les da más guaraníes por cada dólar vendido."
+     ],
+     [
+      "El BCP",
+      "Suma reservas internacionales para enfrentar futuras crisis."
+     ]
+    ],
+    "pierden": [
+     [
+      "Importadores y consumidores",
+      "Los bienes importados no se abaratan tanto."
+     ],
+     [
+      "Control de la inflación",
+      "Emitir guaraníes para comprar dólares puede presionar los precios si no se esteriliza."
+     ]
+    ],
+    "corto": "Más previsibilidad en el mercado del dólar después de los saltos de noviembre.",
+    "largo": "Si el BCP compra en épocas de exportación y vende en crisis, el tipo de cambio se vuelve más estable, pero el mercado podría esperar que el BCP siempre lo proteja.",
+    "supuestos": [
+     "Que el Directorio apruebe el cambio de estrategia.",
+     "Que las intervenciones sean limitadas y no busquen fijar un precio."
+    ],
+    "conclusion": "Comprar y vender dólares solo para suavizar saltos es compatible con un tipo de cambio flotante; el riesgo es que se use para fijar un precio o que choque con la meta de inflación."
+   }
+  },
+  {
+   "id": "imaep-setiembre",
+   "fecha": "2026-11-11",
+   "medio": "5Días",
+   "url": "https://5dias.com.py/article/economa-acumula-crecimiento-de-55-al-cierre-del-mes-de-setiembre",
+   "titulo": "La economía creció 3,9 % en septiembre y acumula 5,5 % en el año",
+   "unidad": "macro",
+   "tema": "3.1",
+   "kc": "cambio",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "El Indicador Mensual de Actividad Económica (IMAEP) del BCP creció 3,9 % en septiembre frente a septiembre de 2025, y la economía acumuló una expansión de 5,5 % entre enero y septiembre. Impulsaron la generación de electricidad, las manufacturas y los servicios; en cambio, el transporte, los servicios a empresas y las telecomunicaciones tuvieron un mal desempeño. Sin agricultura ni binacionales, el indicador subió 4,0 % en septiembre y 4,9 % en el año.",
+   "contexto": "El IMAEP es un adelanto mensual del PIB: permite ver cómo va la economía sin esperar los datos trimestrales. Que crezca 3,9 % en septiembre muestra que la economía venía fuerte antes de la crisis de Ueno, aunque más lenta que en agosto (6,7 %). El indicador que excluye la agricultura y las binacionales es importante porque la soja y la energía dependen del clima y pueden inflar o reducir el total. Los datos de octubre y noviembre mostrarán si la crisis bancaria frenó la demanda agregada.",
+   "datos": [
+    [
+     "3,9 %",
+     "Crecimiento interanual del IMAEP en septiembre"
+    ],
+    [
+     "5,5 %",
+     "Crecimiento acumulado enero-septiembre"
+    ],
+    [
+     "4,0 %",
+     "IMAEP sin agricultura ni binacionales (septiembre)"
+    ],
+    [
+     "4,9 %",
+     "Ese indicador, acumulado en el año"
+    ]
+   ],
+   "clave": [
+    "3,9 %",
+    "creció la economía en septiembre"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% interanual",
+    "rows": [
+     [
+      "Jun",
+      5.6,
+      0
+     ],
+     [
+      "Jul",
+      5.5,
+      0
+     ],
+     [
+      "Ago",
+      6.7,
+      0
+     ],
+     [
+      "Sep",
+      3.9,
+      1
+     ]
+    ]
+   },
+   "cap": "Variación interanual del IMAEP por mes: septiembre crece menos que agosto, pero la economía sigue en expansión.",
+   "pasos": [
+    "Más generación eléctrica, manufacturas y servicios",
+    "Sube la producción del mes frente a un año antes",
+    "El IMAEP crece 3,9 %",
+    "El acumulado del año llega a 5,5 %",
+    "Es la base antes del golpe de la crisis de Ueno"
+   ],
+   "conceptos": [
+    [
+     "IMAEP",
+     "Indicador mensual que anticipa la evolución del PIB."
+    ],
+    [
+     "Variación interanual",
+     "Cambio frente al mismo mes del año anterior."
+    ],
+    [
+     "PIB real",
+     "Valor de la producción a precios constantes, sin el efecto de la inflación."
+    ],
+    [
+     "Ciclo económico",
+     "Subidas y bajadas de la actividad alrededor de su tendencia."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-oacp"
+   ],
+   "rel": [
+    "pib-2t-2026",
+    "bcp-proyeccion",
+    "consumo-cae"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el BCP publica también un IMAEP sin agricultura ni binacionales?",
+    "opts": [
+     "Porque la soja y la energía dependen mucho del clima y pueden distorsionar el total",
+     "Porque esos sectores no forman parte del PIB",
+     "Porque así el crecimiento siempre parece mayor",
+     "Porque la ley prohíbe medir la agricultura cada mes"
+    ],
+    "ok": 0,
+    "fb": "La agricultura y la energía de Itaipú y Yacyretá varían mucho con la lluvia; quitarlas permite ver mejor la tendencia del resto de la economía."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Trabajadores e industria",
+      "Más producción suele traer más empleo e ingresos."
+     ],
+     [
+      "El Estado",
+      "Más actividad significa más recaudación."
+     ]
+    ],
+    "pierden": [
+     [
+      "Transporte y telecomunicaciones",
+      "Fueron los sectores con peor desempeño en septiembre."
+     ]
+    ],
+    "corto": "El dato es anterior a la crisis de Ueno: octubre y noviembre pueden mostrar un freno del consumo y del crédito.",
+    "largo": "Si la confianza se recupera, la economía puede seguir creciendo cerca de su tendencia de 4 %.",
+    "supuestos": [
+     "Que la crisis bancaria no reduzca con fuerza el crédito ni el consumo.",
+     "Que el clima acompañe a la próxima cosecha."
+    ],
+    "conclusion": "La economía llegó fuerte a la crisis, lo que da margen, pero el freno del crédito puede bajar el crecimiento de fin de año."
+   }
+  },
   {
    "id": "conatel-ueno",
    "fecha": "2026-11-10",
@@ -1531,118 +1943,6 @@
    ]
   },
   {
-   "id": "deforestacion-chaco",
-   "fecha": "2025-03-21",
-   "medio": "RDN",
-   "url": "https://www.rdn.com.py/2025/03/21/paraguay-conserva-443-de-su-territorio-con-cobertura-forestal/",
-   "titulo": "El Chaco concentra casi toda la pérdida de bosque del país",
-   "unidad": "micro",
-   "tema": "2.8",
-   "kc": "sostenibilidad",
-   "sector": [
-    "agro"
-   ],
-   "resumen": "Según datos del INFONA, Paraguay conserva el 44,3 % de su territorio con cobertura forestal, unos 17,7 millones de hectáreas. Entre 2020 y 2022 se transformaron 412.428 hectáreas de bosque nativo, y 361.928 de ellas estaban en el Chaco.",
-   "contexto": "La mayor parte del desmonte en el Chaco se hace para la ganadería y el 77,9 % fue con planes de cambio de uso aprobados por el INFONA: es legal. Desde la economía, es un caso de externalidad negativa de la producción: el productor gana con la tierra para ganado, pero la sociedad pierde biodiversidad, captura de carbono y regulación del clima, costos que no entran en el precio de la carne. Entre 2021 y 2022, Boquerón (90.116 ha) y Alto Paraguay (78.029 ha) fueron los departamentos con más bosque transformado.",
-   "datos": [
-    [
-     "44,3 %",
-     "Territorio con cobertura forestal (2022)"
-    ],
-    [
-     "412.428 ha",
-     "Bosque nativo transformado (2020-2022)"
-    ],
-    [
-     "361.928 ha",
-     "De ese total, en el Chaco"
-    ],
-    [
-     "77,9 %",
-     "Con planes de cambio de uso aprobados"
-    ]
-   ],
-   "clave": [
-    "88 %",
-    "de la pérdida, en el Chaco"
-   ],
-   "fig": {
-    "k": "externalidad"
-   },
-   "cap": "El mercado produce Qₘ, donde el beneficio privado iguala al costo privado. El costo social es mayor (CMS), así que lo óptimo es Qₒ: el triángulo es la pérdida de bienestar.",
-   "pasos": [
-    "El productor convierte bosque en pastura",
-    "Gana con la producción de carne",
-    "La sociedad pierde biodiversidad y captura de carbono",
-    "Ese costo no está en el precio: externalidad negativa",
-    "Se produce más de lo socialmente óptimo"
-   ],
-   "conceptos": [
-    [
-     "Externalidad negativa",
-     "Costo que una actividad impone a terceros sin pagarlo."
-    ],
-    [
-     "Costo marginal social",
-     "Costo privado más el costo para el resto de la sociedad."
-    ],
-    [
-     "Sobreproducción",
-     "El mercado produce más que el óptimo social."
-    ],
-    [
-     "Sostenibilidad",
-     "Usar los recursos sin comprometer a las generaciones futuras."
-    ]
-   ],
-   "diagramas": [
-    "externalidad"
-   ],
-   "rel": [
-    "energia-cedida",
-    "carne-cae"
-   ],
-   "pregunta": {
-    "q": "¿Por qué la deforestación es una falla de mercado?",
-    "opts": [
-     "Porque el costo para la sociedad no se refleja en el precio de lo que se produce",
-     "Porque los ganaderos no quieren ganar dinero",
-     "Porque el bosque es un bien público puro",
-     "Porque el Estado no cobra impuestos"
-    ],
-    "ok": 0,
-    "fb": "Es una externalidad negativa: parte del costo (pérdida de bosque, clima) lo paga la sociedad y no el productor, así que se produce de más."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores ganaderos",
-      "Más tierra productiva."
-     ],
-     [
-      "Exportaciones de carne",
-      "Más producción y divisas."
-     ]
-    ],
-    "pierden": [
-     [
-      "La sociedad y las generaciones futuras",
-      "Pérdida de biodiversidad y de regulación del clima."
-     ],
-     [
-      "Comunidades del Chaco",
-      "Cambios en su entorno y sus recursos."
-     ]
-    ],
-    "corto": "Más producción ganadera.",
-    "largo": "Costos ambientales que no se pueden revertir y riesgo de perder mercados exigentes, como la Unión Europea.",
-    "supuestos": [
-     "Que los datos de 2020-2022 sigan representando la tendencia actual."
-    ],
-    "conclusion": "El desmonte legal no significa que sea eficiente para la sociedad: sin impuestos, regulación o incentivos, el mercado no tiene en cuenta el costo ambiental."
-   }
-  },
-  {
    "id": "pisa-2025",
    "fecha": "2026-09-12",
    "medio": "Prensa Mercosur",
@@ -2616,7 +2916,7 @@
   },
   {
    "id": "ips-ueno",
-   "fecha": "2026-11-09",
+   "fecha": "2026-11-11",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
    "mas": [
@@ -2629,6 +2929,11 @@
      "Última Hora",
      "https://www.ultimahora.com/ips-denunciara-a-ueno-y-bcp-por-mas-de-usd-500-millones-de-fondos-depositados",
      "2026-11-09"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/efecto-ueno-ips-analiza-usar-g-784-239-millones-de-sus-ahorros-para-pagar-jubilaciones-de-este-ano",
+     "2026-11-11"
     ]
    ],
    "titulo": "El IPS tenía más de US$ 500 millones en Ueno y prepara una denuncia",
@@ -2638,8 +2943,8 @@
    "inst": [
     "ips"
    ],
-   "resumen": "El Instituto de Previsión Social tenía fondos de jubilaciones invertidos en bonos y certificados de depósito de Ueno Bank, y unos 32.000 de sus 90.000 jubilados cobraban por ese banco. Tras reunirse con el presidente Alliana, garantizó el pago de haberes y aguinaldo para el 17 de noviembre a través de otros siete bancos. Según su director jurídico, Pablo Morínigo, citado por Última Hora, el monto superaría los US$ 516 millones (unos US$ 334 millones del Fondo de Jubilaciones y US$ 182 millones de fondos de inversión), y el IPS prepara una denuncia contra directivos de Ueno y funcionarios del BCP.",
-   "contexto": "El fondo de jubilaciones es el ahorro de los trabajadores para su vejez. Para que crezca se invierte, y toda inversión tiene riesgo. El IPS tiene recursos en 14 entidades, pero una parte grande estaba en un solo banco que quebró. El caso muestra por qué los fondos de pensiones deben diversificar y por qué la supervisión importa: si el fondo pierde, el costo lo pagan los jubilados o el Estado.",
+   "resumen": "El Instituto de Previsión Social tenía fondos de jubilaciones invertidos en bonos y certificados de depósito de Ueno Bank, y unos 32.000 de sus 90.000 jubilados cobraban por ese banco. Tras reunirse con el presidente Alliana, garantizó el pago de haberes y aguinaldo para el 17 de noviembre a través de otros siete bancos. Según su director jurídico, Pablo Morínigo, citado por Última Hora, el monto superaría los US$ 516 millones (unos US$ 334 millones del Fondo de Jubilaciones y US$ 182 millones de fondos de inversión), y el IPS prepara una denuncia contra directivos de Ueno y funcionarios del BCP. Según Última Hora, un documento interno muestra que el IPS planea usar G. 784.239 millones de las rentas de sus inversiones para pagar jubilaciones y aguinaldo de noviembre y diciembre, porque G. 411.789 millones de su cuenta operativa quedaron inmovilizados en Ueno.",
+   "contexto": "El fondo de jubilaciones es el ahorro de los trabajadores para su vejez. Para que crezca se invierte, y toda inversión tiene riesgo. El IPS tiene recursos en 14 entidades, pero una parte grande estaba en un solo banco que quebró. El caso muestra por qué los fondos de pensiones deben diversificar y por qué la supervisión importa: si el fondo pierde, el costo lo pagan los jubilados o el Estado. Sin Ueno, el IPS habría necesitado solo unos G. 372.450 millones de sus rentas; las proyecciones ya advertían que, sin cambios, el fondo se agotaría en 2046.",
    "datos": [
     [
      "US$ 516 M+",
@@ -2660,6 +2965,14 @@
     [
      "17 nov",
      "Fecha de pago de haberes y aguinaldo"
+    ],
+    [
+     "G. 784.239 M",
+     "Rentas que el IPS usaría para pagar nov. y dic."
+    ],
+    [
+     "G. 411.789 M",
+     "Cuenta operativa del IPS inmovilizada en Ueno"
     ]
    ],
    "clave": [
@@ -2746,7 +3059,7 @@
      ]
     ],
     "corto": "Los pagos se mantienen y se cambian de banco.",
-    "largo": "Si no se recupera el dinero, el fondo se debilita y puede necesitar más aportes o ayuda del Estado.",
+    "largo": "Usar las rentas acumuladas para gastos corrientes adelanta el problema de sostenibilidad del fondo: si no se recupera el dinero, harán falta más aportes, menos beneficios o ayuda del Estado.",
     "supuestos": [
      "Que el proceso de resolución devuelva una parte importante del dinero."
     ],
@@ -2755,26 +3068,22 @@
   },
   {
    "id": "pgn-suspendido",
-   "fecha": "2026-11-10",
+   "fecha": "2026-11-12",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/politica/2026/11/09/a-pedido-de-alliana-diputados-suspende-de-forma-repentina-el-tratamiento-del-presupuesto-2027/",
-   "titulo": "El nuevo gobierno frena el Presupuesto 2027 en Diputados para recortarlo",
+   "titulo": "Presupuesto 2027: el Gobierno propone recortar US$ 276 millones",
    "unidad": "macro",
    "tema": "3.6",
    "kc": "intervencion",
    "inst": [
     "mef"
    ],
-   "resumen": "A pedido del presidente Pedro Alliana, la Cámara de Diputados suspendió el 9 de noviembre el tratamiento del Presupuesto 2027 para que el Gobierno le haga recortes. Según ABC Color, el presidente de Diputados, Raúl Latorre, prevé tratarlo el jueves 12 o el viernes 13, y los cambios deben presentarse antes del viernes 13. El plazo vence el sábado 14: si no se aprueba una versión modificada, queda sancionada la original.",
-   "contexto": "El proyecto original suma G. 166,3 billones y pide un déficit de hasta 3,9 % del PIB. Latorre dijo que el Ejecutivo quiere recortar gastos para dar prioridad a la salud, la educación, la seguridad y las obras, pero todavía no se conocen los montos ni las partidas; el MEF dijo no tener aún esos datos. El economista Aníbal Insfrán pidió en ABC TV que el MEF transparente el déficit real y la deuda total para recuperar la confianza. Recortar gasto reduce el déficit y la necesidad de endeudarse, pero también puede frenar la demanda agregada a corto plazo.",
+   "resumen": "Tras frenar el Presupuesto 2027 el 9 de noviembre, el Ministerio de Economía envió a Diputados el 11 de noviembre una adenda que recorta y reasigna US$ 276 millones, según La Nación; Diputados lo trata en sesión extraordinaria el jueves 12. El mismo día, un centenar de gremios empresariales pidió al presidente Alliana reformular el proyecto con ingresos realistas y cumplir el tope de déficit de 1,5 % del PIB, según Última Hora. El plazo de Diputados vence el sábado 14.",
+   "contexto": "El proyecto original suma G. 166,3 billones y pide un déficit de hasta 3,9 % del PIB. Alliana anunció un recorte en Presidencia (pasajes y viáticos) para destinarlo a salud, que según Última Hora sería de apenas US$ 3 millones. Los gremios piden recortar contrataciones, viáticos y bonificaciones, revisar programas sociales y reformar la Caja Fiscal, y estiman que la crisis de Ueno puede costar al Estado entre 1,5 % y 2 % del PIB. Recortar gasto reduce el déficit y la necesidad de endeudarse, pero también puede frenar la demanda agregada a corto plazo.",
    "datos": [
     [
-     "13 nov",
-     "Plazo para presentar los cambios (Comisión Bicameral)"
-    ],
-    [
-     "14 nov",
-     "Plazo para que Diputados apruebe el Presupuesto"
+     "US$ 276 M",
+     "Recorte y reasignación propuestos por el MEF (adenda)"
     ],
     [
      "G. 166,3 bill.",
@@ -2787,11 +3096,15 @@
     [
      "1,5 %",
      "Límite de la Ley de Responsabilidad Fiscal"
+    ],
+    [
+     "14 nov",
+     "Plazo para que Diputados apruebe el Presupuesto"
     ]
    ],
    "clave": [
-    "14 nov",
-    "plazo en Diputados"
+    "US$ 276 M",
+    "de recorte propuesto"
    ],
    "fig": {
     "k": "macro",
@@ -2832,7 +3145,8 @@
     "pgn-2027",
     "sp-calificacion",
     "bonos-embi",
-    "alliana-gobierno"
+    "alliana-gobierno",
+    "fitch-revision"
    ],
    "pregunta": {
     "q": "Si el Gobierno recorta el gasto público, ¿qué pasa con la demanda agregada a corto plazo?",
@@ -2884,6 +3198,21 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/11/pgn-y-deficit-economista-pide-a-autoridades-transparentar-las-cuentas-del-estado/",
      "2026-11-11"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/politica/2026/11/11/ministerio-de-economia-remite-adenda-a-diputados-con-un-recorte-de-usd-276-millones/",
+     "2026-11-11"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/gremios-empresariales-se-unen-y-exigen-replantear-pgn-2027-eliminar-privilegios-y-gastos-superfluos",
+     "2026-11-11"
+    ],
+    [
+     "5Días",
+     "https://5dias.com.py/article/diputados-tratar-hoy-el-presupuesto-2027-en-sesin-extraordinaria",
+     "2026-11-12"
     ]
    ]
   },
@@ -3239,7 +3568,7 @@
   },
   {
    "id": "ueno-devolucion",
-   "fecha": "2026-11-09",
+   "fecha": "2026-11-11",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
    "mas": [
@@ -3257,39 +3586,44 @@
      "Diario Hoy",
      "https://www.hoy.com.py/nacionales/2026/11/09/ueno-bcp-suma-beneficiarios-pero-estos-ahorristas-seguiran-esperando",
      "2026-11-09"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/primera-semana-del-colapso-de-ueno-el-fgd-desembolso-usd-644-millones-a-1-8-millones-de-afectados",
+     "2026-11-11"
     ]
    ],
    "titulo": "Una ley nueva adelanta la devolución de depósitos de Ueno Bank",
    "unidad": "micro",
    "tema": "2.10",
    "kc": "intervencion",
-   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos puede adelantar hasta G. 121.760.000 por cliente de Ueno Bank. Según el BCP, citado por Última Hora el 9 de noviembre, los anticipos ya llegaron a 1.738.804 personas (93,1 % de los afectados) por G. 2,1 billones, unos US$ 337,3 millones. Quedan unas 128.000 cuentas, entre ellas las que tienen bloqueos judiciales, certificados de depósito (CDA) u operaciones de la AFD; la ley fija como plazo máximo el miércoles 11 de noviembre.",
-   "contexto": "La garantía de depósitos protege a los ahorristas que no pueden saber cómo maneja un banco su dinero: el banco sabe mucho más que el cliente, un caso de información asimétrica. Pero también tiene un costo: si los bancos saben que el Estado cubrirá a sus clientes, pueden asumir más riesgos (riesgo moral). Por eso la garantía tiene un tope y viene acompañada de supervisión. Unos 280.000 clientes que solo tenían cuenta en Ueno recibirán cuentas temporales por 90 días en otros bancos.",
+   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos (FGD) puede adelantar hasta G. 121.760.000 (40 salarios mínimos) por cliente de Ueno Bank. Según el BCP, citado por Última Hora, al vencer el plazo legal el 11 de noviembre el anticipo llegó al 100 % de los clientes: 1.812.348 personas, por G. 3,99 billones (unos US$ 644 millones). A 29.988 titulares de certificados de depósito (CDA) el dinero ya se transfirió, pero se libera después de validar sus datos en una plataforma del BCP; el resto, hasta 75 salarios mínimos, se pagará en las próximas semanas.",
+   "contexto": "La garantía de depósitos protege a los ahorristas que no pueden saber cómo maneja un banco su dinero: el banco sabe mucho más que el cliente, un caso de información asimétrica. Pero también tiene un costo: si los bancos saben que el Estado cubrirá a sus clientes, pueden asumir más riesgos (riesgo moral). Por eso la garantía tiene un tope y viene acompañada de supervisión. Unos 280.000 clientes que solo tenían cuenta en Ueno recibirán cuentas temporales por 90 días en otros bancos. El BCP informó que Ueno tenía unos G. 14,5 billones en depósitos y que el FGD cubre hasta G. 4,5 billones, el 26 %; la próxima etapa es pasar activos y pasivos a otra entidad.",
    "datos": [
     [
      "G. 121.760.000",
-     "Anticipo máximo por cliente (Ley 7755/26)"
+     "Anticipo máximo por cliente (40 salarios mínimos)"
     ],
     [
-     "1.738.804",
-     "Personas que ya cobraron su anticipo (9 nov, BCP)"
+     "1.812.348",
+     "Personas que cobraron el anticipo (100 %, 11 nov)"
     ],
     [
-     "93,1 %",
-     "Parte de los afectados que ya cobró"
+     "US$ 644 M",
+     "Monto total pagado (G. 3,99 billones)"
     ],
     [
-     "G. 2,1 bill.",
-     "Monto pagado, unos US$ 337,3 millones"
+     "26 %",
+     "Parte de los depósitos de Ueno que cubre el FGD"
     ],
     [
-     "128.000",
-     "Cuentas que faltan pagar"
+     "US$ 1.243 M",
+     "Saldo aproximado del FGD al 10 de noviembre (de US$ 1.600 M)"
     ]
    ],
    "clave": [
-    "93,1 %",
-    "de los afectados ya cobró"
+    "100 %",
+    "de los clientes recibió el anticipo"
    ],
    "fig": {
     "k": "barras",
@@ -6505,99 +6839,6 @@
    }
   },
   {
-   "id": "apuestas-online",
-   "fecha": "2025-03-27",
-   "medio": "UNICEF Paraguay",
-   "url": "https://www.unicef.org/paraguay/comunicados-prensa/unicef-alerta-sobre-adicci%C3%B3n-de-adolescentes-apuestas-online-y-presenta-gu%C3%ADa",
-   "titulo": "Apuestas en línea: por qué los adolescentes no deciden como el «homo economicus»",
-   "unidad": "micro",
-   "tema": "2.4",
-   "kc": "eleccion",
-   "resumen": "UNICEF alertó sobre la adicción de adolescentes a las apuestas en línea, un problema que también afecta a Paraguay, y presentó una guía para las familias. Entre las señales de alerta menciona movimientos de dinero sin explicación en billeteras virtuales y endeudamiento. Según UNICEF, la ley paraguaya prohíbe a los menores jugar en tragamonedas, pero hay un vacío legal sobre las apuestas en línea, y los menores suelen apostar con la cuenta de un adulto.",
-   "contexto": "La teoría clásica supone consumidores racionales que comparan costos y beneficios con toda la información. La economía del comportamiento muestra que las personas, y más los adolescentes, deciden con sesgos: exceso de confianza («esta vez gano»), preferencia por lo inmediato sobre el futuro, y reacciones a la publicidad y a los influencers. Las plataformas de apuestas aprovechan esos sesgos. Por eso se proponen respuestas como regulación, límites, información clara y «empujones» (nudges) que ayudan a decidir mejor sin prohibir.",
-   "datos": [
-    [
-     "Ley 6903/22",
-     "Ley de juegos de azar; su decreto prohíbe a menores jugar en tragamonedas"
-    ],
-    [
-     "Vacío legal",
-     "No hay regulación específica sobre apuestas en línea de menores, según UNICEF"
-    ]
-   ],
-   "clave": [
-    "Sesgos",
-    "que las plataformas aprovechan"
-   ],
-   "fig": {
-    "k": "mercado",
-    "mueve": "D",
-    "dir": -1
-   },
-   "cap": "Con sesgos, el jugador cree que apostar vale más de lo que realmente vale. Si tuviera en cuenta los costos reales (deudas, adicción), su demanda sería menor: D₁ → D₂.",
-   "pasos": [
-    "Las plataformas ofrecen apuestas fáciles desde el celular",
-    "Los adolescentes deciden con sesgos: exceso de confianza y preferencia por lo inmediato",
-    "Apuestan más de lo que harían con toda la información",
-    "Aparecen deudas y problemas familiares",
-    "Se proponen regulación, información y nudges"
-   ],
-   "conceptos": [
-    [
-     "Racionalidad limitada",
-     "Las personas deciden con información, tiempo y capacidad limitados."
-    ],
-    [
-     "Sesgo de exceso de confianza",
-     "Creer que las probabilidades de ganar son mayores de lo que son."
-    ],
-    [
-     "Sesgo del presente",
-     "Valorar mucho más el placer inmediato que los costos futuros."
-    ],
-    [
-     "Nudge (empujón)",
-     "Cambio en cómo se presentan las opciones para ayudar a decidir mejor sin prohibir."
-    ]
-   ],
-   "diagramas": [
-    "oferta-demanda"
-   ],
-   "rel": [],
-   "pregunta": {
-    "q": "¿Qué sesgo explica que un adolescente siga apostando porque cree que «la próxima vez gana»?",
-    "opts": [
-     "Exceso de confianza",
-     "Aversión a las pérdidas",
-     "Elasticidad precio",
-     "Costo de oportunidad"
-    ],
-    "ok": 0,
-    "fb": "El exceso de confianza lleva a sobrestimar la probabilidad de ganar, y es uno de los sesgos que estudia la economía del comportamiento."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Plataformas de apuestas",
-      "Más jugadores y más ingresos."
-     ]
-    ],
-    "pierden": [
-     [
-      "Adolescentes y familias",
-      "Deudas, adicción y conflictos."
-     ]
-    ],
-    "corto": "Crecen las apuestas y los casos de endeudamiento.",
-    "largo": "La adicción tiene costos de salud y sociales que paga la sociedad.",
-    "supuestos": [
-     "Que los menores puedan acceder con cuentas de adultos",
-     "Que la publicidad influya en sus decisiones"
-    ],
-    "conclusion": "Las apuestas muestran los límites del consumidor racional: con sesgos tan fuertes, regular e informar se justifica, sobre todo para menores."
-   }
-  },
-  {
    "id": "ganado-oferta",
    "fecha": "2026-03-17",
    "medio": "La Nación",
@@ -7074,122 +7315,6 @@
    }
   },
   {
-   "id": "arancel-eeuu",
-   "fecha": "2025-04-03",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/sector-carnico-el-mayor-exportador-de-paraguay-a-eeuu-que-dice-sobre-los-aranceles-de-trump",
-   "titulo": "Aranceles de EE.UU.: la carne paraguaya paga 26,4 % fuera de la cuota",
-   "unidad": "global",
-   "tema": "4.2",
-   "kc": "interdependencia",
-   "sector": [
-    "agro",
-    "comercio"
-   ],
-   "mundo": [
-    "eeuu"
-   ],
-   "resumen": "Estados Unidos aplicó un arancel recíproco de 10 % a importaciones de más de 180 países, entre ellos los del Mercosur. Además, la carne vacuna paraguaya paga un arancel de 26,4 % cuando entra fuera de la cuota preferencial de 65.000 toneladas que comparte con otros países, una cuota que se agota en los primeros meses del año. Entre enero y marzo de 2025, EE.UU. compró unas 10.442 toneladas de carne paraguaya por US$ 59,6 millones.",
-   "contexto": "Un arancel es un impuesto a las importaciones: encarece el producto extranjero y protege a los productores del país que lo cobra. Una cuota es un límite a la cantidad que puede entrar; aquí se combinan en un «contingente arancelario»: dentro de la cuota el arancel es bajo y, fuera de ella, alto. Para Paraguay, eso significa que su carne compite en EE.UU. con desventaja frente a los productores estadounidenses. Daniel Burt, presidente de la Cámara Paraguaya de Carnes, dijo que la medida afecta al comercio y que habrá que evaluar si sigue siendo rentable exportar.",
-   "datos": [
-    [
-     "10 %",
-     "Arancel recíproco de EE.UU. a más de 180 países"
-    ],
-    [
-     "26,4 %",
-     "Arancel a la carne paraguaya fuera de la cuota"
-    ],
-    [
-     "65.000 t",
-     "Cuota compartida con otros países"
-    ],
-    [
-     "10.442 t",
-     "Carne paraguaya comprada por EE.UU. (ene-mar 2025)"
-    ],
-    [
-     "US$ 59,6 M",
-     "Valor de esas compras"
-    ]
-   ],
-   "clave": [
-    "26,4 %",
-    "arancel fuera de la cuota"
-   ],
-   "fig": {
-    "k": "arancel"
-   },
-   "cap": "El arancel sube el precio de la carne importada en EE.UU.: baja la cantidad importada, ganan los productores estadounidenses y el Gobierno recauda, y hay una pérdida de bienestar.",
-   "pasos": [
-    "EE.UU. cobra un arancel a la carne importada",
-    "La carne paraguaya llega más cara al consumidor estadounidense",
-    "Se importa menos y se produce más dentro de EE.UU.",
-    "Los exportadores paraguayos venden menos o a menor precio",
-    "Paraguay busca otros mercados"
-   ],
-   "conceptos": [
-    [
-     "Arancel",
-     "Impuesto a los bienes importados."
-    ],
-    [
-     "Cuota de importación",
-     "Límite a la cantidad de un bien que puede importarse."
-    ],
-    [
-     "Contingente arancelario",
-     "Arancel bajo dentro de una cuota y alto fuera de ella."
-    ],
-    [
-     "Pérdida de bienestar",
-     "Disminución del excedente total por la protección."
-    ]
-   ],
-   "diagramas": [
-    "arancel"
-   ],
-   "rel": [
-    "carne-cae",
-    "mercosur-ue"
-   ],
-   "pregunta": {
-    "q": "¿Quién gana con el arancel de EE.UU. a la carne importada?",
-    "opts": [
-     "Los productores de carne de EE.UU. y el gobierno de EE.UU.",
-     "Los exportadores paraguayos",
-     "Los consumidores de EE.UU.",
-     "Nadie gana"
-    ],
-    "ok": 0,
-    "fb": "El arancel protege a los productores nacionales y genera recaudación, pero los consumidores pagan más y los exportadores extranjeros venden menos."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores de carne de EE.UU.",
-      "Menos competencia."
-     ]
-    ],
-    "pierden": [
-     [
-      "Frigoríficos y ganaderos paraguayos",
-      "Menos ventas o precios más bajos."
-     ],
-     [
-      "Consumidores de EE.UU.",
-      "Carne más cara."
-     ]
-    ],
-    "corto": "Menos exportaciones de carne a EE.UU.",
-    "largo": "Paraguay diversifica destinos.",
-    "supuestos": [
-     "Que no haya acuerdos que amplíen la cuota"
-    ],
-    "conclusion": "Los aranceles de un país grande trasladan costos a sus socios: por eso a Paraguay le conviene diversificar mercados."
-   }
-  },
-  {
    "id": "china-taiwan-uip",
    "fecha": "2025-08-21",
    "medio": "Última Hora",
@@ -7585,7 +7710,7 @@
   },
   {
    "id": "bcp-caballero",
-   "fecha": "2026-11-10",
+   "fecha": "2026-11-11",
    "medio": "La Nación",
    "url": "https://www.lanacion.com.py/negocios/2026/11/10/liana-caballero-renuncio-al-directorio-del-bcp/",
    "mas": [
@@ -7598,17 +7723,22 @@
      "Diario Hoy",
      "https://www.hoy.com.py/nacionales/2026/11/10/renuncia-otra-integrante-del-directorio-del-bcp",
      "2026-11-10"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/miguel-mora-renuncia-al-directorio-del-bcp-y-se-completara-el-recambio-de-la-cupula-tras-el-caso-ueno-bank",
+     "2026-11-11"
     ]
    ],
-   "titulo": "Renuncia Liana Caballero: el directorio del BCP queda casi vacío",
+   "titulo": "Renuncia también Miguel Mora: el BCP cambia todo su directorio",
    "unidad": "macro",
    "tema": "3.5",
    "kc": "intervencion",
    "inst": [
     "bcp"
    ],
-   "resumen": "La economista Liana Caballero presentó el 10 de noviembre al Senado su renuncia como miembro titular del directorio del Banco Central del Paraguay, una semana después de la intervención de Ueno Bank. Había ocupado la presidencia interina tras la salida de Carlos Carvallo. Según Última Hora, figura entre las autoridades denunciadas por un grupo de senadores por el caso Ueno.",
-   "contexto": "El directorio del BCP tiene un presidente y cuatro directores, y necesita al menos tres miembros para sesionar, según Diario Hoy. Antes ya habían renunciado Carvallo, Carmen Marín y Marco Aurelio González; Última Hora señala que de quienes supervisaban a Ueno solo queda Miguel Mora. El BCP decide la tasa de interés y supervisa a los bancos, y su fuerza depende de la credibilidad: si el público duda del banco central, es más difícil anclar la inflación y el tipo de cambio. Por eso importa que el directorio se complete pronto con Jorge Schreiner y Fernando Rivarola, ya aprobados por el Senado.",
+   "resumen": "La economista Liana Caballero renunció el 10 de noviembre al directorio del Banco Central del Paraguay, y el 11 se conoció la renuncia de Miguel Mora (fechada el 9), el último director que quedaba de antes de la crisis de Ueno. Según Última Hora, ya asumieron Jorge Schreiner como presidente, Fernando Rivarola y Pedro Acosta; el presidente Pedro Alliana debe proponer a los miembros que faltan.",
+   "contexto": "El directorio del BCP tiene un presidente y cuatro directores, y necesita al menos tres miembros para sesionar, según Diario Hoy. Antes habían renunciado Carlos Carvallo, Carmen Marín y Marco Aurelio González. Con tres miembros nuevos el BCP vuelve a tener cuórum antes de la reunión de tasa del 20 de noviembre. El BCP decide la tasa de interés y supervisa a los bancos, y su fuerza depende de la credibilidad: si el público duda del banco central, es más difícil anclar la inflación y el tipo de cambio.",
    "datos": [
     [
      "5",
@@ -7616,10 +7746,10 @@
     ],
     [
      "3",
-     "Mínimo de miembros para sesionar (cuórum)"
+     "Mínimo para sesionar; hoy hay 3 miembros nuevos"
     ],
     [
-     "4",
+     "5",
      "Renuncias en el directorio desde la crisis de Ueno"
     ],
     [
@@ -7628,7 +7758,7 @@
     ]
    ],
    "clave": [
-    "4",
+    "5",
     "renuncias en el directorio del BCP"
    ],
    "fig": {
@@ -7677,6 +7807,7 @@
     "politica-monetaria"
    ],
    "rel": [
+    "bcp-cambiaria",
     "ueno-intervencion",
     "bcp-tpm",
     "ueno-morosidad",
@@ -7714,10 +7845,10 @@
       "Más incertidumbre sobre decisiones como la tasa del 20 de noviembre."
      ]
     ],
-    "corto": "Hasta que juren las nuevas autoridades, el BCP funciona con un directorio incompleto en plena crisis.",
+    "corto": "Con Schreiner, Rivarola y Acosta el BCP recupera el cuórum, pero faltan dos directores en plena crisis.",
     "largo": "Un directorio renovado y una supervisión más estricta podrían devolver la confianza; si las denuncias se confirman, puede haber reformas a la ley del BCP.",
     "supuestos": [
-     "Que Schreiner y Rivarola juren pronto y completen el cuórum.",
+     "Que Alliana proponga pronto a los dos directores que faltan.",
      "Que la investigación aclare las fallas de supervisión."
     ],
     "conclusion": "Las renuncias abren la puerta a renovar la supervisión, pero dejan al BCP debilitado justo cuando más necesita credibilidad; la rapidez para completar el directorio es clave."
@@ -7755,6 +7886,10 @@
     [
      "2026-08-31",
      6.7
+    ],
+    [
+     "2026-09-30",
+     3.9
     ]
    ],
    "lee": "Variación del mes frente al mismo mes de 2025. Es el indicador mensual más parecido al PIB: en mayo la economía se desaceleró y desde junio volvió a crecer fuerte."
@@ -7917,6 +8052,10 @@
     [
      "2026-08-31",
      16.6
+    ],
+    [
+     "2026-09-30",
+     16.5
     ]
    ],
    "lee": "Variación interanual de los préstamos de bancos y financieras. Más crédito impulsa el consumo y la inversión: es un canal de la política monetaria."
@@ -7967,6 +8106,11 @@
      "2026-11-06",
      "Destitución de Peña; asume Alliana",
      "alliana-gobierno"
+    ],
+    [
+     "2026-11-10",
+     "El nuevo presidente del BCP anuncia que podría comprar dólares",
+     "bcp-cambiaria"
     ]
    ]
   },
@@ -8186,13 +8330,13 @@
   },
   "2026-11-09": {
    "titulo": "Una semana con plazos: Presupuesto y tasa de interés",
-   "texto": "La semana arranca con el Presupuesto 2027 en suspenso: el nuevo gobierno pidió recortes, los cambios deben llegar antes del viernes 13 y Diputados tiene hasta el sábado 14, mientras la deuda pública ya llega a 35,4 % del PIB. El dólar baja (G. 6.200 en casas de cambio el martes) a medida que se devuelven los depósitos de Ueno, y S&P mantuvo el grado de inversión, aunque advirtió sobre el costo fiscal. El BCP sigue sin directorio completo tras la renuncia de Liana Caballero, y la crisis golpea el consumo y a la ANDE, que congela la tarifa por un año. El 20 de noviembre el BCP decide su tasa.",
+   "texto": "La semana estuvo marcada por las consecuencias de Ueno: el Fondo de Garantía terminó el 11 de noviembre de pagar el anticipo al 100 % de los clientes (US$ 644 millones), pero Fitch puso la nota del país en revisión negativa por el posible costo fiscal de los depósitos no asegurados. El BCP renovó todo su directorio y su nuevo presidente, Jorge Schreiner, anunció que podría comprar dólares para estabilizar la cotización. El Gobierno propuso recortar US$ 276 millones del Presupuesto 2027, que Diputados trata el jueves 12, mientras el IPS usará sus rentas para pagar jubilaciones. El IMAEP mostró que la economía crecía 3,9 % en septiembre, antes de la crisis.",
    "claves": [
     "pgn-suspendido",
+    "fitch-revision",
+    "bcp-cambiaria",
     "bcp-caballero",
-    "sp-calificacion",
-    "dolar-6600",
-    "consumo-cae"
+    "ueno-devolucion"
    ]
   }
  },
@@ -8239,41 +8383,32 @@
     {
      "cargo": "Presidente",
      "nombre": "Jorge Schreiner",
-     "estado": "Decreto 7212 firmado; falta juramento",
-     "desde": "2026-11-09",
+     "estado": "En el cargo",
+     "desde": "2026-11-10",
      "fuente": "Última Hora",
-     "url": "https://www.ultimahora.com/alliana-nombra-a-jorge-schreiner-como-nuevo-presidente-del-bcp",
-     "nota": "Propuesto por el presidente Pedro Alliana y aprobado por el Senado el 9 de noviembre."
-    },
-    {
-     "cargo": "Presidente interino",
-     "nombre": "Pedro de Jesús Acosta",
-     "estado": "En el cargo hasta que asuma el titular",
-     "desde": "2026-11-04",
-     "fuente": "ABC Color",
-     "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
-     "nota": "Miembro del directorio por el Decreto 7196."
+     "url": "https://www.ultimahora.com/nuevo-titular-de-bcp-dice-que-apuntan-a-recuperar-credibilidad-e-intervenir-en-tipo-de-cambio",
+     "nota": "Propuesto por Pedro Alliana y aprobado por el Senado el 9 de noviembre; su mandato va hasta 2028."
     },
     {
      "cargo": "Miembro del directorio",
      "nombre": "Fernando Rivarola",
-     "estado": "Decreto 7213 firmado; falta juramento",
-     "desde": "2026-11-09",
+     "estado": "En el cargo",
+     "desde": "2026-11-10",
      "fuente": "Última Hora",
-     "url": "https://www.ultimahora.com/alliana-nombra-a-jorge-schreiner-como-nuevo-presidente-del-bcp",
+     "url": "https://www.ultimahora.com/nuevo-titular-de-bcp-dice-que-apuntan-a-recuperar-credibilidad-e-intervenir-en-tipo-de-cambio",
      "nota": "Exgerente de Supervisión de la Superintendencia de Bancos; según ABC Color, es el técnico que alertó sobre Ueno Bank."
     },
     {
      "cargo": "Miembro del directorio",
-     "nombre": "Miguel Mora",
+     "nombre": "Pedro de Jesús Acosta",
      "estado": "En el cargo",
-     "desde": "",
-     "fuente": "La Nación",
-     "url": "https://www.lanacion.com.py/negocios/2026/11/09/pedro-alliana-propone-a-jorge-schreiner-para-la-presidencia-del-bcp/",
-     "nota": ""
+     "desde": "2026-11-04",
+     "fuente": "Última Hora",
+     "url": "https://www.ultimahora.com/miguel-mora-renuncia-al-directorio-del-bcp-y-se-completara-el-recambio-de-la-cupula-tras-el-caso-ueno-bank",
+     "nota": "Fue presidente interino hasta que asumió Schreiner."
     }
    ],
-   "autoridades_nota": "Por la crisis de Ueno Bank renunciaron el presidente Carlos Carvallo y los miembros Carmen Marín, Marco Aurelio González y Liana Caballero (10 de noviembre). Los directores los designa el Poder Ejecutivo con acuerdo del Senado.",
+   "autoridades_nota": "Por la crisis de Ueno Bank renunciaron el presidente Carlos Carvallo y los miembros Carmen Marín, Marco Aurelio González, Liana Caballero (10 de noviembre) y Miguel Mora (renuncia fechada el 9 y conocida el 11 de noviembre). Faltan dos directores, que debe proponer el presidente Pedro Alliana con acuerdo del Senado.",
    "cifras": [
     [
      "tpm",
@@ -8299,10 +8434,6 @@
     ]
    ],
    "agenda": [
-    [
-     "2026-11-11",
-     "Plazo máximo legal para terminar de pagar los anticipos de Ueno Bank."
-    ],
     [
      "2026-11-20",
      "Próxima reunión del Comité de Política Monetaria: decide si cambia la tasa."
@@ -8348,6 +8479,18 @@
     [
      "2026-11-10",
      "Liana Caballero, que había sido presidenta interina, renuncia al directorio ante el Senado."
+    ],
+    [
+     "2026-11-10",
+     "Jorge Schreiner asume la presidencia: anuncia que el BCP podría comprar dólares, además de venderlos, para estabilizar el tipo de cambio."
+    ],
+    [
+     "2026-11-11",
+     "Se conoce la renuncia de Miguel Mora al directorio; quedan Schreiner, Rivarola y Acosta."
+    ],
+    [
+     "2026-11-11",
+     "Vence el plazo legal: el anticipo de Ueno llegó a 1.812.348 personas (100 %) por US$ 644 millones."
     ]
    ],
    "enlaces": [
@@ -8488,6 +8631,14 @@
     [
      "2026-11-10",
      "Diputados prevé tratar el Presupuesto 2027 el 12 o 13 de noviembre; el Ejecutivo debe presentar los recortes antes del 13."
+    ],
+    [
+     "2026-11-11",
+     "Envía a Diputados una adenda al Presupuesto 2027 con un recorte y reasignación de US$ 276 millones."
+    ],
+    [
+     "2026-11-11",
+     "Fitch pone en revisión negativa la nota BB+ de Paraguay por la crisis de Ueno."
     ]
    ],
    "enlaces": [
@@ -9128,6 +9279,15 @@
     "tema": "3.6",
     "url": "https://www.abc.com.py/economia/2026/11/10/pgn-2027-diputados-preve-tratar-el-presupuesto-entre-el-jueves-y-el-viernes/",
     "fuente": "ABC Color"
+   },
+   {
+    "f": "2026-11-12",
+    "t": "Diputados trata el Presupuesto 2027 con los recortes",
+    "d": "Sesión extraordinaria para analizar la adenda del MEF, que recorta y reasigna US$ 276 millones.",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.lanacion.com.py/politica/2026/11/11/ministerio-de-economia-remite-adenda-a-diputados-con-un-recorte-de-usd-276-millones/",
+    "fuente": "La Nación"
    }
   ],
   "habituales": [
@@ -9710,7 +9870,9 @@
     "conatel-ueno",
     "sp-calificacion",
     "bcp-caballero",
-    "ande-tarifa"
+    "ande-tarifa",
+    "bcp-cambiaria",
+    "fitch-revision"
    ],
    "hitos": [
     [
@@ -9802,6 +9964,26 @@
      "ande-tarifa"
     ],
     [
+     "2026-11-10",
+     "Asume Jorge Schreiner en el BCP y anuncia que podría comprar dólares.",
+     "bcp-cambiaria"
+    ],
+    [
+     "2026-11-11",
+     "Fitch pone la nota de Paraguay en revisión negativa.",
+     "fitch-revision"
+    ],
+    [
+     "2026-11-11",
+     "El anticipo del FGD llega al 100 % de los clientes: 1.812.348 personas.",
+     "ueno-devolucion"
+    ],
+    [
+     "2026-11-11",
+     "El IPS planea usar G. 784.239 millones de sus rentas para pagar jubilaciones.",
+     "ips-ueno"
+    ],
+    [
      "2026-11-17",
      "El IPS paga jubilaciones y aguinaldo."
     ]
@@ -9824,7 +10006,8 @@
     "pobreza-16",
     "pgn-suspendido",
     "deuda-setiembre",
-    "sp-calificacion"
+    "sp-calificacion",
+    "fitch-revision"
    ],
    "hitos": [
     [
@@ -9858,6 +10041,16 @@
      "pgn-suspendido"
     ],
     [
+     "2026-11-11",
+     "El MEF envía una adenda con un recorte de US$ 276 millones; los gremios piden reformular el proyecto.",
+     "pgn-suspendido"
+    ],
+    [
+     "2026-11-11",
+     "Fitch advierte que el déficit hace improbable volver al tope de 1,5 % en 2028.",
+     "fitch-revision"
+    ],
+    [
      "2026-11-14",
      "Vence el plazo en Diputados: si no aprueba cambios, queda la versión original."
     ]
@@ -9880,7 +10073,8 @@
     "recaudacion-dnit",
     "bolsa-octubre",
     "guarani-cae",
-    "dolar-6600"
+    "dolar-6600",
+    "bcp-cambiaria"
    ],
    "hitos": [
     [
@@ -9919,6 +10113,11 @@
      "2026-11-09",
      "El dólar baja a G. 6.300 en casas de cambio; interbancario a G. 6.226.",
      "dolar-6600"
+    ],
+    [
+     "2026-11-10",
+     "El nuevo presidente del BCP anuncia que podría comprar dólares para estabilizar la cotización.",
+     "bcp-cambiaria"
     ]
    ]
   },
@@ -12373,41 +12572,41 @@
     "n": "Jorge Schreiner",
     "cargo": "Presidente · Banco Central del Paraguay",
     "tipo": "Gobierno",
-    "estado": "Decreto 7212 firmado; falta juramento",
+    "estado": "En el cargo",
     "que": "Habla en nombre de Banco Central del Paraguay.",
     "link": "#inst-bcp",
     "fuente": "Última Hora",
-    "url": "https://www.ultimahora.com/alliana-nombra-a-jorge-schreiner-como-nuevo-presidente-del-bcp"
+    "url": "https://www.ultimahora.com/nuevo-titular-de-bcp-dice-que-apuntan-a-recuperar-credibilidad-e-intervenir-en-tipo-de-cambio"
    },
    {
     "n": "Pedro de Jesús Acosta",
-    "cargo": "Presidente interino · Banco Central del Paraguay",
-    "tipo": "Gobierno",
-    "estado": "En el cargo hasta que asuma el titular",
-    "que": "Habla en nombre de Banco Central del Paraguay.",
-    "link": "#inst-bcp",
-    "fuente": "ABC Color",
-    "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/"
-   },
-   {
-    "n": "Fernando Rivarola",
-    "cargo": "Miembro del directorio · Banco Central del Paraguay",
-    "tipo": "Gobierno",
-    "estado": "Decreto 7213 firmado; falta juramento",
-    "que": "Habla en nombre de Banco Central del Paraguay.",
-    "link": "#inst-bcp",
-    "fuente": "Última Hora",
-    "url": "https://www.ultimahora.com/alliana-nombra-a-jorge-schreiner-como-nuevo-presidente-del-bcp"
-   },
-   {
-    "n": "Miguel Mora",
     "cargo": "Miembro del directorio · Banco Central del Paraguay",
     "tipo": "Gobierno",
     "estado": "En el cargo",
     "que": "Habla en nombre de Banco Central del Paraguay.",
     "link": "#inst-bcp",
-    "fuente": "La Nación",
-    "url": "https://www.lanacion.com.py/negocios/2026/11/09/pedro-alliana-propone-a-jorge-schreiner-para-la-presidencia-del-bcp/"
+    "fuente": "Última Hora",
+    "url": "https://www.ultimahora.com/miguel-mora-renuncia-al-directorio-del-bcp-y-se-completara-el-recambio-de-la-cupula-tras-el-caso-ueno-bank"
+   },
+   {
+    "n": "Fernando Rivarola",
+    "cargo": "Miembro del directorio · Banco Central del Paraguay",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Habla en nombre de Banco Central del Paraguay.",
+    "link": "#inst-bcp",
+    "fuente": "Última Hora",
+    "url": "https://www.ultimahora.com/nuevo-titular-de-bcp-dice-que-apuntan-a-recuperar-credibilidad-e-intervenir-en-tipo-de-cambio"
+   },
+   {
+    "n": "Miguel Mora",
+    "cargo": "Exmiembro del directorio · Banco Central del Paraguay",
+    "tipo": "Gobierno",
+    "estado": "Renunció (renuncia fechada el 9 de noviembre de 2026)",
+    "que": "Integró el directorio del BCP desde agosto de 2024.",
+    "link": "#inst-bcp",
+    "fuente": "Última Hora",
+    "url": "https://www.ultimahora.com/miguel-mora-renuncia-al-directorio-del-bcp-y-se-completara-el-recambio-de-la-cupula-tras-el-caso-ueno-bank"
    },
    {
     "n": "Liana Caballero",
@@ -13161,8 +13360,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-11",
-  "hora": "06:53",
+  "fecha": "2026-11-12",
+  "hora": "06:45",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -13171,7 +13370,7 @@
     "USD",
     "Dólar estadounidense",
     5900,
-    6250
+    6170
    ],
    [
     "ARS",
@@ -13182,13 +13381,13 @@
    [
     "BRL",
     "Real brasileño",
-    1080,
-    1200
+    1100,
+    1190
    ],
    [
     "EUR",
     "Euro",
-    6000,
+    6150,
     7000
    ]
   ],
@@ -13208,6 +13407,11 @@
      "2026-11-11",
      5900,
      6250
+    ],
+    [
+     "2026-11-12",
+     5900,
+     6170
     ]
    ],
    "ARS": [
@@ -13223,6 +13427,11 @@
     ],
     [
      "2026-11-11",
+     3.5,
+     4
+    ],
+    [
+     "2026-11-12",
      3.5,
      4
     ]
@@ -13242,6 +13451,11 @@
      "2026-11-11",
      1080,
      1200
+    ],
+    [
+     "2026-11-12",
+     1100,
+     1190
     ]
    ],
    "EUR": [
@@ -13259,6 +13473,11 @@
      "2026-11-11",
      6000,
      7000
+    ],
+    [
+     "2026-11-12",
+     6150,
+     7000
     ]
    ]
   }
@@ -13269,8 +13488,8 @@
   "etiqueta": "Especial Ueno",
   "cifras": [
    [
-    "1.738.804",
-    "Personas que ya cobraron su anticipo (93,1 %)",
+    "1.812.348",
+    "Personas que cobraron su anticipo (100 %, US$ 644 M)",
     "ueno-devolucion"
    ],
    [
@@ -13292,6 +13511,11 @@
     "7.000",
     "Trabajadores de empresas ligadas a Ueno sin tareas ni salario",
     "mtess-ueno"
+   ],
+   [
+    "US$ 2.100 M",
+    "Depósitos de Ueno no asegurados, según Fitch",
+    "fitch-revision"
    ]
   ],
   "actores": [
@@ -13307,7 +13531,7 @@
    ],
    [
     "IPS",
-    "Tenía más de US$ 516 millones en Ueno, garantizó las jubilaciones y prepara una denuncia.",
+    "Tenía más de US$ 516 millones en Ueno; garantiza las jubilaciones usando las rentas de sus inversiones y prepara una denuncia.",
     "ips-ueno"
    ],
    [
@@ -13329,6 +13553,11 @@
     "Ministerio de Trabajo",
     "Liberó a unos 7.000 trabajadores de las cláusulas de exclusividad para que busquen otro empleo.",
     "mtess-ueno"
+   ],
+   [
+    "Fitch",
+    "Puso en revisión negativa la nota BB+ de Paraguay por el costo fiscal de Ueno.",
+    "fitch-revision"
    ]
   ],
   "preguntas": [
