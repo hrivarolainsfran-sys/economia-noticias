@@ -1,8 +1,8 @@
 /* Economía en las Noticias: funciona sin conexión.
    La página y los íconos se guardan al instalar; datos.json se pide primero a la red
    y, si no hay conexión, se usa la última copia guardada. */
-const VERSION = 'enp-v27';
-const BASE = ['./', 'index.html', 'manifest.webmanifest', 'iconos/icono-180.png', 'iconos/icono-192.png', 'iconos/icono-512.png'];
+const VERSION = 'enp-v28';
+const BASE = ['./', 'index.html', 'manifest.webmanifest', 'iconos/icono-180.png', 'iconos/icono-192.png', 'iconos/icono-512.png', 'hacienda.jpg', 'ueno-bank.jpg'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(BASE)).then(() => self.skipWaiting()));

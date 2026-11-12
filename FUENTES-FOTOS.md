@@ -1,0 +1,4 @@
+# Fotografías editoriales
+
+- **hacienda.jpg**: Palacio Alegre, edificio histórico de Hacienda, Asunción. Foto de archivo de 2008 de Paraguayo1982. [Original](https://commons.wikimedia.org/wiki/File:Haciendapy.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Archivo original sin modificación; el diseño recorta la vista con CSS.
+- **ueno-bank.jpg**: edificio corporativo de Ueno Bank de noche. Crédito: Ueno Bank, reproducida por [Infobae](https://www.infobae.com/america/america-latina/2026/11/09/paraguay-solicito-la-colaboracion-de-argentina-luxemburgo-y-eeuu-para-recuperar-activos-de-las-investigaciones-sobre-ueno-bank/). Imagen institucional de archivo utilizada para identificar la entidad en su cobertura editorial; no representa un hecho nuevo. Se conservan el crédito y el enlace a la publicación.
