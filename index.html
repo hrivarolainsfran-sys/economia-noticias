@@ -926,6 +926,21 @@ h1,h2,h3{letter-spacing:-.035em;font-weight:700;line-height:1.12}
 @media(prefers-reduced-motion:reduce){.card{transition:none}}
 }
 </style>
+<style>
+
+/* Ajustes de lectura y navegación tras la revisión editorial. */
+@media screen {
+.mast nav.blocks{gap:12px}.mast nav.blocks a{padding:9px 20px;font-size:.84rem}.mast nav.blocks .srch{margin-left:auto}
+.ind{position:relative}.ind-kind{color:var(--navy-2)!important;font-weight:700;text-transform:none;letter-spacing:0}.ind small{white-space:normal;line-height:1.35;overflow:visible}.ind{align-content:start;gap:4px}.ind .row{margin-block:1px}
+.hero-cover{min-height:205px}.hero-copy{padding:22px 28px;max-width:540px}.hero-copy h1{font-size:clamp(1.4rem,2.1vw,1.85rem);max-width:26ch}.hero-copy p{margin-top:8px;font-size:.81rem}.hero-copy .hello-btns{margin-top:12px}.hero-summary{padding:15px 20px;gap:6px}.hero-summary>a{padding:7px 13px}.hero-summary h2{font-size:1.05rem}.hero-summary small{font-size:.68rem}.hero-summary b{font-size:1rem}
+.top3{align-items:stretch}.card.big .body,.card.big.first .body{gap:11px;padding:18px}.card.big.first h3{font-size:1.3rem;line-height:1.2}.card.big h3{font-size:1.08rem;line-height:1.25}.card.big .sum{font-size:.79rem;line-height:1.55;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.card.big .meta{line-height:1.5}.card .secs{opacity:.8}.card .sec{font-size:.57rem;background:var(--navy-soft);color:var(--ink-2)}.card .tags{gap:4px}.card .tag{font-size:.65rem;padding:3px 6px;background:var(--navy-soft);color:var(--muted)}.card .tag.kc{border:0}.card .meta{gap:7px}.card .sum{line-height:1.6}.card .key{border-top-style:solid;gap:10px}.card .body{gap:12px;padding:18px 20px}.card h3{line-height:1.25}.card.big:not(.first) .plate.ilu svg.ilus{height:120px;aspect-ratio:auto}.card.big.first .plate.ilu svg.ilus{height:100%;min-height:265px;object-fit:cover}.card.big .plate.ilu{display:flex;align-items:center;justify-content:center;background:#e9eff8}
+.diagram-cta,.card.big .more{display:flex;align-items:center;gap:7px;align-self:start;width:fit-content;font-size:.75rem;line-height:1.4;font-weight:700;color:var(--navy-2);background:var(--navy-soft);border-radius:8px;padding:9px 11px;margin-top:4px}.diagram-cta::before,.card.big .more::before{content:"↗";font-size:.95rem}.card:hover .diagram-cta,.card.big:hover .more{background:var(--navy-2);color:var(--sheet)}
+.home-dashboard .pulso-h>.note{font-size:.6rem;line-height:1.5}.home-dashboard .pulso-h{gap:8px}.home-dashboard .pz small{line-height:1.5}.home-dashboard .cotiz .note{font-size:.62rem;line-height:1.5;max-width:100%}.home-dashboard .pz-t{line-height:1.4}
+@media(max-width:1050px){.card.big.first .plate.ilu svg.ilus{height:120px;min-height:0;width:100%}}
+@media(max-width:760px){.mast nav.blocks{gap:4px}.mast nav.blocks a{padding:9px 12px;font-size:.74rem;min-height:40px}.home-hero{gap:10px}.hero-cover{min-height:215px}.hero-copy{padding:22px}.hero-copy h1{font-size:1.5rem}.hero-copy p{font-size:.76rem;max-width:30ch}.hero-summary{padding:12px}.hero-summary h2{font-size:.9rem;margin-bottom:0}.hero-summary>a{padding:8px}.hero-summary small{font-size:.56rem}.hero-summary b{font-size:.86rem}.hero-summary .summary-icon{display:none}.hero-summary{gap:6px}.card.big.first h3{font-size:1.13rem}.card.big h3{font-size:1rem}.card.big .body,.card.big.first .body{padding:14px;gap:10px}.card.big .sum{font-size:.76rem}.card.big.first .plate.ilu svg.ilus{height:100%;min-height:230px}.diagram-cta,.card.big .more{font-size:.69rem;padding:8px}.ind,.ind:first-child{flex-basis:160px}.ind small{font-size:.59rem}.edicion b{font-size:1.13rem}}
+@media(max-width:390px){.card.big.first .plate.ilu svg.ilus{min-height:0;height:150px}.hero-copy .btn{font-size:.67rem}}
+}
+</style>
 </head>
 <body>
 <header class="mast">
@@ -936,13 +951,13 @@ h1,h2,h3{letter-spacing:-.035em;font-weight:700;line-height:1.12}
     <button type="button" class="install" id="install" hidden>Instalar app</button>
   </div>
   <div class="wrap">
-    <nav class="blocks" aria-label="Secciones">
-      <a href="#inicio" data-block="noticias"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h12v14H6a2 2 0 0 1-2-2z"/><path d="M16 8h4v9a2 2 0 0 1-2 2h-2"/><path d="M7 9h6M7 12h6M7 15h4"/></svg>Noticias</a>
-      <a href="#bloque-datos" data-block="datos"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M6 17v-6M11 17V6M16 17v-9M21 17v-4"/></svg>Datos</a>
-      <a href="#bloque-sectores" data-block="sectores"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l5 3V10l5 3V7l8 4v10z"/><path d="M7 17h2M12 17h2M17 17h2"/></svg>Sectores</a>
-      <a href="#bloque-temas" data-block="temas"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3.2 3.6 3.2 14.4 0 18M12 3c-3.2 3.6-3.2 14.4 0 18"/></svg>Temas</a>
-      <a href="#bloque-estudiar" data-block="estudiar"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3.5 2.2 8.5 2.2 12 0v-5"/><path d="M22 9v6"/></svg>Estudiar</a>
-      <a href="#buscar" class="srch" aria-label="Buscar en el sitio"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>Buscar</span></a>
+    <nav class="blocks" aria-label="Secciones principales">
+      <a href="#inicio" data-nav="inicio">Inicio</a>
+      <a href="#archivo" data-nav="noticias">Noticias</a>
+      <a href="#indicadores" data-block="datos">Indicadores</a>
+      <a href="#bloque-sectores" data-block="sectores">Sectores</a>
+      <a href="#bloque-estudiar" data-block="estudiar">Estudiar</a>
+      <a href="#buscar" class="srch" aria-label="Buscar en el sitio"><span>Buscar</span></a>
     </nav>
     <nav class="subnav" id="subnav" aria-label="Páginas de la sección"></nav>
   </div>
@@ -1311,10 +1326,15 @@ const F = { u: 'todas', kc: 'todos', medio: 'todos', q: '' }; /* los filtros emp
 const unitTag = u => `<span class="unit ${u}">${UNI[u]}</span>`;
 const isNew = n => (pd(ACTUALIZADO) - pd(n.fecha)) / 864e5 <= 2;
 
+function indicatorPeriod(i) {
+  const h = i.k && HIST[i.k], last = h && h.puntos && h.puntos[h.puntos.length - 1];
+  if (!last) { const growth = /proyecci/i.test(i.s) && METAS && METAS.items.find(m => m.id === 'crecimiento'); return i.s + (growth && growth.fecha ? ' · publicado el ' + fdate(growth.fecha) : ''); }
+  return i.s + ' · periodo al ' + fdate(last[0]);
+}
 function renderTicker() {
   $('#ticker').innerHTML = `<div class="wrap">${INDICADORES.map(i => {
     const h = i.k && HIST[i.k];
-    const inner = `<span>${esc(i.n)}</span><div class="row"><b class="${i.alert ? 'alert' : ''}">${esc(i.v)}</b>${h ? spark(h) : ''}</div><small>${esc(i.s)}</small>`;
+    const inner = `<span>${esc(i.n)}</span><div class="row"><b class="${i.alert ? 'alert' : ''}">${esc(i.v)}</b>${h ? spark(h) : ''}</div><small class="ind-kind">${/proyecci/i.test(i.s) ? 'Proyección' : i.k === 'dolar' ? 'Cotización de referencia' : 'Último dato disponible'}</small><small>${esc(indicatorPeriod(i))}</small>`;
     return h ? `<a class="ind" href="#indicadores" title="Ver evolución">${inner}</a>` : `<div class="ind">${inner}</div>`;
   }).join('')}</div>`;
   $('#ed-date').textContent = 'Actualizado el ' + flong(ACTUALIZADO);
@@ -1331,6 +1351,7 @@ function card(n) {
       <p class="sum">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p>
       <div class="tags">${n.diagramas.map(k => `<span class="tag">${esc(LIB[k].t)}</span>`).join('')}${KC[n.kc] ? `<span class="tag kc">${KC[n.kc]}</span>` : ''}</div>
       ${n.clave ? `<div class="key"><b>${esc(n.clave[0])}</b><span>${esc(n.clave[1])}</span></div>` : ''}
+      <span class="diagram-cta">Entender con un diagrama →</span>
     </div></a>`;
 }
 
@@ -1892,6 +1913,10 @@ function updateNav(nav) {
   const B = bloqueDe(nav);
   document.body.dataset.block = B ? B.id : 'buscar';
   document.querySelectorAll('[data-block]').forEach(a => a !== document.body && (B && a.dataset.block === B.id ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
+  document.querySelectorAll('[data-nav]').forEach(a => {
+    const active = a.dataset.nav === 'inicio' ? !hh || hh === 'inicio' : B && B.id === 'noticias' && hh && hh !== 'inicio';
+    if (active) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+  });
   const sr = document.querySelector('.mast .srch'); if (sr) nav === 'buscar' ? sr.setAttribute('aria-current', 'page') : sr.removeAttribute('aria-current');
   const sn = $('#subnav');
   if (sn) {
@@ -2186,14 +2211,14 @@ function bienvenidaHTML() {
     <div class="hero-cover">
       <img class="hero-photo" src="${photo[0]}" alt="${esc(photo[1])}" decoding="async" fetchpriority="high">
       <div class="hero-copy"><div class="eyebrow">Economía · Paraguay</div>
-      <h1>Las noticias económicas de Paraguay, explicadas con Economía IB</h1>
+      <h1>Lo que mueve al país,<br>explicado con Economía IB</h1>
       <p>Análisis, contexto y datos para entender lo que mueve al país.</p>
       <div class="hello-btns"><a class="btn primary" href="#inicio" data-jump="top3">Ver las noticias de hoy →</a><a class="btn" href="#programa">Estudiar por tema</a></div></div>
       <span class="hero-credit">${esc(photo[2])} · Wikimedia Commons</span>
     </div>
-    <aside class="hero-summary"><h2>${icon('indicadores')} En resumen</h2>
+    <aside class="hero-summary"><h2>${icon('datos')} En resumen</h2>
       <a href="#archivo"><span class="summary-icon">${icon('noticias')}</span><span><b>${NOTICIAS.length}</b><small>noticias explicadas</small></span></a>
-      <a href="#programa"><span class="summary-icon">${icon('calendario')}</span><span><b>${cub} de ${ALLTEMAS.length}</b><small>subtemas con cobertura</small></span></a>
+      <a href="#programa"><span class="summary-icon">${icon('semana')}</span><span><b>${cub} de ${ALLTEMAS.length}</b><small>subtemas con cobertura</small></span></a>
       <a href="#diagramas"><span class="summary-icon">${icon('rayo')}</span><span><b>${Object.keys(LIB).length}</b><small>diagramas interactivos</small></span></a>
     </aside></section>`;
 }
@@ -2207,12 +2232,14 @@ const ILUS = {
   grafico: `<rect width="320" height="200" fill="#E8EDF6"/>${[[60,110],[110,85],[160,95],[210,60],[260,40]].map(([x, y]) => `<rect x="${x - 18}" y="${y}" width="36" height="${160 - y}" rx="4" fill="#9FB2D3"/>`).join('')}<path d="M50 120 L110 96 L160 104 L210 70 L268 46" stroke="#C9962F" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M40 160 H290" stroke="#5B6F96" stroke-width="3"/>`,
 };
 function temaIlus(n) {
-  const t = norm(n.titulo + ' ' + n.resumen), S = n.sector || [], I = n.inst || [];
-  if (/dolar|tipo de cambio|cotizac|guarani se|deprecia|aprecia/.test(t)) return 'dolar';
-  if (S.includes('energia') || /ande|itaipu|energi|electric|petroleo|combustib/.test(t)) return 'energia';
-  if (I.includes('bcp') || I.includes('bolsa') || /banco|ueno|deposit|tasa de interes|bonos|bolsa/.test(t)) return 'banco';
+  const t = norm(n.titulo), S = n.sector || [], I = n.inst || [];
+  if (/presupuest|pgn|fiscal|recaudac|tribut|impuest|deuda publica/.test(t)) return 'fiscal';
+  if (/imaep|creci[oó]|crecimiento|actividad economica|pib/.test(t)) return 'grafico';
+  if (/dolar|tipo de cambio|cotizac|guarani|deprecia|aprecia/.test(t)) return 'dolar';
+  if (S.includes('energia') || /\bande\b|itaipu|energi|electric|petroleo|combustib/.test(t)) return 'energia';
   if (S.includes('agro') || /soja|carne|ganad|cosecha|tomate|agro/.test(t)) return 'agro';
   if (S.includes('comercio') || /export|import|arancel|comercio/.test(t)) return 'comercio';
+  if (I.includes('bcp') || I.includes('bolsa') || /banc|ueno|deposit|tasa de interes|bonos|bolsa/.test(t)) return 'banco';
   return 'grafico';
 }
 const WM = 'https://upload.wikimedia.org/wikipedia/commons/thumb/';
@@ -2224,14 +2251,20 @@ const FOTOS = {
   grafico: [WM + '1/1a/Vista_del_r%C3%ADo_Paraguay_en_el_barrio_Ita_pyta_punta.jpg/960px-Vista_del_r%C3%ADo_Paraguay_en_el_barrio_Ita_pyta_punta.jpg', 'Río Paraguay en Asunción', 'Ybyja, CC BY-SA 4.0'],
 };
 FOTOS.dolar = FOTOS.banco;
-const ilus = n => { const f = FOTOS[temaIlus(n)] || FOTOS.grafico; return `<img class="foto" src="${f[0]}" alt="${esc(f[1])}" loading="lazy" decoding="async"><span class="credito">Foto: ${esc(f[2])} · Wikimedia Commons</span>`; };
+const fiscalIlus = `<rect width="320" height="200" fill="#e9eff8"/><rect x="77" y="24" width="132" height="152" rx="12" fill="#fff"/><path d="M103 57h79M103 74h62M103 93h79" stroke="#b9cbe0" stroke-width="6" stroke-linecap="round"/><path d="M104 151v-28h17v28M132 151v-42h17v42M160 151v-33h17v33" fill="#174f80"/><circle cx="229" cy="129" r="38" fill="#ffca25"/><text x="229" y="142" text-anchor="middle" fill="#09264c" font-size="36" font-family="Arial" font-weight="700">₲</text>`;
+const ilus = n => {
+  const kind = temaIlus(n), illustration = kind === 'fiscal' ? fiscalIlus : ILUS[kind];
+  if (['fiscal', 'grafico', 'dolar'].includes(kind)) return `<svg class="ilus" viewBox="0 0 320 200" role="img" aria-label="${kind === 'fiscal' ? 'Ilustración de presupuesto y recursos públicos' : kind === 'dolar' ? 'Ilustración del mercado de divisas' : 'Ilustración de actividad económica'}">${illustration || ILUS.grafico}</svg><span class="credito">Ilustración temática · no representa datos</span>`;
+  const f = FOTOS[kind];
+  return `<img class="foto" src="${f[0]}" alt="${esc(f[1])}" loading="lazy" decoding="async"><span class="credito">Foto: ${esc(f[2])} · Wikimedia Commons</span>`;
+};
 function bigCard(n, i) {
   return `<a class="card big${i ? '' : ' first'}" data-u="${n.unidad}" href="#n-${n.id}"><div class="plate ilu">${ilus(n)}</div><div class="body">
     <div class="meta">${isNew(n) ? '<span class="new">Nuevo</span>' : ''}${unitTag(n.unidad)}<span>${esc(n.medio)} · ${fdate(n.fecha)}</span></div>
     ${secIcons(n)}<h3>${esc(n.titulo)}</h3>
     ${n.clave ? `<div class="bigkey"><b>${esc(n.clave[0])}</b><span>${esc(n.clave[1])}</span></div>` : ''}
     <p class="sum">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p>
-    <span class="more">Leer y ver el diagrama →</span></div></a>`;
+    <span class="more">Entender con un diagrama →</span></div></a>`;
 }
 function topHTML(top) {
   if (!top.length) return '';
@@ -2256,7 +2289,7 @@ function cotizHTML(compacto) {
   const C = CAMB;
   if (!C || !C.monedas) return '';
   const g = v => 'G. ' + num(v, v < 100 ? 2 : 0);
-  return `<section class="cotiz"><div class="pulso-h"><div><div class="eyebrow">Tipo de cambio</div><h2>Cotizaciones de hoy</h2></div><span class="note">${esc(C.fuente)} · ${fdate(C.fecha)}${C.hora ? ', ' + esc(C.hora) : ''}</span></div>
+  return `<section class="cotiz"><div class="pulso-h"><div><div class="eyebrow">Tipo de cambio</div><h2>${C.fecha === hoyISO() ? 'Cotizaciones de hoy' : 'Últimas cotizaciones'}</h2></div><span class="note">${esc(C.fuente)} · Cotización del ${fdate(C.fecha)}${C.hora ? ', ' + esc(C.hora) : ''}</span></div>
     <div class="cz-grid">${C.monedas.map(([c, n, co, ve]) => `<div class="cz"><div class="cz-h"><span class="cz-c">${esc(c)}</span><span>${esc(n)}</span></div>
       <div class="cz-v"><div><small>Compra</small><b>${g(co)}</b></div><div><small>Venta</small><b>${g(ve)}</b></div></div>
       <small class="cz-s">Diferencia: ${num((ve - co) / co * 100, 1)} %</small></div>`).join('')}</div>
@@ -2272,13 +2305,13 @@ function pulsoHTML() {
   const hD = HIST.dolar, pD = hD && hD.puntos[hD.puntos.length - 1], pD0 = hD && hD.puntos[hD.puntos.length - 2];
   const tile = (t, v, e, s, href) => `<a class="pz ${e}" href="${href}"><span class="pz-t"><i></i>${esc(t)}</span><b>${esc(v)}</b><small>${esc(s)}</small></a>`;
   return `<section class="pulso"><div class="pulso-h"><div><div class="eyebrow">Paraguay en 30 segundos</div><h2>¿Cómo está la economía?</h2></div><a class="more" href="#metas">Ver el semáforo completo →</a></div>
-    <div class="pz-grid">${its.map(x => tile(x.m.t.replace(/ 2026| \(EMBI\)/g, ''), x.txt, x.e, SEMTXT[x.e], '#metas')).join('')}${pD ? tile('Dólar', 'G. ' + num(pD[1], 0), 'info', pD0 ? (pD[1] >= pD0[1] ? 'Subió' : 'Bajó') + ' desde el ' + fshort(pD0[0]) : '', '#indicadores') : ''}</div></section>`;
+    <div class="pz-grid">${its.map(x => { const h = x.m.serie && HIST[x.m.serie], last = h && h.puntos[h.puntos.length - 1]; const period = x.m.id === 'crecimiento' ? 'Proyección 2026 · ' + fdate(x.m.fecha) : last ? 'Dato al ' + fdate(last[0]) : x.m.fecha ? 'Publicado el ' + fdate(x.m.fecha) : ''; return tile(x.m.t.replace(/ 2026| \(EMBI\)/g, ''), x.txt, x.e, SEMTXT[x.e] + (period ? ' · ' + period : ''), '#metas'); }).join('')}${pD ? tile('Dólar', 'G. ' + num(pD[1], 0), 'info', pD0 ? (pD[1] >= pD0[1] ? 'Subió' : 'Bajó') + ' desde el ' + fshort(pD0[0]) : '', '#indicadores') : ''}</div></section>`;
 }
 /* ---------- Animaciones, íconos de sector ---------- */
 const QUIETO = () => window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
 function countUp(root) {
   if (!root || QUIETO()) return;
-  root.querySelectorAll('.pz b, .hello-stats b, .bigkey b').forEach(el => {
+  root.querySelectorAll('.hello-stats b').forEach(el => {
     const tn = [...el.childNodes].find(x => x.nodeType === 3 && /\d/.test(x.textContent)); if (!tn) return;
     const m = tn.textContent.match(/^([^\d−-]*)([−-]?[\d.]+(?:,\d+)?)(.*)$/s); if (!m) return;
     const v = parseNum(m[2].replace('−', '-')), dec = (m[2].split(',')[1] || '').length; if (v == null || !isFinite(v)) return;
@@ -2856,7 +2889,6 @@ fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Erro
   NOTICIAS.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); });
   BYID = Object.fromEntries(NOTICIAS.map(n => [n.id, n]));
   SORTED = NOTICIAS.slice().sort((a, b) => b.fecha.localeCompare(a.fecha));
-  if (ESP) { const nb = document.querySelector('nav.blocks a[data-block="noticias"]'); if (nb) nb.insertAdjacentHTML('afterend', `<a href="#especial" class="esp-link">⚡ ${esc(ESP.etiqueta)}</a>`); }
   renderTicker(); $('#ft-cols').innerHTML = BLOQUES.map(B => `<div><b>${esc(B.t)}</b>${B.items.map(([r, t]) => `<a href="#${r}">${esc(t)}</a>`).join('')}</div>`).join(''); window.addEventListener('hashchange', render); render();
 }).catch(() => { $('#app').innerHTML = '<div class="wrap"><div class="empty" style="margin-block:40px">No se pudieron cargar las noticias. Revisa la conexión y recarga la página.</div></div>'; });
 
