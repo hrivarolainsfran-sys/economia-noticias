@@ -968,6 +968,16 @@ h1,h2,h3{letter-spacing:-.035em;font-weight:700;line-height:1.12}
 @media(prefers-reduced-motion:reduce){.portal-card{transition:none}.portal-card:hover .portal-card-foot b{transform:none}}
 }
 </style>
+<style>
+
+/* Datos: mismo lenguaje visual que Sectores y Estudiar. */
+@media screen {
+.sprite-data-indicators,.sprite-data-goals,.sprite-data-markets,.sprite-data-region{background-size:200% 200%}.sprite-data-indicators{background-position:0 0}.sprite-data-goals{background-position:100% 0}.sprite-data-markets{background-position:0 100%}.sprite-data-region{background-position:100% 100%}
+.portal-datos .portal-copy h1{max-width:16ch}.portal-datos .portal-card:last-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 2fr}.portal-datos .portal-card:last-child .portal-card-image{height:100%;min-height:190px}.portal-datos .portal-card:last-child .portal-card-body{padding:25px 30px}.portal-datos .portal-card:last-child .portal-card-icon{left:auto;right:-19px;bottom:24px}.portal-datos .portal-card:last-child .portal-card-body h2{font-size:1.65rem}.portal-datos .portal-card:last-child .portal-card-body p{max-width:60ch}.portal-datos .portal-card:last-child .portal-card-foot{max-width:260px}
+@media(max-width:760px){.portal-datos .portal-card:last-child{grid-template-columns:1fr 1.3fr}.portal-datos .portal-card:last-child .portal-card-body{padding:24px}.portal-datos .portal-card:last-child .portal-card-body h2{font-size:1.35rem}.portal-datos .portal-copy h1{max-width:20ch}}
+@media(max-width:410px){.portal-datos .portal-card:last-child{grid-column:auto;display:flex}.portal-datos .portal-card:last-child .portal-card-image{height:185px;min-height:0}.portal-datos .portal-card:last-child .portal-card-icon{left:14px;right:auto;bottom:-18px}.portal-datos .portal-card:last-child .portal-card-body{padding:29px 20px 20px}}
+}
+</style>
 </head>
 <body>
 <header class="mast">
@@ -1950,7 +1960,7 @@ function updateNav(nav) {
   if (sn) {
     sn.hidden = hh === 'especial';
     const navS = PADRE[nav] || nav;
-    sn.innerHTML = B ? (B.id === 'noticias' ? '' : `<a href="#${B.home}" class="${nav === B.home ? 'cur' : ''}">Todo ${esc(B.t.toLowerCase())}</a>`) + B.items.map(([r, t]) => `<a href="#${r}" class="${r === navS ? 'cur' : ''}"${r === navS ? ' aria-current="page"' : ''}>${esc(t)}</a>`).join('') : '';
+    sn.innerHTML = B ? (B.id === 'noticias' ? '' : `<a href="#${B.home}" class="${nav === B.home ? 'cur' : ''}">${B.id === 'datos' ? 'Todos los datos' : 'Todo ' + esc(B.t.toLowerCase())}</a>`) + B.items.map(([r, t]) => `<a href="#${r}" class="${r === navS ? 'cur' : ''}"${r === navS ? ' aria-current="page"' : ''}>${esc(t)}</a>`).join('') : '';
     const cur = sn.querySelector('.cur'); if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest', inline: 'nearest' });
   }
 }
@@ -1967,7 +1977,7 @@ const statDe = r => {
   return '';
 };
 function renderBloque(id) {
-  if (id === 'sectores' || id === 'estudiar') return renderVisualBloque(id);
+  if (['datos', 'sectores', 'estudiar'].includes(id)) return renderVisualBloque(id);
   const B = BLOQUES.find(b => b.id === id);
   $('#app').innerHTML = `<div class="hub-hero"><div class="wrap"><span class="hub-ic">${icon(B.ic)}</span><div><div class="eyebrow">Sección</div><h1>${esc(B.id === 'sectores' ? 'Sectores y actores' : B.t)}</h1><p class="lede">${esc(B.d)}</p></div></div></div>
     <div class="wrap"><div class="hub">${B.items.map(([r, t, d, ic]) => `<a class="hub-card" href="#${r}"><span class="hub-ic sm">${icon(ic)}</span><span class="hub-tx"><b>${esc(t)}</b><span>${esc(d)}</span>${statDe(r) ? `<small>${esc(statDe(r))}</small>` : ''}</span><span class="go" aria-hidden="true">→</span></a>`).join('')}</div>
@@ -1975,6 +1985,15 @@ function renderBloque(id) {
 }
 /* Portales visuales: fotos de Paraguay e ilustraciones de aprendizaje. */
 const HUB_VISUAL = {
+  datos: {image:'datos-ilustrados.jpg',sprite:'data-indicators',alt:'Ilustración conceptual de gráficos y herramientas para explorar datos económicos',credit:'Ilustración generada con IA',eyebrow:'Paraguay en perspectiva',title:'Los datos cuentan una historia.',intro:'Explora las cifras de Paraguay: cómo crece la economía, en qué se gasta y cómo se compara con la región.',cta:'Explorar indicadores',ctaRoute:'indicadores',countText:'formas de entender el país',sectionTitle:'Encuentra la respuesta en los datos',sectionNote:'Indicadores, mercados y finanzas públicas',items:{
+    paraguay:{src:'foto-agro.jpg',alt:'Cultivo de soja en Santa Rita, Paraguay',credit:'Patty P · dominio público',label:'El país en cifras'},
+    indicadores:{src:'datos-ilustrados.jpg',sprite:'data-indicators',alt:'Ilustración de gráficos económicos, lápiz y lupa',credit:'Ilustración generada con IA',label:'Sigue la evolución'},
+    metas:{src:'datos-ilustrados.jpg',sprite:'data-goals',alt:'Ilustración de una meta y señales de seguimiento',credit:'Ilustración generada con IA',label:'Evalúa los objetivos'},
+    cotizaciones:{src:'datos-ilustrados.jpg',sprite:'data-markets',alt:'Ilustración de monedas y flechas de intercambio',credit:'Ilustración generada con IA',label:'Monedas y mercados'},
+    presupuesto:{src:'hacienda.jpg',alt:'Palacio Alegre, edificio histórico de Hacienda, fotografía de archivo de 2008',credit:'Paraguayo1982 · archivo 2008 · CC BY-SA 4.0',label:'El dinero público'},
+    comercio:{src:'foto-comercio.jpg',alt:'Barco en el puerto de Asunción',credit:'Cmasi · CC BY-SA 4.0',label:'Conexiones comerciales'},
+    region:{src:'datos-ilustrados.jpg',sprite:'data-region',alt:'Ilustración conceptual de Sudamérica y comparaciones entre economías',credit:'Ilustración generada con IA',label:'Paraguay y sus vecinos'}
+  }},
   sectores: {image:'foto-agro.jpg', alt:'Cultivo de soja en Santa Rita, Paraguay', credit:'Patty P · dominio público · Wikimedia Commons', eyebrow:'La economía real', title:'Sectores y actores', intro:'Conoce a quienes producen, trabajan y toman decisiones en Paraguay.', cta:'Explorar sectores', items:{
     sectores:{src:'foto-agro.jpg',alt:'Cultivo de soja en Santa Rita',credit:'Patty P · dominio público',label:'Producción'},
     itaipu:{src:'foto-itaipu.jpg',alt:'Vista de la represa de Itaipú',credit:'Gabriel Resende Veiga · CC BY-SA 4.0',label:'Energía'},
@@ -1996,10 +2015,10 @@ function hubImage(v, hero) {
 function renderVisualBloque(id) {
   const B = BLOQUES.find(b => b.id === id), V = HUB_VISUAL[id];
   $('#app').innerHTML = `<div class="wrap visual-portal portal-${id}">
-    <section class="portal-hero"><div class="portal-copy"><div class="eyebrow">${esc(V.eyebrow)}</div><h1>${esc(V.title)}</h1><p>${esc(V.intro)}</p><a class="btn primary" href="#${B.items[0][0]}">${esc(V.cta)} →</a><span class="portal-count">${B.items.length} ${id === 'estudiar' ? 'formas de aprender' : 'puertas de entrada a la economía'}</span></div><div class="portal-cover">${hubImage(V,true)}<small>${esc(V.credit)}</small></div></section>
-    <div class="sec-head"><div><div class="eyebrow">${id === 'estudiar' ? 'Aprende a tu ritmo' : 'Explora por tema'}</div><h2>${id === 'estudiar' ? 'Elige cómo quieres aprender' : 'La economía tiene protagonistas'}</h2></div><span class="note">${id === 'estudiar' ? 'Teoría, práctica y ejemplos reales' : 'Producción, personas e instituciones'}</span></div>
+    <section class="portal-hero"><div class="portal-copy"><div class="eyebrow">${esc(V.eyebrow)}</div><h1>${esc(V.title)}</h1><p>${esc(V.intro)}</p><a class="btn primary" href="#${V.ctaRoute || B.items[0][0]}">${esc(V.cta)} →</a><span class="portal-count">${B.items.length} ${V.countText || (id === 'estudiar' ? 'formas de aprender' : 'puertas de entrada a la economía')}</span></div><div class="portal-cover">${hubImage(V,true)}<small>${esc(V.credit)}</small></div></section>
+    <div class="sec-head"><div><div class="eyebrow">${id === 'estudiar' ? 'Aprende a tu ritmo' : 'Explora por tema'}</div><h2>${V.sectionTitle || (id === 'estudiar' ? 'Elige cómo quieres aprender' : 'La economía tiene protagonistas')}</h2></div><span class="note">${V.sectionNote || (id === 'estudiar' ? 'Teoría, práctica y ejemplos reales' : 'Producción, personas e instituciones')}</span></div>
     <div class="portal-grid">${B.items.map(([r,t,d,ic]) => { const v=V.items[r]; return `<a class="portal-card" href="#${r}"><div class="portal-card-image">${hubImage(v,false)}<small>${esc(v.credit)}</small><span class="portal-card-icon">${icon(ic)}</span></div><div class="portal-card-body"><div class="eyebrow">${esc(v.label)}</div><h2>${esc(t)}</h2><p>${esc(d)}</p><div class="portal-card-foot">${statDe(r) ? `<span>${esc(statDe(r))}</span>` : '<span>Explorar</span>'}<b aria-hidden="true">→</b></div></div></a>`; }).join('')}</div>
-    ${id === 'estudiar' ? `<aside class="learning-strip"><span>${icon('ejes')}</span><div><h2>Una noticia. Un concepto. Un diagrama.</h2><p>Conecta lo que estudias con lo que pasa en Paraguay.</p></div><a href="#inicio" class="btn">Aprender con las noticias →</a></aside>` : `<aside class="learning-strip"><span>${icon('noticias')}</span><div><h2>De los sectores a las noticias</h2><p>Descubre cómo las decisiones económicas afectan a cada protagonista.</p></div><a href="#archivo" class="btn">Explorar noticias →</a></aside>`}
+    ${id === 'datos' ? `<aside class="learning-strip"><span>${icon('linea')}</span><div><h2>Detrás de cada cifra, una explicación.</h2><p>Consulta el periodo de cada dato y conecta su evolución con las noticias.</p></div><a href="#indicadores" class="btn">Ver la evolución →</a></aside>` : id === 'estudiar' ? `<aside class="learning-strip"><span>${icon('ejes')}</span><div><h2>Una noticia. Un concepto. Un diagrama.</h2><p>Conecta lo que estudias con lo que pasa en Paraguay.</p></div><a href="#inicio" class="btn">Aprender con las noticias →</a></aside>` : `<aside class="learning-strip"><span>${icon('noticias')}</span><div><h2>De los sectores a las noticias</h2><p>Descubre cómo las decisiones económicas afectan a cada protagonista.</p></div><a href="#archivo" class="btn">Explorar noticias →</a></aside>`}
     <p class="portal-source note">Las ilustraciones son conceptuales y no representan datos ni hechos noticiosos. <a href="FUENTES-FOTOS.md" target="_blank" rel="noopener">Fuentes y créditos de imágenes ↗</a></p>
   </div>`;
 }

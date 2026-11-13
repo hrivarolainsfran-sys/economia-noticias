@@ -18,3 +18,9 @@ Las fotografías se conservan sin modificación. El diseño puede recortar su vi
 Prompts utilizados (resumen):
 - Estudiar: cuatro escenas independientes de libros y apuntes, curvas económicas, una ciudad para simulación y una calculadora; estilo editorial de papel y volumen suave; azul marino, marfil y amarillo; sin textos, cifras ni logotipos.
 - Sectores: dos escenas independientes de trabajadores en un taller y un grupo que organiza ahorro comunitario; mismo estilo editorial y paleta; sin textos ni marcas.
+
+## Portal Datos
+
+**datos-ilustrados.jpg**: ilustraciones conceptuales creadas con la herramienta integrada de generación de imágenes de OpenAI. No muestran estadísticas, cotizaciones ni metas reales. Se usan como imágenes decorativas para los apartados Indicadores, Metas, Mercados y Región, identificadas como generadas con IA.
+
+Prompt utilizado (resumen): atlas de cuatro escenas independientes —escritorio de análisis con gráficos abstractos sin valores, una meta con señales de seguimiento, monedas con flechas de cambio y un globo con Sudamérica— en estilo editorial de papel con volumen suave, azul marino, marfil, verde azulado y amarillo; sin cifras, textos ni marcas. Las fotografías de territorio, Hacienda y comercio mantienen los créditos indicados arriba.
