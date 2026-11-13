@@ -24,3 +24,7 @@ Prompts utilizados (resumen):
 **datos-ilustrados.jpg**: ilustraciones conceptuales creadas con la herramienta integrada de generación de imágenes de OpenAI. No muestran estadísticas, cotizaciones ni metas reales. Se usan como imágenes decorativas para los apartados Indicadores, Metas, Mercados y Región, identificadas como generadas con IA.
 
 Prompt utilizado (resumen): atlas de cuatro escenas independientes —escritorio de análisis con gráficos abstractos sin valores, una meta con señales de seguimiento, monedas con flechas de cambio y un globo con Sudamérica— en estilo editorial de papel con volumen suave, azul marino, marfil, verde azulado y amarillo; sin cifras, textos ni marcas. Las fotografías de territorio, Hacienda y comercio mantienen los créditos indicados arriba.
+
+## Temas: historia, mundo, desarrollo y debate
+- `temas-ilustrados.jpg`: ilustración conceptual creada con la herramienta integrada de generación de imágenes de OpenAI. No representa cifras ni hechos noticiosos.
+- Prompt: atlas cuadrado de cuatro escenas editoriales de papel y objetos tridimensionales en azul marino, marfil, lavanda y dorado: archivo histórico con reloj; mundo y comercio; educación y desarrollo sostenible; balanza y diálogo. Sin textos, números, logotipos ni banderas.

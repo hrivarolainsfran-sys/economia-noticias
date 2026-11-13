@@ -977,6 +977,13 @@ h1,h2,h3{letter-spacing:-.035em;font-weight:700;line-height:1.12}
 @media(max-width:760px){.portal-datos .portal-card:last-child{grid-template-columns:1fr 1.3fr}.portal-datos .portal-card:last-child .portal-card-body{padding:24px}.portal-datos .portal-card:last-child .portal-card-body h2{font-size:1.35rem}.portal-datos .portal-copy h1{max-width:20ch}}
 @media(max-width:410px){.portal-datos .portal-card:last-child{grid-column:auto;display:flex}.portal-datos .portal-card:last-child .portal-card-image{height:185px;min-height:0}.portal-datos .portal-card:last-child .portal-card-icon{left:14px;right:auto;bottom:-18px}.portal-datos .portal-card:last-child .portal-card-body{padding:29px 20px 20px}}
 }
+
+/* Temas: sección propia con cuatro perspectivas ilustradas. */
+.sprite-theme-history,.sprite-theme-world,.sprite-theme-development,.sprite-theme-debate{background-size:200% 200%}
+.sprite-theme-history{background-position:0 0}.sprite-theme-world{background-position:100% 0}.sprite-theme-development{background-position:0 100%}.sprite-theme-debate{background-position:100% 100%}
+.portal-temas .portal-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.portal-temas .portal-copy .eyebrow{color:#ddc7ff}.portal-temas .portal-card-image{height:180px}
+@media(max-width:1050px){.portal-temas .portal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:410px){.portal-temas .portal-grid{grid-template-columns:1fr}.portal-temas .portal-card-image{height:210px}}
 </style>
 </head>
 <body>
@@ -994,6 +1001,7 @@ h1,h2,h3{letter-spacing:-.035em;font-weight:700;line-height:1.12}
       <a href="#especial" data-nav="ueno" class="ueno-tab">Ueno Bank</a>
       <a href="#indicadores" data-block="datos">Indicadores</a>
       <a href="#bloque-sectores" data-block="sectores">Sectores</a>
+      <a href="#bloque-temas" data-block="temas">Temas</a>
       <a href="#bloque-estudiar" data-block="estudiar">Estudiar</a>
       <a href="#buscar" class="srch" aria-label="Buscar en el sitio"><span>Buscar</span></a>
     </nav>
@@ -1960,7 +1968,7 @@ function updateNav(nav) {
   if (sn) {
     sn.hidden = hh === 'especial';
     const navS = PADRE[nav] || nav;
-    sn.innerHTML = B ? (B.id === 'noticias' ? '' : `<a href="#${B.home}" class="${nav === B.home ? 'cur' : ''}">${B.id === 'datos' ? 'Todos los datos' : 'Todo ' + esc(B.t.toLowerCase())}</a>`) + B.items.map(([r, t]) => `<a href="#${r}" class="${r === navS ? 'cur' : ''}"${r === navS ? ' aria-current="page"' : ''}>${esc(t)}</a>`).join('') : '';
+    sn.innerHTML = B ? (B.id === 'noticias' ? '' : `<a href="#${B.home}" class="${nav === B.home ? 'cur' : ''}">${B.id === 'datos' ? 'Todos los datos' : B.id === 'temas' ? 'Todos los temas' : 'Todo ' + esc(B.t.toLowerCase())}</a>`) + B.items.map(([r, t]) => `<a href="#${r}" class="${r === navS ? 'cur' : ''}"${r === navS ? ' aria-current="page"' : ''}>${esc(t)}</a>`).join('') : '';
     const cur = sn.querySelector('.cur'); if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest', inline: 'nearest' });
   }
 }
@@ -1977,7 +1985,7 @@ const statDe = r => {
   return '';
 };
 function renderBloque(id) {
-  if (['datos', 'sectores', 'estudiar'].includes(id)) return renderVisualBloque(id);
+  if (['datos', 'sectores', 'temas', 'estudiar'].includes(id)) return renderVisualBloque(id);
   const B = BLOQUES.find(b => b.id === id);
   $('#app').innerHTML = `<div class="hub-hero"><div class="wrap"><span class="hub-ic">${icon(B.ic)}</span><div><div class="eyebrow">Sección</div><h1>${esc(B.id === 'sectores' ? 'Sectores y actores' : B.t)}</h1><p class="lede">${esc(B.d)}</p></div></div></div>
     <div class="wrap"><div class="hub">${B.items.map(([r, t, d, ic]) => `<a class="hub-card" href="#${r}"><span class="hub-ic sm">${icon(ic)}</span><span class="hub-tx"><b>${esc(t)}</b><span>${esc(d)}</span>${statDe(r) ? `<small>${esc(statDe(r))}</small>` : ''}</span><span class="go" aria-hidden="true">→</span></a>`).join('')}</div>
@@ -1985,6 +1993,13 @@ function renderBloque(id) {
 }
 /* Portales visuales: fotos de Paraguay e ilustraciones de aprendizaje. */
 const HUB_VISUAL = {
+  temas: {image:'temas-ilustrados.jpg',sprite:'theme-world',alt:'Ilustración conceptual del mundo conectado por el comercio',credit:'Ilustración generada con IA',eyebrow:'Una mirada más amplia',title:'Entiende el contexto. Conecta las ideas.',intro:'Explora la historia, las conexiones globales y los debates que ayudan a comprender la economía de Paraguay.',cta:'Explorar la historia',ctaRoute:'cronologia',countText:'perspectivas para entender la economía',sectionTitle:'Mira más allá del titular',sectionNote:'Historia, mundo, desarrollo y debate',items:{
+    cronologia:{src:'temas-ilustrados.jpg',sprite:'theme-history',alt:'Ilustración de libros de archivo, reloj y tarjetas de una cronología',credit:'Ilustración generada con IA',label:'Aprende del pasado'},
+    mundo:{src:'temas-ilustrados.jpg',sprite:'theme-world',alt:'Ilustración de un globo con Sudamérica y conexiones comerciales',credit:'Ilustración generada con IA',label:'Conecta con el mundo'},
+    desarrollo:{src:'temas-ilustrados.jpg',sprite:'theme-development',alt:'Ilustración de educación, vivienda y energía sostenible',credit:'Ilustración generada con IA',label:'Piensa en el futuro'},
+    miradas:{src:'temas-ilustrados.jpg',sprite:'theme-debate',alt:'Ilustración de una balanza equilibrada y dos perspectivas en diálogo',credit:'Ilustración generada con IA',label:'Contrasta argumentos'}
+  }},
+
   datos: {image:'datos-ilustrados.jpg',sprite:'data-indicators',alt:'Ilustración conceptual de gráficos y herramientas para explorar datos económicos',credit:'Ilustración generada con IA',eyebrow:'Paraguay en perspectiva',title:'Los datos cuentan una historia.',intro:'Explora las cifras de Paraguay: cómo crece la economía, en qué se gasta y cómo se compara con la región.',cta:'Explorar indicadores',ctaRoute:'indicadores',countText:'formas de entender el país',sectionTitle:'Encuentra la respuesta en los datos',sectionNote:'Indicadores, mercados y finanzas públicas',items:{
     paraguay:{src:'foto-agro.jpg',alt:'Cultivo de soja en Santa Rita, Paraguay',credit:'Patty P · dominio público',label:'El país en cifras'},
     indicadores:{src:'datos-ilustrados.jpg',sprite:'data-indicators',alt:'Ilustración de gráficos económicos, lápiz y lupa',credit:'Ilustración generada con IA',label:'Sigue la evolución'},
@@ -2018,7 +2033,7 @@ function renderVisualBloque(id) {
     <section class="portal-hero"><div class="portal-copy"><div class="eyebrow">${esc(V.eyebrow)}</div><h1>${esc(V.title)}</h1><p>${esc(V.intro)}</p><a class="btn primary" href="#${V.ctaRoute || B.items[0][0]}">${esc(V.cta)} →</a><span class="portal-count">${B.items.length} ${V.countText || (id === 'estudiar' ? 'formas de aprender' : 'puertas de entrada a la economía')}</span></div><div class="portal-cover">${hubImage(V,true)}<small>${esc(V.credit)}</small></div></section>
     <div class="sec-head"><div><div class="eyebrow">${id === 'estudiar' ? 'Aprende a tu ritmo' : 'Explora por tema'}</div><h2>${V.sectionTitle || (id === 'estudiar' ? 'Elige cómo quieres aprender' : 'La economía tiene protagonistas')}</h2></div><span class="note">${V.sectionNote || (id === 'estudiar' ? 'Teoría, práctica y ejemplos reales' : 'Producción, personas e instituciones')}</span></div>
     <div class="portal-grid">${B.items.map(([r,t,d,ic]) => { const v=V.items[r]; return `<a class="portal-card" href="#${r}"><div class="portal-card-image">${hubImage(v,false)}<small>${esc(v.credit)}</small><span class="portal-card-icon">${icon(ic)}</span></div><div class="portal-card-body"><div class="eyebrow">${esc(v.label)}</div><h2>${esc(t)}</h2><p>${esc(d)}</p><div class="portal-card-foot">${statDe(r) ? `<span>${esc(statDe(r))}</span>` : '<span>Explorar</span>'}<b aria-hidden="true">→</b></div></div></a>`; }).join('')}</div>
-    ${id === 'datos' ? `<aside class="learning-strip"><span>${icon('linea')}</span><div><h2>Detrás de cada cifra, una explicación.</h2><p>Consulta el periodo de cada dato y conecta su evolución con las noticias.</p></div><a href="#indicadores" class="btn">Ver la evolución →</a></aside>` : id === 'estudiar' ? `<aside class="learning-strip"><span>${icon('ejes')}</span><div><h2>Una noticia. Un concepto. Un diagrama.</h2><p>Conecta lo que estudias con lo que pasa en Paraguay.</p></div><a href="#inicio" class="btn">Aprender con las noticias →</a></aside>` : `<aside class="learning-strip"><span>${icon('noticias')}</span><div><h2>De los sectores a las noticias</h2><p>Descubre cómo las decisiones económicas afectan a cada protagonista.</p></div><a href="#archivo" class="btn">Explorar noticias →</a></aside>`}
+    ${id === 'temas' ? `<aside class="learning-strip"><span>${icon('balanza')}</span><div><h2>Una economía. Distintas perspectivas.</h2><p>Relaciona los hechos con su contexto y evalúa los argumentos antes de sacar conclusiones.</p></div><a href="#miradas" class="btn">Contrastar miradas →</a></aside>` : id === 'datos' ? `<aside class="learning-strip"><span>${icon('linea')}</span><div><h2>Detrás de cada cifra, una explicación.</h2><p>Consulta el periodo de cada dato y conecta su evolución con las noticias.</p></div><a href="#indicadores" class="btn">Ver la evolución →</a></aside>` : id === 'estudiar' ? `<aside class="learning-strip"><span>${icon('ejes')}</span><div><h2>Una noticia. Un concepto. Un diagrama.</h2><p>Conecta lo que estudias con lo que pasa en Paraguay.</p></div><a href="#inicio" class="btn">Aprender con las noticias →</a></aside>` : `<aside class="learning-strip"><span>${icon('noticias')}</span><div><h2>De los sectores a las noticias</h2><p>Descubre cómo las decisiones económicas afectan a cada protagonista.</p></div><a href="#archivo" class="btn">Explorar noticias →</a></aside>`}
     <p class="portal-source note">Las ilustraciones son conceptuales y no representan datos ni hechos noticiosos. <a href="FUENTES-FOTOS.md" target="_blank" rel="noopener">Fuentes y créditos de imágenes ↗</a></p>
   </div>`;
 }
