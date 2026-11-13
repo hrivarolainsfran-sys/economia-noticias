@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12",
+ "actualizado": "2026-11-13",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -222,6 +222,16 @@
     "11 nov",
     "El MEF propone recortar US$ 276 millones del Presupuesto 2027.",
     "pgn-suspendido"
+   ],
+   [
+    "12 nov",
+    "El BCP repartirá Ueno por lotes entre bancos y exonera intereses moratorios hasta el 30 de noviembre.",
+    "ueno-lotes"
+   ],
+   [
+    "12 nov",
+    "Diputados aprueba el Presupuesto 2027 con recortes de US$ 276 millones; el déficit sigue en 3,9 %.",
+    "pgn-suspendido"
    ]
   ],
   "lentes": [
@@ -240,6 +250,409 @@
   ]
  },
  "noticias": [
+  {
+   "id": "ueno-lotes",
+   "fecha": "2026-11-12",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/12/bcp-anuncia-que-distribuira-por-lotes-en-bancos-locales-los-activos-y-pasivos-de-ueno-bank/",
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/12/clientes-de-ueno-bcp-exoneran-temporalmente-intereses-moratorios-y-recargos-por-prestamos-y-tarjetas/",
+     "2026-11-12"
+    ]
+   ],
+   "titulo": "Ueno se repartirá por lotes entre varios bancos y sus deudores no pagan multas hasta fin de mes",
+   "unidad": "macro",
+   "tema": "3.5",
+   "kc": "intervencion",
+   "inst": [
+    "bcp",
+    "ips"
+   ],
+   "resumen": "El presidente del BCP, Jorge Schreiner, anunció el 12 de noviembre que los activos y depósitos de Ueno Bank se distribuirán por lotes entre bancos locales, porque ninguno podría absorberlos solo, según La Nación. Dijo que los activos detectados ya superan lo que el banco debe a las cajas previsionales, como el IPS, que tenía US$ 516 millones allí. Además, el equipo interventor exoneró de intereses moratorios y punitorios a los clientes con préstamos y tarjetas hasta el 30 de noviembre, informó ABC Color.",
+   "contexto": "En una resolución bancaria, el banco quebrado no se cierra de golpe: sus préstamos sanos y sus depósitos se transfieren a otros bancos para que los clientes sigan operando. En casos anteriores más pequeños (las financieras Ara y Cefisa) un solo banco absorbió todo; con Ueno, Schreiner considera que ningún banco tiene el patrimonio suficiente. El balance de exclusión, que separa activos y pasivos para licitarlos, debía cerrar el lunes 16, según ABC Color. Para la economía importa porque, si los créditos y depósitos pasan rápido a bancos sanos, se recupera la confianza y vuelve a circular el crédito al consumo y a las empresas.",
+   "datos": [
+    [
+     "US$ 516 M",
+     "Depósitos e inversiones del IPS en Ueno"
+    ],
+    [
+     "~10 días",
+     "Plazo estimado para tener el balance de exclusión"
+    ],
+    [
+     "30 nov",
+     "Fin de la exoneración de intereses moratorios"
+    ],
+    [
+     "G. 228,3 M",
+     "Tope de la garantía de depósitos (75 salarios mínimos)"
+    ]
+   ],
+   "clave": [
+    "por lotes",
+    "entre varios bancos"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Si los préstamos y depósitos de Ueno pasan rápido a bancos sanos, vuelven el crédito y el consumo: la DA, que había caído con la crisis, se recupera de DA₁ a DA₂.",
+   "pasos": [
+    "Ueno Bank queda en resolución por insolvencia",
+    "El BCP separa activos y pasivos (balance de exclusión)",
+    "Los reparte por lotes entre varios bancos sanos",
+    "Los clientes vuelven a tener acceso a crédito y a sus cuentas",
+    "Se recupera la confianza, el consumo y la demanda agregada"
+   ],
+   "conceptos": [
+    [
+     "Resolución bancaria",
+     "Proceso ordenado para cerrar un banco inviable protegiendo a los depositantes."
+    ],
+    [
+     "Balance de exclusión",
+     "Separación de los activos y pasivos del banco en quiebra para transferirlos."
+    ],
+    [
+     "Fondo de Garantía de Depósitos",
+     "Fondo que devuelve los depósitos hasta un tope si un banco quiebra."
+    ],
+    [
+     "Prestamista de última instancia",
+     "Papel del banco central de sostener la liquidez del sistema en una crisis."
+    ],
+    [
+     "Riesgo moral",
+     "Incentivo a tomar más riesgos cuando otro paga las pérdidas."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da",
+    "politica-monetaria"
+   ],
+   "rel": [
+    "ueno-intervencion",
+    "ueno-devolucion",
+    "ips-ueno",
+    "consumo-cae",
+    "bcp-cambiaria"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el BCP prefiere repartir Ueno entre varios bancos en vez de pasarlo entero a uno solo?",
+    "opts": [
+     "Porque un solo banco no tendría patrimonio para absorber tantos depósitos y riesgos",
+     "Para subir la tasa de interés",
+     "Para que el Estado se quede con el banco",
+     "Porque así se devuelven los depósitos en dólares"
+    ],
+    "ok": 0,
+    "fb": "Schreiner explicó que ningún banco tiene capital suficiente para absorber todos los activos y depositantes de Ueno; repartir el riesgo evita crear otro banco frágil."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "IPS y cajas previsionales",
+      "Según el BCP, los activos alcanzan para reponerles su dinero, porque la ley les da prioridad."
+     ],
+     [
+      "Deudores de Ueno",
+      "No pagan intereses moratorios ni recargos hasta el 30 de noviembre."
+     ],
+     [
+      "Bancos que reciban lotes",
+      "Ganan clientes y cartera."
+     ]
+    ],
+    "pierden": [
+     [
+      "Depositantes por encima del tope",
+      "Cobran primero solo hasta la garantía y esperan la liquidación por el resto."
+     ],
+     [
+      "Inversores de Ueno",
+      "Los accionistas y tenedores de bonos son los últimos en cobrar."
+     ]
+    ],
+    "corto": "Las próximas semanas son clave: el balance de exclusión y la licitación de los lotes definen cuánto se recupera.",
+    "largo": "Una resolución ordenada protege la confianza en los bancos, pero puede reforzar el riesgo moral si los grandes depositantes creen que siempre serán rescatados.",
+    "supuestos": [
+     "Que los activos de Ueno valgan lo que estima el BCP.",
+     "Que los bancos se interesen en los lotes."
+    ],
+    "conclusion": "Repartir Ueno por lotes reduce el riesgo de contagio y protege a los jubilados, pero el éxito depende de la calidad real de sus activos, todavía en revisión."
+   }
+  },
+  {
+   "id": "comercio-octubre",
+   "fecha": "2026-11-12",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/12/comercio-exterior-acumula-un-superavit-de-668-millones-de-dolares-a-octubre-segun-un-informe-del-bcp/",
+   "titulo": "Superávit comercial de US$ 668,6 millones a octubre: la soja empuja las exportaciones",
+   "unidad": "global",
+   "tema": "4.6",
+   "kc": "interdependencia",
+   "inst": [
+    "bcp"
+   ],
+   "sector": [
+    "comercio",
+    "agro",
+    "industria"
+   ],
+   "resumen": "Según el informe del BCP citado por La Nación, entre enero y octubre de 2026 Paraguay exportó US$ 17.815,6 millones (25 % más que en 2025) e importó US$ 17.147,1 millones (14,5 % más). El saldo es un superávit comercial de US$ 668,6 millones, algo menor que los US$ 712 millones de septiembre. Las exportaciones registradas sumaron US$ 11.362,9 millones (+19,3 %), sobre todo por granos, aceite y harina de soja.",
+   "contexto": "La balanza comercial (exportaciones menos importaciones de bienes) es la parte más grande de la cuenta corriente de la balanza de pagos. En 2025 Paraguay cerró con déficit comercial; en 2026 la cosecha récord de soja lo dio vuelta. También crecieron las reexportaciones (US$ 4.444,1 millones, +18,6 %) y la maquila (US$ 1.300,2 millones, +26,4 %). Un superávit significa que entran más dólares por comercio de los que salen: eso aumenta la demanda de guaraníes y ayuda a explicar por qué el guaraní se había fortalecido antes de la crisis de Ueno. Como las importaciones crecen más rápido que el mes anterior, el superávit se achica.",
+   "datos": [
+    [
+     "US$ 17.815,6 M",
+     "Exportaciones totales enero-octubre (+25 %)"
+    ],
+    [
+     "US$ 17.147,1 M",
+     "Importaciones totales (+14,5 %)"
+    ],
+    [
+     "US$ 668,6 M",
+     "Superávit comercial acumulado"
+    ],
+    [
+     "US$ 11.362,9 M",
+     "Exportaciones registradas (+19,3 %)"
+    ],
+    [
+     "US$ 4.444,1 M",
+     "Reexportaciones (+18,6 %)"
+    ],
+    [
+     "US$ 1.300,2 M",
+     "Exportaciones de maquila (+26,4 %)"
+    ]
+   ],
+   "clave": [
+    "US$ 668,6 M",
+    "de superávit comercial a octubre"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ millones (ene-oct 2026)",
+    "rows": [
+     [
+      "Exportaciones registradas",
+      11362.9,
+      1
+     ],
+     [
+      "Reexportaciones",
+      4444.1
+     ],
+     [
+      "Otras exportaciones",
+      2008.6
+     ],
+     [
+      "Importaciones totales",
+      17147.1
+     ]
+    ]
+   },
+   "cap": "Las tres barras de exportaciones suman US$ 17.815,6 millones, un poco más que las importaciones: la diferencia es el superávit comercial de US$ 668,6 millones.",
+   "pasos": [
+    "Paraguay cosecha y vende al exterior una cantidad récord de soja",
+    "Las exportaciones crecen más rápido (25 %) que las importaciones (14,5 %)",
+    "La balanza comercial pasa a superávit: US$ 668,6 M",
+    "Entran más dólares y aumenta la demanda de guaraníes",
+    "Las exportaciones netas (X − M) suman a la demanda agregada"
+   ],
+   "conceptos": [
+    [
+     "Balanza comercial",
+     "Exportaciones menos importaciones de bienes en un periodo."
+    ],
+    [
+     "Cuenta corriente",
+     "Parte de la balanza de pagos con el comercio de bienes y servicios, los ingresos y las transferencias (como las remesas)."
+    ],
+    [
+     "Reexportación",
+     "Venta al exterior de bienes importados, sin transformarlos mucho."
+    ],
+    [
+     "Maquila",
+     "Régimen en el que empresas transforman insumos importados para exportar, con beneficios impositivos."
+    ],
+    [
+     "Exportaciones netas",
+     "X − M, uno de los componentes de la demanda agregada."
+    ]
+   ],
+   "diagramas": [
+    "exportaciones",
+    "tipo-cambio",
+    "da-oa-da"
+   ],
+   "rel": [
+    "soja-record",
+    "maquila",
+    "remesas-2026",
+    "guarani-cae",
+    "carne-cae"
+   ],
+   "pregunta": {
+    "q": "Si las exportaciones crecen 25 % y las importaciones 14,5 %, ¿qué pasa con la demanda de guaraníes en el mercado de divisas?",
+    "opts": [
+     "Aumenta, porque los exportadores cambian más dólares por guaraníes",
+     "Baja, porque entran menos dólares",
+     "No cambia, el comercio no afecta al tipo de cambio",
+     "Aumenta la oferta de guaraníes"
+    ],
+    "ok": 0,
+    "fb": "Los exportadores cobran en dólares y necesitan guaraníes para pagar costos locales: la demanda de guaraníes se desplaza a la derecha y el guaraní tiende a apreciarse."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores y exportadores de soja",
+      "Venden más volumen y generan más ingresos."
+     ],
+     [
+      "Empresas de maquila y sus trabajadores",
+      "Sus exportaciones crecen 26,4 %."
+     ],
+     [
+      "Estado y BCP",
+      "Más dólares fortalecen las reservas y la recaudación."
+     ]
+    ],
+    "pierden": [
+     [
+      "Industrias que compiten con importaciones",
+      "Un guaraní más fuerte abarata los productos importados."
+     ],
+     [
+      "Economía poco diversificada",
+      "Depender tanto de la soja expone al país a sequías y a los precios mundiales."
+     ]
+    ],
+    "corto": "El superávit aporta dólares en plena volatilidad cambiaria y puede ayudar a calmar el dólar.",
+    "largo": "Si el crecimiento depende sobre todo de la soja, un mal año de clima o de precios puede volver a llevar la balanza a déficit.",
+    "supuestos": [
+     "Que los precios internacionales de la soja se mantengan.",
+     "Que la crisis de Ueno no frene las importaciones de insumos ni el crédito al comercio."
+    ],
+    "conclusion": "El superávit es una buena noticia para la balanza de pagos y el guaraní, pero muestra a la vez la dependencia de pocos productos primarios."
+   }
+  },
+  {
+   "id": "cooperativas-garantia",
+   "fecha": "2026-11-12",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/12/ahorristas-de-cooperativa-poravoty-piden-destitucion-del-presidente-del-incoop/",
+   "titulo": "55 cooperativas en liquidación: ahorristas piden un fondo de garantía como el de los bancos",
+   "unidad": "micro",
+   "tema": "2.10",
+   "kc": "intervencion",
+   "resumen": "Ahorristas de la Cooperativa Poravoty, cerrada en enero de 2025 y en liquidación, pidieron la destitución del presidente interino del Incoop, Carlos Romero Roa, porque todavía no recuperaron sus ahorros, según La Nación. También pidieron al Congreso una ley que obligue a las cooperativas a hacer depósitos en el BCP para proteger a los socios, similar al Fondo de Garantía de Depósitos de los bancos. El diario indica que hoy hay 55 cooperativas en liquidación.",
+   "contexto": "Los depósitos en bancos tienen una garantía estatal hasta 75 salarios mínimos (la que se usó con Ueno), pero los ahorros en cooperativas no. Es un ejemplo de información asimétrica: el socio que ahorra no puede saber bien cómo se administra su cooperativa, y quienes la dirigen sí. La regulación (el Incoop) y los seguros de depósitos buscan corregir esa falla de mercado. Pero un seguro también tiene un costo: puede generar riesgo moral si los administradores asumen más riesgos sabiendo que los ahorros están protegidos.",
+   "datos": [
+    [
+     "55",
+     "Cooperativas en proceso de liquidación"
+    ],
+    [
+     "ene 2025",
+     "Cierre de la Cooperativa Poravoty"
+    ],
+    [
+     "17 nov",
+     "Manifestación convocada frente al Incoop"
+    ]
+   ],
+   "clave": [
+    "55",
+    "cooperativas en liquidación"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Cuando los socios desconfían de las cooperativas, baja la demanda de depósitos en ellas: D₁ pasa a D₂ y cae la cantidad ahorrada.",
+   "pasos": [
+    "Algunas cooperativas se administran mal y quiebran",
+    "Los socios no tenían información para anticiparlo",
+    "Pierden sus ahorros porque no hay garantía de depósitos",
+    "Baja la confianza y la demanda de ahorro en cooperativas",
+    "Se pide más regulación o un fondo de garantía"
+   ],
+   "conceptos": [
+    [
+     "Información asimétrica",
+     "Una parte de una transacción sabe más que la otra."
+    ],
+    [
+     "Riesgo moral",
+     "Tomar más riesgos cuando otro paga las pérdidas."
+    ],
+    [
+     "Garantía de depósitos",
+     "Seguro que devuelve los ahorros hasta un tope si la entidad quiebra."
+    ],
+    [
+     "Incoop",
+     "Instituto Nacional de Cooperativismo, el regulador de las cooperativas."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda"
+   ],
+   "rel": [
+    "ueno-devolucion",
+    "ueno-intervencion",
+    "ueno-lotes"
+   ],
+   "pregunta": {
+    "q": "¿Qué falla de mercado explica mejor que los socios de una cooperativa no detecten a tiempo que está mal administrada?",
+    "opts": [
+     "Información asimétrica",
+     "Externalidad positiva",
+     "Bien público",
+     "Poder de monopolio"
+    ],
+    "ok": 0,
+    "fb": "Los administradores conocen la situación real de la cooperativa y los socios no: es información asimétrica, que la regulación y los seguros de depósitos intentan corregir."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Socios ahorristas (con un fondo de garantía)",
+      "Tendrían sus ahorros protegidos hasta un tope."
+     ],
+     [
+      "Cooperativas bien administradas",
+      "Más confianza atrae más ahorro."
+     ]
+    ],
+    "pierden": [
+     [
+      "Cooperativas",
+      "Tendrían que aportar al fondo, lo que sube sus costos."
+     ],
+     [
+      "Ahorristas de Poravoty",
+      "Siguen sin recuperar su dinero mientras dura la liquidación."
+     ]
+    ],
+    "corto": "La crisis de Ueno aumenta la presión para proteger también a los ahorristas de cooperativas.",
+    "largo": "Un fondo de garantía puede dar estabilidad al sector, siempre que venga con más supervisión para evitar el riesgo moral.",
+    "supuestos": [
+     "Que el Congreso trate una ley de fondo de garantía.",
+     "Que el Incoop tenga capacidad para supervisar a cientos de cooperativas."
+    ],
+    "conclusion": "Proteger los ahorros corrige una falla de información, pero sin supervisión fuerte un seguro puede incentivar más riesgo; la clave es combinar garantía y control."
+   }
+  },
   {
    "id": "fitch-revision",
    "fecha": "2026-11-11",
@@ -2695,120 +3108,6 @@
    ]
   },
   {
-   "id": "corredor-bioceanico",
-   "fecha": "2026-02-16",
-   "medio": "InfoNegocios",
-   "url": "https://infonegocios.com.py/y-ademas/us-200-millones-para-acelerar-el-corredor-bioceanico-y-potenciar-la-competitividad-paraguaya",
-   "titulo": "US$ 200 millones del BID para acelerar el Corredor Bioceánico",
-   "unidad": "macro",
-   "tema": "3.7",
-   "kc": "cambio",
-   "sector": [
-    "comercio"
-   ],
-   "resumen": "El BID aprobó un préstamo de US$ 200 millones para una nueva etapa del Corredor Bioceánico, la ruta que cruzará el Chaco para unir el Atlántico con el Pacífico. Según el MOPC, Paraguay ya invierte unos US$ 915 millones en la obra.",
-   "contexto": "El préstamo financia 102,5 kilómetros del tramo II, además de accesos a Mariscal Estigarribia y a la zona industrial de Loma Plata. El puente entre Carmelo Peralta y Puerto Murtinho (Brasil) está cerca de su unión definitiva. La infraestructura es una política de oferta: reduce los costos de transporte, mejora la competitividad y aumenta la capacidad productiva. También permite depender menos de los ríos, que en las bajantes encarecen el flete.",
-   "datos": [
-    [
-     "US$ 200 M",
-     "Préstamo del BID"
-    ],
-    [
-     "US$ 915 M",
-     "Inversión que ya realiza Paraguay"
-    ],
-    [
-     "102,5 km",
-     "Tramo II financiado por el préstamo"
-    ],
-    [
-     "≈ 100 km",
-     "Distancia que se ahorraría en la ruta"
-    ]
-   ],
-   "clave": [
-    "US$ 200 M",
-    "del BID"
-   ],
-   "fig": {
-    "k": "oalp",
-    "s": 40
-   },
-   "cap": "Mejor infraestructura baja los costos y aumenta la capacidad productiva: la OALP y la OACP se desplazan a la derecha.",
-   "pasos": [
-    "Se construye una ruta que cruza el Chaco",
-    "Bajan los costos y tiempos de transporte",
-    "Las empresas producen y exportan más barato",
-    "Aumenta la capacidad productiva (OALP a la derecha)",
-    "Más crecimiento potencial, sobre todo en el Chaco"
-   ],
-   "conceptos": [
-    [
-     "Infraestructura",
-     "Rutas, puentes, puertos y redes que facilitan la producción."
-    ],
-    [
-     "Política de oferta",
-     "Medidas para aumentar la capacidad productiva."
-    ],
-    [
-     "Competitividad",
-     "Capacidad de vender a precios convenientes frente a otros países."
-    ],
-    [
-     "Préstamo multilateral",
-     "Crédito de organismos como el BID o el Banco Mundial."
-    ]
-   ],
-   "diagramas": [
-    "politicas-oferta"
-   ],
-   "rel": [
-    "hidrovia-2026",
-    "pisa-2025"
-   ],
-   "pregunta": {
-    "q": "¿Por qué el Corredor Bioceánico es una política de oferta?",
-    "opts": [
-     "Porque baja los costos de producción y aumenta la capacidad productiva",
-     "Porque sube el consumo de inmediato",
-     "Porque reduce la tasa de interés",
-     "Porque baja los impuestos"
-    ],
-    "ok": 0,
-    "fb": "La infraestructura mejora la capacidad de producir y exportar: desplaza la OALP. Su construcción también suma gasto (DA) a corto plazo."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores y exportadores del Chaco",
-      "Transporte más barato y nuevos mercados."
-     ],
-     [
-      "Empleo en la construcción",
-      "Puestos de trabajo durante la obra."
-     ]
-    ],
-    "pierden": [
-     [
-      "Contribuyentes futuros",
-      "Pagarán el préstamo con intereses."
-     ],
-     [
-      "Medio ambiente del Chaco",
-      "Más presión sobre los bosques si crece la actividad."
-     ]
-    ],
-    "corto": "El gasto en la obra suma a la demanda agregada.",
-    "largo": "Más competitividad, siempre que se terminen todos los tramos.",
-    "supuestos": [
-     "Que la obra se complete y se mantenga.",
-     "Que se controle el impacto ambiental."
-    ],
-    "conclusion": "Es una apuesta de largo plazo por la productividad; su éxito depende de terminar los tramos y de cuidar el ambiente del Chaco."
-   }
-  },
-  {
    "id": "hidrovia-2026",
    "fecha": "2026-08-12",
    "medio": "Prensa Mercosur",
@@ -3069,72 +3368,80 @@
   {
    "id": "pgn-suspendido",
    "fecha": "2026-11-12",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/politica/2026/11/09/a-pedido-de-alliana-diputados-suspende-de-forma-repentina-el-tratamiento-del-presupuesto-2027/",
-   "titulo": "Presupuesto 2027: el Gobierno propone recortar US$ 276 millones",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/diputados-aprueban-pgn-2027-con-modificaciones-pero-mantienen-elevado-deficit-de-3-9",
+   "titulo": "Diputados aprueba el Presupuesto 2027 con recortes, pero el déficit sigue en 3,9 %",
    "unidad": "macro",
    "tema": "3.6",
    "kc": "intervencion",
    "inst": [
     "mef"
    ],
-   "resumen": "Tras frenar el Presupuesto 2027 el 9 de noviembre, el Ministerio de Economía envió a Diputados el 11 de noviembre una adenda que recorta y reasigna US$ 276 millones, según La Nación; Diputados lo trata en sesión extraordinaria el jueves 12. El mismo día, un centenar de gremios empresariales pidió al presidente Alliana reformular el proyecto con ingresos realistas y cumplir el tope de déficit de 1,5 % del PIB, según Última Hora. El plazo de Diputados vence el sábado 14.",
-   "contexto": "El proyecto original suma G. 166,3 billones y pide un déficit de hasta 3,9 % del PIB. Alliana anunció un recorte en Presidencia (pasajes y viáticos) para destinarlo a salud, que según Última Hora sería de apenas US$ 3 millones. Los gremios piden recortar contrataciones, viáticos y bonificaciones, revisar programas sociales y reformar la Caja Fiscal, y estiman que la crisis de Ueno puede costar al Estado entre 1,5 % y 2 % del PIB. Recortar gasto reduce el déficit y la necesidad de endeudarse, pero también puede frenar la demanda agregada a corto plazo.",
+   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo.",
+   "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja.",
    "datos": [
     [
-     "US$ 276 M",
-     "Recorte y reasignación propuestos por el MEF (adenda)"
+     "G. 164 bill.",
+     "Presupuesto 2027 aprobado por Diputados (US$ 25.478,2 M)"
     ],
     [
-     "G. 166,3 bill.",
-     "Monto del proyecto original"
+     "+11,1 %",
+     "Aumento frente al Presupuesto aprobado para 2026"
+    ],
+    [
+     "US$ 276 M",
+     "Recorte en gastos de funcionamiento (G. 1,7 billones)"
+    ],
+    [
+     "US$ 95,1 M",
+     "Reasignados a medicamentos, obras y educación"
     ],
     [
      "3,9 %",
-     "Déficit pedido en el proyecto original (% del PIB)"
+     "Déficit previsto (% del PIB); el tope legal es 1,5 %"
     ],
     [
-     "1,5 %",
-     "Límite de la Ley de Responsabilidad Fiscal"
-    ],
-    [
-     "14 nov",
-     "Plazo para que Diputados apruebe el Presupuesto"
+     "US$ 1.990 M",
+     "Deuda prevista: US$ 469,9 M + US$ 1.520,6 M para proveedores"
     ]
    ],
    "clave": [
-    "US$ 276 M",
-    "de recorte propuesto"
+    "3,9 %",
+    "de déficit, sin cambios"
    ],
    "fig": {
     "k": "macro",
     "mueve": "D",
     "dir": -1
    },
-   "cap": "Un recorte del gasto público (G) es política fiscal contractiva: la DA pasa de DA₁ a DA₂ a corto plazo, a cambio de menos déficit y menos deuda.",
+   "cap": "El recorte de US$ 276 millones frente al proyecto es pequeño: la DA se desplaza apenas a la izquierda (DA₁ a DA₂) respecto de lo previsto, pero el gasto total sigue 11,1 % por encima de 2026 y el déficit no cambia.",
    "pasos": [
-    "El nuevo gobierno quiere recortar gastos",
-    "Baja el gasto público (G) previsto para 2027",
-    "El déficit y la nueva deuda serían menores",
-    "A corto plazo la DA se desplaza a la izquierda",
-    "Puede mejorar la confianza y bajar el riesgo país"
+    "El nuevo gobierno pide recortar gastos tras la crisis de Ueno",
+    "Diputados recorta US$ 276 M en viáticos, pasajes y consultorías",
+    "Parte del ahorro se reasigna a salud, obras y educación",
+    "El gasto total y la deuda prevista casi no cambian",
+    "El déficit sigue en 3,9 % del PIB y el Senado decide"
    ],
    "conceptos": [
     [
-     "Sanción ficta",
-     "Aprobación automática de un proyecto cuando el Congreso no vota en el plazo."
+     "Media sanción",
+     "Aprobación de una de las dos cámaras; falta la otra."
+    ],
+    [
+     "Reasignación presupuestaria",
+     "Mover gasto de un destino a otro sin cambiar mucho el total."
     ],
     [
      "Política fiscal contractiva",
      "Menos gasto o más impuestos para reducir el déficit o frenar la economía."
     ],
     [
-     "Consolidación fiscal",
-     "Reducir el déficit de forma sostenida."
-    ],
-    [
      "Déficit fiscal",
      "Gasto público mayor que los ingresos en un año."
+    ],
+    [
+     "Gasto corriente",
+     "Gasto de funcionamiento del Estado: sueldos, viáticos, servicios."
     ]
    ],
    "diagramas": [
@@ -3146,49 +3453,55 @@
     "sp-calificacion",
     "bonos-embi",
     "alliana-gobierno",
-    "fitch-revision"
+    "fitch-revision",
+    "ueno-lotes"
    ],
    "pregunta": {
-    "q": "Si el Gobierno recorta el gasto público, ¿qué pasa con la demanda agregada a corto plazo?",
+    "q": "Diputados recortó US$ 276 millones pero reasignó parte a salud y obras, y el déficit siguió en 3,9 %. ¿Por qué no bajó el déficit?",
     "opts": [
-     "Se desplaza a la izquierda",
-     "Se desplaza a la derecha",
-     "No cambia",
-     "Se desplaza la OALP"
+     "Porque el gasto total y el endeudamiento previsto casi no cambiaron",
+     "Porque subieron los impuestos",
+     "Porque la DA se desplazó a la derecha",
+     "Porque el BCP bajó la tasa de interés"
     ],
     "ok": 0,
-    "fb": "El gasto público (G) es un componente de la DA. Si baja, la DA se desplaza a la izquierda: es política fiscal contractiva."
+    "fb": "El recorte cambió la composición del gasto, no su tamaño: parte del ahorro se reasignó y no se tocó el crédito público (Fuente 20), así que el déficit previsto quedó igual."
    },
    "evaluacion": {
     "ganan": [
      [
-      "Contribuyentes futuros",
-      "Menos deuda y menos intereses que pagar."
+      "Pacientes y alumnos",
+      "Reciben US$ 95,1 M más para medicamentos y educación."
      ],
      [
-      "Inversores y calificación del país",
-      "Un déficit menor reduce el riesgo."
+      "Contribuyentes",
+      "Se recortan gastos de poca prioridad, como viáticos y pasajes."
      ]
     ],
     "pierden": [
      [
-      "Beneficiarios de gastos recortados",
-      "Programas u obras que podrían reducirse."
+      "Proveedores de servicios al Estado",
+      "Menos contratos de consultoría, publicidad, catering y mantenimiento."
      ],
      [
-      "Proveedores del Estado",
-      "Menos contratos y pagos."
+      "Contribuyentes futuros",
+      "El déficit de 3,9 % implica más deuda e intereses."
      ]
     ],
-    "corto": "Menos gasto público y algo menos de demanda agregada.",
-    "largo": "Menos deuda y más chances de mantener el grado de inversión.",
+    "corto": "El Senado puede cambiar el texto; el gasto total sigue creciendo y sostiene la demanda agregada en 2027.",
+    "largo": "Si el déficit no baja, la deuda sube y es más difícil conservar la calificación del país.",
     "supuestos": [
-     "Que los recortes sean de gastos superfluos y no de inversión pública o programas sociales.",
-     "Que Diputados apruebe los cambios antes del 14 de noviembre."
+     "Que el Gobierno consiga colocar la deuda prevista pese a la crisis de Ueno.",
+     "Que el Senado no amplíe el gasto."
     ],
-    "conclusion": "Recortar el déficit puede devolver confianza tras la crisis, pero el efecto depende de qué se recorte: no es lo mismo eliminar gastos superfluos que reducir inversión o ayuda social."
+    "conclusion": "Mejorar la composición del gasto es positivo, pero no resuelve el problema principal: un déficit más del doble del tope legal, en un momento en que las calificadoras miran el costo fiscal de Ueno."
    },
    "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/politica/2026/11/09/a-pedido-de-alliana-diputados-suspende-de-forma-repentina-el-tratamiento-del-presupuesto-2027/",
+     "2026-11-09"
+    ],
     [
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/10/pgn-2027-diputados-preve-tratar-el-presupuesto-entre-el-jueves-y-el-viernes/",
@@ -3212,6 +3525,16 @@
     [
      "5Días",
      "https://5dias.com.py/article/diputados-tratar-hoy-el-presupuesto-2027-en-sesin-extraordinaria",
+     "2026-11-12"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/12/pgn-2027-diputados-aprueban-version-del-ejecutivo-con-ajustes/",
+     "2026-11-12"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/12/pgn-2027-ejecutivo-reasigna-us-96-millones-que-gastos-del-estado-seran-recortados/",
      "2026-11-12"
     ]
    ]
@@ -3838,7 +4161,7 @@
    "tema": "4.5",
    "kc": "cambio",
    "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre. El martes 10, según RDN, la venta bajó a G. 6.200 en algunas casas de cambio; el sector lo atribuye al pago de depósitos de Ueno, aunque los importadores siguen comprando dólares para las ventas de fin de año.",
-   "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. El economista Aníbal Insfrán explicó a ABC Color que no faltan dólares: lo que subió fue la demanda, porque personas y empresas buscaron una moneda más segura. Según ABC, la calma del lunes llegó con el pago a los ahorristas y la resolución de la crisis política, aunque los importadores siguen comprando dólares para las ventas de fin de año. Un dólar más caro encarece las deudas en dólares y los productos importados; Insfrán sugiere además revisar el dólar de G. 6.458 que usa el Presupuesto 2027.",
+   "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. El economista Aníbal Insfrán explicó a ABC Color que no faltan dólares: lo que subió fue la demanda, porque personas y empresas buscaron una moneda más segura. Según ABC, la calma del lunes llegó con el pago a los ahorristas y la resolución de la crisis política, aunque los importadores siguen comprando dólares para las ventas de fin de año. Un dólar más caro encarece las deudas en dólares y los productos importados; Insfrán sugiere además revisar el dólar de G. 6.458 que usa el Presupuesto 2027. Según La Nación (10 nov), la Cámara de Supermercados descartó subas inmediatas de precios porque gran parte de la mercadería para las fiestas se compró con un dólar más bajo.",
    "datos": [
     [
      "G. 6.200",
@@ -4007,6 +4330,11 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/11/pgn-y-deficit-economista-pide-a-autoridades-transparentar-las-cuentas-del-estado/",
      "2026-11-11"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/10/supermercados-descartan-subas-inmediatas-de-precios-pese-al-repunte-del-dolar/",
+     "2026-11-10"
     ]
    ]
   },
@@ -6739,223 +7067,6 @@
    }
   },
   {
-   "id": "tomate-precio",
-   "fecha": "2025-08-19",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/el-tomate-vuelve-a-subir-y-alcanza-en-promedio-los-g-230-000-por-caja-en-el-mercado-de-abasto",
-   "titulo": "Poco tomate y trabas para importar: la caja llega a G. 230.000",
-   "unidad": "micro",
-   "tema": "2.3",
-   "kc": "escasez",
-   "sector": [
-    "agro"
-   ],
-   "resumen": "En el Mercado de Abasto de Asunción, la caja de tomate nacional llegó a un promedio de G. 230.000. Según el presidente de la Asociación de Comerciantes e Importadores Frutihortícolas, Pedro Villarreal, la suba se debe a que falta tomate nacional y a las limitaciones para importar, ya que el Ministerio de Agricultura controla los permisos de importación.",
-   "contexto": "El precio de equilibrio está donde la cantidad que se quiere comprar coincide con la que se ofrece. Si la oferta cae (por el clima o porque se limita la importación) y la demanda sigue igual, a ese precio hay escasez y el precio sube hasta un nuevo equilibrio. El tomate es un buen ejemplo: la demanda cambia poco (se consume a diario, entre 150.000 y 180.000 kilos según el comerciante), así que cuando falta oferta el precio sube mucho. Los productores nacionales y los importadores discuten quién tiene la culpa, y el comerciante criticó un proyecto de ley que solo permitiría importar a quien compre producción nacional.",
-   "datos": [
-    [
-     "G. 230.000",
-     "Precio promedio de la caja de tomate nacional en el Abasto"
-    ],
-    [
-     "150.000-180.000 kg",
-     "Consumo diario de tomate del país, según el comerciante"
-    ]
-   ],
-   "clave": [
-    "G. 230.000",
-    "por caja de tomate"
-   ],
-   "fig": {
-    "k": "mercado",
-    "mueve": "O",
-    "dir": -1
-   },
-   "cap": "Menos tomate nacional y menos importación: la oferta se desplaza a la izquierda (O₁ → O₂), sube el precio de equilibrio y baja la cantidad.",
-   "pasos": [
-    "Falta tomate nacional y se limita la importación",
-    "La oferta se desplaza a la izquierda",
-    "Al precio anterior hay escasez: se quiere comprar más de lo que hay",
-    "El precio sube hasta un nuevo equilibrio",
-    "Se compra menos tomate a un precio mayor"
-   ],
-   "conceptos": [
-    [
-     "Equilibrio de mercado",
-     "Precio en el que la cantidad demandada es igual a la ofrecida."
-    ],
-    [
-     "Escasez (exceso de demanda)",
-     "Cantidad demandada mayor que la ofrecida a un precio dado."
-    ],
-    [
-     "Función de señal del precio",
-     "El precio alto indica escasez e incentiva a producir o importar más."
-    ]
-   ],
-   "diagramas": [
-    "oferta-demanda",
-    "arancel"
-   ],
-   "rel": [
-    "carne-sustitutos",
-    "inflacion-oct"
-   ],
-   "pregunta": {
-    "q": "Si se permite importar más tomate, ¿qué pasa con el equilibrio?",
-    "opts": [
-     "La oferta sube: baja el precio y aumenta la cantidad",
-     "La demanda sube: sube el precio",
-     "La oferta baja: sube el precio",
-     "No cambia nada"
-    ],
-    "ok": 0,
-    "fb": "Más importación aumenta la oferta (se desplaza a la derecha): el precio de equilibrio baja y la cantidad aumenta."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores nacionales",
-      "Venden a mejor precio mientras se limita la importación."
-     ]
-    ],
-    "pierden": [
-     [
-      "Consumidores",
-      "Pagan mucho más por un alimento básico."
-     ],
-     [
-      "Comerciantes",
-      "Venden menos volumen."
-     ]
-    ],
-    "corto": "Precio alto mientras dure la escasez.",
-    "largo": "El precio alto incentiva a sembrar más o a importar, y el precio vuelve a bajar.",
-    "supuestos": [
-     "Que la demanda de tomate sea poco sensible al precio",
-     "Que no haya contrabando que aumente la oferta"
-    ],
-    "conclusion": "El precio alto es la señal del mercado de que falta tomate; limitar la importación protege a los productores, pero el costo lo pagan los consumidores."
-   }
-  },
-  {
-   "id": "ganado-oferta",
-   "fecha": "2026-03-17",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.py/negocios/2026/03/17/menor-oferta-de-ganado-mantiene-precios-firmes-senala-appec/",
-   "mas": [
-    [
-     "InfoNegocios",
-     "https://infonegocios.com.py/default/con-medidas-sostenidas-el-sector-ganadero-proyecta-recuperacion-del-hato-para-2027",
-     "2025-05-08"
-    ]
-   ],
-   "titulo": "Hay menos ganado y no se puede producir más rápido: la oferta es inelástica",
-   "unidad": "micro",
-   "tema": "2.6",
-   "kc": "cambio",
-   "sector": [
-    "agro"
-   ],
-   "resumen": "Según la Asociación de Productores y Exportadores de Carne (APPEC), la oferta de ganado para la industria cayó 27 % frente a los mismos meses de 2025 y el precio del ganado subió 3 %. Los frigoríficos trabajan al 50-55 % de su capacidad y su margen bruto cayó 16 %. El hato bovino se redujo cinco años seguidos.",
-   "contexto": "La elasticidad precio de la oferta mide cuánto aumenta la cantidad ofrecida cuando sube el precio. En la ganadería es baja a corto plazo: aunque el novillo valga más, criar un animal para faena lleva años, por los ciclos reproductivos largos. Por eso, cuando cae el hato, el precio sube y la cantidad casi no responde. El presidente de la APPEC, Ramiro Maluff, ya había explicado en 2025 que la reducción seguiría por esos ciclos y que la recuperación del hato recién se esperaba hacia 2027. A largo plazo, con tiempo para retener vientres e invertir en genética, la oferta se vuelve más elástica.",
-   "datos": [
-    [
-     "−27 %",
-     "Oferta de ganado para la industria frente a 2025"
-    ],
-    [
-     "+3 %",
-     "Suba del precio del ganado"
-    ],
-    [
-     "50-55 %",
-     "Capacidad usada por los frigoríficos"
-    ],
-    [
-     "−16 %",
-     "Margen bruto de la industria"
-    ],
-    [
-     "5 años",
-     "Seguidos de reducción del hato"
-    ]
-   ],
-   "clave": [
-    "−27 %",
-    "menos ganado para faenar"
-   ],
-   "fig": {
-    "k": "mercado",
-    "mueve": "D",
-    "dir": 1
-   },
-   "cap": "Con una oferta muy inelástica (curva empinada), una demanda mayor sube mucho el precio y poco la cantidad: no se pueden criar más animales de un día para otro.",
-   "pasos": [
-    "El hato bovino se redujo durante cinco años",
-    "Criar un novillo lleva años: la oferta no reacciona rápido",
-    "A corto plazo la oferta es muy inelástica",
-    "El precio del ganado sube y la cantidad casi no cambia",
-    "A largo plazo, retener vientres permite ofrecer más"
-   ],
-   "conceptos": [
-    [
-     "Elasticidad precio de la oferta (EPO)",
-     "% de cambio en la cantidad ofrecida ÷ % de cambio en el precio."
-    ],
-    [
-     "Oferta inelástica",
-     "La cantidad ofrecida responde poco al precio (EPO menor que 1)."
-    ],
-    [
-     "Factores de la EPO",
-     "Tiempo de producción, capacidad ociosa, existencias y movilidad de los factores."
-    ]
-   ],
-   "diagramas": [
-    "oferta-demanda"
-   ],
-   "rel": [
-    "carne-cae",
-    "carne-sustitutos"
-   ],
-   "pregunta": {
-    "q": "¿Por qué la oferta de ganado es inelástica a corto plazo?",
-    "opts": [
-     "Porque criar un animal para faena lleva años",
-     "Porque la demanda de carne es elástica",
-     "Porque los frigoríficos tienen capacidad ociosa",
-     "Porque el precio está regulado"
-    ],
-    "ok": 0,
-    "fb": "El tiempo de producción es el principal factor: aunque suba el precio, no se pueden tener más animales listos de inmediato."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Ganaderos con animales",
-      "Reciben mejores precios."
-     ]
-    ],
-    "pierden": [
-     [
-      "Frigoríficos",
-      "Trabajan a media capacidad y con menos margen."
-     ],
-     [
-      "Consumidores",
-      "Pagan más por la carne."
-     ]
-    ],
-    "corto": "Precios firmes y frigoríficos con capacidad ociosa.",
-    "largo": "Los buenos precios incentivan a retener vientres y el hato se recupera.",
-    "supuestos": [
-     "Que la demanda internacional siga firme"
-    ],
-    "conclusion": "El ganado muestra que el tiempo es clave en la elasticidad de la oferta: lo que hoy no se puede ofrecer, puede ofrecerse en dos o tres años."
-   }
-  },
-  {
    "id": "bomberos-bien-publico",
    "fecha": "2026-06-10",
    "medio": "La Nación",
@@ -7312,148 +7423,6 @@
      "Que la medición capte bien la economía informal"
     ],
     "conclusion": "El PIB creció, pero mirar sus componentes muestra un punto débil: la caída de la inversión."
-   }
-  },
-  {
-   "id": "china-taiwan-uip",
-   "fecha": "2025-08-21",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/el-pais-perdera-usd-592-millones-al-ano-si-opta-por-china-continental",
-   "titulo": "¿Libre comercio con China? La UIP calcula ganadores y perdedores",
-   "unidad": "global",
-   "tema": "4.3",
-   "kc": "interdependencia",
-   "sector": [
-    "industria",
-    "comercio"
-   ],
-   "mundo": [
-    "china"
-   ],
-   "resumen": "Un informe del Centro de Estudios Económicos de la Unión Industrial Paraguaya (UIP) estima que relacionarse comercialmente con China continental, incluso con un tratado de libre comercio, dejaría un saldo negativo de unos US$ 592 millones al año. Calcula beneficios por mejores precios de la soja (US$ 202 millones) y ahorro en importaciones, pero costos por perder el mercado de Taiwán, menos recaudación por bajar aranceles y más de 11.500 empleos industriales perdidos en el primer año.",
-   "contexto": "El libre comercio trae beneficios: precios más bajos para los consumidores y nuevos mercados para los exportadores eficientes. Pero también tiene costos concentrados en las industrias que compiten con importaciones baratas. Por eso aparecen argumentos a favor de la protección: proteger el empleo, las industrias nacientes, la recaudación de aranceles o la diversificación. El informe de la UIP, un gremio industrial, advierte que las ganancias irían a grandes exportadores de soja y carne y los costos a trabajadores y a las finanzas públicas. Es importante evaluar quién hace el cálculo y con qué supuestos.",
-   "datos": [
-    [
-     "−US$ 592 M",
-     "Saldo anual estimado frente a la situación actual"
-    ],
-    [
-     "+US$ 202 M",
-     "Mejora por precios de exportación de soja"
-    ],
-    [
-     "US$ 220-250 M",
-     "Ahorro en importaciones (y pérdida similar de recaudación)"
-    ],
-    [
-     "−US$ 299 M",
-     "Exportaciones perdidas a Taiwán"
-    ],
-    [
-     "11.500",
-     "Empleos industriales que se perderían el primer año"
-    ]
-   ],
-   "clave": [
-    "11.500",
-    "empleos en riesgo, según la UIP"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "US$ millones al año",
-    "rows": [
-     [
-      "Mejor precio de la soja",
-      202
-     ],
-     [
-      "Ahorro en importaciones",
-      235
-     ],
-     [
-      "Menos exportaciones a Taiwán",
-      -299,
-      1
-     ],
-     [
-      "Fin de la cooperación de Taiwán",
-      -225
-     ],
-     [
-      "Menos recaudación arancelaria",
-      -235
-     ]
-    ]
-   },
-   "cap": "Beneficios y costos según la UIP (en ahorro y recaudación se usa el punto medio del rango de US$ 220-250 millones). El saldo depende de los supuestos del informe.",
-   "pasos": [
-    "Se baja el arancel a los productos de China",
-    "Las importaciones chinas son más baratas: ganan los consumidores",
-    "Las industrias que compiten con esas importaciones pierden ventas y empleos",
-    "Los exportadores de soja y carne ganan nuevos mercados",
-    "El saldo depende de cuánto pesa cada efecto"
-   ],
-   "conceptos": [
-    [
-     "Argumentos a favor de la protección",
-     "Proteger empleo, industrias nacientes, recaudación, seguridad o diversificación."
-    ],
-    [
-     "Argumentos a favor del libre comercio",
-     "Precios más bajos, más competencia, eficiencia y especialización."
-    ],
-    [
-     "Industria naciente",
-     "Industria nueva que necesitaría protección temporal hasta ser competitiva."
-    ]
-   ],
-   "diagramas": [
-    "arancel",
-    "exportaciones"
-   ],
-   "rel": [
-    "mercosur-ue",
-    "maquila"
-   ],
-   "pregunta": {
-    "q": "¿Cuál es un argumento a favor de la protección que usa el informe de la UIP?",
-    "opts": [
-     "Proteger el empleo en la industria nacional",
-     "Bajar los precios para los consumidores",
-     "Aumentar la competencia",
-     "Aprovechar la ventaja comparativa"
-    ],
-    "ok": 0,
-    "fb": "Proteger el empleo es un argumento clásico a favor de la protección; los otros son argumentos a favor del libre comercio."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Exportadores de soja y carne",
-      "Acceso a un mercado enorme."
-     ],
-     [
-      "Consumidores",
-      "Importaciones más baratas."
-     ]
-    ],
-    "pierden": [
-     [
-      "Industrias textil, química, metalúrgica y de calzado",
-      "Más competencia de productos chinos."
-     ],
-     [
-      "El Estado",
-      "Menos recaudación por aranceles."
-     ]
-    ],
-    "corto": "Pérdidas concentradas en la industria.",
-    "largo": "Depende de si los trabajadores se reubican en sectores más productivos.",
-    "supuestos": [
-     "Los cálculos son de un gremio industrial, parte interesada",
-     "Supone que se pierde el mercado de Taiwán"
-    ],
-    "conclusion": "El libre comercio suele aumentar el bienestar total, pero crea ganadores y perdedores; el debate es cómo compensar a los perdedores."
    }
   },
   {
@@ -7853,6 +7822,120 @@
     ],
     "conclusion": "Las renuncias abren la puerta a renovar la supervisión, pero dejan al BCP debilitado justo cuando más necesita credibilidad; la rapidez para completar el directorio es clave."
    }
+  },
+  {
+   "id": "corredor-bioceanico",
+   "fecha": "2026-02-16",
+   "medio": "InfoNegocios",
+   "url": "https://infonegocios.com.py/y-ademas/us-200-millones-para-acelerar-el-corredor-bioceanico-y-potenciar-la-competitividad-paraguaya",
+   "titulo": "US$ 200 millones del BID para acelerar el Corredor Bioceánico",
+   "unidad": "macro",
+   "tema": "3.7",
+   "kc": "cambio",
+   "sector": [
+    "comercio"
+   ],
+   "resumen": "El BID aprobó un préstamo de US$ 200 millones para una nueva etapa del Corredor Bioceánico, la ruta que cruzará el Chaco para unir el Atlántico con el Pacífico. Según el MOPC, Paraguay ya invierte unos US$ 915 millones en la obra.",
+   "contexto": "El préstamo financia 102,5 kilómetros del tramo II, además de accesos a Mariscal Estigarribia y a la zona industrial de Loma Plata. El puente entre Carmelo Peralta y Puerto Murtinho (Brasil) está cerca de su unión definitiva. La infraestructura es una política de oferta: reduce los costos de transporte, mejora la competitividad y aumenta la capacidad productiva. También permite depender menos de los ríos, que en las bajantes encarecen el flete.",
+   "datos": [
+    [
+     "US$ 200 M",
+     "Préstamo del BID"
+    ],
+    [
+     "US$ 915 M",
+     "Inversión que ya realiza Paraguay"
+    ],
+    [
+     "102,5 km",
+     "Tramo II financiado por el préstamo"
+    ],
+    [
+     "≈ 100 km",
+     "Distancia que se ahorraría en la ruta"
+    ]
+   ],
+   "clave": [
+    "US$ 200 M",
+    "del BID"
+   ],
+   "fig": {
+    "k": "oalp",
+    "s": 40
+   },
+   "cap": "Mejor infraestructura baja los costos y aumenta la capacidad productiva: la OALP y la OACP se desplazan a la derecha.",
+   "pasos": [
+    "Se construye una ruta que cruza el Chaco",
+    "Bajan los costos y tiempos de transporte",
+    "Las empresas producen y exportan más barato",
+    "Aumenta la capacidad productiva (OALP a la derecha)",
+    "Más crecimiento potencial, sobre todo en el Chaco"
+   ],
+   "conceptos": [
+    [
+     "Infraestructura",
+     "Rutas, puentes, puertos y redes que facilitan la producción."
+    ],
+    [
+     "Política de oferta",
+     "Medidas para aumentar la capacidad productiva."
+    ],
+    [
+     "Competitividad",
+     "Capacidad de vender a precios convenientes frente a otros países."
+    ],
+    [
+     "Préstamo multilateral",
+     "Crédito de organismos como el BID o el Banco Mundial."
+    ]
+   ],
+   "diagramas": [
+    "politicas-oferta"
+   ],
+   "rel": [
+    "hidrovia-2026",
+    "pisa-2025"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el Corredor Bioceánico es una política de oferta?",
+    "opts": [
+     "Porque baja los costos de producción y aumenta la capacidad productiva",
+     "Porque sube el consumo de inmediato",
+     "Porque reduce la tasa de interés",
+     "Porque baja los impuestos"
+    ],
+    "ok": 0,
+    "fb": "La infraestructura mejora la capacidad de producir y exportar: desplaza la OALP. Su construcción también suma gasto (DA) a corto plazo."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores y exportadores del Chaco",
+      "Transporte más barato y nuevos mercados."
+     ],
+     [
+      "Empleo en la construcción",
+      "Puestos de trabajo durante la obra."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes futuros",
+      "Pagarán el préstamo con intereses."
+     ],
+     [
+      "Medio ambiente del Chaco",
+      "Más presión sobre los bosques si crece la actividad."
+     ]
+    ],
+    "corto": "El gasto en la obra suma a la demanda agregada.",
+    "largo": "Más competitividad, siempre que se terminen todos los tramos.",
+    "supuestos": [
+     "Que la obra se complete y se mantenga.",
+     "Que se controle el impacto ambiental."
+    ],
+    "conclusion": "Es una apuesta de largo plazo por la productividad; su éxito depende de terminar los tramos y de cuidar el ambiente del Chaco."
+   }
   }
  ],
  "historial": {
@@ -8119,7 +8202,7 @@
    "u": "US$ M",
    "grupo": "Sector externo",
    "col": 1,
-   "fuente": "BCP, reportes de comercio exterior; septiembre según ABC Color",
+   "fuente": "BCP, reportes de comercio exterior; octubre según La Nación (12 nov 2026)",
    "puntos": [
     [
      "2026-01-31",
@@ -8144,9 +8227,13 @@
     [
      "2026-09-30",
      10223.4
+    ],
+    [
+     "2026-10-31",
+     11362.9
     ]
    ],
-   "lee": "Lo exportado desde enero hasta cada mes. A septiembre, 19,7 % más que en 2025, sobre todo por la soja."
+   "lee": "Lo exportado desde enero hasta cada mes. A octubre, 19,3 % más que en 2025, sobre todo por la soja."
   },
   "recaudacion": {
    "t": "Recaudación de impuestos (DNIT)",
@@ -8329,14 +8416,14 @@
    ]
   },
   "2026-11-09": {
-   "titulo": "Una semana con plazos: Presupuesto y tasa de interés",
-   "texto": "La semana estuvo marcada por las consecuencias de Ueno: el Fondo de Garantía terminó el 11 de noviembre de pagar el anticipo al 100 % de los clientes (US$ 644 millones), pero Fitch puso la nota del país en revisión negativa por el posible costo fiscal de los depósitos no asegurados. El BCP renovó todo su directorio y su nuevo presidente, Jorge Schreiner, anunció que podría comprar dólares para estabilizar la cotización. El Gobierno propuso recortar US$ 276 millones del Presupuesto 2027, que Diputados trata el jueves 12, mientras el IPS usará sus rentas para pagar jubilaciones. El IMAEP mostró que la economía crecía 3,9 % en septiembre, antes de la crisis.",
+   "titulo": "Presupuesto al Senado y un plan para repartir Ueno",
+   "texto": "La semana estuvo marcada por las consecuencias de Ueno: el Fondo de Garantía terminó el 11 de noviembre de pagar el anticipo al 100 % de los clientes (US$ 644 millones), Fitch puso la nota del país en revisión negativa y el BCP anunció que los activos y depósitos del banco se repartirán por lotes entre varios bancos. El BCP renovó todo su directorio y su nuevo presidente, Jorge Schreiner, dijo que podría comprar dólares para estabilizar la cotización. Diputados aprobó el 12 de noviembre el Presupuesto 2027 con un recorte de US$ 276 millones, pero con el déficit en 3,9 % del PIB. En el lado positivo, el IMAEP creció 3,9 % en septiembre y el comercio exterior acumula un superávit de US$ 668,6 millones a octubre gracias a la soja.",
    "claves": [
     "pgn-suspendido",
+    "ueno-lotes",
     "fitch-revision",
-    "bcp-cambiaria",
-    "bcp-caballero",
-    "ueno-devolucion"
+    "comercio-octubre",
+    "bcp-cambiaria"
    ]
   }
  },
@@ -8435,6 +8522,10 @@
    ],
    "agenda": [
     [
+     "2026-11-16",
+     "Cierra el balance de exclusión de Ueno Bank, paso previo para licitar sus activos y depósitos."
+    ],
+    [
      "2026-11-20",
      "Próxima reunión del Comité de Política Monetaria: decide si cambia la tasa."
     ]
@@ -8491,6 +8582,14 @@
     [
      "2026-11-11",
      "Vence el plazo legal: el anticipo de Ueno llegó a 1.812.348 personas (100 %) por US$ 644 millones."
+    ],
+    [
+     "2026-11-12",
+     "Schreiner anuncia que los activos y depósitos de Ueno se repartirán por lotes entre bancos; el interventor exonera intereses moratorios hasta el 30 de noviembre."
+    ],
+    [
+     "2026-11-12",
+     "Informe de comercio exterior: superávit de US$ 668,6 millones a octubre."
     ]
    ],
    "enlaces": [
@@ -8585,16 +8684,7 @@
      "Deuda pública sobre el PIB (septiembre de 2026)"
     ]
    ],
-   "agenda": [
-    [
-     "2026-11-13",
-     "Plazo para que el Ejecutivo presente los cambios al Presupuesto 2027."
-    ],
-    [
-     "2026-11-14",
-     "Vence el plazo para que Diputados apruebe el Presupuesto 2027; si no, queda sancionada la versión original."
-    ]
-   ],
+   "agenda": [],
    "eventos": [
     [
      "2026-02-24",
@@ -8639,6 +8729,10 @@
     [
      "2026-11-11",
      "Fitch pone en revisión negativa la nota BB+ de Paraguay por la crisis de Ueno."
+    ],
+    [
+     "2026-11-12",
+     "Diputados da media sanción al Presupuesto 2027: G. 164 billones, recorte de US$ 276 millones y déficit de 3,9 % del PIB. Pasa al Senado."
     ]
    ],
    "enlaces": [
@@ -8946,6 +9040,10 @@
     [
      "2026-11-09",
      "Anuncia una denuncia contra directivos de Ueno y funcionarios del BCP; sus fondos en Ueno superarían los US$ 516 millones."
+    ],
+    [
+     "2026-11-12",
+     "El presidente del BCP afirma que los activos de Ueno ya superan lo adeudado a las cajas previsionales, entre ellas el IPS (US$ 516 millones)."
     ]
    ],
    "enlaces": [
@@ -9202,7 +9300,7 @@
    {
     "f": "2026-11-14",
     "t": "Vence el plazo del Presupuesto 2027 en Diputados",
-    "d": "Si la Cámara no aprueba una versión modificada, queda sancionada la versión original del gobierno de Peña (sanción ficta).",
+    "d": "Era el plazo de Diputados; la Cámara aprobó el proyecto con cambios el 12 de noviembre y lo envió al Senado.",
     "tipo": "Congreso",
     "tema": "3.6",
     "url": "https://www.abc.com.py/politica/2026/11/09/a-pedido-de-alliana-diputados-suspende-de-forma-repentina-el-tratamiento-del-presupuesto-2027/",
@@ -9288,6 +9386,24 @@
     "tema": "3.6",
     "url": "https://www.lanacion.com.py/politica/2026/11/11/ministerio-de-economia-remite-adenda-a-diputados-con-un-recorte-de-usd-276-millones/",
     "fuente": "La Nación"
+   },
+   {
+    "f": "2026-11-16",
+    "t": "Cierra el balance de exclusión de Ueno Bank",
+    "d": "El interventor separa activos y pasivos para repartirlos por lotes entre bancos del sistema.",
+    "tipo": "BCP",
+    "tema": "3.5",
+    "url": "https://www.abc.com.py/economia/2026/11/12/clientes-de-ueno-bcp-exoneran-temporalmente-intereses-moratorios-y-recargos-por-prestamos-y-tarjetas/",
+    "fuente": "ABC Color"
+   },
+   {
+    "f": "2026-11-30",
+    "t": "Termina la exoneración de intereses moratorios de Ueno",
+    "d": "Hasta esta fecha los clientes con préstamos y tarjetas no pagan intereses moratorios ni punitorios.",
+    "tipo": "BCP",
+    "tema": "2.10",
+    "url": "https://www.abc.com.py/economia/2026/11/12/clientes-de-ueno-bcp-exoneran-temporalmente-intereses-moratorios-y-recargos-por-prestamos-y-tarjetas/",
+    "fuente": "ABC Color"
    }
   ],
   "habituales": [
@@ -9604,8 +9720,8 @@
    "por_que": "La maquila es la principal vía de diversificación de una economía muy dependiente del agro. Crea empleo formal y atrae inversión extranjera, sobre todo de Brasil. El desafío es que deje más valor agregado en el país y sume proveedores locales.",
    "cifras": [
     [
-     "US$ 1.148 M",
-     "Exportaciones de maquila (ene-sep, +25 %)"
+     "US$ 1.300 M",
+     "Exportaciones de maquila (ene-oct, +26,4 %; BCP vía La Nación, 12 nov 2026)"
     ],
     [
      "US$ 543 M",
@@ -9742,24 +9858,24 @@
    "por_que": "Las exportaciones traen dólares, influyen en el tipo de cambio y suman a la demanda agregada a través de las exportaciones netas (X − M). El acuerdo Mercosur–Unión Europea, aplicado desde mayo, abre un mercado grande para los productos paraguayos.",
    "cifras": [
     [
-     "US$ 10.223 M",
-     "Exportaciones registradas a septiembre (+19,7 %)"
+     "US$ 11.363 M",
+     "Exportaciones registradas a octubre (+19,3 %)"
     ],
     [
-     "+25,7 %",
-     "Exportaciones totales a septiembre"
+     "+25 %",
+     "Exportaciones totales a octubre"
     ],
     [
-     "+15,0 %",
-     "Importaciones a septiembre"
+     "+14,5 %",
+     "Importaciones a octubre"
     ],
     [
-     "US$ 712 M",
-     "Superávit comercial a septiembre"
+     "US$ 668,6 M",
+     "Superávit comercial a octubre"
     ],
     [
      "US$ 63",
-     "De cada US$ 100 nuevos exportados, los aportó la soja"
+     "De cada US$ 100 nuevos exportados, los aportó la soja (a septiembre)"
     ]
    ],
    "graficos": [
@@ -9791,7 +9907,7 @@
      ]
     }
    ],
-   "fuente": "BCP vía InfoNegocios (2 nov 2026) y ABC Color (23 oct 2026, datos de Rediex).",
+   "fuente": "BCP vía La Nación (12 nov 2026) y ABC Color (23 oct 2026, datos de Rediex).",
    "actores": [
     [
      "BCP",
@@ -9872,7 +9988,9 @@
     "bcp-caballero",
     "ande-tarifa",
     "bcp-cambiaria",
-    "fitch-revision"
+    "fitch-revision",
+    "ueno-lotes",
+    "cooperativas-garantia"
    ],
    "hitos": [
     [
@@ -9984,6 +10102,15 @@
      "ips-ueno"
     ],
     [
+     "2026-11-12",
+     "El BCP anuncia que Ueno se repartirá por lotes entre bancos y exonera intereses moratorios hasta el 30 de noviembre.",
+     "ueno-lotes"
+    ],
+    [
+     "2026-11-16",
+     "Cierra el balance de exclusión de Ueno."
+    ],
+    [
      "2026-11-17",
      "El IPS paga jubilaciones y aguinaldo."
     ]
@@ -9992,7 +10119,7 @@
   {
    "id": "presupuesto-2027",
    "titulo": "El Presupuesto 2027",
-   "estado": "En el Congreso",
+   "estado": "En el Senado",
    "dek": "Un presupuesto con un déficit de hasta 3,9 % del PIB, presentado por un gobierno y revisado por otro en medio de una crisis.",
    "aprender": [
     "Qué es el déficit fiscal y cómo se financia con deuda.",
@@ -10051,8 +10178,9 @@
      "fitch-revision"
     ],
     [
-     "2026-11-14",
-     "Vence el plazo en Diputados: si no aprueba cambios, queda la versión original."
+     "2026-11-12",
+     "Diputados da media sanción: G. 164 billones, recorte de US$ 276 millones y déficit de 3,9 %.",
+     "pgn-suspendido"
     ]
    ]
   },
@@ -10138,7 +10266,8 @@
     "carne-sustitutos",
     "maquila",
     "mercosur-ue",
-    "energia-cedida"
+    "energia-cedida",
+    "comercio-octubre"
    ],
    "hitos": [
     [
@@ -10160,6 +10289,11 @@
      "2026-10-23",
      "De cada US$ 100 nuevos exportados, 63 los aporta la soja.",
      "soja-record"
+    ],
+    [
+     "2026-10-31",
+     "Superávit comercial de US$ 668,6 millones a octubre; exportaciones +25 %.",
+     "comercio-octubre"
     ],
     [
      "2026-11-02",
@@ -12230,6 +12364,11 @@
     "22",
     "Cooperativas a las que el Incoop canceló la licencia en 2024",
     "ABC Color (4 ago 2025)"
+   ],
+   [
+    "55",
+    "Cooperativas en proceso de liquidación (noviembre de 2026)",
+    "La Nación (12 nov 2026)"
    ]
   ],
   "comparacion": [
@@ -13161,7 +13300,7 @@
    "¿Es justo que el impuesto que más recauda sea el IVA? ¿Qué pasaría si se cobrara más impuesto a la renta?",
    "¿Por qué es difícil bajar los gastos rígidos?"
   ],
-  "nota": "El Presupuesto 2027 todavía no está aprobado: el 9 de noviembre Diputados suspendió su tratamiento a pedido del nuevo gobierno para modificarlo. Los «100 guaraníes» son el total del proyecto (Gobierno central más entidades descentralizadas); el «resto del Gobierno central» es un cálculo propio: G. 87,9 billones menos Salud, Educación y Obras Públicas.",
+  "nota": "El 12 de noviembre Diputados dio media sanción al Presupuesto 2027 (G. 164 billones, con un recorte de US$ 276 millones y déficit de 3,9 % del PIB); ahora lo estudia el Senado. Los «100 guaraníes» todavía son el total del proyecto original (Gobierno central más entidades descentralizadas); el «resto del Gobierno central» es un cálculo propio: G. 87,9 billones menos Salud, Educación y Obras Públicas.",
   "recomendado": {
    "intro": "¿Gasta Paraguay lo que se recomienda? Cada tarjeta compara el dato del país con la meta que fija una ley o un organismo internacional.",
    "areas": [
@@ -13360,8 +13499,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-12",
-  "hora": "06:45",
+  "fecha": "2026-11-13",
+  "hora": "07:28",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -13370,25 +13509,25 @@
     "USD",
     "Dólar estadounidense",
     5900,
-    6170
+    6150
    ],
    [
     "ARS",
     "Peso argentino",
     3.5,
-    4
+    3.9
    ],
    [
     "BRL",
     "Real brasileño",
     1100,
-    1190
+    1180
    ],
    [
     "EUR",
     "Euro",
     6150,
-    7000
+    6950
    ]
   ],
   "historial": {
@@ -13412,6 +13551,11 @@
      "2026-11-12",
      5900,
      6170
+    ],
+    [
+     "2026-11-13",
+     5900,
+     6150
     ]
    ],
    "ARS": [
@@ -13434,6 +13578,11 @@
      "2026-11-12",
      3.5,
      4
+    ],
+    [
+     "2026-11-13",
+     3.5,
+     3.9
     ]
    ],
    "BRL": [
@@ -13456,6 +13605,11 @@
      "2026-11-12",
      1100,
      1190
+    ],
+    [
+     "2026-11-13",
+     1100,
+     1180
     ]
    ],
    "EUR": [
@@ -13478,6 +13632,11 @@
      "2026-11-12",
      6150,
      7000
+    ],
+    [
+     "2026-11-13",
+     6150,
+     6950
     ]
    ]
   }
@@ -13558,6 +13717,11 @@
     "Fitch",
     "Puso en revisión negativa la nota BB+ de Paraguay por el costo fiscal de Ueno.",
     "fitch-revision"
+   ],
+   [
+    "Jorge Schreiner (BCP)",
+    "Anunció que los activos y depósitos de Ueno se repartirán por lotes entre bancos locales.",
+    "ueno-lotes"
    ]
   ],
   "preguntas": [

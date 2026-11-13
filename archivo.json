@@ -319,5 +319,364 @@
    ],
    "conclusion": "Los aranceles de un país grande trasladan costos a sus socios: por eso a Paraguay le conviene diversificar mercados."
   }
+ },
+ {
+  "id": "tomate-precio",
+  "fecha": "2025-08-19",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/el-tomate-vuelve-a-subir-y-alcanza-en-promedio-los-g-230-000-por-caja-en-el-mercado-de-abasto",
+  "titulo": "Poco tomate y trabas para importar: la caja llega a G. 230.000",
+  "unidad": "micro",
+  "tema": "2.3",
+  "kc": "escasez",
+  "sector": [
+   "agro"
+  ],
+  "resumen": "En el Mercado de Abasto de Asunción, la caja de tomate nacional llegó a un promedio de G. 230.000. Según el presidente de la Asociación de Comerciantes e Importadores Frutihortícolas, Pedro Villarreal, la suba se debe a que falta tomate nacional y a las limitaciones para importar, ya que el Ministerio de Agricultura controla los permisos de importación.",
+  "contexto": "El precio de equilibrio está donde la cantidad que se quiere comprar coincide con la que se ofrece. Si la oferta cae (por el clima o porque se limita la importación) y la demanda sigue igual, a ese precio hay escasez y el precio sube hasta un nuevo equilibrio. El tomate es un buen ejemplo: la demanda cambia poco (se consume a diario, entre 150.000 y 180.000 kilos según el comerciante), así que cuando falta oferta el precio sube mucho. Los productores nacionales y los importadores discuten quién tiene la culpa, y el comerciante criticó un proyecto de ley que solo permitiría importar a quien compre producción nacional.",
+  "datos": [
+   [
+    "G. 230.000",
+    "Precio promedio de la caja de tomate nacional en el Abasto"
+   ],
+   [
+    "150.000-180.000 kg",
+    "Consumo diario de tomate del país, según el comerciante"
+   ]
+  ],
+  "clave": [
+   "G. 230.000",
+   "por caja de tomate"
+  ],
+  "fig": {
+   "k": "mercado",
+   "mueve": "O",
+   "dir": -1
+  },
+  "cap": "Menos tomate nacional y menos importación: la oferta se desplaza a la izquierda (O₁ → O₂), sube el precio de equilibrio y baja la cantidad.",
+  "pasos": [
+   "Falta tomate nacional y se limita la importación",
+   "La oferta se desplaza a la izquierda",
+   "Al precio anterior hay escasez: se quiere comprar más de lo que hay",
+   "El precio sube hasta un nuevo equilibrio",
+   "Se compra menos tomate a un precio mayor"
+  ],
+  "conceptos": [
+   [
+    "Equilibrio de mercado",
+    "Precio en el que la cantidad demandada es igual a la ofrecida."
+   ],
+   [
+    "Escasez (exceso de demanda)",
+    "Cantidad demandada mayor que la ofrecida a un precio dado."
+   ],
+   [
+    "Función de señal del precio",
+    "El precio alto indica escasez e incentiva a producir o importar más."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda",
+   "arancel"
+  ],
+  "rel": [
+   "carne-sustitutos",
+   "inflacion-oct"
+  ],
+  "pregunta": {
+   "q": "Si se permite importar más tomate, ¿qué pasa con el equilibrio?",
+   "opts": [
+    "La oferta sube: baja el precio y aumenta la cantidad",
+    "La demanda sube: sube el precio",
+    "La oferta baja: sube el precio",
+    "No cambia nada"
+   ],
+   "ok": 0,
+   "fb": "Más importación aumenta la oferta (se desplaza a la derecha): el precio de equilibrio baja y la cantidad aumenta."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Productores nacionales",
+     "Venden a mejor precio mientras se limita la importación."
+    ]
+   ],
+   "pierden": [
+    [
+     "Consumidores",
+     "Pagan mucho más por un alimento básico."
+    ],
+    [
+     "Comerciantes",
+     "Venden menos volumen."
+    ]
+   ],
+   "corto": "Precio alto mientras dure la escasez.",
+   "largo": "El precio alto incentiva a sembrar más o a importar, y el precio vuelve a bajar.",
+   "supuestos": [
+    "Que la demanda de tomate sea poco sensible al precio",
+    "Que no haya contrabando que aumente la oferta"
+   ],
+   "conclusion": "El precio alto es la señal del mercado de que falta tomate; limitar la importación protege a los productores, pero el costo lo pagan los consumidores."
+  }
+ },
+ {
+  "id": "china-taiwan-uip",
+  "fecha": "2025-08-21",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/el-pais-perdera-usd-592-millones-al-ano-si-opta-por-china-continental",
+  "titulo": "¿Libre comercio con China? La UIP calcula ganadores y perdedores",
+  "unidad": "global",
+  "tema": "4.3",
+  "kc": "interdependencia",
+  "sector": [
+   "industria",
+   "comercio"
+  ],
+  "mundo": [
+   "china"
+  ],
+  "resumen": "Un informe del Centro de Estudios Económicos de la Unión Industrial Paraguaya (UIP) estima que relacionarse comercialmente con China continental, incluso con un tratado de libre comercio, dejaría un saldo negativo de unos US$ 592 millones al año. Calcula beneficios por mejores precios de la soja (US$ 202 millones) y ahorro en importaciones, pero costos por perder el mercado de Taiwán, menos recaudación por bajar aranceles y más de 11.500 empleos industriales perdidos en el primer año.",
+  "contexto": "El libre comercio trae beneficios: precios más bajos para los consumidores y nuevos mercados para los exportadores eficientes. Pero también tiene costos concentrados en las industrias que compiten con importaciones baratas. Por eso aparecen argumentos a favor de la protección: proteger el empleo, las industrias nacientes, la recaudación de aranceles o la diversificación. El informe de la UIP, un gremio industrial, advierte que las ganancias irían a grandes exportadores de soja y carne y los costos a trabajadores y a las finanzas públicas. Es importante evaluar quién hace el cálculo y con qué supuestos.",
+  "datos": [
+   [
+    "−US$ 592 M",
+    "Saldo anual estimado frente a la situación actual"
+   ],
+   [
+    "+US$ 202 M",
+    "Mejora por precios de exportación de soja"
+   ],
+   [
+    "US$ 220-250 M",
+    "Ahorro en importaciones (y pérdida similar de recaudación)"
+   ],
+   [
+    "−US$ 299 M",
+    "Exportaciones perdidas a Taiwán"
+   ],
+   [
+    "11.500",
+    "Empleos industriales que se perderían el primer año"
+   ]
+  ],
+  "clave": [
+   "11.500",
+   "empleos en riesgo, según la UIP"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ millones al año",
+   "rows": [
+    [
+     "Mejor precio de la soja",
+     202
+    ],
+    [
+     "Ahorro en importaciones",
+     235
+    ],
+    [
+     "Menos exportaciones a Taiwán",
+     -299,
+     1
+    ],
+    [
+     "Fin de la cooperación de Taiwán",
+     -225
+    ],
+    [
+     "Menos recaudación arancelaria",
+     -235
+    ]
+   ]
+  },
+  "cap": "Beneficios y costos según la UIP (en ahorro y recaudación se usa el punto medio del rango de US$ 220-250 millones). El saldo depende de los supuestos del informe.",
+  "pasos": [
+   "Se baja el arancel a los productos de China",
+   "Las importaciones chinas son más baratas: ganan los consumidores",
+   "Las industrias que compiten con esas importaciones pierden ventas y empleos",
+   "Los exportadores de soja y carne ganan nuevos mercados",
+   "El saldo depende de cuánto pesa cada efecto"
+  ],
+  "conceptos": [
+   [
+    "Argumentos a favor de la protección",
+    "Proteger empleo, industrias nacientes, recaudación, seguridad o diversificación."
+   ],
+   [
+    "Argumentos a favor del libre comercio",
+    "Precios más bajos, más competencia, eficiencia y especialización."
+   ],
+   [
+    "Industria naciente",
+    "Industria nueva que necesitaría protección temporal hasta ser competitiva."
+   ]
+  ],
+  "diagramas": [
+   "arancel",
+   "exportaciones"
+  ],
+  "rel": [
+   "mercosur-ue",
+   "maquila"
+  ],
+  "pregunta": {
+   "q": "¿Cuál es un argumento a favor de la protección que usa el informe de la UIP?",
+   "opts": [
+    "Proteger el empleo en la industria nacional",
+    "Bajar los precios para los consumidores",
+    "Aumentar la competencia",
+    "Aprovechar la ventaja comparativa"
+   ],
+   "ok": 0,
+   "fb": "Proteger el empleo es un argumento clásico a favor de la protección; los otros son argumentos a favor del libre comercio."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Exportadores de soja y carne",
+     "Acceso a un mercado enorme."
+    ],
+    [
+     "Consumidores",
+     "Importaciones más baratas."
+    ]
+   ],
+   "pierden": [
+    [
+     "Industrias textil, química, metalúrgica y de calzado",
+     "Más competencia de productos chinos."
+    ],
+    [
+     "El Estado",
+     "Menos recaudación por aranceles."
+    ]
+   ],
+   "corto": "Pérdidas concentradas en la industria.",
+   "largo": "Depende de si los trabajadores se reubican en sectores más productivos.",
+   "supuestos": [
+    "Los cálculos son de un gremio industrial, parte interesada",
+    "Supone que se pierde el mercado de Taiwán"
+   ],
+   "conclusion": "El libre comercio suele aumentar el bienestar total, pero crea ganadores y perdedores; el debate es cómo compensar a los perdedores."
+  }
+ },
+ {
+  "id": "ganado-oferta",
+  "fecha": "2026-03-17",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/negocios/2026/03/17/menor-oferta-de-ganado-mantiene-precios-firmes-senala-appec/",
+  "mas": [
+   [
+    "InfoNegocios",
+    "https://infonegocios.com.py/default/con-medidas-sostenidas-el-sector-ganadero-proyecta-recuperacion-del-hato-para-2027",
+    "2025-05-08"
+   ]
+  ],
+  "titulo": "Hay menos ganado y no se puede producir más rápido: la oferta es inelástica",
+  "unidad": "micro",
+  "tema": "2.6",
+  "kc": "cambio",
+  "sector": [
+   "agro"
+  ],
+  "resumen": "Según la Asociación de Productores y Exportadores de Carne (APPEC), la oferta de ganado para la industria cayó 27 % frente a los mismos meses de 2025 y el precio del ganado subió 3 %. Los frigoríficos trabajan al 50-55 % de su capacidad y su margen bruto cayó 16 %. El hato bovino se redujo cinco años seguidos.",
+  "contexto": "La elasticidad precio de la oferta mide cuánto aumenta la cantidad ofrecida cuando sube el precio. En la ganadería es baja a corto plazo: aunque el novillo valga más, criar un animal para faena lleva años, por los ciclos reproductivos largos. Por eso, cuando cae el hato, el precio sube y la cantidad casi no responde. El presidente de la APPEC, Ramiro Maluff, ya había explicado en 2025 que la reducción seguiría por esos ciclos y que la recuperación del hato recién se esperaba hacia 2027. A largo plazo, con tiempo para retener vientres e invertir en genética, la oferta se vuelve más elástica.",
+  "datos": [
+   [
+    "−27 %",
+    "Oferta de ganado para la industria frente a 2025"
+   ],
+   [
+    "+3 %",
+    "Suba del precio del ganado"
+   ],
+   [
+    "50-55 %",
+    "Capacidad usada por los frigoríficos"
+   ],
+   [
+    "−16 %",
+    "Margen bruto de la industria"
+   ],
+   [
+    "5 años",
+    "Seguidos de reducción del hato"
+   ]
+  ],
+  "clave": [
+   "−27 %",
+   "menos ganado para faenar"
+  ],
+  "fig": {
+   "k": "mercado",
+   "mueve": "D",
+   "dir": 1
+  },
+  "cap": "Con una oferta muy inelástica (curva empinada), una demanda mayor sube mucho el precio y poco la cantidad: no se pueden criar más animales de un día para otro.",
+  "pasos": [
+   "El hato bovino se redujo durante cinco años",
+   "Criar un novillo lleva años: la oferta no reacciona rápido",
+   "A corto plazo la oferta es muy inelástica",
+   "El precio del ganado sube y la cantidad casi no cambia",
+   "A largo plazo, retener vientres permite ofrecer más"
+  ],
+  "conceptos": [
+   [
+    "Elasticidad precio de la oferta (EPO)",
+    "% de cambio en la cantidad ofrecida ÷ % de cambio en el precio."
+   ],
+   [
+    "Oferta inelástica",
+    "La cantidad ofrecida responde poco al precio (EPO menor que 1)."
+   ],
+   [
+    "Factores de la EPO",
+    "Tiempo de producción, capacidad ociosa, existencias y movilidad de los factores."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "carne-cae",
+   "carne-sustitutos"
+  ],
+  "pregunta": {
+   "q": "¿Por qué la oferta de ganado es inelástica a corto plazo?",
+   "opts": [
+    "Porque criar un animal para faena lleva años",
+    "Porque la demanda de carne es elástica",
+    "Porque los frigoríficos tienen capacidad ociosa",
+    "Porque el precio está regulado"
+   ],
+   "ok": 0,
+   "fb": "El tiempo de producción es el principal factor: aunque suba el precio, no se pueden tener más animales listos de inmediato."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Ganaderos con animales",
+     "Reciben mejores precios."
+    ]
+   ],
+   "pierden": [
+    [
+     "Frigoríficos",
+     "Trabajan a media capacidad y con menos margen."
+    ],
+    [
+     "Consumidores",
+     "Pagan más por la carne."
+    ]
+   ],
+   "corto": "Precios firmes y frigoríficos con capacidad ociosa.",
+   "largo": "Los buenos precios incentivan a retener vientres y el hato se recupera.",
+   "supuestos": [
+    "Que la demanda internacional siga firme"
+   ],
+   "conclusion": "El ganado muestra que el tiempo es clave en la elasticidad de la oferta: lo que hoy no se puede ofrecer, puede ofrecerse en dos o tres años."
+  }
  }
 ]
