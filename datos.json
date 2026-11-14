@@ -3328,10 +3328,10 @@
   },
   {
    "id": "remesas-2026",
-   "fecha": "2026-05-24",
+   "fecha": "2026-11-13",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/05/24/remesas-familiares-crecieron-32-durante-el-primer-trimestre/",
-   "titulo": "Las remesas crecen 3,2 %: España envía más de la mitad",
+   "titulo": "Las remesas caen 9 % hasta agosto: llegan menos desde Argentina",
    "unidad": "global",
    "tema": "4.6",
    "kc": "interdependencia",
@@ -3340,64 +3340,68 @@
     "argentina",
     "eeuu"
    ],
-   "resumen": "Según datos preliminares del BCP, las remesas que paraguayos en el exterior envían a sus familias sumaron US$ 318,9 millones en el primer trimestre de 2026, 3,2 % más que un año antes. España aportó US$ 180,6 millones.",
-   "contexto": "Las remesas se registran en la cuenta corriente de la balanza de pagos, como transferencias. Para muchas familias son un ingreso clave para el consumo y la educación. Después de España vienen Argentina (US$ 51,7 millones), Estados Unidos (US$ 35,2 millones), Brasil y Francia. Dependen del empleo y los salarios en esos países: si la economía española se frena, llegan menos remesas.",
+   "resumen": "Según cifras preliminares del BCP citadas por ABC Color (13 nov), las remesas familiares sumaron US$ 805 millones entre enero y agosto de 2026, 9 % menos que los US$ 881 millones del mismo periodo de 2025. Las que llegan desde Argentina cayeron 35 % y sumaron US$ 128 millones. En el primer trimestre todavía crecían 3,2 % (US$ 318,9 millones).",
+   "contexto": "Las remesas se registran en la cuenta corriente de la balanza de pagos, como transferencias. Para muchas familias son un ingreso clave para el consumo y la educación. España sigue siendo el origen principal, con casi el 57 % (US$ 460 millones hasta agosto), seguida de Argentina, Estados Unidos (US$ 91 millones), Brasil y Francia. Según ABC Color, en el último año completo las remesas habían marcado un récord de más de US$ 1.350 millones; la caída de 2026 se explica sobre todo por Argentina. El diario aclara que la caída de Ueno y de su empresa vinculada Wepa no corta los envíos: Western Union sigue operando por otros corresponsales. Las remesas dependen del empleo, los salarios y el tipo de cambio en los países donde viven los emigrantes.",
    "datos": [
     [
+     "US$ 805 M",
+     "Remesas de enero a agosto de 2026 (preliminar)"
+    ],
+    [
+     "−9 %",
+     "Frente a enero-agosto de 2025 (US$ 881 M)"
+    ],
+    [
+     "US$ 460 M",
+     "Desde España, casi el 57 % del total"
+    ],
+    [
+     "US$ 128 M",
+     "Desde Argentina (−35 %)"
+    ],
+    [
      "US$ 318,9 M",
-     "Remesas del primer trimestre de 2026"
-    ],
-    [
-     "+3,2 %",
-     "Frente al primer trimestre de 2025"
-    ],
-    [
-     "US$ 180,6 M",
-     "Desde España"
-    ],
-    [
-     "US$ 51,7 M",
-     "Desde Argentina"
+     "Remesas del primer trimestre (+3,2 %)"
     ]
    ],
    "clave": [
-    "+3,2 %",
-    "remesas"
+    "−9 %",
+    "remesas a agosto"
    ],
    "fig": {
     "k": "barras",
-    "u": "US$ M, 1.er trimestre 2026",
+    "u": "US$ M, enero-agosto 2026",
     "rows": [
      [
       "España",
-      180.6,
+      460,
       1
      ],
      [
       "Argentina",
-      51.7
+      128
      ],
      [
       "Estados Unidos",
-      35.2
+      91
      ],
      [
       "Brasil",
-      10.6
+      28
      ],
      [
       "Francia",
-      8.1
+      19
      ]
     ]
    },
-   "cap": "Origen de las remesas familiares del primer trimestre de 2026.",
+   "cap": "Origen de las remesas familiares de enero a agosto de 2026 (BCP, preliminar).",
    "pasos": [
-    "Paraguayos trabajan en el exterior",
-    "Envían parte de su salario a sus familias",
-    "Entran dólares por la cuenta corriente",
-    "Las familias consumen más",
-    "Aumenta la demanda agregada (C)"
+    "La economía argentina y su tipo de cambio reducen lo que ahorran los emigrantes",
+    "Paraguayos en el exterior envían menos dinero a sus familias",
+    "Entran menos dólares por la cuenta corriente",
+    "Las familias receptoras consumen menos",
+    "La demanda agregada (C) crece más lento"
    ],
    "conceptos": [
     [
@@ -3421,39 +3425,52 @@
     "da-oa-da"
    ],
    "rel": [
-    "ied-record"
+    "ied-record",
+    "consumo-cae"
    ],
    "pregunta": {
-    "q": "¿En qué parte de la balanza de pagos se registran las remesas familiares?",
+    "q": "Si las remesas desde Argentina caen 35 %, ¿qué componente de la DA de Paraguay se ve afectado primero?",
     "opts": [
-     "En la cuenta corriente, como transferencias",
-     "En la cuenta financiera, como inversión",
-     "En las exportaciones de bienes",
-     "En las reservas del BCP"
+     "El consumo (C) de las familias que las reciben",
+     "La inversión (I) de las empresas",
+     "El gasto público (G)",
+     "Las importaciones (M), que suben"
     ],
     "ok": 0,
-    "fb": "Las remesas son transferencias corrientes: no hay un bien o servicio a cambio, y van en la cuenta corriente."
+    "fb": "Las remesas son ingreso de los hogares receptores; si caen, esas familias consumen menos y baja C."
    },
    "evaluacion": {
     "ganan": [
      [
-      "Familias receptoras",
-      "Más ingresos para consumo y educación."
+      "Otros canales de envío",
+      "Según ABC Color, Western Union sigue operando por otros corresponsales y puede captar los envíos que antes pasaban por Wepa."
      ]
     ],
     "pierden": [
      [
-      "El país, a largo plazo",
-      "La emigración se lleva trabajadores jóvenes."
+      "Familias receptoras",
+      "Menos ingreso para consumo y educación."
+     ],
+     [
+      "Comercio de zonas con muchos emigrantes",
+      "Vende menos en un momento en que el consumo ya cae por Ueno."
      ]
     ],
-    "corto": "Más consumo de los hogares que reciben remesas.",
-    "largo": "Dependencia de la situación económica de España y otros países.",
+    "corto": "Menos consumo de los hogares que reciben remesas, sumado al golpe de la crisis de Ueno.",
+    "largo": "Si la economía argentina se recupera, las remesas desde allí pueden volver; la dependencia de España y Argentina sigue siendo un riesgo.",
     "supuestos": [
-     "Son datos preliminares y pueden revisarse."
+     "Son cifras preliminares del BCP y pueden revisarse",
+     "El artículo no detalla las causas de la caída desde Argentina"
     ],
-    "conclusion": "Las remesas sostienen a muchas familias, pero también muestran que parte de la fuerza de trabajo encuentra mejores oportunidades fuera del país."
-   }
+    "conclusion": "La caída de 9 % es moderada frente al récord anterior, pero llega en mal momento para el consumo; muestra cómo la situación de un país vecino se transmite a los hogares paraguayos."
+   },
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/negocios/2026/11/13/flujo-de-remesas-familiares-al-paraguay-suma-us-805-millones-a-setiembre/",
+     "2026-11-13"
+    ]
+   ]
   },
   {
    "id": "ande-tarifa",
@@ -3694,7 +3711,7 @@
   },
   {
    "id": "ips-ueno",
-   "fecha": "2026-11-11",
+   "fecha": "2026-11-13",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
    "mas": [
@@ -3712,6 +3729,11 @@
      "Última Hora",
      "https://www.ultimahora.com/efecto-ueno-ips-analiza-usar-g-784-239-millones-de-sus-ahorros-para-pagar-jubilaciones-de-este-ano",
      "2026-11-11"
+    ],
+    [
+     "5Días",
+     "https://5dias.com.py/article/empeor-el-panorama-en-ips-renta-de-inversiones-alcanzara-para-pagar-jubilaciones-solo-hasta-2032",
+     "2026-11-13"
     ]
    ],
    "titulo": "El IPS tenía más de US$ 500 millones en Ueno y prepara una denuncia",
@@ -3721,7 +3743,7 @@
    "inst": [
     "ips"
    ],
-   "resumen": "El Instituto de Previsión Social tenía fondos de jubilaciones invertidos en bonos y certificados de depósito de Ueno Bank, y unos 32.000 de sus 90.000 jubilados cobraban por ese banco. Tras reunirse con el presidente Alliana, garantizó el pago de haberes y aguinaldo para el 17 de noviembre a través de otros siete bancos. Según su director jurídico, Pablo Morínigo, citado por Última Hora, el monto superaría los US$ 516 millones (unos US$ 334 millones del Fondo de Jubilaciones y US$ 182 millones de fondos de inversión), y el IPS prepara una denuncia contra directivos de Ueno y funcionarios del BCP. Según Última Hora, un documento interno muestra que el IPS planea usar G. 784.239 millones de las rentas de sus inversiones para pagar jubilaciones y aguinaldo de noviembre y diciembre, porque G. 411.789 millones de su cuenta operativa quedaron inmovilizados en Ueno.",
+   "resumen": "El Instituto de Previsión Social tenía fondos de jubilaciones invertidos en bonos y certificados de depósito de Ueno Bank, y unos 32.000 de sus 90.000 jubilados cobraban por ese banco. Tras reunirse con el presidente Alliana, garantizó el pago de haberes y aguinaldo para el 17 de noviembre a través de otros siete bancos. Según su director jurídico, Pablo Morínigo, citado por Última Hora, el monto superaría los US$ 516 millones (unos US$ 334 millones del Fondo de Jubilaciones y US$ 182 millones de fondos de inversión), y el IPS prepara una denuncia contra directivos de Ueno y funcionarios del BCP. Según Última Hora, un documento interno muestra que el IPS planea usar G. 784.239 millones de las rentas de sus inversiones para pagar jubilaciones y aguinaldo de noviembre y diciembre, porque G. 411.789 millones de su cuenta operativa quedaron inmovilizados en Ueno. Según 5Días (13 nov), el consumo de las rentas de las inversiones se acerca al 70 %, frente al 36 % proyectado para este año, y el nuevo cálculo indica que alcanzarían para pagar jubilaciones solo hasta 2032, tres años antes que la estimación anterior (2035).",
    "contexto": "El fondo de jubilaciones es el ahorro de los trabajadores para su vejez. Para que crezca se invierte, y toda inversión tiene riesgo. El IPS tiene recursos en 14 entidades, pero una parte grande estaba en un solo banco que quebró. El caso muestra por qué los fondos de pensiones deben diversificar y por qué la supervisión importa: si el fondo pierde, el costo lo pagan los jubilados o el Estado. Sin Ueno, el IPS habría necesitado solo unos G. 372.450 millones de sus rentas; las proyecciones ya advertían que, sin cambios, el fondo se agotaría en 2046.",
    "datos": [
     [
@@ -3751,6 +3773,14 @@
     [
      "G. 411.789 M",
      "Cuenta operativa del IPS inmovilizada en Ueno"
+    ],
+    [
+     "2032",
+     "Hasta cuándo alcanzaría la renta de inversiones (antes 2035), según 5Días"
+    ],
+    [
+     "≈ 70 %",
+     "Consumo de las rentas este año (proyectado: 36 %)"
     ]
    ],
    "clave": [
@@ -3837,7 +3867,7 @@
      ]
     ],
     "corto": "Los pagos se mantienen y se cambian de banco.",
-    "largo": "Usar las rentas acumuladas para gastos corrientes adelanta el problema de sostenibilidad del fondo: si no se recupera el dinero, harán falta más aportes, menos beneficios o ayuda del Estado.",
+    "largo": "Usar las rentas acumuladas para gastos corrientes adelanta el problema de sostenibilidad del fondo: si no se recupera el dinero, harán falta más aportes, menos beneficios o ayuda del Estado. Según 5Días, la renta de las inversiones alcanzaría solo hasta 2032: sin reformas (aportes, edad o beneficios), el Estado podría tener que cubrir el faltante.",
     "supuestos": [
      "Que el proceso de resolución devuelva una parte importante del dinero."
     ],
@@ -7434,7 +7464,7 @@
    ],
    "titulo": "La pensión para adultos mayores llega a 406.000 personas: equidad en el Presupuesto",
    "unidad": "macro",
-   "tema": "2.12",
+   "tema": "3.4",
    "kc": "equidad",
    "inst": [
     "mef"
@@ -10277,6 +10307,11 @@
      "consumo-cae"
     ],
     [
+     "2026-11-13",
+     "5Días: la renta de inversiones del IPS alcanzaría solo hasta 2032.",
+     "ips-ueno"
+    ],
+    [
      "2026-11-16",
      "Cierra el balance de exclusión de Ueno."
     ],
@@ -10876,7 +10911,7 @@
   "nota": "No hay un dato reciente y confiable de acceso a agua potable; se agregará cuando se publique."
  },
  "mundo": {
-  "actualizado": "2026-11-11",
+  "actualizado": "2026-11-14",
   "intro": "Paraguay es una economía pequeña y abierta: lo que pasa con el petróleo, sus vecinos, China o las tasas de Estados Unidos llega rápido a los precios, al dólar y a las exportaciones. Cada tarjeta explica por qué importa y por dónde llega el efecto.",
   "actores": [
    {
@@ -10958,8 +10993,8 @@
       "Crecimiento proyectado 2026 (CEPAL)"
      ],
      [
-      "US$ 51,7 M",
-      "Remesas desde Argentina (1.er trim. 2026)"
+      "US$ 128 M",
+      "Remesas desde Argentina (ene-ago 2026, −35 %)"
      ]
     ],
     "canal": [
@@ -11034,8 +11069,8 @@
     "por": "Más de la mitad de las remesas que reciben las familias paraguayas viene de España.",
     "datos": [
      [
-      "US$ 180,6 M",
-      "Remesas desde España (1.er trim. 2026)"
+      "US$ 460 M",
+      "Remesas desde España (ene-ago 2026)"
      ],
      [
       "57 %",
