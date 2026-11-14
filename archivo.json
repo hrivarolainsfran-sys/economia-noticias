@@ -678,5 +678,478 @@
    ],
    "conclusion": "El ganado muestra que el tiempo es clave en la elasticidad de la oferta: lo que hoy no se puede ofrecer, puede ofrecerse en dos o tres años."
   }
+ },
+ {
+  "id": "corredor-bioceanico",
+  "fecha": "2026-02-16",
+  "medio": "InfoNegocios",
+  "url": "https://infonegocios.com.py/y-ademas/us-200-millones-para-acelerar-el-corredor-bioceanico-y-potenciar-la-competitividad-paraguaya",
+  "titulo": "US$ 200 millones del BID para acelerar el Corredor Bioceánico",
+  "unidad": "macro",
+  "tema": "3.7",
+  "kc": "cambio",
+  "sector": [
+   "comercio"
+  ],
+  "resumen": "El BID aprobó un préstamo de US$ 200 millones para una nueva etapa del Corredor Bioceánico, la ruta que cruzará el Chaco para unir el Atlántico con el Pacífico. Según el MOPC, Paraguay ya invierte unos US$ 915 millones en la obra.",
+  "contexto": "El préstamo financia 102,5 kilómetros del tramo II, además de accesos a Mariscal Estigarribia y a la zona industrial de Loma Plata. El puente entre Carmelo Peralta y Puerto Murtinho (Brasil) está cerca de su unión definitiva. La infraestructura es una política de oferta: reduce los costos de transporte, mejora la competitividad y aumenta la capacidad productiva. También permite depender menos de los ríos, que en las bajantes encarecen el flete.",
+  "datos": [
+   [
+    "US$ 200 M",
+    "Préstamo del BID"
+   ],
+   [
+    "US$ 915 M",
+    "Inversión que ya realiza Paraguay"
+   ],
+   [
+    "102,5 km",
+    "Tramo II financiado por el préstamo"
+   ],
+   [
+    "≈ 100 km",
+    "Distancia que se ahorraría en la ruta"
+   ]
+  ],
+  "clave": [
+   "US$ 200 M",
+   "del BID"
+  ],
+  "fig": {
+   "k": "oalp",
+   "s": 40
+  },
+  "cap": "Mejor infraestructura baja los costos y aumenta la capacidad productiva: la OALP y la OACP se desplazan a la derecha.",
+  "pasos": [
+   "Se construye una ruta que cruza el Chaco",
+   "Bajan los costos y tiempos de transporte",
+   "Las empresas producen y exportan más barato",
+   "Aumenta la capacidad productiva (OALP a la derecha)",
+   "Más crecimiento potencial, sobre todo en el Chaco"
+  ],
+  "conceptos": [
+   [
+    "Infraestructura",
+    "Rutas, puentes, puertos y redes que facilitan la producción."
+   ],
+   [
+    "Política de oferta",
+    "Medidas para aumentar la capacidad productiva."
+   ],
+   [
+    "Competitividad",
+    "Capacidad de vender a precios convenientes frente a otros países."
+   ],
+   [
+    "Préstamo multilateral",
+    "Crédito de organismos como el BID o el Banco Mundial."
+   ]
+  ],
+  "diagramas": [
+   "politicas-oferta"
+  ],
+  "rel": [
+   "hidrovia-2026",
+   "pisa-2025"
+  ],
+  "pregunta": {
+   "q": "¿Por qué el Corredor Bioceánico es una política de oferta?",
+   "opts": [
+    "Porque baja los costos de producción y aumenta la capacidad productiva",
+    "Porque sube el consumo de inmediato",
+    "Porque reduce la tasa de interés",
+    "Porque baja los impuestos"
+   ],
+   "ok": 0,
+   "fb": "La infraestructura mejora la capacidad de producir y exportar: desplaza la OALP. Su construcción también suma gasto (DA) a corto plazo."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Productores y exportadores del Chaco",
+     "Transporte más barato y nuevos mercados."
+    ],
+    [
+     "Empleo en la construcción",
+     "Puestos de trabajo durante la obra."
+    ]
+   ],
+   "pierden": [
+    [
+     "Contribuyentes futuros",
+     "Pagarán el préstamo con intereses."
+    ],
+    [
+     "Medio ambiente del Chaco",
+     "Más presión sobre los bosques si crece la actividad."
+    ]
+   ],
+   "corto": "El gasto en la obra suma a la demanda agregada.",
+   "largo": "Más competitividad, siempre que se terminen todos los tramos.",
+   "supuestos": [
+    "Que la obra se complete y se mantenga.",
+    "Que se controle el impacto ambiental."
+   ],
+   "conclusion": "Es una apuesta de largo plazo por la productividad; su éxito depende de terminar los tramos y de cuidar el ambiente del Chaco."
+  }
+ },
+ {
+  "id": "mercosur-ue",
+  "fecha": "2026-03-23",
+  "medio": "Infobae",
+  "url": "https://www.infobae.com/politica/2026/03/23/el-acuerdo-entre-la-union-europea-y-el-mercosur-entrara-en-vigor-provisionalmente-el-1-de-mayo/",
+  "mas": [
+   [
+    "ABC Color",
+    "https://www.abc.com.py/internacionales/2026/03/23/ue-oficializa-fecha-de-entrada-en-vigor-provisional-del-acuerdo-con-mercosur/",
+    "2026-03-23"
+   ]
+  ],
+  "titulo": "El acuerdo Mercosur–Unión Europea se aplica desde el 1 de mayo",
+  "unidad": "global",
+  "tema": "4.4",
+  "kc": "interdependencia",
+  "resumen": "El acuerdo comercial entre el Mercosur y la Unión Europea, firmado en Asunción el 17 de enero de 2026, se aplica de forma provisional desde el 1 de mayo. Paraguay lo ratificó por ley en marzo. Su vigencia plena depende todavía del Parlamento Europeo.",
+  "contexto": "La Unión Europea eliminará los aranceles al 93 % de lo que importa del Mercosur en un plazo de hasta 10 años; el Mercosur tendrá hasta 15 años para hacerlo con el 90 % de lo que importa de Europa. El plazo más largo protege por más tiempo a las industrias del Mercosur. Para Paraguay, la apuesta es vender más carne, soja y productos elaborados a un mercado de alto poder de compra.",
+  "datos": [
+   [
+    "17 ene",
+    "Firma en Asunción"
+   ],
+   [
+    "1 may",
+    "Aplicación provisional"
+   ],
+   [
+    "93 %",
+    "Importaciones del Mercosur que la UE liberará (10 años)"
+   ],
+   [
+    "90 %",
+    "Importaciones de la UE que el Mercosur liberará (15 años)"
+   ]
+  ],
+  "clave": [
+   "93 %",
+   "del comercio sin aranceles"
+  ],
+  "fig": {
+   "k": "arancel"
+  },
+  "cap": "Quitar un arancel lleva el precio interno de Pₘ + t a Pₘ: los consumidores ganan, los productores que compiten con importaciones pierden y el Estado deja de recaudar el rectángulo.",
+  "pasos": [
+   "Se reducen los aranceles entre los dos bloques",
+   "Bajan los precios de los bienes importados",
+   "Los consumidores compran más y los exportadores venden más",
+   "Los productores que compiten con importaciones enfrentan más competencia",
+   "Cada país se especializa en su ventaja comparativa"
+  ],
+  "conceptos": [
+   [
+    "Integración económica",
+    "Acuerdos entre países para reducir barreras al comercio."
+   ],
+   [
+    "Arancel",
+    "Impuesto a los bienes importados."
+   ],
+   [
+    "Ganancias del comercio",
+    "Más consumo y eficiencia al especializarse."
+   ],
+   [
+    "Interdependencia",
+    "Las economías dependen unas de otras por el comercio."
+   ]
+  ],
+  "diagramas": [
+   "arancel",
+   "exportaciones"
+  ],
+  "rel": [
+   "soja-record",
+   "carne-cae"
+  ],
+  "pregunta": {
+   "q": "¿Por qué el Mercosur tiene 15 años para bajar aranceles y la UE solo 10?",
+   "opts": [
+    "Para dar tiempo a las industrias del Mercosur a adaptarse a la competencia",
+    "Porque la UE es más pequeña",
+    "Para que el Mercosur recaude menos",
+    "Porque la UE no tiene aranceles"
+   ],
+   "ok": 0,
+   "fb": "Un plazo más largo protege por más tiempo a sectores menos competitivos: es una forma de proteccionismo transitorio."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Exportadores de carne y soja",
+     "Acceden a un mercado grande con menos aranceles."
+    ],
+    [
+     "Consumidores",
+     "Productos europeos más baratos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Industrias que compiten con Europa",
+     "Enfrentan más competencia."
+    ],
+    [
+     "El Estado",
+     "Recauda menos por aranceles."
+    ]
+   ],
+   "corto": "Pocos cambios: la baja de aranceles es gradual.",
+   "largo": "Más comercio, especialización e inversión, con riesgo para los sectores menos competitivos.",
+   "supuestos": [
+    "Que el Parlamento Europeo no frene el acuerdo."
+   ],
+   "conclusion": "Los beneficios dependen de que Paraguay aproveche el acceso y de que los sectores afectados se adapten en los 15 años de transición."
+  },
+  "sector": [
+   "agro",
+   "comercio"
+  ]
+ },
+ {
+  "id": "pobreza-16",
+  "fecha": "2026-03-27",
+  "medio": "RDN",
+  "url": "https://www.rdn.com.py/2026/03/27/pobreza-en-paraguay-disminuye-al-16-segun-informe-del-ine/",
+  "titulo": "La pobreza baja a 16 % en 2025, según el INE",
+  "unidad": "macro",
+  "tema": "3.4",
+  "kc": "equidad",
+  "resumen": "La pobreza monetaria pasó de 19 % en 2024 a 16 % en 2025: unas 985.000 personas, 213.000 menos que el año anterior. La pobreza extrema bajó de 3,7 % a 2,4 %.",
+  "contexto": "La pobreza es mayor en el campo (22,1 %) que en las ciudades (13,6 %). El INE estima que sin las transferencias de Tekoporã, Hambre Cero y la pensión a adultos mayores la pobreza habría sido de 19,9 %. Es un ejemplo de cómo el gasto público redistribuye ingresos, y de por qué el Presupuesto 2027 discute cuánto gastar en estos programas.",
+  "datos": [
+   [
+    "16,0 %",
+    "Pobreza total 2025 (19 % en 2024)"
+   ],
+   [
+    "2,4 %",
+    "Pobreza extrema"
+   ],
+   [
+    "22,1 %",
+    "Pobreza rural"
+   ],
+   [
+    "19,9 %",
+    "Pobreza estimada sin transferencias"
+   ]
+  ],
+  "clave": [
+   "16,0 %",
+   "pobreza en 2025"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Urbana",
+     13.6
+    ],
+    [
+     "Total",
+     16,
+     1
+    ],
+    [
+     "Sin transferencias",
+     19.9
+    ],
+    [
+     "Rural",
+     22.1
+    ]
+   ]
+  },
+  "cap": "Pobreza monetaria 2025 según el INE, en % de la población.",
+  "pasos": [
+   "El Estado transfiere dinero a hogares vulnerables",
+   "Sube el ingreso disponible de los más pobres",
+   "Más hogares superan la línea de pobreza",
+   "La curva de Lorenz se acerca a la diagonal",
+   "El costo se financia con impuestos o deuda"
+  ],
+  "conceptos": [
+   [
+    "Pobreza monetaria",
+    "Ingresos por debajo de lo necesario para una canasta básica."
+   ],
+   [
+    "Pobreza extrema",
+    "Ingresos que no alcanzan ni para la canasta de alimentos."
+   ],
+   [
+    "Transferencias",
+    "Pagos del Estado a hogares sin contraprestación."
+   ],
+   [
+    "Equidad",
+    "Reparto justo del ingreso y de las oportunidades."
+   ]
+  ],
+  "diagramas": [
+   "lorenz",
+   "politica-fiscal"
+  ],
+  "rel": [
+   "pgn-2027",
+   "salario-minimo"
+  ],
+  "pregunta": {
+   "q": "Sin transferencias la pobreza sería 19,9 %; con ellas es 16 %. ¿Qué tipo de política es?",
+   "opts": [
+    "Política fiscal redistributiva",
+    "Política monetaria",
+    "Política comercial",
+    "Política de oferta"
+   ],
+   "ok": 0,
+   "fb": "Las transferencias son gasto público destinado a mejorar la distribución del ingreso: política fiscal redistributiva."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Hogares que salieron de la pobreza",
+     "Más ingresos para necesidades básicas."
+    ],
+    [
+     "Zonas rurales",
+     "Concentran buena parte de los programas."
+    ]
+   ],
+   "pierden": [
+    [
+     "Contribuyentes",
+     "Financian los programas."
+    ],
+    [
+     "Otros gastos",
+     "Costo de oportunidad: ese dinero no va a otras áreas, como infraestructura."
+    ]
+   ],
+   "corto": "Menos pobreza y más consumo de los hogares vulnerables.",
+   "largo": "La mejora se sostiene si se financia y si se crean empleos formales y mejor educación.",
+   "supuestos": [
+    "El INE cambió algunos métodos de cálculo, lo que afecta la comparación entre años."
+   ],
+   "conclusion": "Las transferencias dan resultados, pero depender solo de ellas, sin más empleo formal, limita el avance."
+  },
+  "inst": [
+   "ine"
+  ]
+ },
+ {
+  "id": "gini-2025",
+  "fecha": "2026-05-05",
+  "medio": "INE",
+  "url": "https://www.ine.gov.py/noticias/2869/el-ine-presenta-el-analisis-sobre-la-desigualdad-de-ingresos-en-paraguay",
+  "titulo": "La desigualdad baja levemente: el Gini pasa de 0,439 a 0,431",
+  "unidad": "macro",
+  "tema": "3.4",
+  "kc": "equidad",
+  "inst": [
+   "ine"
+  ],
+  "resumen": "Según el INE, el coeficiente de Gini de los ingresos bajó de 0,439 en 2024 a 0,431 en 2025, una caída de alrededor de 1,7 %. La desigualdad es mayor en el campo que en las ciudades.",
+  "contexto": "El Gini va de 0 (todos ganan lo mismo) a 1 (uno se queda con todo). Por departamento hay grandes diferencias: Caaguazú (0,605) y Canindeyú (0,545) son los más desiguales; Central (0,359), Cordillera (0,362) y Ñeembucú (0,366) los menos. La desigualdad importa porque reduce el desarrollo: según el PNUD, el índice de desarrollo humano de Paraguay pierde 20,8 % cuando se ajusta por desigualdad.",
+  "datos": [
+   [
+    "0,431",
+    "Gini 2025"
+   ],
+   [
+    "0,439",
+    "Gini 2024"
+   ],
+   [
+    "0,605",
+    "Caaguazú, el más desigual"
+   ],
+   [
+    "0,359",
+    "Central, el menos desigual"
+   ]
+  ],
+  "clave": [
+   "0,431",
+   "coeficiente de Gini"
+  ],
+  "fig": {
+   "k": "lorenz",
+   "g": 0.55
+  },
+  "cap": "Cuanto más cerca está la curva de Lorenz de la diagonal, menor es la desigualdad y menor el coeficiente de Gini.",
+  "pasos": [
+   "Crecen los ingresos de los hogares más pobres",
+   "La distribución se vuelve un poco más pareja",
+   "La curva de Lorenz se acerca a la diagonal",
+   "Baja el coeficiente de Gini",
+   "Mejora la equidad, aunque con grandes diferencias entre departamentos"
+  ],
+  "conceptos": [
+   [
+    "Coeficiente de Gini",
+    "Mide la desigualdad del ingreso entre 0 y 1."
+   ],
+   [
+    "Curva de Lorenz",
+    "Muestra qué parte del ingreso recibe cada parte de la población."
+   ],
+   [
+    "Equidad",
+    "Reparto justo del ingreso y de las oportunidades."
+   ],
+   [
+    "Desigualdad regional",
+    "Diferencias entre zonas del mismo país."
+   ]
+  ],
+  "diagramas": [
+   "lorenz"
+  ],
+  "rel": [
+   "pobreza-16",
+   "pobreza-multidimensional"
+  ],
+  "pregunta": {
+   "q": "El Gini bajó de 0,439 a 0,431. ¿Qué significa?",
+   "opts": [
+    "Que la desigualdad del ingreso bajó levemente",
+    "Que la pobreza bajó a la mitad",
+    "Que todos ganan lo mismo",
+    "Que la desigualdad subió"
+   ],
+   "ok": 0,
+   "fb": "Un Gini menor indica una distribución algo más pareja. La caída es pequeña: 1,7 %."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Hogares de menores ingresos",
+     "Su parte del ingreso total aumentó un poco."
+    ]
+   ],
+   "pierden": [
+    [
+     "Nadie en forma directa",
+     "Es una mejora leve de la distribución."
+    ]
+   ],
+   "corto": "Mejora pequeña en la equidad.",
+   "largo": "Las grandes diferencias entre departamentos siguen siendo un desafío.",
+   "supuestos": [
+    "Que la encuesta capte bien los ingresos más altos, que suelen subestimarse."
+   ],
+   "conclusion": "La desigualdad baja, pero despacio y con mucha diferencia entre regiones: es uno de los principales frenos al desarrollo humano."
+  }
  }
 ]

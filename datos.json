@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13",
+ "actualizado": "2026-11-14",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -232,6 +232,16 @@
     "12 nov",
     "Diputados aprueba el Presupuesto 2027 con recortes de US$ 276 millones; el déficit sigue en 3,9 %.",
     "pgn-suspendido"
+   ],
+   [
+    "13 nov",
+    "El BCP baja el encaje legal para dar liquidez a la bolsa.",
+    "encaje-ueno"
+   ],
+   [
+    "14 nov",
+    "Los bonos de Paraguay caen hasta 3 % en noviembre.",
+    "bonos-embi"
    ]
   ],
   "lentes": [
@@ -250,6 +260,543 @@
   ]
  },
  "noticias": [
+  {
+   "id": "encaje-ueno",
+   "fecha": "2026-11-13",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/tras-pedido-de-asoban-bcp-concede-a-bancos-liberar-fondos-para-ayudar-a-liquidez",
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/13/bcp-flexibiliza-temporalmente-encaje-legal-de-depositos-que-apunta-a-dotar-liquidez-al-mercado-de-valores/",
+     "2026-11-13"
+    ]
+   ],
+   "titulo": "El BCP baja el encaje legal para dar liquidez a la bolsa tras Ueno",
+   "unidad": "macro",
+   "tema": "3.5",
+   "kc": "intervencion",
+   "resumen": "Desde el 13 de noviembre el BCP redujo de forma temporal, en hasta 5 puntos porcentuales, el encaje legal: en guaraníes pasa de 18 % a 13 % y en dólares a la vista y hasta 360 días, de 24 % a 20 %. Según Última Hora, el dinero liberado solo puede usarse para comprar CDA o bonos que tienen casas de bolsa y fondos de inversión, que enfrentan pedidos de rescate tras la caída de Ueno.",
+   "contexto": "El encaje legal es la parte de los depósitos que los bancos deben guardar sin prestar; es una herramienta de política monetaria menos conocida que la tasa de interés. Al bajarlo, los bancos tienen más dinero disponible y aumenta la liquidez. Aquí el BCP lo usa con un fin preciso: que los bancos compren títulos a los fondos y casas de bolsa, que no tienen acceso directo a préstamos del Banco Central, para que puedan devolver el dinero a los inversores que quieren salir. La medida fue un pedido de la Asociación de Bancos (Asoban) y el BCP prevé que el encaje vuelva gradualmente a su nivel hacia mediados de 2027.",
+   "datos": [
+    [
+     "18 % → 13 %",
+     "Encaje de depósitos en guaraníes (a la vista y hasta 360 días)"
+    ],
+    [
+     "24 % → 20 %",
+     "Encaje de depósitos en dólares (a la vista y hasta 360 días)"
+    ],
+    [
+     "16,5 % → 11,5 %",
+     "Encaje de depósitos en dólares de 361 a 540 días"
+    ],
+    [
+     "hasta 5 pp",
+     "Reducción temporal del encaje"
+    ],
+    [
+     "mediados de 2027",
+     "Cuándo volvería el encaje a su nivel, en forma gradual"
+    ]
+   ],
+   "clave": [
+    "18 % → 13 %",
+    "encaje en guaraníes"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Guaraníes antes",
+      18
+     ],
+     [
+      "Guaraníes ahora",
+      13,
+      1
+     ],
+     [
+      "Dólares antes",
+      24
+     ],
+     [
+      "Dólares ahora",
+      20,
+      1
+     ]
+    ]
+   },
+   "cap": "Encaje legal sobre depósitos a la vista y hasta 360 días, antes y después de la medida del 13 de noviembre (Última Hora).",
+   "pasos": [
+    "Tras Ueno, inversores piden rescatar sus fondos y CDA",
+    "Fondos y casas de bolsa necesitan liquidez",
+    "El BCP baja el encaje: los bancos tienen más dinero libre",
+    "Los bancos compran títulos a fondos y casas de bolsa",
+    "Los inversores cobran y se evita una venta forzada de títulos"
+   ],
+   "conceptos": [
+    [
+     "Encaje legal",
+     "Porcentaje de los depósitos que los bancos deben mantener como reserva y no pueden prestar."
+    ],
+    [
+     "Liquidez",
+     "Facilidad para convertir un activo en dinero sin perder valor."
+    ],
+    [
+     "Política monetaria",
+     "Acciones del banco central sobre la oferta de dinero y las tasas de interés."
+    ],
+    [
+     "Prestamista de última instancia",
+     "Papel del banco central de dar liquidez cuando el sistema la necesita."
+    ]
+   ],
+   "diagramas": [
+    "politica-monetaria",
+    "bonos"
+   ],
+   "rel": [
+    "ueno-lotes",
+    "bolsa-ueno-bonos",
+    "bcp-tpm"
+   ],
+   "pregunta": {
+    "q": "Si el BCP baja el encaje legal, ¿qué pasa con el dinero que los bancos pueden usar?",
+    "opts": [
+     "Aumenta, porque deben guardar una parte menor de los depósitos",
+     "Disminuye, porque deben guardar más reservas",
+     "No cambia, porque la tasa de interés sigue igual",
+     "Se transfiere al Estado"
+    ],
+    "ok": 0,
+    "fb": "Con un encaje de 13 % en vez de 18 %, de cada G. 100 depositados el banco puede usar G. 87 en lugar de G. 82: aumenta la liquidez."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Inversores de fondos y CDA",
+      "Pueden cobrar sus rescates más rápido."
+     ],
+     [
+      "Casas de bolsa y fondos",
+      "Consiguen liquidez sin vender sus títulos a precios de remate."
+     ],
+     [
+      "Bancos",
+      "Pueden comprar títulos con rendimiento usando dinero que antes estaba inmovilizado."
+     ]
+    ],
+    "pierden": [
+     [
+      "Estabilidad a futuro",
+      "Menos reservas dejan a los bancos con menos colchón si vuelven los retiros."
+     ],
+     [
+      "El BCP",
+      "Si la liquidez sobra, podría presionar sobre el dólar o la inflación y luego deberá retirarla."
+     ]
+    ],
+    "corto": "Se alivian los pedidos de rescate en la bolsa y baja el riesgo de que los fondos vendan títulos a pérdida.",
+    "largo": "Si la confianza vuelve, el encaje se restablece hacia mediados de 2027 sin efectos duraderos; si no, la medida puede necesitar prórrogas.",
+    "supuestos": [
+     "Que los bancos efectivamente usen el dinero para comprar títulos",
+     "Que los bancos tengan, como dice Asoban, liquidez suficiente",
+     "Que la crisis de Ueno no se contagie a otras entidades"
+    ],
+    "conclusion": "Es una política monetaria focalizada y temporal que ataca un problema de liquidez, no de solvencia; su éxito depende de que se recupere la confianza de los inversores."
+   },
+   "inst": [
+    "bcp",
+    "bolsa"
+   ],
+   "sector": [
+    "comercio"
+   ]
+  },
+  {
+   "id": "isc-diesel",
+   "fecha": "2026-11-13",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/experto-preve-mayores-bajas-en-el-precio-de-los-combustibles",
+   "titulo": "El Gobierno baja a la mitad el impuesto al diésel: G. 300 menos por litro",
+   "unidad": "micro",
+   "tema": "2.8",
+   "kc": "intervencion",
+   "resumen": "Un decreto del presidente Pedro Alliana redujo 50 % el impuesto selectivo al consumo (ISC) del diésel hasta el 31 de diciembre de 2026. Desde el 13 de noviembre Petropar bajó G. 300 por litro el diésel común y sus tres naftas, y los emblemas privados anunciaron que acompañarán la rebaja. Petropar dice que mantendrá los nuevos precios al menos hasta mediados o fines de enero de 2027.",
+   "contexto": "Un impuesto indirecto como el ISC sube el costo de vender cada litro y desplaza la oferta hacia arriba; al reducirlo, la oferta baja y el precio cae. Según el especialista Victorio Oxilia Dávalos, la medida es una transferencia del bolsillo del MEF a los consumidores: el Estado recauda menos. En las naftas, la baja vino sobre todo del petróleo más barato; en el diésel, que volvió a subir en el mercado internacional, fue necesario recortar el impuesto. El experto advierte que, si los privados no trasladan la rebaja al precio, la transferencia iría a las empresas y no a los consumidores.",
+   "datos": [
+    [
+     "50 %",
+     "Reducción del ISC al diésel, hasta el 31 de diciembre de 2026"
+    ],
+    [
+     "G. 300",
+     "Baja por litro del diésel común y las naftas de Petropar"
+    ],
+    [
+     "≈10 %",
+     "Baja del diésel en el mercado internacional frente a sept.-oct., según Oxilia Dávalos"
+    ],
+    [
+     "≈300",
+     "Puntos de venta de Petropar donde rige la baja"
+    ]
+   ],
+   "clave": [
+    "−G. 300",
+    "por litro de diésel"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "O",
+    "dir": 1
+   },
+   "cap": "Al reducirse el impuesto selectivo, el costo por litro baja y la oferta se desplaza de O₁ a O₂: el precio cae y se vende más diésel.",
+   "pasos": [
+    "El Gobierno reduce a la mitad el ISC del diésel",
+    "Baja el costo de vender cada litro",
+    "La curva de oferta se desplaza hacia abajo (a la derecha)",
+    "El precio en surtidor baja G. 300",
+    "El Estado recauda menos y los consumidores pagan menos"
+   ],
+   "conceptos": [
+    [
+     "Impuesto indirecto",
+     "Impuesto sobre el gasto en un bien; lo cobra el vendedor y lo traslada al precio."
+    ],
+    [
+     "Incidencia del impuesto",
+     "Cómo se reparte la carga entre consumidores y productores; depende de las elasticidades."
+    ],
+    [
+     "Demanda inelástica",
+     "El diésel se sigue comprando aunque cambie el precio, por eso el impuesto recauda mucho."
+    ],
+    [
+     "Costo de oportunidad",
+     "Lo que el Estado deja de financiar con la recaudación que pierde."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda",
+    "externalidad"
+   ],
+   "rel": [
+    "combustibles",
+    "petroleo-baja",
+    "recaudacion-dnit"
+   ],
+   "pregunta": {
+    "q": "Si la demanda de diésel es muy inelástica, ¿quién se beneficia más con la rebaja del impuesto?",
+    "opts": [
+     "Los consumidores, porque la mayor parte del impuesto recaía sobre ellos",
+     "Los productores, porque venden mucho más",
+     "Nadie, el precio no cambia",
+     "Solo el Estado"
+    ],
+    "ok": 0,
+    "fb": "Con demanda inelástica la carga del impuesto recae sobre todo en el consumidor; al bajarlo, también son ellos los que más ganan, siempre que las empresas trasladen la baja al precio."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Transportistas y productores",
+      "Baja un costo clave para fletes, cosecha y colectivos."
+     ],
+     [
+      "Consumidores",
+      "Pagan G. 300 menos por litro y, de forma indirecta, menos en fletes."
+     ]
+    ],
+    "pierden": [
+     [
+      "El Estado (MEF)",
+      "Recauda menos en un año con déficit de 3,9 % del PIB previsto para 2027."
+     ],
+     [
+      "El ambiente",
+      "Un combustible más barato no ayuda a reducir el consumo y la contaminación (externalidad negativa)."
+     ]
+    ],
+    "corto": "Bajan los precios en surtidor hasta fin de año y se alivia la inflación por costos.",
+    "largo": "Si el ISC vuelve en enero sin que baje el petróleo, los precios subirán otra vez; si la rebaja se prorroga, el costo fiscal crece.",
+    "supuestos": [
+     "Que los emblemas privados trasladen la baja al precio",
+     "Que el petróleo no vuelva a subir",
+     "Que el ISC vuelva a su nivel el 1 de enero"
+    ],
+    "conclusion": "Es un alivio rápido para los consumidores en plena crisis, pero tiene un costo fiscal y va en contra de corregir la externalidad de los combustibles; su efecto real depende del traslado a los precios."
+   },
+   "inst": [
+    "mef"
+   ],
+   "sector": [
+    "energia"
+   ],
+   "mundo": [
+    "petroleo"
+   ]
+  },
+  {
+   "id": "ventas-setiembre",
+   "fecha": "2026-11-13",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/bcp-reporta-aumento-en-las-ventas-en-setiembre-aunque-crecimiento-se-desacelero",
+   "titulo": "Las ventas crecen 2,5 % en septiembre, pero se desaceleran",
+   "unidad": "macro",
+   "tema": "3.1",
+   "kc": "cambio",
+   "resumen": "El Estimador de Cifras de Negocios (ECN) del BCP mostró que las ventas de septiembre crecieron 2,5 % interanual y acumulan 4,3 % en el año. Es menos que en agosto (4,4 %) y que en septiembre de 2025 (8,4 %). Crecieron las manufacturas y el comercio, mientras que bajaron las ventas de varios servicios.",
+   "contexto": "El ECN mide las ventas de las empresas cada mes y sirve para seguir la economía antes de que salga el PIB, que es trimestral. Junto con el IMAEP, que creció 3,9 % en septiembre, muestra una economía que seguía creciendo pero más despacio antes de la crisis de Ueno. Los datos son de septiembre: todavía no reflejan la caída del consumo de noviembre que reportan comercios y multitiendas. Comparar con el mismo mes del año anterior (variación interanual) evita confundir cambios de temporada con cambios reales.",
+   "datos": [
+    [
+     "2,5 %",
+     "Ventas de septiembre frente a septiembre de 2025"
+    ],
+    [
+     "4,3 %",
+     "Crecimiento acumulado en el año"
+    ],
+    [
+     "3,9 %",
+     "Promedio móvil de tres meses"
+    ],
+    [
+     "4,4 %",
+     "Crecimiento interanual de agosto"
+    ],
+    [
+     "8,4 %",
+     "Crecimiento interanual de septiembre de 2025"
+    ]
+   ],
+   "clave": [
+    "2,5 %",
+    "ventas de septiembre"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Sep 2025",
+      8.4
+     ],
+     [
+      "Ago 2026",
+      4.4
+     ],
+     [
+      "Sep 2026",
+      2.5,
+      1
+     ],
+     [
+      "Acumulado 2026",
+      4.3
+     ]
+    ]
+   },
+   "cap": "Variación interanual de las ventas según el Estimador de Cifras de Negocios del BCP (Última Hora).",
+   "pasos": [
+    "Las empresas venden más que hace un año",
+    "El ECN crece 2,5 %, pero menos que en meses anteriores",
+    "Manufacturas y comercio crecen; algunos servicios caen",
+    "La demanda agregada se modera",
+    "En noviembre, la crisis de Ueno puede frenar aún más el consumo"
+   ],
+   "conceptos": [
+    [
+     "Variación interanual",
+     "Cambio de una cifra frente al mismo mes del año anterior."
+    ],
+    [
+     "Desaceleración",
+     "La economía sigue creciendo, pero a un ritmo menor."
+    ],
+    [
+     "Indicador adelantado",
+     "Dato mensual que anticipa lo que mostrará el PIB."
+    ],
+    [
+     "Promedio móvil",
+     "Promedio de varios meses que suaviza los saltos de un mes."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da"
+   ],
+   "rel": [
+    "imaep-setiembre",
+    "consumo-cae",
+    "pib-2t-2026"
+   ],
+   "pregunta": {
+    "q": "Las ventas crecieron 2,5 % en septiembre frente a 4,4 % en agosto. ¿Qué significa?",
+    "opts": [
+     "Siguen creciendo, pero más despacio",
+     "Las ventas cayeron",
+     "Hay recesión",
+     "Los precios bajaron 2,5 %"
+    ],
+    "ok": 0,
+    "fb": "Una tasa positiva pero menor indica desaceleración: las ventas siguen subiendo, aunque a menor ritmo. Recesión implica caídas del PIB real."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Manufacturas y comercio",
+      "Siguen aumentando sus ventas, en rubros como farmacéutica, alimentos y equipamiento del hogar."
+     ]
+    ],
+    "pierden": [
+     [
+      "Empresas de servicios",
+      "Bajaron sus ventas en transporte, telecomunicaciones y servicios a empresas."
+     ],
+     [
+      "Grandes tiendas y vendedores de insumos agrícolas",
+      "Registraron menos ventas."
+     ]
+    ],
+    "corto": "Los datos de octubre y noviembre mostrarán si la crisis de Ueno convierte la desaceleración en caída.",
+    "largo": "Si la confianza se recupera, el crecimiento puede volver a acelerarse con la cosecha récord de soja.",
+    "supuestos": [
+     "Que el ECN represente bien a toda la economía",
+     "Que no se revisen los datos"
+    ],
+    "conclusion": "La economía crecía más despacio ya antes de la crisis bancaria; por eso el golpe de Ueno al consumo llega en un momento delicado."
+   },
+   "inst": [
+    "bcp"
+   ],
+   "sector": [
+    "comercio",
+    "industria"
+   ]
+  },
+  {
+   "id": "pepino-precio",
+   "fecha": "2026-11-13",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/13/productores-de-pepino-denuncian-caida-del-precio-y-apuntan-al-contrabando/",
+   "titulo": "El pepino cae de G. 100.000 a G. 40.000 la caja: ¿mucha oferta o contrabando?",
+   "unidad": "micro",
+   "tema": "2.2",
+   "kc": "eleccion",
+   "resumen": "Según ABC Color, en dos semanas la caja de 20 kilos de pepino bajó de G. 100.000 a G. 40.000 (G. 2.000 por kilo) en el Mercado de Abasto. Un productor dice que producir cuesta unos G. 1.600 por kilo y culpa al ingreso de pepino brasileño; el MAG niega el contrabando y atribuye la caída a la alta producción.",
+   "contexto": "Es un ejemplo de cómo un aumento de la oferta baja el precio de equilibrio. Las hortalizas tienen una oferta muy rígida en el corto plazo: lo que está plantado se cosecha igual, aunque el precio caiga, para no perderlo. Si además entra mercadería de contrabando, la oferta crece todavía más. Con un precio de G. 2.000 por kilo y un costo de G. 1.600 en finca, más cosecha, cajas y flete, el margen casi desaparece. El productor también critica que el programa Hambre Cero no compre suficiente producción nacional.",
+   "datos": [
+    [
+     "G. 100.000 → G. 40.000",
+     "Caja de 20 kg de pepino, en dos semanas"
+    ],
+    [
+     "G. 2.000",
+     "Precio por kilo en el Mercado de Abasto"
+    ],
+    [
+     "G. 1.600",
+     "Costo de producción por kilo en finca, según el productor"
+    ],
+    [
+     "−60 %",
+     "Caída del precio de la caja"
+    ]
+   ],
+   "clave": [
+    "−60 %",
+    "precio del pepino en 2 semanas"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "O",
+    "dir": 1
+   },
+   "cap": "Más producción (y, según los productores, contrabando) desplaza la oferta de O₁ a O₂: el precio de equilibrio cae y se vende más pepino.",
+   "pasos": [
+    "La cosecha de pepino es alta (y entra producto brasileño, según los productores)",
+    "La oferta se desplaza a la derecha",
+    "El precio de equilibrio cae de G. 100.000 a G. 40.000 la caja",
+    "El margen sobre el costo casi desaparece",
+    "Los productores piden control del contrabando y compras públicas"
+   ],
+   "conceptos": [
+    [
+     "Ley de la oferta",
+     "A mayor precio, los productores quieren vender más, si todo lo demás no cambia."
+    ],
+    [
+     "Desplazamiento de la oferta",
+     "Cambio de toda la curva por algo distinto del precio, como el clima o más productores."
+    ],
+    [
+     "Oferta inelástica a corto plazo",
+     "Lo ya plantado se cosecha aunque el precio caiga."
+    ],
+    [
+     "Contrabando",
+     "Ingreso ilegal de mercadería que evade controles y aranceles."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda",
+    "arancel"
+   ],
+   "rel": [
+    "hambre-cero",
+    "agro-oferta"
+   ],
+   "pregunta": {
+    "q": "Si aumenta la oferta de pepino y la demanda no cambia, ¿qué pasa?",
+    "opts": [
+     "Baja el precio y aumenta la cantidad vendida",
+     "Sube el precio y baja la cantidad",
+     "Baja el precio y baja la cantidad",
+     "No cambia nada"
+    ],
+    "ok": 0,
+    "fb": "La oferta se desplaza a la derecha: con la misma demanda, el nuevo equilibrio tiene un precio menor y una cantidad mayor."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Consumidores",
+      "Compran pepino más barato."
+     ],
+     [
+      "Supermercados y comerciantes",
+      "Consiguen mercadería a menor costo."
+     ]
+    ],
+    "pierden": [
+     [
+      "Pequeños productores",
+      "El precio apenas cubre el costo y pierden ingresos."
+     ],
+     [
+      "Familias rurales",
+      "Menos ingresos pueden empujar a abandonar el rubro."
+     ]
+    ],
+    "corto": "Precios bajos mientras dure la cosecha; algunos productores cosechan solo para no perder todo.",
+    "largo": "Si el precio sigue bajo, se planta menos en la próxima temporada y el precio puede subir (ciclo de precios agrícolas).",
+    "supuestos": [
+     "Que la demanda no cambie",
+     "Que la causa principal sea la alta producción, como dice el MAG, y no el contrabando, como dicen los productores"
+    ],
+    "conclusion": "La caída se explica con oferta y demanda; si además hay contrabando, el control en frontera ayudaría, pero contra la abundancia de cosecha sirven más el almacenamiento, la industrialización y la planificación de siembra."
+   },
+   "sector": [
+    "agro"
+   ],
+   "mundo": [
+    "brasil"
+   ]
+  },
   {
    "id": "ueno-lotes",
    "fecha": "2026-11-12",
@@ -1950,7 +2497,7 @@
   },
   {
    "id": "ande-ueno",
-   "fecha": "2026-11-10",
+   "fecha": "2026-11-14",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/economia/2026/11/10/sosa-admite-que-la-ande-no-sabe-como-recuperar-sus-fondos-de-ueno-bank-y-que-habra-obras-postergadas/",
    "mas": [
@@ -1963,6 +2510,16 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/10/ande-no-subira-la-tarifa-por-un-ano-y-alivia-a-afectados-por-ueno-bank/",
      "2026-11-10"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/14/constructoras-electricas-temen-que-los-fondos-de-la-ande-atrapados-en-ueno-bank-frenen-las-obras/",
+     "2026-11-14"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/usd-46-millones-de-capital-operativo-de-petropar-atrapados-en-ueno",
+     "2026-11-13"
     ]
    ],
    "titulo": "La ANDE tiene US$ 21 millones atrapados en Ueno y posterga obras",
@@ -1973,7 +2530,7 @@
     "energia"
    ],
    "resumen": "Félix Sosa volvió a la presidencia de la ANDE y, según ABC Color, admitió que no sabe cómo recuperará unos US$ 21 millones de un préstamo del BID que quedaron en Ueno Bank. Ese dinero financia la línea de 500 kV entre Itaipú y Villa Hayes y obras de 220 kV en el área metropolitana; algunas obras se postergarán y los pagos de G. 115.000 millones a proveedores se revisarán «caso por caso».",
-   "contexto": "Las líneas de transmisión son infraestructura: permiten usar más energía de Itaipú en el país y amplían la capacidad productiva a largo plazo, por eso son una política de oferta. Si se retrasan, la OALP crece más lento. Además, ABC Color recuerda que el contrato de potencia y la tarifa de Itaipú vencen el 31 de diciembre de 2026, y que la emisión de bonos de la ANDE quedó en pausa. En paralelo, según La Nación, la empresa Atome (proyecto de fertilizantes de US$ 665 millones en Villeta) notificó que da por terminado su contrato de energía con la ANDE a fines de 2026, aunque dice estar dispuesta a firmar uno nuevo.",
+   "contexto": "Las líneas de transmisión son infraestructura: permiten usar más energía de Itaipú en el país y amplían la capacidad productiva a largo plazo, por eso son una política de oferta. Si se retrasan, la OALP crece más lento. Además, ABC Color recuerda que el contrato de potencia y la tarifa de Itaipú vencen el 31 de diciembre de 2026, y que la emisión de bonos de la ANDE quedó en pausa. En paralelo, según La Nación, la empresa Atome (proyecto de fertilizantes de US$ 665 millones en Villeta) notificó que da por terminado su contrato de energía con la ANDE a fines de 2026, aunque dice estar dispuesta a firmar uno nuevo. Según ABC Color (14 nov), la cámara de constructoras electromecánicas (Cecoel) teme que se frenen las obras: además de los US$ 21 millones del préstamo, hay una carta de crédito por casi US$ 47 millones para proveedores. La ANDE proyecta invertir US$ 614 millones en obras en 2027, 20 % más que en 2026. Otra empresa pública, Petropar, tiene US$ 46 millones de capital operativo atrapados en Ueno, según su presidente (Última Hora, 13 nov).",
    "datos": [
     [
      "US$ 21 M",
@@ -1998,6 +2555,18 @@
     [
      "31 dic 2026",
      "Vencen el contrato de potencia y la tarifa de Itaipú"
+    ],
+    [
+     "US$ 47 M",
+     "Carta de crédito de la ANDE para proveedores internacionales comprometida en Ueno (Cecoel)"
+    ],
+    [
+     "US$ 614 M",
+     "Inversión en obras que proyecta la ANDE para 2027"
+    ],
+    [
+     "US$ 46 M",
+     "Capital operativo de Petropar atrapado en Ueno"
     ]
    ],
    "clave": [
@@ -2087,7 +2656,7 @@
   },
   {
    "id": "consumo-cae",
-   "fecha": "2026-11-09",
+   "fecha": "2026-11-13",
    "medio": "La Nación",
    "url": "https://www.lanacion.com.py/negocios/2026/11/09/crisis-de-ueno-bank-pone-en-riesgo-el-repunte-de-ventas-en-diciembre-advierte-capasu/",
    "mas": [
@@ -2105,6 +2674,11 @@
      "5Días (editorial)",
      "https://5dias.com.py/article/la-confianza-rota",
      "2026-11-10"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/multitiendas-reportan-aumento-del-uso-de-efectivo-al-70-de-las-operaciones",
+     "2026-11-13"
     ]
    ],
    "titulo": "La crisis de Ueno frena el consumo: multitiendas venden hasta 70 % menos",
@@ -2114,9 +2688,17 @@
    "sector": [
     "comercio"
    ],
-   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo.",
+   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo. El 13 de noviembre, Asimcopar informó que sus ventas siguen 30 % abajo y que el efectivo pasó a ser el 70 % de los pagos; antes de la crisis cerca del 80 % de las compras se hacían con medios digitales (Última Hora).",
    "contexto": "El consumo es el componente más grande de la demanda agregada. Cuando miles de familias no pueden usar sus ahorros por unos días y crece la incertidumbre, gastan menos y la DA se mueve a la izquierda. Según Capasu, las ventas empezaron a normalizarse a medida que el Fondo de Garantía de Depósitos devolvió el dinero a los pequeños ahorristas, pero el riesgo ahora es el desempleo: hasta octubre los supermercados crecían entre 8 % y 10 %, y en diciembre suelen vender entre 15 % y 20 % más que otros meses por el aguinaldo. Asimcopar advierte además que muchos comercios perdieron capital para reponer mercadería, y que la mitad de lo que venden las multitiendas lo producen mipymes nacionales.",
    "datos": [
+    [
+     "−30 %",
+     "Caída de ventas de los socios de Asimcopar (13 nov)"
+    ],
+    [
+     "70 %",
+     "Pagos en efectivo en las multitiendas; antes, 80 % eran digitales"
+    ],
     [
      "hasta 70 %",
      "Caída de ventas que reportan socios de Asimcopar (multitiendas)"
@@ -2184,7 +2766,8 @@
    "rel": [
     "ueno-intervencion",
     "ueno-devolucion",
-    "desempleo-41"
+    "desempleo-41",
+    "ventas-setiembre"
    ],
    "inst": [
     "bcp"
@@ -2309,7 +2892,8 @@
    ],
    "rel": [
     "combustibles",
-    "dolar-6600"
+    "dolar-6600",
+    "isc-diesel"
    ],
    "pregunta": {
     "q": "Si el petróleo baja 16 % pero el guaraní se deprecia 9 %, ¿qué pasa con el costo del combustible importado en guaraníes?",
@@ -2484,111 +3068,6 @@
      "Que PISA mida bien las competencias que necesita la economía."
     ],
     "conclusion": "La educación es la política de oferta más lenta pero más profunda: invertir hoy define el crecimiento de las próximas décadas."
-   }
-  },
-  {
-   "id": "gini-2025",
-   "fecha": "2026-05-05",
-   "medio": "INE",
-   "url": "https://www.ine.gov.py/noticias/2869/el-ine-presenta-el-analisis-sobre-la-desigualdad-de-ingresos-en-paraguay",
-   "titulo": "La desigualdad baja levemente: el Gini pasa de 0,439 a 0,431",
-   "unidad": "macro",
-   "tema": "3.4",
-   "kc": "equidad",
-   "inst": [
-    "ine"
-   ],
-   "resumen": "Según el INE, el coeficiente de Gini de los ingresos bajó de 0,439 en 2024 a 0,431 en 2025, una caída de alrededor de 1,7 %. La desigualdad es mayor en el campo que en las ciudades.",
-   "contexto": "El Gini va de 0 (todos ganan lo mismo) a 1 (uno se queda con todo). Por departamento hay grandes diferencias: Caaguazú (0,605) y Canindeyú (0,545) son los más desiguales; Central (0,359), Cordillera (0,362) y Ñeembucú (0,366) los menos. La desigualdad importa porque reduce el desarrollo: según el PNUD, el índice de desarrollo humano de Paraguay pierde 20,8 % cuando se ajusta por desigualdad.",
-   "datos": [
-    [
-     "0,431",
-     "Gini 2025"
-    ],
-    [
-     "0,439",
-     "Gini 2024"
-    ],
-    [
-     "0,605",
-     "Caaguazú, el más desigual"
-    ],
-    [
-     "0,359",
-     "Central, el menos desigual"
-    ]
-   ],
-   "clave": [
-    "0,431",
-    "coeficiente de Gini"
-   ],
-   "fig": {
-    "k": "lorenz",
-    "g": 0.55
-   },
-   "cap": "Cuanto más cerca está la curva de Lorenz de la diagonal, menor es la desigualdad y menor el coeficiente de Gini.",
-   "pasos": [
-    "Crecen los ingresos de los hogares más pobres",
-    "La distribución se vuelve un poco más pareja",
-    "La curva de Lorenz se acerca a la diagonal",
-    "Baja el coeficiente de Gini",
-    "Mejora la equidad, aunque con grandes diferencias entre departamentos"
-   ],
-   "conceptos": [
-    [
-     "Coeficiente de Gini",
-     "Mide la desigualdad del ingreso entre 0 y 1."
-    ],
-    [
-     "Curva de Lorenz",
-     "Muestra qué parte del ingreso recibe cada parte de la población."
-    ],
-    [
-     "Equidad",
-     "Reparto justo del ingreso y de las oportunidades."
-    ],
-    [
-     "Desigualdad regional",
-     "Diferencias entre zonas del mismo país."
-    ]
-   ],
-   "diagramas": [
-    "lorenz"
-   ],
-   "rel": [
-    "pobreza-16",
-    "pobreza-multidimensional"
-   ],
-   "pregunta": {
-    "q": "El Gini bajó de 0,439 a 0,431. ¿Qué significa?",
-    "opts": [
-     "Que la desigualdad del ingreso bajó levemente",
-     "Que la pobreza bajó a la mitad",
-     "Que todos ganan lo mismo",
-     "Que la desigualdad subió"
-    ],
-    "ok": 0,
-    "fb": "Un Gini menor indica una distribución algo más pareja. La caída es pequeña: 1,7 %."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Hogares de menores ingresos",
-      "Su parte del ingreso total aumentó un poco."
-     ]
-    ],
-    "pierden": [
-     [
-      "Nadie en forma directa",
-      "Es una mejora leve de la distribución."
-     ]
-    ],
-    "corto": "Mejora pequeña en la equidad.",
-    "largo": "Las grandes diferencias entre departamentos siguen siendo un desafío.",
-    "supuestos": [
-     "Que la encuesta capte bien los ingresos más altos, que suelen subestimarse."
-    ],
-    "conclusion": "La desigualdad baja, pero despacio y con mucha diferencia entre regiones: es uno de los principales frenos al desarrollo humano."
    }
   },
   {
@@ -3367,7 +3846,7 @@
   },
   {
    "id": "pgn-suspendido",
-   "fecha": "2026-11-12",
+   "fecha": "2026-11-13",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/diputados-aprueban-pgn-2027-con-modificaciones-pero-mantienen-elevado-deficit-de-3-9",
    "titulo": "Diputados aprueba el Presupuesto 2027 con recortes, pero el déficit sigue en 3,9 %",
@@ -3378,7 +3857,7 @@
     "mef"
    ],
    "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo.",
-   "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja.",
+   "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja. El 13 de noviembre el ministro Oscar Lovera dijo a Diputados que la crisis de Ueno es un caso puntual y que espera mantener la emisión de bonos en el exterior: el plan prevé colocar G. 17,4 billones (US$ 2.708,7 millones), hasta 70 % más que en 2026, el 99 % en el mercado internacional (Última Hora).",
    "datos": [
     [
      "G. 164 bill.",
@@ -3403,6 +3882,10 @@
     [
      "US$ 1.990 M",
      "Deuda prevista: US$ 469,9 M + US$ 1.520,6 M para proveedores"
+    ],
+    [
+     "US$ 2.708,7 M",
+     "Bonos que se emitirían en 2027 (99 % en el exterior), hasta 70 % más que en 2026"
     ]
    ],
    "clave": [
@@ -3536,6 +4019,11 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/12/pgn-2027-ejecutivo-reasigna-us-96-millones-que-gastos-del-estado-seran-recortados/",
      "2026-11-12"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/mef-espera-que-crisis-de-ueno-no-afecte-emisiones-de-bonos-del-tesoro-en-2027",
+     "2026-11-13"
     ]
    ]
   },
@@ -4153,16 +4641,28 @@
   },
   {
    "id": "dolar-6600",
-   "fecha": "2026-11-10",
+   "fecha": "2026-11-13",
    "medio": "La Tribuna",
    "url": "https://www.latribuna.com.py/negocios/economia/2026/11/08/dolar-a-gs-6600-la-crisis-obliga-a-revisar-las-previsiones/",
-   "titulo": "El dólar saltó a G. 6.600 y vuelve a bajar: G. 6.200 el 10 de noviembre",
+   "titulo": "El dólar saltó a G. 6.600 y se calma en G. 6.150, pero sigue volátil",
    "unidad": "global",
    "tema": "4.5",
    "kc": "cambio",
-   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre. El martes 10, según RDN, la venta bajó a G. 6.200 en algunas casas de cambio; el sector lo atribuye al pago de depósitos de Ueno, aunque los importadores siguen comprando dólares para las ventas de fin de año.",
-   "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. El economista Aníbal Insfrán explicó a ABC Color que no faltan dólares: lo que subió fue la demanda, porque personas y empresas buscaron una moneda más segura. Según ABC, la calma del lunes llegó con el pago a los ahorristas y la resolución de la crisis política, aunque los importadores siguen comprando dólares para las ventas de fin de año. Un dólar más caro encarece las deudas en dólares y los productos importados; Insfrán sugiere además revisar el dólar de G. 6.458 que usa el Presupuesto 2027. Según La Nación (10 nov), la Cámara de Supermercados descartó subas inmediatas de precios porque gran parte de la mercadería para las fiestas se compró con un dólar más bajo.",
+   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre. El martes 10, según RDN, la venta bajó a G. 6.200 en algunas casas de cambio; el sector lo atribuye al pago de depósitos de Ueno, aunque los importadores siguen comprando dólares para las ventas de fin de año. El viernes 13, según Última Hora, la mayoría de las casas de cambio de Asunción vendía a G. 6.150 y compraba a G. 5.900; en el mercado bancario el dólar oscilaba entre G. 6.200 y G. 6.250.",
+   "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. El economista Aníbal Insfrán explicó a ABC Color que no faltan dólares: lo que subió fue la demanda, porque personas y empresas buscaron una moneda más segura. Según ABC, la calma del lunes llegó con el pago a los ahorristas y la resolución de la crisis política, aunque los importadores siguen comprando dólares para las ventas de fin de año. Un dólar más caro encarece las deudas en dólares y los productos importados; Insfrán sugiere además revisar el dólar de G. 6.458 que usa el Presupuesto 2027. Según La Nación (10 nov), la Cámara de Supermercados descartó subas inmediatas de precios porque gran parte de la mercadería para las fiestas se compró con un dólar más bajo. Emil Mendoza, presidente de la Asociación de Casas de Cambio, dijo a Última Hora que el ingreso de dólares del exterior a cada casa de cambio bajó de US$ 200.000-500.000 por día a US$ 20.000-30.000, porque inversores extranjeros retiran fondos de la bolsa: menos oferta de dólares sostiene su precio, y él prevé una leve suba hasta fin de año salvo que vuelva la confianza.",
    "datos": [
+    [
+     "G. 6.150",
+     "Venta en la mayoría de las casas de cambio (13 nov); compra G. 5.900"
+    ],
+    [
+     "G. 6.200–6.250",
+     "Dólar en el mercado bancario (13 nov)"
+    ],
+    [
+     "≈10 %",
+     "Dólares que entran ahora a las casas de cambio frente a antes de la crisis"
+    ],
     [
      "G. 6.200",
      "Venta en algunas casas de cambio (10 nov); compra G. 5.900"
@@ -4335,6 +4835,11 @@
      "La Nación",
      "https://www.lanacion.com.py/negocios/2026/11/10/supermercados-descartan-subas-inmediatas-de-precios-pese-al-repunte-del-dolar/",
      "2026-11-10"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/volatilidad-del-dolar-persistira-pronostican-especialistas",
+     "2026-11-13"
     ]
    ]
   },
@@ -5096,16 +5601,28 @@
   },
   {
    "id": "bonos-embi",
-   "fecha": "2026-11-06",
+   "fecha": "2026-11-14",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/negocios/2026/11/06/en-medio-de-la-crisis-de-ueno-bank-precios-de-bonos-soberanos-de-paraguay-se-desploman/",
-   "titulo": "Caen los bonos de Paraguay y el riesgo país sube a 143 puntos",
+   "titulo": "Los bonos de Paraguay siguen cayendo y su rendimiento sube",
    "unidad": "macro",
    "tema": "3.6",
    "kc": "cambio",
-   "resumen": "En la primera semana de noviembre cayeron los precios de los bonos soberanos paraguayos. El riesgo país (EMBI) pasó de 125 puntos básicos el lunes 2 a 143 al cierre del jueves 5, con un pico de 157 durante ese día.",
-   "contexto": "Cuando el Estado emite bonos, se endeuda con inversores. Si esos inversores ven más riesgo, venden los bonos, su precio cae y el país debe ofrecer intereses más altos para volver a endeudarse. Paraguay tiene grado de inversión, pero en el último escalón con Moody’s y S&P: un recorte lo dejaría fuera de esa categoría. Aun así, su riesgo país sigue por debajo del de Brasil, México o Colombia.",
+   "resumen": "En la primera semana de noviembre el riesgo país (EMBI) pasó de 125 a 143 puntos básicos. Según ABC Color (14 nov), con datos del MEF, entre el 2 y el 13 de noviembre el bono con vencimiento en 2050 bajó de 85,64 a 83,08 puntos (−2,99 %) y su rendimiento subió de 6,65 % a 6,90 %; los bonos de largo plazo fueron los que más cayeron.",
+   "contexto": "Cuando el Estado emite bonos, se endeuda con inversores. Si esos inversores ven más riesgo, venden los bonos, su precio cae y el país debe ofrecer intereses más altos para volver a endeudarse. Paraguay tiene grado de inversión, pero en el último escalón con Moody’s y S&P: un recorte lo dejaría fuera de esa categoría. Aun así, su riesgo país sigue por debajo del de Brasil, México o Colombia. Precio y rendimiento de un bono se mueven al revés: si el precio cae, el interés que exige el inversor sube. Los bonos de largo plazo son más sensibles al riesgo, por eso cayeron más. ABC aclara que la baja no se explica solo por Ueno, porque también influyen las condiciones internacionales, y que no cambia el interés de los bonos ya emitidos a tasa fija. El ministro Oscar Lovera dijo a Diputados (13 nov) que hubo una leve caída con recuperación esa semana y que espera mantener las emisiones de 2027.",
    "datos": [
+    [
+     "85,64 → 83,08",
+     "Precio del bono 2050 del 2 al 13 de noviembre (−2,99 %)"
+    ],
+    [
+     "6,65 % → 6,90 %",
+     "Rendimiento del bono 2050 (+25 pb)"
+    ],
+    [
+     "−0,85 %",
+     "Caída del bono 2031: los de corto plazo bajan menos"
+    ],
     [
      "125 → 143",
      "EMBI del 2 al 5 de noviembre (pb)"
@@ -5124,49 +5641,14 @@
     ]
    ],
    "clave": [
-    "143 pb",
-    "riesgo país"
+    "6,90 %",
+    "rendimiento del bono 2050"
    ],
    "fig": {
-    "k": "barras",
-    "u": "pb",
-    "rows": [
-     [
-      "Uruguay",
-      85
-     ],
-     [
-      "Chile",
-      104
-     ],
-     [
-      "Perú",
-      121
-     ],
-     [
-      "Paraguay",
-      143,
-      1
-     ],
-     [
-      "Panamá",
-      143
-     ],
-     [
-      "Brasil",
-      202
-     ],
-     [
-      "México",
-      227
-     ],
-     [
-      "Colombia",
-      234
-     ]
-    ]
+    "k": "bono",
+    "r": 7
    },
-   "cap": "Riesgo país (EMBI) al cierre del 5 de noviembre, en puntos básicos. 100 pb = 1 punto porcentual más de interés que EE.UU.",
+   "cap": "Cuando sube la tasa que exigen los inversores, baja el precio del bono. Los bonos de Paraguay a 2050 rinden 6,90 % (13 nov).",
    "pasos": [
     "Crece la incertidumbre bancaria y política",
     "Los inversores venden bonos paraguayos",
@@ -5193,13 +5675,16 @@
     ]
    ],
    "diagramas": [
+    "bonos",
     "politica-fiscal",
     "da-oa-da"
    ],
    "rel": [
     "alliana-gobierno",
     "ueno-intervencion",
-    "pgn-2027"
+    "pgn-2027",
+    "fitch-revision",
+    "pgn-suspendido"
    ],
    "pregunta": {
     "q": "El EMBI subió de 125 a 143 puntos básicos. ¿Cuánto interés extra implica?",
@@ -5233,7 +5718,7 @@
       "Pagarán más intereses."
      ]
     ],
-    "corto": "Sube el costo de nuevas emisiones de deuda; el Gobierno puede postergar colocaciones.",
+    "corto": "Sube el costo de las nuevas emisiones; el Presupuesto 2027 prevé colocar unos US$ 2.708,7 millones en bonos, casi todo en el exterior.",
     "largo": "Si el país pierde el grado de inversión, el costo sube de forma duradera y algunos fondos dejarían de invertir en Paraguay.",
     "supuestos": [
      "Que la suba no se revierta en pocas semanas.",
@@ -5243,6 +5728,18 @@
    },
    "inst": [
     "mef"
+   ],
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/14/bonos-soberanos-de-paraguay-profundizan-su-caida-luego-de-la-crisis-de-ueno-bank/",
+     "2026-11-14"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/mef-espera-que-crisis-de-ueno-no-afecte-emisiones-de-bonos-del-tesoro-en-2027",
+     "2026-11-13"
+    ]
    ]
   },
   {
@@ -6040,7 +6537,8 @@
    ],
    "rel": [
     "inflacion-oct",
-    "guarani-cae"
+    "guarani-cae",
+    "isc-diesel"
    ],
    "pregunta": {
     "q": "Si el combustible encarece de forma sostenida, ¿qué curva se mueve?",
@@ -6227,139 +6725,6 @@
    },
    "inst": [
     "mef"
-   ]
-  },
-  {
-   "id": "pobreza-16",
-   "fecha": "2026-03-27",
-   "medio": "RDN",
-   "url": "https://www.rdn.com.py/2026/03/27/pobreza-en-paraguay-disminuye-al-16-segun-informe-del-ine/",
-   "titulo": "La pobreza baja a 16 % en 2025, según el INE",
-   "unidad": "macro",
-   "tema": "3.4",
-   "kc": "equidad",
-   "resumen": "La pobreza monetaria pasó de 19 % en 2024 a 16 % en 2025: unas 985.000 personas, 213.000 menos que el año anterior. La pobreza extrema bajó de 3,7 % a 2,4 %.",
-   "contexto": "La pobreza es mayor en el campo (22,1 %) que en las ciudades (13,6 %). El INE estima que sin las transferencias de Tekoporã, Hambre Cero y la pensión a adultos mayores la pobreza habría sido de 19,9 %. Es un ejemplo de cómo el gasto público redistribuye ingresos, y de por qué el Presupuesto 2027 discute cuánto gastar en estos programas.",
-   "datos": [
-    [
-     "16,0 %",
-     "Pobreza total 2025 (19 % en 2024)"
-    ],
-    [
-     "2,4 %",
-     "Pobreza extrema"
-    ],
-    [
-     "22,1 %",
-     "Pobreza rural"
-    ],
-    [
-     "19,9 %",
-     "Pobreza estimada sin transferencias"
-    ]
-   ],
-   "clave": [
-    "16,0 %",
-    "pobreza en 2025"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "%",
-    "rows": [
-     [
-      "Urbana",
-      13.6
-     ],
-     [
-      "Total",
-      16,
-      1
-     ],
-     [
-      "Sin transferencias",
-      19.9
-     ],
-     [
-      "Rural",
-      22.1
-     ]
-    ]
-   },
-   "cap": "Pobreza monetaria 2025 según el INE, en % de la población.",
-   "pasos": [
-    "El Estado transfiere dinero a hogares vulnerables",
-    "Sube el ingreso disponible de los más pobres",
-    "Más hogares superan la línea de pobreza",
-    "La curva de Lorenz se acerca a la diagonal",
-    "El costo se financia con impuestos o deuda"
-   ],
-   "conceptos": [
-    [
-     "Pobreza monetaria",
-     "Ingresos por debajo de lo necesario para una canasta básica."
-    ],
-    [
-     "Pobreza extrema",
-     "Ingresos que no alcanzan ni para la canasta de alimentos."
-    ],
-    [
-     "Transferencias",
-     "Pagos del Estado a hogares sin contraprestación."
-    ],
-    [
-     "Equidad",
-     "Reparto justo del ingreso y de las oportunidades."
-    ]
-   ],
-   "diagramas": [
-    "lorenz",
-    "politica-fiscal"
-   ],
-   "rel": [
-    "pgn-2027",
-    "salario-minimo"
-   ],
-   "pregunta": {
-    "q": "Sin transferencias la pobreza sería 19,9 %; con ellas es 16 %. ¿Qué tipo de política es?",
-    "opts": [
-     "Política fiscal redistributiva",
-     "Política monetaria",
-     "Política comercial",
-     "Política de oferta"
-    ],
-    "ok": 0,
-    "fb": "Las transferencias son gasto público destinado a mejorar la distribución del ingreso: política fiscal redistributiva."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Hogares que salieron de la pobreza",
-      "Más ingresos para necesidades básicas."
-     ],
-     [
-      "Zonas rurales",
-      "Concentran buena parte de los programas."
-     ]
-    ],
-    "pierden": [
-     [
-      "Contribuyentes",
-      "Financian los programas."
-     ],
-     [
-      "Otros gastos",
-      "Costo de oportunidad: ese dinero no va a otras áreas, como infraestructura."
-     ]
-    ],
-    "corto": "Menos pobreza y más consumo de los hogares vulnerables.",
-    "largo": "La mejora se sostiene si se financia y si se crean empleos formales y mejor educación.",
-    "supuestos": [
-     "El INE cambió algunos métodos de cálculo, lo que afecta la comparación entre años."
-    ],
-    "conclusion": "Las transferencias dan resultados, pero depender solo de ellas, sin más empleo formal, limita el avance."
-   },
-   "inst": [
-    "ine"
    ]
   },
   {
@@ -6576,127 +6941,6 @@
    },
    "sector": [
     "energia"
-   ]
-  },
-  {
-   "id": "mercosur-ue",
-   "fecha": "2026-03-23",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/politica/2026/03/23/el-acuerdo-entre-la-union-europea-y-el-mercosur-entrara-en-vigor-provisionalmente-el-1-de-mayo/",
-   "mas": [
-    [
-     "ABC Color",
-     "https://www.abc.com.py/internacionales/2026/03/23/ue-oficializa-fecha-de-entrada-en-vigor-provisional-del-acuerdo-con-mercosur/",
-     "2026-03-23"
-    ]
-   ],
-   "titulo": "El acuerdo Mercosur–Unión Europea se aplica desde el 1 de mayo",
-   "unidad": "global",
-   "tema": "4.4",
-   "kc": "interdependencia",
-   "resumen": "El acuerdo comercial entre el Mercosur y la Unión Europea, firmado en Asunción el 17 de enero de 2026, se aplica de forma provisional desde el 1 de mayo. Paraguay lo ratificó por ley en marzo. Su vigencia plena depende todavía del Parlamento Europeo.",
-   "contexto": "La Unión Europea eliminará los aranceles al 93 % de lo que importa del Mercosur en un plazo de hasta 10 años; el Mercosur tendrá hasta 15 años para hacerlo con el 90 % de lo que importa de Europa. El plazo más largo protege por más tiempo a las industrias del Mercosur. Para Paraguay, la apuesta es vender más carne, soja y productos elaborados a un mercado de alto poder de compra.",
-   "datos": [
-    [
-     "17 ene",
-     "Firma en Asunción"
-    ],
-    [
-     "1 may",
-     "Aplicación provisional"
-    ],
-    [
-     "93 %",
-     "Importaciones del Mercosur que la UE liberará (10 años)"
-    ],
-    [
-     "90 %",
-     "Importaciones de la UE que el Mercosur liberará (15 años)"
-    ]
-   ],
-   "clave": [
-    "93 %",
-    "del comercio sin aranceles"
-   ],
-   "fig": {
-    "k": "arancel"
-   },
-   "cap": "Quitar un arancel lleva el precio interno de Pₘ + t a Pₘ: los consumidores ganan, los productores que compiten con importaciones pierden y el Estado deja de recaudar el rectángulo.",
-   "pasos": [
-    "Se reducen los aranceles entre los dos bloques",
-    "Bajan los precios de los bienes importados",
-    "Los consumidores compran más y los exportadores venden más",
-    "Los productores que compiten con importaciones enfrentan más competencia",
-    "Cada país se especializa en su ventaja comparativa"
-   ],
-   "conceptos": [
-    [
-     "Integración económica",
-     "Acuerdos entre países para reducir barreras al comercio."
-    ],
-    [
-     "Arancel",
-     "Impuesto a los bienes importados."
-    ],
-    [
-     "Ganancias del comercio",
-     "Más consumo y eficiencia al especializarse."
-    ],
-    [
-     "Interdependencia",
-     "Las economías dependen unas de otras por el comercio."
-    ]
-   ],
-   "diagramas": [
-    "arancel",
-    "exportaciones"
-   ],
-   "rel": [
-    "soja-record",
-    "carne-cae"
-   ],
-   "pregunta": {
-    "q": "¿Por qué el Mercosur tiene 15 años para bajar aranceles y la UE solo 10?",
-    "opts": [
-     "Para dar tiempo a las industrias del Mercosur a adaptarse a la competencia",
-     "Porque la UE es más pequeña",
-     "Para que el Mercosur recaude menos",
-     "Porque la UE no tiene aranceles"
-    ],
-    "ok": 0,
-    "fb": "Un plazo más largo protege por más tiempo a sectores menos competitivos: es una forma de proteccionismo transitorio."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Exportadores de carne y soja",
-      "Acceden a un mercado grande con menos aranceles."
-     ],
-     [
-      "Consumidores",
-      "Productos europeos más baratos."
-     ]
-    ],
-    "pierden": [
-     [
-      "Industrias que compiten con Europa",
-      "Enfrentan más competencia."
-     ],
-     [
-      "El Estado",
-      "Recauda menos por aranceles."
-     ]
-    ],
-    "corto": "Pocos cambios: la baja de aranceles es gradual.",
-    "largo": "Más comercio, especialización e inversión, con riesgo para los sectores menos competitivos.",
-    "supuestos": [
-     "Que el Parlamento Europeo no frene el acuerdo."
-    ],
-    "conclusion": "Los beneficios dependen de que Paraguay aproveche el acceso y de que los sectores afectados se adapten en los 15 años de transición."
-   },
-   "sector": [
-    "agro",
-    "comercio"
    ]
   },
   {
@@ -7822,120 +8066,6 @@
     ],
     "conclusion": "Las renuncias abren la puerta a renovar la supervisión, pero dejan al BCP debilitado justo cuando más necesita credibilidad; la rapidez para completar el directorio es clave."
    }
-  },
-  {
-   "id": "corredor-bioceanico",
-   "fecha": "2026-02-16",
-   "medio": "InfoNegocios",
-   "url": "https://infonegocios.com.py/y-ademas/us-200-millones-para-acelerar-el-corredor-bioceanico-y-potenciar-la-competitividad-paraguaya",
-   "titulo": "US$ 200 millones del BID para acelerar el Corredor Bioceánico",
-   "unidad": "macro",
-   "tema": "3.7",
-   "kc": "cambio",
-   "sector": [
-    "comercio"
-   ],
-   "resumen": "El BID aprobó un préstamo de US$ 200 millones para una nueva etapa del Corredor Bioceánico, la ruta que cruzará el Chaco para unir el Atlántico con el Pacífico. Según el MOPC, Paraguay ya invierte unos US$ 915 millones en la obra.",
-   "contexto": "El préstamo financia 102,5 kilómetros del tramo II, además de accesos a Mariscal Estigarribia y a la zona industrial de Loma Plata. El puente entre Carmelo Peralta y Puerto Murtinho (Brasil) está cerca de su unión definitiva. La infraestructura es una política de oferta: reduce los costos de transporte, mejora la competitividad y aumenta la capacidad productiva. También permite depender menos de los ríos, que en las bajantes encarecen el flete.",
-   "datos": [
-    [
-     "US$ 200 M",
-     "Préstamo del BID"
-    ],
-    [
-     "US$ 915 M",
-     "Inversión que ya realiza Paraguay"
-    ],
-    [
-     "102,5 km",
-     "Tramo II financiado por el préstamo"
-    ],
-    [
-     "≈ 100 km",
-     "Distancia que se ahorraría en la ruta"
-    ]
-   ],
-   "clave": [
-    "US$ 200 M",
-    "del BID"
-   ],
-   "fig": {
-    "k": "oalp",
-    "s": 40
-   },
-   "cap": "Mejor infraestructura baja los costos y aumenta la capacidad productiva: la OALP y la OACP se desplazan a la derecha.",
-   "pasos": [
-    "Se construye una ruta que cruza el Chaco",
-    "Bajan los costos y tiempos de transporte",
-    "Las empresas producen y exportan más barato",
-    "Aumenta la capacidad productiva (OALP a la derecha)",
-    "Más crecimiento potencial, sobre todo en el Chaco"
-   ],
-   "conceptos": [
-    [
-     "Infraestructura",
-     "Rutas, puentes, puertos y redes que facilitan la producción."
-    ],
-    [
-     "Política de oferta",
-     "Medidas para aumentar la capacidad productiva."
-    ],
-    [
-     "Competitividad",
-     "Capacidad de vender a precios convenientes frente a otros países."
-    ],
-    [
-     "Préstamo multilateral",
-     "Crédito de organismos como el BID o el Banco Mundial."
-    ]
-   ],
-   "diagramas": [
-    "politicas-oferta"
-   ],
-   "rel": [
-    "hidrovia-2026",
-    "pisa-2025"
-   ],
-   "pregunta": {
-    "q": "¿Por qué el Corredor Bioceánico es una política de oferta?",
-    "opts": [
-     "Porque baja los costos de producción y aumenta la capacidad productiva",
-     "Porque sube el consumo de inmediato",
-     "Porque reduce la tasa de interés",
-     "Porque baja los impuestos"
-    ],
-    "ok": 0,
-    "fb": "La infraestructura mejora la capacidad de producir y exportar: desplaza la OALP. Su construcción también suma gasto (DA) a corto plazo."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores y exportadores del Chaco",
-      "Transporte más barato y nuevos mercados."
-     ],
-     [
-      "Empleo en la construcción",
-      "Puestos de trabajo durante la obra."
-     ]
-    ],
-    "pierden": [
-     [
-      "Contribuyentes futuros",
-      "Pagarán el préstamo con intereses."
-     ],
-     [
-      "Medio ambiente del Chaco",
-      "Más presión sobre los bosques si crece la actividad."
-     ]
-    ],
-    "corto": "El gasto en la obra suma a la demanda agregada.",
-    "largo": "Más competitividad, siempre que se terminen todos los tramos.",
-    "supuestos": [
-     "Que la obra se complete y se mantenga.",
-     "Que se controle el impacto ambiental."
-    ],
-    "conclusion": "Es una apuesta de largo plazo por la productividad; su éxito depende de terminar los tramos y de cuidar el ambiente del Chaco."
-   }
   }
  ],
  "historial": {
@@ -8417,13 +8547,13 @@
   },
   "2026-11-09": {
    "titulo": "Presupuesto al Senado y un plan para repartir Ueno",
-   "texto": "La semana estuvo marcada por las consecuencias de Ueno: el Fondo de Garantía terminó el 11 de noviembre de pagar el anticipo al 100 % de los clientes (US$ 644 millones), Fitch puso la nota del país en revisión negativa y el BCP anunció que los activos y depósitos del banco se repartirán por lotes entre varios bancos. El BCP renovó todo su directorio y su nuevo presidente, Jorge Schreiner, dijo que podría comprar dólares para estabilizar la cotización. Diputados aprobó el 12 de noviembre el Presupuesto 2027 con un recorte de US$ 276 millones, pero con el déficit en 3,9 % del PIB. En el lado positivo, el IMAEP creció 3,9 % en septiembre y el comercio exterior acumula un superávit de US$ 668,6 millones a octubre gracias a la soja.",
+   "texto": "La semana estuvo marcada por las consecuencias de Ueno: el Fondo de Garantía terminó el 11 de noviembre de pagar el anticipo al 100 % de los clientes (US$ 644 millones), Fitch puso la nota del país en revisión negativa y el BCP anunció que los activos y depósitos del banco se repartirán por lotes entre varios bancos. El BCP renovó todo su directorio y su nuevo presidente, Jorge Schreiner, dijo que podría comprar dólares para estabilizar la cotización. Diputados aprobó el 12 de noviembre el Presupuesto 2027 con un recorte de US$ 276 millones, pero con el déficit en 3,9 % del PIB. En el lado positivo, el IMAEP creció 3,9 % en septiembre y el comercio exterior acumula un superávit de US$ 668,6 millones a octubre gracias a la soja. El viernes 13, el BCP bajó temporalmente el encaje legal para dar liquidez a fondos y casas de bolsa, el Gobierno redujo a la mitad el impuesto al diésel (G. 300 menos por litro) y el dólar se calmó en G. 6.150, aunque los bonos del país siguieron cayendo.",
    "claves": [
     "pgn-suspendido",
     "ueno-lotes",
-    "fitch-revision",
-    "comercio-octubre",
-    "bcp-cambiaria"
+    "encaje-ueno",
+    "isc-diesel",
+    "fitch-revision"
    ]
   }
  },
@@ -8590,6 +8720,14 @@
     [
      "2026-11-12",
      "Informe de comercio exterior: superávit de US$ 668,6 millones a octubre."
+    ],
+    [
+     "2026-11-13",
+     "Reduce temporalmente hasta 5 puntos el encaje legal (guaraníes de 18 % a 13 %) para que los bancos compren CDA y bonos a casas de bolsa y fondos."
+    ],
+    [
+     "2026-11-13",
+     "Estimador de Cifras de Negocios: las ventas crecen 2,5 % en septiembre y 4,3 % en el año."
     ]
    ],
    "enlaces": [
@@ -8733,6 +8871,14 @@
     [
      "2026-11-12",
      "Diputados da media sanción al Presupuesto 2027: G. 164 billones, recorte de US$ 276 millones y déficit de 3,9 % del PIB. Pasa al Senado."
+    ],
+    [
+     "2026-11-13",
+     "Decreto reduce 50 % el ISC al diésel hasta el 31 de diciembre; Petropar baja G. 300 por litro."
+    ],
+    [
+     "2026-11-13",
+     "Lovera ante Diputados: espera emitir US$ 2.708,7 millones en bonos en 2027 pese a la crisis de Ueno."
     ]
    ],
    "enlaces": [
@@ -9264,6 +9410,10 @@
    [
     "2026-11-09",
     "El IPS informa que tenía G. 250.000 millones en bonos de Ueno (boletín de septiembre)."
+   ],
+   [
+    "2026-11-13",
+    "El BCP baja el encaje legal para que los bancos compren CDA y bonos a casas de bolsa y fondos con pedidos de rescate."
    ]
   ],
   "ib": [
@@ -9298,12 +9448,57 @@
  "calendario": {
   "fechas": [
    {
+    "f": "2026-11-11",
+    "t": "Plazo para terminar los anticipos de Ueno Bank",
+    "d": "La ley de resolución bancaria fija el miércoles 11 como plazo máximo para acreditar los anticipos de la garantía de depósitos.",
+    "tipo": "BCP",
+    "tema": "2.10",
+    "url": "https://www.hoy.com.py/nacionales/2026/11/09/ueno-bcp-suma-beneficiarios-pero-estos-ahorristas-seguiran-esperando",
+    "fuente": "Diario Hoy"
+   },
+   {
+    "f": "2026-11-12",
+    "t": "Diputados trata el Presupuesto 2027 con los recortes",
+    "d": "Sesión extraordinaria para analizar la adenda del MEF, que recorta y reasigna US$ 276 millones.",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.lanacion.com.py/politica/2026/11/11/ministerio-de-economia-remite-adenda-a-diputados-con-un-recorte-de-usd-276-millones/",
+    "fuente": "La Nación"
+   },
+   {
+    "f": "2026-11-13",
+    "t": "Plazo para los cambios al Presupuesto 2027",
+    "d": "El Ejecutivo debe presentar los recortes antes de este viernes; Diputados prevé votar el 12 o el 13.",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.abc.com.py/economia/2026/11/10/pgn-2027-diputados-preve-tratar-el-presupuesto-entre-el-jueves-y-el-viernes/",
+    "fuente": "ABC Color"
+   },
+   {
     "f": "2026-11-14",
     "t": "Vence el plazo del Presupuesto 2027 en Diputados",
     "d": "Era el plazo de Diputados; la Cámara aprobó el proyecto con cambios el 12 de noviembre y lo envió al Senado.",
     "tipo": "Congreso",
     "tema": "3.6",
     "url": "https://www.abc.com.py/politica/2026/11/09/a-pedido-de-alliana-diputados-suspende-de-forma-repentina-el-tratamiento-del-presupuesto-2027/",
+    "fuente": "ABC Color"
+   },
+   {
+    "f": "2026-11-16",
+    "t": "Cierra el balance de exclusión de Ueno Bank",
+    "d": "El interventor separa activos y pasivos para repartirlos por lotes entre bancos del sistema.",
+    "tipo": "BCP",
+    "tema": "3.5",
+    "url": "https://www.abc.com.py/economia/2026/11/12/clientes-de-ueno-bcp-exoneran-temporalmente-intereses-moratorios-y-recargos-por-prestamos-y-tarjetas/",
+    "fuente": "ABC Color"
+   },
+   {
+    "f": "2026-11-17",
+    "t": "El IPS paga jubilaciones y aguinaldo",
+    "d": "Incluye a los 32.000 jubilados que cobraban por Ueno Bank, ahora a través de otros siete bancos.",
+    "tipo": "IPS",
+    "tema": "3.4",
+    "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
     "fuente": "ABC Color"
    },
    {
@@ -9316,6 +9511,15 @@
     "fuente": "InfoNegocios"
    },
    {
+    "f": "2026-11-30",
+    "t": "Termina la exoneración de intereses moratorios de Ueno",
+    "d": "Hasta esta fecha los clientes con préstamos y tarjetas no pagan intereses moratorios ni punitorios.",
+    "tipo": "BCP",
+    "tema": "2.10",
+    "url": "https://www.abc.com.py/economia/2026/11/12/clientes-de-ueno-bcp-exoneran-temporalmente-intereses-moratorios-y-recargos-por-prestamos-y-tarjetas/",
+    "fuente": "ABC Color"
+   },
+   {
     "f": "2026-12-09",
     "t": "Brasil decide su tasa de interés (Copom)",
     "d": "El Banco Central de Brasil anuncia la Selic, hoy en 13,75 %. Lo que pase en Brasil afecta al comercio y al tipo de cambio de Paraguay.",
@@ -9323,6 +9527,15 @@
     "tema": "3.5",
     "url": "https://www.infomoney.com.br/mercados/banco-central-divulga-calendario-das-reunioes-do-copom-para-2026/",
     "fuente": "InfoMoney"
+   },
+   {
+    "f": "2026-12-09",
+    "t": "La Reserva Federal de EE.UU. decide su tasa",
+    "d": "La reunión es el 8 y 9 de diciembre. Una suba fortalecería el dólar y encarecería la deuda de países como Paraguay.",
+    "tipo": "Región",
+    "tema": "4.5",
+    "url": "https://www.infobae.com/estados-unidos/2026/10/28/la-reserva-federal-de-estados-unidos-mantuvo-sin-cambios-la-tasa-de-interes-de-referencia/",
+    "fuente": "Infobae"
    },
    {
     "f": "2026-12-15",
@@ -9343,67 +9556,13 @@
     "fuente": "ABC Color"
    },
    {
-    "f": "2026-11-17",
-    "t": "El IPS paga jubilaciones y aguinaldo",
-    "d": "Incluye a los 32.000 jubilados que cobraban por Ueno Bank, ahora a través de otros siete bancos.",
-    "tipo": "IPS",
-    "tema": "3.4",
-    "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
-    "fuente": "ABC Color"
-   },
-   {
-    "f": "2026-12-09",
-    "t": "La Reserva Federal de EE.UU. decide su tasa",
-    "d": "La reunión es el 8 y 9 de diciembre. Una suba fortalecería el dólar y encarecería la deuda de países como Paraguay.",
-    "tipo": "Región",
-    "tema": "4.5",
-    "url": "https://www.infobae.com/estados-unidos/2026/10/28/la-reserva-federal-de-estados-unidos-mantuvo-sin-cambios-la-tasa-de-interes-de-referencia/",
-    "fuente": "Infobae"
-   },
-   {
-    "f": "2026-11-11",
-    "t": "Plazo para terminar los anticipos de Ueno Bank",
-    "d": "La ley de resolución bancaria fija el miércoles 11 como plazo máximo para acreditar los anticipos de la garantía de depósitos.",
-    "tipo": "BCP",
-    "tema": "2.10",
-    "url": "https://www.hoy.com.py/nacionales/2026/11/09/ueno-bcp-suma-beneficiarios-pero-estos-ahorristas-seguiran-esperando",
-    "fuente": "Diario Hoy"
-   },
-   {
-    "f": "2026-11-13",
-    "t": "Plazo para los cambios al Presupuesto 2027",
-    "d": "El Ejecutivo debe presentar los recortes antes de este viernes; Diputados prevé votar el 12 o el 13.",
-    "tipo": "Congreso",
-    "tema": "3.6",
-    "url": "https://www.abc.com.py/economia/2026/11/10/pgn-2027-diputados-preve-tratar-el-presupuesto-entre-el-jueves-y-el-viernes/",
-    "fuente": "ABC Color"
-   },
-   {
-    "f": "2026-11-12",
-    "t": "Diputados trata el Presupuesto 2027 con los recortes",
-    "d": "Sesión extraordinaria para analizar la adenda del MEF, que recorta y reasigna US$ 276 millones.",
-    "tipo": "Congreso",
-    "tema": "3.6",
-    "url": "https://www.lanacion.com.py/politica/2026/11/11/ministerio-de-economia-remite-adenda-a-diputados-con-un-recorte-de-usd-276-millones/",
-    "fuente": "La Nación"
-   },
-   {
-    "f": "2026-11-16",
-    "t": "Cierra el balance de exclusión de Ueno Bank",
-    "d": "El interventor separa activos y pasivos para repartirlos por lotes entre bancos del sistema.",
-    "tipo": "BCP",
-    "tema": "3.5",
-    "url": "https://www.abc.com.py/economia/2026/11/12/clientes-de-ueno-bcp-exoneran-temporalmente-intereses-moratorios-y-recargos-por-prestamos-y-tarjetas/",
-    "fuente": "ABC Color"
-   },
-   {
-    "f": "2026-11-30",
-    "t": "Termina la exoneración de intereses moratorios de Ueno",
-    "d": "Hasta esta fecha los clientes con préstamos y tarjetas no pagan intereses moratorios ni punitorios.",
-    "tipo": "BCP",
-    "tema": "2.10",
-    "url": "https://www.abc.com.py/economia/2026/11/12/clientes-de-ueno-bcp-exoneran-temporalmente-intereses-moratorios-y-recargos-por-prestamos-y-tarjetas/",
-    "fuente": "ABC Color"
+    "f": "2026-12-31",
+    "t": "Vence la rebaja del 50 % del ISC al diésel",
+    "d": "Si no se prorroga, el impuesto vuelve a su nivel y puede subir el precio del combustible.",
+    "tipo": "MEF",
+    "tema": "2.8",
+    "url": "https://www.ultimahora.com/experto-preve-mayores-bajas-en-el-precio-de-los-combustibles",
+    "fuente": "Última Hora"
    }
   ],
   "habituales": [
@@ -9990,7 +10149,8 @@
     "bcp-cambiaria",
     "fitch-revision",
     "ueno-lotes",
-    "cooperativas-garantia"
+    "cooperativas-garantia",
+    "encaje-ueno"
    ],
    "hitos": [
     [
@@ -10107,6 +10267,16 @@
      "ueno-lotes"
     ],
     [
+     "2026-11-13",
+     "El BCP baja el encaje legal para dar liquidez a fondos y casas de bolsa.",
+     "encaje-ueno"
+    ],
+    [
+     "2026-11-13",
+     "Asimcopar: ventas 30 % abajo y 70 % de pagos en efectivo.",
+     "consumo-cae"
+    ],
+    [
      "2026-11-16",
      "Cierra el balance de exclusión de Ueno."
     ],
@@ -10181,6 +10351,16 @@
      "2026-11-12",
      "Diputados da media sanción: G. 164 billones, recorte de US$ 276 millones y déficit de 3,9 %.",
      "pgn-suspendido"
+    ],
+    [
+     "2026-11-13",
+     "Lovera defiende ante Diputados la emisión de US$ 2.708,7 millones en bonos en 2027.",
+     "pgn-suspendido"
+    ],
+    [
+     "2026-11-14",
+     "Los bonos de Paraguay caen hasta 3 % en noviembre; el de 2050 rinde 6,90 %.",
+     "bonos-embi"
     ]
    ]
   },
@@ -10246,6 +10426,11 @@
      "2026-11-10",
      "El nuevo presidente del BCP anuncia que podría comprar dólares para estabilizar la cotización.",
      "bcp-cambiaria"
+    ],
+    [
+     "2026-11-13",
+     "El dólar baja a G. 6.150 en casas de cambio, pero entran 90 % menos dólares del exterior.",
+     "dolar-6600"
     ]
    ]
   },
@@ -13499,8 +13684,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-13",
-  "hora": "07:28",
+  "fecha": "2026-11-14",
+  "hora": "08:23",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -13520,14 +13705,14 @@
    [
     "BRL",
     "Real brasileño",
-    1100,
-    1180
+    1070,
+    1170
    ],
    [
     "EUR",
     "Euro",
-    6150,
-    6950
+    6100,
+    6900
    ]
   ],
   "historial": {
@@ -13554,6 +13739,11 @@
     ],
     [
      "2026-11-13",
+     5900,
+     6150
+    ],
+    [
+     "2026-11-14",
      5900,
      6150
     ]
@@ -13583,6 +13773,11 @@
      "2026-11-13",
      3.5,
      3.9
+    ],
+    [
+     "2026-11-14",
+     3.5,
+     3.9
     ]
    ],
    "BRL": [
@@ -13610,6 +13805,11 @@
      "2026-11-13",
      1100,
      1180
+    ],
+    [
+     "2026-11-14",
+     1070,
+     1170
     ]
    ],
    "EUR": [
@@ -13637,6 +13837,11 @@
      "2026-11-13",
      6150,
      6950
+    ],
+    [
+     "2026-11-14",
+     6100,
+     6900
     ]
    ]
   }
@@ -13675,6 +13880,11 @@
     "US$ 2.100 M",
     "Depósitos de Ueno no asegurados, según Fitch",
     "fitch-revision"
+   ],
+   [
+    "US$ 46 M",
+    "Capital operativo de Petropar atrapado en Ueno",
+    "ande-ueno"
    ]
   ],
   "actores": [
@@ -13722,6 +13932,16 @@
     "Jorge Schreiner (BCP)",
     "Anunció que los activos y depósitos de Ueno se repartirán por lotes entre bancos locales.",
     "ueno-lotes"
+   ],
+   [
+    "BCP (encaje)",
+    "Bajó el encaje legal hasta 5 puntos para dar liquidez a fondos y casas de bolsa.",
+    "encaje-ueno"
+   ],
+   [
+    "Petropar",
+    "Tiene US$ 46 millones de capital operativo en Ueno y presentó una denuncia penal.",
+    "ande-ueno"
    ]
   ],
   "preguntas": [
