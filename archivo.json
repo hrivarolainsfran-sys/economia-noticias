@@ -1151,5 +1151,328 @@
    ],
    "conclusion": "La desigualdad baja, pero despacio y con mucha diferencia entre regiones: es uno de los principales frenos al desarrollo humano."
   }
+ },
+ {
+  "id": "bomberos-bien-publico",
+  "fecha": "2026-06-10",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/pais/2026/06/10/bomberos-voluntarios-recibiran-desembolsos-tras-acuerdo-con-el-intendente-bello/",
+  "titulo": "Los bomberos cuidan a todos, pero ¿quién los paga? Un bien público",
+  "unidad": "micro",
+  "tema": "2.9",
+  "kc": "intervencion",
+  "resumen": "La Municipalidad de Asunción firmó convenios para transferir unos G. 3.000 millones a los bomberos voluntarios: 60 % para el Cuerpo de Bomberos Voluntarios del Paraguay y 40 % para el de Asunción. El dinero sale de un fondo financiado con el 3,5 % del impuesto a la construcción que cobra la comuna, y el último pago de este tipo había sido en 2020.",
+  "contexto": "Un bien público es no rival (que te protejan a vos no reduce la protección de tu vecino) y no excluible (no se puede dejar sin protección a quien no paga, porque un incendio se extiende). Por eso el mercado no lo provee bien: cada uno espera que paguen los demás y se aprovecha gratis, el problema del «polizón» (free rider). En Paraguay, el servicio de bomberos depende en gran parte de voluntarios y de transferencias del Estado y de los municipios, que llegan tarde: el intendente Luis Bello dijo que los bomberos cuidan la ciudad y que la ciudad debe cuidarlos a ellos.",
+  "datos": [
+   [
+    "G. 3.000 millones",
+    "Transferencia de la Municipalidad de Asunción a los bomberos"
+   ],
+   [
+    "60 % / 40 %",
+    "Reparto entre el Cuerpo del Paraguay y el de Asunción"
+   ],
+   [
+    "3,5 %",
+    "Parte del impuesto a la construcción que financia el fondo"
+   ],
+   [
+    "2020",
+    "Año del último pago anterior"
+   ]
+  ],
+  "clave": [
+   "G. 3.000 M",
+   "para los bomberos"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% del aporte",
+   "rows": [
+    [
+     "Bomberos Voluntarios del Paraguay",
+     60,
+     1
+    ],
+    [
+     "Bomberos de Asunción",
+     40
+    ]
+   ]
+  },
+  "cap": "Como nadie puede ser excluido de la protección contra incendios, el servicio se financia con impuestos: aquí, una parte del impuesto a la construcción.",
+  "pasos": [
+   "La protección contra incendios beneficia a todos a la vez",
+   "No se puede excluir a quien no paga",
+   "Cada uno espera que paguen los demás (polizón)",
+   "El mercado no lo provee lo suficiente",
+   "El Estado lo financia con impuestos"
+  ],
+  "conceptos": [
+   [
+    "Bien público",
+    "Bien no rival y no excluible."
+   ],
+   [
+    "No rival",
+    "El consumo de uno no reduce el de otro."
+   ],
+   [
+    "No excluible",
+    "No se puede impedir que lo use quien no paga."
+   ],
+   [
+    "Problema del polizón (free rider)",
+    "Beneficiarse sin pagar, esperando que paguen los demás."
+   ]
+  ],
+  "diagramas": [],
+  "rel": [
+   "pgn-2027"
+  ],
+  "pregunta": {
+   "q": "¿Por qué el mercado no proveería suficiente servicio de bomberos?",
+   "opts": [
+    "Porque no se puede excluir a quien no paga y aparecen polizones",
+    "Porque los bomberos son voluntarios",
+    "Porque la demanda es elástica",
+    "Porque es un monopolio natural"
+   ],
+   "ok": 0,
+   "fb": "Al ser no excluible, cada persona tiene incentivo a no pagar y aprovechar el servicio que pagan otros."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Vecinos de Asunción",
+     "Mejor equipamiento para emergencias."
+    ]
+   ],
+   "pierden": [
+    [
+     "Otros usos del presupuesto municipal",
+     "Ese dinero no se usa en otra cosa."
+    ]
+   ],
+   "corto": "Más equipos y cuarteles para los bomberos.",
+   "largo": "Sin pagos regulares, el servicio sigue dependiendo de voluntarios y donaciones.",
+   "supuestos": [
+    "Que los fondos se usen y se rindan bien"
+   ],
+   "conclusion": "Los bienes públicos necesitan financiamiento público estable; pagos esporádicos dejan el servicio en riesgo."
+  }
+ },
+ {
+  "id": "salario-minimo",
+  "fecha": "2026-06-26",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/economia/2026/06/26/reajuste-del-salario-minimo-estos-son-los-pagos-por-hora-dia-y-jornada-nocturna/",
+  "titulo": "El salario mínimo sube 5 % y llega a G. 3.044.000",
+  "unidad": "micro",
+  "tema": "2.7",
+  "kc": "equidad",
+  "resumen": "Desde el 1 de julio de 2026 rige un salario mínimo de G. 3.044.000 mensuales, 5 % más que antes, según el Decreto 6225/26. El jornal diario es de G. 117.077 y la hora diurna, de G. 12.683.",
+  "contexto": "El salario mínimo es un precio mínimo en el mercado de trabajo. Busca proteger el ingreso de quienes tienen menos poder para negociar. La teoría advierte un riesgo: si se fija muy por encima del salario de equilibrio, las empresas contratan menos y aparece desempleo, o crece el trabajo informal. Si la inflación se mantiene cerca de 1,7 %, una suba de 5 % mejora el poder de compra.",
+  "datos": [
+   [
+    "G. 3.044.000",
+    "Salario mínimo mensual"
+   ],
+   [
+    "+5 %",
+    "Reajuste desde el 1 de julio"
+   ],
+   [
+    "G. 117.077",
+    "Jornal diario"
+   ],
+   [
+    "G. 12.683",
+    "Hora diurna"
+   ]
+  ],
+  "clave": [
+   "G. 3.044.000",
+   "por mes"
+  ],
+  "fig": {
+   "k": "minimo"
+  },
+  "cap": "Con el salario mínimo por encima de W₁, las empresas contratan Qd y las personas ofrecen Qo: la diferencia es desempleo.",
+  "pasos": [
+   "El Estado fija un salario mínimo más alto",
+   "Más personas quieren trabajar a ese salario",
+   "Las empresas demandan menos trabajadores",
+   "Aparece un excedente de trabajo: desempleo",
+   "O parte del empleo pasa a la informalidad"
+  ],
+  "conceptos": [
+   [
+    "Precio mínimo",
+    "Precio fijado por el Estado por encima del de equilibrio."
+   ],
+   [
+    "Salario real",
+    "Salario ajustado por inflación: mide el poder de compra."
+   ],
+   [
+    "Informalidad",
+    "Trabajo sin contrato ni seguridad social."
+   ],
+   [
+    "Equidad",
+    "Reparto justo del ingreso y de las oportunidades."
+   ]
+  ],
+  "diagramas": [
+   "salario-minimo"
+  ],
+  "rel": [
+   "desempleo-41",
+   "pobreza-16"
+  ],
+  "pregunta": {
+   "q": "Si la inflación del año es 1,7 % y el salario mínimo sube 5 %, ¿qué pasa con el salario real?",
+   "opts": [
+    "Sube cerca de 3,3 %",
+    "Baja 3,3 %",
+    "Sube 6,7 %",
+    "No cambia"
+   ],
+   "ok": 0,
+   "fb": "Salario real ≈ suba nominal − inflación = 5 % − 1,7 % ≈ 3,3 %. El poder de compra mejora."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Trabajadores formales con salario mínimo",
+     "Su salario real sube cerca de 3,3 %."
+    ]
+   ],
+   "pierden": [
+    [
+     "Trabajadores poco calificados",
+     "Podrían tener más dificultades para ser contratados."
+    ],
+    [
+     "Pequeñas empresas",
+     "Sus costos laborales suben."
+    ]
+   ],
+   "corto": "Más poder de compra.",
+   "largo": "Si el mínimo supera mucho la productividad, puede crecer la informalidad.",
+   "supuestos": [
+    "Que el mínimo esté por encima del salario de equilibrio.",
+    "Que se cumpla: muchos trabajadores informales no lo cobran."
+   ],
+   "conclusion": "Con inflación baja, el reajuste mejora el poder de compra; su efecto sobre el empleo depende de cuánto se aleje del salario de mercado."
+  }
+ },
+ {
+  "id": "hambre-cero",
+  "fecha": "2026-07-02",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/politica/2026/07/02/hambre-cero-un-millon-de-alumnos-con-alimentacion-diaria-22000-empleos-y-mas-mipymes/",
+  "titulo": "Hambre Cero: alimentar a un millón de alumnos como estrategia de desarrollo",
+  "unidad": "global",
+  "tema": "4.10",
+  "kc": "equidad",
+  "resumen": "En su informe de gestión ante el Congreso, el Gobierno informó que el programa Hambre Cero en las Escuelas da alimentación diaria a más de un millón de estudiantes en 7.082 instituciones de 263 distritos, entre julio de 2025 y mayo de 2026. Según las cifras oficiales, 22.799 trabajadores de los proveedores están registrados en IPS, y un decreto subió de 5 % a 10 % la compra mínima de insumos a mipymes. El MEF transfirió G. 1,42 billones a las gobernaciones para el programa.",
+  "contexto": "Las estrategias de desarrollo buscan mejorar el bienestar a largo plazo, no solo el crecimiento del PIB. Invertir en la nutrición y la educación de los niños es invertir en capital humano: alumnos mejor alimentados aprenden más y serán trabajadores más productivos. Hambre Cero también intenta crear empleo formal y vincular a la agricultura familiar y a las mipymes como proveedoras. Las cifras son oficiales y no evaluadas de forma independiente, y en 2026 hubo denuncias sobre la calidad de los alimentos en algunas escuelas.",
+  "datos": [
+   [
+    "1.000.000+",
+    "Estudiantes con alimentación diaria"
+   ],
+   [
+    "7.082",
+    "Instituciones educativas en 263 distritos"
+   ],
+   [
+    "22.799",
+    "Trabajadores de proveedores registrados en IPS"
+   ],
+   [
+    "5 % → 10 %",
+    "Compra mínima de insumos a mipymes"
+   ],
+   [
+    "G. 1,42 billones",
+    "Transferido a las gobernaciones (jul 2025-jun 2026)"
+   ]
+  ],
+  "clave": [
+   "1 millón",
+   "de alumnos alimentados cada día"
+  ],
+  "fig": {
+   "k": "oalp",
+   "s": 30
+  },
+  "cap": "Invertir en capital humano (nutrición y educación) aumenta la productividad futura: la OALP se desplaza a la derecha.",
+  "pasos": [
+   "Los alumnos reciben alimentación diaria en la escuela",
+   "Mejoran su nutrición y asistencia",
+   "Aprenden más: aumenta el capital humano",
+   "En el futuro serán trabajadores más productivos",
+   "Aumenta el producto potencial y se reduce la pobreza"
+  ],
+  "conceptos": [
+   [
+    "Capital humano",
+    "Conocimientos, habilidades y salud de las personas que aumentan su productividad."
+   ],
+   [
+    "Estrategias de desarrollo",
+    "Políticas para mejorar el bienestar a largo plazo: educación, salud, infraestructura, inclusión."
+   ],
+   [
+    "Desarrollo económico",
+    "Mejora sostenida del bienestar, no solo del ingreso."
+   ]
+  ],
+  "diagramas": [
+   "politicas-oferta"
+  ],
+  "rel": [
+   "pisa-2025",
+   "pobreza-multidimensional"
+  ],
+  "pregunta": {
+   "q": "¿Por qué la alimentación escolar es una estrategia de desarrollo?",
+   "opts": [
+    "Porque mejora el capital humano y la productividad futura",
+    "Porque baja la inflación",
+    "Porque aumenta las exportaciones de inmediato",
+    "Porque reduce el déficit fiscal"
+   ],
+   "ok": 0,
+   "fb": "Niños mejor alimentados aprenden más; ese capital humano aumenta la productividad y el desarrollo a largo plazo."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Estudiantes y familias pobres",
+     "Comida diaria asegurada."
+    ],
+    [
+     "Mipymes y agricultura familiar",
+     "Más ventas al Estado."
+    ]
+   ],
+   "pierden": [
+    [
+     "Otras áreas del presupuesto",
+     "El programa tiene un costo alto."
+    ]
+   ],
+   "corto": "Más asistencia escolar y empleo en proveedores.",
+   "largo": "Mejor capital humano, si la calidad de la comida y de la enseñanza acompañan.",
+   "supuestos": [
+    "Que las cifras oficiales sean correctas",
+    "Que la comida llegue con calidad a todas las escuelas"
+   ],
+   "conclusion": "Es una estrategia prometedora, pero necesita evaluaciones independientes de sus resultados en aprendizaje."
+  }
  }
 ]

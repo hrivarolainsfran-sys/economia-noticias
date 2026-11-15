@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14",
+ "actualizado": "2026-11-15",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -15,8 +15,8 @@
   },
   {
    "n": "Dólar",
-   "v": "G. 6.226",
-   "s": "BCP interbancario · 9 nov",
+   "v": "G. 6.204",
+   "s": "BCP interbancario · 10 nov",
    "alert": 1,
    "k": "dolar"
   },
@@ -242,6 +242,16 @@
     "14 nov",
     "Los bonos de Paraguay caen hasta 3 % en noviembre.",
     "bonos-embi"
+   ],
+   [
+    "14 nov",
+    "Asoban: el BCP dio a Ueno reglas más flexibles que al resto.",
+    "asoban-regulacion"
+   ],
+   [
+    "15 nov",
+    "Las mipymes piden un «Fogapy 2»; la tasa interbancaria sigue en 5,39 %.",
+    "mipymes-fogapy"
    ]
   ],
   "lentes": [
@@ -2520,6 +2530,11 @@
      "Última Hora",
      "https://www.ultimahora.com/usd-46-millones-de-capital-operativo-de-petropar-atrapados-en-ueno",
      "2026-11-13"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/14/gremio-del-sector-electrico-plantea-que-ande-amplie-sus-fuentes-de-financiamiento/",
+     "2026-11-14"
     ]
    ],
    "titulo": "La ANDE tiene US$ 21 millones atrapados en Ueno y posterga obras",
@@ -2530,7 +2545,7 @@
     "energia"
    ],
    "resumen": "Félix Sosa volvió a la presidencia de la ANDE y, según ABC Color, admitió que no sabe cómo recuperará unos US$ 21 millones de un préstamo del BID que quedaron en Ueno Bank. Ese dinero financia la línea de 500 kV entre Itaipú y Villa Hayes y obras de 220 kV en el área metropolitana; algunas obras se postergarán y los pagos de G. 115.000 millones a proveedores se revisarán «caso por caso».",
-   "contexto": "Las líneas de transmisión son infraestructura: permiten usar más energía de Itaipú en el país y amplían la capacidad productiva a largo plazo, por eso son una política de oferta. Si se retrasan, la OALP crece más lento. Además, ABC Color recuerda que el contrato de potencia y la tarifa de Itaipú vencen el 31 de diciembre de 2026, y que la emisión de bonos de la ANDE quedó en pausa. En paralelo, según La Nación, la empresa Atome (proyecto de fertilizantes de US$ 665 millones en Villeta) notificó que da por terminado su contrato de energía con la ANDE a fines de 2026, aunque dice estar dispuesta a firmar uno nuevo. Según ABC Color (14 nov), la cámara de constructoras electromecánicas (Cecoel) teme que se frenen las obras: además de los US$ 21 millones del préstamo, hay una carta de crédito por casi US$ 47 millones para proveedores. La ANDE proyecta invertir US$ 614 millones en obras en 2027, 20 % más que en 2026. Otra empresa pública, Petropar, tiene US$ 46 millones de capital operativo atrapados en Ueno, según su presidente (Última Hora, 13 nov).",
+   "contexto": "Las líneas de transmisión son infraestructura: permiten usar más energía de Itaipú en el país y amplían la capacidad productiva a largo plazo, por eso son una política de oferta. Si se retrasan, la OALP crece más lento. Además, ABC Color recuerda que el contrato de potencia y la tarifa de Itaipú vencen el 31 de diciembre de 2026, y que la emisión de bonos de la ANDE quedó en pausa. En paralelo, según La Nación, la empresa Atome (proyecto de fertilizantes de US$ 665 millones en Villeta) notificó que da por terminado su contrato de energía con la ANDE a fines de 2026, aunque dice estar dispuesta a firmar uno nuevo. Según ABC Color (14 nov), la cámara de constructoras electromecánicas (Cecoel) teme que se frenen las obras: además de los US$ 21 millones del préstamo, hay una carta de crédito por casi US$ 47 millones para proveedores. La ANDE proyecta invertir US$ 614 millones en obras en 2027, 20 % más que en 2026. Otra empresa pública, Petropar, tiene US$ 46 millones de capital operativo atrapados en Ueno, según su presidente (Última Hora, 13 nov). Según La Nación (14 nov), Cecoel pide que la ANDE amplíe sus fuentes de financiamiento, incluidas alianzas público-privadas, y se queja de que los contratistas cobran entre 6 y 10 meses después de terminar las obras.",
    "datos": [
     [
      "US$ 21 M",
@@ -2567,6 +2582,10 @@
     [
      "US$ 46 M",
      "Capital operativo de Petropar atrapado en Ueno"
+    ],
+    [
+     "US$ 313 M",
+     "Parte de la inversión de 2027 que saldría de recursos propios de la ANDE (Cecoel, La Nación)"
     ]
    ],
    "clave": [
@@ -2819,10 +2838,10 @@
   },
   {
    "id": "petroleo-baja",
-   "fecha": "2026-11-09",
+   "fecha": "2026-11-15",
    "medio": "El blog del Euríbor (Reuters)",
    "url": "https://www.euribor.com.es/2026/11/09/precio-petroleo-hoy-9-noviembre-2026/",
-   "titulo": "El petróleo cae 16 % en una semana: alivio para los combustibles",
+   "titulo": "El petróleo cae 16 % en una semana y vuelve a subir: alivio a medias",
    "unidad": "macro",
    "tema": "3.3",
    "kc": "interdependencia",
@@ -2832,7 +2851,7 @@
    "sector": [
     "energia"
    ],
-   "resumen": "El barril de Brent cerró el viernes 7 de noviembre por debajo de US$ 97, con una caída semanal de 16,42 %, la mayor desde 2020. Según Reuters, el mercado espera una desescalada entre Estados Unidos e Irán y la OPEP+ decidió no cambiar su producción de diciembre.",
+   "resumen": "El barril de Brent cerró el viernes 7 de noviembre por debajo de US$ 97, con una caída semanal de 16,42 %, la mayor desde 2020. Según Reuters, el mercado espera una desescalada entre Estados Unidos e Irán y la OPEP+ decidió no cambiar su producción de diciembre. Pero el jueves 12 el Brent volvió a subir 3,3 %, hasta US$ 95,82, después de que Donald Trump dijera que EE.UU. ya no necesita un acuerdo con Irán para terminar la guerra (EFE, en ABC Color).",
    "contexto": "A comienzos de noviembre el Brent superaba los US$ 110 y era uno de los riesgos que vigilaba el BCP. Paraguay importa todos sus combustibles, así que un petróleo más barato reduce costos de transporte y producción. Pero el efecto en el surtidor no es automático: Petropar revisará sus precios a fin de mes y, al mismo tiempo, el guaraní se depreció, lo que encarece lo importado.",
    "datos": [
     [
@@ -2850,6 +2869,14 @@
     [
      "US$ 92,90",
      "Brent el lunes 9 de noviembre (−5,5 % en el día), según La Nación"
+    ],
+    [
+     "US$ 95,82",
+     "Brent el jueves 12 de noviembre (+3,3 % en el día)"
+    ],
+    [
+     "US$ 88,74",
+     "WTI el 12 de noviembre (+2,55 %)"
     ]
    ],
    "clave": [
@@ -2924,7 +2951,7 @@
      ]
     ],
     "corto": "Alivio en la inflación por costos y menos presión para nuevas subas de combustibles.",
-    "largo": "Depende de que se mantenga la paz en Medio Oriente: el precio puede volver a subir.",
+    "largo": "Depende de la guerra en Medio Oriente: como mostró la suba del 12 de noviembre, una declaración política basta para que el precio vuelva a subir.",
     "supuestos": [
      "Que la baja del petróleo dure.",
      "Que la depreciación del guaraní no anule el efecto."
@@ -2936,6 +2963,11 @@
      "La Nación",
      "https://www.lanacion.com.py/negocios/2026/11/09/caida-global-del-petroleo-abre-la-expectativa-de-una-baja-en-los-costos-de-importacion/",
      "2026-11-09"
+    ],
+    [
+     "ABC Color (EFE)",
+     "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/15/trump-hablo-de-iran-y-subio-el-crudo/",
+     "2026-11-15"
     ]
    ]
   },
@@ -6259,7 +6291,7 @@
   },
   {
    "id": "soja-record",
-   "fecha": "2026-10-15",
+   "fecha": "2026-11-14",
    "medio": "La Nación",
    "url": "https://www.lanacion.com.py/negocios/2026/10/15/paraguay-alcanzaria-record-de-exportacion-de-soja-en-2026/",
    "mas": [
@@ -6267,35 +6299,48 @@
      "ABC Color",
      "https://www.abc.com.py/negocios/2026/10/23/camino-al-record-de-exportaciones-de-cada-us-100-nuevos-exportados-us-63-los-trajo-la-soja-us-5-el-cobre-y-us-3-las-barcazas/",
      "2026-10-23"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/14/capeco-reporta-record-absoluto-de-exportaciones-de-soja-en-grano-y-derivados/",
+     "2026-11-14"
     ]
    ],
-   "titulo": "Paraguay va hacia un récord de soja exportada: más de 8 millones de toneladas",
+   "titulo": "Récord histórico de soja: 8,3 millones de toneladas exportadas a octubre",
    "unidad": "global",
    "tema": "4.1",
    "kc": "interdependencia",
-   "resumen": "Hasta septiembre se exportaron 7,9 millones de toneladas de soja en grano, igualando el récord de 2024. La Cámara de exportadores (Capeco) espera superar los 8 millones al cerrar el año.",
-   "contexto": "La soja con su aceite y su harina generó US$ 4.264 millones, el 41 % de las divisas por exportaciones. Según ABC Color, de cada US$ 100 nuevos exportados en 2026, US$ 63 los aportó la soja. Argentina compra el 86 % de los envíos. Depender tanto de un producto primario expone al país a los precios internacionales y al clima.",
+   "resumen": "Según Capeco, hasta octubre se exportaron 8,3 millones de toneladas de soja en grano, 2,1 millones más que un año antes, y se superó el récord de la zafra 2023/24 (7,9 millones). La cosecha 2025/26 llegaría a 12,6 millones de toneladas, también récord, y el complejo sojero ya generó US$ 6.624 millones.",
+   "contexto": "El complejo sojero (grano, aceite, harina y biodiésel) casi duplicó sus ingresos: US$ 6.624 millones a octubre frente a US$ 3.330 millones en el mismo periodo del año anterior. Según ABC Color, de cada US$ 100 nuevos exportados en 2026, US$ 63 los aportó la soja, y Argentina compra el 86 % de los envíos de grano. También crece la industrialización local: se exportaron 595.298 toneladas de aceite y 2.090.840 de harina (pellets). Depender tanto de un producto primario expone al país a los precios internacionales y al clima.",
    "datos": [
     [
-     "7,9 M t",
-     "Soja en grano exportada a septiembre"
+     "8,3 M t",
+     "Soja en grano exportada a octubre (récord)"
     ],
     [
-     "US$ 3.107 M",
-     "Ingresos por soja en grano (US$ 2.141 M en 2025)"
+     "US$ 3.316 M",
+     "Ingresos por soja en grano a octubre (US$ 2.275 M un año antes)"
     ],
     [
-     "41 %",
-     "Parte de las divisas de exportación"
+     "US$ 6.624 M",
+     "Complejo sojero a octubre (US$ 3.330 M un año antes)"
+    ],
+    [
+     "12,6 M t",
+     "Cosecha 2025/26, récord según Capeco"
+    ],
+    [
+     "2.090.840 t",
+     "Harina (pellets) exportada a octubre"
     ],
     [
      "86 %",
-     "Envíos con destino a Argentina"
+     "Envíos de grano con destino a Argentina (a septiembre)"
     ]
    ],
    "clave": [
-    "41 %",
-    "de las divisas de exportación"
+    "8,3 M t",
+    "soja exportada a octubre, récord"
    ],
    "fig": {
     "k": "exportaciones"
@@ -6363,7 +6408,7 @@
       "El ingreso de dólares aprecia el guaraní y les quita competitividad."
      ]
     ],
-    "corto": "Más divisas, crecimiento y apreciación del guaraní.",
+    "corto": "Más divisas, crecimiento y apoyo al guaraní en plena crisis de Ueno.",
     "largo": "Depender de un producto primario y de un comprador (Argentina, 86 %) expone al país a los precios, al clima y a las decisiones del vecino.",
     "supuestos": [
      "Que se mantengan los precios internacionales y el buen clima."
@@ -6756,112 +6801,6 @@
    "inst": [
     "mef"
    ]
-  },
-  {
-   "id": "salario-minimo",
-   "fecha": "2026-06-26",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/economia/2026/06/26/reajuste-del-salario-minimo-estos-son-los-pagos-por-hora-dia-y-jornada-nocturna/",
-   "titulo": "El salario mínimo sube 5 % y llega a G. 3.044.000",
-   "unidad": "micro",
-   "tema": "2.7",
-   "kc": "equidad",
-   "resumen": "Desde el 1 de julio de 2026 rige un salario mínimo de G. 3.044.000 mensuales, 5 % más que antes, según el Decreto 6225/26. El jornal diario es de G. 117.077 y la hora diurna, de G. 12.683.",
-   "contexto": "El salario mínimo es un precio mínimo en el mercado de trabajo. Busca proteger el ingreso de quienes tienen menos poder para negociar. La teoría advierte un riesgo: si se fija muy por encima del salario de equilibrio, las empresas contratan menos y aparece desempleo, o crece el trabajo informal. Si la inflación se mantiene cerca de 1,7 %, una suba de 5 % mejora el poder de compra.",
-   "datos": [
-    [
-     "G. 3.044.000",
-     "Salario mínimo mensual"
-    ],
-    [
-     "+5 %",
-     "Reajuste desde el 1 de julio"
-    ],
-    [
-     "G. 117.077",
-     "Jornal diario"
-    ],
-    [
-     "G. 12.683",
-     "Hora diurna"
-    ]
-   ],
-   "clave": [
-    "G. 3.044.000",
-    "por mes"
-   ],
-   "fig": {
-    "k": "minimo"
-   },
-   "cap": "Con el salario mínimo por encima de W₁, las empresas contratan Qd y las personas ofrecen Qo: la diferencia es desempleo.",
-   "pasos": [
-    "El Estado fija un salario mínimo más alto",
-    "Más personas quieren trabajar a ese salario",
-    "Las empresas demandan menos trabajadores",
-    "Aparece un excedente de trabajo: desempleo",
-    "O parte del empleo pasa a la informalidad"
-   ],
-   "conceptos": [
-    [
-     "Precio mínimo",
-     "Precio fijado por el Estado por encima del de equilibrio."
-    ],
-    [
-     "Salario real",
-     "Salario ajustado por inflación: mide el poder de compra."
-    ],
-    [
-     "Informalidad",
-     "Trabajo sin contrato ni seguridad social."
-    ],
-    [
-     "Equidad",
-     "Reparto justo del ingreso y de las oportunidades."
-    ]
-   ],
-   "diagramas": [
-    "salario-minimo"
-   ],
-   "rel": [
-    "desempleo-41",
-    "pobreza-16"
-   ],
-   "pregunta": {
-    "q": "Si la inflación del año es 1,7 % y el salario mínimo sube 5 %, ¿qué pasa con el salario real?",
-    "opts": [
-     "Sube cerca de 3,3 %",
-     "Baja 3,3 %",
-     "Sube 6,7 %",
-     "No cambia"
-    ],
-    "ok": 0,
-    "fb": "Salario real ≈ suba nominal − inflación = 5 % − 1,7 % ≈ 3,3 %. El poder de compra mejora."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Trabajadores formales con salario mínimo",
-      "Su salario real sube cerca de 3,3 %."
-     ]
-    ],
-    "pierden": [
-     [
-      "Trabajadores poco calificados",
-      "Podrían tener más dificultades para ser contratados."
-     ],
-     [
-      "Pequeñas empresas",
-      "Sus costos laborales suben."
-     ]
-    ],
-    "corto": "Más poder de compra.",
-    "largo": "Si el mínimo supera mucho la productividad, puede crecer la informalidad.",
-    "supuestos": [
-     "Que el mínimo esté por encima del salario de equilibrio.",
-     "Que se cumpla: muchos trabajadores informales no lo cobran."
-    ],
-    "conclusion": "Con inflación baja, el reajuste mejora el poder de compra; su efecto sobre el empleo depende de cuánto se aleje del salario de mercado."
-   }
   },
   {
    "id": "itaipu-opinion",
@@ -7341,116 +7280,6 @@
    }
   },
   {
-   "id": "bomberos-bien-publico",
-   "fecha": "2026-06-10",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.py/pais/2026/06/10/bomberos-voluntarios-recibiran-desembolsos-tras-acuerdo-con-el-intendente-bello/",
-   "titulo": "Los bomberos cuidan a todos, pero ¿quién los paga? Un bien público",
-   "unidad": "micro",
-   "tema": "2.9",
-   "kc": "intervencion",
-   "resumen": "La Municipalidad de Asunción firmó convenios para transferir unos G. 3.000 millones a los bomberos voluntarios: 60 % para el Cuerpo de Bomberos Voluntarios del Paraguay y 40 % para el de Asunción. El dinero sale de un fondo financiado con el 3,5 % del impuesto a la construcción que cobra la comuna, y el último pago de este tipo había sido en 2020.",
-   "contexto": "Un bien público es no rival (que te protejan a vos no reduce la protección de tu vecino) y no excluible (no se puede dejar sin protección a quien no paga, porque un incendio se extiende). Por eso el mercado no lo provee bien: cada uno espera que paguen los demás y se aprovecha gratis, el problema del «polizón» (free rider). En Paraguay, el servicio de bomberos depende en gran parte de voluntarios y de transferencias del Estado y de los municipios, que llegan tarde: el intendente Luis Bello dijo que los bomberos cuidan la ciudad y que la ciudad debe cuidarlos a ellos.",
-   "datos": [
-    [
-     "G. 3.000 millones",
-     "Transferencia de la Municipalidad de Asunción a los bomberos"
-    ],
-    [
-     "60 % / 40 %",
-     "Reparto entre el Cuerpo del Paraguay y el de Asunción"
-    ],
-    [
-     "3,5 %",
-     "Parte del impuesto a la construcción que financia el fondo"
-    ],
-    [
-     "2020",
-     "Año del último pago anterior"
-    ]
-   ],
-   "clave": [
-    "G. 3.000 M",
-    "para los bomberos"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "% del aporte",
-    "rows": [
-     [
-      "Bomberos Voluntarios del Paraguay",
-      60,
-      1
-     ],
-     [
-      "Bomberos de Asunción",
-      40
-     ]
-    ]
-   },
-   "cap": "Como nadie puede ser excluido de la protección contra incendios, el servicio se financia con impuestos: aquí, una parte del impuesto a la construcción.",
-   "pasos": [
-    "La protección contra incendios beneficia a todos a la vez",
-    "No se puede excluir a quien no paga",
-    "Cada uno espera que paguen los demás (polizón)",
-    "El mercado no lo provee lo suficiente",
-    "El Estado lo financia con impuestos"
-   ],
-   "conceptos": [
-    [
-     "Bien público",
-     "Bien no rival y no excluible."
-    ],
-    [
-     "No rival",
-     "El consumo de uno no reduce el de otro."
-    ],
-    [
-     "No excluible",
-     "No se puede impedir que lo use quien no paga."
-    ],
-    [
-     "Problema del polizón (free rider)",
-     "Beneficiarse sin pagar, esperando que paguen los demás."
-    ]
-   ],
-   "diagramas": [],
-   "rel": [
-    "pgn-2027"
-   ],
-   "pregunta": {
-    "q": "¿Por qué el mercado no proveería suficiente servicio de bomberos?",
-    "opts": [
-     "Porque no se puede excluir a quien no paga y aparecen polizones",
-     "Porque los bomberos son voluntarios",
-     "Porque la demanda es elástica",
-     "Porque es un monopolio natural"
-    ],
-    "ok": 0,
-    "fb": "Al ser no excluible, cada persona tiene incentivo a no pagar y aprovechar el servicio que pagan otros."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Vecinos de Asunción",
-      "Mejor equipamiento para emergencias."
-     ]
-    ],
-    "pierden": [
-     [
-      "Otros usos del presupuesto municipal",
-      "Ese dinero no se usa en otra cosa."
-     ]
-    ],
-    "corto": "Más equipos y cuarteles para los bomberos.",
-    "largo": "Sin pagos regulares, el servicio sigue dependiendo de voluntarios y donaciones.",
-    "supuestos": [
-     "Que los fondos se usen y se rindan bien"
-    ],
-    "conclusion": "Los bienes públicos necesitan financiamiento público estable; pagos esporádicos dejan el servicio en riesgo."
-   }
-  },
-  {
    "id": "adultos-mayores",
    "fecha": "2026-09-01",
    "medio": "La Nación",
@@ -7697,113 +7526,6 @@
      "Que la medición capte bien la economía informal"
     ],
     "conclusion": "El PIB creció, pero mirar sus componentes muestra un punto débil: la caída de la inversión."
-   }
-  },
-  {
-   "id": "hambre-cero",
-   "fecha": "2026-07-02",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.py/politica/2026/07/02/hambre-cero-un-millon-de-alumnos-con-alimentacion-diaria-22000-empleos-y-mas-mipymes/",
-   "titulo": "Hambre Cero: alimentar a un millón de alumnos como estrategia de desarrollo",
-   "unidad": "global",
-   "tema": "4.10",
-   "kc": "equidad",
-   "resumen": "En su informe de gestión ante el Congreso, el Gobierno informó que el programa Hambre Cero en las Escuelas da alimentación diaria a más de un millón de estudiantes en 7.082 instituciones de 263 distritos, entre julio de 2025 y mayo de 2026. Según las cifras oficiales, 22.799 trabajadores de los proveedores están registrados en IPS, y un decreto subió de 5 % a 10 % la compra mínima de insumos a mipymes. El MEF transfirió G. 1,42 billones a las gobernaciones para el programa.",
-   "contexto": "Las estrategias de desarrollo buscan mejorar el bienestar a largo plazo, no solo el crecimiento del PIB. Invertir en la nutrición y la educación de los niños es invertir en capital humano: alumnos mejor alimentados aprenden más y serán trabajadores más productivos. Hambre Cero también intenta crear empleo formal y vincular a la agricultura familiar y a las mipymes como proveedoras. Las cifras son oficiales y no evaluadas de forma independiente, y en 2026 hubo denuncias sobre la calidad de los alimentos en algunas escuelas.",
-   "datos": [
-    [
-     "1.000.000+",
-     "Estudiantes con alimentación diaria"
-    ],
-    [
-     "7.082",
-     "Instituciones educativas en 263 distritos"
-    ],
-    [
-     "22.799",
-     "Trabajadores de proveedores registrados en IPS"
-    ],
-    [
-     "5 % → 10 %",
-     "Compra mínima de insumos a mipymes"
-    ],
-    [
-     "G. 1,42 billones",
-     "Transferido a las gobernaciones (jul 2025-jun 2026)"
-    ]
-   ],
-   "clave": [
-    "1 millón",
-    "de alumnos alimentados cada día"
-   ],
-   "fig": {
-    "k": "oalp",
-    "s": 30
-   },
-   "cap": "Invertir en capital humano (nutrición y educación) aumenta la productividad futura: la OALP se desplaza a la derecha.",
-   "pasos": [
-    "Los alumnos reciben alimentación diaria en la escuela",
-    "Mejoran su nutrición y asistencia",
-    "Aprenden más: aumenta el capital humano",
-    "En el futuro serán trabajadores más productivos",
-    "Aumenta el producto potencial y se reduce la pobreza"
-   ],
-   "conceptos": [
-    [
-     "Capital humano",
-     "Conocimientos, habilidades y salud de las personas que aumentan su productividad."
-    ],
-    [
-     "Estrategias de desarrollo",
-     "Políticas para mejorar el bienestar a largo plazo: educación, salud, infraestructura, inclusión."
-    ],
-    [
-     "Desarrollo económico",
-     "Mejora sostenida del bienestar, no solo del ingreso."
-    ]
-   ],
-   "diagramas": [
-    "politicas-oferta"
-   ],
-   "rel": [
-    "pisa-2025",
-    "pobreza-multidimensional"
-   ],
-   "pregunta": {
-    "q": "¿Por qué la alimentación escolar es una estrategia de desarrollo?",
-    "opts": [
-     "Porque mejora el capital humano y la productividad futura",
-     "Porque baja la inflación",
-     "Porque aumenta las exportaciones de inmediato",
-     "Porque reduce el déficit fiscal"
-    ],
-    "ok": 0,
-    "fb": "Niños mejor alimentados aprenden más; ese capital humano aumenta la productividad y el desarrollo a largo plazo."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Estudiantes y familias pobres",
-      "Comida diaria asegurada."
-     ],
-     [
-      "Mipymes y agricultura familiar",
-      "Más ventas al Estado."
-     ]
-    ],
-    "pierden": [
-     [
-      "Otras áreas del presupuesto",
-      "El programa tiene un costo alto."
-     ]
-    ],
-    "corto": "Más asistencia escolar y empleo en proveedores.",
-    "largo": "Mejor capital humano, si la calidad de la comida y de la enseñanza acompañan.",
-    "supuestos": [
-     "Que las cifras oficiales sean correctas",
-     "Que la comida llegue con calidad a todas las escuelas"
-    ],
-    "conclusion": "Es una estrategia prometedora, pero necesita evaluaciones independientes de sus resultados en aprendizaje."
    }
   },
   {
@@ -8096,6 +7818,383 @@
     ],
     "conclusion": "Las renuncias abren la puerta a renovar la supervisión, pero dejan al BCP debilitado justo cuando más necesita credibilidad; la rapidez para completar el directorio es clave."
    }
+  },
+  {
+   "id": "liquidez-tasas",
+   "fecha": "2026-11-15",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/15/menor-liquidez-presion-sobre-las-tasas-y-cautela-bancaria/",
+   "titulo": "Menos liquidez tras Ueno: ¿suben las tasas de interés?",
+   "unidad": "macro",
+   "tema": "3.5",
+   "kc": "cambio",
+   "inst": [
+    "bcp",
+    "bolsa"
+   ],
+   "resumen": "Según un análisis de ABC Color, tras la caída de Ueno el sistema financiero tiene menos dinero disponible: parte de los ahorristas que cobran del Fondo de Garantía retira efectivo, algunos fondos de inversión suspendieron rescates y los bancos se vuelven más cautelosos para prestar. Se habla de subas de 2 a 4 puntos en algunas tasas, pero los datos del BCP muestran que la tasa interbancaria bajó de 5,46 % (3 nov) a 5,39 % (9 nov), con la tasa del BCP en 5,50 %.",
+   "contexto": "La liquidez es la facilidad para convertir un activo en dinero. Cuando la gente guarda efectivo fuera de los bancos y los bancos prefieren tener reservas en vez de prestar, hay menos oferta de fondos prestables y su precio, la tasa de interés, tiende a subir. El artículo aclara que no hay una suba generalizada confirmada: la tasa interbancaria (la que se cobran los bancos entre sí) incluso bajó levemente, porque el BCP sigue dando liquidez con reportos, la Facilidad Permanente de Liquidez y, desde el 13 de noviembre, un encaje más bajo. Al 10 de noviembre el Fondo de Garantía había pagado unos G. 2,205 billones a 1.782.360 personas. ABC Color menciona que las tensiones podrían durar unos dos meses, pero aclara que es una estimación, no una proyección oficial.",
+   "datos": [
+    [
+     "5,46 % → 5,39 %",
+     "Tasa interbancaria del 3 al 9 de noviembre (BCP)"
+    ],
+    [
+     "5,50 %",
+     "Tasa de política monetaria (TPM)"
+    ],
+    [
+     "2 a 4 pp",
+     "Subas mencionadas en algunas operaciones (no confirmadas como generales)"
+    ],
+    [
+     "G. 2,205 billones",
+     "Anticipos del Fondo de Garantía al 10 de noviembre"
+    ],
+    [
+     "1.782.360",
+     "Personas que habían cobrado al 10 de noviembre"
+    ],
+    [
+     "G. 6.204,38",
+     "Dólar referencial interbancario del 10 de noviembre"
+    ]
+   ],
+   "clave": [
+    "5,39 %",
+    "tasa interbancaria el 9 de noviembre"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Interbancaria 3 nov",
+      5.46
+     ],
+     [
+      "Interbancaria 9 nov",
+      5.39,
+      1
+     ],
+     [
+      "Tasa del BCP",
+      5.5
+     ]
+    ]
+   },
+   "cap": "La tasa interbancaria bajó levemente después de la intervención de Ueno y quedó por debajo de la tasa del BCP (ABC Color con datos del BCP).",
+   "pasos": [
+    "Cae Ueno y crece la desconfianza",
+    "Parte de los ahorristas guarda efectivo y los bancos prestan con más cautela",
+    "Baja la oferta de fondos prestables: presión al alza sobre algunas tasas",
+    "El BCP inyecta liquidez (reportos, encaje más bajo)",
+    "La tasa interbancaria se mantiene cerca de 5,4 %"
+   ],
+   "conceptos": [
+    [
+     "Liquidez",
+     "Facilidad para convertir un activo en dinero sin perder valor."
+    ],
+    [
+     "Tasa interbancaria",
+     "Tasa a la que los bancos se prestan dinero entre sí por pocos días."
+    ],
+    [
+     "Fondos prestables",
+     "Dinero que ahorristas y bancos ofrecen para préstamos; su precio es la tasa de interés."
+    ],
+    [
+     "Facilidad Permanente de Liquidez",
+     "Préstamo del BCP a los bancos a cambio de títulos como garantía."
+    ]
+   ],
+   "diagramas": [
+    "politica-monetaria",
+    "bonos"
+   ],
+   "rel": [
+    "encaje-ueno",
+    "bcp-tpm",
+    "ueno-devolucion"
+   ],
+   "pregunta": {
+    "q": "Si los ahorristas retiran efectivo y los bancos prestan menos, ¿qué presión aparece sobre las tasas de interés?",
+    "opts": [
+     "Al alza, porque hay menos fondos para prestar",
+     "A la baja, porque hay más ahorro",
+     "Ninguna, las tasas solo las fija el Congreso",
+     "A la baja, porque sube el dólar"
+    ],
+    "ok": 0,
+    "fb": "Menos oferta de fondos prestables sube su precio, la tasa de interés. Por eso el BCP inyecta liquidez: para que esa presión no se generalice."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Bancos con mucha liquidez",
+      "Pueden cobrar tasas más altas en algunos segmentos."
+     ],
+     [
+      "Ahorristas que depositan",
+      "Algunas entidades ofrecen más por captar depósitos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Empresas y familias que necesitan crédito",
+      "Les cuesta más o les dan menos préstamos."
+     ],
+     [
+      "Fondos de inversión expuestos a Ueno",
+      "Tienen rescates suspendidos y títulos valuados en cero."
+     ]
+    ],
+    "corto": "Crédito más caro o escaso en algunos segmentos mientras dura la desconfianza; el BCP busca que no se traslade a todo el sistema.",
+    "largo": "Si el dinero vuelve a los bancos y se regularizan los fondos, las tasas se normalizan; si no, el crédito más caro frena el consumo y la inversión.",
+    "supuestos": [
+     "Que la desconfianza no se contagie a otras entidades",
+     "Que el BCP mantenga su apoyo de liquidez",
+     "El plazo de dos meses es una estimación, no un dato oficial"
+    ],
+    "conclusion": "Hay presión sobre algunas tasas, pero los datos oficiales todavía no muestran una suba general; la respuesta del BCP será decisiva para que el problema de liquidez no se vuelva un freno al crecimiento."
+   }
+  },
+  {
+   "id": "asoban-regulacion",
+   "fecha": "2026-11-14",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/14/el-bcp-flexibilizo-regulaciones-para-facilitar-crecimiento-de-ueno-bank-afirma-directivo-de-asoban/",
+   "titulo": "Asoban: el BCP dio a Ueno reglas más flexibles que al resto",
+   "unidad": "micro",
+   "tema": "2.10",
+   "kc": "intervencion",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "José Brítez, vicepresidente de la Asociación de Bancos (Asoban), afirmó que el BCP flexibilizó la regulación para Ueno Bank tras su fusión con Visión Banco: según él, no se reconocieron las pérdidas de su cartera ni se exigió más capital, así que su índice de solvencia «no estaba transparentado». También criticó a las calificadoras de riesgo, que daban buenas notas al banco.",
+   "contexto": "El caso muestra un problema de información asimétrica: el banco y el regulador sabían más sobre su solvencia que los depositantes. Si un banco publica cifras que no reflejan sus pérdidas, el público no puede distinguir entre un banco sano y uno débil, y elige mal dónde poner su dinero. Por eso existen la regulación bancaria y las calificadoras: reducir esa asimetría. Brítez comparó la situación con un semáforo: un banco veía luces rojas, amarillas y verdes, y otro veía todo en verde, lo que según él también distorsionó la competencia. Según La Nación, las autoridades que intervinieron el banco están procesadas; esas acusaciones están en manos de la justicia.",
+   "datos": [
+    [
+     "3 nov 2026",
+     "Inicio de la resolución de Ueno Bank"
+    ],
+    [
+     "Visión Banco",
+     "Banco con el que Ueno se había fusionado"
+    ]
+   ],
+   "clave": [
+    "«todo en verde»",
+    "así veía Asoban la regulación de Ueno"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Si los depositantes creen que el banco es más seguro de lo que es, su demanda de depósitos D pasa a D₂: depositan más de lo que harían con información completa.",
+   "pasos": [
+    "El regulador flexibiliza reglas y no exige reconocer pérdidas",
+    "Los indicadores del banco se ven mejor de lo real",
+    "Los depositantes no pueden ver el riesgo verdadero (información asimétrica)",
+    "Depositan más de lo que harían con información completa",
+    "Cuando el problema aparece, la pérdida se reparte entre depositantes, Fondo de Garantía y contribuyentes"
+   ],
+   "conceptos": [
+    [
+     "Información asimétrica",
+     "Cuando una parte de una transacción sabe más que la otra."
+    ],
+    [
+     "Índice de solvencia",
+     "Relación entre el capital de un banco y sus activos de riesgo; muestra si puede absorber pérdidas."
+    ],
+    [
+     "Calificadora de riesgo",
+     "Empresa que evalúa la capacidad de pago de un emisor y le pone una nota."
+    ],
+    [
+     "Falla del gobierno",
+     "Cuando la intervención del Estado empeora la asignación de recursos en lugar de mejorarla."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda"
+   ],
+   "rel": [
+    "ueno-morosidad",
+    "ueno-intervencion",
+    "bcp-caballero"
+   ],
+   "pregunta": {
+    "q": "¿Qué falla de mercado describe Asoban cuando dice que la solvencia de Ueno «no estaba transparentada»?",
+    "opts": [
+     "Información asimétrica",
+     "Externalidad positiva",
+     "Bien público",
+     "Monopolio natural"
+    ],
+    "ok": 0,
+    "fb": "Los depositantes no tenían la misma información que el banco sobre su riesgo real: es información asimétrica, que la regulación debería corregir."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Bancos competidores (si se corrige)",
+      "Una regulación pareja les permite competir en igualdad."
+     ],
+     [
+      "Depositantes a futuro",
+      "Más transparencia les permite elegir mejor dónde ahorrar."
+     ]
+    ],
+    "pierden": [
+     [
+      "Depositantes y empresas de Ueno",
+      "Confiaron en indicadores que, según Asoban, no mostraban el riesgo real."
+     ],
+     [
+      "El BCP",
+      "Pierde credibilidad como supervisor."
+     ],
+     [
+      "Calificadoras de riesgo",
+      "Su reputación queda cuestionada."
+     ]
+    ],
+    "corto": "Más presión para revisar cómo supervisa el BCP y para que los bancos publiquen datos más claros.",
+    "largo": "Si se refuerza la supervisión, baja el riesgo de otra crisis; si no, la desconfianza puede encarecer el crédito para todo el sistema.",
+    "supuestos": [
+     "Es la opinión de un directivo de Asoban, no una conclusión oficial",
+     "Las responsabilidades penales las decide la justicia"
+    ],
+    "conclusion": "La crítica muestra por qué la regulación bancaria es necesaria ante la información asimétrica, pero también que una mala regulación puede ser una falla del gobierno; la respuesta es supervisar con reglas iguales para todos."
+   }
+  },
+  {
+   "id": "mipymes-fogapy",
+   "fecha": "2026-11-15",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/15/mipymes-tendal-de-heridos-por-crisis/",
+   "titulo": "Las mipymes piden un «Fogapy 2» para no frenar antes de fin de año",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "intervencion",
+   "inst": [
+    "mef"
+   ],
+   "sector": [
+    "comercio"
+   ],
+   "resumen": "La Federación de Mipymes (Fedemipymes) pidió crear una mesa de trabajo con el Gobierno y los bancos y lanzar un «Fogapy 2»: créditos garantizados para capital de trabajo con 6 meses de gracia, como en la pandemia. Según el gremio, la crisis de Ueno dejó congelados más de US$ 1.200 millones del sector privado y ya se perdieron más de 5.000 empleos.",
+   "contexto": "Muchas pequeñas empresas usaban Ueno para su capital operativo y sus líneas de crédito; el Fondo de Garantía devuelve hasta G. 228 millones por titular, así que montos mayores siguen sin liquidez. Sin ese dinero no pueden comprar mercadería para fin de año, y en diciembre tienen que pagar salarios y aguinaldos. Según Fedemipymes, el sector genera el 75 % del empleo, así que si frena puede caer la demanda agregada. El Fogapy es un fondo público que garantiza préstamos: el Estado asume parte del riesgo para que los bancos presten a quienes no tienen suficientes garantías. La propuesta involucra al MIC, al MEF, a la AFD y a Asoban.",
+   "datos": [
+    [
+     "US$ 1.200 M+",
+     "Fondos del sector privado congelados en Ueno, según Fedemipymes"
+    ],
+    [
+     "5.000+",
+     "Empleos perdidos por la crisis, según el gremio"
+    ],
+    [
+     "G. 228 M",
+     "Máximo que devuelve el Fondo de Garantía por titular"
+    ],
+    [
+     "75 %",
+     "Parte del empleo que generan las mipymes, según Fedemipymes"
+    ],
+    [
+     "6 meses",
+     "Periodo de gracia propuesto para los créditos"
+    ]
+   ],
+   "clave": [
+    "US$ 1.200 M+",
+    "del sector privado congelados en Ueno"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Sin liquidez, las mipymes compran y contratan menos: la DA pasa de DA₁ a DA₂ y bajan la producción y el empleo. Un crédito garantizado busca evitar ese desplazamiento.",
+   "pasos": [
+    "Los fondos de las mipymes quedan congelados en Ueno",
+    "No pueden comprar mercadería ni pagar proveedores",
+    "Se cortan la cadena de pagos y el empleo",
+    "Caen el consumo y la inversión: la DA se desplaza a la izquierda",
+    "Un Fogapy 2 daría crédito para sostener la actividad"
+   ],
+   "conceptos": [
+    [
+     "Capital de trabajo",
+     "Dinero que una empresa necesita para operar día a día: mercadería, sueldos, proveedores."
+    ],
+    [
+     "Fondo de garantía (Fogapy)",
+     "Fondo público que respalda préstamos a pequeñas empresas para que los bancos les presten."
+    ],
+    [
+     "Cadena de pagos",
+     "Red de cobros y pagos entre empresas: si un eslabón no paga, afecta a los demás."
+    ],
+    [
+     "Multiplicador",
+     "Una caída inicial del gasto reduce el ingreso de otros y termina bajando más el PIB."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da",
+    "politica-fiscal"
+   ],
+   "rel": [
+    "consumo-cae",
+    "mtess-ueno",
+    "liquidez-tasas"
+   ],
+   "pregunta": {
+    "q": "¿Por qué un fondo público de garantía puede ayudar a que las mipymes consigan crédito?",
+    "opts": [
+     "Porque el Estado asume parte del riesgo de que el préstamo no se pague",
+     "Porque obliga al BCP a bajar la tasa",
+     "Porque elimina los impuestos de las mipymes",
+     "Porque devuelve todos los depósitos de Ueno"
+    ],
+    "ok": 0,
+    "fb": "Con la garantía pública, el banco pierde menos si la empresa no paga, así que está dispuesto a prestarle aunque tenga pocas garantías propias."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Mipymes afectadas",
+      "Tendrían liquidez para operar en el fin de año."
+     ],
+     [
+      "Trabajadores de esas empresas",
+      "Se sostienen empleos, salarios y aguinaldos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Estado y contribuyentes",
+      "Asumen el riesgo de los créditos que no se paguen."
+     ],
+     [
+      "Disciplina financiera",
+      "Si se rescata siempre, las empresas cuidan menos dónde ponen su dinero (riesgo moral)."
+     ]
+    ],
+    "corto": "Sin ayuda, menos ventas y empleos en diciembre; con el Fogapy 2, la DA caería menos.",
+    "largo": "Si las mipymes recuperan sus fondos, los créditos se pagan; si no, el Estado carga con pérdidas y aumenta el gasto público.",
+    "supuestos": [
+     "Las cifras de empleo y de fondos congelados son del gremio, no oficiales",
+     "Que el Gobierno tenga margen fiscal: el Presupuesto 2027 ya tiene un déficit alto"
+    ],
+    "conclusion": "Una garantía temporal puede evitar que un problema de liquidez se convierta en cierres y desempleo, pero debe estar bien focalizada para no agravar el déficit ni premiar el riesgo."
+   }
   }
  ],
  "historial": {
@@ -8335,6 +8434,10 @@
     [
      "2026-11-09",
      6226
+    ],
+    [
+     "2026-11-10",
+     6204.38
     ]
    ],
    "lee": "El guaraní se apreció casi todo el año, se depreció con fuerza en la primera semana de noviembre por la crisis de Ueno Bank y empezó a recuperarse el 9 de noviembre.",
@@ -8577,7 +8680,7 @@
   },
   "2026-11-09": {
    "titulo": "Presupuesto al Senado y un plan para repartir Ueno",
-   "texto": "La semana estuvo marcada por las consecuencias de Ueno: el Fondo de Garantía terminó el 11 de noviembre de pagar el anticipo al 100 % de los clientes (US$ 644 millones), Fitch puso la nota del país en revisión negativa y el BCP anunció que los activos y depósitos del banco se repartirán por lotes entre varios bancos. El BCP renovó todo su directorio y su nuevo presidente, Jorge Schreiner, dijo que podría comprar dólares para estabilizar la cotización. Diputados aprobó el 12 de noviembre el Presupuesto 2027 con un recorte de US$ 276 millones, pero con el déficit en 3,9 % del PIB. En el lado positivo, el IMAEP creció 3,9 % en septiembre y el comercio exterior acumula un superávit de US$ 668,6 millones a octubre gracias a la soja. El viernes 13, el BCP bajó temporalmente el encaje legal para dar liquidez a fondos y casas de bolsa, el Gobierno redujo a la mitad el impuesto al diésel (G. 300 menos por litro) y el dólar se calmó en G. 6.150, aunque los bonos del país siguieron cayendo.",
+   "texto": "La semana estuvo marcada por las consecuencias de Ueno: el Fondo de Garantía terminó el 11 de noviembre de pagar el anticipo al 100 % de los clientes (US$ 644 millones), Fitch puso la nota del país en revisión negativa y el BCP anunció que los activos y depósitos del banco se repartirán por lotes entre varios bancos. El BCP renovó todo su directorio y su nuevo presidente, Jorge Schreiner, dijo que podría comprar dólares para estabilizar la cotización. Diputados aprobó el 12 de noviembre el Presupuesto 2027 con un recorte de US$ 276 millones, pero con el déficit en 3,9 % del PIB. En el lado positivo, el IMAEP creció 3,9 % en septiembre y el comercio exterior acumula un superávit de US$ 668,6 millones a octubre gracias a la soja. El viernes 13, el BCP bajó temporalmente el encaje legal para dar liquidez a fondos y casas de bolsa, el Gobierno redujo a la mitad el impuesto al diésel (G. 300 menos por litro) y el dólar se calmó en G. 6.150, aunque los bonos del país siguieron cayendo. El fin de semana, Capeco confirmó un récord de 8,3 millones de toneladas de soja exportadas a octubre, Asoban criticó al BCP por haber flexibilizado las reglas para Ueno y las mipymes pidieron créditos garantizados para no frenar antes de fin de año.",
    "claves": [
     "pgn-suspendido",
     "ueno-lotes",
@@ -9653,12 +9756,16 @@
    "por_que": "Un país que exporta mucho de pocos productos primarios crece rápido cuando los precios internacionales y el clima acompañan, pero sufre cuando caen. Por eso el agro es el mejor ejemplo para estudiar la ventaja comparativa y, a la vez, los riesgos de depender de materias primas.",
    "cifras": [
     [
-     "7,9 M t",
-     "Soja en grano exportada a septiembre (récord igualado)"
+     "8,3 M t",
+     "Soja en grano exportada a octubre (récord)"
     ],
     [
-     "US$ 4.264 M",
-     "Complejo sojero a septiembre (41 % de las divisas)"
+     "US$ 6.624 M",
+     "Complejo sojero a octubre (casi el doble que en 2025)"
+    ],
+    [
+     "12,6 M t",
+     "Cosecha de soja 2025/26, récord según Capeco"
     ],
     [
      "86 %",
@@ -9736,7 +9843,7 @@
      ]
     }
    ],
-   "fuente": "Capeco y La Nación (15 oct 2026); Senacsa y La Prensa (2 nov 2026).",
+   "fuente": "Capeco y La Nación (14 nov 2026); Senacsa y La Prensa (2 nov 2026).",
    "actores": [
     [
      "Capeco",
@@ -10180,7 +10287,10 @@
     "fitch-revision",
     "ueno-lotes",
     "cooperativas-garantia",
-    "encaje-ueno"
+    "encaje-ueno",
+    "liquidez-tasas",
+    "asoban-regulacion",
+    "mipymes-fogapy"
    ],
    "hitos": [
     [
@@ -10277,6 +10387,11 @@
      "bcp-cambiaria"
     ],
     [
+     "2026-11-10",
+     "La tasa interbancaria baja a 5,39 % pese a la menor liquidez; el FGD ya pagó G. 2,205 billones.",
+     "liquidez-tasas"
+    ],
+    [
      "2026-11-11",
      "Fitch pone la nota de Paraguay en revisión negativa.",
      "fitch-revision"
@@ -10310,6 +10425,16 @@
      "2026-11-13",
      "5Días: la renta de inversiones del IPS alcanzaría solo hasta 2032.",
      "ips-ueno"
+    ],
+    [
+     "2026-11-14",
+     "Asoban afirma que el BCP flexibilizó las reglas para Ueno.",
+     "asoban-regulacion"
+    ],
+    [
+     "2026-11-15",
+     "Fedemipymes pide un «Fogapy 2»: más de US$ 1.200 millones del sector privado congelados.",
+     "mipymes-fogapy"
     ],
     [
      "2026-11-16",
@@ -10519,6 +10644,11 @@
      "2026-11-02",
      "La carne bovina pierde 24 % de volumen; el pollo crece 76 %.",
      "carne-cae"
+    ],
+    [
+     "2026-11-14",
+     "Capeco: récord de 8,3 millones de toneladas de soja exportadas a octubre.",
+     "soja-record"
     ]
    ]
   }
@@ -10911,7 +11041,7 @@
   "nota": "No hay un dato reciente y confiable de acceso a agua potable; se agregará cuando se publique."
  },
  "mundo": {
-  "actualizado": "2026-11-14",
+  "actualizado": "2026-11-15",
   "intro": "Paraguay es una economía pequeña y abierta: lo que pasa con el petróleo, sus vecinos, China o las tasas de Estados Unidos llega rápido a los precios, al dólar y a las exportaciones. Cada tarjeta explica por qué importa y por dónde llega el efecto.",
   "actores": [
    {
@@ -10921,8 +11051,8 @@
     "por": "Paraguay importa todos sus combustibles. Su precio llega al transporte, a los alimentos y a la inflación.",
     "datos": [
      [
-      "US$ 92,90",
-      "Brent el 9 de noviembre (La Nación)"
+      "US$ 95,82",
+      "Brent el 12 de noviembre, tras subir 3,3 % (EFE, ABC Color)"
      ],
      [
       "−16,42 %",
@@ -13719,8 +13849,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-14",
-  "hora": "08:23",
+  "fecha": "2026-11-15",
+  "hora": "07:26",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -13781,6 +13911,11 @@
      "2026-11-14",
      5900,
      6150
+    ],
+    [
+     "2026-11-15",
+     5900,
+     6150
     ]
    ],
    "ARS": [
@@ -13811,6 +13946,11 @@
     ],
     [
      "2026-11-14",
+     3.5,
+     3.9
+    ],
+    [
+     "2026-11-15",
      3.5,
      3.9
     ]
@@ -13845,6 +13985,11 @@
      "2026-11-14",
      1070,
      1170
+    ],
+    [
+     "2026-11-15",
+     1070,
+     1170
     ]
    ],
    "EUR": [
@@ -13875,6 +14020,11 @@
     ],
     [
      "2026-11-14",
+     6100,
+     6900
+    ],
+    [
+     "2026-11-15",
      6100,
      6900
     ]
@@ -13920,6 +14070,11 @@
     "US$ 46 M",
     "Capital operativo de Petropar atrapado en Ueno",
     "ande-ueno"
+   ],
+   [
+    "US$ 1.200 M+",
+    "Fondos del sector privado congelados en Ueno, según Fedemipymes",
+    "mipymes-fogapy"
    ]
   ],
   "actores": [
@@ -13977,6 +14132,16 @@
     "Petropar",
     "Tiene US$ 46 millones de capital operativo en Ueno y presentó una denuncia penal.",
     "ande-ueno"
+   ],
+   [
+    "Asoban",
+    "Su vicepresidente afirmó que el BCP flexibilizó las reglas para Ueno y que su solvencia no estaba transparentada.",
+    "asoban-regulacion"
+   ],
+   [
+    "Fedemipymes",
+    "Pide una mesa de trabajo y créditos garantizados (Fogapy 2) para las pequeñas empresas afectadas.",
+    "mipymes-fogapy"
    ]
   ],
   "preguntas": [
