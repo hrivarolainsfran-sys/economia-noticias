@@ -794,127 +794,6 @@
   }
  },
  {
-  "id": "mercosur-ue",
-  "fecha": "2026-03-23",
-  "medio": "Infobae",
-  "url": "https://www.infobae.com/politica/2026/03/23/el-acuerdo-entre-la-union-europea-y-el-mercosur-entrara-en-vigor-provisionalmente-el-1-de-mayo/",
-  "mas": [
-   [
-    "ABC Color",
-    "https://www.abc.com.py/internacionales/2026/03/23/ue-oficializa-fecha-de-entrada-en-vigor-provisional-del-acuerdo-con-mercosur/",
-    "2026-03-23"
-   ]
-  ],
-  "titulo": "El acuerdo Mercosur–Unión Europea se aplica desde el 1 de mayo",
-  "unidad": "global",
-  "tema": "4.4",
-  "kc": "interdependencia",
-  "resumen": "El acuerdo comercial entre el Mercosur y la Unión Europea, firmado en Asunción el 17 de enero de 2026, se aplica de forma provisional desde el 1 de mayo. Paraguay lo ratificó por ley en marzo. Su vigencia plena depende todavía del Parlamento Europeo.",
-  "contexto": "La Unión Europea eliminará los aranceles al 93 % de lo que importa del Mercosur en un plazo de hasta 10 años; el Mercosur tendrá hasta 15 años para hacerlo con el 90 % de lo que importa de Europa. El plazo más largo protege por más tiempo a las industrias del Mercosur. Para Paraguay, la apuesta es vender más carne, soja y productos elaborados a un mercado de alto poder de compra.",
-  "datos": [
-   [
-    "17 ene",
-    "Firma en Asunción"
-   ],
-   [
-    "1 may",
-    "Aplicación provisional"
-   ],
-   [
-    "93 %",
-    "Importaciones del Mercosur que la UE liberará (10 años)"
-   ],
-   [
-    "90 %",
-    "Importaciones de la UE que el Mercosur liberará (15 años)"
-   ]
-  ],
-  "clave": [
-   "93 %",
-   "del comercio sin aranceles"
-  ],
-  "fig": {
-   "k": "arancel"
-  },
-  "cap": "Quitar un arancel lleva el precio interno de Pₘ + t a Pₘ: los consumidores ganan, los productores que compiten con importaciones pierden y el Estado deja de recaudar el rectángulo.",
-  "pasos": [
-   "Se reducen los aranceles entre los dos bloques",
-   "Bajan los precios de los bienes importados",
-   "Los consumidores compran más y los exportadores venden más",
-   "Los productores que compiten con importaciones enfrentan más competencia",
-   "Cada país se especializa en su ventaja comparativa"
-  ],
-  "conceptos": [
-   [
-    "Integración económica",
-    "Acuerdos entre países para reducir barreras al comercio."
-   ],
-   [
-    "Arancel",
-    "Impuesto a los bienes importados."
-   ],
-   [
-    "Ganancias del comercio",
-    "Más consumo y eficiencia al especializarse."
-   ],
-   [
-    "Interdependencia",
-    "Las economías dependen unas de otras por el comercio."
-   ]
-  ],
-  "diagramas": [
-   "arancel",
-   "exportaciones"
-  ],
-  "rel": [
-   "soja-record",
-   "carne-cae"
-  ],
-  "pregunta": {
-   "q": "¿Por qué el Mercosur tiene 15 años para bajar aranceles y la UE solo 10?",
-   "opts": [
-    "Para dar tiempo a las industrias del Mercosur a adaptarse a la competencia",
-    "Porque la UE es más pequeña",
-    "Para que el Mercosur recaude menos",
-    "Porque la UE no tiene aranceles"
-   ],
-   "ok": 0,
-   "fb": "Un plazo más largo protege por más tiempo a sectores menos competitivos: es una forma de proteccionismo transitorio."
-  },
-  "evaluacion": {
-   "ganan": [
-    [
-     "Exportadores de carne y soja",
-     "Acceden a un mercado grande con menos aranceles."
-    ],
-    [
-     "Consumidores",
-     "Productos europeos más baratos."
-    ]
-   ],
-   "pierden": [
-    [
-     "Industrias que compiten con Europa",
-     "Enfrentan más competencia."
-    ],
-    [
-     "El Estado",
-     "Recauda menos por aranceles."
-    ]
-   ],
-   "corto": "Pocos cambios: la baja de aranceles es gradual.",
-   "largo": "Más comercio, especialización e inversión, con riesgo para los sectores menos competitivos.",
-   "supuestos": [
-    "Que el Parlamento Europeo no frene el acuerdo."
-   ],
-   "conclusion": "Los beneficios dependen de que Paraguay aproveche el acceso y de que los sectores afectados se adapten en los 15 años de transición."
-  },
-  "sector": [
-   "agro",
-   "comercio"
-  ]
- },
- {
   "id": "pobreza-16",
   "fecha": "2026-03-27",
   "medio": "RDN",
@@ -1473,6 +1352,355 @@
     "Que la comida llegue con calidad a todas las escuelas"
    ],
    "conclusion": "Es una estrategia prometedora, pero necesita evaluaciones independientes de sus resultados en aprendizaje."
+  }
+ },
+ {
+  "id": "bcp-proyeccion",
+  "fecha": "2026-07-16",
+  "medio": "Infobae",
+  "url": "https://www.infobae.com/america/america-latina/2026/07/16/el-banco-central-elevo-al-45-la-proyeccion-de-crecimiento-del-pib-de-paraguay-este-ano/",
+  "titulo": "Cómo «adivinan» los economistas: el BCP cambia su proyección de crecimiento",
+  "unidad": "macro",
+  "tema": "1.2",
+  "kc": "cambio",
+  "inst": [
+   "bcp"
+  ],
+  "resumen": "En su Informe de Política Monetaria de junio de 2026, el BCP subió su proyección de crecimiento del PIB para 2026 de 4,2 % a 4,5 %, sobre todo por una mayor producción de soja, y bajó la de inflación de 3,5 % a 3,3 %. En octubre volvió a elevar el crecimiento esperado, a 5 %.",
+  "contexto": "Los economistas no pueden hacer experimentos de laboratorio con un país: usan modelos, que simplifican la realidad con supuestos (por ejemplo, «todo lo demás constante», ceteris paribus). Con datos nuevos, el modelo se actualiza y la proyección cambia: aquí, la cosecha de soja fue mejor de lo previsto, y el BCP subió la proyección de la agricultura de 3,2 % a 4,7 %. Una proyección es una afirmación positiva (se puede comprobar con los datos cuando lleguen); decir «el Gobierno debería gastar más para crecer» sería normativa, porque depende de juicios de valor.",
+  "datos": [
+   [
+    "4,5 %",
+    "Crecimiento del PIB 2026 proyectado en junio (antes 4,2 %)"
+   ],
+   [
+    "5,0 %",
+    "Proyección elevada en octubre"
+   ],
+   [
+    "3,3 %",
+    "Inflación 2026 proyectada (antes 3,5 %)"
+   ],
+   [
+    "4,7 %",
+    "Crecimiento proyectado de la agricultura (antes 3,2 %)"
+   ],
+   [
+    "6,6 %",
+    "Crecimiento del PIB en 2025"
+   ]
+  ],
+  "clave": [
+   "4,2 → 4,5 %",
+   "proyección de crecimiento"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Proyección de diciembre 2025",
+     4.2
+    ],
+    [
+     "Proyección de junio 2026",
+     4.5
+    ],
+    [
+     "Proyección de octubre 2026",
+     5.0,
+     1
+    ]
+   ]
+  },
+  "cap": "La proyección cambia cuando llegan datos nuevos: el modelo no cambió, cambió la información sobre la cosecha.",
+  "pasos": [
+   "El BCP usa un modelo con supuestos sobre la economía",
+   "Proyecta el crecimiento con la información disponible",
+   "Llegan datos nuevos: la cosecha de soja es mayor",
+   "El BCP actualiza los supuestos y sube la proyección",
+   "Las empresas y el Gobierno usan esa proyección para decidir"
+  ],
+  "conceptos": [
+   [
+    "Modelo económico",
+    "Representación simplificada de la realidad para explicar o predecir."
+   ],
+   [
+    "Ceteris paribus",
+    "Supuesto de que todo lo demás permanece constante."
+   ],
+   [
+    "Economía positiva",
+    "Afirmaciones que se pueden comprobar con datos."
+   ],
+   [
+    "Economía normativa",
+    "Afirmaciones basadas en juicios de valor sobre lo que debería hacerse."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da"
+  ],
+  "rel": [
+   "bcp-tpm",
+   "pib-2t-2026"
+  ],
+  "pregunta": {
+   "q": "¿Cuál de estas frases es una afirmación positiva?",
+   "opts": [
+    "El BCP proyecta que el PIB crecerá 4,5 % en 2026",
+    "El Gobierno debería gastar más en educación",
+    "Es injusto que la soja crezca más que la industria",
+    "El BCP debería bajar la tasa de interés"
+   ],
+   "ok": 0,
+   "fb": "Una afirmación positiva se puede comprobar con datos. Las otras dicen lo que «debería» ser: son normativas."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Empresas e inversores",
+     "Planifican mejor con proyecciones actualizadas."
+    ]
+   ],
+   "pierden": [
+    [
+     "Quienes decidieron con la proyección vieja",
+     "Pueden haber invertido o ahorrado de más o de menos."
+    ]
+   ],
+   "corto": "La proyección más alta mejora las expectativas.",
+   "largo": "Si las proyecciones fallan seguido, el banco central pierde credibilidad.",
+   "supuestos": [
+    "Que el clima y los precios internacionales se mantengan",
+    "Que no haya shocks como una crisis financiera"
+   ],
+   "conclusion": "Los modelos son útiles aunque fallen: lo importante es entender sus supuestos y actualizarlos con datos nuevos."
+  }
+ },
+ {
+  "id": "pobreza-multidimensional",
+  "fecha": "2026-08-07",
+  "medio": "INE",
+  "url": "https://www.ine.gov.py/noticias/2974/la-pobreza-multidimensional-en-el-ano-2025-fue-de-135-en-paraguay",
+  "titulo": "La pobreza multidimensional fue de 13,5 % y llega a 30,3 % en el campo",
+  "unidad": "global",
+  "tema": "4.8",
+  "kc": "bienestar",
+  "inst": [
+   "ine"
+  ],
+  "resumen": "El INE informó que en 2025 el 13,5 % de la población, unas 830.000 personas, vivía en pobreza multidimensional. En las zonas rurales llegó a 30,3 % y en las urbanas a 6,8 %.",
+  "contexto": "La pobreza multidimensional no mide solo el ingreso: también cuenta privaciones en educación, salud, vivienda y servicios. Por eso es una mejor medida del desarrollo. Los departamentos con más pobreza multidimensional fueron San Pedro (28,1 %) y Caazapá (27,1 %); los de menos, Central (6,3 %) y Asunción (1,8 %). La medición no incluye Boquerón ni Alto Paraguay.",
+  "datos": [
+   [
+    "13,5 %",
+    "Pobreza multidimensional 2025"
+   ],
+   [
+    "30,3 %",
+    "En zonas rurales"
+   ],
+   [
+    "6,8 %",
+    "En zonas urbanas"
+   ],
+   [
+    "28,1 %",
+    "San Pedro, el departamento más afectado"
+   ]
+  ],
+  "clave": [
+   "30,3 %",
+   "pobreza rural"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% de la población",
+   "rows": [
+    [
+     "Rural",
+     30.3,
+     1
+    ],
+    [
+     "Nacional",
+     13.5
+    ],
+    [
+     "Urbana",
+     6.8
+    ]
+   ]
+  },
+  "cap": "Pobreza multidimensional 2025 según el INE.",
+  "pasos": [
+   "Se miden privaciones en educación, salud, vivienda y servicios",
+   "La pobreza no es solo falta de ingreso",
+   "El campo concentra más privaciones",
+   "Se necesitan políticas distintas a las transferencias de dinero",
+   "Inversión en servicios públicos e infraestructura rural"
+  ],
+  "conceptos": [
+   [
+    "Pobreza multidimensional",
+    "Privaciones en varias dimensiones, no solo en el ingreso."
+   ],
+   [
+    "Desarrollo",
+    "Mejora del bienestar en salud, educación y nivel de vida."
+   ],
+   [
+    "Indicador compuesto",
+    "Combina varios indicadores en uno."
+   ],
+   [
+    "Brecha urbano-rural",
+    "Diferencia de condiciones entre ciudad y campo."
+   ]
+  ],
+  "diagramas": [],
+  "rel": [
+   "pobreza-16",
+   "gini-2025"
+  ],
+  "pregunta": {
+   "q": "¿Por qué la pobreza multidimensional mide mejor el desarrollo que la pobreza monetaria?",
+   "opts": [
+    "Porque incluye educación, salud, vivienda y servicios además del ingreso",
+    "Porque siempre da un número más bajo",
+    "Porque solo mide el ingreso",
+    "Porque la publica el BCP"
+   ],
+   "ok": 0,
+   "fb": "El desarrollo es más que ingreso: una familia puede superar la línea de pobreza y seguir sin agua potable o sin acceso a la salud."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Políticas mejor dirigidas",
+     "Saber qué falta permite invertir donde más se necesita."
+    ]
+   ],
+   "pierden": [
+    [
+     "Hogares rurales",
+     "Concentran las privaciones."
+    ]
+   ],
+   "corto": "Diagnóstico más completo de la pobreza.",
+   "largo": "Reducirla exige inversión en educación, salud e infraestructura, no solo transferencias.",
+   "supuestos": [
+    "Que la medición incluya a todo el país: hoy faltan Boquerón y Alto Paraguay."
+   ],
+   "conclusion": "La brecha entre el campo (30,3 %) y la ciudad (6,8 %) muestra que el crecimiento no llega igual a todos."
+  }
+ },
+ {
+  "id": "hidrovia-2026",
+  "fecha": "2026-08-12",
+  "medio": "Prensa Mercosur",
+  "url": "https://prensamercosur.org/2026/08/12/paraguay-la-bajante-no-detiene-a-la-hidrovia-cafym-proyecta-mover-28-millones-de-toneladas-y-prepara-una-nueva-etapa-de-dragado/",
+  "titulo": "La bajante no frena la hidrovía: se proyectan 28 millones de toneladas",
+  "unidad": "global",
+  "tema": "4.9",
+  "kc": "sostenibilidad",
+  "sector": [
+   "comercio"
+  ],
+  "resumen": "El Centro de Armadores Fluviales y Marítimos (CAFyM) proyecta mover 28 millones de toneladas por la hidrovía en 2026, a pesar de la bajante de los ríos. Se prepara una nueva etapa de dragado en el Alto Paraná.",
+  "contexto": "Paraguay no tiene salida al mar: la mayor parte de su comercio exterior viaja en barcazas por los ríos Paraguay y Paraná. Cuando baja el nivel del agua, las barcazas cargan menos, se necesitan más viajes y sube el costo por tonelada. El dragado de 11 pasos críticos busca mantener unos 10 pies de profundidad. Japón donó una draga con una inversión superior a US$ 24 millones, que llegó a Pilar en junio de 2026.",
+  "datos": [
+   [
+    "28 M t",
+    "Carga proyectada por la hidrovía en 2026"
+   ],
+   [
+    "11",
+    "Pasos críticos a dragar en el Alto Paraná"
+   ],
+   [
+    "10 pies",
+    "Profundidad objetivo del canal"
+   ],
+   [
+    "US$ 24 M",
+    "Inversión en la draga donada por Japón"
+   ]
+  ],
+  "clave": [
+   "28 M t",
+   "por la hidrovía"
+  ],
+  "fig": {
+   "k": "macro",
+   "mueve": "O",
+   "dir": -1
+  },
+  "cap": "Una bajante encarece el transporte: es un shock de costos que desplaza la OACP a la izquierda.",
+  "pasos": [
+   "Baja el nivel de los ríos",
+   "Las barcazas cargan menos y hacen más viajes",
+   "Sube el costo del flete por tonelada",
+   "Exportar e importar se vuelve más caro",
+   "Dragado e infraestructura para reducir el riesgo"
+  ],
+  "conceptos": [
+   [
+    "País sin litoral",
+    "No tiene salida al mar: depende de vecinos y ríos para comerciar."
+   ],
+   [
+    "Barrera al desarrollo",
+    "Factor que dificulta crecer, como la geografía."
+   ],
+   [
+    "Costo de transporte",
+    "Parte del costo de exportar que reduce la competitividad."
+   ],
+   [
+    "Cambio climático",
+    "Afecta los caudales de los ríos y la logística."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-oacp"
+  ],
+  "rel": [
+   "corredor-bioceanico",
+   "soja-record"
+  ],
+  "pregunta": {
+   "q": "¿Por qué no tener salida al mar es una barrera al desarrollo?",
+   "opts": [
+    "Porque encarece el transporte y depende de vecinos y ríos",
+    "Porque impide producir alimentos",
+    "Porque prohíbe exportar",
+    "Porque no afecta a nada"
+   ],
+   "ok": 0,
+   "fb": "Los países sin litoral pagan más por transportar sus exportaciones e importaciones, lo que reduce su competitividad."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Armadores y exportadores",
+     "Si el dragado mantiene la navegación."
+    ]
+   ],
+   "pierden": [
+    [
+     "Exportadores en las bajantes",
+     "Fletes más caros y cargas reducidas."
+    ]
+   ],
+   "corto": "La bajante encarece el flete.",
+   "largo": "El dragado y el Corredor Bioceánico reducen la dependencia de un solo camino.",
+   "supuestos": [
+    "Que el dragado se complete con los requisitos ambientales."
+   ],
+   "conclusion": "La geografía es una barrera, pero la infraestructura puede reducirla: Paraguay ya tiene una de las mayores flotas fluviales del mundo."
   }
  }
 ]
