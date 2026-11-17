@@ -1702,5 +1702,521 @@
    ],
    "conclusion": "La geografía es una barrera, pero la infraestructura puede reducirla: Paraguay ya tiene una de las mayores flotas fluviales del mundo."
   }
+ },
+ {
+  "id": "adultos-mayores",
+  "fecha": "2026-09-01",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/negocios/2026/09/01/plan-de-gastos-para-el-2027-asciende-a-usd-25751-millones/",
+  "mas": [
+   [
+    "InfoNegocios",
+    "https://infonegocios.com.py/nota-principal/ejecutivo-presento-el-pgn-2027-por-us-25-700-millones-y-con-deficit-fiscal-proyectado-de-hasta-3-9-del-pib",
+    "2026-09-02"
+   ]
+  ],
+  "titulo": "La pensión para adultos mayores llega a 406.000 personas: equidad en el Presupuesto",
+  "unidad": "macro",
+  "tema": "3.4",
+  "kc": "equidad",
+  "inst": [
+   "mef"
+  ],
+  "resumen": "El proyecto de Presupuesto 2027 sube en US$ 65 millones la pensión para adultos mayores, que llega a un total de unos US$ 564 millones y a más de 406.000 beneficiarios. Según InfoNegocios, los beneficiarios pasarían de unos 376.000 a más de 406.000.",
+  "contexto": "El mercado reparte el ingreso según lo que cada uno vende (su trabajo, su capital), y eso puede dejar a muchas personas sin ingresos suficientes, como los adultos mayores que trabajaron en la informalidad y no tienen jubilación. Para corregir esa falta de equidad, el Estado usa transferencias: pagos sin contraprestación financiados con impuestos. La pensión reduce la pobreza en la vejez y la desigualdad, pero tiene un costo de oportunidad: ese dinero no va a otras áreas, y el Presupuesto 2027 ya prevé un déficit alto.",
+  "datos": [
+   [
+    "406.000+",
+    "Beneficiarios de la pensión para adultos mayores en 2027"
+   ],
+   [
+    "US$ 564 M",
+    "Monto total del programa en el proyecto 2027"
+   ],
+   [
+    "+US$ 65 M",
+    "Aumento frente a 2026"
+   ],
+   [
+    "≈376.000",
+    "Beneficiarios antes del aumento"
+   ]
+  ],
+  "clave": [
+   "406.000",
+   "adultos mayores con pensión"
+  ],
+  "fig": {
+   "k": "lorenz",
+   "g": 0.43
+  },
+  "cap": "Las transferencias a los hogares de menos ingresos acercan la curva de Lorenz a la línea de igualdad perfecta.",
+  "pasos": [
+   "El mercado deja sin ingresos a quienes no pudieron aportar",
+   "Muchos adultos mayores no tienen jubilación",
+   "El Estado les transfiere una pensión financiada con impuestos",
+   "Aumenta su ingreso y baja la pobreza en la vejez",
+   "Se reduce la desigualdad, con un costo fiscal"
+  ],
+  "conceptos": [
+   [
+    "Equidad",
+    "Distribución justa del ingreso; no es lo mismo que igualdad."
+   ],
+   [
+    "Pagos de transferencia",
+    "Pagos del Estado sin contraprestación, como pensiones o subsidios."
+   ],
+   [
+    "Redistribución del ingreso",
+    "Pasar ingreso de unos grupos a otros mediante impuestos y transferencias."
+   ]
+  ],
+  "diagramas": [
+   "lorenz"
+  ],
+  "rel": [
+   "pgn-2027"
+  ],
+  "pregunta": {
+   "q": "¿Qué efecto tiene una pensión para adultos mayores sin jubilación?",
+   "opts": [
+    "Reduce la desigualdad y la pobreza en la vejez",
+    "Aumenta la desigualdad",
+    "Es un impuesto regresivo",
+    "No afecta la distribución del ingreso"
+   ],
+   "ok": 0,
+   "fb": "Es una transferencia a un grupo de bajos ingresos: sube su ingreso y acerca la curva de Lorenz a la igualdad."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Adultos mayores sin jubilación",
+     "Reciben un ingreso mensual."
+    ],
+    [
+     "Comercios locales",
+     "Más consumo en los barrios."
+    ]
+   ],
+   "pierden": [
+    [
+     "Contribuyentes y otras áreas",
+     "El costo se paga con impuestos o con deuda."
+    ]
+   ],
+   "corto": "Baja la pobreza en la vejez.",
+   "largo": "Con una población que envejece, el costo del programa crecerá.",
+   "supuestos": [
+    "Que la pensión llegue a quienes más la necesitan"
+   ],
+   "conclusion": "Es una herramienta eficaz para la equidad, pero su sostenibilidad depende de recaudar más o gastar mejor en otras áreas."
+  }
+ },
+ {
+  "id": "pisa-2025",
+  "fecha": "2026-09-12",
+  "medio": "Prensa Mercosur",
+  "url": "https://prensamercosur.org/2026/09/12/paraguay-tras-pisa-2025-expertos-advierten-que-el-sistema-educativo-esta-desfasado-y-carece-de-un-plan-claro-de-mejora/",
+  "titulo": "PISA 2025: solo 24 % de los estudiantes alcanza el nivel básico de lectura",
+  "unidad": "macro",
+  "tema": "3.7",
+  "kc": "bienestar",
+  "resumen": "En la prueba internacional PISA 2025, solo el 24 % de los estudiantes paraguayos de 15 años alcanzó el nivel básico en lectura, frente a 69 % del promedio internacional. En matemáticas fue 10 % (frente a 64 %) y en ciencias 24 % (frente a 74 %).",
+  "contexto": "El puntaje de lectura bajó de 373 en 2022 a 352 en 2025. Según la nota, Paraguay es último en la región en matemáticas y penúltimo en ciencias. La educación es capital humano: trabajadores mejor formados son más productivos. Por eso la inversión en educación es una política de oferta, que a largo plazo aumenta el PIB potencial (desplaza la OALP), aunque sus efectos tardan años.",
+  "datos": [
+   [
+    "24 %",
+    "Nivel básico en lectura (promedio internacional 69 %)"
+   ],
+   [
+    "10 %",
+    "Nivel básico en matemáticas (64 %)"
+   ],
+   [
+    "24 %",
+    "Nivel básico en ciencias (74 %)"
+   ],
+   [
+    "373 → 352",
+    "Puntaje de lectura 2022 → 2025"
+   ]
+  ],
+  "clave": [
+   "24 %",
+   "nivel básico en lectura"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% con nivel básico o más",
+   "rows": [
+    [
+     "Lectura Paraguay",
+     24,
+     1
+    ],
+    [
+     "Lectura promedio",
+     69
+    ],
+    [
+     "Matemática Paraguay",
+     10,
+     1
+    ],
+    [
+     "Matemática promedio",
+     64
+    ],
+    [
+     "Ciencias Paraguay",
+     24,
+     1
+    ],
+    [
+     "Ciencias promedio",
+     74
+    ]
+   ]
+  },
+  "cap": "Porcentaje de estudiantes de 15 años con nivel básico o superior en PISA 2025.",
+  "pasos": [
+   "Pocos estudiantes alcanzan competencias básicas",
+   "Menos capital humano en el futuro",
+   "Menor productividad de los trabajadores",
+   "Crecimiento potencial más bajo",
+   "Mejorar la educación es una política de oferta de largo plazo"
+  ],
+  "conceptos": [
+   [
+    "Capital humano",
+    "Conocimientos y habilidades de las personas."
+   ],
+   [
+    "Productividad",
+    "Producción por trabajador u hora trabajada."
+   ],
+   [
+    "Política de oferta",
+    "Medidas para aumentar la capacidad productiva del país."
+   ],
+   [
+    "OALP",
+    "Oferta agregada de largo plazo: el PIB potencial."
+   ]
+  ],
+  "diagramas": [
+   "politicas-oferta"
+  ],
+  "rel": [],
+  "pregunta": {
+   "q": "¿Por qué mejorar la educación es una política de oferta?",
+   "opts": [
+    "Porque aumenta la productividad y el PIB potencial a largo plazo",
+    "Porque sube la demanda de inmediato",
+    "Porque baja la inflación en un mes",
+    "Porque reduce el déficit fiscal"
+   ],
+   "ok": 0,
+   "fb": "Más capital humano aumenta la capacidad productiva: desplaza la OALP a la derecha, aunque el efecto tarda años."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Estudiantes, si mejora el sistema",
+     "Más oportunidades e ingresos futuros."
+    ]
+   ],
+   "pierden": [
+    [
+     "Toda la economía con el nivel actual",
+     "Menos productividad y crecimiento potencial."
+    ]
+   ],
+   "corto": "Ningún efecto visible: la educación tarda en dar frutos.",
+   "largo": "Sin mejoras, Paraguay tendrá dificultades para pasar de exportar materias primas a producir bienes de mayor valor.",
+   "supuestos": [
+    "Que PISA mida bien las competencias que necesita la economía."
+   ],
+   "conclusion": "La educación es la política de oferta más lenta pero más profunda: invertir hoy define el crecimiento de las próximas décadas."
+  }
+ },
+ {
+  "id": "pgn-2027",
+  "fecha": "2026-09-17",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/economia/2026/09/17/pgn-2027-economistas-alertan-sobre-deficit-deuda-y-menor-inversion-publica/",
+  "mas": [
+   [
+    "InfoNegocios",
+    "https://infonegocios.com.py/nota-principal/ejecutivo-presento-el-pgn-2027-por-us-25-700-millones-y-con-deficit-fiscal-proyectado-de-hasta-3-9-del-pib",
+    "2026-09-02"
+   ]
+  ],
+  "titulo": "Presupuesto 2027: un déficit de hasta 3,9 % del PIB, más del doble del límite legal",
+  "unidad": "macro",
+  "tema": "3.6",
+  "kc": "intervencion",
+  "resumen": "El proyecto de Presupuesto General de la Nación 2027 suma G. 166,3 billones (unos US$ 25.700 millones), 11,2 % más que en 2026. El Gobierno pide un déficit de hasta 3,9 % del PIB; la Ley de Responsabilidad Fiscal fija un límite de 1,5 %.",
+  "contexto": "Gran parte del aumento sirve para pagar deudas acumuladas con proveedores, sobre todo de Salud. Sin esos pagos extraordinarios, el déficit rondaría 1,9 %. El Gobierno estima que necesitará unos US$ 2.100 millones de nueva deuda en 2027 y promete volver al 1,5 % en 2028. Economistas advierten que la inversión pública podría caer y que los ingresos dependen del tipo de cambio que se suponga.",
+  "datos": [
+   [
+    "G. 166,3 bill.",
+    "Presupuesto total 2027"
+   ],
+   [
+    "+11,2 %",
+    "Frente a 2026"
+   ],
+   [
+    "3,9 %",
+    "Déficit pedido (% del PIB)"
+   ],
+   [
+    "1,5 %",
+    "Límite de la Ley de Responsabilidad Fiscal"
+   ],
+   [
+    "US$ 2.100 M",
+    "Nueva deuda estimada para 2027"
+   ]
+  ],
+  "clave": [
+   "3,9 %",
+   "déficit del PIB"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% del PIB",
+   "rows": [
+    [
+     "Límite legal",
+     1.5
+    ],
+    [
+     "Sin pagos extra",
+     1.9
+    ],
+    [
+     "Déficit pedido",
+     3.9,
+     1
+    ]
+   ]
+  },
+  "cap": "Déficit fiscal de 2027 frente al límite de la Ley de Responsabilidad Fiscal, en % del PIB.",
+  "pasos": [
+   "El Estado planea gastar más de lo que recauda",
+   "La diferencia se cubre con nueva deuda",
+   "Más gasto público (G) aumenta la DA a corto plazo",
+   "Más deuda implica más intereses en el futuro",
+   "Riesgo: menos inversión pública y peor calificación"
+  ],
+  "conceptos": [
+   [
+    "Déficit fiscal",
+    "Lo que falta cuando el gasto público supera a los ingresos en un año."
+   ],
+   [
+    "Deuda pública",
+    "Lo que el Estado debe, acumulado a lo largo de los años."
+   ],
+   [
+    "Regla fiscal",
+    "Ley que limita el déficit: 1,5 % del PIB en Paraguay."
+   ],
+   [
+    "Presión tributaria",
+    "Impuestos recaudados como % del PIB: cerca de 11 % en Paraguay."
+   ]
+  ],
+  "diagramas": [
+   "politica-fiscal",
+   "da-oa-da"
+  ],
+  "rel": [
+   "pgn-suspendido",
+   "recaudacion-dnit",
+   "bonos-embi"
+  ],
+  "pregunta": {
+   "q": "Si el Estado gasta 3,9 % del PIB más de lo que recauda, ¿cómo cubre la diferencia?",
+   "opts": [
+    "Con nueva deuda: bonos y préstamos",
+    "Imprimiendo billetes en el BCP",
+    "Bajando la tasa de interés",
+    "Con el superávit comercial"
+   ],
+   "ok": 0,
+   "fb": "El déficit se financia con endeudamiento: el Estado emite bonos o pide préstamos."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Proveedores del Estado (salud)",
+     "Cobran deudas atrasadas."
+    ],
+    [
+     "Beneficiarios de programas sociales",
+     "Se mantiene o amplía la cobertura."
+    ]
+   ],
+   "pierden": [
+    [
+     "Contribuyentes futuros",
+     "Más deuda e intereses."
+    ],
+    [
+     "Inversión pública",
+     "Puede quedar con menos recursos."
+    ]
+   ],
+   "corto": "Más gasto público y pago de deudas atrasadas.",
+   "largo": "Si el déficit alto se vuelve permanente, peligran la regla fiscal y el grado de inversión.",
+   "supuestos": [
+    "Que el déficit vuelva a 1,5 % en 2028.",
+    "Que la recaudación crezca como prevé el Gobierno."
+   ],
+   "conclusion": "Sincerar las deudas es positivo, pero pagarlo con deuda solo es sostenible si el ajuste prometido para 2028 se cumple."
+  },
+  "inst": [
+   "mef"
+  ]
+ },
+ {
+  "id": "pib-2t-2026",
+  "fecha": "2026-09-29",
+  "medio": "InfoNegocios",
+  "url": "https://infonegocios.com.py/default/economia-local-crecio-4-en-el-segundo-trimestre-y-acumulo-una-expansion-de-5-7-en-el-semestre",
+  "titulo": "Cómo se mide la economía: el PIB creció 4 % en el segundo trimestre",
+  "unidad": "macro",
+  "tema": "3.1",
+  "kc": "cambio",
+  "inst": [
+   "bcp"
+  ],
+  "resumen": "Según las Cuentas Nacionales Trimestrales del BCP, el PIB creció 4 % interanual en el segundo trimestre de 2026 y 5,7 % en el primer semestre. La agricultura creció 11,1 % y la electricidad y agua 13 %, mientras la ganadería cayó. Por el lado del gasto, el consumo creció 3,6 %, la inversión cayó 11,8 % y las exportaciones subieron 11,5 %.",
+  "contexto": "El PIB es el valor de todos los bienes y servicios finales producidos en un país en un periodo. Se puede medir de tres formas que deberían dar lo mismo: por la producción (cuánto aporta cada sector), por el gasto (consumo + inversión + gasto público + exportaciones netas) y por el ingreso. Este dato del BCP muestra las dos primeras: por sectores, el agro y las represas empujaron; por el gasto, la demanda externa neta aportó 6,7 puntos al crecimiento, mientras la inversión cayó. El crecimiento es real, es decir, descontando la inflación.",
+  "datos": [
+   [
+    "+4 %",
+    "PIB real, 2.º trimestre 2026 (interanual)"
+   ],
+   [
+    "+5,7 %",
+    "PIB del primer semestre"
+   ],
+   [
+    "+3,6 %",
+    "Consumo total"
+   ],
+   [
+    "−11,8 %",
+    "Inversión (formación bruta de capital fijo)"
+   ],
+   [
+    "+6,7 pts",
+    "Aporte de la demanda externa neta al crecimiento"
+   ],
+   [
+    "48,8 %",
+    "Peso de los servicios en la economía"
+   ]
+  ],
+  "clave": [
+   "+4 %",
+   "crecimiento del PIB real"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% interanual (2.º trim. 2026)",
+   "rows": [
+    [
+     "Agricultura",
+     11.1,
+     1
+    ],
+    [
+     "Electricidad y agua",
+     13
+    ],
+    [
+     "Construcción",
+     4.2
+    ],
+    [
+     "Servicios",
+     3.4
+    ],
+    [
+     "Manufactura",
+     1.8
+    ]
+   ]
+  },
+  "cap": "El PIB por el método de la producción: cuánto creció cada sector. Agro y represas lideraron.",
+  "pasos": [
+   "El BCP suma lo que produce cada sector (método de la producción)",
+   "También mide el gasto: C + I + G + (X − M)",
+   "Descuenta la inflación para obtener el PIB real",
+   "Compara con el mismo trimestre del año anterior",
+   "Resultado: 4 % de crecimiento real"
+  ],
+  "conceptos": [
+   [
+    "PIB",
+    "Valor de mercado de los bienes y servicios finales producidos en un país en un periodo."
+   ],
+   [
+    "PIB real",
+    "PIB ajustado por inflación; mide cambios en la cantidad producida."
+   ],
+   [
+    "Método del gasto",
+    "PIB = C + I + G + (X − M)."
+   ],
+   [
+    "Ciclo económico",
+    "Fluctuaciones del PIB real alrededor de su tendencia."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da"
+  ],
+  "rel": [
+   "agro-oferta"
+  ],
+  "pregunta": {
+   "q": "¿Por qué el BCP informa el crecimiento del PIB «real»?",
+   "opts": [
+    "Para descontar el efecto de la inflación y medir la cantidad producida",
+    "Para incluir la economía informal",
+    "Para sumar el PIB de Brasil y Argentina",
+    "Para medir la desigualdad"
+   ],
+   "ok": 0,
+   "fb": "El PIB nominal puede subir solo porque suben los precios; el real elimina la inflación y muestra si se produjo más."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Exportadores agrícolas",
+     "Impulsaron el crecimiento."
+    ]
+   ],
+   "pierden": [
+    [
+     "Sectores ligados a la inversión",
+     "La inversión cayó 11,8 %."
+    ]
+   ],
+   "corto": "Crecimiento sólido apoyado en exportaciones.",
+   "largo": "Con menos inversión hoy, la capacidad de crecer mañana puede ser menor.",
+   "supuestos": [
+    "Que la medición capte bien la economía informal"
+   ],
+   "conclusion": "El PIB creció, pero mirar sus componentes muestra un punto débil: la caída de la inversión."
+  }
  }
 ]

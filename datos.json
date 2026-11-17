@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16",
+ "actualizado": "2026-11-17",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -15,8 +15,8 @@
   },
   {
    "n": "Dólar",
-   "v": "G. 6.204",
-   "s": "BCP interbancario · 10 nov",
+   "v": "G. 6.241",
+   "s": "BCP interbancario · 16 nov",
    "alert": 1,
    "k": "dolar"
   },
@@ -262,6 +262,11 @@
     "16 nov",
     "Vence el balance de exclusión de Ueno: se viene la licitación de sus carteras.",
     "ueno-devolucion"
+   ],
+   [
+    "16 nov",
+    "Gobierno y gremios crean un Gabinete de Impulso Económico; Asimcopar alerta por recesión.",
+    "pgn-suspendido"
    ]
   ],
   "lentes": [
@@ -280,6 +285,518 @@
   ]
  },
  "noticias": [
+  {
+   "id": "confianza-octubre",
+   "fecha": "2026-11-16",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/negocios/2026/11/16/indice-de-confianza-del-consumidor-se-hunde-en-el-pesimismo-segun-encuesta/",
+   "mas": [
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/confianza-del-consumidor-subio-en-octubre-pero-sigue-en-rango-de-pesimismo",
+     "2026-11-16"
+    ]
+   ],
+   "titulo": "La confianza del consumidor sigue en pesimismo: 45,3 puntos en octubre",
+   "unidad": "macro",
+   "tema": "3.2",
+   "kc": "cambio",
+   "resumen": "El Índice de Confianza del Consumidor (ICC), que mide el INE y publica el BCP, llegó a 45,30 puntos en octubre: mejoró frente a los 39,09 de septiembre, pero sigue por debajo de 50, la línea que separa el optimismo del pesimismo. La encuesta se hizo antes de la caída de Ueno Bank, según ABC Color. Solo el 17 % de los encuestados dijo estar en condiciones de ahorrar.",
+   "contexto": "Llama la atención que la confianza sea baja con una economía que creció 5,5 % hasta septiembre y con inflación baja. ABC Color lo atribuye a los precios de combustibles y alimentos, el endeudamiento de los hogares, el atraso en los pagos del Estado a proveedores y el déficit fiscal. La confianza es un determinante del consumo, el componente más grande de la demanda agregada: si las familias esperan tiempos difíciles, gastan menos y ahorran por precaución. Como la encuesta es anterior a Ueno, el dato de noviembre podría ser peor.",
+   "datos": [
+    [
+     "45,30",
+     "ICC de octubre 2026 (50 = neutral)"
+    ],
+    [
+     "39,09",
+     "ICC de septiembre 2026"
+    ],
+    [
+     "33,34",
+     "Índice de situación económica actual (oct.)"
+    ],
+    [
+     "57,25",
+     "Índice de expectativas económicas (oct.); 66,25 un año antes"
+    ],
+    [
+     "17 %",
+     "Encuestados con disposición a ahorrar (12 % en septiembre)"
+    ],
+    [
+     "5,5 %",
+     "Crecimiento acumulado del IMAEP hasta septiembre"
+    ]
+   ],
+   "clave": [
+    "45,3",
+    "puntos: zona de pesimismo"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Si la confianza cae, el consumo baja y la DA se desplaza de DA₁ a DA₂: menos producción real y menos presión sobre los precios.",
+   "pasos": [
+    "Las familias perciben precios altos, deudas e incertidumbre",
+    "La confianza del consumidor queda por debajo de 50",
+    "Los hogares posponen compras y ahorran por precaución",
+    "Baja el consumo y la DA se desplaza a la izquierda",
+    "Se frena el crecimiento del PIB real"
+   ],
+   "conceptos": [
+    [
+     "Confianza del consumidor",
+     "Cómo ven las familias su situación y el futuro; influye en cuánto gastan."
+    ],
+    [
+     "Consumo (C)",
+     "Gasto de los hogares; el mayor componente de la DA."
+    ],
+    [
+     "Ahorro por precaución",
+     "Dinero que se guarda ante la incertidumbre en lugar de gastarlo."
+    ],
+    [
+     "Indicador adelantado",
+     "Dato que anticipa hacia dónde va la economía."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da",
+    "da-oa-oacp"
+   ],
+   "rel": [
+    "consumo-cae",
+    "imaep-setiembre",
+    "ventas-setiembre"
+   ],
+   "pregunta": {
+    "q": "¿Por qué una caída de la confianza del consumidor puede frenar la economía?",
+    "opts": [
+     "Porque los hogares gastan menos y baja la demanda agregada",
+     "Porque sube la oferta agregada",
+     "Porque el BCP sube la tasa automáticamente",
+     "Porque aumentan las exportaciones"
+    ],
+    "ok": 0,
+    "fb": "La confianza afecta al consumo, el componente más grande de la DA. Si las familias gastan menos, la DA se desplaza a la izquierda."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Bancos y cooperativas sólidos",
+      "Más personas con disposición a ahorrar pueden aumentar los depósitos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Comercios y multitiendas",
+      "Venden menos justo antes de la temporada de fin de año."
+     ],
+     [
+      "Trabajadores del comercio",
+      "Menos ventas pueden traducirse en menos horas o despidos."
+     ]
+    ],
+    "corto": "La caída de Ueno puede hundir más el índice en noviembre y reducir las ventas de fin de año.",
+    "largo": "Si el Estado recupera credibilidad (pagos a proveedores, cuentas fiscales, sistema bancario), la confianza puede volver a zona de optimismo y sostener el consumo.",
+    "supuestos": [
+     "Que la encuesta refleje bien el ánimo de los hogares",
+     "Que la confianza se traduzca en decisiones de gasto",
+     "Que la crisis de Ueno no se extienda a otros bancos"
+    ],
+    "conclusion": "El crecimiento del PIB no alcanza para que las familias se sientan mejor; la confianza baja es una señal de alerta para el consumo, aunque por sí sola no garantiza una recesión."
+   },
+   "inst": [
+    "bcp",
+    "ine"
+   ],
+   "sector": [
+    "comercio"
+   ],
+   "opinion": false
+  },
+  {
+   "id": "consumo-electrico",
+   "fecha": "2026-11-16",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/ande-reporta-que-el-consumo-electrico-crece-16-a-octubre",
+   "titulo": "El consumo de electricidad crece 16 % y acerca el límite de Itaipú",
+   "unidad": "micro",
+   "tema": "1.1",
+   "kc": "escasez",
+   "resumen": "Según la ANDE, citada por Última Hora, la demanda eléctrica de Paraguay sumó 27.407,1 GWh entre enero y octubre de 2026, 16 % más que un año antes; solo en octubre creció 7,2 %. Itaipú cubrió el 92,3 % de la demanda de octubre. El Instituto de Profesionales del Sector Eléctrico (IPPSE) advierte que la parte paraguaya de Itaipú quedaría totalmente usada hacia 2030.",
+   "contexto": "Durante décadas Paraguay tuvo electricidad abundante y barata, y cedía a Brasil y Argentina la energía que no usaba. Con una demanda que crece más de 500 MW por año, impulsada en parte por empresas de alto consumo como la criptominería, ese recurso empieza a ser escaso. Casi toda la electricidad sale de represas sobre el río Paraná, así que una sequía afectaría a la vez a Itaipú y Yacyretá. El IPPSE propone sumar energía firme (gas o pequeños reactores), importar de Brasil y planificar a 20 años, porque una represa tarda entre 10 y 14 años en construirse.",
+   "datos": [
+    [
+     "+16 %",
+     "Demanda eléctrica ene-oct 2026 frente a 2025"
+    ],
+    [
+     "27.407,1 GWh",
+     "Demanda acumulada a octubre (23.636,4 GWh en 2025)"
+    ],
+    [
+     "+7,2 %",
+     "Demanda de octubre frente a octubre 2025"
+    ],
+    [
+     "92,3 %",
+     "Parte de la demanda de octubre cubierta por Itaipú"
+    ],
+    [
+     "+500 MW",
+     "Aumento anual de la demanda, según el IPPSE"
+    ],
+    [
+     "2030",
+     "Año en que la cuota paraguaya de Itaipú quedaría absorbida, según el IPPSE"
+    ]
+   ],
+   "clave": [
+    "+16 %",
+    "demanda eléctrica a octubre"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "La demanda de electricidad se desplaza de D₁ a D₂ mientras la capacidad de generación es casi fija: el recurso se vuelve escaso y aumenta la presión sobre el precio.",
+   "pasos": [
+    "Crecen la economía y las empresas de alto consumo",
+    "La demanda de electricidad sube 16 % en el año",
+    "La oferta (represas) casi no cambia a corto plazo",
+    "La energía que antes sobraba se vuelve escasa",
+    "Hay que elegir: invertir en nueva generación, importar o racionar"
+   ],
+   "conceptos": [
+    [
+     "Escasez",
+     "Los recursos son limitados frente a necesidades crecientes."
+    ],
+    [
+     "Costo de oportunidad",
+     "Usar la energía en criptominería implica no usarla en otras actividades o no venderla a Brasil."
+    ],
+    [
+     "Oferta inelástica",
+     "A corto plazo, la generación eléctrica no puede aumentar rápido."
+    ],
+    [
+     "Sostenibilidad",
+     "Usar los recursos sin comprometer las necesidades futuras."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda",
+    "politicas-oferta"
+   ],
+   "rel": [
+    "ande-electrointensivas",
+    "energia-cedida",
+    "itaipu-tarifa-2027"
+   ],
+   "pregunta": {
+    "q": "Si la demanda de electricidad crece rápido y la capacidad de generación es fija a corto plazo, ¿qué concepto explica mejor la situación?",
+    "opts": [
+     "La escasez: un recurso limitado frente a necesidades crecientes",
+     "La abundancia: siempre sobrará energía",
+     "La inflación de demanda en toda la economía",
+     "El libre comercio"
+    ],
+    "ok": 0,
+    "fb": "Paraguay pasa de tener energía de sobra a un recurso cada vez más escaso, lo que obliga a elegir cómo usarlo y a invertir en nueva generación."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Industrias y empresas de alto consumo",
+      "Acceden hoy a energía limpia y relativamente barata."
+     ],
+     [
+      "Proveedores de nueva generación (solar, gas)",
+      "Aumenta la necesidad de invertir en otras fuentes."
+     ]
+    ],
+    "pierden": [
+     [
+      "El Estado y la ANDE",
+      "Deben invertir mucho en generación y transmisión."
+     ],
+     [
+      "Consumidores futuros",
+      "Si no se invierte a tiempo, pueden enfrentar cortes o tarifas más altas."
+     ]
+    ],
+    "corto": "La ANDE cubre la demanda con Itaipú y Yacyretá, pero cede menos energía a los socios.",
+    "largo": "Hacia 2030 la parte paraguaya de Itaipú podría quedar usada al 100 %; sin nueva generación habría riesgo de déficit desde 2031, según el IPPSE.",
+    "supuestos": [
+     "Que la demanda siga creciendo a ritmo parecido",
+     "Que no haya una sequía fuerte en el Paraná",
+     "Que no se sumen nuevas centrales antes de 2030"
+    ],
+    "conclusion": "El crecimiento de la demanda refleja una economía más activa, pero convierte la energía en un recurso escaso; planificar la inversión con tiempo es la clave para no frenar el desarrollo."
+   },
+   "sector": [
+    "energia"
+   ],
+   "opinion": false
+  },
+  {
+   "id": "el-nino-fitch",
+   "fecha": "2026-11-16",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/16/paraguay-aparece-entre-los-paises-que-podrian-ganar-con-la-llegada-de-el-nino-segun-fitch-ratings/",
+   "titulo": "El Niño podría favorecer al agro y a las represas de Paraguay, según Fitch",
+   "unidad": "micro",
+   "tema": "2.2",
+   "kc": "sostenibilidad",
+   "resumen": "Un análisis de Fitch Ratings, difundido por la agencia RT y citado por La Nación, ubica a Paraguay, Argentina y Uruguay como los tres países sudamericanos que podrían ganar con El Niño. Más lluvias favorecerían los cultivos y la generación hidroeléctrica. Fitch advierte, sin embargo, que en la región podrían subir los precios de los alimentos y algunos costos de producción.",
+   "contexto": "El clima es un determinante de la oferta que no depende del precio: si llueve lo suficiente, los productores cosechan más con los mismos recursos y la curva de oferta se desplaza a la derecha. En Paraguay esto pesa mucho, porque la soja y otros granos son su principal exportación y casi toda su electricidad viene de represas. Para otros países, como Bolivia, Chile o Perú, Fitch prevé efectos negativos, y en Panamá una sequía podría afectar al canal. La misma variable (el clima) puede ser una buena noticia para unos y mala para otros.",
+   "datos": [
+    [
+     "3",
+     "Países sudamericanos con balance potencialmente positivo (Paraguay, Argentina, Uruguay)"
+    ],
+    [
+     "2 pp",
+     "Lo que podría caer el PIB de Perú en 2026-2027 en el peor escenario, según Fitch"
+    ]
+   ],
+   "clave": [
+    "El Niño",
+    "más lluvia: más oferta agrícola"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "O",
+    "dir": 1
+   },
+   "cap": "Con más lluvias, la cosecha aumenta y la oferta de granos se desplaza de O₁ a O₂: más cantidad y un precio menor, si la demanda no cambia.",
+   "pasos": [
+    "Llega El Niño con más lluvias en la región",
+    "Mejoran los rendimientos agrícolas y el caudal del Paraná",
+    "La oferta de granos y de energía se desplaza a la derecha",
+    "Aumenta la producción y las exportaciones",
+    "Crece el PIB, aunque pueden subir costos en otras partes"
+   ],
+   "conceptos": [
+    [
+     "Determinantes de la oferta",
+     "Factores distintos del precio que desplazan la curva: clima, costos, tecnología."
+    ],
+    [
+     "Shock de oferta",
+     "Cambio repentino en la capacidad de producir."
+    ],
+    [
+     "Bien primario",
+     "Producto agrícola o minero sin transformar, sensible al clima."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda",
+    "exportaciones"
+   ],
+   "rel": [
+    "agro-oferta",
+    "soja-record",
+    "energia-cedida"
+   ],
+   "pregunta": {
+    "q": "Si El Niño trae más lluvias y mejora la cosecha de soja, ¿qué pasa en el mercado?",
+    "opts": [
+     "La oferta se desplaza a la derecha y el precio tiende a bajar",
+     "La demanda se desplaza a la derecha",
+     "La oferta se desplaza a la izquierda",
+     "No cambia nada porque el precio no cambió"
+    ],
+    "ok": 0,
+    "fb": "El clima es un determinante de la oferta: con más producción a cada precio, la curva de oferta se desplaza a la derecha."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores y exportadores agrícolas",
+      "Más rendimiento con los mismos recursos."
+     ],
+     [
+      "ANDE y las binacionales",
+      "Más agua en el Paraná permite generar más energía."
+     ]
+    ],
+    "pierden": [
+     [
+      "Consumidores de la región",
+      "Fitch advierte que los alimentos pueden encarecerse en otros países afectados."
+     ],
+     [
+      "Productores en zonas inundables",
+      "El exceso de lluvia también puede dañar cultivos y caminos."
+     ]
+    ],
+    "corto": "Mejores perspectivas para la campaña agrícola y para la generación hidroeléctrica.",
+    "largo": "La dependencia del clima muestra la vulnerabilidad de una economía basada en bienes primarios y represas.",
+    "supuestos": [
+     "Que las lluvias no se conviertan en inundaciones",
+     "Que los precios internacionales de los granos no caigan mucho",
+     "Que el análisis de Fitch se cumpla"
+    ],
+    "conclusion": "El Niño puede ser un empujón para la oferta agrícola y energética de Paraguay, pero depender del clima es un riesgo: la misma fuerza que ayuda este año puede dañar el próximo."
+   },
+   "sector": [
+    "agro",
+    "energia"
+   ],
+   "opinion": false
+  },
+  {
+   "id": "hambre-cero-recorte",
+   "fecha": "2026-11-17",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/politica_edicion_impresa/2026/11/17/hambre-cero-tendra-recortes-de-hasta-usd-100-millones-en-2027/",
+   "titulo": "Hambre Cero: el Gobierno quiere ahorrar hasta US$ 100 millones en 2027",
+   "unidad": "macro",
+   "tema": "3.4",
+   "kc": "equidad",
+   "resumen": "El presidente Pedro Alliana anunció que el almuerzo escolar de Hambre Cero se dará de marzo a noviembre y no en feriados, lo que ahorraría entre US$ 80 y US$ 100 millones en 2027, según La Nación. El ministro de Desarrollo Social, Tadeo Rojas, dijo que el servicio cubriría unos 151 a 153 días de clase con asistencia plena. Hoy ya se redujo 40 % la provisión diaria por la baja asistencia en época de exámenes.",
+   "contexto": "Hambre Cero es una transferencia en especie que busca mejorar la nutrición y la asistencia escolar de los niños, sobre todo de familias pobres: es un programa de equidad. En plena revisión del Presupuesto 2027, con un déficit de 3,9 % del PIB, el Gobierno busca recortar gastos sin quitar el beneficio en los días de clase. El argumento oficial es de eficiencia: no pagar comida que se desperdicia cuando los alumnos no van a la escuela. La pregunta económica es si el ahorro reduce solo el desperdicio o también deja sin comida a niños que la necesitan.",
+   "datos": [
+    [
+     "US$ 80–100 M",
+     "Ahorro estimado en 2027 con el nuevo calendario"
+    ],
+    [
+     "US$ 16 M",
+     "Ahorro que corresponde al Ministerio de Desarrollo Social"
+    ],
+    [
+     "151–153",
+     "Días de almuerzo escolar previstos por año"
+    ],
+    [
+     "40 %",
+     "Reducción actual de la provisión diaria por los exámenes"
+    ],
+    [
+     "G. 300.000 M",
+     "Saldo que el MDS espera tener al cerrar el contrato en julio"
+    ],
+    [
+     "25.000",
+     "Estudiantes de la media sumados el año pasado sin ampliar el presupuesto"
+    ]
+   ],
+   "clave": [
+    "US$ 100 M",
+    "ahorro buscado en Hambre Cero"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ M",
+    "rows": [
+     [
+      "Ahorro mínimo",
+      80,
+      0
+     ],
+     [
+      "Ahorro máximo",
+      100,
+      1
+     ],
+     [
+      "Parte del MDS",
+      16,
+      0
+     ]
+    ]
+   },
+   "cap": "El Gobierno estima ahorrar entre US$ 80 y 100 millones en 2027; US$ 16 millones corresponden al Ministerio de Desarrollo Social.",
+   "pasos": [
+    "El Presupuesto 2027 tiene un déficit alto y el Gobierno busca recortes",
+    "Hambre Cero se limitará a los días con asistencia plena",
+    "Se gasta menos en comida que se desperdiciaba",
+    "El Estado ahorra hasta US$ 100 millones",
+    "El riesgo: que algunos niños pierdan comidas que necesitaban"
+   ],
+   "conceptos": [
+    [
+     "Transferencia en especie",
+     "Ayuda que el Estado da en bienes (comida) en lugar de dinero."
+    ],
+    [
+     "Bien preferente",
+     "Bien que la sociedad considera que todos deberían consumir, como la nutrición infantil."
+    ],
+    [
+     "Eficiencia vs. equidad",
+     "Ahorrar recursos puede chocar con el objetivo de proteger a los más pobres."
+    ],
+    [
+     "Gasto público",
+     "Lo que gasta el Estado; su recorte reduce el déficit."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal",
+    "lorenz"
+   ],
+   "rel": [
+    "pgn-suspendido",
+    "isc-diesel",
+    "mipymes-fogapy"
+   ],
+   "pregunta": {
+    "q": "¿Qué dilema económico plantea el recorte de Hambre Cero?",
+    "opts": [
+     "Eficiencia frente a equidad: ahorrar sin dejar de proteger a los niños pobres",
+     "Oferta frente a demanda de alimentos",
+     "Inflación frente a desempleo",
+     "Exportaciones frente a importaciones"
+    ],
+    "ok": 0,
+    "fb": "Recortar el desperdicio mejora la eficiencia del gasto, pero si se reduce el beneficio de quienes lo necesitan se pierde equidad."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "El Estado (MEF)",
+      "Reduce el gasto y ayuda a bajar el déficit de 2027."
+     ],
+     [
+      "Contribuyentes",
+      "Menos desperdicio de recursos públicos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Niños de familias pobres",
+      "Pueden perder comidas en semanas en que igual asisten a la escuela."
+     ],
+     [
+      "Proveedores del programa",
+      "Venden menos raciones al Estado."
+     ]
+    ],
+    "corto": "El Presupuesto 2027 suma un ahorro de hasta US$ 100 millones.",
+    "largo": "Si el recorte afecta la nutrición o la asistencia, puede dañar la educación y el capital humano de los más pobres.",
+    "supuestos": [
+     "Que la asistencia sea realmente baja en febrero y noviembre",
+     "Que el ahorro estimado se cumpla",
+     "Que los controles eviten dejar sin comida a quienes van a clase"
+    ],
+    "conclusion": "Gastar solo cuando los alumnos están en clase es razonable desde la eficiencia, pero el ahorro es pequeño frente al déficit y el programa protege a los más vulnerables; conviene medir su efecto en la asistencia y la nutrición."
+   },
+   "inst": [
+    "mef"
+   ],
+   "opinion": false
+  },
   {
    "id": "indice-miseria",
    "fecha": "2026-11-16",
@@ -855,14 +1372,14 @@
   },
   {
    "id": "isc-diesel",
-   "fecha": "2026-11-15",
+   "fecha": "2026-11-16",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/experto-preve-mayores-bajas-en-el-precio-de-los-combustibles",
    "titulo": "El Gobierno baja a la mitad el impuesto al diésel: G. 300 menos por litro",
    "unidad": "micro",
    "tema": "2.8",
    "kc": "intervencion",
-   "resumen": "Un decreto del presidente Pedro Alliana redujo 50 % el impuesto selectivo al consumo (ISC) del diésel hasta el 31 de diciembre de 2026. Desde el 13 de noviembre Petropar bajó G. 300 por litro el diésel común y sus tres naftas, y los emblemas privados anunciaron que acompañarán la rebaja. Petropar dice que mantendrá los nuevos precios al menos hasta mediados o fines de enero de 2027. Los gremios de transporte consideran insuficiente la rebaja: reclaman G. 2.500 menos por litro y anunciaron una movilización por tiempo indefinido, según Última Hora.",
+   "resumen": "Un decreto del presidente Pedro Alliana redujo 50 % el impuesto selectivo al consumo (ISC) del diésel hasta el 31 de diciembre de 2026. Desde el 13 de noviembre Petropar bajó G. 300 por litro el diésel común y sus tres naftas, y los emblemas privados anunciaron que acompañarán la rebaja. Petropar dice que mantendrá los nuevos precios al menos hasta mediados o fines de enero de 2027. Los gremios de transporte consideran insuficiente la rebaja: reclaman G. 2.500 menos por litro y anunciaron una movilización por tiempo indefinido, según Última Hora. El 16 de noviembre seguía el paro con cierres intermitentes de rutas: más de 100 camioneros y volqueteros, según su vocero Miguel Sanabria, que calificó la rebaja de G. 300 como «una burla» y dio plazo al Gobierno hasta fin de semana.",
    "contexto": "Un impuesto indirecto como el ISC sube el costo de vender cada litro y desplaza la oferta hacia arriba; al reducirlo, la oferta baja y el precio cae. Según el especialista Victorio Oxilia Dávalos, la medida es una transferencia del bolsillo del MEF a los consumidores: el Estado recauda menos. En las naftas, la baja vino sobre todo del petróleo más barato; en el diésel, que volvió a subir en el mercado internacional, fue necesario recortar el impuesto. El experto advierte que, si los privados no trasladan la rebaja al precio, la transferencia iría a las empresas y no a los consumidores.",
    "datos": [
     [
@@ -888,6 +1405,10 @@
     [
      "G. 2.500",
      "Baja por litro que reclaman los transportistas"
+    ],
+    [
+     "100+",
+     "Camioneros en el paro con cierre de rutas (16 nov), según la Asociación de Volqueteros"
     ]
    ],
    "clave": [
@@ -989,6 +1510,11 @@
      "Última Hora",
      "https://www.ultimahora.com/transportistas-advierten-con-sitiar-asuncion-si-gobierno-no-reduce-el-precio-de-combustibles",
      "2026-11-15"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/camioneros-continuan-con-paro-indefinido-para-exigir-reduccion-de-g-2-500-en-combustibles",
+     "2026-11-16"
     ]
    ]
   },
@@ -1083,8 +1609,7 @@
    ],
    "rel": [
     "imaep-setiembre",
-    "consumo-cae",
-    "pib-2t-2026"
+    "consumo-cae"
    ],
    "pregunta": {
     "q": "Las ventas crecieron 2,5 % en septiembre frente a 4,4 % en agosto. ¿Qué significa?",
@@ -2018,7 +2543,6 @@
     "da-oa-oacp"
    ],
    "rel": [
-    "pib-2t-2026",
     "consumo-cae"
    ],
    "pregunta": {
@@ -2655,7 +3179,6 @@
    ],
    "rel": [
     "pgn-suspendido",
-    "pgn-2027",
     "bonos-embi",
     "guarani-cae"
    ],
@@ -2793,8 +3316,7 @@
     "politicas-oferta"
    ],
    "rel": [
-    "desempleo-41",
-    "adultos-mayores"
+    "desempleo-41"
    ],
    "pregunta": {
     "q": "¿Por qué la alta informalidad es una barrera al desarrollo económico?",
@@ -2843,9 +3365,9 @@
   },
   {
    "id": "itaipu-tarifa-2027",
-   "fecha": "2026-11-09",
+   "fecha": "2026-11-16",
    "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/itaipu-urge-definir-la-tarifa-antes-del-vencimiento-del-contrato-en-diciembre",
+   "url": "https://www.ultimahora.com/itaipu-inicia-la-cuenta-regresiva-para-negociar-la-tarifa",
    "titulo": "Itaipú: la tarifa vence el 31 de diciembre y no hay acuerdo para 2027",
    "unidad": "micro",
    "tema": "2.11",
@@ -2856,7 +3378,7 @@
    "mundo": [
     "brasil"
    ],
-   "resumen": "Félix Sosa, que volvió a presidir la ANDE el lunes 9, dijo a Última Hora que urge definir la tarifa de Itaipú y el acuerdo operativo antes de que venzan el 31 de diciembre de 2026. Según el entendimiento de mayo de 2024, desde 2027 la tarifa reflejaría solo el costo estricto de operación; con la fórmula del Cecuse quedaría entre US$ 8 y US$ 10 por kW al mes.",
+   "resumen": "Félix Sosa, que volvió a presidir la ANDE el lunes 9, dijo a Última Hora que urge definir la tarifa de Itaipú y el acuerdo operativo antes de que venzan el 31 de diciembre de 2026. Según el entendimiento de mayo de 2024, desde 2027 la tarifa reflejaría solo el costo estricto de operación; con la fórmula del Cecuse quedaría entre US$ 8 y US$ 10 por kW al mes. El 16 de noviembre Última Hora informó que, tras la destitución de Santiago Peña, el Ejecutivo aún no dijo públicamente quién negociará por Paraguay. Según el ingeniero Guillermo López Flores, si no hay acuerdo antes del 31 de diciembre Brasil pagaría la tarifa técnica y Paraguay perdería unos US$ 650 millones anuales para obras; para la ANDE, en cambio, la tarifa de compra bajaría entre 38 % y 48 %.",
    "contexto": "Itaipú vende electricidad sin competencia: la tarifa no la fija el mercado sino un acuerdo entre Paraguay y Brasil, como en un monopolio regulado. Como la deuda de construcción se terminó de pagar en 2023, una tarifa basada solo en el costo sería mucho más baja y abarataría la energía para la ANDE, pero también reduciría los fondos que Itaipú dedica a gastos sociales. Según el artículo, la negociación la conduce el ministro Javier Giménez, y Sosa adelantó que la ANDE volverá a vender energía al mercado libre de Brasil.",
    "datos": [
     [
@@ -2874,6 +3396,18 @@
     [
      "US$ 21 M",
      "Préstamo BID–Taiwán de la ANDE atrapado en Ueno"
+    ],
+    [
+     "US$ 650 M",
+     "Lo que la tarifa de US$ 19,28 dejó cada año a Paraguay para obras, según López Flores"
+    ],
+    [
+     "38–48 %",
+     "Baja de la tarifa de compra de la ANDE si se aplica la tarifa técnica"
+    ],
+    [
+     "US$ 16,71",
+     "Tarifa por kW-mes que pagan los brasileños, según Diário do Comércio"
     ]
    ],
    "clave": [
@@ -2958,7 +3492,14 @@
      "Que no haya demoras por el cambio de gobierno"
     ],
     "conclusion": "Bajar la tarifa beneficia a la ANDE y a la industria, pero obliga a decidir cómo se financian los gastos sociales; la urgencia es cerrar el acuerdo antes del 31 de diciembre."
-   }
+   },
+   "mas": [
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/itaipu-inicia-la-cuenta-regresiva-para-negociar-la-tarifa",
+     "2026-11-16"
+    ]
+   ]
   },
   {
    "id": "ande-ueno",
@@ -3425,134 +3966,6 @@
      "2026-11-15"
     ]
    ]
-  },
-  {
-   "id": "pisa-2025",
-   "fecha": "2026-09-12",
-   "medio": "Prensa Mercosur",
-   "url": "https://prensamercosur.org/2026/09/12/paraguay-tras-pisa-2025-expertos-advierten-que-el-sistema-educativo-esta-desfasado-y-carece-de-un-plan-claro-de-mejora/",
-   "titulo": "PISA 2025: solo 24 % de los estudiantes alcanza el nivel básico de lectura",
-   "unidad": "macro",
-   "tema": "3.7",
-   "kc": "bienestar",
-   "resumen": "En la prueba internacional PISA 2025, solo el 24 % de los estudiantes paraguayos de 15 años alcanzó el nivel básico en lectura, frente a 69 % del promedio internacional. En matemáticas fue 10 % (frente a 64 %) y en ciencias 24 % (frente a 74 %).",
-   "contexto": "El puntaje de lectura bajó de 373 en 2022 a 352 en 2025. Según la nota, Paraguay es último en la región en matemáticas y penúltimo en ciencias. La educación es capital humano: trabajadores mejor formados son más productivos. Por eso la inversión en educación es una política de oferta, que a largo plazo aumenta el PIB potencial (desplaza la OALP), aunque sus efectos tardan años.",
-   "datos": [
-    [
-     "24 %",
-     "Nivel básico en lectura (promedio internacional 69 %)"
-    ],
-    [
-     "10 %",
-     "Nivel básico en matemáticas (64 %)"
-    ],
-    [
-     "24 %",
-     "Nivel básico en ciencias (74 %)"
-    ],
-    [
-     "373 → 352",
-     "Puntaje de lectura 2022 → 2025"
-    ]
-   ],
-   "clave": [
-    "24 %",
-    "nivel básico en lectura"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "% con nivel básico o más",
-    "rows": [
-     [
-      "Lectura Paraguay",
-      24,
-      1
-     ],
-     [
-      "Lectura promedio",
-      69
-     ],
-     [
-      "Matemática Paraguay",
-      10,
-      1
-     ],
-     [
-      "Matemática promedio",
-      64
-     ],
-     [
-      "Ciencias Paraguay",
-      24,
-      1
-     ],
-     [
-      "Ciencias promedio",
-      74
-     ]
-    ]
-   },
-   "cap": "Porcentaje de estudiantes de 15 años con nivel básico o superior en PISA 2025.",
-   "pasos": [
-    "Pocos estudiantes alcanzan competencias básicas",
-    "Menos capital humano en el futuro",
-    "Menor productividad de los trabajadores",
-    "Crecimiento potencial más bajo",
-    "Mejorar la educación es una política de oferta de largo plazo"
-   ],
-   "conceptos": [
-    [
-     "Capital humano",
-     "Conocimientos y habilidades de las personas."
-    ],
-    [
-     "Productividad",
-     "Producción por trabajador u hora trabajada."
-    ],
-    [
-     "Política de oferta",
-     "Medidas para aumentar la capacidad productiva del país."
-    ],
-    [
-     "OALP",
-     "Oferta agregada de largo plazo: el PIB potencial."
-    ]
-   ],
-   "diagramas": [
-    "politicas-oferta"
-   ],
-   "rel": [],
-   "pregunta": {
-    "q": "¿Por qué mejorar la educación es una política de oferta?",
-    "opts": [
-     "Porque aumenta la productividad y el PIB potencial a largo plazo",
-     "Porque sube la demanda de inmediato",
-     "Porque baja la inflación en un mes",
-     "Porque reduce el déficit fiscal"
-    ],
-    "ok": 0,
-    "fb": "Más capital humano aumenta la capacidad productiva: desplaza la OALP a la derecha, aunque el efecto tarda años."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Estudiantes, si mejora el sistema",
-      "Más oportunidades e ingresos futuros."
-     ]
-    ],
-    "pierden": [
-     [
-      "Toda la economía con el nivel actual",
-      "Menos productividad y crecimiento potencial."
-     ]
-    ],
-    "corto": "Ningún efecto visible: la educación tarda en dar frutos.",
-    "largo": "Sin mejoras, Paraguay tendrá dificultades para pasar de exportar materias primas a producir bienes de mayor valor.",
-    "supuestos": [
-     "Que PISA mida bien las competencias que necesita la economía."
-    ],
-    "conclusion": "La educación es la política de oferta más lenta pero más profunda: invertir hoy define el crecimiento de las próximas décadas."
-   }
   },
   {
    "id": "ied-record",
@@ -4136,7 +4549,7 @@
   },
   {
    "id": "pgn-suspendido",
-   "fecha": "2026-11-15",
+   "fecha": "2026-11-16",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/diputados-aprueban-pgn-2027-con-modificaciones-pero-mantienen-elevado-deficit-de-3-9",
    "titulo": "Diputados aprueba el Presupuesto 2027 con recortes, pero el déficit sigue en 3,9 %",
@@ -4146,7 +4559,7 @@
    "inst": [
     "mef"
    ],
-   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. El proyecto ya está en el Senado, que tiene hasta 15 días para sancionarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina.",
+   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación.",
    "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja. El 13 de noviembre el ministro Oscar Lovera dijo a Diputados que la crisis de Ueno es un caso puntual y que espera mantener la emisión de bonos en el exterior: el plan prevé colocar G. 17,4 billones (US$ 2.708,7 millones), hasta 70 % más que en 2026, el 99 % en el mercado internacional (Última Hora).",
    "datos": [
     [
@@ -4176,6 +4589,10 @@
     [
      "US$ 2.708,7 M",
      "Bonos que se emitirían en 2027 (99 % en el exterior), hasta 70 % más que en 2026"
+    ],
+    [
+     "4",
+     "Ejes del Gabinete de Impulso Económico: convergencia fiscal, reputación, programas sociales y bancarización"
     ]
    ],
    "clave": [
@@ -4222,12 +4639,12 @@
     "da-oa-da"
    ],
    "rel": [
-    "pgn-2027",
     "sp-calificacion",
     "bonos-embi",
     "alliana-gobierno",
     "fitch-revision",
-    "ueno-lotes"
+    "ueno-lotes",
+    "hambre-cero-recorte"
    ],
    "pregunta": {
     "q": "Diputados recortó US$ 276 millones pero reasignó parte a salud y obras, y el déficit siguió en 3,9 %. ¿Por qué no bajó el déficit?",
@@ -4319,6 +4736,21 @@
      "Última Hora",
      "https://www.ultimahora.com/para-ex-ministro-recortes-al-pgn-2027-son-insuficientes-para-corregir-problemas-del-fisco",
      "2026-11-15"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/ante-proyecto-de-pgn-2027-desfasado-ejecutivo-y-gremios-buscan-mas-cambios-en-el-senado",
+     "2026-11-16"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/16/gobierno-y-gremios-acuerdan-la-creacion-de-un-gabinete-de-impulso-economico/",
+     "2026-11-16"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/politica_edicion_impresa/2026/11/17/hambre-cero-tendra-recortes-de-hasta-usd-100-millones-en-2027/",
+     "2026-11-17"
     ]
    ]
   },
@@ -4945,16 +5377,24 @@
   },
   {
    "id": "dolar-6600",
-   "fecha": "2026-11-14",
+   "fecha": "2026-11-16",
    "medio": "La Tribuna",
    "url": "https://www.latribuna.com.py/negocios/economia/2026/11/08/dolar-a-gs-6600-la-crisis-obliga-a-revisar-las-previsiones/",
    "titulo": "El dólar saltó a G. 6.600 y se calma en G. 6.150, pero sigue volátil",
    "unidad": "global",
    "tema": "4.5",
    "kc": "cambio",
-   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre. El martes 10, según RDN, la venta bajó a G. 6.200 en algunas casas de cambio; el sector lo atribuye al pago de depósitos de Ueno, aunque los importadores siguen comprando dólares para las ventas de fin de año. El viernes 13, según Última Hora, la mayoría de las casas de cambio de Asunción vendía a G. 6.150 y compraba a G. 5.900; en el mercado bancario el dólar oscilaba entre G. 6.200 y G. 6.250. Según Última Hora, el dólar cerró la semana en G. 6.150 en el mercado minorista, 450 puntos menos que el pico; antes de la crisis, el 2 de noviembre, estaba en G. 5.950. El presidente de la Asociación de Casas de Cambio, Emil Mendoza, prevé una leve suba hasta fin de año.",
+   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre. El martes 10, según RDN, la venta bajó a G. 6.200 en algunas casas de cambio; el sector lo atribuye al pago de depósitos de Ueno, aunque los importadores siguen comprando dólares para las ventas de fin de año. El viernes 13, según Última Hora, la mayoría de las casas de cambio de Asunción vendía a G. 6.150 y compraba a G. 5.900; en el mercado bancario el dólar oscilaba entre G. 6.200 y G. 6.250. Según Última Hora, el dólar cerró la semana en G. 6.150 en el mercado minorista, 450 puntos menos que el pico; antes de la crisis, el 2 de noviembre, estaba en G. 5.950. El presidente de la Asociación de Casas de Cambio, Emil Mendoza, prevé una leve suba hasta fin de año. El lunes 16, según ABC Color, el dólar repuntó levemente: G. 6.241 en el interbancario y por debajo de G. 6.200 en el mercado minorista; frente a hace un año (unos G. 7.060), el guaraní sigue 12 % más fuerte. El riesgo país se mantiene entre 131 y 134 puntos básicos.",
    "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. El economista Aníbal Insfrán explicó a ABC Color que no faltan dólares: lo que subió fue la demanda, porque personas y empresas buscaron una moneda más segura. Según ABC, la calma del lunes llegó con el pago a los ahorristas y la resolución de la crisis política, aunque los importadores siguen comprando dólares para las ventas de fin de año. Un dólar más caro encarece las deudas en dólares y los productos importados; Insfrán sugiere además revisar el dólar de G. 6.458 que usa el Presupuesto 2027. Según La Nación (10 nov), la Cámara de Supermercados descartó subas inmediatas de precios porque gran parte de la mercadería para las fiestas se compró con un dólar más bajo. Emil Mendoza, presidente de la Asociación de Casas de Cambio, dijo a Última Hora que el ingreso de dólares del exterior a cada casa de cambio bajó de US$ 200.000-500.000 por día a US$ 20.000-30.000, porque inversores extranjeros retiran fondos de la bolsa: menos oferta de dólares sostiene su precio, y él prevé una leve suba hasta fin de año salvo que vuelva la confianza.",
    "datos": [
+    [
+     "G. 6.241",
+     "Dólar interbancario (16 nov)"
+    ],
+    [
+     "−12 %",
+     "Baja del dólar frente a hace un año (≈G. 7.060)"
+    ],
     [
      "G. 6.150",
      "Venta en la mayoría de las casas de cambio (13 nov); compra G. 5.900"
@@ -5153,6 +5593,11 @@
      "Última Hora",
      "https://www.ultimahora.com/dolar-cerro-la-semana-con-caida-de-450-puntos-tras-fuerte-repunte-por-crisis-de-ueno",
      "2026-11-14"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/negocios/2026/11/16/leve-repunte-del-dolar-en-el-arranque-de-la-semana/",
+     "2026-11-16"
     ]
    ]
   },
@@ -5243,7 +5688,6 @@
     "tipo-cambio"
    ],
    "rel": [
-    "pgn-2027",
     "pena-dolar"
    ],
    "pregunta": {
@@ -5995,7 +6439,6 @@
    "rel": [
     "alliana-gobierno",
     "ueno-intervencion",
-    "pgn-2027",
     "fitch-revision",
     "pgn-suspendido"
    ],
@@ -6910,148 +7353,6 @@
    ]
   },
   {
-   "id": "pgn-2027",
-   "fecha": "2026-09-17",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/economia/2026/09/17/pgn-2027-economistas-alertan-sobre-deficit-deuda-y-menor-inversion-publica/",
-   "mas": [
-    [
-     "InfoNegocios",
-     "https://infonegocios.com.py/nota-principal/ejecutivo-presento-el-pgn-2027-por-us-25-700-millones-y-con-deficit-fiscal-proyectado-de-hasta-3-9-del-pib",
-     "2026-09-02"
-    ]
-   ],
-   "titulo": "Presupuesto 2027: un déficit de hasta 3,9 % del PIB, más del doble del límite legal",
-   "unidad": "macro",
-   "tema": "3.6",
-   "kc": "intervencion",
-   "resumen": "El proyecto de Presupuesto General de la Nación 2027 suma G. 166,3 billones (unos US$ 25.700 millones), 11,2 % más que en 2026. El Gobierno pide un déficit de hasta 3,9 % del PIB; la Ley de Responsabilidad Fiscal fija un límite de 1,5 %.",
-   "contexto": "Gran parte del aumento sirve para pagar deudas acumuladas con proveedores, sobre todo de Salud. Sin esos pagos extraordinarios, el déficit rondaría 1,9 %. El Gobierno estima que necesitará unos US$ 2.100 millones de nueva deuda en 2027 y promete volver al 1,5 % en 2028. Economistas advierten que la inversión pública podría caer y que los ingresos dependen del tipo de cambio que se suponga.",
-   "datos": [
-    [
-     "G. 166,3 bill.",
-     "Presupuesto total 2027"
-    ],
-    [
-     "+11,2 %",
-     "Frente a 2026"
-    ],
-    [
-     "3,9 %",
-     "Déficit pedido (% del PIB)"
-    ],
-    [
-     "1,5 %",
-     "Límite de la Ley de Responsabilidad Fiscal"
-    ],
-    [
-     "US$ 2.100 M",
-     "Nueva deuda estimada para 2027"
-    ]
-   ],
-   "clave": [
-    "3,9 %",
-    "déficit del PIB"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "% del PIB",
-    "rows": [
-     [
-      "Límite legal",
-      1.5
-     ],
-     [
-      "Sin pagos extra",
-      1.9
-     ],
-     [
-      "Déficit pedido",
-      3.9,
-      1
-     ]
-    ]
-   },
-   "cap": "Déficit fiscal de 2027 frente al límite de la Ley de Responsabilidad Fiscal, en % del PIB.",
-   "pasos": [
-    "El Estado planea gastar más de lo que recauda",
-    "La diferencia se cubre con nueva deuda",
-    "Más gasto público (G) aumenta la DA a corto plazo",
-    "Más deuda implica más intereses en el futuro",
-    "Riesgo: menos inversión pública y peor calificación"
-   ],
-   "conceptos": [
-    [
-     "Déficit fiscal",
-     "Lo que falta cuando el gasto público supera a los ingresos en un año."
-    ],
-    [
-     "Deuda pública",
-     "Lo que el Estado debe, acumulado a lo largo de los años."
-    ],
-    [
-     "Regla fiscal",
-     "Ley que limita el déficit: 1,5 % del PIB en Paraguay."
-    ],
-    [
-     "Presión tributaria",
-     "Impuestos recaudados como % del PIB: cerca de 11 % en Paraguay."
-    ]
-   ],
-   "diagramas": [
-    "politica-fiscal",
-    "da-oa-da"
-   ],
-   "rel": [
-    "pgn-suspendido",
-    "recaudacion-dnit",
-    "bonos-embi"
-   ],
-   "pregunta": {
-    "q": "Si el Estado gasta 3,9 % del PIB más de lo que recauda, ¿cómo cubre la diferencia?",
-    "opts": [
-     "Con nueva deuda: bonos y préstamos",
-     "Imprimiendo billetes en el BCP",
-     "Bajando la tasa de interés",
-     "Con el superávit comercial"
-    ],
-    "ok": 0,
-    "fb": "El déficit se financia con endeudamiento: el Estado emite bonos o pide préstamos."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Proveedores del Estado (salud)",
-      "Cobran deudas atrasadas."
-     ],
-     [
-      "Beneficiarios de programas sociales",
-      "Se mantiene o amplía la cobertura."
-     ]
-    ],
-    "pierden": [
-     [
-      "Contribuyentes futuros",
-      "Más deuda e intereses."
-     ],
-     [
-      "Inversión pública",
-      "Puede quedar con menos recursos."
-     ]
-    ],
-    "corto": "Más gasto público y pago de deudas atrasadas.",
-    "largo": "Si el déficit alto se vuelve permanente, peligran la regla fiscal y el grado de inversión.",
-    "supuestos": [
-     "Que el déficit vuelva a 1,5 % en 2028.",
-     "Que la recaudación crezca como prevé el Gobierno."
-    ],
-    "conclusion": "Sincerar las deudas es positivo, pero pagarlo con deuda solo es sostenible si el ajuste prometido para 2028 se cumple."
-   },
-   "inst": [
-    "mef"
-   ]
-  },
-  {
    "id": "itaipu-opinion",
    "fecha": "2026-11-08",
    "medio": "ABC Color",
@@ -7123,9 +7424,7 @@
     ]
    ],
    "diagramas": [],
-   "rel": [
-    "pgn-2027"
-   ],
+   "rel": [],
    "pregunta": {
     "q": "«Los usuarios no deberían pagar gastos sociales en la factura de luz.» ¿Qué tipo de afirmación es?",
     "opts": [
@@ -7364,8 +7663,7 @@
     "oferta-demanda"
    ],
    "rel": [
-    "soja-record",
-    "pib-2t-2026"
+    "soja-record"
    ],
    "pregunta": {
     "q": "¿Qué pasa con la curva de oferta de soja si una cosecha es mejor por el buen clima?",
@@ -7401,252 +7699,6 @@
      "Que los precios internacionales no bajen tanto como para compensar el mayor volumen"
     ],
     "conclusion": "Una buena cosecha impulsa la economía, pero muestra lo dependiente que es Paraguay del clima."
-   }
-  },
-  {
-   "id": "adultos-mayores",
-   "fecha": "2026-09-01",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.py/negocios/2026/09/01/plan-de-gastos-para-el-2027-asciende-a-usd-25751-millones/",
-   "mas": [
-    [
-     "InfoNegocios",
-     "https://infonegocios.com.py/nota-principal/ejecutivo-presento-el-pgn-2027-por-us-25-700-millones-y-con-deficit-fiscal-proyectado-de-hasta-3-9-del-pib",
-     "2026-09-02"
-    ]
-   ],
-   "titulo": "La pensión para adultos mayores llega a 406.000 personas: equidad en el Presupuesto",
-   "unidad": "macro",
-   "tema": "3.4",
-   "kc": "equidad",
-   "inst": [
-    "mef"
-   ],
-   "resumen": "El proyecto de Presupuesto 2027 sube en US$ 65 millones la pensión para adultos mayores, que llega a un total de unos US$ 564 millones y a más de 406.000 beneficiarios. Según InfoNegocios, los beneficiarios pasarían de unos 376.000 a más de 406.000.",
-   "contexto": "El mercado reparte el ingreso según lo que cada uno vende (su trabajo, su capital), y eso puede dejar a muchas personas sin ingresos suficientes, como los adultos mayores que trabajaron en la informalidad y no tienen jubilación. Para corregir esa falta de equidad, el Estado usa transferencias: pagos sin contraprestación financiados con impuestos. La pensión reduce la pobreza en la vejez y la desigualdad, pero tiene un costo de oportunidad: ese dinero no va a otras áreas, y el Presupuesto 2027 ya prevé un déficit alto.",
-   "datos": [
-    [
-     "406.000+",
-     "Beneficiarios de la pensión para adultos mayores en 2027"
-    ],
-    [
-     "US$ 564 M",
-     "Monto total del programa en el proyecto 2027"
-    ],
-    [
-     "+US$ 65 M",
-     "Aumento frente a 2026"
-    ],
-    [
-     "≈376.000",
-     "Beneficiarios antes del aumento"
-    ]
-   ],
-   "clave": [
-    "406.000",
-    "adultos mayores con pensión"
-   ],
-   "fig": {
-    "k": "lorenz",
-    "g": 0.43
-   },
-   "cap": "Las transferencias a los hogares de menos ingresos acercan la curva de Lorenz a la línea de igualdad perfecta.",
-   "pasos": [
-    "El mercado deja sin ingresos a quienes no pudieron aportar",
-    "Muchos adultos mayores no tienen jubilación",
-    "El Estado les transfiere una pensión financiada con impuestos",
-    "Aumenta su ingreso y baja la pobreza en la vejez",
-    "Se reduce la desigualdad, con un costo fiscal"
-   ],
-   "conceptos": [
-    [
-     "Equidad",
-     "Distribución justa del ingreso; no es lo mismo que igualdad."
-    ],
-    [
-     "Pagos de transferencia",
-     "Pagos del Estado sin contraprestación, como pensiones o subsidios."
-    ],
-    [
-     "Redistribución del ingreso",
-     "Pasar ingreso de unos grupos a otros mediante impuestos y transferencias."
-    ]
-   ],
-   "diagramas": [
-    "lorenz"
-   ],
-   "rel": [
-    "pgn-2027"
-   ],
-   "pregunta": {
-    "q": "¿Qué efecto tiene una pensión para adultos mayores sin jubilación?",
-    "opts": [
-     "Reduce la desigualdad y la pobreza en la vejez",
-     "Aumenta la desigualdad",
-     "Es un impuesto regresivo",
-     "No afecta la distribución del ingreso"
-    ],
-    "ok": 0,
-    "fb": "Es una transferencia a un grupo de bajos ingresos: sube su ingreso y acerca la curva de Lorenz a la igualdad."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Adultos mayores sin jubilación",
-      "Reciben un ingreso mensual."
-     ],
-     [
-      "Comercios locales",
-      "Más consumo en los barrios."
-     ]
-    ],
-    "pierden": [
-     [
-      "Contribuyentes y otras áreas",
-      "El costo se paga con impuestos o con deuda."
-     ]
-    ],
-    "corto": "Baja la pobreza en la vejez.",
-    "largo": "Con una población que envejece, el costo del programa crecerá.",
-    "supuestos": [
-     "Que la pensión llegue a quienes más la necesitan"
-    ],
-    "conclusion": "Es una herramienta eficaz para la equidad, pero su sostenibilidad depende de recaudar más o gastar mejor en otras áreas."
-   }
-  },
-  {
-   "id": "pib-2t-2026",
-   "fecha": "2026-09-29",
-   "medio": "InfoNegocios",
-   "url": "https://infonegocios.com.py/default/economia-local-crecio-4-en-el-segundo-trimestre-y-acumulo-una-expansion-de-5-7-en-el-semestre",
-   "titulo": "Cómo se mide la economía: el PIB creció 4 % en el segundo trimestre",
-   "unidad": "macro",
-   "tema": "3.1",
-   "kc": "cambio",
-   "inst": [
-    "bcp"
-   ],
-   "resumen": "Según las Cuentas Nacionales Trimestrales del BCP, el PIB creció 4 % interanual en el segundo trimestre de 2026 y 5,7 % en el primer semestre. La agricultura creció 11,1 % y la electricidad y agua 13 %, mientras la ganadería cayó. Por el lado del gasto, el consumo creció 3,6 %, la inversión cayó 11,8 % y las exportaciones subieron 11,5 %.",
-   "contexto": "El PIB es el valor de todos los bienes y servicios finales producidos en un país en un periodo. Se puede medir de tres formas que deberían dar lo mismo: por la producción (cuánto aporta cada sector), por el gasto (consumo + inversión + gasto público + exportaciones netas) y por el ingreso. Este dato del BCP muestra las dos primeras: por sectores, el agro y las represas empujaron; por el gasto, la demanda externa neta aportó 6,7 puntos al crecimiento, mientras la inversión cayó. El crecimiento es real, es decir, descontando la inflación.",
-   "datos": [
-    [
-     "+4 %",
-     "PIB real, 2.º trimestre 2026 (interanual)"
-    ],
-    [
-     "+5,7 %",
-     "PIB del primer semestre"
-    ],
-    [
-     "+3,6 %",
-     "Consumo total"
-    ],
-    [
-     "−11,8 %",
-     "Inversión (formación bruta de capital fijo)"
-    ],
-    [
-     "+6,7 pts",
-     "Aporte de la demanda externa neta al crecimiento"
-    ],
-    [
-     "48,8 %",
-     "Peso de los servicios en la economía"
-    ]
-   ],
-   "clave": [
-    "+4 %",
-    "crecimiento del PIB real"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "% interanual (2.º trim. 2026)",
-    "rows": [
-     [
-      "Agricultura",
-      11.1,
-      1
-     ],
-     [
-      "Electricidad y agua",
-      13
-     ],
-     [
-      "Construcción",
-      4.2
-     ],
-     [
-      "Servicios",
-      3.4
-     ],
-     [
-      "Manufactura",
-      1.8
-     ]
-    ]
-   },
-   "cap": "El PIB por el método de la producción: cuánto creció cada sector. Agro y represas lideraron.",
-   "pasos": [
-    "El BCP suma lo que produce cada sector (método de la producción)",
-    "También mide el gasto: C + I + G + (X − M)",
-    "Descuenta la inflación para obtener el PIB real",
-    "Compara con el mismo trimestre del año anterior",
-    "Resultado: 4 % de crecimiento real"
-   ],
-   "conceptos": [
-    [
-     "PIB",
-     "Valor de mercado de los bienes y servicios finales producidos en un país en un periodo."
-    ],
-    [
-     "PIB real",
-     "PIB ajustado por inflación; mide cambios en la cantidad producida."
-    ],
-    [
-     "Método del gasto",
-     "PIB = C + I + G + (X − M)."
-    ],
-    [
-     "Ciclo económico",
-     "Fluctuaciones del PIB real alrededor de su tendencia."
-    ]
-   ],
-   "diagramas": [
-    "da-oa-da"
-   ],
-   "rel": [
-    "agro-oferta"
-   ],
-   "pregunta": {
-    "q": "¿Por qué el BCP informa el crecimiento del PIB «real»?",
-    "opts": [
-     "Para descontar el efecto de la inflación y medir la cantidad producida",
-     "Para incluir la economía informal",
-     "Para sumar el PIB de Brasil y Argentina",
-     "Para medir la desigualdad"
-    ],
-    "ok": 0,
-    "fb": "El PIB nominal puede subir solo porque suben los precios; el real elimina la inflación y muestra si se produjo más."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Exportadores agrícolas",
-      "Impulsaron el crecimiento."
-     ]
-    ],
-    "pierden": [
-     [
-      "Sectores ligados a la inversión",
-      "La inversión cayó 11,8 %."
-     ]
-    ],
-    "corto": "Crecimiento sólido apoyado en exportaciones.",
-    "largo": "Con menos inversión hoy, la capacidad de crecer mañana puede ser menor.",
-    "supuestos": [
-     "Que la medición capte bien la economía informal"
-    ],
-    "conclusion": "El PIB creció, pero mirar sus componentes muestra un punto débil: la caída de la inversión."
    }
   },
   {
@@ -8195,7 +8247,7 @@
   },
   {
    "id": "mipymes-fogapy",
-   "fecha": "2026-11-15",
+   "fecha": "2026-11-17",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/15/mipymes-tendal-de-heridos-por-crisis/",
    "titulo": "Las mipymes piden un «Fogapy 2» para no frenar antes de fin de año",
@@ -8208,7 +8260,7 @@
    "sector": [
     "comercio"
    ],
-   "resumen": "La Federación de Mipymes (Fedemipymes) pidió crear una mesa de trabajo con el Gobierno y los bancos y lanzar un «Fogapy 2»: créditos garantizados para capital de trabajo con 6 meses de gracia, como en la pandemia. Según el gremio, la crisis de Ueno dejó congelados más de US$ 1.200 millones del sector privado y ya se perdieron más de 5.000 empleos.",
+   "resumen": "La Federación de Mipymes (Fedemipymes) pidió crear una mesa de trabajo con el Gobierno y los bancos y lanzar un «Fogapy 2»: créditos garantizados para capital de trabajo con 6 meses de gracia, como en la pandemia. Según el gremio, la crisis de Ueno dejó congelados más de US$ 1.200 millones del sector privado y ya se perdieron más de 5.000 empleos. El 17 de noviembre, Eugenio Caje, de la Asociación de Importadores y Comerciantes (Asimcopar), dijo a ABC Color que hoy entra apenas el 10 % de los contenedores de antes porque las pymes perdieron su capital de trabajo, y advirtió sobre una posible recesión. El gremio pidió un préstamo puente y un sistema de garantías similar al Fogapy; el viceministro de Comercio, Alberto Sborovsky, se comprometió a elevar el pedido.",
    "contexto": "Muchas pequeñas empresas usaban Ueno para su capital operativo y sus líneas de crédito; el Fondo de Garantía devuelve hasta G. 228 millones por titular, así que montos mayores siguen sin liquidez. Sin ese dinero no pueden comprar mercadería para fin de año, y en diciembre tienen que pagar salarios y aguinaldos. Según Fedemipymes, el sector genera el 75 % del empleo, así que si frena puede caer la demanda agregada. El Fogapy es un fondo público que garantiza préstamos: el Estado asume parte del riesgo para que los bancos presten a quienes no tienen suficientes garantías. La propuesta involucra al MIC, al MEF, a la AFD y a Asoban.",
    "datos": [
     [
@@ -8230,6 +8282,14 @@
     [
      "6 meses",
      "Periodo de gracia propuesto para los créditos"
+    ],
+    [
+     "10 %",
+     "Contenedores que entran hoy frente a antes, según Asimcopar"
+    ],
+    [
+     "30 %+",
+     "Parte de las ventas anuales del comercio entre noviembre y mediados de enero"
     ]
    ],
    "clave": [
@@ -8315,7 +8375,14 @@
      "Que el Gobierno tenga margen fiscal: el Presupuesto 2027 ya tiene un déficit alto"
     ],
     "conclusion": "Una garantía temporal puede evitar que un problema de liquidez se convierta en cierres y desempleo, pero debe estar bien focalizada para no agravar el déficit ni premiar el riesgo."
-   }
+   },
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/17/crisis-de-ueno-bank-asimcopar-pide-prestamo-puente-para-pymes-y-alerta-por-recesion/",
+     "2026-11-17"
+    ]
+   ]
   }
  ],
  "historial": {
@@ -8559,6 +8626,10 @@
     [
      "2026-11-10",
      6204.38
+    ],
+    [
+     "2026-11-16",
+     6241
     ]
    ],
    "lee": "El guaraní se apreció casi todo el año, se depreció con fuerza en la primera semana de noviembre por la crisis de Ueno Bank y empezó a recuperarse el 9 de noviembre.",
@@ -8812,7 +8883,7 @@
   },
   "2026-11-16": {
    "titulo": "Después de los anticipos: repartir Ueno y aprobar el Presupuesto",
-   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %.",
+   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno.",
    "claves": [
     "ueno-devolucion",
     "pgn-suspendido",
@@ -8916,10 +8987,6 @@
     ]
    ],
    "agenda": [
-    [
-     "2026-11-16",
-     "Cierra el balance de exclusión de Ueno Bank, paso previo para licitar sus activos y depósitos."
-    ],
     [
      "2026-11-20",
      "Próxima reunión del Comité de Política Monetaria: decide si cambia la tasa."
@@ -9144,6 +9211,14 @@
     [
      "2026-11-13",
      "Lovera ante Diputados: espera emitir US$ 2.708,7 millones en bonos en 2027 pese a la crisis de Ueno."
+    ],
+    [
+     "2026-11-16",
+     "El Ejecutivo y los gremios acuerdan crear un Gabinete de Impulso Económico para revisar el Presupuesto 2027 en el Senado."
+    ],
+    [
+     "2026-11-17",
+     "Alliana anuncia un ahorro de hasta US$ 100 millones en Hambre Cero en 2027."
     ]
    ],
    "enlaces": [
@@ -10040,6 +10115,10 @@
    "por_que": "La energía es un costo de casi toda la producción. Electricidad barata atrae industrias, pero la demanda crece rápido y la parte que Paraguay no usa se cede a los socios. A la vez, depender de combustibles importados expone al país a los precios del petróleo y al tipo de cambio.",
    "cifras": [
     [
+     "+16 %",
+     "Demanda eléctrica ene-oct 2026 (27.407,1 GWh), según la ANDE (Última Hora, 16 nov)"
+    ],
+    [
      "68 %",
      "Parte paraguaya de las binacionales usada en el país (ene-sep)"
     ],
@@ -10426,7 +10505,8 @@
     "encaje-ueno",
     "liquidez-tasas",
     "asoban-regulacion",
-    "mipymes-fogapy"
+    "mipymes-fogapy",
+    "confianza-octubre"
    ],
    "hitos": [
     [
@@ -10583,8 +10663,18 @@
      "ueno-devolucion"
     ],
     [
+     "2026-11-16",
+     "La confianza del consumidor de octubre (antes de Ueno) queda en 45,3 puntos, zona de pesimismo.",
+     "confianza-octubre"
+    ],
+    [
      "2026-11-17",
      "El IPS paga jubilaciones y aguinaldo."
+    ],
+    [
+     "2026-11-17",
+     "Asimcopar: solo entra el 10 % de los contenedores y pide un préstamo puente para pymes.",
+     "mipymes-fogapy"
     ]
    ]
   },
@@ -10606,7 +10696,8 @@
     "pgn-suspendido",
     "deuda-setiembre",
     "sp-calificacion",
-    "fitch-revision"
+    "fitch-revision",
+    "hambre-cero-recorte"
    ],
    "hitos": [
     [
@@ -10668,6 +10759,16 @@
      "2026-11-15",
      "El Presupuesto llega al Senado, con 15 días para sancionarlo; el exministro Benigno López dice que el recorte no alcanza.",
      "pgn-suspendido"
+    ],
+    [
+     "2026-11-16",
+     "Alliana y los gremios crean un Gabinete de Impulso Económico para pedir cambios al Presupuesto en el Senado.",
+     "pgn-suspendido"
+    ],
+    [
+     "2026-11-17",
+     "Alliana anuncia un recorte de hasta US$ 100 millones en Hambre Cero para 2027.",
+     "hambre-cero-recorte"
     ]
    ]
   },
@@ -10742,6 +10843,11 @@
     [
      "2026-11-14",
      "El dólar cierra la semana en G. 6.150, 450 puntos debajo del pico de la crisis.",
+     "dolar-6600"
+    ],
+    [
+     "2026-11-16",
+     "El dólar repunta levemente a G. 6.241 en el interbancario.",
      "dolar-6600"
     ]
    ]
@@ -12066,7 +12172,8 @@
    "ande-ueno",
    "itaipu-opinion",
    "energia-cedida",
-   "ande-tarifa"
+   "ande-tarifa",
+   "consumo-electrico"
   ]
  },
  "miradas": [
@@ -14017,8 +14124,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-16",
-  "hora": "07:25",
+  "fecha": "2026-11-17",
+  "hora": "07:32",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -14032,7 +14139,7 @@
    [
     "ARS",
     "Peso argentino",
-    3.5,
+    3.4,
     3.9
    ],
    [
@@ -14089,6 +14196,11 @@
      "2026-11-16",
      5900,
      6150
+    ],
+    [
+     "2026-11-17",
+     5900,
+     6150
     ]
    ],
    "ARS": [
@@ -14130,6 +14242,11 @@
     [
      "2026-11-16",
      3.5,
+     3.9
+    ],
+    [
+     "2026-11-17",
+     3.4,
      3.9
     ]
    ],
@@ -14173,6 +14290,11 @@
      "2026-11-16",
      1070,
      1170
+    ],
+    [
+     "2026-11-17",
+     1070,
+     1170
     ]
    ],
    "EUR": [
@@ -14213,6 +14335,11 @@
     ],
     [
      "2026-11-16",
+     6100,
+     6900
+    ],
+    [
+     "2026-11-17",
      6100,
      6900
     ]
