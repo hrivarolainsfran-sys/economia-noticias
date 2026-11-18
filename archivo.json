@@ -2218,5 +2218,594 @@
    ],
    "conclusion": "El PIB creció, pero mirar sus componentes muestra un punto débil: la caída de la inversión."
   }
+ },
+ {
+  "id": "agro-oferta",
+  "fecha": "2026-10-05",
+  "medio": "InfoNegocios",
+  "url": "https://infonegocios.com.py/default/soja-arroz-y-poroto-los-cultivos-que-empujaron-al-agro-con-un-salto-de-11-1",
+  "titulo": "Soja, arroz y poroto empujan la oferta agrícola: el agro crece 11,1 %",
+  "unidad": "micro",
+  "tema": "2.2",
+  "kc": "cambio",
+  "sector": [
+   "agro"
+  ],
+  "resumen": "Según las Cuentas Nacionales del BCP, la agricultura creció 11,1 % interanual en el segundo trimestre de 2026 y 12,3 % en el primer semestre. La suba se explica por la soja, el arroz, el poroto, el girasol y el tabaco, mientras que el maíz, el algodón, el sésamo y la yerba mate produjeron menos.",
+  "contexto": "Cuando los productores pueden producir más a cada precio, la curva de oferta se desplaza a la derecha. En el agro, los factores que la mueven son el clima, la tecnología, los costos de insumos y las expectativas de precios. La campaña 2025/2026 dejó más soja y arroz, pero no todos los cultivos crecieron: cada productor elige qué sembrar según el precio esperado y sus costos, y por eso algunos cultivos bajaron mientras otros subían. La mayor oferta agrícola se tradujo en más exportaciones, que crecieron 11,5 % en el trimestre.",
+  "datos": [
+   [
+    "+11,1 %",
+    "Crecimiento de la agricultura (2.º trimestre 2026)"
+   ],
+   [
+    "+12,3 %",
+    "Agricultura en el primer semestre"
+   ],
+   [
+    "+11,5 %",
+    "Exportaciones de bienes y servicios (2.º trimestre)"
+   ],
+   [
+    "+4 %",
+    "Crecimiento del PIB en el 2.º trimestre"
+   ]
+  ],
+  "clave": [
+   "+11,1 %",
+   "más producción agrícola"
+  ],
+  "fig": {
+   "k": "mercado",
+   "mueve": "O",
+   "dir": 1
+  },
+  "cap": "Mejor campaña de soja y arroz: la oferta se desplaza a la derecha (O₁ → O₂), aumenta la cantidad y, si nada más cambia, baja el precio.",
+  "pasos": [
+   "El clima y la tecnología favorecen la campaña 2025/2026",
+   "Los productores pueden ofrecer más soja y arroz a cada precio",
+   "La curva de oferta se desplaza a la derecha",
+   "Aumenta la cantidad producida y vendida",
+   "Crecen las exportaciones y el PIB"
+  ],
+  "conceptos": [
+   [
+    "Oferta",
+    "Cantidad que los productores están dispuestos y pueden vender a cada precio."
+   ],
+   [
+    "Desplazamiento de la oferta",
+    "Cambio en la cantidad ofrecida a todos los precios por factores distintos del precio."
+   ],
+   [
+    "Determinantes de la oferta",
+    "Costos, tecnología, clima, expectativas, precios de otros bienes, impuestos y subsidios."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "soja-record"
+  ],
+  "pregunta": {
+   "q": "¿Qué pasa con la curva de oferta de soja si una cosecha es mejor por el buen clima?",
+   "opts": [
+    "Se desplaza a la derecha",
+    "Se desplaza a la izquierda",
+    "No se mueve: solo cambia la cantidad demandada",
+    "Se mueve la demanda a la derecha"
+   ],
+   "ok": 0,
+   "fb": "El clima es un determinante de la oferta distinto del precio: con mejor clima se ofrece más a cada precio, y la curva se desplaza a la derecha."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Productores de soja y arroz",
+     "Venden más volumen."
+    ],
+    [
+     "El país",
+     "Entran más dólares por exportaciones."
+    ]
+   ],
+   "pierden": [
+    [
+     "Productores de maíz o algodón",
+     "Su producción cayó."
+    ]
+   ],
+   "corto": "Más exportaciones y crecimiento del PIB.",
+   "largo": "Depender del clima hace que el agro sea volátil.",
+   "supuestos": [
+    "Que los precios internacionales no bajen tanto como para compensar el mayor volumen"
+   ],
+   "conclusion": "Una buena cosecha impulsa la economía, pero muestra lo dependiente que es Paraguay del clima."
+  }
+ },
+ {
+  "id": "bolsa-acciones",
+  "fecha": "2026-10-16",
+  "medio": "5Días",
+  "url": "https://5dias.com.py/article/acciones-duplican-su-participacin-en-la-bolsa-de-asuncin",
+  "titulo": "Las acciones duplican su peso en la Bolsa de Asunción",
+  "unidad": "macro",
+  "tema": "3.2",
+  "kc": "eleccion",
+  "inst": [
+   "bolsa"
+  ],
+  "resumen": "Las operaciones con acciones pasaron de 2,4 % a 5,1 % del volumen mensual negociado en la Bolsa de Valores de Asunción en septiembre de 2026 frente al año anterior, en un mercado todavía dominado por los bonos.",
+  "contexto": "Una empresa puede financiarse de dos formas en la bolsa: con deuda (bonos), que obliga a pagar intereses, o vendiendo acciones, que suma nuevos dueños sin deuda. En Paraguay casi todo es deuda. Que crezcan las acciones indica un mercado que madura y más opciones para que las empresas inviertan, lo que puede aumentar la inversión (I) de la economía.",
+  "datos": [
+   [
+    "2,4 % → 5,1 %",
+    "Peso de las acciones en el volumen mensual"
+   ],
+   [
+    "93,7 %",
+    "Peso de los bonos (dato de octubre)"
+   ]
+  ],
+  "clave": [
+   "5,1 %",
+   "del volumen en acciones"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% del volumen mensual",
+   "rows": [
+    [
+     "Un año antes",
+     2.4
+    ],
+    [
+     "Septiembre 2026",
+     5.1,
+     1
+    ]
+   ]
+  },
+  "cap": "Participación de las acciones en el volumen mensual negociado en la bolsa.",
+  "pasos": [
+   "Más empresas venden acciones en la bolsa",
+   "Consiguen capital sin endeudarse",
+   "Pueden invertir en máquinas, plantas o expansión",
+   "Aumenta la inversión (I)",
+   "La demanda agregada y la capacidad productiva pueden crecer"
+  ],
+  "conceptos": [
+   [
+    "Acción",
+    "Parte de la propiedad de una empresa."
+   ],
+   [
+    "Bono",
+    "Deuda que paga intereses y se devuelve al vencimiento."
+   ],
+   [
+    "Inversión (I)",
+    "Gasto de las empresas en bienes de capital."
+   ],
+   [
+    "Mercado de capitales",
+    "Donde se consigue financiamiento a largo plazo."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da"
+  ],
+  "rel": [
+   "bolsa-octubre",
+   "maquila"
+  ],
+  "pregunta": {
+   "q": "¿Qué diferencia hay entre financiarse con acciones y con bonos?",
+   "opts": [
+    "Con acciones se suman dueños y no hay que devolver el dinero; con bonos se toma deuda que paga intereses",
+    "No hay diferencia",
+    "Los bonos dan propiedad de la empresa",
+    "Las acciones siempre pagan un interés fijo"
+   ],
+   "ok": 0,
+   "fb": "El bono es deuda: hay que pagar intereses y devolverlo. La acción es propiedad: el inversor comparte ganancias y riesgos."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Empresas",
+     "Tienen otra forma de financiarse sin endeudarse."
+    ],
+    [
+     "Inversores",
+     "Pueden diversificar y participar de las ganancias."
+    ]
+   ],
+   "pierden": [
+    [
+     "Accionistas actuales",
+     "Su participación en la empresa se reparte entre más dueños."
+    ]
+   ],
+   "corto": "Más opciones de inversión en la bolsa.",
+   "largo": "Un mercado de acciones más grande puede impulsar la inversión y el crecimiento.",
+   "supuestos": [
+    "Que el crecimiento se sostenga y no sea un mes aislado."
+   ],
+   "conclusion": "Es una señal de un mercado de capitales que madura, aunque las acciones siguen siendo una parte pequeña frente a los bonos."
+  },
+  "sector": [
+   "industria"
+  ]
+ },
+ {
+  "id": "maquila",
+  "fecha": "2026-10-16",
+  "medio": "La República",
+  "url": "https://www.larepublica.co/globoeconomia/maquila-exporta-us-1-148-millones-y-genera-un-superavit-de-us-543-millones-en-paraguay-4504329",
+  "titulo": "La maquila exporta US$ 1.148 millones, un 25 % más que en 2025",
+  "unidad": "global",
+  "tema": "4.1",
+  "kc": "interdependencia",
+  "resumen": "Según el Consejo Nacional de las Industrias Maquiladoras de Exportación, entre enero y septiembre las maquiladoras exportaron US$ 1.148 millones (+25 %) e importaron US$ 605 millones (+20 %), con un saldo positivo de US$ 543 millones. Emplean a 36.382 personas.",
+  "contexto": "En la maquila, una empresa importa insumos, los transforma en Paraguay y exporta el producto. Así el país vende bienes industriales y no solo materias primas: autopartes (31 %), confecciones (16 %), bebidas (11 %) y aluminio (11 %). Brasil compra el 59 %, lo que muestra la integración con el vecino. La nota aclara que el saldo comercial no equivale al valor agregado que queda en el país.",
+  "datos": [
+   [
+    "US$ 1.148 M",
+    "Exportaciones de maquila (ene-sep)"
+   ],
+   [
+    "+25 %",
+    "Frente a 2025"
+   ],
+   [
+    "US$ 543 M",
+    "Saldo comercial del sector"
+   ],
+   [
+    "36.382",
+    "Empleos (+4 %)"
+   ],
+   [
+    "59 %",
+    "Ventas a Brasil"
+   ]
+  ],
+  "clave": [
+   "+25 %",
+   "exportaciones de maquila"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% de las exportaciones",
+   "rows": [
+    [
+     "Brasil",
+     59,
+     1
+    ],
+    [
+     "Argentina",
+     14
+    ],
+    [
+     "Países Bajos",
+     11
+    ],
+    [
+     "Estados Unidos",
+     5
+    ]
+   ]
+  },
+  "cap": "Destinos de las exportaciones de maquila entre enero y septiembre de 2026.",
+  "pasos": [
+   "Empresas extranjeras invierten en Paraguay",
+   "Importan insumos y los transforman con trabajo local",
+   "Exportan productos industriales",
+   "Se crean empleos y entran divisas",
+   "La economía se diversifica más allá de la soja y la carne"
+  ],
+  "conceptos": [
+   [
+    "Maquila",
+    "Régimen para importar insumos, transformarlos y exportar el producto."
+   ],
+   [
+    "Diversificación",
+    "Producir y exportar más tipos de bienes."
+   ],
+   [
+    "Valor agregado",
+    "Lo que se suma al valor de los insumos en cada etapa."
+   ],
+   [
+    "Inversión extranjera directa",
+    "Capital de empresas del exterior que se instalan en el país."
+   ]
+  ],
+  "diagramas": [
+   "exportaciones"
+  ],
+  "rel": [
+   "soja-record",
+   "mercosur-ue"
+  ],
+  "pregunta": {
+   "q": "¿Por qué la maquila ayuda a diversificar la economía paraguaya?",
+   "opts": [
+    "Porque agrega exportaciones industriales a las de productos primarios",
+    "Porque reemplaza a la soja",
+    "Porque solo vende a Paraguay",
+    "Porque elimina las importaciones"
+   ],
+   "ok": 0,
+   "fb": "La maquila suma bienes industriales (autopartes, textiles) a una canasta exportadora dominada por soja, carne y energía."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Trabajadores",
+     "36.382 empleos, 4 % más que un año antes."
+    ],
+    [
+     "Regiones como Alto Paraná",
+     "Concentran la mitad de las empresas."
+    ]
+   ],
+   "pierden": [
+    [
+     "El propio sector",
+     "Depende de Brasil, que compra el 59 %."
+    ]
+   ],
+   "corto": "Más empleo y divisas.",
+   "largo": "La economía se diversifica, aunque el valor agregado que queda en el país es menor que el saldo comercial.",
+   "supuestos": [
+    "Que Brasil siga comprando."
+   ],
+   "conclusion": "La maquila diversifica la economía, pero su aporte real depende del valor agregado y de cuántos proveedores locales se sumen."
+  },
+  "sector": [
+   "industria",
+   "comercio"
+  ]
+ },
+ {
+  "id": "bcp-tpm",
+  "fecha": "2026-10-24",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/bcp-mantiene-la-tasa-de-politica-monetaria",
+  "mas": [
+   [
+    "InfoNegocios",
+    "https://infonegocios.com.py/default/bcp-mantiene-la-tasa-en-5-50-y-mejora-su-proyeccion-de-crecimiento-a-5",
+    "2026-11-02"
+   ]
+  ],
+  "titulo": "El BCP mantiene la tasa en 5,50 % y eleva el crecimiento esperado a 5 %",
+  "unidad": "macro",
+  "tema": "3.5",
+  "kc": "intervencion",
+  "resumen": "El Comité de Política Monetaria del BCP decidió por unanimidad dejar la tasa de interés de referencia en 5,50 % anual. Además, subió la proyección de crecimiento de 2026 de 4,5 % a 5,0 %.",
+  "contexto": "Una tasa «neutral» ni empuja ni frena la economía. Con inflación baja, el BCP podría haber bajado la tasa para estimular el gasto; no lo hizo porque la actividad ya crece con fuerza (el IMAEP subió 6,7 % en agosto) y hay riesgos externos, como el precio del petróleo. La decisión fue anterior a la crisis de Ueno Bank. La próxima reunión del Comité está prevista para el 20 de noviembre.",
+  "datos": [
+   [
+    "5,50 %",
+    "Tasa de política monetaria"
+   ],
+   [
+    "6,7 %",
+    "Crecimiento del IMAEP en agosto"
+   ],
+   [
+    "5,0 %",
+    "PIB 2026 proyectado (antes 4,5 %)"
+   ],
+   [
+    "+16,6 %",
+    "Crédito al sector privado"
+   ],
+   [
+    "16,0 %",
+    "Tasa promedio de préstamos bancarios"
+   ]
+  ],
+  "clave": [
+   "5,50 %",
+   "tasa de referencia"
+  ],
+  "fig": {
+   "k": "macro",
+   "mueve": "D",
+   "dir": 1
+  },
+  "cap": "Lo que haría una baja de la tasa: crédito más barato, más consumo e inversión, y la DA pasa de DA₁ a DA₂.",
+  "pasos": [
+   "El BCP baja la tasa de referencia",
+   "Los bancos bajan las tasas de sus préstamos",
+   "Aumentan el consumo y la inversión",
+   "La DA se desplaza a la derecha",
+   "Suben el PIB real y el nivel general de precios"
+  ],
+  "conceptos": [
+   [
+    "Tasa de política monetaria",
+    "Tasa de referencia que fija el BCP y que guía a las demás tasas."
+   ],
+   [
+    "Política neutral",
+    "Ni estimula ni frena la economía."
+   ],
+   [
+    "IMAEP",
+    "Indicador mensual de actividad económica del Paraguay."
+   ],
+   [
+    "Crecimiento económico",
+    "Aumento del PIB real de un año a otro."
+   ]
+  ],
+  "diagramas": [
+   "politica-monetaria",
+   "da-oa-da"
+  ],
+  "rel": [
+   "inflacion-oct",
+   "ueno-intervencion"
+  ],
+  "pregunta": {
+   "q": "La inflación (1,7 %) está por debajo de la meta (3,5 %). Si el BCP bajara la tasa, ¿qué pasaría en el diagrama DA/OA?",
+   "opts": [
+    "La DA se desplaza a la derecha: suben el PIB real y los precios",
+    "La OACP se desplaza a la derecha",
+    "La DA se desplaza a la izquierda",
+    "No se mueve ninguna curva"
+   ],
+   "ok": 0,
+   "fb": "Una tasa más baja abarata el crédito: suben el consumo y la inversión, la DA se desplaza a la derecha y el nivel de precios se acerca a la meta."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Ahorristas",
+     "Obtienen una tasa real positiva (5,5 % frente a 1,7 % de inflación)."
+    ],
+    [
+     "Todos",
+     "La estabilidad ayuda a planificar."
+    ]
+   ],
+   "pierden": [
+    [
+     "Deudores y empresas",
+     "No obtienen un crédito más barato."
+    ]
+   ],
+   "corto": "El costo del crédito no cambia y la economía sigue creciendo.",
+   "largo": "Una tasa estable ancla las expectativas; después de la crisis, el BCP podría tener que subirla si el dólar empuja la inflación.",
+   "supuestos": [
+    "Que la inflación siga baja.",
+    "Que los bancos trasladen las decisiones del BCP a sus tasas."
+   ],
+   "conclusion": "Mantener la tasa fue prudente antes de la crisis; la próxima reunión mostrará si el BCP prioriza el crecimiento o contener la presión del dólar."
+  },
+  "inst": [
+   "bcp"
+  ]
+ },
+ {
+  "id": "carne-sustitutos",
+  "fecha": "2026-10-25",
+  "medio": "Revista Foco (La Nación)",
+  "url": "https://revistafoco.com.py/2026/10/25/carne-paraguaya-ante-el-desafio-de-competir-en-un-mercado-mas-caro/",
+  "mas": [
+   [
+    "La Prensa",
+    "https://www.laprensaparaguay.com/2026/11/02/exportaciones-avicolas-registran-un-crecimiento-del-76-en-ingresos-hasta-octubre/",
+    "2026-11-02"
+   ]
+  ],
+  "titulo": "Carne vacuna más cara: el consumo se pasa al pollo y al cerdo",
+  "unidad": "micro",
+  "tema": "2.1",
+  "kc": "eleccion",
+  "resumen": "Según la Comisión de Carne de la ARP, la suba de los precios internacionales de la carne vacuna frena los negocios y empuja a los consumidores hacia el pollo y el cerdo. En Chile, algunos compradores pagan entre US$ 200 y 300 más por tonelada de carne paraguaya, pero si la diferencia crece eligen la brasileña.",
+  "contexto": "Es un ejemplo de bienes sustitutos: cuando sube el precio de uno, aumenta la demanda del otro. Los datos acompañan: las exportaciones de pollo crecieron 76 % en ingresos hasta octubre, mientras la carne vacuna perdió volumen. La oferta de carne vacuna también es menor porque los productores reducen el rodeo y retienen hembras para reproducción.",
+  "datos": [
+   [
+    "US$ 200-300",
+    "Precio extra por tonelada que pagan algunos compradores chilenos"
+   ],
+   [
+    "+76 %",
+    "Ingresos por exportaciones de pollo (ene-oct)"
+   ],
+   [
+    "US$ 7,12",
+    "Precio por kilo de la carne vacuna exportada"
+   ]
+  ],
+  "clave": [
+   "+76 %",
+   "exportaciones de pollo"
+  ],
+  "fig": {
+   "k": "mercado",
+   "mueve": "D",
+   "dir": 1
+  },
+  "cap": "Mercado del pollo: como la carne vacuna, su sustituto, se encareció, la demanda de pollo pasa de D₁ a D₂; suben el precio y la cantidad.",
+  "pasos": [
+   "Sube el precio de la carne vacuna",
+   "Los consumidores buscan alternativas más baratas",
+   "Aumenta la demanda de pollo y cerdo (sustitutos)",
+   "La curva de demanda de pollo se desplaza a la derecha",
+   "Suben el precio y la cantidad vendida de pollo"
+  ],
+  "conceptos": [
+   [
+    "Bienes sustitutos",
+    "Satisfacen la misma necesidad: si uno sube, se demanda más el otro."
+   ],
+   [
+    "Desplazamiento de la demanda",
+    "Cambio de toda la curva por un factor distinto del precio del bien."
+   ],
+   [
+    "Competencia",
+    "Brasil y Paraguay venden a los mismos compradores."
+   ],
+   [
+    "Oferta",
+    "El rodeo se reduce y hay menos carne para vender."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "carne-cae",
+   "mercosur-ue"
+  ],
+  "pregunta": {
+   "q": "Si sube el precio de la carne vacuna, ¿qué pasa en el mercado del pollo?",
+   "opts": [
+    "La demanda de pollo se desplaza a la derecha",
+    "La oferta de pollo se desplaza a la izquierda",
+    "Hay un movimiento a lo largo de la demanda de pollo",
+    "Nada"
+   ],
+   "ok": 0,
+   "fb": "El precio de un sustituto es un factor distinto del precio del pollo: desplaza toda la curva de demanda de pollo a la derecha."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Productores de pollo y cerdo",
+     "Ganan clientes."
+    ],
+    [
+     "Consumidores",
+     "Encuentran proteínas más baratas."
+    ]
+   ],
+   "pierden": [
+    [
+     "Productores de carne vacuna",
+     "Pierden clientes y compiten con Brasil en Chile."
+    ]
+   ],
+   "corto": "Más demanda de pollo y cerdo.",
+   "largo": "La competencia con Brasil y la recuperación del rodeo pueden bajar los precios de la carne vacuna.",
+   "supuestos": [
+    "Que la sustitución sea duradera."
+   ],
+   "conclusion": "Muestra cómo los precios relativos guían las elecciones del consumidor y por qué importa la competitividad frente a Brasil."
+  },
+  "sector": [
+   "agro"
+  ]
  }
 ]

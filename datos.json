@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17",
+ "actualizado": "2026-11-18",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -267,6 +267,11 @@
     "16 nov",
     "Gobierno y gremios crean un Gabinete de Impulso Económico; Asimcopar alerta por recesión.",
     "pgn-suspendido"
+   ],
+   [
+    "17 nov",
+    "El BCP deja refinanciar a las mipymes afectadas; el mercado espera un dólar de G. 6.255 a fin de año.",
+    "bcp-mipymes"
    ]
   ],
   "lentes": [
@@ -285,6 +290,712 @@
   ]
  },
  "noticias": [
+  {
+   "id": "deficit-octubre",
+   "fecha": "2026-11-17",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/deficit-fiscal-supera-los-usd-2-000-millones-con-gastos-creciendo-10-pero-ingresos-solo-1",
+   "opinion": false,
+   "titulo": "El déficit fiscal pasa los US$ 2.000 millones: el gasto crece 10,8 % y los ingresos 1 %",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "intervencion",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "Según el informe Situfin del MEF, el déficit de los últimos doce meses llegó a G. 12,6 billones (US$ 2.135 millones), el 3,2 % del PIB. De enero a octubre el gasto creció 10,8 %, pero los ingresos solo 1,0 %. El MEF mantiene su meta de 3,2 % para 2026 y de 3,9 % para 2027, y espera volver a 1,5 % en 2028.",
+   "contexto": "Un déficit fiscal aparece cuando el Estado gasta más de lo que recauda y tiene que financiar la diferencia con deuda. Los ingresos crecen poco por menores recursos de Itaipú y por el guaraní fuerte, que bajó lo que se cobra en impuestos de aduana medidos en guaraníes. El gasto sube por salud, prestaciones sociales y el pago de deudas con contratistas. Para 2027 el MEF suma un déficit «extraordinario» de 1,9 % del PIB para ponerse al día con proveedores de Salud y del MOPC, muy por encima del límite de 1,5 % de la Ley de Responsabilidad Fiscal. El MEF reconoce que Ueno es un «shock negativo», pero dice que la mayoría de los depósitos públicos eran a largo plazo.",
+   "datos": [
+    [
+     "US$ 2.135 M",
+     "Déficit de los últimos doce meses a octubre (3,2 % del PIB)"
+    ],
+    [
+     "10,8 %",
+     "Crecimiento del gasto, enero-octubre"
+    ],
+    [
+     "1,0 %",
+     "Crecimiento de los ingresos totales, enero-octubre"
+    ],
+    [
+     "1,7 %",
+     "Crecimiento de la recaudación tributaria"
+    ],
+    [
+     "US$ 1.488,8 M",
+     "Déficit acumulado de enero a octubre (2,3 % del PIB)"
+    ],
+    [
+     "US$ 923,3 M",
+     "Inversión pública acumulada; la del MOPC creció 47,4 %"
+    ],
+    [
+     "3,9 %",
+     "Déficit proyectado para 2027 (2 % subyacente + 1,9 % extraordinario)"
+    ]
+   ],
+   "clave": [
+    "3,2 % del PIB",
+    "déficit de los últimos doce meses"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% interanual",
+    "rows": [
+     [
+      "Gasto",
+      10.8,
+      1
+     ],
+     [
+      "Ingresos totales",
+      1.0,
+      0
+     ],
+     [
+      "Recaudación tributaria",
+      1.7,
+      0
+     ]
+    ]
+   },
+   "cap": "De enero a octubre de 2026 el gasto creció 10,8 %, mientras los ingresos totales crecieron 1,0 % y la recaudación tributaria 1,7 % (MEF, vía Última Hora).",
+   "pasos": [
+    "Itaipú aporta menos y el guaraní fuerte reduce los impuestos de aduana",
+    "Los ingresos del Estado crecen solo 1 %",
+    "El gasto en salud, prestaciones y deudas con contratistas sube 10,8 %",
+    "El déficit de doce meses llega a 3,2 % del PIB",
+    "El Estado se endeuda más y el límite de 1,5 % de la ley queda lejos"
+   ],
+   "conceptos": [
+    [
+     "Déficit fiscal",
+     "Diferencia negativa entre ingresos y gastos del Estado en un periodo."
+    ],
+    [
+     "Déficit primario",
+     "Déficit sin contar el pago de intereses de la deuda."
+    ],
+    [
+     "Ley de Responsabilidad Fiscal",
+     "Regla que limita el déficit a 1,5 % del PIB."
+    ],
+    [
+     "Estabilizador automático",
+     "Ingresos o gastos que cambian solos con el ciclo económico, como la recaudación."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal",
+    "da-oa-oacp"
+   ],
+   "rel": [
+    "pgn-suspendido",
+    "recaudacion-dnit",
+    "deuda-setiembre",
+    "caja-fiscal-octubre"
+   ],
+   "pregunta": {
+    "q": "Si el gasto crece 10,8 % y los ingresos 1 %, ¿qué pasa con el déficit fiscal?",
+    "opts": [
+     "Aumenta, y el Estado necesita más deuda para financiarlo",
+     "Disminuye, porque el gasto impulsa la recaudación",
+     "No cambia, porque el PIB crece",
+     "Se convierte en superávit"
+    ],
+    "ok": 0,
+    "fb": "Si el gasto crece mucho más que los ingresos, la brecha entre ambos (el déficit) se agranda y hay que cubrirla con deuda."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Hospitales y beneficiarios de programas sociales",
+      "Reciben más gasto en salud, medicamentos y prestaciones."
+     ],
+     [
+      "Contratistas del MOPC",
+      "La inversión pública crece 47,4 % y el plan de 2027 prevé pagar los atrasos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes futuros",
+      "Más deuda hoy significa más intereses que pagar mañana."
+     ],
+     [
+      "El Estado (MEF)",
+      "Con Ueno y Fitch en revisión, financiarse puede costar más caro."
+     ]
+    ],
+    "corto": "El año cerraría con un déficit cercano a 3,2 % del PIB, que se financia con bonos y préstamos.",
+    "largo": "Si el déficit no vuelve a 1,5 % en 2028, la deuda crece más rápido que el PIB y la nota de crédito puede bajar.",
+    "supuestos": [
+     "Que la economía crezca lo proyectado y la recaudación se recupere",
+     "Que el impacto de Ueno en las finanzas públicas sea limitado",
+     "Que el Congreso respete los recortes del Presupuesto 2027"
+    ],
+    "conclusion": "Una política fiscal expansiva puede sostener la demanda en plena crisis, pero el problema es estructural: los ingresos casi no crecen. Sin más recaudación o menos gasto, volver al 1,5 % en 2028 será difícil."
+   }
+  },
+  {
+   "id": "eve-noviembre",
+   "fecha": "2026-11-17",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/negocios/2026/11/17/agentes-economicos-esperan-menor-inflacion-para-fin-de-ano-y-repunte-del-dolar/",
+   "mas": [
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/el-mercado-corrigio-el-pronostico-sobre-el-dolar-de-g-5-850-a-g-6-200-para-noviembre",
+     "2026-11-17"
+    ]
+   ],
+   "opinion": false,
+   "titulo": "El mercado espera menos inflación, un dólar más caro y la tasa quieta en 5,50 %",
+   "unidad": "macro",
+   "tema": "3.5",
+   "kc": "cambio",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "En la Encuesta de Expectativas de Variables Económicas (EVE) de noviembre del BCP, los agentes bajaron la inflación esperada para 2026 de 3 % a 2,9 %, por debajo de la meta de 3,5 %. Esperan un dólar de G. 6.200 en noviembre (antes, G. 5.850), de G. 6.255 en diciembre y de G. 6.500 a fines de 2027. Prevén un crecimiento de 4,5 % en 2026 y 4,0 % en 2027, y que la tasa del BCP siga en 5,50 %.",
+   "contexto": "Las expectativas importan porque guían precios, salarios y decisiones de inversión: si la gente cree que la inflación seguirá baja, la inflación tiende a quedarse baja. La crisis de Ueno cambió mucho la expectativa del dólar en un mes, pero casi nada la de inflación: el mercado cree que el traspaso de un dólar más caro a los precios será pequeño. El crecimiento esperado (4,5 %) queda por debajo del 5 % del BCP. Con inflación bajo la meta y una economía que se enfría, el mercado no espera que el BCP suba la tasa, aunque la presión sobre el guaraní podría pedirlo.",
+   "datos": [
+    [
+     "2,9 %",
+     "Inflación esperada para el cierre de 2026 (antes, 3 %)"
+    ],
+    [
+     "3,5 %",
+     "Meta de inflación del BCP"
+    ],
+    [
+     "G. 6.200",
+     "Dólar esperado para noviembre (antes, G. 5.850)"
+    ],
+    [
+     "G. 6.255",
+     "Dólar esperado para diciembre de 2026 (antes, G. 5.905)"
+    ],
+    [
+     "G. 6.500",
+     "Dólar esperado para fines de 2027"
+    ],
+    [
+     "4,5 %",
+     "Crecimiento esperado del PIB en 2026 (BCP: 5 %)"
+    ],
+    [
+     "5,50 %",
+     "Tasa del BCP esperada en noviembre, diciembre y 2027"
+    ]
+   ],
+   "clave": [
+    "G. 6.255",
+    "dólar esperado para diciembre"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "G. por dólar",
+    "rows": [
+     [
+      "Dic. 2026 (encuesta de octubre)",
+      5905,
+      0
+     ],
+     [
+      "Nov. 2026 (encuesta de noviembre)",
+      6200,
+      0
+     ],
+     [
+      "Dic. 2026 (encuesta de noviembre)",
+      6255,
+      1
+     ],
+     [
+      "Dic. 2027",
+      6500,
+      0
+     ]
+    ]
+   },
+   "cap": "En un mes, el dólar esperado para fin de año pasó de G. 5.905 a G. 6.255; para 2027 se espera G. 6.500 (EVE de noviembre, vía ABC Color).",
+   "pasos": [
+    "La crisis de Ueno provoca salida de capitales y más demanda de dólares",
+    "El mercado corrige al alza el dólar esperado",
+    "Un guaraní más débil encarece las importaciones",
+    "Pero la demanda interna se enfría y los alimentos bajan",
+    "La inflación esperada queda en 2,9 %, bajo la meta, y la tasa no cambiaría"
+   ],
+   "conceptos": [
+    [
+     "Expectativas de inflación",
+     "Lo que los agentes creen que subirán los precios; influyen en la inflación real."
+    ],
+    [
+     "Meta de inflación",
+     "Objetivo del BCP: 3,5 % con un rango de ± 2 puntos."
+    ],
+    [
+     "Traspaso cambiario",
+     "Cuánto de una suba del dólar se traslada a los precios internos."
+    ],
+    [
+     "Tasa de política monetaria",
+     "Tasa con la que el BCP influye en las demás tasas de interés."
+    ]
+   ],
+   "diagramas": [
+    "politica-monetaria",
+    "tipo-cambio"
+   ],
+   "rel": [
+    "inflacion-oct",
+    "dolar-6600",
+    "bcp-tpm",
+    "liquidez-tasas"
+   ],
+   "pregunta": {
+    "q": "Si el mercado espera inflación de 2,9 % y la meta es 3,5 %, ¿qué decisión del BCP es más coherente?",
+    "opts": [
+     "Mantener la tasa o no subirla, porque la inflación está bajo la meta",
+     "Subir mucho la tasa para frenar la inflación",
+     "Bajar la meta de inflación a 2,9 %",
+     "Fijar el precio del dólar"
+    ],
+    "ok": 0,
+    "fb": "Con inflación esperada bajo la meta y crecimiento más lento, no hace falta una política monetaria contractiva; por eso el mercado espera la tasa en 5,50 %."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Exportadores",
+      "Un dólar esperado más alto les da más guaraníes por cada venta."
+     ],
+     [
+      "Deudores en guaraníes",
+      "Si la tasa no sube, sus créditos no se encarecen."
+     ]
+    ],
+    "pierden": [
+     [
+      "Importadores y consumidores de bienes importados",
+      "Pagan más guaraníes por cada dólar."
+     ],
+     [
+      "Deudores en dólares",
+      "Necesitan más guaraníes para pagar sus cuotas."
+     ]
+    ],
+    "corto": "El BCP decidiría el 20 de noviembre mantener la tasa en 5,50 %; el dólar rondaría G. 6.200.",
+    "largo": "Si las expectativas de inflación siguen ancladas, el BCP gana margen para apoyar la economía sin perder credibilidad.",
+    "supuestos": [
+     "Que la crisis de Ueno no provoque otra ola de salida de capitales",
+     "Que los alimentos y el petróleo no suban con fuerza",
+     "Que la encuesta refleje bien lo que piensan los agentes"
+    ],
+    "conclusion": "El mercado ve la crisis de Ueno como un golpe al tipo de cambio y al crecimiento, no a la inflación. Eso da tranquilidad al BCP, pero un dólar mucho más alto podría poner a prueba esas expectativas."
+   }
+  },
+  {
+   "id": "caja-fiscal-octubre",
+   "fecha": "2026-11-18",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/18/agujero-de-la-caja-fiscal-sigue-creciendo-y-llego-a-us-333-millones-en-diez-meses/",
+   "opinion": false,
+   "titulo": "La Caja Fiscal pierde US$ 1,1 millones por día: su déficit llega a US$ 333 millones",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "sostenibilidad",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "Según el último informe del MEF citado por ABC Color, de enero a octubre la Caja Fiscal (jubilaciones del sector público) recibió G. 3,28 billones en aportes y pagó G. 5,34 billones: un déficit de G. 2,063 billones, unos US$ 333 millones, que se cubre con impuestos. Militares, policías y docentes son los sectores con más déficit. Además, la Caja tenía unos US$ 40 millones en certificados de depósito en Ueno.",
+   "contexto": "Un sistema de reparto paga las jubilaciones de hoy con los aportes de los trabajadores activos; si los aportes no alcanzan, el Tesoro cubre la diferencia. La Ley 7633 buscaba reducir el déficit 60 %, pero los cambios hechos en el Congreso bajaron su efecto a menos de 40 %, según ABC. El saldo rojo ocupa una parte importante del Presupuesto y compite con otros gastos, como salud o educación: es un costo de oportunidad. La crisis de Ueno agrega un riesgo: la Caja intenta recuperar unos US$ 60 millones con intereses.",
+   "datos": [
+    [
+     "US$ 333 M",
+     "Déficit de la Caja Fiscal de enero a octubre (G. 2,063 billones)"
+    ],
+    [
+     "G. 3,28 bill.",
+     "Aportes recibidos en diez meses"
+    ],
+    [
+     "G. 5,34 bill.",
+     "Pagos de jubilaciones y pensiones en diez meses"
+    ],
+    [
+     "US$ 1,1 M",
+     "Déficit por día"
+    ],
+    [
+     "243.820",
+     "Funcionarios que aportan"
+    ],
+    [
+     "74.881",
+     "Jubilados (más 12.459 pensionados)"
+    ],
+    [
+     "US$ 40 M",
+     "Inversión de la Caja en CDA de Ueno (unos US$ 60 M con intereses)"
+    ]
+   ],
+   "clave": [
+    "US$ 333 M",
+    "déficit de la Caja Fiscal en diez meses"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "billones de G.",
+    "rows": [
+     [
+      "Aportes",
+      3.28,
+      0
+     ],
+     [
+      "Pagos",
+      5.34,
+      1
+     ],
+     [
+      "Déficit",
+      2.063,
+      0
+     ]
+    ]
+   },
+   "cap": "De enero a octubre de 2026, la Caja Fiscal recibió G. 3,28 billones y pagó G. 5,34 billones; la diferencia la cubre el Tesoro (MEF, vía ABC Color).",
+   "pasos": [
+    "Hay muchos jubilados frente a los aportantes y beneficios generosos en algunos sectores",
+    "Los aportes no alcanzan para pagar las jubilaciones",
+    "El Tesoro cubre la diferencia con impuestos",
+    "Sube el déficit fiscal y queda menos para otros gastos",
+    "La reforma de 2025 se suavizó y el déficit casi no baja"
+   ],
+   "conceptos": [
+    [
+     "Sistema de reparto",
+     "Las jubilaciones se pagan con los aportes de los trabajadores activos."
+    ],
+    [
+     "Costo de oportunidad",
+     "Lo que se deja de financiar (salud, educación) por cubrir el déficit de la Caja."
+    ],
+    [
+     "Pasivo contingente",
+     "Obligación futura del Estado que puede crecer, como las jubilaciones."
+    ],
+    [
+     "Equidad intergeneracional",
+     "Reparto justo de costos y beneficios entre generaciones."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal"
+   ],
+   "rel": [
+    "deficit-octubre",
+    "ips-ueno",
+    "pgn-suspendido"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el déficit de la Caja Fiscal tiene un costo de oportunidad para la sociedad?",
+    "opts": [
+     "Porque los impuestos que lo cubren no pueden usarse en salud, educación u obras",
+     "Porque aumenta las exportaciones",
+     "Porque baja la tasa de interés",
+     "Porque reduce el número de jubilados"
+    ],
+    "ok": 0,
+    "fb": "Los recursos son escasos: lo que el Tesoro pone para cubrir la Caja es dinero que no se gasta en otros fines."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Jubilados del sector público",
+      "Cobran sus haberes aunque los aportes no alcancen."
+     ],
+     [
+      "Funcionarios activos de sectores deficitarios",
+      "La reforma se suavizó y sus condiciones cambiaron menos de lo previsto."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes",
+      "Pagan con sus impuestos unos US$ 1,1 millones por día."
+     ],
+     [
+      "Usuarios de servicios públicos",
+      "Hay menos recursos para salud, educación u obras."
+     ],
+     [
+      "Trabajadores jóvenes",
+      "Heredarán un sistema con más deuda si no se corrige."
+     ]
+    ],
+    "corto": "El déficit seguirá sumando unos US$ 30 millones por mes y la Caja buscará recuperar sus fondos de Ueno.",
+    "largo": "Sin una reforma más fuerte, el envejecimiento hará crecer el déficit y presionará la deuda pública.",
+    "supuestos": [
+     "Que no haya una nueva reforma en el corto plazo",
+     "Que la Caja recupere solo una parte de lo invertido en Ueno",
+     "Que los aportes crezcan al ritmo de los salarios públicos"
+    ],
+    "conclusion": "La reforma de la Caja Fiscal tuvo poco efecto porque se suavizó en el Congreso. Proteger a los jubilados es legítimo, pero el costo para los contribuyentes y para otros servicios públicos es alto y creciente."
+   }
+  },
+  {
+   "id": "bcp-mipymes",
+   "fecha": "2026-11-17",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/17/crisis-ueno-bcp-aprueba-medidas-excepcionales-para-auxiliar-a-mipymes/",
+   "opinion": false,
+   "titulo": "El BCP deja refinanciar sus deudas a las mipymes afectadas por Ueno",
+   "unidad": "macro",
+   "tema": "3.5",
+   "kc": "intervencion",
+   "inst": [
+    "bcp"
+   ],
+   "sector": [
+    "comercio"
+   ],
+   "resumen": "El BCP aprobó medidas temporales para que las mipymes con depósitos en Ueno al 2 de noviembre renueven, refinancien o reestructuren sus préstamos en otros bancos y financieras, si no tenían atrasos de más de 60 días. Rigen hasta el 31 de marzo de 2027. Además, los bancos que prestaron a Ueno y las aseguradoras con inversiones en Ueno tienen 90 días más para constituir previsiones.",
+   "contexto": "Muchas pequeñas empresas no pueden pagar sus créditos porque su dinero quedó congelado en Ueno: es un problema de liquidez, no necesariamente de solvencia. Si los bancos las clasificaran como morosas, les cortarían el crédito y algunas cerrarían, lo que agravaría la caída del consumo y del empleo. Al permitir refinanciar sin castigo en la calificación, el BCP busca que el crédito siga fluyendo. El riesgo es el riesgo moral y que los bancos oculten pérdidas que más tarde aparezcan.",
+   "datos": [
+    [
+     "2 nov 2026",
+     "Fecha en que la mipyme debía tener depósitos en Ueno"
+    ],
+    [
+     "60 días",
+     "Atraso máximo permitido en sus créditos a esa fecha"
+    ],
+    [
+     "31 mar 2027",
+     "Vigencia de las medidas"
+    ],
+    [
+     "90 días",
+     "Plazo extra para que bancos y aseguradoras hagan previsiones por Ueno"
+    ]
+   ],
+   "clave": [
+    "31 mar 2027",
+    "plazo para refinanciar créditos de mipymes"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Si las mipymes pueden refinanciar y seguir operando, el consumo y la inversión caen menos: el BCP evita que la DA se desplace todavía más a la izquierda.",
+   "pasos": [
+    "El dinero de las mipymes queda congelado en Ueno",
+    "No pueden pagar sus créditos en otros bancos",
+    "El BCP permite refinanciar sin empeorar su calificación",
+    "Las empresas conservan acceso al crédito y siguen operando",
+    "Se evita una caída mayor del empleo y de la demanda agregada"
+   ],
+   "conceptos": [
+    [
+     "Liquidez",
+     "Capacidad de pagar a tiempo con el dinero disponible."
+    ],
+    [
+     "Solvencia",
+     "Que el valor de lo que se tiene supere lo que se debe."
+    ],
+    [
+     "Previsión",
+     "Reserva que un banco aparta para cubrir posibles pérdidas de un crédito."
+    ],
+    [
+     "Riesgo moral",
+     "Tomar más riesgos cuando se espera que otro cubra las pérdidas."
+    ]
+   ],
+   "diagramas": [
+    "politica-monetaria",
+    "da-oa-da"
+   ],
+   "rel": [
+    "mipymes-fogapy",
+    "consumo-cae",
+    "encaje-ueno"
+   ],
+   "pregunta": {
+    "q": "¿Qué problema busca resolver el BCP con esta medida?",
+    "opts": [
+     "Un problema de liquidez de las mipymes por depósitos congelados",
+     "Una inflación demasiado alta",
+     "Un exceso de exportaciones",
+     "Un déficit fiscal"
+    ],
+    "ok": 0,
+    "fb": "Las mipymes tienen fondos, pero congelados en Ueno: no pueden usarlos para pagar. Refinanciar les da tiempo."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Mipymes afectadas",
+      "Pueden refinanciar sin quedar como morosas."
+     ],
+     [
+      "Trabajadores de esas empresas",
+      "Menos riesgo de cierres y despidos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Bancos y financieras",
+      "Asumen más riesgo de crédito por un tiempo."
+     ],
+     [
+      "Depositantes, a largo plazo",
+      "Si las pérdidas se ocultan, la estabilidad del sistema puede sufrir."
+     ]
+    ],
+    "corto": "Menos empresas en mora y menos cortes de crédito antes de fin de año.",
+    "largo": "Si las mipymes recuperan sus fondos de Ueno, la medida habrá evitado quiebras; si no, las pérdidas solo se postergan.",
+    "supuestos": [
+     "Que los fondos de Ueno se devuelvan en un plazo razonable",
+     "Que los bancos verifiquen bien quién está realmente afectado",
+     "Que la demanda de las mipymes se recupere"
+    ],
+    "conclusion": "Es una respuesta lógica a un problema de liquidez y ayuda a sostener la demanda agregada, pero debe ser temporal y bien controlada para no esconder problemas de solvencia."
+   }
+  },
+  {
+   "id": "balanz-cadiem",
+   "fecha": "2026-11-17",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/grupo-financiero-argentino-balanz-capital-acuerda-tomar-el-control-de-cadiem",
+   "opinion": false,
+   "titulo": "El grupo argentino Balanz acuerda comprar la casa de bolsa Cadiem",
+   "unidad": "global",
+   "tema": "4.6",
+   "kc": "interdependencia",
+   "inst": [
+    "bolsa"
+   ],
+   "mundo": [
+    "argentina"
+   ],
+   "resumen": "Balanz Capital, un grupo argentino con US$ 17.000 millones en activos administrados y más de 1,5 millones de clientes, firmó un acuerdo de entendimiento para comprar la mayoría de las acciones de Cadiem Casa de Bolsa y de su administradora de fondos. Cadiem tiene más de 22.000 clientes en Paraguay. La operación depende de una revisión de unos 30 días y de las aprobaciones regulatorias.",
+   "contexto": "La compra de una empresa local por un grupo extranjero es inversión extranjera directa (IED): trae capital, tecnología y experiencia, como la plataforma digital de Balanz. Llega en plena crisis de Ueno, cuando las casas de bolsa sufrieron pedidos de rescate y los bonos cayeron, lo que muestra que un inversor externo todavía ve oportunidades en el mercado de capitales paraguayo. Para Paraguay, un mercado de valores más profundo puede abaratar el financiamiento de las empresas. También aumenta la concentración y la influencia de capitales argentinos.",
+   "datos": [
+    [
+     "US$ 17.000 M",
+     "Activos que administra Balanz Capital"
+    ],
+    [
+     "1,5 M+",
+     "Clientes de Balanz"
+    ],
+    [
+     "22.000+",
+     "Clientes de Cadiem en Paraguay"
+    ],
+    [
+     "30 días",
+     "Duración estimada de la revisión (debida diligencia)"
+    ],
+    [
+     "6",
+     "Países donde estaría Balanz con Paraguay"
+    ]
+   ],
+   "clave": [
+    "22.000+",
+    "clientes de Cadiem que pasarían a Balanz"
+   ],
+   "fig": {
+    "k": "divisas",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "La entrada de inversión extranjera directa aumenta la demanda de guaraníes, lo que presiona hacia arriba su valor.",
+   "pasos": [
+    "Balanz quiere crecer en la región",
+    "Acuerda comprar la mayoría de Cadiem",
+    "Entra capital extranjero (IED) a Paraguay",
+    "Aumenta la demanda de guaraníes y la competencia en el mercado de valores",
+    "Las empresas pueden tener más opciones de financiamiento"
+   ],
+   "conceptos": [
+    [
+     "Inversión extranjera directa",
+     "Compra o creación de empresas en otro país con control de su gestión."
+    ],
+    [
+     "Casa de bolsa",
+     "Empresa que compra y vende valores (bonos, acciones) por cuenta de sus clientes."
+    ],
+    [
+     "Debida diligencia",
+     "Revisión de la empresa antes de comprarla."
+    ],
+    [
+     "Mercado de capitales",
+     "Donde las empresas consiguen financiamiento a largo plazo con bonos y acciones."
+    ]
+   ],
+   "diagramas": [
+    "tipo-cambio",
+    "bonos"
+   ],
+   "rel": [
+    "ied-record",
+    "liquidez-tasas",
+    "bolsa-octubre"
+   ],
+   "pregunta": {
+    "q": "¿Cómo se clasifica la compra de Cadiem por Balanz en la balanza de pagos?",
+    "opts": [
+     "Inversión extranjera directa en la cuenta financiera",
+     "Exportación de servicios en la cuenta corriente",
+     "Remesa en la cuenta corriente",
+     "Reserva internacional del BCP"
+    ],
+    "ok": 0,
+    "fb": "Es IED: un inversor extranjero toma el control de una empresa local; se registra en la cuenta financiera."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Clientes de Cadiem",
+      "Acceden a más productos y a una plataforma con experiencia internacional."
+     ],
+     [
+      "Mercado de valores paraguayo",
+      "Gana un actor grande en medio de la crisis de confianza."
+     ]
+    ],
+    "pierden": [
+     [
+      "Casas de bolsa locales más pequeñas",
+      "Enfrentan un competidor con más recursos."
+     ],
+     [
+      "Accionistas que venden",
+      "Ceden el control de la empresa (aunque reciben un pago)."
+     ]
+    ],
+    "corto": "Si la revisión sale bien y los reguladores aprueban, Balanz asumiría la operación de Cadiem.",
+    "largo": "Más competencia y tecnología pueden profundizar el mercado de capitales, aunque también lo vuelven más dependiente de grupos extranjeros.",
+    "supuestos": [
+     "Que la debida diligencia no encuentre problemas",
+     "Que los reguladores aprueben la compra",
+     "Que la crisis de Ueno no empeore la confianza en el mercado"
+    ],
+    "conclusion": "Es una señal de confianza en el mercado de capitales paraguayo en un mal momento. Sus beneficios dependerán de que mejore la competencia y no solo cambie el dueño."
+   }
+  },
   {
    "id": "confianza-octubre",
    "fecha": "2026-11-16",
@@ -2719,7 +3430,7 @@
   },
   {
    "id": "mtess-ueno",
-   "fecha": "2026-11-09",
+   "fecha": "2026-11-17",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/caso-ueno-mtess-deja-sin-efecto-clausula-de-exclusividad-de-contratos-de-trabajadores",
    "titulo": "7.000 trabajadores de empresas ligadas a Ueno podrán buscar otro empleo",
@@ -2729,7 +3440,7 @@
    "inst": [
     "ips"
    ],
-   "resumen": "El Ministerio de Trabajo dejó sin efecto, con el Dictamen 377/2026, las cláusulas de exclusividad de los trabajadores de 37 empresas ligadas a Ueno, entre ellas el Grupo Vázquez, itti y VMedia. Según la ministra Mónica Recalde, son unos 7.000 trabajadores que no tienen tareas ni cobran sus salarios; ninguno fue despedido y siguen en nómina.",
+   "resumen": "El Ministerio de Trabajo dejó sin efecto, con el Dictamen 377/2026, las cláusulas de exclusividad de los trabajadores de 37 empresas ligadas a Ueno, entre ellas el Grupo Vázquez, itti y VMedia. Según la ministra Mónica Recalde, son unos 7.000 trabajadores que no tienen tareas ni cobran sus salarios; ninguno fue despedido y siguen en nómina. El 17 de noviembre, según Última Hora, el Ministerio anunció una Expo Empleo para el 18 de noviembre con 607 vacantes de 33 empresas, menos de una por cada diez personas afectadas; solo en ueno bank, itti y Kaitel hay 3.290 trabajadores, y muchos siguen sin cobrar sueldos y liquidaciones.",
    "contexto": "Una cláusula de exclusividad impide trabajar para otra empresa. Con las empresas cerradas, esos trabajadores quedaban atrapados: sin salario y sin poder cambiar de empleo. El dictamen les permite buscar otro trabajo sin perder sus derechos, lo que acorta el desempleo friccional (el tiempo de búsqueda entre un empleo y otro). Siguen pendientes las indemnizaciones y los salarios atrasados; el Ministerio coordina con el IPS la atención médica y con la Defensa Pública la asistencia legal.",
    "datos": [
     [
@@ -2747,6 +3458,14 @@
     [
      "3.050+",
      "Consultas recibidas por el Ministerio"
+    ],
+    [
+     "607",
+     "Vacantes de 33 empresas en la Expo Empleo del 18 de noviembre"
+    ],
+    [
+     "3.290",
+     "Trabajadores de ueno bank (490), itti (1.600) y Kaitel (1.200)"
     ]
    ],
    "clave": [
@@ -2831,7 +3550,14 @@
      "La cifra de trabajadores es una estimación del Ministerio"
     ],
     "conclusion": "La medida es razonable porque evita que los trabajadores queden atrapados, pero no resuelve el problema de fondo: cobrar lo adeudado y encontrar un empleo nuevo."
-   }
+   },
+   "mas": [
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/mtess-realiza-expo-empleo-para-ex-trabajadores-de-ueno",
+     "2026-11-17"
+    ]
+   ]
   },
   {
    "id": "dnit-ueno",
@@ -4990,121 +5716,6 @@
    }
   },
   {
-   "id": "bolsa-acciones",
-   "fecha": "2026-10-16",
-   "medio": "5Días",
-   "url": "https://5dias.com.py/article/acciones-duplican-su-participacin-en-la-bolsa-de-asuncin",
-   "titulo": "Las acciones duplican su peso en la Bolsa de Asunción",
-   "unidad": "macro",
-   "tema": "3.2",
-   "kc": "eleccion",
-   "inst": [
-    "bolsa"
-   ],
-   "resumen": "Las operaciones con acciones pasaron de 2,4 % a 5,1 % del volumen mensual negociado en la Bolsa de Valores de Asunción en septiembre de 2026 frente al año anterior, en un mercado todavía dominado por los bonos.",
-   "contexto": "Una empresa puede financiarse de dos formas en la bolsa: con deuda (bonos), que obliga a pagar intereses, o vendiendo acciones, que suma nuevos dueños sin deuda. En Paraguay casi todo es deuda. Que crezcan las acciones indica un mercado que madura y más opciones para que las empresas inviertan, lo que puede aumentar la inversión (I) de la economía.",
-   "datos": [
-    [
-     "2,4 % → 5,1 %",
-     "Peso de las acciones en el volumen mensual"
-    ],
-    [
-     "93,7 %",
-     "Peso de los bonos (dato de octubre)"
-    ]
-   ],
-   "clave": [
-    "5,1 %",
-    "del volumen en acciones"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "% del volumen mensual",
-    "rows": [
-     [
-      "Un año antes",
-      2.4
-     ],
-     [
-      "Septiembre 2026",
-      5.1,
-      1
-     ]
-    ]
-   },
-   "cap": "Participación de las acciones en el volumen mensual negociado en la bolsa.",
-   "pasos": [
-    "Más empresas venden acciones en la bolsa",
-    "Consiguen capital sin endeudarse",
-    "Pueden invertir en máquinas, plantas o expansión",
-    "Aumenta la inversión (I)",
-    "La demanda agregada y la capacidad productiva pueden crecer"
-   ],
-   "conceptos": [
-    [
-     "Acción",
-     "Parte de la propiedad de una empresa."
-    ],
-    [
-     "Bono",
-     "Deuda que paga intereses y se devuelve al vencimiento."
-    ],
-    [
-     "Inversión (I)",
-     "Gasto de las empresas en bienes de capital."
-    ],
-    [
-     "Mercado de capitales",
-     "Donde se consigue financiamiento a largo plazo."
-    ]
-   ],
-   "diagramas": [
-    "da-oa-da"
-   ],
-   "rel": [
-    "bolsa-octubre",
-    "maquila"
-   ],
-   "pregunta": {
-    "q": "¿Qué diferencia hay entre financiarse con acciones y con bonos?",
-    "opts": [
-     "Con acciones se suman dueños y no hay que devolver el dinero; con bonos se toma deuda que paga intereses",
-     "No hay diferencia",
-     "Los bonos dan propiedad de la empresa",
-     "Las acciones siempre pagan un interés fijo"
-    ],
-    "ok": 0,
-    "fb": "El bono es deuda: hay que pagar intereses y devolverlo. La acción es propiedad: el inversor comparte ganancias y riesgos."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Empresas",
-      "Tienen otra forma de financiarse sin endeudarse."
-     ],
-     [
-      "Inversores",
-      "Pueden diversificar y participar de las ganancias."
-     ]
-    ],
-    "pierden": [
-     [
-      "Accionistas actuales",
-      "Su participación en la empresa se reparte entre más dueños."
-     ]
-    ],
-    "corto": "Más opciones de inversión en la bolsa.",
-    "largo": "Un mercado de acciones más grande puede impulsar la inversión y el crecimiento.",
-    "supuestos": [
-     "Que el crecimiento se sostenga y no sea un mes aislado."
-    ],
-    "conclusion": "Es una señal de un mercado de capitales que madura, aunque las acciones siguen siendo una parte pequeña frente a los bonos."
-   },
-   "sector": [
-    "industria"
-   ]
-  },
-  {
    "id": "ueno-devolucion",
    "fecha": "2026-11-16",
    "medio": "ABC Color",
@@ -5729,139 +6340,6 @@
    ]
   },
   {
-   "id": "maquila",
-   "fecha": "2026-10-16",
-   "medio": "La República",
-   "url": "https://www.larepublica.co/globoeconomia/maquila-exporta-us-1-148-millones-y-genera-un-superavit-de-us-543-millones-en-paraguay-4504329",
-   "titulo": "La maquila exporta US$ 1.148 millones, un 25 % más que en 2025",
-   "unidad": "global",
-   "tema": "4.1",
-   "kc": "interdependencia",
-   "resumen": "Según el Consejo Nacional de las Industrias Maquiladoras de Exportación, entre enero y septiembre las maquiladoras exportaron US$ 1.148 millones (+25 %) e importaron US$ 605 millones (+20 %), con un saldo positivo de US$ 543 millones. Emplean a 36.382 personas.",
-   "contexto": "En la maquila, una empresa importa insumos, los transforma en Paraguay y exporta el producto. Así el país vende bienes industriales y no solo materias primas: autopartes (31 %), confecciones (16 %), bebidas (11 %) y aluminio (11 %). Brasil compra el 59 %, lo que muestra la integración con el vecino. La nota aclara que el saldo comercial no equivale al valor agregado que queda en el país.",
-   "datos": [
-    [
-     "US$ 1.148 M",
-     "Exportaciones de maquila (ene-sep)"
-    ],
-    [
-     "+25 %",
-     "Frente a 2025"
-    ],
-    [
-     "US$ 543 M",
-     "Saldo comercial del sector"
-    ],
-    [
-     "36.382",
-     "Empleos (+4 %)"
-    ],
-    [
-     "59 %",
-     "Ventas a Brasil"
-    ]
-   ],
-   "clave": [
-    "+25 %",
-    "exportaciones de maquila"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "% de las exportaciones",
-    "rows": [
-     [
-      "Brasil",
-      59,
-      1
-     ],
-     [
-      "Argentina",
-      14
-     ],
-     [
-      "Países Bajos",
-      11
-     ],
-     [
-      "Estados Unidos",
-      5
-     ]
-    ]
-   },
-   "cap": "Destinos de las exportaciones de maquila entre enero y septiembre de 2026.",
-   "pasos": [
-    "Empresas extranjeras invierten en Paraguay",
-    "Importan insumos y los transforman con trabajo local",
-    "Exportan productos industriales",
-    "Se crean empleos y entran divisas",
-    "La economía se diversifica más allá de la soja y la carne"
-   ],
-   "conceptos": [
-    [
-     "Maquila",
-     "Régimen para importar insumos, transformarlos y exportar el producto."
-    ],
-    [
-     "Diversificación",
-     "Producir y exportar más tipos de bienes."
-    ],
-    [
-     "Valor agregado",
-     "Lo que se suma al valor de los insumos en cada etapa."
-    ],
-    [
-     "Inversión extranjera directa",
-     "Capital de empresas del exterior que se instalan en el país."
-    ]
-   ],
-   "diagramas": [
-    "exportaciones"
-   ],
-   "rel": [
-    "soja-record",
-    "mercosur-ue"
-   ],
-   "pregunta": {
-    "q": "¿Por qué la maquila ayuda a diversificar la economía paraguaya?",
-    "opts": [
-     "Porque agrega exportaciones industriales a las de productos primarios",
-     "Porque reemplaza a la soja",
-     "Porque solo vende a Paraguay",
-     "Porque elimina las importaciones"
-    ],
-    "ok": 0,
-    "fb": "La maquila suma bienes industriales (autopartes, textiles) a una canasta exportadora dominada por soja, carne y energía."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Trabajadores",
-      "36.382 empleos, 4 % más que un año antes."
-     ],
-     [
-      "Regiones como Alto Paraná",
-      "Concentran la mitad de las empresas."
-     ]
-    ],
-    "pierden": [
-     [
-      "El propio sector",
-      "Depende de Brasil, que compra el 59 %."
-     ]
-    ],
-    "corto": "Más empleo y divisas.",
-    "largo": "La economía se diversifica, aunque el valor agregado que queda en el país es menor que el saldo comercial.",
-    "supuestos": [
-     "Que Brasil siga comprando."
-    ],
-    "conclusion": "La maquila diversifica la economía, pero su aporte real depende del valor agregado y de cuántos proveedores locales se sumen."
-   },
-   "sector": [
-    "industria",
-    "comercio"
-   ]
-  },
-  {
    "id": "energia-cedida",
    "fecha": "2026-11-01",
    "medio": "ABC Color",
@@ -5990,119 +6468,6 @@
    },
    "sector": [
     "energia"
-   ]
-  },
-  {
-   "id": "carne-sustitutos",
-   "fecha": "2026-10-25",
-   "medio": "Revista Foco (La Nación)",
-   "url": "https://revistafoco.com.py/2026/10/25/carne-paraguaya-ante-el-desafio-de-competir-en-un-mercado-mas-caro/",
-   "mas": [
-    [
-     "La Prensa",
-     "https://www.laprensaparaguay.com/2026/11/02/exportaciones-avicolas-registran-un-crecimiento-del-76-en-ingresos-hasta-octubre/",
-     "2026-11-02"
-    ]
-   ],
-   "titulo": "Carne vacuna más cara: el consumo se pasa al pollo y al cerdo",
-   "unidad": "micro",
-   "tema": "2.1",
-   "kc": "eleccion",
-   "resumen": "Según la Comisión de Carne de la ARP, la suba de los precios internacionales de la carne vacuna frena los negocios y empuja a los consumidores hacia el pollo y el cerdo. En Chile, algunos compradores pagan entre US$ 200 y 300 más por tonelada de carne paraguaya, pero si la diferencia crece eligen la brasileña.",
-   "contexto": "Es un ejemplo de bienes sustitutos: cuando sube el precio de uno, aumenta la demanda del otro. Los datos acompañan: las exportaciones de pollo crecieron 76 % en ingresos hasta octubre, mientras la carne vacuna perdió volumen. La oferta de carne vacuna también es menor porque los productores reducen el rodeo y retienen hembras para reproducción.",
-   "datos": [
-    [
-     "US$ 200-300",
-     "Precio extra por tonelada que pagan algunos compradores chilenos"
-    ],
-    [
-     "+76 %",
-     "Ingresos por exportaciones de pollo (ene-oct)"
-    ],
-    [
-     "US$ 7,12",
-     "Precio por kilo de la carne vacuna exportada"
-    ]
-   ],
-   "clave": [
-    "+76 %",
-    "exportaciones de pollo"
-   ],
-   "fig": {
-    "k": "mercado",
-    "mueve": "D",
-    "dir": 1
-   },
-   "cap": "Mercado del pollo: como la carne vacuna, su sustituto, se encareció, la demanda de pollo pasa de D₁ a D₂; suben el precio y la cantidad.",
-   "pasos": [
-    "Sube el precio de la carne vacuna",
-    "Los consumidores buscan alternativas más baratas",
-    "Aumenta la demanda de pollo y cerdo (sustitutos)",
-    "La curva de demanda de pollo se desplaza a la derecha",
-    "Suben el precio y la cantidad vendida de pollo"
-   ],
-   "conceptos": [
-    [
-     "Bienes sustitutos",
-     "Satisfacen la misma necesidad: si uno sube, se demanda más el otro."
-    ],
-    [
-     "Desplazamiento de la demanda",
-     "Cambio de toda la curva por un factor distinto del precio del bien."
-    ],
-    [
-     "Competencia",
-     "Brasil y Paraguay venden a los mismos compradores."
-    ],
-    [
-     "Oferta",
-     "El rodeo se reduce y hay menos carne para vender."
-    ]
-   ],
-   "diagramas": [
-    "oferta-demanda"
-   ],
-   "rel": [
-    "carne-cae",
-    "mercosur-ue"
-   ],
-   "pregunta": {
-    "q": "Si sube el precio de la carne vacuna, ¿qué pasa en el mercado del pollo?",
-    "opts": [
-     "La demanda de pollo se desplaza a la derecha",
-     "La oferta de pollo se desplaza a la izquierda",
-     "Hay un movimiento a lo largo de la demanda de pollo",
-     "Nada"
-    ],
-    "ok": 0,
-    "fb": "El precio de un sustituto es un factor distinto del precio del pollo: desplaza toda la curva de demanda de pollo a la derecha."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores de pollo y cerdo",
-      "Ganan clientes."
-     ],
-     [
-      "Consumidores",
-      "Encuentran proteínas más baratas."
-     ]
-    ],
-    "pierden": [
-     [
-      "Productores de carne vacuna",
-      "Pierden clientes y compiten con Brasil en Chile."
-     ]
-    ],
-    "corto": "Más demanda de pollo y cerdo.",
-    "largo": "La competencia con Brasil y la recuperación del rodeo pueden bajar los precios de la carne vacuna.",
-    "supuestos": [
-     "Que la sustitución sea duradera."
-    ],
-    "conclusion": "Muestra cómo los precios relativos guían las elecciones del consumidor y por qué importa la competitividad frente a Brasil."
-   },
-   "sector": [
-    "agro"
    ]
   },
   {
@@ -6726,129 +7091,6 @@
      "Que la baja de alimentos no sea solo de temporada."
     ],
     "conclusion": "La inflación baja mejora el bienestar, pero la depreciación reciente podría revertirla: conviene seguir los próximos datos."
-   },
-   "inst": [
-    "bcp"
-   ]
-  },
-  {
-   "id": "bcp-tpm",
-   "fecha": "2026-10-24",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/bcp-mantiene-la-tasa-de-politica-monetaria",
-   "mas": [
-    [
-     "InfoNegocios",
-     "https://infonegocios.com.py/default/bcp-mantiene-la-tasa-en-5-50-y-mejora-su-proyeccion-de-crecimiento-a-5",
-     "2026-11-02"
-    ]
-   ],
-   "titulo": "El BCP mantiene la tasa en 5,50 % y eleva el crecimiento esperado a 5 %",
-   "unidad": "macro",
-   "tema": "3.5",
-   "kc": "intervencion",
-   "resumen": "El Comité de Política Monetaria del BCP decidió por unanimidad dejar la tasa de interés de referencia en 5,50 % anual. Además, subió la proyección de crecimiento de 2026 de 4,5 % a 5,0 %.",
-   "contexto": "Una tasa «neutral» ni empuja ni frena la economía. Con inflación baja, el BCP podría haber bajado la tasa para estimular el gasto; no lo hizo porque la actividad ya crece con fuerza (el IMAEP subió 6,7 % en agosto) y hay riesgos externos, como el precio del petróleo. La decisión fue anterior a la crisis de Ueno Bank. La próxima reunión del Comité está prevista para el 20 de noviembre.",
-   "datos": [
-    [
-     "5,50 %",
-     "Tasa de política monetaria"
-    ],
-    [
-     "6,7 %",
-     "Crecimiento del IMAEP en agosto"
-    ],
-    [
-     "5,0 %",
-     "PIB 2026 proyectado (antes 4,5 %)"
-    ],
-    [
-     "+16,6 %",
-     "Crédito al sector privado"
-    ],
-    [
-     "16,0 %",
-     "Tasa promedio de préstamos bancarios"
-    ]
-   ],
-   "clave": [
-    "5,50 %",
-    "tasa de referencia"
-   ],
-   "fig": {
-    "k": "macro",
-    "mueve": "D",
-    "dir": 1
-   },
-   "cap": "Lo que haría una baja de la tasa: crédito más barato, más consumo e inversión, y la DA pasa de DA₁ a DA₂.",
-   "pasos": [
-    "El BCP baja la tasa de referencia",
-    "Los bancos bajan las tasas de sus préstamos",
-    "Aumentan el consumo y la inversión",
-    "La DA se desplaza a la derecha",
-    "Suben el PIB real y el nivel general de precios"
-   ],
-   "conceptos": [
-    [
-     "Tasa de política monetaria",
-     "Tasa de referencia que fija el BCP y que guía a las demás tasas."
-    ],
-    [
-     "Política neutral",
-     "Ni estimula ni frena la economía."
-    ],
-    [
-     "IMAEP",
-     "Indicador mensual de actividad económica del Paraguay."
-    ],
-    [
-     "Crecimiento económico",
-     "Aumento del PIB real de un año a otro."
-    ]
-   ],
-   "diagramas": [
-    "politica-monetaria",
-    "da-oa-da"
-   ],
-   "rel": [
-    "inflacion-oct",
-    "ueno-intervencion"
-   ],
-   "pregunta": {
-    "q": "La inflación (1,7 %) está por debajo de la meta (3,5 %). Si el BCP bajara la tasa, ¿qué pasaría en el diagrama DA/OA?",
-    "opts": [
-     "La DA se desplaza a la derecha: suben el PIB real y los precios",
-     "La OACP se desplaza a la derecha",
-     "La DA se desplaza a la izquierda",
-     "No se mueve ninguna curva"
-    ],
-    "ok": 0,
-    "fb": "Una tasa más baja abarata el crédito: suben el consumo y la inversión, la DA se desplaza a la derecha y el nivel de precios se acerca a la meta."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Ahorristas",
-      "Obtienen una tasa real positiva (5,5 % frente a 1,7 % de inflación)."
-     ],
-     [
-      "Todos",
-      "La estabilidad ayuda a planificar."
-     ]
-    ],
-    "pierden": [
-     [
-      "Deudores y empresas",
-      "No obtienen un crédito más barato."
-     ]
-    ],
-    "corto": "El costo del crédito no cambia y la economía sigue creciendo.",
-    "largo": "Una tasa estable ancla las expectativas; después de la crisis, el BCP podría tener que subirla si el dólar empuja la inflación.",
-    "supuestos": [
-     "Que la inflación siga baja.",
-     "Que los bancos trasladen las decisiones del BCP a sus tasas."
-    ],
-    "conclusion": "Mantener la tasa fue prudente antes de la crisis; la próxima reunión mostrará si el BCP prioriza el crecimiento o contener la presión del dólar."
    },
    "inst": [
     "bcp"
@@ -7594,111 +7836,6 @@
      "Que las empresas generen empleo y actividad en el país"
     ],
     "conclusion": "Vender energía a industrias nuevas puede ser buena idea, pero solo si el precio refleja su costo de oportunidad: la energía de hoy no estará disponible mañana."
-   }
-  },
-  {
-   "id": "agro-oferta",
-   "fecha": "2026-10-05",
-   "medio": "InfoNegocios",
-   "url": "https://infonegocios.com.py/default/soja-arroz-y-poroto-los-cultivos-que-empujaron-al-agro-con-un-salto-de-11-1",
-   "titulo": "Soja, arroz y poroto empujan la oferta agrícola: el agro crece 11,1 %",
-   "unidad": "micro",
-   "tema": "2.2",
-   "kc": "cambio",
-   "sector": [
-    "agro"
-   ],
-   "resumen": "Según las Cuentas Nacionales del BCP, la agricultura creció 11,1 % interanual en el segundo trimestre de 2026 y 12,3 % en el primer semestre. La suba se explica por la soja, el arroz, el poroto, el girasol y el tabaco, mientras que el maíz, el algodón, el sésamo y la yerba mate produjeron menos.",
-   "contexto": "Cuando los productores pueden producir más a cada precio, la curva de oferta se desplaza a la derecha. En el agro, los factores que la mueven son el clima, la tecnología, los costos de insumos y las expectativas de precios. La campaña 2025/2026 dejó más soja y arroz, pero no todos los cultivos crecieron: cada productor elige qué sembrar según el precio esperado y sus costos, y por eso algunos cultivos bajaron mientras otros subían. La mayor oferta agrícola se tradujo en más exportaciones, que crecieron 11,5 % en el trimestre.",
-   "datos": [
-    [
-     "+11,1 %",
-     "Crecimiento de la agricultura (2.º trimestre 2026)"
-    ],
-    [
-     "+12,3 %",
-     "Agricultura en el primer semestre"
-    ],
-    [
-     "+11,5 %",
-     "Exportaciones de bienes y servicios (2.º trimestre)"
-    ],
-    [
-     "+4 %",
-     "Crecimiento del PIB en el 2.º trimestre"
-    ]
-   ],
-   "clave": [
-    "+11,1 %",
-    "más producción agrícola"
-   ],
-   "fig": {
-    "k": "mercado",
-    "mueve": "O",
-    "dir": 1
-   },
-   "cap": "Mejor campaña de soja y arroz: la oferta se desplaza a la derecha (O₁ → O₂), aumenta la cantidad y, si nada más cambia, baja el precio.",
-   "pasos": [
-    "El clima y la tecnología favorecen la campaña 2025/2026",
-    "Los productores pueden ofrecer más soja y arroz a cada precio",
-    "La curva de oferta se desplaza a la derecha",
-    "Aumenta la cantidad producida y vendida",
-    "Crecen las exportaciones y el PIB"
-   ],
-   "conceptos": [
-    [
-     "Oferta",
-     "Cantidad que los productores están dispuestos y pueden vender a cada precio."
-    ],
-    [
-     "Desplazamiento de la oferta",
-     "Cambio en la cantidad ofrecida a todos los precios por factores distintos del precio."
-    ],
-    [
-     "Determinantes de la oferta",
-     "Costos, tecnología, clima, expectativas, precios de otros bienes, impuestos y subsidios."
-    ]
-   ],
-   "diagramas": [
-    "oferta-demanda"
-   ],
-   "rel": [
-    "soja-record"
-   ],
-   "pregunta": {
-    "q": "¿Qué pasa con la curva de oferta de soja si una cosecha es mejor por el buen clima?",
-    "opts": [
-     "Se desplaza a la derecha",
-     "Se desplaza a la izquierda",
-     "No se mueve: solo cambia la cantidad demandada",
-     "Se mueve la demanda a la derecha"
-    ],
-    "ok": 0,
-    "fb": "El clima es un determinante de la oferta distinto del precio: con mejor clima se ofrece más a cada precio, y la curva se desplaza a la derecha."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores de soja y arroz",
-      "Venden más volumen."
-     ],
-     [
-      "El país",
-      "Entran más dólares por exportaciones."
-     ]
-    ],
-    "pierden": [
-     [
-      "Productores de maíz o algodón",
-      "Su producción cayó."
-     ]
-    ],
-    "corto": "Más exportaciones y crecimiento del PIB.",
-    "largo": "Depender del clima hace que el agro sea volátil.",
-    "supuestos": [
-     "Que los precios internacionales no bajen tanto como para compensar el mayor volumen"
-    ],
-    "conclusion": "Una buena cosecha impulsa la economía, pero muestra lo dependiente que es Paraguay del clima."
    }
   },
   {
@@ -8883,13 +9020,13 @@
   },
   "2026-11-16": {
    "titulo": "Después de los anticipos: repartir Ueno y aprobar el Presupuesto",
-   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno.",
+   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año.",
    "claves": [
     "ueno-devolucion",
     "pgn-suspendido",
+    "deficit-octubre",
     "isc-diesel",
-    "mercosur-ue",
-    "indice-miseria"
+    "eve-noviembre"
    ]
   }
  },
@@ -9060,6 +9197,14 @@
     [
      "2026-11-13",
      "Estimador de Cifras de Negocios: las ventas crecen 2,5 % en septiembre y 4,3 % en el año."
+    ],
+    [
+     "2026-11-17",
+     "Encuesta EVE: inflación esperada 2,9 % para 2026, dólar en G. 6.255 a diciembre y tasa en 5,50 %."
+    ],
+    [
+     "2026-11-17",
+     "Aprueba medidas temporales para que las mipymes afectadas por Ueno refinancien sus créditos hasta el 31 de marzo de 2027."
     ]
    ],
    "enlaces": [
@@ -9219,6 +9364,14 @@
     [
      "2026-11-17",
      "Alliana anuncia un ahorro de hasta US$ 100 millones en Hambre Cero en 2027."
+    ],
+    [
+     "2026-11-17",
+     "Situfin a octubre: déficit de 3,2 % del PIB en doce meses; gasto +10,8 % e ingresos +1,0 %."
+    ],
+    [
+     "2026-11-18",
+     "Informe de la Caja Fiscal: déficit de US$ 333 millones de enero a octubre."
     ]
    ],
    "enlaces": [
@@ -9754,6 +9907,10 @@
    [
     "2026-11-13",
     "El BCP baja el encaje legal para que los bancos compren CDA y bonos a casas de bolsa y fondos con pedidos de rescate."
+   ],
+   [
+    "2026-11-17",
+    "El grupo argentino Balanz Capital firma un acuerdo para comprar la mayoría de Cadiem Casa de Bolsa y su administradora de fondos."
    ]
   ],
   "ib": [
@@ -10506,7 +10663,9 @@
     "liquidez-tasas",
     "asoban-regulacion",
     "mipymes-fogapy",
-    "confianza-octubre"
+    "confianza-octubre",
+    "bcp-mipymes",
+    "caja-fiscal-octubre"
    ],
    "hitos": [
     [
@@ -10675,6 +10834,16 @@
      "2026-11-17",
      "Asimcopar: solo entra el 10 % de los contenedores y pide un préstamo puente para pymes.",
      "mipymes-fogapy"
+    ],
+    [
+     "2026-11-17",
+     "El BCP permite a las mipymes afectadas refinanciar sus deudas hasta el 31 de marzo de 2027.",
+     "bcp-mipymes"
+    ],
+    [
+     "2026-11-17",
+     "El MTESS organiza una Expo Empleo con 607 vacantes para ex trabajadores del grupo.",
+     "mtess-ueno"
     ]
    ]
   },
@@ -10697,7 +10866,9 @@
     "deuda-setiembre",
     "sp-calificacion",
     "fitch-revision",
-    "hambre-cero-recorte"
+    "hambre-cero-recorte",
+    "deficit-octubre",
+    "caja-fiscal-octubre"
    ],
    "hitos": [
     [
@@ -10769,6 +10940,11 @@
      "2026-11-17",
      "Alliana anuncia un recorte de hasta US$ 100 millones en Hambre Cero para 2027.",
      "hambre-cero-recorte"
+    ],
+    [
+     "2026-11-17",
+     "Situfin: el déficit de doce meses llega a 3,2 % del PIB; el MEF mantiene 3,9 % para 2027.",
+     "deficit-octubre"
     ]
    ]
   },
@@ -10790,7 +10966,8 @@
     "bolsa-octubre",
     "guarani-cae",
     "dolar-6600",
-    "bcp-cambiaria"
+    "bcp-cambiaria",
+    "eve-noviembre"
    ],
    "hitos": [
     [
@@ -10849,6 +11026,11 @@
      "2026-11-16",
      "El dólar repunta levemente a G. 6.241 en el interbancario.",
      "dolar-6600"
+    ],
+    [
+     "2026-11-17",
+     "Encuesta del BCP: el mercado espera G. 6.255 por dólar en diciembre y G. 6.500 en 2027.",
+     "eve-noviembre"
     ]
    ]
   },
@@ -12851,15 +13033,15 @@
     "v": 3.2,
     "u": " % del PIB",
     "dec": 1,
-    "fecha": "2026-08-04",
+    "fecha": "2026-10-31",
     "meta": "Ley de Responsabilidad Fiscal: hasta 1,5 % (en una emergencia, nunca más de 3 %)",
     "max": [
      1.5,
      3.0
     ],
     "oficial": true,
-    "extra": "Proyección del MEF para el cierre del año. Acumulado a septiembre: 2,0 %; últimos doce meses: 3,0 %.",
-    "fuente": "MEF, vía Última Hora (4 ago y 20 oct 2026)",
+    "extra": "Proyección del MEF para el cierre del año. Últimos doce meses a octubre: 3,2 % (US$ 2.135 M); acumulado enero-octubre: 2,3 %. Para 2027 se proyecta 3,9 %.",
+    "fuente": "MEF (Situfin), vía Última Hora (17 nov 2026)",
     "tema": "3.6",
     "link": "#miradas",
     "por": "Un déficit alto obliga a endeudarse; la ley busca que la deuda no crezca demasiado."
@@ -14124,8 +14306,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-17",
-  "hora": "07:32",
+  "fecha": "2026-11-18",
+  "hora": "07:31",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -14134,25 +14316,25 @@
     "USD",
     "Dólar estadounidense",
     5900,
-    6150
+    6200
    ],
    [
     "ARS",
     "Peso argentino",
-    3.4,
-    3.9
+    3,
+    3.8
    ],
    [
     "BRL",
     "Real brasileño",
-    1070,
-    1170
+    1050,
+    1150
    ],
    [
     "EUR",
     "Euro",
     6100,
-    6900
+    6850
    ]
   ],
   "historial": {
@@ -14201,6 +14383,11 @@
      "2026-11-17",
      5900,
      6150
+    ],
+    [
+     "2026-11-18",
+     5900,
+     6200
     ]
    ],
    "ARS": [
@@ -14248,6 +14435,11 @@
      "2026-11-17",
      3.4,
      3.9
+    ],
+    [
+     "2026-11-18",
+     3,
+     3.8
     ]
    ],
    "BRL": [
@@ -14295,6 +14487,11 @@
      "2026-11-17",
      1070,
      1170
+    ],
+    [
+     "2026-11-18",
+     1050,
+     1150
     ]
    ],
    "EUR": [
@@ -14342,6 +14539,11 @@
      "2026-11-17",
      6100,
      6900
+    ],
+    [
+     "2026-11-18",
+     6100,
+     6850
     ]
    ]
   }
@@ -14390,6 +14592,11 @@
     "US$ 1.200 M+",
     "Fondos del sector privado congelados en Ueno, según Fedemipymes",
     "mipymes-fogapy"
+   ],
+   [
+    "US$ 40 M",
+    "Inversión de la Caja Fiscal en CDA de Ueno (unos US$ 60 M con intereses)",
+    "caja-fiscal-octubre"
    ]
   ],
   "actores": [
@@ -14457,6 +14664,11 @@
     "Fedemipymes",
     "Pide una mesa de trabajo y créditos garantizados (Fogapy 2) para las pequeñas empresas afectadas.",
     "mipymes-fogapy"
+   ],
+   [
+    "BCP (crédito)",
+    "Permite a las mipymes afectadas refinanciar sus deudas sin castigo hasta marzo de 2027 y da 90 días más a bancos y aseguradoras.",
+    "bcp-mipymes"
    ]
   ],
   "preguntas": [
