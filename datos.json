@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18",
+ "actualizado": "2026-11-19",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -272,6 +272,16 @@
     "17 nov",
     "El BCP deja refinanciar a las mipymes afectadas; el mercado espera un dólar de G. 6.255 a fin de año.",
     "bcp-mipymes"
+   ],
+   [
+    "18 nov",
+    "El BCP estima un déficit de US$ 1.000 a 1.500 millones en Ueno; los bonistas no estarían cubiertos.",
+    "ueno-deficit"
+   ],
+   [
+    "18 nov",
+    "Itaipú tenía US$ 163,8 millones en Ueno; Alliana cambia a su director.",
+    "itaipu-tarifa-2027"
    ]
   ],
   "lentes": [
@@ -290,6 +300,181 @@
   ]
  },
  "noticias": [
+  {
+   "id": "ueno-deficit",
+   "fecha": "2026-11-18",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/caso-ueno-bank-bcp-advierte-que-deficit-puede-alcanzar-los-usd-1-500-millones",
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/18/caso-ueno-identifican-activos-sanos-por-us-1500-millones-para-transferir-y-rescatar-a-ahorristas-y-deficit-de-us-1000-millones/",
+     "2026-11-18"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/paraguay-se-expone-a-demandas-internacionales-y-extradiciones-por-bonos-de-ueno",
+     "2026-11-18"
+    ]
+   ],
+   "opinion": false,
+   "titulo": "Ueno deja un agujero de hasta US$ 1.500 millones: los depósitos se cubren, los bonos no",
+   "unidad": "micro",
+   "tema": "2.10",
+   "kc": "intervencion",
+   "inst": [
+    "bcp",
+    "bolsa"
+   ],
+   "resumen": "El 18 de noviembre, el directorio del BCP informó que los activos sanos verificados de Ueno Bank suman unos G. 9,25 billones (US$ 1.500 millones) y que el déficit preliminar del banco está entre US$ 1.000 y US$ 1.500 millones, según Última Hora y ABC Color. Con esos activos se cubriría a los depositantes, pero no a los tenedores de bonos (unos US$ 350 millones emitidos en el exterior más bonos locales) ni se recuperaría todo el anticipo del Fondo de Garantía, que ya pagó unos US$ 644 millones. El presidente del BCP, Jorge Schreiner, desmintió así al presidente de Diputados, Raúl Latorre, que había dicho que alcanzaba para devolver todo.",
+   "contexto": "Cuando un banco quiebra, sus activos (créditos, inmuebles, inversiones) se usan para pagar sus deudas en un orden fijado por la ley: primero los depósitos cubiertos por el Fondo de Garantía y al final los bonistas y accionistas. Los bonos no tienen garantía, por eso pagan una tasa más alta: el comprador asume más riesgo. El caso muestra un problema de información asimétrica: según Schreiner, los bonos se vendieron en Nueva York con información que no era la correcta, y ahora el país podría enfrentar demandas internacionales, lo que daña su reputación y puede encarecer su deuda. El BCP prevé armar en unos 10 días lotes de US$ 60 a 80 millones para licitarlos entre bancos.",
+   "datos": [
+    [
+     "US$ 1.000–1.500 M",
+     "Déficit preliminar de Ueno Bank, según el BCP"
+    ],
+    [
+     "US$ 1.500 M",
+     "Activos sanos verificados (G. 9,25 billones): créditos, inversiones, inmuebles"
+    ],
+    [
+     "US$ 644 M",
+     "Anticipo ya pagado por el Fondo de Garantía de Depósitos"
+    ],
+    [
+     "US$ 350 M",
+     "Bonos emitidos en el exterior, sin cobertura del Fondo"
+    ],
+    [
+     "G. 121,76 M",
+     "Tope del anticipo por depositante (40 salarios mínimos)"
+    ],
+    [
+     "US$ 60–80 M",
+     "Tamaño de cada lote que se licitará entre bancos"
+    ],
+    [
+     "~10 días",
+     "Plazo para cerrar el balance e iniciar la licitación"
+    ]
+   ],
+   "clave": [
+    "US$ 1.500 M",
+    "déficit preliminar de Ueno"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ millones",
+    "rows": [
+     [
+      "Activos sanos",
+      1500,
+      0
+     ],
+     [
+      "Anticipo del FGD",
+      644,
+      0
+     ],
+     [
+      "Bonos externos",
+      350,
+      0
+     ],
+     [
+      "Déficit (máx.)",
+      1500,
+      1
+     ]
+    ]
+   },
+   "cap": "Cifras preliminares del BCP sobre Ueno Bank al 18 de noviembre de 2026: activos sanos verificados, anticipo pagado por el Fondo de Garantía, bonos emitidos en el exterior y el déficit máximo estimado (Última Hora y ABC Color).",
+   "pasos": [
+    "Ueno acumuló créditos que no se cobran y su información no mostraba el problema",
+    "El BCP lo interviene y separa los activos sanos (US$ 1.500 M)",
+    "Los activos alcanzan para los depositantes, pero no para los bonistas ni para todo el anticipo del Fondo",
+    "Queda un déficit de US$ 1.000 a 1.500 M que asumen bonistas, accionistas y el propio Fondo",
+    "Los bonistas extranjeros podrían demandar: sube el riesgo reputacional del país"
+   ],
+   "conceptos": [
+    [
+     "Información asimétrica",
+     "Una parte (el banco) sabe más que la otra (ahorristas, bonistas) sobre el riesgo real."
+    ],
+    [
+     "Riesgo moral",
+     "Si se espera un rescate, los bancos y sus clientes pueden asumir más riesgo del debido."
+    ],
+    [
+     "Orden de prelación",
+     "Orden legal en que se pagan las deudas de una empresa que quiebra."
+    ],
+    [
+     "Garantía de depósitos",
+     "Seguro público que devuelve los depósitos hasta un tope si el banco cae."
+    ],
+    [
+     "Riesgo reputacional",
+     "Pérdida de confianza de los inversores que puede encarecer el crédito al país."
+    ]
+   ],
+   "diagramas": [
+    "bonos",
+    "politica-monetaria"
+   ],
+   "rel": [
+    "ueno-lotes",
+    "ueno-devolucion",
+    "ueno-morosidad",
+    "fitch-revision",
+    "bolsa-ueno-bonos"
+   ],
+   "pregunta": {
+    "q": "¿Por qué los bonistas de Ueno no recuperan su dinero y los depositantes sí?",
+    "opts": [
+     "Porque la ley protege a los depósitos con el Fondo de Garantía y los bonos, que pagaban más interés, no tienen esa cobertura",
+     "Porque los bonistas no pagaron impuestos",
+     "Porque el BCP solo devuelve dinero en guaraníes",
+     "Porque los bonos ya habían vencido"
+    ],
+    "ok": 0,
+    "fb": "Los bonos pagan una tasa mayor justamente porque asumen más riesgo: en una quiebra se cobran después de los depósitos asegurados."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Depositantes de Ueno",
+      "Los activos sanos alcanzarían para cubrir sus cuentas, ahorros y CDA."
+     ],
+     [
+      "Bancos que compren los lotes",
+      "Reciben carteras de créditos y otros activos, y nuevos clientes."
+     ]
+    ],
+    "pierden": [
+     [
+      "Bonistas (incluidas cajas jubilatorias)",
+      "Sus bonos no tienen garantía y podrían perder gran parte de lo invertido."
+     ],
+     [
+      "Fondo de Garantía de Depósitos",
+      "Según el BCP, será el primer perdedor: no recuperaría todo el anticipo de US$ 644 M."
+     ],
+     [
+      "Estado paraguayo",
+      "Puede enfrentar demandas en Nueva York y un daño a su reputación financiera."
+     ]
+    ],
+    "corto": "En unos 10 días el BCP cerraría el balance y licitaría los lotes; los bonistas quedan a la espera y crece la tensión política por las cifras.",
+    "largo": "Un fondo de garantía con menos recursos y posibles juicios internacionales pueden encarecer el crédito y obligar a reforzar la supervisión bancaria.",
+    "supuestos": [
+     "Que las cifras preliminares del BCP se confirmen al cerrar el balance",
+     "Que los bancos acepten comprar los lotes",
+     "Que no aparezcan más activos en bóvedas o conciliaciones pendientes"
+    ],
+    "conclusion": "Proteger a los depositantes evita una corrida y es coherente con la ley, pero el agujero muestra una falla de información y de supervisión cuyo costo recae en bonistas, en el Fondo y, quizá, en la reputación del país."
+   }
+  },
   {
    "id": "deficit-octubre",
    "fecha": "2026-11-17",
@@ -448,6 +633,11 @@
      "Última Hora",
      "https://www.ultimahora.com/el-mercado-corrigio-el-pronostico-sobre-el-dolar-de-g-5-850-a-g-6-200-para-noviembre",
      "2026-11-17"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios_edicion_impresa/2026/11/19/agentes-mantienen-tasa-de-crecimiento-del-45/",
+     "2026-11-19"
     ]
    ],
    "opinion": false,
@@ -553,7 +743,6 @@
    "rel": [
     "inflacion-oct",
     "dolar-6600",
-    "bcp-tpm",
     "liquidez-tasas"
    ],
    "pregunta": {
@@ -1314,7 +1503,6 @@
     "exportaciones"
    ],
    "rel": [
-    "agro-oferta",
     "soja-record",
     "energia-cedida"
    ],
@@ -2025,8 +2213,7 @@
    ],
    "rel": [
     "ueno-lotes",
-    "bolsa-ueno-bonos",
-    "bcp-tpm"
+    "bolsa-ueno-bonos"
    ],
    "pregunta": {
     "q": "Si el BCP baja el encaje legal, ¿qué pasa con el dinero que los bancos pueden usar?",
@@ -2367,124 +2554,6 @@
    ]
   },
   {
-   "id": "pepino-precio",
-   "fecha": "2026-11-13",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/economia/2026/11/13/productores-de-pepino-denuncian-caida-del-precio-y-apuntan-al-contrabando/",
-   "titulo": "El pepino cae de G. 100.000 a G. 40.000 la caja: ¿mucha oferta o contrabando?",
-   "unidad": "micro",
-   "tema": "2.2",
-   "kc": "eleccion",
-   "resumen": "Según ABC Color, en dos semanas la caja de 20 kilos de pepino bajó de G. 100.000 a G. 40.000 (G. 2.000 por kilo) en el Mercado de Abasto. Un productor dice que producir cuesta unos G. 1.600 por kilo y culpa al ingreso de pepino brasileño; el MAG niega el contrabando y atribuye la caída a la alta producción.",
-   "contexto": "Es un ejemplo de cómo un aumento de la oferta baja el precio de equilibrio. Las hortalizas tienen una oferta muy rígida en el corto plazo: lo que está plantado se cosecha igual, aunque el precio caiga, para no perderlo. Si además entra mercadería de contrabando, la oferta crece todavía más. Con un precio de G. 2.000 por kilo y un costo de G. 1.600 en finca, más cosecha, cajas y flete, el margen casi desaparece. El productor también critica que el programa Hambre Cero no compre suficiente producción nacional.",
-   "datos": [
-    [
-     "G. 100.000 → G. 40.000",
-     "Caja de 20 kg de pepino, en dos semanas"
-    ],
-    [
-     "G. 2.000",
-     "Precio por kilo en el Mercado de Abasto"
-    ],
-    [
-     "G. 1.600",
-     "Costo de producción por kilo en finca, según el productor"
-    ],
-    [
-     "−60 %",
-     "Caída del precio de la caja"
-    ]
-   ],
-   "clave": [
-    "−60 %",
-    "precio del pepino en 2 semanas"
-   ],
-   "fig": {
-    "k": "mercado",
-    "mueve": "O",
-    "dir": 1
-   },
-   "cap": "Más producción (y, según los productores, contrabando) desplaza la oferta de O₁ a O₂: el precio de equilibrio cae y se vende más pepino.",
-   "pasos": [
-    "La cosecha de pepino es alta (y entra producto brasileño, según los productores)",
-    "La oferta se desplaza a la derecha",
-    "El precio de equilibrio cae de G. 100.000 a G. 40.000 la caja",
-    "El margen sobre el costo casi desaparece",
-    "Los productores piden control del contrabando y compras públicas"
-   ],
-   "conceptos": [
-    [
-     "Ley de la oferta",
-     "A mayor precio, los productores quieren vender más, si todo lo demás no cambia."
-    ],
-    [
-     "Desplazamiento de la oferta",
-     "Cambio de toda la curva por algo distinto del precio, como el clima o más productores."
-    ],
-    [
-     "Oferta inelástica a corto plazo",
-     "Lo ya plantado se cosecha aunque el precio caiga."
-    ],
-    [
-     "Contrabando",
-     "Ingreso ilegal de mercadería que evade controles y aranceles."
-    ]
-   ],
-   "diagramas": [
-    "oferta-demanda",
-    "arancel"
-   ],
-   "rel": [
-    "agro-oferta"
-   ],
-   "pregunta": {
-    "q": "Si aumenta la oferta de pepino y la demanda no cambia, ¿qué pasa?",
-    "opts": [
-     "Baja el precio y aumenta la cantidad vendida",
-     "Sube el precio y baja la cantidad",
-     "Baja el precio y baja la cantidad",
-     "No cambia nada"
-    ],
-    "ok": 0,
-    "fb": "La oferta se desplaza a la derecha: con la misma demanda, el nuevo equilibrio tiene un precio menor y una cantidad mayor."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Consumidores",
-      "Compran pepino más barato."
-     ],
-     [
-      "Supermercados y comerciantes",
-      "Consiguen mercadería a menor costo."
-     ]
-    ],
-    "pierden": [
-     [
-      "Pequeños productores",
-      "El precio apenas cubre el costo y pierden ingresos."
-     ],
-     [
-      "Familias rurales",
-      "Menos ingresos pueden empujar a abandonar el rubro."
-     ]
-    ],
-    "corto": "Precios bajos mientras dure la cosecha; algunos productores cosechan solo para no perder todo.",
-    "largo": "Si el precio sigue bajo, se planta menos en la próxima temporada y el precio puede subir (ciclo de precios agrícolas).",
-    "supuestos": [
-     "Que la demanda no cambie",
-     "Que la causa principal sea la alta producción, como dice el MAG, y no el contrabando, como dicen los productores"
-    ],
-    "conclusion": "La caída se explica con oferta y demanda; si además hay contrabando, el control en frontera ayudaría, pero contra la abundancia de cosecha sirven más el almacenamiento, la industrialización y la planificación de siembra."
-   },
-   "sector": [
-    "agro"
-   ],
-   "mundo": [
-    "brasil"
-   ]
-  },
-  {
    "id": "ueno-lotes",
    "fecha": "2026-11-12",
    "medio": "La Nación",
@@ -2568,6 +2637,7 @@
     "politica-monetaria"
    ],
    "rel": [
+    "ueno-deficit",
     "ueno-intervencion",
     "ueno-devolucion",
     "ips-ueno",
@@ -2728,7 +2798,6 @@
    ],
    "rel": [
     "soja-record",
-    "maquila",
     "remesas-2026",
     "guarani-cae",
     "carne-cae"
@@ -4091,10 +4160,10 @@
   },
   {
    "id": "itaipu-tarifa-2027",
-   "fecha": "2026-11-16",
+   "fecha": "2026-11-18",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/itaipu-inicia-la-cuenta-regresiva-para-negociar-la-tarifa",
-   "titulo": "Itaipú: la tarifa vence el 31 de diciembre y no hay acuerdo para 2027",
+   "titulo": "Itaipú cambia de director y apura la tarifa 2027: acuerdo con Brasil antes del 31 de diciembre",
    "unidad": "micro",
    "tema": "2.11",
    "kc": "interdependencia",
@@ -4104,9 +4173,17 @@
    "mundo": [
     "brasil"
    ],
-   "resumen": "Félix Sosa, que volvió a presidir la ANDE el lunes 9, dijo a Última Hora que urge definir la tarifa de Itaipú y el acuerdo operativo antes de que venzan el 31 de diciembre de 2026. Según el entendimiento de mayo de 2024, desde 2027 la tarifa reflejaría solo el costo estricto de operación; con la fórmula del Cecuse quedaría entre US$ 8 y US$ 10 por kW al mes. El 16 de noviembre Última Hora informó que, tras la destitución de Santiago Peña, el Ejecutivo aún no dijo públicamente quién negociará por Paraguay. Según el ingeniero Guillermo López Flores, si no hay acuerdo antes del 31 de diciembre Brasil pagaría la tarifa técnica y Paraguay perdería unos US$ 650 millones anuales para obras; para la ANDE, en cambio, la tarifa de compra bajaría entre 38 % y 48 %.",
+   "resumen": "Félix Sosa, que volvió a presidir la ANDE el lunes 9, dijo a Última Hora que urge definir la tarifa de Itaipú y el acuerdo operativo antes de que venzan el 31 de diciembre de 2026. Según el entendimiento de mayo de 2024, desde 2027 la tarifa reflejaría solo el costo estricto de operación; con la fórmula del Cecuse quedaría entre US$ 8 y US$ 10 por kW al mes. El 16 de noviembre Última Hora informó que, tras la destitución de Santiago Peña, el Ejecutivo aún no dijo públicamente quién negociará por Paraguay. Según el ingeniero Guillermo López Flores, si no hay acuerdo antes del 31 de diciembre Brasil pagaría la tarifa técnica y Paraguay perdería unos US$ 650 millones anuales para obras; para la ANDE, en cambio, la tarifa de compra bajaría entre 38 % y 48 %. El 18 de noviembre, el presidente Alliana reemplazó a Justo Zacarías Irún por el ingeniero Hugo Zárate como director general paraguayo de Itaipú, tras conocerse que la binacional tenía US$ 163,8 millones y G. 115.200 millones depositados en Ueno, según Última Hora. El canciller Rubén Ramírez Lezcano dijo que la meta es definir la tarifa antes del 31 de diciembre y negociar el Anexo C durante 2027; el equipo técnico paraguayo lo encabeza el ministro de Industria y Comercio, Marco Riquelme, y Alliana aceptó reunirse con Lula en Brasilia.",
    "contexto": "Itaipú vende electricidad sin competencia: la tarifa no la fija el mercado sino un acuerdo entre Paraguay y Brasil, como en un monopolio regulado. Como la deuda de construcción se terminó de pagar en 2023, una tarifa basada solo en el costo sería mucho más baja y abarataría la energía para la ANDE, pero también reduciría los fondos que Itaipú dedica a gastos sociales. Según el artículo, la negociación la conduce el ministro Javier Giménez, y Sosa adelantó que la ANDE volverá a vender energía al mercado libre de Brasil.",
    "datos": [
+    [
+     "US$ 163,8 M",
+     "Fondos de Itaipú depositados en Ueno (más G. 115.200 millones)"
+    ],
+    [
+     "2027",
+     "Año previsto para concluir la negociación del Anexo C"
+    ],
     [
      "31 dic 2026",
      "Vencen el contrato de potencia y la tarifa actual"
@@ -4177,7 +4254,8 @@
     "itaipu-opinion",
     "energia-cedida",
     "ande-tarifa",
-    "ande-ueno"
+    "ande-ueno",
+    "ueno-deficit"
    ],
    "pregunta": {
     "q": "Si la tarifa de Itaipú se fija solo en el costo de operación, ¿qué efecto se espera?",
@@ -4224,6 +4302,16 @@
      "Última Hora",
      "https://www.ultimahora.com/itaipu-inicia-la-cuenta-regresiva-para-negociar-la-tarifa",
      "2026-11-16"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/hugo-zarate-asume-en-itaipu-y-priorizara-acuerdo-sobre-tarifa-para-el-2027",
+     "2026-11-18"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/marco-riquelme-lidera-el-equipo-tecnico-de-negociacion-en-itaipu",
+     "2026-11-18"
     ]
    ]
   },
@@ -4397,7 +4485,7 @@
   },
   {
    "id": "consumo-cae",
-   "fecha": "2026-11-13",
+   "fecha": "2026-11-18",
    "medio": "La Nación",
    "url": "https://www.lanacion.com.py/negocios/2026/11/09/crisis-de-ueno-bank-pone-en-riesgo-el-repunte-de-ventas-en-diciembre-advierte-capasu/",
    "mas": [
@@ -4420,6 +4508,11 @@
      "Última Hora",
      "https://www.ultimahora.com/multitiendas-reportan-aumento-del-uso-de-efectivo-al-70-de-las-operaciones",
      "2026-11-13"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/18/efecto-ueno-mantiene-bajo-presion-las-ventas-y-el-abastecimiento-comercial-advierten-desde-asimcopar/",
+     "2026-11-18"
     ]
    ],
    "titulo": "La crisis de Ueno frena el consumo: multitiendas venden hasta 70 % menos",
@@ -4429,9 +4522,17 @@
    "sector": [
     "comercio"
    ],
-   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo. El 13 de noviembre, Asimcopar informó que sus ventas siguen 30 % abajo y que el efectivo pasó a ser el 70 % de los pagos; antes de la crisis cerca del 80 % de las compras se hacían con medios digitales (Última Hora).",
+   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo. El 13 de noviembre, Asimcopar informó que sus ventas siguen 30 % abajo y que el efectivo pasó a ser el 70 % de los pagos; antes de la crisis cerca del 80 % de las compras se hacían con medios digitales (Última Hora). El 18 de noviembre, el presidente de Asimcopar, Eugenio Caje, dijo a La Nación que las ventas siguen entre 30 % y 40 % abajo, que 8 de cada 10 pagos se hacen en efectivo y que solo llega el 10 % de los unos 100 contenedores semanales habituales; el gremio pidió al MIC un préstamo puente.",
    "contexto": "El consumo es el componente más grande de la demanda agregada. Cuando miles de familias no pueden usar sus ahorros por unos días y crece la incertidumbre, gastan menos y la DA se mueve a la izquierda. Según Capasu, las ventas empezaron a normalizarse a medida que el Fondo de Garantía de Depósitos devolvió el dinero a los pequeños ahorristas, pero el riesgo ahora es el desempleo: hasta octubre los supermercados crecían entre 8 % y 10 %, y en diciembre suelen vender entre 15 % y 20 % más que otros meses por el aguinaldo. Asimcopar advierte además que muchos comercios perdieron capital para reponer mercadería, y que la mitad de lo que venden las multitiendas lo producen mipymes nacionales.",
    "datos": [
+    [
+     "−30 a −40 %",
+     "Caída de ventas de los socios de Asimcopar (18 nov)"
+    ],
+    [
+     "10 %",
+     "Contenedores que llegan, de unos 100 por semana"
+    ],
     [
      "−30 %",
      "Caída de ventas de los socios de Asimcopar (13 nov)"
@@ -4788,7 +4889,6 @@
     "politicas-oferta"
    ],
    "rel": [
-    "maquila",
     "remesas-2026"
    ],
    "pregunta": {
@@ -5275,17 +5375,17 @@
   },
   {
    "id": "pgn-suspendido",
-   "fecha": "2026-11-16",
+   "fecha": "2026-11-18",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/diputados-aprueban-pgn-2027-con-modificaciones-pero-mantienen-elevado-deficit-de-3-9",
-   "titulo": "Diputados aprueba el Presupuesto 2027 con recortes, pero el déficit sigue en 3,9 %",
+   "titulo": "Presupuesto 2027: el Senado lo trataría el 23 y 24 de noviembre, con el déficit en 3,9 %",
    "unidad": "macro",
    "tema": "3.6",
    "kc": "intervencion",
    "inst": [
     "mef"
    ],
-   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación.",
+   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación. El 18 de noviembre, Última Hora informó que el Senado prevé estudiar el proyecto el lunes 23 con el ministro de Economía, Oscar Lovera, y votarlo el martes 24; el Congreso tiene hasta el 20 de diciembre para enviarlo al Ejecutivo. Ese día, funcionarios del Hospital de Clínicas marcharon contra un recorte que, según su sindicato, reduciría hasta G. 1,3 millones los ingresos de unos 6.000 trabajadores (ABC Color).",
    "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja. El 13 de noviembre el ministro Oscar Lovera dijo a Diputados que la crisis de Ueno es un caso puntual y que espera mantener la emisión de bonos en el exterior: el plan prevé colocar G. 17,4 billones (US$ 2.708,7 millones), hasta 70 % más que en 2026, el 99 % en el mercado internacional (Última Hora).",
    "datos": [
     [
@@ -5319,6 +5419,14 @@
     [
      "4",
      "Ejes del Gabinete de Impulso Económico: convergencia fiscal, reputación, programas sociales y bancarización"
+    ],
+    [
+     "24 nov",
+     "Sesión prevista del Senado para votar el Presupuesto"
+    ],
+    [
+     "6.000",
+     "Trabajadores del Hospital de Clínicas afectados por el recorte, según su sindicato"
     ]
    ],
    "clave": [
@@ -5477,6 +5585,16 @@
      "La Nación",
      "https://www.lanacion.com.py/politica_edicion_impresa/2026/11/17/hambre-cero-tendra-recortes-de-hasta-usd-100-millones-en-2027/",
      "2026-11-17"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/senado-tratara-proyecto-de-pgn-2027-la-proxima-semana-a-dias-de-vencer-el-plazo",
+     "2026-11-18"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/18/recorte-al-hospital-de-clinicas-afectaria-a-6000-funcionarios/",
+     "2026-11-18"
     ]
    ]
   },
@@ -5680,8 +5798,7 @@
     "bonos"
    ],
    "rel": [
-    "bolsa-ueno-bonos",
-    "bolsa-acciones"
+    "bolsa-ueno-bonos"
    ],
    "pregunta": {
     "q": "El volumen bajó 4 % en guaraníes pero subió en dólares. ¿Por qué?",
@@ -7050,7 +7167,6 @@
     "politica-monetaria"
    ],
    "rel": [
-    "bcp-tpm",
     "combustibles"
    ],
    "pregunta": {
@@ -7177,9 +7293,7 @@
    "diagramas": [
     "da-oa-da"
    ],
-   "rel": [
-    "bcp-tpm"
-   ],
+   "rel": [],
    "pregunta": {
     "q": "Hay 141.250 desocupados y 3.290.206 ocupados. ¿Cuál es la tasa de desempleo?",
     "opts": [
@@ -7226,7 +7340,7 @@
   },
   {
    "id": "soja-record",
-   "fecha": "2026-11-14",
+   "fecha": "2026-11-19",
    "medio": "La Nación",
    "url": "https://www.lanacion.com.py/negocios/2026/10/15/paraguay-alcanzaria-record-de-exportacion-de-soja-en-2026/",
    "mas": [
@@ -7239,13 +7353,18 @@
      "La Nación",
      "https://www.lanacion.com.py/negocios/2026/11/14/capeco-reporta-record-absoluto-de-exportaciones-de-soja-en-grano-y-derivados/",
      "2026-11-14"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/negocios/abc-campo/2026/11/19/soja-paraguay-se-encamina-a-un-record-de-produccion-en-la-campana-202526/",
+     "2026-11-19"
     ]
    ],
    "titulo": "Récord histórico de soja: 8,3 millones de toneladas exportadas a octubre",
    "unidad": "global",
    "tema": "4.1",
    "kc": "interdependencia",
-   "resumen": "Según Capeco, hasta octubre se exportaron 8,3 millones de toneladas de soja en grano, 2,1 millones más que un año antes, y se superó el récord de la zafra 2023/24 (7,9 millones). La cosecha 2025/26 llegaría a 12,6 millones de toneladas, también récord, y el complejo sojero ya generó US$ 6.624 millones.",
+   "resumen": "Según Capeco, hasta octubre se exportaron 8,3 millones de toneladas de soja en grano, 2,1 millones más que un año antes, y se superó el récord de la zafra 2023/24 (7,9 millones). La cosecha 2025/26 llegaría a 12,6 millones de toneladas, también récord, y el complejo sojero ya generó US$ 6.624 millones. El 19 de noviembre, Capeco confirmó a ABC Color la estimación de una cosecha récord de 12,6 millones de toneladas (la anterior marca fue 11,07 millones en 2023/24); además se exportaron 595.298 toneladas de aceite (+10,4 %) y 31.172 de biodiésel, y Argentina compró el 85 % del grano.",
    "contexto": "El complejo sojero (grano, aceite, harina y biodiésel) casi duplicó sus ingresos: US$ 6.624 millones a octubre frente a US$ 3.330 millones en el mismo periodo del año anterior. Según ABC Color, de cada US$ 100 nuevos exportados en 2026, US$ 63 los aportó la soja, y Argentina compra el 86 % de los envíos de grano. También crece la industrialización local: se exportaron 595.298 toneladas de aceite y 2.090.840 de harina (pellets). Depender tanto de un producto primario expone al país a los precios internacionales y al clima.",
    "datos": [
     [
@@ -7271,6 +7390,14 @@
     [
      "86 %",
      "Envíos de grano con destino a Argentina (a septiembre)"
+    ],
+    [
+     "595.298 t",
+     "Aceite de soja exportado a octubre (+10,4 %)"
+    ],
+    [
+     "11,07 M t",
+     "Cosecha récord anterior (2023/24)"
     ]
    ],
    "clave": [
@@ -7422,7 +7549,6 @@
     "oferta-demanda"
    ],
    "rel": [
-    "carne-sustitutos",
     "soja-record",
     "mercosur-ue"
    ],
@@ -8084,7 +8210,6 @@
    "rel": [
     "bcp-cambiaria",
     "ueno-intervencion",
-    "bcp-tpm",
     "ueno-morosidad",
     "alliana-gobierno"
    ],
@@ -8225,7 +8350,6 @@
    ],
    "rel": [
     "encaje-ueno",
-    "bcp-tpm",
     "ueno-devolucion"
    ],
    "pregunta": {
@@ -9020,12 +9144,12 @@
   },
   "2026-11-16": {
    "titulo": "Después de los anticipos: repartir Ueno y aprobar el Presupuesto",
-   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año.",
+   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año. El miércoles 18, el BCP estimó que el agujero de Ueno está entre US$ 1.000 y 1.500 millones: los activos alcanzan para los depositantes, pero no para los bonistas, y el país podría enfrentar demandas en Nueva York. Ese mismo día Alliana cambió al director de Itaipú, que tenía US$ 163,8 millones en Ueno, y fijó como meta acordar con Brasil la tarifa 2027 antes del 31 de diciembre; el Senado prevé votar el Presupuesto el 24 de noviembre.",
    "claves": [
-    "ueno-devolucion",
+    "ueno-deficit",
     "pgn-suspendido",
     "deficit-octubre",
-    "isc-diesel",
+    "itaipu-tarifa-2027",
     "eve-noviembre"
    ]
   }
@@ -9205,6 +9329,10 @@
     [
      "2026-11-17",
      "Aprueba medidas temporales para que las mipymes afectadas por Ueno refinancien sus créditos hasta el 31 de marzo de 2027."
+    ],
+    [
+     "2026-11-18",
+     "El directorio estima el déficit de Ueno entre US$ 1.000 y 1.500 millones y anuncia la licitación de sus activos por lotes de US$ 60 a 80 millones."
     ]
    ],
    "enlaces": [
@@ -9299,7 +9427,16 @@
      "Deuda pública sobre el PIB (septiembre de 2026)"
     ]
    ],
-   "agenda": [],
+   "agenda": [
+    [
+     "2026-11-24",
+     "Sesión prevista del Senado para votar el Presupuesto 2027."
+    ],
+    [
+     "2026-12-20",
+     "Plazo del Congreso para enviar el Presupuesto 2027 al Ejecutivo."
+    ]
+   ],
    "eventos": [
     [
      "2026-02-24",
@@ -9372,6 +9509,10 @@
     [
      "2026-11-18",
      "Informe de la Caja Fiscal: déficit de US$ 333 millones de enero a octubre."
+    ],
+    [
+     "2026-11-18",
+     "El Senado prevé tratar el Presupuesto 2027 el 23 de noviembre con el ministro Oscar Lovera y votarlo el 24."
     ]
    ],
    "enlaces": [
@@ -9911,6 +10052,10 @@
    [
     "2026-11-17",
     "El grupo argentino Balanz Capital firma un acuerdo para comprar la mayoría de Cadiem Casa de Bolsa y su administradora de fondos."
+   ],
+   [
+    "2026-11-18",
+    "El BCP aclara que los bonos de Ueno (US$ 350 millones en el exterior y emisiones locales) no tienen cobertura del Fondo de Garantía."
    ]
   ],
   "ib": [
@@ -10008,6 +10153,24 @@
     "fuente": "InfoNegocios"
    },
    {
+    "f": "2026-11-23",
+    "t": "El Senado empieza a estudiar el Presupuesto 2027",
+    "d": "Con la presencia del ministro de Economía, Oscar Lovera; el proyecto tiene un déficit de 3,9 % del PIB.",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.ultimahora.com/senado-tratara-proyecto-de-pgn-2027-la-proxima-semana-a-dias-de-vencer-el-plazo",
+    "fuente": "Última Hora"
+   },
+   {
+    "f": "2026-11-24",
+    "t": "Sesión extraordinaria prevista para votar el Presupuesto en el Senado",
+    "d": "Si el Senado lo cambia, vuelve a Diputados. La convocatoria oficial aún no se hizo.",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.ultimahora.com/senado-tratara-proyecto-de-pgn-2027-la-proxima-semana-a-dias-de-vencer-el-plazo",
+    "fuente": "Última Hora"
+   },
+   {
     "f": "2026-11-30",
     "t": "Termina la exoneración de intereses moratorios de Ueno",
     "d": "Hasta esta fecha los clientes con préstamos y tarjetas no pagan intereses moratorios ni punitorios.",
@@ -10015,6 +10178,15 @@
     "tema": "2.10",
     "url": "https://www.abc.com.py/economia/2026/11/12/clientes-de-ueno-bcp-exoneran-temporalmente-intereses-moratorios-y-recargos-por-prestamos-y-tarjetas/",
     "fuente": "ABC Color"
+   },
+   {
+    "f": "2026-12-04",
+    "t": "Cumbre del Mercosur en Montevideo",
+    "d": "Uruguay entrega la presidencia pro tempore a Argentina; viajará el presidente Alliana.",
+    "tipo": "Región",
+    "tema": "4.4",
+    "url": "https://www.ultimahora.com/marco-riquelme-lidera-el-equipo-tecnico-de-negociacion-en-itaipu",
+    "fuente": "Última Hora"
    },
    {
     "f": "2026-12-09",
@@ -10042,6 +10214,15 @@
     "tema": "3.5",
     "url": "https://www.riotimesonline.com/chile-inflation-outlook-central-bank-next-steps-2026/",
     "fuente": "The Rio Times"
+   },
+   {
+    "f": "2026-12-20",
+    "t": "Plazo del Congreso para enviar el Presupuesto 2027 al Ejecutivo",
+    "d": "Después, el Ejecutivo lo promulga o lo veta.",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.ultimahora.com/senado-tratara-proyecto-de-pgn-2027-la-proxima-semana-a-dias-de-vencer-el-plazo",
+    "fuente": "Última Hora"
    },
    {
     "f": "2026-12-31",
@@ -10638,6 +10819,7 @@
     "Cómo la incertidumbre mueve el tipo de cambio y el costo de la deuda del país."
    ],
    "noticias": [
+    "ueno-deficit",
     "ueno-intervencion",
     "ueno-devolucion",
     "bolsa-ueno-bonos",
@@ -10844,6 +11026,11 @@
      "2026-11-17",
      "El MTESS organiza una Expo Empleo con 607 vacantes para ex trabajadores del grupo.",
      "mtess-ueno"
+    ],
+    [
+     "2026-11-18",
+     "El BCP estima el déficit de Ueno entre US$ 1.000 y 1.500 millones: los activos cubren a los depositantes, no a los bonistas.",
+     "ueno-deficit"
     ]
    ]
   },
@@ -10945,6 +11132,11 @@
      "2026-11-17",
      "Situfin: el déficit de doce meses llega a 3,2 % del PIB; el MEF mantiene 3,9 % para 2027.",
      "deficit-octubre"
+    ],
+    [
+     "2026-11-18",
+     "El Senado prevé tratar el Presupuesto el 23 y votarlo el 24 de noviembre; protestas en el Hospital de Clínicas por los recortes.",
+     "pgn-suspendido"
     ]
    ]
   },
@@ -11100,6 +11292,11 @@
      "2026-11-15",
      "Las exportaciones de pollo suben 76 % en valor; nueva planta habilitada para Angola.",
      "pollo-exportaciones"
+    ],
+    [
+     "2026-11-19",
+     "Capeco confirma una cosecha récord de soja de 12,6 millones de toneladas en 2025/26.",
+     "soja-record"
     ]
    ]
   }
@@ -13803,6 +14000,26 @@
     "link": "#n-mtess-ueno",
     "fuente": "Última Hora (9 nov 2026)",
     "url": "https://www.ultimahora.com/caso-ueno-mtess-deja-sin-efecto-clausula-de-exclusividad-de-contratos-de-trabajadores"
+   },
+   {
+    "n": "Hugo Zárate",
+    "cargo": "Director general paraguayo · Itaipú Binacional",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Ingeniero con 37 años en Itaipú; designado por Alliana el 18 de noviembre de 2026 en lugar de Justo Zacarías Irún.",
+    "link": "#itaipu",
+    "fuente": "Última Hora",
+    "url": "https://www.ultimahora.com/hugo-zarate-asume-en-itaipu-y-priorizara-acuerdo-sobre-tarifa-para-el-2027"
+   },
+   {
+    "n": "Marco Riquelme",
+    "cargo": "Ministro de Industria y Comercio · consejero de Itaipú",
+    "tipo": "Gobierno",
+    "estado": "En el cargo",
+    "que": "Encabeza el equipo técnico paraguayo que negocia la tarifa de Itaipú con Brasil.",
+    "link": "#itaipu",
+    "fuente": "Última Hora",
+    "url": "https://www.ultimahora.com/marco-riquelme-lidera-el-equipo-tecnico-de-negociacion-en-itaipu"
    }
   ],
   "instituciones": [
@@ -14306,8 +14523,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-18",
-  "hora": "07:31",
+  "fecha": "2026-11-19",
+  "hora": "06:39",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -14316,7 +14533,7 @@
     "USD",
     "Dólar estadounidense",
     5900,
-    6200
+    6220
    ],
    [
     "ARS",
@@ -14328,13 +14545,13 @@
     "BRL",
     "Real brasileño",
     1050,
-    1150
+    1140
    ],
    [
     "EUR",
     "Euro",
     6100,
-    6850
+    6800
    ]
   ],
   "historial": {
@@ -14388,6 +14605,11 @@
      "2026-11-18",
      5900,
      6200
+    ],
+    [
+     "2026-11-19",
+     5900,
+     6220
     ]
    ],
    "ARS": [
@@ -14438,6 +14660,11 @@
     ],
     [
      "2026-11-18",
+     3,
+     3.8
+    ],
+    [
+     "2026-11-19",
      3,
      3.8
     ]
@@ -14492,6 +14719,11 @@
      "2026-11-18",
      1050,
      1150
+    ],
+    [
+     "2026-11-19",
+     1050,
+     1140
     ]
    ],
    "EUR": [
@@ -14544,6 +14776,11 @@
      "2026-11-18",
      6100,
      6850
+    ],
+    [
+     "2026-11-19",
+     6100,
+     6800
     ]
    ]
   }
@@ -14553,6 +14790,16 @@
   "historia": "crisis-ueno",
   "etiqueta": "Especial Ueno",
   "cifras": [
+   [
+    "US$ 1.000–1.500 M",
+    "Déficit preliminar de Ueno, según el BCP",
+    "ueno-deficit"
+   ],
+   [
+    "US$ 1.500 M",
+    "Activos sanos verificados que se licitarán entre bancos",
+    "ueno-deficit"
+   ],
    [
     "1.812.348",
     "Personas que cobraron su anticipo (100 %, US$ 644 M)",
@@ -14597,6 +14844,11 @@
     "US$ 40 M",
     "Inversión de la Caja Fiscal en CDA de Ueno (unos US$ 60 M con intereses)",
     "caja-fiscal-octubre"
+   ],
+   [
+    "US$ 163,8 M",
+    "Fondos de Itaipú depositados en Ueno (más G. 115.200 M)",
+    "itaipu-tarifa-2027"
    ]
   ],
   "actores": [
@@ -14669,6 +14921,16 @@
     "BCP (crédito)",
     "Permite a las mipymes afectadas refinanciar sus deudas sin castigo hasta marzo de 2027 y da 90 días más a bancos y aseguradoras.",
     "bcp-mipymes"
+   ],
+   [
+    "Itaipú",
+    "Tenía US$ 163,8 millones en Ueno; Alliana reemplazó a su director, Justo Zacarías Irún, por Hugo Zárate.",
+    "itaipu-tarifa-2027"
+   ],
+   [
+    "Raúl Latorre (Diputados)",
+    "Dijo que los activos cubrían todos los depósitos; el BCP lo desmintió y aclaró que los bonos no se cubren.",
+    "ueno-deficit"
    ]
   ],
   "preguntas": [

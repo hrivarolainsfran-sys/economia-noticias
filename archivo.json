@@ -1,5 +1,123 @@
 [
  {
+  "id": "pepino-precio",
+  "fecha": "2026-11-13",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/economia/2026/11/13/productores-de-pepino-denuncian-caida-del-precio-y-apuntan-al-contrabando/",
+  "titulo": "El pepino cae de G. 100.000 a G. 40.000 la caja: ¿mucha oferta o contrabando?",
+  "unidad": "micro",
+  "tema": "2.2",
+  "kc": "eleccion",
+  "resumen": "Según ABC Color, en dos semanas la caja de 20 kilos de pepino bajó de G. 100.000 a G. 40.000 (G. 2.000 por kilo) en el Mercado de Abasto. Un productor dice que producir cuesta unos G. 1.600 por kilo y culpa al ingreso de pepino brasileño; el MAG niega el contrabando y atribuye la caída a la alta producción.",
+  "contexto": "Es un ejemplo de cómo un aumento de la oferta baja el precio de equilibrio. Las hortalizas tienen una oferta muy rígida en el corto plazo: lo que está plantado se cosecha igual, aunque el precio caiga, para no perderlo. Si además entra mercadería de contrabando, la oferta crece todavía más. Con un precio de G. 2.000 por kilo y un costo de G. 1.600 en finca, más cosecha, cajas y flete, el margen casi desaparece. El productor también critica que el programa Hambre Cero no compre suficiente producción nacional.",
+  "datos": [
+   [
+    "G. 100.000 → G. 40.000",
+    "Caja de 20 kg de pepino, en dos semanas"
+   ],
+   [
+    "G. 2.000",
+    "Precio por kilo en el Mercado de Abasto"
+   ],
+   [
+    "G. 1.600",
+    "Costo de producción por kilo en finca, según el productor"
+   ],
+   [
+    "−60 %",
+    "Caída del precio de la caja"
+   ]
+  ],
+  "clave": [
+   "−60 %",
+   "precio del pepino en 2 semanas"
+  ],
+  "fig": {
+   "k": "mercado",
+   "mueve": "O",
+   "dir": 1
+  },
+  "cap": "Más producción (y, según los productores, contrabando) desplaza la oferta de O₁ a O₂: el precio de equilibrio cae y se vende más pepino.",
+  "pasos": [
+   "La cosecha de pepino es alta (y entra producto brasileño, según los productores)",
+   "La oferta se desplaza a la derecha",
+   "El precio de equilibrio cae de G. 100.000 a G. 40.000 la caja",
+   "El margen sobre el costo casi desaparece",
+   "Los productores piden control del contrabando y compras públicas"
+  ],
+  "conceptos": [
+   [
+    "Ley de la oferta",
+    "A mayor precio, los productores quieren vender más, si todo lo demás no cambia."
+   ],
+   [
+    "Desplazamiento de la oferta",
+    "Cambio de toda la curva por algo distinto del precio, como el clima o más productores."
+   ],
+   [
+    "Oferta inelástica a corto plazo",
+    "Lo ya plantado se cosecha aunque el precio caiga."
+   ],
+   [
+    "Contrabando",
+    "Ingreso ilegal de mercadería que evade controles y aranceles."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda",
+   "arancel"
+  ],
+  "rel": [
+   "agro-oferta"
+  ],
+  "pregunta": {
+   "q": "Si aumenta la oferta de pepino y la demanda no cambia, ¿qué pasa?",
+   "opts": [
+    "Baja el precio y aumenta la cantidad vendida",
+    "Sube el precio y baja la cantidad",
+    "Baja el precio y baja la cantidad",
+    "No cambia nada"
+   ],
+   "ok": 0,
+   "fb": "La oferta se desplaza a la derecha: con la misma demanda, el nuevo equilibrio tiene un precio menor y una cantidad mayor."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Consumidores",
+     "Compran pepino más barato."
+    ],
+    [
+     "Supermercados y comerciantes",
+     "Consiguen mercadería a menor costo."
+    ]
+   ],
+   "pierden": [
+    [
+     "Pequeños productores",
+     "El precio apenas cubre el costo y pierden ingresos."
+    ],
+    [
+     "Familias rurales",
+     "Menos ingresos pueden empujar a abandonar el rubro."
+    ]
+   ],
+   "corto": "Precios bajos mientras dure la cosecha; algunos productores cosechan solo para no perder todo.",
+   "largo": "Si el precio sigue bajo, se planta menos en la próxima temporada y el precio puede subir (ciclo de precios agrícolas).",
+   "supuestos": [
+    "Que la demanda no cambie",
+    "Que la causa principal sea la alta producción, como dice el MAG, y no el contrabando, como dicen los productores"
+   ],
+   "conclusion": "La caída se explica con oferta y demanda; si además hay contrabando, el control en frontera ayudaría, pero contra la abundancia de cosecha sirven más el almacenamiento, la industrialización y la planificación de siembra."
+  },
+  "sector": [
+   "agro"
+  ],
+  "mundo": [
+   "brasil"
+  ]
+ },
+ {
   "id": "deforestacion-chaco",
   "fecha": "2025-03-21",
   "medio": "RDN",
