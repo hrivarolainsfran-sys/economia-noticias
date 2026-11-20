@@ -1,5 +1,131 @@
 [
  {
+  "id": "desempleo-41",
+  "fecha": "2026-10-30",
+  "medio": "Diario Hoy",
+  "url": "https://www.hoy.com.py/nacionales/2026/10/30/desempleo-en-paraguay-cae-al-41-y-se-suman-mas-de-66000-nuevos-ocupados-segun-el-ine",
+  "titulo": "El desempleo baja a 4,1 % y hay 66.000 ocupados más",
+  "unidad": "macro",
+  "tema": "3.3",
+  "kc": "bienestar",
+  "resumen": "Según la Encuesta Permanente de Hogares del INE, la desocupación del tercer trimestre de 2026 fue de 4,1 %, frente a 4,9 % un año antes. Hay 3,29 millones de personas ocupadas, unas 66.000 más que en 2025.",
+  "contexto": "El empleo creció sobre todo en comercio, restaurantes y hoteles, es decir, en el sector de servicios. Una economía que crece cerca de 5 % necesita más trabajadores, y eso reduce el desempleo cíclico. Pero hay matices: la subocupación (personas que trabajan menos horas de las que quisieran) subió levemente a 4,2 %.",
+  "datos": [
+   [
+    "4,1 %",
+    "Desempleo julio–septiembre (4,9 % un año antes)"
+   ],
+   [
+    "3.290.206",
+    "Personas ocupadas"
+   ],
+   [
+    "+66.149",
+    "Ocupados en un año"
+   ],
+   [
+    "141.250",
+    "Personas desocupadas"
+   ],
+   [
+    "4,2 %",
+    "Subocupación"
+   ]
+  ],
+  "clave": [
+   "4,1 %",
+   "tasa de desempleo"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "3.er trim. 2025",
+     4.9
+    ],
+    [
+     "3.er trim. 2026",
+     4.1,
+     1
+    ]
+   ]
+  },
+  "cap": "Tasa de desocupación del tercer trimestre, según el INE.",
+  "pasos": [
+   "Crece la demanda en comercio y servicios",
+   "Las empresas necesitan producir más",
+   "Contratan más trabajadores",
+   "Baja el desempleo cíclico",
+   "Suben los ingresos de los hogares y el consumo"
+  ],
+  "conceptos": [
+   [
+    "Tasa de desempleo",
+    "Desocupados ÷ fuerza de trabajo × 100."
+   ],
+   [
+    "Fuerza de trabajo",
+    "Personas ocupadas más las que buscan trabajo."
+   ],
+   [
+    "Subocupación",
+    "Trabajar menos horas de las que uno quisiera."
+   ],
+   [
+    "Desempleo cíclico",
+    "El que aparece cuando cae la demanda agregada."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da"
+  ],
+  "rel": [],
+  "pregunta": {
+   "q": "Hay 141.250 desocupados y 3.290.206 ocupados. ¿Cuál es la tasa de desempleo?",
+   "opts": [
+    "≈ 4,1 %",
+    "≈ 14 %",
+    "≈ 0,4 %",
+    "≈ 41 %"
+   ],
+   "ok": 0,
+   "fb": "Fuerza de trabajo = 3.290.206 + 141.250 = 3.431.456. Tasa = 141.250 ÷ 3.431.456 × 100 ≈ 4,1 %."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Quienes consiguieron empleo",
+     "Tienen ingresos y acceso a seguridad social."
+    ],
+    [
+     "Hogares",
+     "Más ingresos para consumir."
+    ]
+   ],
+   "pierden": [
+    [
+     "Subocupados",
+     "Su situación no mejoró (4,2 %)."
+    ],
+    [
+     "Empresas que buscan personal",
+     "Puede costar más contratar."
+    ]
+   ],
+   "corto": "Más ingresos y consumo.",
+   "largo": "Cerca del pleno empleo pueden subir los salarios; la informalidad sigue siendo un desafío.",
+   "supuestos": [
+    "Que el empleo creado sea formal y estable.",
+    "Los datos son de antes de la crisis de noviembre."
+   ],
+   "conclusion": "El mercado laboral está fuerte, pero la crisis podría frenar las contrataciones si la incertidumbre dura."
+  },
+  "inst": [
+   "ine"
+  ]
+ },
+ {
   "id": "ied-record",
   "fecha": "2026-10-30",
   "medio": "Revista Plus",

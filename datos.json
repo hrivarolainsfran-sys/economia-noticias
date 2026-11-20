@@ -287,6 +287,11 @@
     "19 nov",
     "Alliana asegura que se devolverá el 100 % de los depósitos de Ueno.",
     "ueno-devolucion"
+   ],
+   [
+    "20 nov",
+    "Proyecto para que el Estado administre por 8 meses las empresas del grupo Ueno.",
+    "ueno-vinculadas"
    ]
   ],
   "lentes": [
@@ -305,6 +310,139 @@
   ]
  },
  "noticias": [
+  {
+   "id": "ueno-vinculadas",
+   "fecha": "2026-11-20",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/20/administracion-estatal-de-firmas-vinculadas-a-ueno-el-alcance-del-proyecto-que-impulsa-el-ejecutivo/",
+   "titulo": "El Gobierno quiere administrar por 8 meses las empresas ligadas a Ueno",
+   "unidad": "micro",
+   "tema": "2.7",
+   "kc": "intervencion",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "El Poder Ejecutivo mandó al Senado un proyecto de ley para poner bajo administración temporal del Estado a las empresas del mismo grupo que Ueno Bank, por un máximo de ocho meses. Según ABC Color, el Estado podría nombrar administradores, desplazar a los directivos actuales, controlar las operaciones y autorizar la venta de activos, con tasación independiente y convocatoria pública. El proyecto ingresó el 13 de noviembre (Mensaje N° 432), lo firman el presidente Pedro Alliana y los ministros Óscar Lovera (Economía) y Marco Riquelme (Industria y Comercio), y fue enviado a cuatro comisiones del Senado; según el diario, empresarios y economistas ya lo cuestionan.",
+   "contexto": "El Ejecutivo argumenta que la ley de resolución bancaria (Ley 2334/03) solo trata al banco y no dice nada de las otras empresas de su grupo económico. Cuando un banco cae, sus empresas vinculadas pueden seguir funcionando, vender activos o mover dinero antes de que se sepa cuánto deben, y eso perjudica a los acreedores y a los trabajadores. La intervención busca proteger el valor de esas empresas para que se puedan vender o seguir operando. Pero también es una intervención fuerte en la propiedad privada: si el Estado administra mal o la regla parece arbitraria, puede bajar la confianza de los inversores. Es un buen caso para evaluar cuándo conviene que el Gobierno intervenga en un mercado.",
+   "datos": [
+    [
+     "8 meses",
+     "Plazo máximo de la administración estatal temporal"
+    ],
+    [
+     "48 horas",
+     "Plazo para que los antiguos directivos entreguen libros y claves"
+    ],
+    [
+     "10 días hábiles",
+     "Plazo mínimo para presentar ofertas por los activos"
+    ],
+    [
+     "4",
+     "Comisiones del Senado que estudian el proyecto"
+    ]
+   ],
+   "clave": [
+    "8 meses",
+    "de administración estatal de las empresas del grupo Ueno"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "días",
+    "rows": [
+     [
+      "Entregar libros y claves",
+      2
+     ],
+     [
+      "Publicar la convocatoria",
+      3
+     ],
+     [
+      "Mínimo para ofertas (hábiles)",
+      10,
+      1
+     ],
+     [
+      "Respuesta de BCP, MEF y Registros (hábiles)",
+      5
+     ]
+    ]
+   },
+   "cap": "Plazos que fija el proyecto de administración temporal de las empresas vinculadas a Ueno, según ABC Color (20 nov).",
+   "pasos": [
+    "Ueno Bank cae y el BCP lo pone en resolución",
+    "Sus empresas vinculadas siguen operando sin una regla clara",
+    "El Ejecutivo propone que el Estado las administre hasta 8 meses",
+    "Los activos se venden con tasación independiente y concurso público",
+    "Objetivo: proteger el valor para acreedores y trabajadores, con el riesgo de una intervención mal diseñada"
+   ],
+   "conceptos": [
+    [
+     "Intervención del gobierno",
+     "Acción del Estado para cambiar el resultado de un mercado."
+    ],
+    [
+     "Fallo del gobierno",
+     "Cuando la intervención del Estado empeora la asignación de recursos."
+    ],
+    [
+     "Derechos de propiedad",
+     "Reglas que dicen quién decide sobre un bien y quién recibe sus beneficios."
+    ],
+    [
+     "Grupo económico",
+     "Conjunto de empresas con los mismos dueños o controladores."
+    ]
+   ],
+   "diagramas": [],
+   "rel": [
+    "ueno-deficit",
+    "mtess-ueno",
+    "ueno-devolucion"
+   ],
+   "pregunta": {
+    "q": "¿Qué riesgo tiene que el Estado administre empresas privadas ligadas a un banco quebrado?",
+    "opts": [
+     "Un fallo del gobierno: puede administrar mal o asustar a los inversores",
+     "Que suba la tasa del BCP automáticamente",
+     "Que desaparezca la garantía de depósitos",
+     "Ninguno: el Estado siempre administra mejor"
+    ],
+    "ok": 0,
+    "fb": "La intervención puede proteger el valor de las empresas, pero si el Estado decide mal o la regla parece arbitraria, se produce un fallo del gobierno y cae la confianza."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Acreedores de Ueno",
+      "Se evita que el valor de las empresas del grupo se pierda o se saque antes de la venta."
+     ],
+     [
+      "Trabajadores de las empresas vinculadas",
+      "La administración temporal puede mantenerlas funcionando."
+     ]
+    ],
+    "pierden": [
+     [
+      "Dueños y directivos actuales",
+      "Pierden el control de sus empresas durante hasta ocho meses."
+     ],
+     [
+      "Clima de inversión",
+      "Empresarios y economistas cuestionan la medida, según ABC Color; una regla percibida como arbitraria sube el riesgo de invertir."
+     ]
+    ],
+    "corto": "Si el Congreso lo aprueba, el Estado toma el control de las empresas y empieza a vender activos por concurso.",
+    "largo": "Puede dejar un procedimiento claro para futuras quiebras bancarias, o un precedente de intervención que asuste a los inversores si se aplica mal.",
+    "supuestos": [
+     "Que los administradores sean idóneos e independientes.",
+     "Que las ventas sean transparentes y al mejor precio.",
+     "Que la ley se aplique solo a empresas realmente vinculadas."
+    ],
+    "conclusion": "La ley llena un vacío real de la regulación bancaria, pero su éxito depende de la calidad de la administración estatal: sin controles, el remedio puede convertirse en un fallo del gobierno."
+   }
+  },
   {
    "id": "conacom-frigorificos",
    "fecha": "2026-11-19",
@@ -2373,8 +2511,7 @@
    ],
    "rel": [
     "liquidez-tasas",
-    "inflacion-oct",
-    "desempleo-41"
+    "inflacion-oct"
    ],
    "pregunta": {
     "q": "Si Paraguay quisiera mejorar su índice de miseria, ¿qué componente le conviene atacar primero según el análisis?",
@@ -4141,7 +4278,6 @@
     "da-oa-da"
    ],
    "rel": [
-    "desempleo-41",
     "consumo-cae",
     "informalidad-bid"
    ],
@@ -4675,9 +4811,7 @@
    "diagramas": [
     "politicas-oferta"
    ],
-   "rel": [
-    "desempleo-41"
-   ],
+   "rel": [],
    "pregunta": {
     "q": "¿Por qué la alta informalidad es una barrera al desarrollo económico?",
     "opts": [
@@ -5050,7 +5184,7 @@
   },
   {
    "id": "consumo-cae",
-   "fecha": "2026-11-18",
+   "fecha": "2026-11-20",
    "medio": "La Nación",
    "url": "https://www.lanacion.com.py/negocios/2026/11/09/crisis-de-ueno-bank-pone-en-riesgo-el-repunte-de-ventas-en-diciembre-advierte-capasu/",
    "mas": [
@@ -5078,6 +5212,11 @@
      "La Nación",
      "https://www.lanacion.com.py/negocios/2026/11/18/efecto-ueno-mantiene-bajo-presion-las-ventas-y-el-abastecimiento-comercial-advierten-desde-asimcopar/",
      "2026-11-18"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/20/ueno-bank-caida-de-ventas-golpea-al-mercadito-de-asuncion/",
+     "2026-11-20"
     ]
    ],
    "titulo": "La crisis de Ueno frena el consumo: multitiendas venden hasta 70 % menos",
@@ -5087,7 +5226,7 @@
    "sector": [
     "comercio"
    ],
-   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo. El 13 de noviembre, Asimcopar informó que sus ventas siguen 30 % abajo y que el efectivo pasó a ser el 70 % de los pagos; antes de la crisis cerca del 80 % de las compras se hacían con medios digitales (Última Hora). El 18 de noviembre, el presidente de Asimcopar, Eugenio Caje, dijo a La Nación que las ventas siguen entre 30 % y 40 % abajo, que 8 de cada 10 pagos se hacen en efectivo y que solo llega el 10 % de los unos 100 contenedores semanales habituales; el gremio pidió al MIC un préstamo puente.",
+   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo. El 13 de noviembre, Asimcopar informó que sus ventas siguen 30 % abajo y que el efectivo pasó a ser el 70 % de los pagos; antes de la crisis cerca del 80 % de las compras se hacían con medios digitales (Última Hora). El 18 de noviembre, el presidente de Asimcopar, Eugenio Caje, dijo a La Nación que las ventas siguen entre 30 % y 40 % abajo, que 8 de cada 10 pagos se hacen en efectivo y que solo llega el 10 % de los unos 100 contenedores semanales habituales; el gremio pidió al MIC un préstamo puente. El 20 de noviembre, ABC Color describió el Mercadito de Asunción casi vacío: muchos clientes pagaban con tarjetas o transferencias de Ueno, ahora pagan en efectivo y el efectivo escasea; los vendedores dicen que no pueden bajar precios y tratan de no subirlos.",
    "contexto": "El consumo es el componente más grande de la demanda agregada. Cuando miles de familias no pueden usar sus ahorros por unos días y crece la incertidumbre, gastan menos y la DA se mueve a la izquierda. Según Capasu, las ventas empezaron a normalizarse a medida que el Fondo de Garantía de Depósitos devolvió el dinero a los pequeños ahorristas, pero el riesgo ahora es el desempleo: hasta octubre los supermercados crecían entre 8 % y 10 %, y en diciembre suelen vender entre 15 % y 20 % más que otros meses por el aguinaldo. Asimcopar advierte además que muchos comercios perdieron capital para reponer mercadería, y que la mitad de lo que venden las multitiendas lo producen mipymes nacionales.",
    "datos": [
     [
@@ -5173,7 +5312,6 @@
    "rel": [
     "ueno-intervencion",
     "ueno-devolucion",
-    "desempleo-41",
     "ventas-setiembre"
    ],
    "inst": [
@@ -6293,13 +6431,18 @@
      "La Nación",
      "https://www.lanacion.com.py/politica_edicion_impresa/2026/11/20/alliana-asegura-que-se-pagaran-todos-los-depositos-a-la-vista-a-plazo-y-cda/",
      "2026-11-20"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/20/asoban-habla-de-un-golpe-muy-fuerte-al-bcp-y-explica-como-se-liberan-los-depositos-a-ahorristas/",
+     "2026-11-20"
     ]
    ],
    "titulo": "Una ley nueva adelanta la devolución de depósitos de Ueno Bank",
    "unidad": "micro",
    "tema": "2.10",
    "kc": "intervencion",
-   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos (FGD) puede adelantar hasta G. 121.760.000 (40 salarios mínimos) por cliente de Ueno Bank. Según el BCP, citado por Última Hora, al vencer el plazo legal el 11 de noviembre el anticipo llegó al 100 % de los clientes: 1.812.348 personas, por G. 3,99 billones (unos US$ 644 millones). A 29.988 titulares de certificados de depósito (CDA) el dinero ya se transfirió, pero se libera después de validar sus datos en una plataforma del BCP; el resto, hasta 75 salarios mínimos, se pagará en las próximas semanas. Según ABC Color (16 nov), queda un remanente de poco más de G. 1 billón por cubrir y el lunes 16 vence el plazo del balance de exclusión; después se licitarán las carteras entre bancos y financieras, y lo obtenido servirá para pagar los 35 salarios mínimos que faltan hasta el tope de 75 (G. 228.300.000). El 20 de noviembre, tras reunirse con el presidente del BCP, Jorge Schreiner, el presidente Pedro Alliana aseguró que se devolverá el 100 % de los depósitos a la vista, a plazo y en CDA, según La Nación; el BCP detallaría el cronograma en los próximos días. El diario informó además que hay unos G. 9 billones (unos US$ 1.450 millones) en activos valuados para transferir a los bancos en lotes de US$ 60 a 80 millones, con 10 días para analizarlos.",
+   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos (FGD) puede adelantar hasta G. 121.760.000 (40 salarios mínimos) por cliente de Ueno Bank. Según el BCP, citado por Última Hora, al vencer el plazo legal el 11 de noviembre el anticipo llegó al 100 % de los clientes: 1.812.348 personas, por G. 3,99 billones (unos US$ 644 millones). A 29.988 titulares de certificados de depósito (CDA) el dinero ya se transfirió, pero se libera después de validar sus datos en una plataforma del BCP; el resto, hasta 75 salarios mínimos, se pagará en las próximas semanas. Según ABC Color (16 nov), queda un remanente de poco más de G. 1 billón por cubrir y el lunes 16 vence el plazo del balance de exclusión; después se licitarán las carteras entre bancos y financieras, y lo obtenido servirá para pagar los 35 salarios mínimos que faltan hasta el tope de 75 (G. 228.300.000). El 20 de noviembre, tras reunirse con el presidente del BCP, Jorge Schreiner, el presidente Pedro Alliana aseguró que se devolverá el 100 % de los depósitos a la vista, a plazo y en CDA, según La Nación; el BCP detallaría el cronograma en los próximos días. El diario informó además que hay unos G. 9 billones (unos US$ 1.450 millones) en activos valuados para transferir a los bancos en lotes de US$ 60 a 80 millones, con 10 días para analizarlos. Según ABC Color (20 nov), la presidenta ejecutiva de Asoban, Liz Cramer, explicó que los depósitos de hasta 40 salarios mínimos ya fueron transferidos a los bancos, pero los ahorristas podrán usarlos cuando el BCP verifique a quién pertenecen y ordene el desbloqueo; los bancos ofrecen créditos para gastos diarios, que pueden incluir seis meses de gracia.",
    "contexto": "La garantía de depósitos protege a los ahorristas que no pueden saber cómo maneja un banco su dinero: el banco sabe mucho más que el cliente, un caso de información asimétrica. Pero también tiene un costo: si los bancos saben que el Estado cubrirá a sus clientes, pueden asumir más riesgos (riesgo moral). Por eso la garantía tiene un tope y viene acompañada de supervisión. Unos 280.000 clientes que solo tenían cuenta en Ueno recibirán cuentas temporales por 90 días en otros bancos. El BCP informó que Ueno tenía unos G. 14,5 billones en depósitos y que el FGD cubre hasta G. 4,5 billones, el 26 %; la próxima etapa es pasar activos y pasivos a otra entidad.",
    "datos": [
     [
@@ -7519,132 +7662,6 @@
    },
    "inst": [
     "bcp"
-   ]
-  },
-  {
-   "id": "desempleo-41",
-   "fecha": "2026-10-30",
-   "medio": "Diario Hoy",
-   "url": "https://www.hoy.com.py/nacionales/2026/10/30/desempleo-en-paraguay-cae-al-41-y-se-suman-mas-de-66000-nuevos-ocupados-segun-el-ine",
-   "titulo": "El desempleo baja a 4,1 % y hay 66.000 ocupados más",
-   "unidad": "macro",
-   "tema": "3.3",
-   "kc": "bienestar",
-   "resumen": "Según la Encuesta Permanente de Hogares del INE, la desocupación del tercer trimestre de 2026 fue de 4,1 %, frente a 4,9 % un año antes. Hay 3,29 millones de personas ocupadas, unas 66.000 más que en 2025.",
-   "contexto": "El empleo creció sobre todo en comercio, restaurantes y hoteles, es decir, en el sector de servicios. Una economía que crece cerca de 5 % necesita más trabajadores, y eso reduce el desempleo cíclico. Pero hay matices: la subocupación (personas que trabajan menos horas de las que quisieran) subió levemente a 4,2 %.",
-   "datos": [
-    [
-     "4,1 %",
-     "Desempleo julio–septiembre (4,9 % un año antes)"
-    ],
-    [
-     "3.290.206",
-     "Personas ocupadas"
-    ],
-    [
-     "+66.149",
-     "Ocupados en un año"
-    ],
-    [
-     "141.250",
-     "Personas desocupadas"
-    ],
-    [
-     "4,2 %",
-     "Subocupación"
-    ]
-   ],
-   "clave": [
-    "4,1 %",
-    "tasa de desempleo"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "%",
-    "rows": [
-     [
-      "3.er trim. 2025",
-      4.9
-     ],
-     [
-      "3.er trim. 2026",
-      4.1,
-      1
-     ]
-    ]
-   },
-   "cap": "Tasa de desocupación del tercer trimestre, según el INE.",
-   "pasos": [
-    "Crece la demanda en comercio y servicios",
-    "Las empresas necesitan producir más",
-    "Contratan más trabajadores",
-    "Baja el desempleo cíclico",
-    "Suben los ingresos de los hogares y el consumo"
-   ],
-   "conceptos": [
-    [
-     "Tasa de desempleo",
-     "Desocupados ÷ fuerza de trabajo × 100."
-    ],
-    [
-     "Fuerza de trabajo",
-     "Personas ocupadas más las que buscan trabajo."
-    ],
-    [
-     "Subocupación",
-     "Trabajar menos horas de las que uno quisiera."
-    ],
-    [
-     "Desempleo cíclico",
-     "El que aparece cuando cae la demanda agregada."
-    ]
-   ],
-   "diagramas": [
-    "da-oa-da"
-   ],
-   "rel": [],
-   "pregunta": {
-    "q": "Hay 141.250 desocupados y 3.290.206 ocupados. ¿Cuál es la tasa de desempleo?",
-    "opts": [
-     "≈ 4,1 %",
-     "≈ 14 %",
-     "≈ 0,4 %",
-     "≈ 41 %"
-    ],
-    "ok": 0,
-    "fb": "Fuerza de trabajo = 3.290.206 + 141.250 = 3.431.456. Tasa = 141.250 ÷ 3.431.456 × 100 ≈ 4,1 %."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Quienes consiguieron empleo",
-      "Tienen ingresos y acceso a seguridad social."
-     ],
-     [
-      "Hogares",
-      "Más ingresos para consumir."
-     ]
-    ],
-    "pierden": [
-     [
-      "Subocupados",
-      "Su situación no mejoró (4,2 %)."
-     ],
-     [
-      "Empresas que buscan personal",
-      "Puede costar más contratar."
-     ]
-    ],
-    "corto": "Más ingresos y consumo.",
-    "largo": "Cerca del pleno empleo pueden subir los salarios; la informalidad sigue siendo un desafío.",
-    "supuestos": [
-     "Que el empleo creado sea formal y estable.",
-     "Los datos son de antes de la crisis de noviembre."
-    ],
-    "conclusion": "El mercado laboral está fuerte, pero la crisis podría frenar las contrataciones si la incertidumbre dura."
-   },
-   "inst": [
-    "ine"
    ]
   },
   {
@@ -9192,7 +9209,7 @@
   },
   "2026-11-16": {
    "titulo": "Después de los anticipos: repartir Ueno y aprobar el Presupuesto",
-   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año. El miércoles 18, el BCP estimó que el agujero de Ueno está entre US$ 1.000 y 1.500 millones: los activos alcanzan para los depositantes, pero no para los bonistas, y el país podría enfrentar demandas en Nueva York. Ese mismo día Alliana cambió al director de Itaipú, que tenía US$ 163,8 millones en Ueno, y fijó como meta acordar con Brasil la tarifa 2027 antes del 31 de diciembre; el Senado prevé votar el Presupuesto el 24 de noviembre. El jueves 19, gremios empresariales propusieron recortar US$ 670 millones del Presupuesto y bajar el déficit a 2,9 %; la Conacom acusó a Frigorífico Concepción y Frigomerc de abusar de su poder sobre los ganaderos, y los bonistas del primero aceptaron reestructurar su deuda. Alliana aseguró que se devolverá todo el dinero de los ahorristas de Ueno, mientras el Black Friday llenó Ciudad del Este de compradores brasileños.",
+   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año. El miércoles 18, el BCP estimó que el agujero de Ueno está entre US$ 1.000 y 1.500 millones: los activos alcanzan para los depositantes, pero no para los bonistas, y el país podría enfrentar demandas en Nueva York. Ese mismo día Alliana cambió al director de Itaipú, que tenía US$ 163,8 millones en Ueno, y fijó como meta acordar con Brasil la tarifa 2027 antes del 31 de diciembre; el Senado prevé votar el Presupuesto el 24 de noviembre. El jueves 19, gremios empresariales propusieron recortar US$ 670 millones del Presupuesto y bajar el déficit a 2,9 %; la Conacom acusó a Frigorífico Concepción y Frigomerc de abusar de su poder sobre los ganaderos, y los bonistas del primero aceptaron reestructurar su deuda. Alliana aseguró que se devolverá todo el dinero de los ahorristas de Ueno, mientras el Black Friday llenó Ciudad del Este de compradores brasileños. El viernes 20, ABC Color informó que el Ejecutivo pidió al Senado administrar por hasta ocho meses las empresas vinculadas a Ueno, y que los comercios del Mercadito de Asunción siguen casi vacíos por la falta de efectivo.",
    "claves": [
     "ueno-deficit",
     "pgn-suspendido",
@@ -10916,7 +10933,8 @@
     "mipymes-fogapy",
     "confianza-octubre",
     "bcp-mipymes",
-    "caja-fiscal-octubre"
+    "caja-fiscal-octubre",
+    "ueno-vinculadas"
    ],
    "hitos": [
     [
@@ -11105,6 +11123,11 @@
      "2026-11-19",
      "Alliana asegura que se devolverá el 100 % de los depósitos a la vista, a plazo y en CDA de Ueno.",
      "ueno-devolucion"
+    ],
+    [
+     "2026-11-20",
+     "El Ejecutivo pide al Senado administrar por hasta ocho meses las empresas vinculadas a Ueno.",
+     "ueno-vinculadas"
     ]
    ]
   },
