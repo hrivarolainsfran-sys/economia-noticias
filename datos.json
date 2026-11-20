@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19",
+ "actualizado": "2026-11-20",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -282,6 +282,11 @@
     "18 nov",
     "Itaipú tenía US$ 163,8 millones en Ueno; Alliana cambia a su director.",
     "itaipu-tarifa-2027"
+   ],
+   [
+    "19 nov",
+    "Alliana asegura que se devolverá el 100 % de los depósitos de Ueno.",
+    "ueno-devolucion"
    ]
   ],
   "lentes": [
@@ -300,6 +305,559 @@
   ]
  },
  "noticias": [
+  {
+   "id": "conacom-frigorificos",
+   "fecha": "2026-11-19",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/conacom-acusa-a-dos-frigorificos-por-abuso-de-posicion-dominante-sepa-las-multas-que-solicita",
+   "opinion": false,
+   "titulo": "La Conacom acusa a dos frigoríficos de abusar de su poder sobre los ganaderos",
+   "unidad": "micro",
+   "tema": "2.11",
+   "kc": "intervencion",
+   "sector": [
+    "agro",
+    "industria"
+   ],
+   "resumen": "La Comisión Nacional de la Competencia (Conacom) acusó formalmente a Frigorífico Concepción y a Frigomerc (del grupo Minerva Foods) de abusar de una posición dominante en la compra de ganado para faena, según Última Hora. Juntos hacen cerca del 60 % de la faena nacional y tienen más del 53 % de la capacidad instalada. La investigación pide multas de G. 164.189 millones para Frigorífico Concepción y G. 92.656 millones para Frigomerc; otros cinco frigoríficos investigados quedaron libres de cargos.",
+   "contexto": "Aquí el poder de mercado está del lado de los compradores: miles de ganaderos venden a pocos frigoríficos, un caso de oligopsonio. Según la acusación, las empresas fijaban solas cuánto descontar por grasa y partes del animal, pesaban el ganado solo en sus balanzas internas, se quedaban con el valor de cueros y menudencias y pasaban al productor el costo de las mermas. Todo eso reduce el precio efectivo que recibe el ganadero. La Conacom investigaba desde enero si estas prácticas influían en el alto precio de la carne. Las empresas tienen 18 días hábiles para defenderse y la Conacom aclaró que la acusación no es una condena.",
+   "datos": [
+    [
+     "60 %",
+     "Parte de la faena nacional que suman Frigorífico Concepción y Frigomerc"
+    ],
+    [
+     "53 %+",
+     "Parte de la capacidad instalada de faena de ambas"
+    ],
+    [
+     "G. 164.189 M",
+     "Multa pedida para Frigorífico Concepción"
+    ],
+    [
+     "G. 92.656 M",
+     "Multa pedida para Frigomerc"
+    ],
+    [
+     "7",
+     "Frigoríficos investigados desde enero de 2026"
+    ],
+    [
+     "18 días hábiles",
+     "Plazo de las empresas para presentar su defensa"
+    ]
+   ],
+   "clave": [
+    "60 %",
+    "de la faena en manos de dos frigoríficos"
+   ],
+   "fig": {
+    "k": "monopolio"
+   },
+   "cap": "Con poder de mercado, la empresa produce menos que en competencia (Qm < Qc) y aparece una pérdida irrecuperable de bienestar. En este caso el poder está en la compra: los frigoríficos pueden pagar al ganadero menos de lo que pagaría un mercado competitivo.",
+   "pasos": [
+    "Dos frigoríficos compran cerca del 60 % del ganado que se faena",
+    "Los ganaderos tienen pocas alternativas para vender",
+    "Los frigoríficos imponen condiciones: pesaje propio, descuentos y subproductos sin pago",
+    "El ganadero recibe menos por cada animal y el excedente pasa al comprador",
+    "La Conacom acusa abuso de posición dominante y pide multas y reglas de transparencia"
+   ],
+   "conceptos": [
+    [
+     "Poder de mercado",
+     "Capacidad de una empresa de influir en el precio en lugar de aceptarlo."
+    ],
+    [
+     "Oligopsonio",
+     "Mercado con pocos compradores y muchos vendedores."
+    ],
+    [
+     "Abuso de posición dominante",
+     "Uso del poder de mercado para imponer condiciones injustas a clientes o proveedores; lo prohíbe la Ley 4956/2013."
+    ],
+    [
+     "Pérdida irrecuperable de eficiencia",
+     "Bienestar que se pierde cuando el mercado se aleja del resultado competitivo."
+    ]
+   ],
+   "diagramas": [
+    "monopolio",
+    "oferta-demanda"
+   ],
+   "rel": [
+    "carne-cae",
+    "frigorifico-concepcion-bonos"
+   ],
+   "pregunta": {
+    "q": "Según la Conacom, ¿quiénes tienen poder de mercado en este caso?",
+    "opts": [
+     "Los frigoríficos, como compradores de ganado",
+     "Los ganaderos, como vendedores de ganado",
+     "Los consumidores de carne",
+     "El Estado, como exportador"
+    ],
+    "ok": 0,
+    "fb": "Es un caso de poder del comprador (oligopsonio): pocos frigoríficos compran el ganado de miles de productores y pueden imponerles condiciones."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ganaderos",
+      "Si se aplican las medidas (pesaje previo, reglas públicas de dressing, auditor), recibirían un pago más justo por cada animal."
+     ],
+     [
+      "Consumidores",
+      "Más competencia en la cadena de la carne puede ayudar a contener precios a largo plazo."
+     ]
+    ],
+    "pierden": [
+     [
+      "Frigorífico Concepción y Frigomerc",
+      "Arriesgan multas millonarias y deberán cambiar prácticas que les daban más margen."
+     ],
+     [
+      "Trabajadores y bonistas del sector",
+      "Una multa grande a una empresa ya endeudada puede complicar su recuperación."
+     ]
+    ],
+    "corto": "Las empresas presentan su defensa en 18 días hábiles; mientras tanto no cambia el precio del ganado ni de la carne.",
+    "largo": "Si se confirman la sanción y las reglas de transparencia, el poder de negociación se equilibra y el mercado de ganado se acerca a uno más competitivo.",
+    "supuestos": [
+     "Que la Conacom pruebe el abuso y las multas se apliquen",
+     "Que las nuevas reglas se cumplan y se controlen",
+     "Que no se reduzca la cantidad de frigoríficos que compran ganado"
+    ],
+    "conclusion": "La regulación de la competencia corrige una falla de mercado, pero su efecto depende de que las medidas correctivas se cumplan; una multa sin cambios en las prácticas aportaría poco a los ganaderos."
+   }
+  },
+  {
+   "id": "frigorifico-concepcion-bonos",
+   "fecha": "2026-11-19",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/bonistas-de-frigorifico-concepcion-aprueban-reestructuracion-de-deuda",
+   "opinion": false,
+   "titulo": "Los bonistas de Frigorífico Concepción aceptan cobrar más tarde",
+   "unidad": "micro",
+   "tema": "3.5",
+   "kc": "eleccion",
+   "inst": [
+    "bolsa"
+   ],
+   "sector": [
+    "agro",
+    "industria"
+   ],
+   "resumen": "El 18 de noviembre, los tenedores de bonos de Frigorífico Concepción aprobaron la reestructuración de su deuda con 99 % a 99,8 % de los votos, informó la Bolsa de Valores de Asunción, según Última Hora. Cada bonista puede pasar sus bonos a acciones preferidas o mantenerlos con 24 meses de gracia y nuevas garantías, sin quita del capital; tiene plazo hasta el 18 de diciembre para elegir. Según FIX SCR, la deuda financiera de la empresa llegaba a US$ 815 millones a junio de 2026.",
+   "contexto": "La empresa dejó de pagar intereses en octubre y su calificación local bajó a incumplimiento. Un bono es un préstamo que el inversor hace a la empresa: si el riesgo sube, el precio del bono baja y su rendimiento sube. Reestructurar evita una quiebra desordenada, pero los inversores esperan más tiempo para cobrar. El acuerdo todavía necesita la aprobación de la Superintendencia de Valores y que la empresa consiga capital de trabajo. El caso llega el mismo día en que la Conacom la acusó de abusar de su posición dominante.",
+   "datos": [
+    [
+     "US$ 815 M",
+     "Deuda financiera total de la empresa a junio de 2026 (FIX SCR)"
+    ],
+    [
+     "50 %",
+     "Parte de la deuda que es bancaria"
+    ],
+    [
+     "33 %",
+     "Parte en bonos internacionales que vencen en 2028"
+    ],
+    [
+     "17 %",
+     "Parte en bonos locales"
+    ],
+    [
+     "99–99,8 %",
+     "Votos a favor de la reestructuración, según el programa"
+    ],
+    [
+     "24 meses",
+     "Periodo de gracia para quienes mantengan los bonos"
+    ]
+   ],
+   "clave": [
+    "US$ 815 M",
+    "de deuda de Frigorífico Concepción"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "% de la deuda",
+    "rows": [
+     [
+      "Bancos",
+      50,
+      1
+     ],
+     [
+      "Bonos internacionales",
+      33,
+      0
+     ],
+     [
+      "Bonos locales",
+      17,
+      0
+     ]
+    ]
+   },
+   "cap": "Composición de la deuda financiera de Frigorífico Concepción (US$ 815 millones a junio de 2026), según FIX SCR citada por Última Hora.",
+   "pasos": [
+    "La empresa suspende el pago de intereses en octubre",
+    "Su calificación cae a incumplimiento y sus bonos pierden valor",
+    "Propone pagar más tarde o cambiar bonos por acciones, sin quita",
+    "Los bonistas aceptan para evitar perder más en una quiebra",
+    "El acuerdo depende de la Superintendencia y de nuevo capital de trabajo"
+   ],
+   "conceptos": [
+    [
+     "Bono",
+     "Título de deuda: el inversor presta dinero y recibe intereses y el capital al vencimiento."
+    ],
+    [
+     "Reestructuración de deuda",
+     "Cambio de las condiciones de pago (plazos, tasas o forma) acordado con los acreedores."
+    ],
+    [
+     "Acción preferida",
+     "Acción que cobra dividendos antes que las comunes, normalmente sin voto."
+    ],
+    [
+     "Calificación de riesgo",
+     "Opinión de una agencia sobre la capacidad de pago de un emisor."
+    ]
+   ],
+   "diagramas": [
+    "bonos"
+   ],
+   "rel": [
+    "conacom-frigorificos",
+    "carne-cae",
+    "bolsa-ueno-bonos"
+   ],
+   "pregunta": {
+    "q": "Si aumenta el riesgo de que una empresa no pague, ¿qué pasa con sus bonos?",
+    "opts": [
+     "Su precio baja y su rendimiento sube",
+     "Su precio sube y su rendimiento baja",
+     "Su precio y su rendimiento suben",
+     "No cambian, porque la tasa está fijada"
+    ],
+    "ok": 0,
+    "fb": "Los inversores solo compran el bono si pagan menos por él; con un precio más bajo, el rendimiento sube."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "La empresa",
+      "Gana 24 meses para reordenar sus finanzas sin quebrar."
+     ],
+     [
+      "Ganaderos y trabajadores",
+      "Se mantiene operando un comprador y empleador importante."
+     ]
+    ],
+    "pierden": [
+     [
+      "Bonistas",
+      "Cobran más tarde o pasan a ser accionistas, con más riesgo."
+     ],
+     [
+      "Mercado de valores",
+      "Otro caso de impago, después de Ueno, puede reducir la confianza en los bonos corporativos."
+     ]
+    ],
+    "corto": "Hasta el 18 de diciembre los bonistas eligen; el acuerdo aún depende de la Superintendencia y del capital de trabajo.",
+    "largo": "Si la empresa se recupera, los bonistas cobran todo el capital; si no, la reestructuración solo habrá postergado las pérdidas.",
+    "supuestos": [
+     "Que la empresa consiga financiamiento",
+     "Que el negocio de la carne mantenga precios y volumen",
+     "Que la investigación de la Conacom no agrave su situación"
+    ],
+    "conclusion": "La reestructuración es una salida racional para ambos lados frente a una quiebra, pero traslada el riesgo al futuro y muestra que los bonos corporativos no son libres de riesgo."
+   }
+  },
+  {
+   "id": "gremios-pgn-recorte",
+   "fecha": "2026-11-19",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/ante-crisis-empresarios-plantean-recorte-de-usd-670-millones-a-pgn-2027-con-deficit-de-2-9",
+   "opinion": false,
+   "titulo": "Los gremios proponen recortar US$ 670 millones del Presupuesto 2027",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "intervencion",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "En un foro multisectorial, gremios empresariales y organizaciones civiles propusieron bajar el déficit previsto para 2027 de 3,9 % a 2,9 % del PIB, con un recorte de US$ 670 millones en gastos de la Administración Central, según Última Hora. El plan, presentado por el economista Jorge Garicoche, reúne ahorros en compras públicas (US$ 220 millones), Hambre Cero (US$ 210 millones), salarios (US$ 97 millones), Adultos Mayores (US$ 73 millones) y gastos administrativos (US$ 70 millones). El presupuesto de la Administración Central pasaría de G. 87,6 billones a G. 83,5 billones.",
+   "contexto": "Para los gremios, un déficit de 3,9 % «no es sostenible» después del golpe de Ueno. Proponen centralizar la compra de medicamentos de Salud, IPS y Clínicas, congelar vacantes administrativas, limpiar el padrón de Adultos Mayores y concentrar Hambre Cero en los distritos más pobres. Es una propuesta de política fiscal contractiva: menos gasto público reduce la demanda agregada a corto plazo, pero también la necesidad de endeudarse. La pregunta clave es si se puede gastar mejor sin perjudicar a los más pobres. El documento se llevará al Senado, que trataría el Presupuesto el 23 y 24 de noviembre.",
+   "datos": [
+    [
+     "US$ 670 M",
+     "Recorte propuesto en la Administración Central"
+    ],
+    [
+     "2,9 %",
+     "Déficit propuesto para 2027 (el proyecto prevé 3,9 % del PIB)"
+    ],
+    [
+     "US$ 220 M",
+     "Ahorro en compras públicas (medicamentos centralizados)"
+    ],
+    [
+     "US$ 210 M",
+     "Ahorro por focalizar Hambre Cero"
+    ],
+    [
+     "US$ 97 M",
+     "Ahorro por contención salarial"
+    ],
+    [
+     "US$ 73 M",
+     "Ahorro por depurar el padrón de Adultos Mayores"
+    ],
+    [
+     "US$ 70 M",
+     "Ahorro en gastos administrativos no esenciales"
+    ]
+   ],
+   "clave": [
+    "US$ 670 M",
+    "de recorte propuesto por los gremios"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ millones",
+    "rows": [
+     [
+      "Compras públicas",
+      220,
+      1
+     ],
+     [
+      "Hambre Cero",
+      210,
+      0
+     ],
+     [
+      "Salarios",
+      97,
+      0
+     ],
+     [
+      "Adultos Mayores",
+      73,
+      0
+     ],
+     [
+      "Gastos administrativos",
+      70,
+      0
+     ]
+    ]
+   },
+   "cap": "De dónde saldría el recorte de US$ 670 millones que proponen los gremios para el Presupuesto 2027 (Última Hora, 19 nov).",
+   "pasos": [
+    "La crisis de Ueno frena las ventas y aumenta la preocupación por las cuentas públicas",
+    "Los gremios consideran insostenible un déficit de 3,9 % del PIB",
+    "Proponen recortar US$ 670 millones y bajar el déficit a 2,9 %",
+    "Menos gasto reduce la DA a corto plazo y la necesidad de deuda",
+    "El Senado decide si incorpora la propuesta"
+   ],
+   "conceptos": [
+    [
+     "Política fiscal contractiva",
+     "Reducción del gasto público o suba de impuestos para bajar el déficit o la demanda."
+    ],
+    [
+     "Déficit fiscal",
+     "Cuando el gasto del Estado supera sus ingresos en un año."
+    ],
+    [
+     "Focalización",
+     "Concentrar un programa social en quienes más lo necesitan."
+    ],
+    [
+     "Eficiencia del gasto",
+     "Lograr el mismo resultado con menos recursos públicos."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal",
+    "da-oa-da"
+   ],
+   "rel": [
+    "pgn-suspendido",
+    "deficit-octubre",
+    "hambre-cero-recorte"
+   ],
+   "pregunta": {
+    "q": "Si el Senado aplicara el recorte de gasto que piden los gremios, ¿qué pasaría a corto plazo con la DA?",
+    "opts": [
+     "Se desplazaría a la izquierda",
+     "Se desplazaría a la derecha",
+     "No cambiaría, porque solo cambia la deuda",
+     "Se desplazaría la OALP a la derecha"
+    ],
+    "ok": 0,
+    "fb": "El gasto público es un componente de la DA: si baja, la DA se desplaza a la izquierda, aunque el efecto puede compensarse si mejora la confianza."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Contribuyentes futuros",
+      "Menos déficit implica menos deuda y menos intereses que pagar más adelante."
+     ],
+     [
+      "Pacientes",
+      "Comprar medicamentos en bloque puede bajar precios y mejorar el abastecimiento."
+     ]
+    ],
+    "pierden": [
+     [
+      "Beneficiarios de Hambre Cero en zonas urbanas",
+      "Perderían parte de la ayuda alimentaria al focalizar el programa."
+     ],
+     [
+      "Funcionarios y proveedores del Estado",
+      "Menos contrataciones, bonificaciones y compras."
+     ]
+    ],
+    "corto": "Un recorte de gasto reduciría la DA justo cuando el consumo ya cae por Ueno, lo que podría frenar más la economía.",
+    "largo": "Un déficit menor ayudaría a estabilizar la deuda y a recuperar la confianza de las calificadoras.",
+    "supuestos": [
+     "Que los ahorros estimados por los gremios sean realistas",
+     "Que la focalización llegue a los más pobres",
+     "Que el Senado acepte la propuesta"
+    ],
+    "conclusion": "Gastar mejor es deseable, pero recortar en plena desaceleración tiene costos; el equilibrio está en ahorrar en ineficiencias (compras, padrones) y proteger el gasto social de los más pobres."
+   }
+  },
+  {
+   "id": "black-friday-cde",
+   "fecha": "2026-11-19",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/black-friday-arranca-con-una-multitud-de-compradores-en-ciudad-del-este",
+   "opinion": false,
+   "titulo": "Black Friday en Ciudad del Este: esperan 500.000 visitantes, sobre todo brasileños",
+   "unidad": "global",
+   "tema": "4.6",
+   "kc": "interdependencia",
+   "sector": [
+    "comercio"
+   ],
+   "mundo": [
+    "brasil"
+   ],
+   "resumen": "El Black Friday comenzó el 19 de noviembre en Ciudad del Este con largas filas de compradores, en su mayoría brasileños que cruzaron el Puente de la Amistad, según Última Hora. El intendente Daniel Pereira Mujica estimó que llegarán unas 500.000 personas a la región. Las tiendas ofrecen descuentos de hasta 50 % en televisores, notebooks y productos gaming; lo más buscado fueron celulares, consolas, perfumes y electrónicos.",
+   "contexto": "Cuando un turista extranjero compra en Paraguay, esa venta entra al país como una exportación de servicios (turismo y comercio de frontera) en la cuenta corriente. El comercio de Ciudad del Este depende mucho de la demanda brasileña y, por lo tanto, de la economía de Brasil y del tipo de cambio entre el real y el guaraní. La fiesta llega en un momento en que el consumo local cae por la crisis de Ueno, por lo que la demanda externa es un alivio para el comercio. La Municipalidad anunció G. 25.000 millones de inversión en el microcentro para 2027.",
+   "datos": [
+    [
+     "500.000",
+     "Visitantes esperados en la región, según el intendente"
+    ],
+    [
+     "50 %",
+     "Descuento máximo en televisores, notebooks y gaming (Nissei)"
+    ],
+    [
+     "US$ 9–699",
+     "Precio de las «cajas misteriosas»"
+    ],
+    [
+     "G. 25.000 M",
+     "Inversión municipal prevista en el microcentro para 2027"
+    ]
+   ],
+   "clave": [
+    "500.000",
+    "visitantes esperados en Ciudad del Este"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "El gasto de los turistas brasileños aumenta las exportaciones netas (X − M), un componente de la DA: la curva DA se desplaza a la derecha, sobre todo en la economía de Alto Paraná.",
+   "pasos": [
+    "Las tiendas de Ciudad del Este bajan precios hasta 50 %",
+    "Miles de brasileños cruzan para comprar",
+    "Su gasto cuenta como exportación de servicios de Paraguay",
+    "Suben las exportaciones netas y la DA de la región",
+    "Ganan comercio, hoteles y transporte, en medio de una caída del consumo local"
+   ],
+   "conceptos": [
+    [
+     "Cuenta corriente",
+     "Parte de la balanza de pagos que registra comercio de bienes y servicios, ingresos y transferencias."
+    ],
+    [
+     "Exportación de servicios",
+     "Venta a no residentes, como el gasto de turistas extranjeros en el país."
+    ],
+    [
+     "Comercio de frontera",
+     "Compras que hacen los habitantes de un país en el país vecino por diferencias de precios."
+    ],
+    [
+     "Elasticidad precio de la demanda",
+     "Cuánto cambia la cantidad comprada ante un cambio de precio; los descuentos atraen más compradores si la demanda es elástica."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da",
+    "tipo-cambio"
+   ],
+   "rel": [
+    "consumo-cae",
+    "ventas-setiembre"
+   ],
+   "pregunta": {
+    "q": "Un turista brasileño compra un celular en Ciudad del Este. ¿Cómo se registra en la balanza de pagos de Paraguay?",
+    "opts": [
+     "Como un ingreso en la cuenta corriente (exportación)",
+     "Como una importación de Paraguay",
+     "En la cuenta financiera como inversión extranjera",
+     "No se registra porque es un consumidor"
+    ],
+    "ok": 0,
+    "fb": "El gasto de no residentes en el país es una exportación de servicios (viajes/turismo) y suma en la cuenta corriente."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Comerciantes de Ciudad del Este",
+      "Venden más gracias a la demanda brasileña."
+     ],
+     [
+      "Hoteles, transporte y gastronomía",
+      "Reciben a cientos de miles de visitantes."
+     ],
+     [
+      "Municipalidad y Estado",
+      "Más actividad genera más impuestos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Comercio de Brasil",
+      "Pierde ventas que se van a Paraguay."
+     ],
+     [
+      "Comercio de otras ciudades de Paraguay",
+      "Parte del consumo local se concentra en la frontera."
+     ]
+    ],
+    "corto": "Un impulso de ventas en pocos días, que alivia la caída del consumo causada por Ueno.",
+    "largo": "El modelo depende de que Paraguay mantenga precios competitivos frente a Brasil; un real débil o más controles en la frontera lo reducirían.",
+    "supuestos": [
+     "Que se cumpla la estimación de 500.000 visitantes",
+     "Que el real siga fuerte frente al guaraní",
+     "Que Brasil no endurezca los controles de compras"
+    ],
+    "conclusion": "El Black Friday muestra cómo la demanda externa sostiene una economía de frontera, pero también su dependencia de Brasil y del tipo de cambio."
+   }
+  },
   {
    "id": "ueno-deficit",
    "fecha": "2026-11-18",
@@ -789,7 +1347,7 @@
   },
   {
    "id": "caja-fiscal-octubre",
-   "fecha": "2026-11-18",
+   "fecha": "2026-11-20",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/economia/2026/11/18/agujero-de-la-caja-fiscal-sigue-creciendo-y-llego-a-us-333-millones-en-diez-meses/",
    "opinion": false,
@@ -800,8 +1358,8 @@
    "inst": [
     "mef"
    ],
-   "resumen": "Según el último informe del MEF citado por ABC Color, de enero a octubre la Caja Fiscal (jubilaciones del sector público) recibió G. 3,28 billones en aportes y pagó G. 5,34 billones: un déficit de G. 2,063 billones, unos US$ 333 millones, que se cubre con impuestos. Militares, policías y docentes son los sectores con más déficit. Además, la Caja tenía unos US$ 40 millones en certificados de depósito en Ueno.",
-   "contexto": "Un sistema de reparto paga las jubilaciones de hoy con los aportes de los trabajadores activos; si los aportes no alcanzan, el Tesoro cubre la diferencia. La Ley 7633 buscaba reducir el déficit 60 %, pero los cambios hechos en el Congreso bajaron su efecto a menos de 40 %, según ABC. El saldo rojo ocupa una parte importante del Presupuesto y compite con otros gastos, como salud o educación: es un costo de oportunidad. La crisis de Ueno agrega un riesgo: la Caja intenta recuperar unos US$ 60 millones con intereses.",
+   "resumen": "Según el último informe del MEF citado por ABC Color, de enero a octubre la Caja Fiscal (jubilaciones del sector público) recibió G. 3,28 billones en aportes y pagó G. 5,34 billones: un déficit de G. 2,063 billones, unos US$ 333 millones, que se cubre con impuestos. Militares, policías y docentes son los sectores con más déficit. Además, la Caja tenía unos US$ 40 millones en certificados de depósito en Ueno. El 20 de noviembre, ABC Color informó que los depósitos del Fondo de Seguridad Social en el BCP (sobre todo de la Caja Fiscal) bajaron de G. 3,06 billones en febrero de 2025 a G. 566.050 millones en octubre de 2026: una caída de 81,5 %, y de 27,7 % frente a octubre de 2025.",
+   "contexto": "Un sistema de reparto paga las jubilaciones de hoy con los aportes de los trabajadores activos; si los aportes no alcanzan, el Tesoro cubre la diferencia. La Ley 7633 buscaba reducir el déficit 60 %, pero los cambios hechos en el Congreso bajaron su efecto a menos de 40 %, según ABC. El saldo rojo ocupa una parte importante del Presupuesto y compite con otros gastos, como salud o educación: es un costo de oportunidad. La crisis de Ueno agrega un riesgo: la Caja intenta recuperar unos US$ 60 millones con intereses. ABC aclara que esa caída no prueba por sí sola una pérdida patrimonial, pero sí muestra que el sistema tiene menos liquidez para pagar.",
    "datos": [
     [
      "US$ 333 M",
@@ -830,6 +1388,10 @@
     [
      "US$ 40 M",
      "Inversión de la Caja en CDA de Ueno (unos US$ 60 M con intereses)"
+    ],
+    [
+     "−81,5 %",
+     "Caída de los depósitos del Fondo de Seguridad Social en el BCP, feb. 2025–oct. 2026 (G. 566.050 M)"
     ]
    ],
    "clave": [
@@ -935,7 +1497,14 @@
      "Que los aportes crezcan al ritmo de los salarios públicos"
     ],
     "conclusion": "La reforma de la Caja Fiscal tuvo poco efecto porque se suavizó en el Congreso. Proteger a los jubilados es legítimo, pero el costo para los contribuyentes y para otros servicios públicos es alto y creciente."
-   }
+   },
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/20/recursos-de-la-caja-fiscal-en-el-bcp-se-redujeron-815-desde-febrero-de-2025/",
+     "2026-11-20"
+    ]
+   ]
   },
   {
    "id": "bcp-mipymes",
@@ -1139,7 +1708,6 @@
     "bonos"
    ],
    "rel": [
-    "ied-record",
     "liquidez-tasas",
     "bolsa-octubre"
    ],
@@ -1396,7 +1964,6 @@
     "politicas-oferta"
    ],
    "rel": [
-    "ande-electrointensivas",
     "energia-cedida",
     "itaipu-tarifa-2027"
    ],
@@ -2349,7 +2916,6 @@
     "externalidad"
    ],
    "rel": [
-    "combustibles",
     "petroleo-baja",
     "recaudacion-dnit"
    ],
@@ -3186,7 +3752,6 @@
    ],
    "rel": [
     "dolar-6600",
-    "pena-dolar",
     "guarani-cae",
     "bcp-caballero"
    ],
@@ -4741,7 +5306,6 @@
     "da-oa-oacp"
    ],
    "rel": [
-    "combustibles",
     "dolar-6600",
     "isc-diesel"
    ],
@@ -4793,143 +5357,6 @@
      "2026-11-15"
     ]
    ]
-  },
-  {
-   "id": "ied-record",
-   "fecha": "2026-10-30",
-   "medio": "Revista Plus",
-   "url": "https://revistaplus.com.py/2026/10/30/inversion-extranjera-neta-en-paraguay-alcanza-record-de-us-1-151-millones-en-2025/",
-   "titulo": "La inversión extranjera directa marca un récord de US$ 1.151 millones en 2025",
-   "unidad": "global",
-   "tema": "4.6",
-   "kc": "interdependencia",
-   "mundo": [
-    "brasil",
-    "eeuu"
-   ],
-   "resumen": "Según el BCP, el flujo neto de inversión extranjera directa (IED) en Paraguay fue de US$ 1.151 millones en 2025, el mayor de la serie que empieza en 2008. El saldo acumulado llegó a US$ 14.774 millones.",
-   "contexto": "La IED entra en la cuenta financiera de la balanza de pagos. Brasil es el principal origen del saldo acumulado (US$ 2.608 millones, 15 %), seguido por Países Bajos, Estados Unidos, Uruguay e Islas Caimán. La IED trae capital, tecnología y empleo, y aumenta la oferta de dólares, lo que tiende a apreciar el guaraní. A cambio, parte de las ganancias sale del país como remesas de utilidades.",
-   "datos": [
-    [
-     "US$ 1.151 M",
-     "Flujo neto de IED en 2025 (récord)"
-    ],
-    [
-     "US$ 14.774 M",
-     "Saldo acumulado al cierre de 2025"
-    ],
-    [
-     "15 %",
-     "Parte de Brasil en el saldo"
-    ],
-    [
-     "+3 %",
-     "Crecimiento del flujo frente a 2024"
-    ]
-   ],
-   "clave": [
-    "US$ 1.151 M",
-    "IED récord"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "US$ M de saldo acumulado",
-    "rows": [
-     [
-      "Brasil",
-      2608,
-      1
-     ],
-     [
-      "Países Bajos",
-      2194
-     ],
-     [
-      "Estados Unidos",
-      2191
-     ],
-     [
-      "Uruguay",
-      1358
-     ],
-     [
-      "Islas Caimán",
-      1077
-     ]
-    ]
-   },
-   "cap": "Principales orígenes del saldo de inversión extranjera directa al cierre de 2025.",
-   "pasos": [
-    "Empresas extranjeras invierten en Paraguay",
-    "Entran dólares por la cuenta financiera",
-    "Aumenta la oferta de dólares: el guaraní tiende a apreciarse",
-    "Crece la capacidad productiva y el empleo",
-    "Parte de las ganancias vuelve al exterior"
-   ],
-   "conceptos": [
-    [
-     "Inversión extranjera directa",
-     "Capital extranjero para crear o ampliar empresas en el país."
-    ],
-    [
-     "Cuenta financiera",
-     "Registra los flujos de inversión y préstamos con el exterior."
-    ],
-    [
-     "Balanza de pagos",
-     "Registro de todas las transacciones del país con el resto del mundo."
-    ],
-    [
-     "Remesas de utilidades",
-     "Ganancias que las empresas extranjeras envían a sus países."
-    ]
-   ],
-   "diagramas": [
-    "tipo-cambio",
-    "politicas-oferta"
-   ],
-   "rel": [
-    "remesas-2026"
-   ],
-   "pregunta": {
-    "q": "¿En qué cuenta de la balanza de pagos se registra la inversión extranjera directa?",
-    "opts": [
-     "En la cuenta financiera",
-     "En la cuenta corriente, como exportación",
-     "En el Presupuesto",
-     "En la cuenta de capital del BCP"
-    ],
-    "ok": 0,
-    "fb": "La IED es un flujo de capital: va en la cuenta financiera. Sus ganancias, cuando se envían al exterior, van a la cuenta corriente (renta)."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Trabajadores",
-      "Nuevos empleos."
-     ],
-     [
-      "Economía en general",
-      "Más capital y tecnología."
-     ]
-    ],
-    "pierden": [
-     [
-      "Empresas locales",
-      "Más competencia."
-     ],
-     [
-      "Cuenta corriente futura",
-      "Salida de utilidades."
-     ]
-    ],
-    "corto": "Más dólares y apreciación del guaraní.",
-    "largo": "Más capacidad productiva si la inversión es productiva y se vincula con proveedores locales.",
-    "supuestos": [
-     "Que el clima de inversión se mantenga tras la crisis de noviembre."
-    ],
-    "conclusion": "Un récord de IED es una señal de confianza, pero la crisis bancaria y política de noviembre pone a prueba esa confianza."
-   }
   },
   {
    "id": "remesas-2026",
@@ -5030,7 +5457,6 @@
     "da-oa-da"
    ],
    "rel": [
-    "ied-record",
     "consumo-cae"
    ],
    "pregunta": {
@@ -5834,7 +6260,7 @@
   },
   {
    "id": "ueno-devolucion",
-   "fecha": "2026-11-16",
+   "fecha": "2026-11-20",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
    "mas": [
@@ -5862,13 +6288,18 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/16/ueno-bank-tras-el-pago-de-los-anticipos-del-fondo-de-garantia-que-pasos-vienen-ahora/",
      "2026-11-16"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/politica_edicion_impresa/2026/11/20/alliana-asegura-que-se-pagaran-todos-los-depositos-a-la-vista-a-plazo-y-cda/",
+     "2026-11-20"
     ]
    ],
    "titulo": "Una ley nueva adelanta la devolución de depósitos de Ueno Bank",
    "unidad": "micro",
    "tema": "2.10",
    "kc": "intervencion",
-   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos (FGD) puede adelantar hasta G. 121.760.000 (40 salarios mínimos) por cliente de Ueno Bank. Según el BCP, citado por Última Hora, al vencer el plazo legal el 11 de noviembre el anticipo llegó al 100 % de los clientes: 1.812.348 personas, por G. 3,99 billones (unos US$ 644 millones). A 29.988 titulares de certificados de depósito (CDA) el dinero ya se transfirió, pero se libera después de validar sus datos en una plataforma del BCP; el resto, hasta 75 salarios mínimos, se pagará en las próximas semanas. Según ABC Color (16 nov), queda un remanente de poco más de G. 1 billón por cubrir y el lunes 16 vence el plazo del balance de exclusión; después se licitarán las carteras entre bancos y financieras, y lo obtenido servirá para pagar los 35 salarios mínimos que faltan hasta el tope de 75 (G. 228.300.000).",
+   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos (FGD) puede adelantar hasta G. 121.760.000 (40 salarios mínimos) por cliente de Ueno Bank. Según el BCP, citado por Última Hora, al vencer el plazo legal el 11 de noviembre el anticipo llegó al 100 % de los clientes: 1.812.348 personas, por G. 3,99 billones (unos US$ 644 millones). A 29.988 titulares de certificados de depósito (CDA) el dinero ya se transfirió, pero se libera después de validar sus datos en una plataforma del BCP; el resto, hasta 75 salarios mínimos, se pagará en las próximas semanas. Según ABC Color (16 nov), queda un remanente de poco más de G. 1 billón por cubrir y el lunes 16 vence el plazo del balance de exclusión; después se licitarán las carteras entre bancos y financieras, y lo obtenido servirá para pagar los 35 salarios mínimos que faltan hasta el tope de 75 (G. 228.300.000). El 20 de noviembre, tras reunirse con el presidente del BCP, Jorge Schreiner, el presidente Pedro Alliana aseguró que se devolverá el 100 % de los depósitos a la vista, a plazo y en CDA, según La Nación; el BCP detallaría el cronograma en los próximos días. El diario informó además que hay unos G. 9 billones (unos US$ 1.450 millones) en activos valuados para transferir a los bancos en lotes de US$ 60 a 80 millones, con 10 días para analizarlos.",
    "contexto": "La garantía de depósitos protege a los ahorristas que no pueden saber cómo maneja un banco su dinero: el banco sabe mucho más que el cliente, un caso de información asimétrica. Pero también tiene un costo: si los bancos saben que el Estado cubrirá a sus clientes, pueden asumir más riesgos (riesgo moral). Por eso la garantía tiene un tope y viene acompañada de supervisión. Unos 280.000 clientes que solo tenían cuenta en Ueno recibirán cuentas temporales por 90 días en otros bancos. El BCP informó que Ueno tenía unos G. 14,5 billones en depósitos y que el FGD cubre hasta G. 4,5 billones, el 26 %; la próxima etapa es pasar activos y pasivos a otra entidad.",
    "datos": [
     [
@@ -6234,9 +6665,7 @@
     "da-oa-oacp"
    ],
    "rel": [
-    "guarani-cae",
-    "pena-dolar",
-    "combustibles"
+    "guarani-cae"
    ],
    "pregunta": {
     "q": "Una familia paga una cuota de US$ 1.000. El dólar pasa de G. 6.000 a G. 6.600. ¿Cuánto más paga en guaraníes?",
@@ -6415,9 +6844,7 @@
     "politica-fiscal",
     "tipo-cambio"
    ],
-   "rel": [
-    "pena-dolar"
-   ],
+   "rel": [],
    "pregunta": {
     "q": "¿Por qué un guaraní más fuerte reduce los impuestos de aduana?",
     "opts": [
@@ -6545,8 +6972,7 @@
     "oferta-demanda"
    ],
    "rel": [
-    "itaipu-opinion",
-    "combustibles"
+    "itaipu-opinion"
    ],
    "pregunta": {
     "q": "Si la demanda de electricidad sigue creciendo y la oferta no cambia, ¿qué pasa con el excedente que Paraguay cede?",
@@ -6788,7 +7214,6 @@
    ],
    "rel": [
     "dolar-6600",
-    "pena-dolar",
     "ueno-intervencion"
    ],
    "pregunta": {
@@ -6981,120 +7406,6 @@
    ]
   },
   {
-   "id": "pena-dolar",
-   "fecha": "2026-10-26",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.py/negocios/2026/10/26/pena-descarta-intervencion-del-bcp-para-frenar-caida-de-la-cotizacion-del-dolar/",
-   "titulo": "Antes de la crisis: el Gobierno descartaba intervenir para frenar la baja del dólar",
-   "unidad": "global",
-   "tema": "4.5",
-   "kc": "intervencion",
-   "resumen": "Con el dólar por debajo de G. 6.000, el presidente Peña dijo que la cotización responde al mercado y descartó que el BCP intervenga, porque eso distorsionaría precios y generaría inflación. Atribuyó la fortaleza del guaraní a exportaciones que crecen más que las importaciones y a más inversión extranjera.",
-   "contexto": "Esta nota muestra el tipo de cambio flotante en su versión tranquila: el guaraní se apreciaba porque entraban más dólares por exportaciones e inversión. Diez días después, la crisis de Ueno Bank invirtió la tendencia. Leer las dos noticias juntas muestra que el mismo mercado puede moverse en direcciones opuestas según cambien la oferta y la demanda de guaraníes.",
-   "datos": [
-    [
-     "< G. 6.000",
-     "Cotización del dólar (26 oct)"
-    ],
-    [
-     "G. 3.700",
-     "Mínimo que recordó Peña, de 2012"
-    ],
-    [
-     "+19,7 %",
-     "Exportaciones registradas a septiembre (ABC Color)"
-    ]
-   ],
-   "clave": [
-    "< G. 6.000",
-    "dólar el 26 de octubre"
-   ],
-   "fig": {
-    "k": "divisas",
-    "mueve": "D",
-    "dir": 1
-   },
-   "cap": "Más exportaciones e inversión extranjera aumentan la demanda de guaraníes: D₁ pasa a D₂ y el guaraní se aprecia de TC₁ a TC₂.",
-   "pasos": [
-    "Crecen las exportaciones y la inversión extranjera",
-    "Entran dólares que deben cambiarse por guaraníes",
-    "La demanda de guaraníes se desplaza a la derecha",
-    "El guaraní se aprecia: el dólar baja",
-    "Se abaratan las importaciones, como las máquinas"
-   ],
-   "conceptos": [
-    [
-     "Apreciación",
-     "Aumento del valor de una moneda frente a otra."
-    ],
-    [
-     "Intervención cambiaria",
-     "Compra o venta de divisas del Banco Central para influir en la cotización."
-    ],
-    [
-     "Inversión extranjera directa",
-     "Capital de empresas del exterior que se instalan o invierten en el país."
-    ],
-    [
-     "Bienes de capital",
-     "Máquinas y equipos que sirven para producir otros bienes."
-    ]
-   ],
-   "diagramas": [
-    "tipo-cambio",
-    "exportaciones"
-   ],
-   "rel": [
-    "guarani-cae",
-    "soja-record"
-   ],
-   "pregunta": {
-    "q": "Si el BCP hubiera querido frenar la baja del dólar, ¿qué tendría que haber hecho?",
-    "opts": [
-     "Comprar dólares pagando con guaraníes",
-     "Vender dólares de sus reservas",
-     "Subir los aranceles",
-     "Bajar los impuestos"
-    ],
-    "ok": 0,
-    "fb": "Para que el dólar suba, el BCP compra dólares y paga con guaraníes. Eso aumenta la cantidad de guaraníes en circulación: por eso se advertía del riesgo de inflación."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Importadores y consumidores",
-      "Los productos importados cuestan menos."
-     ],
-     [
-      "Empresas que compran maquinaria",
-      "Invertir en bienes de capital importados es más barato."
-     ]
-    ],
-    "pierden": [
-     [
-      "Exportadores",
-      "Reciben menos guaraníes por cada dólar."
-     ],
-     [
-      "El Estado",
-      "Recauda menos impuestos de aduana."
-     ]
-    ],
-    "corto": "Importados más baratos que ayudan a mantener baja la inflación.",
-    "largo": "Una apreciación prolongada puede quitar competitividad a la producción nacional.",
-    "supuestos": [
-     "Que la apreciación responda a fundamentos (exportaciones, inversión) y no a flujos especulativos."
-    ],
-    "conclusion": "No intervenir respeta el tipo de cambio flotante y evita inflación, pero lo ocurrido en noviembre muestra cuán volátil puede ser un mercado cambiario pequeño."
-   },
-   "inst": [
-    "bcp"
-   ],
-   "sector": [
-    "comercio"
-   ]
-  },
-  {
    "id": "inflacion-oct",
    "fecha": "2026-11-03",
    "medio": "ABC Color",
@@ -7166,9 +7477,7 @@
     "da-oa-oacp",
     "politica-monetaria"
    ],
-   "rel": [
-    "combustibles"
-   ],
+   "rel": [],
    "pregunta": {
     "q": "La inflación interanual bajó de 4,1 % a 1,7 %. ¿Cómo se llama esto?",
     "opts": [
@@ -7439,8 +7748,7 @@
     "da-oa-da"
    ],
    "rel": [
-    "carne-cae",
-    "pena-dolar"
+    "carne-cae"
    ],
    "pregunta": {
     "q": "El 86 % de la soja va a Argentina. ¿Qué riesgo implica?",
@@ -7597,130 +7905,6 @@
    ]
   },
   {
-   "id": "combustibles",
-   "fecha": "2026-10-28",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/economia/2026/10/28/precios-de-combustibles-cuanto-subieron-el-gasoil-y-las-naftas-en-petropar-y-los-privados-en-2026/",
-   "mas": [
-    [
-     "La Tribuna",
-     "https://www.latribuna.com.py/negocios/economia/2026/11/03/petropar-mantendra-los-precios-de-combustibles-durante-todo-este-mes/",
-     "2026-11-03"
-    ]
-   ],
-   "titulo": "El diésel cuesta 48,6 % más que en febrero: sexta suba del año",
-   "unidad": "macro",
-   "tema": "3.3",
-   "kc": "interdependencia",
-   "resumen": "Petropar aplicó el 28 de octubre una suba de G. 500 a G. 600 por litro en el diésel, la sexta del año. Frente a febrero, el diésel común cuesta 48,6 % más y las naftas entre 28 % y 35 % más. La causa es el encarecimiento del petróleo por la guerra en Medio Oriente.",
-   "contexto": "Según La Tribuna, Petropar y los emblemas privados mantendrán los precios durante noviembre, aunque el ajuste cubrió solo la mitad de lo que exigirían los precios internacionales. La apreciación del guaraní había amortiguado el golpe; con la depreciación de noviembre la presión puede volver. El diésel mueve camiones y colectivos, así que su precio llega a casi todos los bienes.",
-   "datos": [
-    [
-     "G. 9.285",
-     "Diésel común en Petropar"
-    ],
-    [
-     "+48,6 %",
-     "Diésel común desde febrero"
-    ],
-    [
-     "G. 6.990",
-     "Nafta de 88 octanos en Petropar"
-    ],
-    [
-     "6",
-     "Subas del año en Petropar"
-    ]
-   ],
-   "clave": [
-    "+48,6 %",
-    "diésel desde febrero"
-   ],
-   "fig": {
-    "k": "macro",
-    "mueve": "O",
-    "dir": -1
-   },
-   "cap": "El combustible es un costo de casi toda la producción: la OACP pasa de OACP₁ a OACP₂, sube el nivel de precios y cae el PIB real.",
-   "pasos": [
-    "Sube el petróleo por la guerra en Medio Oriente",
-    "Paraguay paga más por el combustible importado",
-    "Suben los costos de transporte y producción",
-    "La OACP se desplaza a la izquierda",
-    "Inflación por costos y menor producción"
-   ],
-   "conceptos": [
-    [
-     "Inflación por costos",
-     "Suba de precios causada por costos de producción más altos."
-    ],
-    [
-     "Shock de oferta",
-     "Cambio repentino en los costos que mueve la OACP."
-    ],
-    [
-     "Demanda inelástica",
-     "El combustible se sigue usando aunque suba: |EPD| < 1."
-    ],
-    [
-     "Empresa pública",
-     "Petropar es del Estado y puede absorber parte de la suba en sus márgenes."
-    ]
-   ],
-   "diagramas": [
-    "da-oa-oacp",
-    "oferta-demanda"
-   ],
-   "rel": [
-    "inflacion-oct",
-    "guarani-cae",
-    "isc-diesel"
-   ],
-   "pregunta": {
-    "q": "Si el combustible encarece de forma sostenida, ¿qué curva se mueve?",
-    "opts": [
-     "La OACP, a la izquierda",
-     "La DA, a la derecha",
-     "La OALP, a la derecha",
-     "La DA, a la izquierda"
-    ],
-    "ok": 0,
-    "fb": "El combustible es un costo de producción. Si sube, a cada nivel de precios las empresas producen menos: la OACP se desplaza a la izquierda."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Usuarios en noviembre",
-      "Los precios quedan congelados por ahora."
-     ]
-    ],
-    "pierden": [
-     [
-      "Transporte, agro e industria",
-      "Sus costos suben."
-     ],
-     [
-      "Consumidores",
-      "Pagan más por fletes, pasajes y alimentos."
-     ],
-     [
-      "Petropar",
-      "Absorbe parte de la suba en sus márgenes."
-     ]
-    ],
-    "corto": "Inflación por costos en transporte y alimentos.",
-    "largo": "Si el petróleo sigue alto y el guaraní débil, habrá nuevas subas; también aumenta el incentivo a ahorrar energía y usar alternativas.",
-    "supuestos": [
-     "Que el petróleo no baje.",
-     "Que el congelamiento de noviembre no se extienda."
-    ],
-    "conclusion": "El combustible es un costo que llega a toda la economía, y la depreciación del guaraní puede agrandar su impacto."
-   },
-   "sector": [
-    "energia"
-   ]
-  },
-  {
    "id": "itaipu-opinion",
    "fecha": "2026-11-08",
    "medio": "ABC Color",
@@ -7827,142 +8011,6 @@
    "sector": [
     "energia"
    ]
-  },
-  {
-   "id": "ande-electrointensivas",
-   "fecha": "2026-10-26",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/ande-reglamenta-tarifas-para-centros-de-datos-e-ia",
-   "mas": [
-    [
-     "Última Hora",
-     "https://www.ultimahora.com/electrointensivas-requieren-como-cinco-centrales-acaray",
-     "2026-01-06"
-    ]
-   ],
-   "titulo": "Centros de datos piden 6.000 MW: ¿a quién se le da la electricidad?",
-   "unidad": "micro",
-   "tema": "1.1",
-   "kc": "escasez",
-   "sector": [
-    "energia"
-   ],
-   "resumen": "La ANDE creó una categoría de tarifa para «industrias electrointensivas de tecnología avanzada», como los centros de datos y de inteligencia artificial. Según Última Hora, unas 40 empresas negocian y consultan por cerca de 6.000 MW de potencia. La ANDE ya tiene contratos por 1.100 MW con 50 clientes de consumo intensivo, sobre todo de criptominería: el equivalente a cinco centrales como Acaray.",
-   "contexto": "La electricidad que produce Paraguay es abundante comparada con su consumo, pero no es infinita: la demanda interna crece rápido y cada megavatio que se vende a una industria nueva es un megavatio que no se usa en hogares, comercios o fábricas, ni se vende a Brasil. Ese es el problema central de la economía: recursos escasos frente a deseos ilimitados, que obligan a elegir. Elegir tiene un costo de oportunidad: lo que se deja de lado. La ANDE fijó tarifas en dólares con una actualización de 2,5 % anual, y el ex titular de la ANDE Pedro Ferreira advierte que el precio acordado con una de las empresas cubre los costos solo mientras la energía de Itaipú siga barata.",
-   "datos": [
-    [
-     "6.000 MW",
-     "Potencia que consultan unas 40 empresas interesadas"
-    ],
-    [
-     "1.100 MW",
-     "Potencia ya contratada por 50 clientes de consumo intensivo"
-    ],
-    [
-     "5 Acaray",
-     "Equivalencia de esos 1.100 MW en centrales como Acaray"
-    ],
-    [
-     "US$ 48,91",
-     "Precio por MWh en 220 kV del contrato de referencia (2026)"
-    ],
-    [
-     "2,5 %",
-     "Actualización anual de la tarifa"
-    ]
-   ],
-   "clave": [
-    "6.000 MW",
-    "pedidos por centros de datos"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "MW",
-    "rows": [
-     [
-      "Ya contratado (50 clientes)",
-      1100
-     ],
-     [
-      "Consultas de centros de datos",
-      6000,
-      1
-     ]
-    ]
-   },
-   "cap": "La potencia que piden los centros de datos es más de cinco veces la que ya consumen todos los clientes intensivos juntos. Con energía limitada, hay que elegir a quién se le vende.",
-   "pasos": [
-    "La energía disponible es limitada y la demanda interna crece",
-    "Llegan nuevas industrias que piden mucha electricidad",
-    "Darles energía significa no usarla en otra cosa (costo de oportunidad)",
-    "El Estado y la ANDE deben elegir a quién vender y a qué precio",
-    "La elección afecta empleo, inversión, ingresos de la ANDE y precios futuros"
-   ],
-   "conceptos": [
-    [
-     "Escasez",
-     "Los recursos son limitados frente a necesidades y deseos ilimitados."
-    ],
-    [
-     "Costo de oportunidad",
-     "El valor de la mejor alternativa a la que se renuncia al elegir."
-    ],
-    [
-     "Asignación de recursos",
-     "Cómo se decide qué producir, cómo y para quién."
-    ],
-    [
-     "Frontera de posibilidades de producción",
-     "Muestra las combinaciones máximas que se pueden producir con recursos dados."
-    ]
-   ],
-   "diagramas": [
-    "monopolio"
-   ],
-   "rel": [
-    "ande-tarifa",
-    "energia-cedida"
-   ],
-   "pregunta": {
-    "q": "Si la ANDE vende 1.000 MW a centros de datos, ¿cuál es el costo de oportunidad?",
-    "opts": [
-     "Lo que se deja de producir o vender con esa energía en su mejor uso alternativo",
-     "El precio que pagan los centros de datos",
-     "El costo de construir la represa",
-     "Nada, porque la energía es renovable"
-    ],
-    "ok": 0,
-    "fb": "El costo de oportunidad es la mejor alternativa a la que se renuncia: esa energía ya no está disponible para hogares, otras industrias o para venderla a Brasil."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Empresas tecnológicas",
-      "Acceden a energía limpia y relativamente barata."
-     ],
-     [
-      "La ANDE",
-      "Vende más energía en dólares si el precio cubre sus costos."
-     ]
-    ],
-    "pierden": [
-     [
-      "Otros usuarios futuros",
-      "Si la demanda crece, podría faltar energía o subir su precio."
-     ],
-     [
-      "El Estado",
-      "Si el precio queda por debajo del costo futuro, la ANDE asume pérdidas."
-     ]
-    ],
-    "corto": "Más inversión y facturación en dólares para la ANDE.",
-    "largo": "Si la demanda total supera la oferta, habrá que invertir en nueva generación o racionar.",
-    "supuestos": [
-     "Que la tarifa cubra los costos futuros, no solo los actuales",
-     "Que las empresas generen empleo y actividad en el país"
-    ],
-    "conclusion": "Vender energía a industrias nuevas puede ser buena idea, pero solo si el precio refleja su costo de oportunidad: la energía de hoy no estará disponible mañana."
-   }
   },
   {
    "id": "sp-calificacion",
@@ -9144,13 +9192,13 @@
   },
   "2026-11-16": {
    "titulo": "Después de los anticipos: repartir Ueno y aprobar el Presupuesto",
-   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año. El miércoles 18, el BCP estimó que el agujero de Ueno está entre US$ 1.000 y 1.500 millones: los activos alcanzan para los depositantes, pero no para los bonistas, y el país podría enfrentar demandas en Nueva York. Ese mismo día Alliana cambió al director de Itaipú, que tenía US$ 163,8 millones en Ueno, y fijó como meta acordar con Brasil la tarifa 2027 antes del 31 de diciembre; el Senado prevé votar el Presupuesto el 24 de noviembre.",
+   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año. El miércoles 18, el BCP estimó que el agujero de Ueno está entre US$ 1.000 y 1.500 millones: los activos alcanzan para los depositantes, pero no para los bonistas, y el país podría enfrentar demandas en Nueva York. Ese mismo día Alliana cambió al director de Itaipú, que tenía US$ 163,8 millones en Ueno, y fijó como meta acordar con Brasil la tarifa 2027 antes del 31 de diciembre; el Senado prevé votar el Presupuesto el 24 de noviembre. El jueves 19, gremios empresariales propusieron recortar US$ 670 millones del Presupuesto y bajar el déficit a 2,9 %; la Conacom acusó a Frigorífico Concepción y Frigomerc de abusar de su poder sobre los ganaderos, y los bonistas del primero aceptaron reestructurar su deuda. Alliana aseguró que se devolverá todo el dinero de los ahorristas de Ueno, mientras el Black Friday llenó Ciudad del Este de compradores brasileños.",
    "claves": [
     "ueno-deficit",
     "pgn-suspendido",
     "deficit-octubre",
-    "itaipu-tarifa-2027",
-    "eve-noviembre"
+    "conacom-frigorificos",
+    "gremios-pgn-recorte"
    ]
   }
  },
@@ -9333,6 +9381,10 @@
     [
      "2026-11-18",
      "El directorio estima el déficit de Ueno entre US$ 1.000 y 1.500 millones y anuncia la licitación de sus activos por lotes de US$ 60 a 80 millones."
+    ],
+    [
+     "2026-11-19",
+     "Tras reunirse con el presidente del BCP, Alliana asegura que se devolverá el 100 % de los depósitos de Ueno."
     ]
    ],
    "enlaces": [
@@ -9513,6 +9565,10 @@
     [
      "2026-11-18",
      "El Senado prevé tratar el Presupuesto 2027 el 23 de noviembre con el ministro Oscar Lovera y votarlo el 24."
+    ],
+    [
+     "2026-11-19",
+     "Gremios empresariales proponen al Senado recortar US$ 670 millones del Presupuesto 2027 y bajar el déficit a 2,9 % del PIB."
     ]
    ],
    "enlaces": [
@@ -10056,6 +10112,10 @@
    [
     "2026-11-18",
     "El BCP aclara que los bonos de Ueno (US$ 350 millones en el exterior y emisiones locales) no tienen cobertura del Fondo de Garantía."
+   ],
+   [
+    "2026-11-18",
+    "Los bonistas de Frigorífico Concepción aprueban reestructurar sus bonos (PEG G3, USD3 y G4): 24 meses de gracia o canje por acciones preferidas, sin quita."
    ]
   ],
   "ib": [
@@ -10214,6 +10274,15 @@
     "tema": "3.5",
     "url": "https://www.riotimesonline.com/chile-inflation-outlook-central-bank-next-steps-2026/",
     "fuente": "The Rio Times"
+   },
+   {
+    "f": "2026-12-18",
+    "t": "Vence el plazo de los bonistas de Frigorífico Concepción",
+    "d": "Hasta ese día eligen entre pasar sus bonos a acciones preferidas o mantenerlos con 24 meses de gracia.",
+    "tipo": "Bolsa",
+    "tema": "3.5",
+    "url": "https://www.ultimahora.com/bonistas-de-frigorifico-concepcion-aprueban-reestructuracion-de-deuda",
+    "fuente": "Última Hora"
    },
    {
     "f": "2026-12-20",
@@ -11031,6 +11100,11 @@
      "2026-11-18",
      "El BCP estima el déficit de Ueno entre US$ 1.000 y 1.500 millones: los activos cubren a los depositantes, no a los bonistas.",
      "ueno-deficit"
+    ],
+    [
+     "2026-11-19",
+     "Alliana asegura que se devolverá el 100 % de los depósitos a la vista, a plazo y en CDA de Ueno.",
+     "ueno-devolucion"
     ]
    ]
   },
@@ -11055,7 +11129,8 @@
     "fitch-revision",
     "hambre-cero-recorte",
     "deficit-octubre",
-    "caja-fiscal-octubre"
+    "caja-fiscal-octubre",
+    "gremios-pgn-recorte"
    ],
    "hitos": [
     [
@@ -11137,6 +11212,11 @@
      "2026-11-18",
      "El Senado prevé tratar el Presupuesto el 23 y votarlo el 24 de noviembre; protestas en el Hospital de Clínicas por los recortes.",
      "pgn-suspendido"
+    ],
+    [
+     "2026-11-19",
+     "Los gremios proponen recortar US$ 670 millones y bajar el déficit de 2027 a 2,9 % del PIB.",
+     "gremios-pgn-recorte"
     ]
    ]
   },
@@ -12986,9 +13066,13 @@
     [
      "40.000+",
      "Cabezas que faenó el frigorífico Belén en sus mejores meses"
+    ],
+    [
+     "60 %",
+     "Faena nacional que suman Frigorífico Concepción y Frigomerc, según la Conacom (nov. 2026)"
     ]
    ],
-   "texto": "Miles de ganaderos venden su ganado, pero unos pocos frigoríficos compran la mayor parte. Cuando hay pocos compradores, estos tienen poder para influir en el precio que pagan: es un oligopsonio. Por eso los ganaderos siguen de cerca las compras y alquileres entre frigoríficos. En 2020, cuando Athena Foods (del grupo brasileño Minerva) quiso alquilar el frigorífico FrigoNorte, la Asociación de Productores y Exportadores de Carne pidió a la Comisión Nacional de la Competencia (Conacom) que no lo aprobara, porque temía que el grupo concentrara más de la mitad de la faena y bajara el precio del ganado.",
+   "texto": "Miles de ganaderos venden su ganado, pero unos pocos frigoríficos compran la mayor parte. Cuando hay pocos compradores, estos tienen poder para influir en el precio que pagan: es un oligopsonio. Por eso los ganaderos siguen de cerca las compras y alquileres entre frigoríficos. En 2020, cuando Athena Foods (del grupo brasileño Minerva) quiso alquilar el frigorífico FrigoNorte, la Asociación de Productores y Exportadores de Carne pidió a la Comisión Nacional de la Competencia (Conacom) que no lo aprobara, porque temía que el grupo concentrara más de la mitad de la faena y bajara el precio del ganado. En noviembre de 2026, la Conacom acusó formalmente a Frigorífico Concepción y a Frigomerc de abusar de su posición dominante en la compra de ganado y pidió multas de G. 164.189 millones y G. 92.656 millones.",
    "preguntas": [
     "¿Por qué a los ganaderos les preocupa que haya pocos frigoríficos?",
     "¿Qué hace la Conacom y por qué revisa las compras entre empresas?"
@@ -13001,6 +13085,10 @@
     [
      "InfoNegocios (24 jun 2020)",
      "https://infonegocios.com.py/amp/infoganaderia/acaparamiento-de-athena-foods-ganaderos-esperan-que-la-conacom-no-apruebe-alquiler-de-frigonorte"
+    ],
+    [
+     "Última Hora (19 nov 2026)",
+     "https://www.ultimahora.com/conacom-acusa-a-dos-frigorificos-por-abuso-de-posicion-dominante-sepa-las-multas-que-solicita"
     ]
    ]
   },
@@ -14523,8 +14611,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-19",
-  "hora": "06:39",
+  "fecha": "2026-11-20",
+  "hora": "06:26",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -14533,7 +14621,7 @@
     "USD",
     "Dólar estadounidense",
     5900,
-    6220
+    6320
    ],
    [
     "ARS",
@@ -14610,6 +14698,11 @@
      "2026-11-19",
      5900,
      6220
+    ],
+    [
+     "2026-11-20",
+     5900,
+     6320
     ]
    ],
    "ARS": [
@@ -14665,6 +14758,11 @@
     ],
     [
      "2026-11-19",
+     3,
+     3.8
+    ],
+    [
+     "2026-11-20",
      3,
      3.8
     ]
@@ -14724,6 +14822,11 @@
      "2026-11-19",
      1050,
      1140
+    ],
+    [
+     "2026-11-20",
+     1050,
+     1140
     ]
    ],
    "EUR": [
@@ -14779,6 +14882,11 @@
     ],
     [
      "2026-11-19",
+     6100,
+     6800
+    ],
+    [
+     "2026-11-20",
      6100,
      6800
     ]
@@ -14931,6 +15039,11 @@
     "Raúl Latorre (Diputados)",
     "Dijo que los activos cubrían todos los depósitos; el BCP lo desmintió y aclaró que los bonos no se cubren.",
     "ueno-deficit"
+   ],
+   [
+    "Pedro Alliana",
+    "Aseguró que se devolverá el 100 % de los depósitos a la vista, a plazo y en CDA de Ueno.",
+    "ueno-devolucion"
    ]
   ],
   "preguntas": [

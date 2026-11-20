@@ -1,5 +1,516 @@
 [
  {
+  "id": "ied-record",
+  "fecha": "2026-10-30",
+  "medio": "Revista Plus",
+  "url": "https://revistaplus.com.py/2026/10/30/inversion-extranjera-neta-en-paraguay-alcanza-record-de-us-1-151-millones-en-2025/",
+  "titulo": "La inversión extranjera directa marca un récord de US$ 1.151 millones en 2025",
+  "unidad": "global",
+  "tema": "4.6",
+  "kc": "interdependencia",
+  "mundo": [
+   "brasil",
+   "eeuu"
+  ],
+  "resumen": "Según el BCP, el flujo neto de inversión extranjera directa (IED) en Paraguay fue de US$ 1.151 millones en 2025, el mayor de la serie que empieza en 2008. El saldo acumulado llegó a US$ 14.774 millones.",
+  "contexto": "La IED entra en la cuenta financiera de la balanza de pagos. Brasil es el principal origen del saldo acumulado (US$ 2.608 millones, 15 %), seguido por Países Bajos, Estados Unidos, Uruguay e Islas Caimán. La IED trae capital, tecnología y empleo, y aumenta la oferta de dólares, lo que tiende a apreciar el guaraní. A cambio, parte de las ganancias sale del país como remesas de utilidades.",
+  "datos": [
+   [
+    "US$ 1.151 M",
+    "Flujo neto de IED en 2025 (récord)"
+   ],
+   [
+    "US$ 14.774 M",
+    "Saldo acumulado al cierre de 2025"
+   ],
+   [
+    "15 %",
+    "Parte de Brasil en el saldo"
+   ],
+   [
+    "+3 %",
+    "Crecimiento del flujo frente a 2024"
+   ]
+  ],
+  "clave": [
+   "US$ 1.151 M",
+   "IED récord"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ M de saldo acumulado",
+   "rows": [
+    [
+     "Brasil",
+     2608,
+     1
+    ],
+    [
+     "Países Bajos",
+     2194
+    ],
+    [
+     "Estados Unidos",
+     2191
+    ],
+    [
+     "Uruguay",
+     1358
+    ],
+    [
+     "Islas Caimán",
+     1077
+    ]
+   ]
+  },
+  "cap": "Principales orígenes del saldo de inversión extranjera directa al cierre de 2025.",
+  "pasos": [
+   "Empresas extranjeras invierten en Paraguay",
+   "Entran dólares por la cuenta financiera",
+   "Aumenta la oferta de dólares: el guaraní tiende a apreciarse",
+   "Crece la capacidad productiva y el empleo",
+   "Parte de las ganancias vuelve al exterior"
+  ],
+  "conceptos": [
+   [
+    "Inversión extranjera directa",
+    "Capital extranjero para crear o ampliar empresas en el país."
+   ],
+   [
+    "Cuenta financiera",
+    "Registra los flujos de inversión y préstamos con el exterior."
+   ],
+   [
+    "Balanza de pagos",
+    "Registro de todas las transacciones del país con el resto del mundo."
+   ],
+   [
+    "Remesas de utilidades",
+    "Ganancias que las empresas extranjeras envían a sus países."
+   ]
+  ],
+  "diagramas": [
+   "tipo-cambio",
+   "politicas-oferta"
+  ],
+  "rel": [
+   "remesas-2026"
+  ],
+  "pregunta": {
+   "q": "¿En qué cuenta de la balanza de pagos se registra la inversión extranjera directa?",
+   "opts": [
+    "En la cuenta financiera",
+    "En la cuenta corriente, como exportación",
+    "En el Presupuesto",
+    "En la cuenta de capital del BCP"
+   ],
+   "ok": 0,
+   "fb": "La IED es un flujo de capital: va en la cuenta financiera. Sus ganancias, cuando se envían al exterior, van a la cuenta corriente (renta)."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Trabajadores",
+     "Nuevos empleos."
+    ],
+    [
+     "Economía en general",
+     "Más capital y tecnología."
+    ]
+   ],
+   "pierden": [
+    [
+     "Empresas locales",
+     "Más competencia."
+    ],
+    [
+     "Cuenta corriente futura",
+     "Salida de utilidades."
+    ]
+   ],
+   "corto": "Más dólares y apreciación del guaraní.",
+   "largo": "Más capacidad productiva si la inversión es productiva y se vincula con proveedores locales.",
+   "supuestos": [
+    "Que el clima de inversión se mantenga tras la crisis de noviembre."
+   ],
+   "conclusion": "Un récord de IED es una señal de confianza, pero la crisis bancaria y política de noviembre pone a prueba esa confianza."
+  }
+ },
+ {
+  "id": "combustibles",
+  "fecha": "2026-10-28",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/economia/2026/10/28/precios-de-combustibles-cuanto-subieron-el-gasoil-y-las-naftas-en-petropar-y-los-privados-en-2026/",
+  "mas": [
+   [
+    "La Tribuna",
+    "https://www.latribuna.com.py/negocios/economia/2026/11/03/petropar-mantendra-los-precios-de-combustibles-durante-todo-este-mes/",
+    "2026-11-03"
+   ]
+  ],
+  "titulo": "El diésel cuesta 48,6 % más que en febrero: sexta suba del año",
+  "unidad": "macro",
+  "tema": "3.3",
+  "kc": "interdependencia",
+  "resumen": "Petropar aplicó el 28 de octubre una suba de G. 500 a G. 600 por litro en el diésel, la sexta del año. Frente a febrero, el diésel común cuesta 48,6 % más y las naftas entre 28 % y 35 % más. La causa es el encarecimiento del petróleo por la guerra en Medio Oriente.",
+  "contexto": "Según La Tribuna, Petropar y los emblemas privados mantendrán los precios durante noviembre, aunque el ajuste cubrió solo la mitad de lo que exigirían los precios internacionales. La apreciación del guaraní había amortiguado el golpe; con la depreciación de noviembre la presión puede volver. El diésel mueve camiones y colectivos, así que su precio llega a casi todos los bienes.",
+  "datos": [
+   [
+    "G. 9.285",
+    "Diésel común en Petropar"
+   ],
+   [
+    "+48,6 %",
+    "Diésel común desde febrero"
+   ],
+   [
+    "G. 6.990",
+    "Nafta de 88 octanos en Petropar"
+   ],
+   [
+    "6",
+    "Subas del año en Petropar"
+   ]
+  ],
+  "clave": [
+   "+48,6 %",
+   "diésel desde febrero"
+  ],
+  "fig": {
+   "k": "macro",
+   "mueve": "O",
+   "dir": -1
+  },
+  "cap": "El combustible es un costo de casi toda la producción: la OACP pasa de OACP₁ a OACP₂, sube el nivel de precios y cae el PIB real.",
+  "pasos": [
+   "Sube el petróleo por la guerra en Medio Oriente",
+   "Paraguay paga más por el combustible importado",
+   "Suben los costos de transporte y producción",
+   "La OACP se desplaza a la izquierda",
+   "Inflación por costos y menor producción"
+  ],
+  "conceptos": [
+   [
+    "Inflación por costos",
+    "Suba de precios causada por costos de producción más altos."
+   ],
+   [
+    "Shock de oferta",
+    "Cambio repentino en los costos que mueve la OACP."
+   ],
+   [
+    "Demanda inelástica",
+    "El combustible se sigue usando aunque suba: |EPD| < 1."
+   ],
+   [
+    "Empresa pública",
+    "Petropar es del Estado y puede absorber parte de la suba en sus márgenes."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-oacp",
+   "oferta-demanda"
+  ],
+  "rel": [
+   "inflacion-oct",
+   "guarani-cae",
+   "isc-diesel"
+  ],
+  "pregunta": {
+   "q": "Si el combustible encarece de forma sostenida, ¿qué curva se mueve?",
+   "opts": [
+    "La OACP, a la izquierda",
+    "La DA, a la derecha",
+    "La OALP, a la derecha",
+    "La DA, a la izquierda"
+   ],
+   "ok": 0,
+   "fb": "El combustible es un costo de producción. Si sube, a cada nivel de precios las empresas producen menos: la OACP se desplaza a la izquierda."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Usuarios en noviembre",
+     "Los precios quedan congelados por ahora."
+    ]
+   ],
+   "pierden": [
+    [
+     "Transporte, agro e industria",
+     "Sus costos suben."
+    ],
+    [
+     "Consumidores",
+     "Pagan más por fletes, pasajes y alimentos."
+    ],
+    [
+     "Petropar",
+     "Absorbe parte de la suba en sus márgenes."
+    ]
+   ],
+   "corto": "Inflación por costos en transporte y alimentos.",
+   "largo": "Si el petróleo sigue alto y el guaraní débil, habrá nuevas subas; también aumenta el incentivo a ahorrar energía y usar alternativas.",
+   "supuestos": [
+    "Que el petróleo no baje.",
+    "Que el congelamiento de noviembre no se extienda."
+   ],
+   "conclusion": "El combustible es un costo que llega a toda la economía, y la depreciación del guaraní puede agrandar su impacto."
+  },
+  "sector": [
+   "energia"
+  ]
+ },
+ {
+  "id": "ande-electrointensivas",
+  "fecha": "2026-10-26",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/ande-reglamenta-tarifas-para-centros-de-datos-e-ia",
+  "mas": [
+   [
+    "Última Hora",
+    "https://www.ultimahora.com/electrointensivas-requieren-como-cinco-centrales-acaray",
+    "2026-01-06"
+   ]
+  ],
+  "titulo": "Centros de datos piden 6.000 MW: ¿a quién se le da la electricidad?",
+  "unidad": "micro",
+  "tema": "1.1",
+  "kc": "escasez",
+  "sector": [
+   "energia"
+  ],
+  "resumen": "La ANDE creó una categoría de tarifa para «industrias electrointensivas de tecnología avanzada», como los centros de datos y de inteligencia artificial. Según Última Hora, unas 40 empresas negocian y consultan por cerca de 6.000 MW de potencia. La ANDE ya tiene contratos por 1.100 MW con 50 clientes de consumo intensivo, sobre todo de criptominería: el equivalente a cinco centrales como Acaray.",
+  "contexto": "La electricidad que produce Paraguay es abundante comparada con su consumo, pero no es infinita: la demanda interna crece rápido y cada megavatio que se vende a una industria nueva es un megavatio que no se usa en hogares, comercios o fábricas, ni se vende a Brasil. Ese es el problema central de la economía: recursos escasos frente a deseos ilimitados, que obligan a elegir. Elegir tiene un costo de oportunidad: lo que se deja de lado. La ANDE fijó tarifas en dólares con una actualización de 2,5 % anual, y el ex titular de la ANDE Pedro Ferreira advierte que el precio acordado con una de las empresas cubre los costos solo mientras la energía de Itaipú siga barata.",
+  "datos": [
+   [
+    "6.000 MW",
+    "Potencia que consultan unas 40 empresas interesadas"
+   ],
+   [
+    "1.100 MW",
+    "Potencia ya contratada por 50 clientes de consumo intensivo"
+   ],
+   [
+    "5 Acaray",
+    "Equivalencia de esos 1.100 MW en centrales como Acaray"
+   ],
+   [
+    "US$ 48,91",
+    "Precio por MWh en 220 kV del contrato de referencia (2026)"
+   ],
+   [
+    "2,5 %",
+    "Actualización anual de la tarifa"
+   ]
+  ],
+  "clave": [
+   "6.000 MW",
+   "pedidos por centros de datos"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "MW",
+   "rows": [
+    [
+     "Ya contratado (50 clientes)",
+     1100
+    ],
+    [
+     "Consultas de centros de datos",
+     6000,
+     1
+    ]
+   ]
+  },
+  "cap": "La potencia que piden los centros de datos es más de cinco veces la que ya consumen todos los clientes intensivos juntos. Con energía limitada, hay que elegir a quién se le vende.",
+  "pasos": [
+   "La energía disponible es limitada y la demanda interna crece",
+   "Llegan nuevas industrias que piden mucha electricidad",
+   "Darles energía significa no usarla en otra cosa (costo de oportunidad)",
+   "El Estado y la ANDE deben elegir a quién vender y a qué precio",
+   "La elección afecta empleo, inversión, ingresos de la ANDE y precios futuros"
+  ],
+  "conceptos": [
+   [
+    "Escasez",
+    "Los recursos son limitados frente a necesidades y deseos ilimitados."
+   ],
+   [
+    "Costo de oportunidad",
+    "El valor de la mejor alternativa a la que se renuncia al elegir."
+   ],
+   [
+    "Asignación de recursos",
+    "Cómo se decide qué producir, cómo y para quién."
+   ],
+   [
+    "Frontera de posibilidades de producción",
+    "Muestra las combinaciones máximas que se pueden producir con recursos dados."
+   ]
+  ],
+  "diagramas": [
+   "monopolio"
+  ],
+  "rel": [
+   "ande-tarifa",
+   "energia-cedida"
+  ],
+  "pregunta": {
+   "q": "Si la ANDE vende 1.000 MW a centros de datos, ¿cuál es el costo de oportunidad?",
+   "opts": [
+    "Lo que se deja de producir o vender con esa energía en su mejor uso alternativo",
+    "El precio que pagan los centros de datos",
+    "El costo de construir la represa",
+    "Nada, porque la energía es renovable"
+   ],
+   "ok": 0,
+   "fb": "El costo de oportunidad es la mejor alternativa a la que se renuncia: esa energía ya no está disponible para hogares, otras industrias o para venderla a Brasil."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Empresas tecnológicas",
+     "Acceden a energía limpia y relativamente barata."
+    ],
+    [
+     "La ANDE",
+     "Vende más energía en dólares si el precio cubre sus costos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Otros usuarios futuros",
+     "Si la demanda crece, podría faltar energía o subir su precio."
+    ],
+    [
+     "El Estado",
+     "Si el precio queda por debajo del costo futuro, la ANDE asume pérdidas."
+    ]
+   ],
+   "corto": "Más inversión y facturación en dólares para la ANDE.",
+   "largo": "Si la demanda total supera la oferta, habrá que invertir en nueva generación o racionar.",
+   "supuestos": [
+    "Que la tarifa cubra los costos futuros, no solo los actuales",
+    "Que las empresas generen empleo y actividad en el país"
+   ],
+   "conclusion": "Vender energía a industrias nuevas puede ser buena idea, pero solo si el precio refleja su costo de oportunidad: la energía de hoy no estará disponible mañana."
+  }
+ },
+ {
+  "id": "pena-dolar",
+  "fecha": "2026-10-26",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/negocios/2026/10/26/pena-descarta-intervencion-del-bcp-para-frenar-caida-de-la-cotizacion-del-dolar/",
+  "titulo": "Antes de la crisis: el Gobierno descartaba intervenir para frenar la baja del dólar",
+  "unidad": "global",
+  "tema": "4.5",
+  "kc": "intervencion",
+  "resumen": "Con el dólar por debajo de G. 6.000, el presidente Peña dijo que la cotización responde al mercado y descartó que el BCP intervenga, porque eso distorsionaría precios y generaría inflación. Atribuyó la fortaleza del guaraní a exportaciones que crecen más que las importaciones y a más inversión extranjera.",
+  "contexto": "Esta nota muestra el tipo de cambio flotante en su versión tranquila: el guaraní se apreciaba porque entraban más dólares por exportaciones e inversión. Diez días después, la crisis de Ueno Bank invirtió la tendencia. Leer las dos noticias juntas muestra que el mismo mercado puede moverse en direcciones opuestas según cambien la oferta y la demanda de guaraníes.",
+  "datos": [
+   [
+    "< G. 6.000",
+    "Cotización del dólar (26 oct)"
+   ],
+   [
+    "G. 3.700",
+    "Mínimo que recordó Peña, de 2012"
+   ],
+   [
+    "+19,7 %",
+    "Exportaciones registradas a septiembre (ABC Color)"
+   ]
+  ],
+  "clave": [
+   "< G. 6.000",
+   "dólar el 26 de octubre"
+  ],
+  "fig": {
+   "k": "divisas",
+   "mueve": "D",
+   "dir": 1
+  },
+  "cap": "Más exportaciones e inversión extranjera aumentan la demanda de guaraníes: D₁ pasa a D₂ y el guaraní se aprecia de TC₁ a TC₂.",
+  "pasos": [
+   "Crecen las exportaciones y la inversión extranjera",
+   "Entran dólares que deben cambiarse por guaraníes",
+   "La demanda de guaraníes se desplaza a la derecha",
+   "El guaraní se aprecia: el dólar baja",
+   "Se abaratan las importaciones, como las máquinas"
+  ],
+  "conceptos": [
+   [
+    "Apreciación",
+    "Aumento del valor de una moneda frente a otra."
+   ],
+   [
+    "Intervención cambiaria",
+    "Compra o venta de divisas del Banco Central para influir en la cotización."
+   ],
+   [
+    "Inversión extranjera directa",
+    "Capital de empresas del exterior que se instalan o invierten en el país."
+   ],
+   [
+    "Bienes de capital",
+    "Máquinas y equipos que sirven para producir otros bienes."
+   ]
+  ],
+  "diagramas": [
+   "tipo-cambio",
+   "exportaciones"
+  ],
+  "rel": [
+   "guarani-cae",
+   "soja-record"
+  ],
+  "pregunta": {
+   "q": "Si el BCP hubiera querido frenar la baja del dólar, ¿qué tendría que haber hecho?",
+   "opts": [
+    "Comprar dólares pagando con guaraníes",
+    "Vender dólares de sus reservas",
+    "Subir los aranceles",
+    "Bajar los impuestos"
+   ],
+   "ok": 0,
+   "fb": "Para que el dólar suba, el BCP compra dólares y paga con guaraníes. Eso aumenta la cantidad de guaraníes en circulación: por eso se advertía del riesgo de inflación."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Importadores y consumidores",
+     "Los productos importados cuestan menos."
+    ],
+    [
+     "Empresas que compran maquinaria",
+     "Invertir en bienes de capital importados es más barato."
+    ]
+   ],
+   "pierden": [
+    [
+     "Exportadores",
+     "Reciben menos guaraníes por cada dólar."
+    ],
+    [
+     "El Estado",
+     "Recauda menos impuestos de aduana."
+    ]
+   ],
+   "corto": "Importados más baratos que ayudan a mantener baja la inflación.",
+   "largo": "Una apreciación prolongada puede quitar competitividad a la producción nacional.",
+   "supuestos": [
+    "Que la apreciación responda a fundamentos (exportaciones, inversión) y no a flujos especulativos."
+   ],
+   "conclusion": "No intervenir respeta el tipo de cambio flotante y evita inflación, pero lo ocurrido en noviembre muestra cuán volátil puede ser un mercado cambiario pequeño."
+  },
+  "inst": [
+   "bcp"
+  ],
+  "sector": [
+   "comercio"
+  ]
+ },
+ {
   "id": "pepino-precio",
   "fecha": "2026-11-13",
   "medio": "ABC Color",
