@@ -1,10 +1,10 @@
 {
- "actualizado": "2026-11-20",
+ "actualizado": "2026-11-21",
  "indicadores": [
   {
    "n": "Tasa del BCP",
    "v": "5,50 %",
-   "s": "TPM · 23 oct",
+   "s": "TPM · 20 nov",
    "k": "tpm"
   },
   {
@@ -292,6 +292,16 @@
     "20 nov",
     "Proyecto para que el Estado administre por 8 meses las empresas del grupo Ueno.",
     "ueno-vinculadas"
+   ],
+   [
+    "20 nov",
+    "El BCP mantiene la tasa en 5,50 % y la AFD lanza créditos para mipymes.",
+    "tpm-noviembre"
+   ],
+   [
+    "20 nov",
+    "El dólar vuelve a G. 6.400 en casas de cambio.",
+    "dolar-6600"
    ]
   ],
   "lentes": [
@@ -310,6 +320,441 @@
   ]
  },
  "noticias": [
+  {
+   "id": "tpm-noviembre",
+   "fecha": "2026-11-20",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios/2026/11/20/cpm-mantiene-posicion-neutral-de-la-tasa-de-politica-monetaria-en-550/",
+   "mas": [
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios_edicion_impresa/2026/11/21/titular-del-bcp-se-prepara-para-dar-giro-en-politica-monetaria/",
+     "2026-11-21"
+    ]
+   ],
+   "titulo": "El BCP deja la tasa en 5,50 % y vigila el golpe de Ueno",
+   "unidad": "macro",
+   "tema": "3.5",
+   "kc": "intervencion",
+   "inst": [
+    "bcp"
+   ],
+   "mundo": [
+    "petroleo",
+    "eeuu"
+   ],
+   "resumen": "En su primera reunión tras la caída de Ueno, el Comité de Política Monetaria del BCP mantuvo la tasa en 5,50 %, una postura que llama neutral. Según La Nación, el comité destacó que la economía creció 3,9 % en septiembre (5,5 % acumulado) y que la inflación está cerca del piso del rango de tolerancia, mientras las expectativas siguen en la meta de 3,5 %. El 21 de noviembre, La Nación informó que el presidente del BCP, Jorge Schreiner, dijo a Bloomberg que pidió al FMI comparar el sistema de metas de inflación con uno que también controle los agregados monetarios.",
+   "contexto": "La tasa de política monetaria es el principal instrumento del BCP: si la sube, encarece el crédito y frena la demanda; si la baja, la estimula. Con la inflación baja, el BCP podría bajarla, pero la crisis de Ueno, la suba del dólar y la posibilidad de tasas más altas en Estados Unidos aconsejan prudencia. Según el comunicado, el petróleo Brent bajó a unos US$ 92 por barril y también cayeron la soja, el maíz y el trigo, lo que reduce la presión sobre los precios. El cambio que estudia Schreiner sería importante: hoy el BCP fija la tasa para llevar la inflación a la meta, y él cree que el mercado financiero paraguayo todavía no está lo bastante desarrollado; tendría una propuesta en unos seis meses.",
+   "datos": [
+    [
+     "5,50 %",
+     "Tasa de política monetaria (sin cambios)"
+    ],
+    [
+     "3,5 %",
+     "Meta de inflación y expectativas a 12 meses"
+    ],
+    [
+     "3,9 %",
+     "Crecimiento del IMAEP en septiembre (interanual)"
+    ],
+    [
+     "5,5 %",
+     "Crecimiento acumulado del IMAEP en el año"
+    ],
+    [
+     "2,5 %",
+     "Crecimiento de las ventas (ECN) en septiembre"
+    ],
+    [
+     "≈US$ 92",
+     "Precio del petróleo Brent por barril"
+    ],
+    [
+     "6 meses",
+     "Plazo en que Schreiner espera definir un posible cambio de esquema"
+    ]
+   ],
+   "clave": [
+    "5,50 %",
+    "la tasa del BCP sigue igual"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Tasa del BCP",
+      5.5,
+      1
+     ],
+     [
+      "Meta de inflación",
+      3.5
+     ],
+     [
+      "Inflación anual (oct)",
+      1.7
+     ],
+     [
+      "IMAEP septiembre",
+      3.9
+     ]
+    ]
+   },
+   "cap": "La tasa del BCP (5,50 %) frente a la meta de inflación, la inflación anual de octubre y el crecimiento de septiembre.",
+   "pasos": [
+    "La inflación está baja y la economía crecía bien hasta septiembre",
+    "Ueno, el dólar y las tasas de EE.UU. agregan incertidumbre",
+    "El BCP prefiere no mover la tasa: postura neutral",
+    "El costo del crédito no cambia por decisión del BCP",
+    "El BCP espera ver cuánto frena Ueno a la demanda antes de actuar"
+   ],
+   "conceptos": [
+    [
+     "Tasa de política monetaria",
+     "Tasa de interés que fija el banco central para influir en el crédito, la demanda y la inflación."
+    ],
+    [
+     "Postura neutral",
+     "Una tasa que ni estimula ni frena la economía."
+    ],
+    [
+     "Metas de inflación",
+     "Esquema en el que el banco central ajusta la tasa para llevar la inflación a un objetivo (3,5 % en Paraguay)."
+    ],
+    [
+     "Agregados monetarios",
+     "Medidas de la cantidad de dinero en la economía, como el efectivo y los depósitos."
+    ]
+   ],
+   "diagramas": [
+    "politica-monetaria",
+    "da-oa-da"
+   ],
+   "rel": [
+    "eve-noviembre",
+    "liquidez-tasas",
+    "imaep-setiembre"
+   ],
+   "pregunta": {
+    "q": "La inflación está cerca del piso del rango y la demanda se frena por Ueno. ¿Qué haría normalmente un banco central con metas de inflación?",
+    "opts": [
+     "Bajar la tasa para estimular la demanda",
+     "Subir la tasa para frenar la inflación",
+     "Fijar el tipo de cambio",
+     "Aumentar los impuestos"
+    ],
+    "ok": 0,
+    "fb": "Con inflación baja y una demanda que se debilita, la política monetaria expansiva (bajar la tasa) es lo habitual. El BCP prefirió esperar por la incertidumbre del dólar y de las tasas de EE.UU."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ahorristas en guaraníes",
+      "Mantienen el rendimiento de sus depósitos."
+     ],
+     [
+      "Estabilidad del guaraní",
+      "Una tasa sin bajar evita que el guaraní pierda atractivo frente al dólar."
+     ]
+    ],
+    "pierden": [
+     [
+      "Empresas y familias endeudadas",
+      "No reciben un alivio en el costo del crédito en plena crisis."
+     ],
+     [
+      "Mipymes afectadas por Ueno",
+      "Necesitan crédito barato para sostener sus ventas de fin de año."
+     ]
+    ],
+    "corto": "La tasa queda igual mientras el BCP mide el efecto de Ueno en el consumo y el dólar.",
+    "largo": "Si la demanda cae y la inflación sigue baja, el BCP tendría espacio para bajar la tasa; un cambio de esquema hacia agregados monetarios cambiaría cómo se decide la política monetaria.",
+    "supuestos": [
+     "Que las expectativas de inflación sigan en 3,5 %",
+     "Que el dólar no vuelva a dispararse"
+    ],
+    "conclusion": "Mantener la tasa es una decisión prudente ante la incertidumbre, pero tiene un costo: deja sin estímulo monetario a una economía que se está frenando."
+   }
+  },
+  {
+   "id": "maiz-exportaciones",
+   "fecha": "2026-11-20",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/exportacion-de-maiz-zafra-cae-37-por-mayor-demanda-interna",
+   "titulo": "Se exporta 37 % menos maíz porque se usa más dentro del país",
+   "unidad": "micro",
+   "tema": "2.1",
+   "kc": "eleccion",
+   "sector": [
+    "agro",
+    "industria"
+   ],
+   "mundo": [
+    "brasil"
+   ],
+   "resumen": "Según Capeco, de junio a octubre Paraguay exportó 1.446.906 toneladas de maíz de la zafra 2026, frente a 2.305.251 un año antes: 858.345 toneladas menos (−37 %). Entre enero y octubre se embarcaron 2,1 millones de toneladas, que generaron US$ 368 millones frente a US$ 468 millones del mismo periodo de 2025. Brasil compra el 70 % y Uruguay el 20 %.",
+   "contexto": "La caída no se explica por una mala cosecha, sino por una mayor demanda interna: según Capeco, cada vez más maíz se queda en el país para fabricar etanol y para alimentar cerdos y aves. Es una demanda derivada: el maíz se compra porque crecen los mercados del biocombustible y de la carne. Si sube la demanda interna, sube el precio local y queda menos para exportar. Capeco señala además márgenes ajustados y demoras en el Puente de la Amistad. El cambio agrega valor dentro del país, pero reduce los dólares que entran por este grano.",
+   "datos": [
+    [
+     "1.446.906 t",
+     "Maíz zafra exportado de junio a octubre de 2026"
+    ],
+    [
+     "−37 %",
+     "Caída frente a la zafra 2025 (2.305.251 t)"
+    ],
+    [
+     "2,1 M t",
+     "Maíz exportado de enero a octubre"
+    ],
+    [
+     "US$ 368 M",
+     "Divisas por maíz a octubre (US$ 468 M en 2025)"
+    ],
+    [
+     "70 %",
+     "Parte de los envíos que compra Brasil"
+    ],
+    [
+     "20 %",
+     "Parte que compra Uruguay"
+    ],
+    [
+     "68",
+     "Empresas que exportaron maíz zafra"
+    ]
+   ],
+   "clave": [
+    "−37 %",
+    "menos maíz exportado"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "En el mercado interno del maíz, más demanda de las plantas de etanol y de la ganadería mueve D₁ a D₂: sube el precio y queda menos maíz para exportar.",
+   "pasos": [
+    "Crecen las plantas de etanol y la producción de cerdos y aves",
+    "Aumenta la demanda interna de maíz (demanda derivada)",
+    "La curva de demanda se desplaza a la derecha y sube el precio local",
+    "Vender en el país conviene más: queda menos saldo exportable",
+    "Las exportaciones de maíz caen 37 % y entran menos dólares"
+   ],
+   "conceptos": [
+    [
+     "Demanda derivada",
+     "Demanda de un insumo que depende de la demanda del bien que se produce con él."
+    ],
+    [
+     "Desplazamiento de la demanda",
+     "Cambio de toda la curva por un factor distinto del precio, como nuevos usos del producto."
+    ],
+    [
+     "Saldo exportable",
+     "Lo que queda de la producción después de cubrir el consumo interno."
+    ],
+    [
+     "Valor agregado",
+     "Valor que se suma al transformar una materia prima en un producto más elaborado."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda",
+    "exportaciones"
+   ],
+   "rel": [
+    "soja-record",
+    "pollo-exportaciones",
+    "comercio-octubre"
+   ],
+   "pregunta": {
+    "q": "Las plantas de etanol compran más maíz. ¿Qué pasa en el mercado interno del maíz?",
+    "opts": [
+     "La demanda se desplaza a la derecha: sube el precio y la cantidad",
+     "La oferta se desplaza a la izquierda: baja la cantidad",
+     "La demanda se desplaza a la izquierda: baja el precio",
+     "Nada, porque el precio lo fija Brasil"
+    ],
+    "ok": 0,
+    "fb": "Un nuevo uso del maíz aumenta su demanda a cada precio: la curva D se mueve a la derecha, sube el precio y se vende más en el país, así que queda menos para exportar."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Productores de etanol, cerdos y aves",
+      "Tienen maíz local cerca, sin costos de exportar."
+     ],
+     [
+      "Productores de maíz",
+      "Tienen más compradores dentro del país."
+     ]
+    ],
+    "pierden": [
+     [
+      "Exportadoras de granos",
+      "Embarcan menos maíz y facturan menos."
+     ],
+     [
+      "Ingreso de divisas",
+      "Entran US$ 100 millones menos por maíz que en 2025."
+     ]
+    ],
+    "corto": "Menos exportaciones de maíz, pero más producción de etanol y carnes en el país.",
+    "largo": "Si se exportan productos elaborados (carne, etanol) en lugar de grano, el país puede ganar más valor agregado y diversificar sus exportaciones.",
+    "supuestos": [
+     "Que la caída se deba a la demanda interna, como dice Capeco, y no solo a los precios o a las demoras en el puente"
+    ],
+    "conclusion": "Exportar menos grano no es necesariamente malo: si el maíz se transforma en etanol y carne, se crea más valor dentro del país, aunque por ahora entran menos dólares."
+   }
+  },
+  {
+   "id": "bancos-felaban",
+   "fecha": "2026-11-21",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/21/paraguay-mostraba-una-rentabilidad-bancaria-superior-a-promedio-regional/",
+   "titulo": "Antes de Ueno, los bancos paraguayos ganaban más que el promedio, pero con menos colchón",
+   "unidad": "micro",
+   "tema": "2.10",
+   "kc": "intervencion",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "Según un informe de la Federación Latinoamericana de Bancos (FELABAN) con datos de junio de 2026, citado por ABC Color, los bancos de Paraguay tenían una rentabilidad sobre activos de 1,9 % (región: 1,63 %) y una morosidad de 2,7 % (región: 2,82 %). Pero sus previsiones cubrían solo el 109 % de la cartera vencida, frente al 163 % del promedio regional. Los activos bancarios llegaron a US$ 45.014 millones, 12,4 % más que en diciembre de 2025.",
+   "contexto": "Los datos son anteriores a la resolución de Ueno, por eso sirven para ver cómo estaba el sistema antes de la crisis. El análisis, elaborado por MF Economía para ABC, muestra que un sistema puede tener buenos promedios y, al mismo tiempo, un banco con graves problemas: los promedios esconden la situación de cada entidad. Es un caso de información asimétrica: los depositantes no pueden ver la calidad de los préstamos de un banco, por eso hacen falta un supervisor fuerte e información individual. La cobertura más baja que la de los vecinos indica menos capacidad de absorber pérdidas, aunque el informe aclara que las reglas para medirla cambian entre países.",
+   "datos": [
+    [
+     "1,9 %",
+     "Rentabilidad sobre activos (ROA) de Paraguay; región 1,63 %"
+    ],
+    [
+     "16,1 %",
+     "Rentabilidad sobre patrimonio (ROE); región 15,9 %"
+    ],
+    [
+     "2,7 %",
+     "Morosidad bancaria; región 2,82 %"
+    ],
+    [
+     "109 %",
+     "Cobertura de la cartera vencida con previsiones; región 163 %"
+    ],
+    [
+     "US$ 45.014 M",
+     "Activos bancarios de Paraguay (junio 2026)"
+    ],
+    [
+     "US$ 434 M",
+     "Ganancia de los bancos en el primer semestre"
+    ]
+   ],
+   "clave": [
+    "109 %",
+    "de cobertura, frente a 163 % en la región"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Paraguay",
+      109,
+      1
+     ],
+     [
+      "Promedio regional",
+      163
+     ],
+     [
+      "Brasil",
+      170
+     ],
+     [
+      "Perú",
+      183
+     ],
+     [
+      "Uruguay",
+      224
+     ]
+    ]
+   },
+   "cap": "Cobertura de la cartera vencida con previsiones (junio de 2026, FELABAN): Paraguay tenía el colchón más bajo de la comparación.",
+   "pasos": [
+    "Los bancos prestan los depósitos y algunos préstamos no se pagan",
+    "Las previsiones son el colchón para cubrir esas pérdidas",
+    "En Paraguay ese colchón era menor que en la región",
+    "Los depositantes no ven la calidad de cada banco (información asimétrica)",
+    "Si un banco oculta problemas, la crisis aparece de golpe, como con Ueno"
+   ],
+   "conceptos": [
+    [
+     "Información asimétrica",
+     "Cuando una parte sabe más que la otra; aquí, el banco sabe más que sus depositantes."
+    ],
+    [
+     "Morosidad",
+     "Parte de los préstamos que no se pagan a tiempo."
+    ],
+    [
+     "Previsiones",
+     "Dinero que un banco reserva para cubrir préstamos que tal vez no cobre."
+    ],
+    [
+     "Rentabilidad sobre activos (ROA)",
+     "Ganancia del banco dividida por todo lo que tiene."
+    ]
+   ],
+   "diagramas": [
+    "politica-monetaria"
+   ],
+   "rel": [
+    "ueno-morosidad",
+    "asoban-regulacion",
+    "ueno-deficit"
+   ],
+   "pregunta": {
+    "q": "¿Por qué los promedios buenos del sistema bancario no evitaron la crisis de Ueno?",
+    "opts": [
+     "Porque un promedio puede esconder los problemas de un solo banco",
+     "Porque la morosidad de Paraguay era la más alta de la región",
+     "Porque los bancos paraguayos no ganaban dinero",
+     "Porque el BCP no publica datos"
+    ],
+    "ok": 0,
+    "fb": "Los promedios mezclan a todos los bancos. Un banco con graves problemas puede pasar desapercibido si los demás están bien: por eso importa la información de cada entidad."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Bancos bien capitalizados",
+      "Pueden mostrar sus números y ganar la confianza de los depositantes."
+     ],
+     [
+      "Supervisión bancaria",
+      "El informe da argumentos para pedir más previsiones y más información por entidad."
+     ]
+    ],
+    "pierden": [
+     [
+      "Depositantes",
+      "No pueden ver los riesgos de cada banco y dependen del supervisor."
+     ],
+     [
+      "Bancos con poco colchón",
+      "Podrían tener que reservar más dinero y ganar menos."
+     ]
+    ],
+    "corto": "Las cifras del sistema van a cambiar cuando se cuenten las pérdidas de Ueno.",
+    "largo": "Más previsiones y más transparencia harían al sistema más seguro, aunque los bancos ganarían algo menos y el crédito podría encarecerse.",
+    "supuestos": [
+     "Que las reglas de previsiones sean comparables entre países: el informe advierte que no siempre lo son"
+    ],
+    "conclusion": "Paraguay tenía bancos rentables y con baja morosidad, pero con un colchón menor que sus vecinos; la crisis de Ueno muestra que hace falta mirar a cada banco y no solo los promedios."
+   }
+  },
   {
    "id": "ueno-vinculadas",
    "fecha": "2026-11-20",
@@ -523,7 +968,6 @@
     "oferta-demanda"
    ],
    "rel": [
-    "carne-cae",
     "frigorifico-concepcion-bonos"
    ],
    "pregunta": {
@@ -669,7 +1113,6 @@
    ],
    "rel": [
     "conacom-frigorificos",
-    "carne-cae",
     "bolsa-ueno-bonos"
    ],
    "pregunta": {
@@ -1846,8 +2289,7 @@
     "bonos"
    ],
    "rel": [
-    "liquidez-tasas",
-    "bolsa-octubre"
+    "liquidez-tasas"
    ],
    "pregunta": {
     "q": "¿Cómo se clasifica la compra de Cadiem por Balanz en la balanza de pagos?",
@@ -2102,7 +2544,6 @@
     "politicas-oferta"
    ],
    "rel": [
-    "energia-cedida",
     "itaipu-tarifa-2027"
    ],
    "pregunta": {
@@ -2208,8 +2649,7 @@
     "exportaciones"
    ],
    "rel": [
-    "soja-record",
-    "energia-cedida"
+    "soja-record"
    ],
    "pregunta": {
     "q": "Si El Niño trae más lluvias y mejora la cosecha de soja, ¿qué pasa en el mercado?",
@@ -2633,7 +3073,6 @@
     "oferta-demanda"
    ],
    "rel": [
-    "carne-cae",
     "soja-record",
     "mercosur-ue"
    ],
@@ -2770,7 +3209,6 @@
    ],
    "rel": [
     "soja-record",
-    "carne-cae",
     "pollo-exportaciones"
    ],
    "pregunta": {
@@ -3502,8 +3940,7 @@
    "rel": [
     "soja-record",
     "remesas-2026",
-    "guarani-cae",
-    "carne-cae"
+    "guarani-cae"
    ],
    "pregunta": {
     "q": "Si las exportaciones crecen 25 % y las importaciones 14,5 %, ¿qué pasa con la demanda de guaraníes en el mercado de divisas?",
@@ -4951,7 +5388,6 @@
    ],
    "rel": [
     "itaipu-opinion",
-    "energia-cedida",
     "ande-tarifa",
     "ande-ueno",
     "ueno-deficit"
@@ -5137,7 +5573,6 @@
    ],
    "rel": [
     "ande-tarifa",
-    "energia-cedida",
     "ueno-intervencion",
     "itaipu-opinion"
    ],
@@ -5217,6 +5652,11 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/20/ueno-bank-caida-de-ventas-golpea-al-mercadito-de-asuncion/",
      "2026-11-20"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/sector-gastronomico-sufre-caida-del-30-en-ventas-en-octubre",
+     "2026-11-20"
     ]
    ],
    "titulo": "La crisis de Ueno frena el consumo: multitiendas venden hasta 70 % menos",
@@ -5226,9 +5666,13 @@
    "sector": [
     "comercio"
    ],
-   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo. El 13 de noviembre, Asimcopar informó que sus ventas siguen 30 % abajo y que el efectivo pasó a ser el 70 % de los pagos; antes de la crisis cerca del 80 % de las compras se hacían con medios digitales (Última Hora). El 18 de noviembre, el presidente de Asimcopar, Eugenio Caje, dijo a La Nación que las ventas siguen entre 30 % y 40 % abajo, que 8 de cada 10 pagos se hacen en efectivo y que solo llega el 10 % de los unos 100 contenedores semanales habituales; el gremio pidió al MIC un préstamo puente. El 20 de noviembre, ABC Color describió el Mercadito de Asunción casi vacío: muchos clientes pagaban con tarjetas o transferencias de Ueno, ahora pagan en efectivo y el efectivo escasea; los vendedores dicen que no pueden bajar precios y tratan de no subirlos.",
+   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo. El 13 de noviembre, Asimcopar informó que sus ventas siguen 30 % abajo y que el efectivo pasó a ser el 70 % de los pagos; antes de la crisis cerca del 80 % de las compras se hacían con medios digitales (Última Hora). El 18 de noviembre, el presidente de Asimcopar, Eugenio Caje, dijo a La Nación que las ventas siguen entre 30 % y 40 % abajo, que 8 de cada 10 pagos se hacen en efectivo y que solo llega el 10 % de los unos 100 contenedores semanales habituales; el gremio pidió al MIC un préstamo puente. El 20 de noviembre, ABC Color describió el Mercadito de Asunción casi vacío: muchos clientes pagaban con tarjetas o transferencias de Ueno, ahora pagan en efectivo y el efectivo escasea; los vendedores dicen que no pueden bajar precios y tratan de no subirlos. Según Última Hora, el presidente de la Asociación de Restaurantes (Arpy), Oliver Gayet, estima que la gastronomía facturó 30 % menos en octubre que un año antes (20 % menos en septiembre) y que los primeros días de noviembre fueron peores, sobre todo en delivery.",
    "contexto": "El consumo es el componente más grande de la demanda agregada. Cuando miles de familias no pueden usar sus ahorros por unos días y crece la incertidumbre, gastan menos y la DA se mueve a la izquierda. Según Capasu, las ventas empezaron a normalizarse a medida que el Fondo de Garantía de Depósitos devolvió el dinero a los pequeños ahorristas, pero el riesgo ahora es el desempleo: hasta octubre los supermercados crecían entre 8 % y 10 %, y en diciembre suelen vender entre 15 % y 20 % más que otros meses por el aguinaldo. Asimcopar advierte además que muchos comercios perdieron capital para reponer mercadería, y que la mitad de lo que venden las multitiendas lo producen mipymes nacionales.",
    "datos": [
+    [
+     "−30 %",
+     "Caída de la facturación de la gastronomía en octubre (Arpy)"
+    ],
     [
      "−30 a −40 %",
      "Caída de ventas de los socios de Asimcopar (18 nov)"
@@ -5717,8 +6161,7 @@
    "rel": [
     "ande-ueno",
     "itaipu-tarifa-2027",
-    "itaipu-opinion",
-    "energia-cedida"
+    "itaipu-opinion"
    ],
    "pregunta": {
     "q": "Si el Estado fija la tarifa de la ANDE por debajo de su costo medio durante mucho tiempo, ¿qué es lo más probable?",
@@ -6230,8 +6673,7 @@
    ],
    "rel": [
     "ueno-intervencion",
-    "ueno-devolucion",
-    "bolsa-octubre"
+    "ueno-devolucion"
    ],
    "pregunta": {
     "q": "¿Por qué el regulador suspendió la negociación de los bonos de Ueno?",
@@ -6275,126 +6717,6 @@
      "2026-11-06"
     ]
    ]
-  },
-  {
-   "id": "bolsa-octubre",
-   "fecha": "2026-11-02",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.py/negocios/2026/11/02/bolsa-de-valores-supero-monto-negociado-en-2025-por-efecto-del-tipo-de-cambio/",
-   "titulo": "La bolsa supera en dólares lo negociado en 2025, pero cae 4 % en guaraníes",
-   "unidad": "global",
-   "tema": "4.5",
-   "kc": "cambio",
-   "inst": [
-    "bolsa"
-   ],
-   "resumen": "De enero a octubre se negociaron G. 47,9 billones en la Bolsa de Valores de Asunción: unos US$ 8.113 millones al cambio actual, más que todo 2025 (US$ 8.063 millones). En guaraníes, sin embargo, el volumen es 4 % menor que en el mismo periodo de 2025.",
-   "contexto": "La diferencia se explica por el tipo de cambio: durante 2026 el guaraní se apreció, así que la misma cantidad de guaraníes equivale a más dólares. Es un buen ejemplo de por qué hay que mirar en qué moneda se mide una cifra antes de compararla. Solo en octubre se negociaron G. 4,76 billones, 24,1 % menos que en octubre de 2025. Los bonos son el 93,7 % del volumen, las acciones el 5,5 % y los fondos el 0,8 %.",
-   "datos": [
-    [
-     "G. 47,9 bill.",
-     "Negociado de enero a octubre de 2026"
-    ],
-    [
-     "−4 %",
-     "Frente a enero-octubre de 2025, en guaraníes"
-    ],
-    [
-     "US$ 8.113 M",
-     "El mismo volumen en dólares, al cambio actual"
-    ],
-    [
-     "−24,1 %",
-     "Octubre frente a octubre de 2025"
-    ],
-    [
-     "93,7 %",
-     "Parte de los bonos en el volumen"
-    ]
-   ],
-   "clave": [
-    "−4 %",
-    "en guaraníes"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "billones de G.",
-    "rows": [
-     [
-      "Ene-oct 2025",
-      49.8
-     ],
-     [
-      "Ene-oct 2026",
-      47.9,
-      1
-     ]
-    ]
-   },
-   "cap": "Volumen negociado en la bolsa de enero a octubre, en billones de guaraníes.",
-   "pasos": [
-    "El guaraní se aprecia frente al dólar",
-    "Cada guaraní equivale a más dólares",
-    "El mismo volumen en guaraníes se ve más grande en dólares",
-    "En guaraníes el mercado cayó 4 %",
-    "Conclusión: hay que comparar en la misma moneda"
-   ],
-   "conceptos": [
-    [
-     "Apreciación",
-     "Suba del valor del guaraní frente al dólar."
-    ],
-    [
-     "Volumen negociado",
-     "Valor total de los títulos comprados y vendidos en un periodo."
-    ],
-    [
-     "Mercado secundario",
-     "Reventa de títulos entre inversores (91,2 % del volumen)."
-    ],
-    [
-     "Bono",
-     "Préstamo que el inversor da a una empresa o al Estado a cambio de intereses."
-    ]
-   ],
-   "diagramas": [
-    "tipo-cambio",
-    "bonos"
-   ],
-   "rel": [
-    "bolsa-ueno-bonos"
-   ],
-   "pregunta": {
-    "q": "El volumen bajó 4 % en guaraníes pero subió en dólares. ¿Por qué?",
-    "opts": [
-     "Porque el guaraní se apreció: cada guaraní vale más dólares",
-     "Porque se negociaron más títulos",
-     "Porque subió la inflación",
-     "Porque bajó la tasa del BCP"
-    ],
-    "ok": 0,
-    "fb": "Con un guaraní más fuerte, la misma cantidad de guaraníes se convierte en más dólares. El crecimiento en dólares es un efecto del tipo de cambio."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Quienes miden en dólares",
-      "Ven un mercado más grande que en 2025."
-     ]
-    ],
-    "pierden": [
-     [
-      "Casas de bolsa",
-      "El volumen real en guaraníes bajó, y en octubre cayó fuerte."
-     ]
-    ],
-    "corto": "Octubre fue débil y noviembre arranca con la crisis de Ueno y la depreciación del guaraní.",
-    "largo": "Con la depreciación de noviembre, el efecto se invierte: el mismo volumen en guaraníes valdrá menos dólares.",
-    "supuestos": [
-     "Que se compare usando el mismo tipo de cambio."
-    ],
-    "conclusion": "El récord en dólares es en parte un efecto del tipo de cambio: en guaraníes el mercado se achicó un poco."
-   }
   },
   {
    "id": "ueno-devolucion",
@@ -6679,16 +7001,28 @@
   },
   {
    "id": "dolar-6600",
-   "fecha": "2026-11-16",
+   "fecha": "2026-11-20",
    "medio": "La Tribuna",
    "url": "https://www.latribuna.com.py/negocios/economia/2026/11/08/dolar-a-gs-6600-la-crisis-obliga-a-revisar-las-previsiones/",
-   "titulo": "El dólar saltó a G. 6.600 y se calma en G. 6.150, pero sigue volátil",
+   "titulo": "El dólar saltó a G. 6.600, bajó a G. 6.150 y vuelve a G. 6.400",
    "unidad": "global",
    "tema": "4.5",
    "kc": "cambio",
-   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre. El martes 10, según RDN, la venta bajó a G. 6.200 en algunas casas de cambio; el sector lo atribuye al pago de depósitos de Ueno, aunque los importadores siguen comprando dólares para las ventas de fin de año. El viernes 13, según Última Hora, la mayoría de las casas de cambio de Asunción vendía a G. 6.150 y compraba a G. 5.900; en el mercado bancario el dólar oscilaba entre G. 6.200 y G. 6.250. Según Última Hora, el dólar cerró la semana en G. 6.150 en el mercado minorista, 450 puntos menos que el pico; antes de la crisis, el 2 de noviembre, estaba en G. 5.950. El presidente de la Asociación de Casas de Cambio, Emil Mendoza, prevé una leve suba hasta fin de año. El lunes 16, según ABC Color, el dólar repuntó levemente: G. 6.241 en el interbancario y por debajo de G. 6.200 en el mercado minorista; frente a hace un año (unos G. 7.060), el guaraní sigue 12 % más fuerte. El riesgo país se mantiene entre 131 y 134 puntos básicos.",
-   "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. El economista Aníbal Insfrán explicó a ABC Color que no faltan dólares: lo que subió fue la demanda, porque personas y empresas buscaron una moneda más segura. Según ABC, la calma del lunes llegó con el pago a los ahorristas y la resolución de la crisis política, aunque los importadores siguen comprando dólares para las ventas de fin de año. Un dólar más caro encarece las deudas en dólares y los productos importados; Insfrán sugiere además revisar el dólar de G. 6.458 que usa el Presupuesto 2027. Según La Nación (10 nov), la Cámara de Supermercados descartó subas inmediatas de precios porque gran parte de la mercadería para las fiestas se compró con un dólar más bajo. Emil Mendoza, presidente de la Asociación de Casas de Cambio, dijo a Última Hora que el ingreso de dólares del exterior a cada casa de cambio bajó de US$ 200.000-500.000 por día a US$ 20.000-30.000, porque inversores extranjeros retiran fondos de la bolsa: menos oferta de dólares sostiene su precio, y él prevé una leve suba hasta fin de año salvo que vuelva la confianza.",
+   "resumen": "El viernes 6 de noviembre la tabla de la DNIT registró el dólar a G. 6.507,73 y Bloomberg midió una suba semanal de 9,03 %. El lunes 9, según ABC Color, el promedio de las casas de cambio bajó de G. 6.600 a G. 6.300 y el interbancario del BCP cerró en G. 6.226; en lo que va de noviembre el dólar sube 5,8 %. En octubre, los analistas encuestados por el BCP esperaban G. 5.850 para noviembre. El martes 10, según RDN, la venta bajó a G. 6.200 en algunas casas de cambio; el sector lo atribuye al pago de depósitos de Ueno, aunque los importadores siguen comprando dólares para las ventas de fin de año. El viernes 13, según Última Hora, la mayoría de las casas de cambio de Asunción vendía a G. 6.150 y compraba a G. 5.900; en el mercado bancario el dólar oscilaba entre G. 6.200 y G. 6.250. Según Última Hora, el dólar cerró la semana en G. 6.150 en el mercado minorista, 450 puntos menos que el pico; antes de la crisis, el 2 de noviembre, estaba en G. 5.950. El presidente de la Asociación de Casas de Cambio, Emil Mendoza, prevé una leve suba hasta fin de año. El lunes 16, según ABC Color, el dólar repuntó levemente: G. 6.241 en el interbancario y por debajo de G. 6.200 en el mercado minorista; frente a hace un año (unos G. 7.060), el guaraní sigue 12 % más fuerte. El riesgo país se mantiene entre 131 y 134 puntos básicos. El viernes 20, según Última Hora, el dólar retomó la suba y cerró la semana entre G. 6.350 y G. 6.400 en algunas casas de cambio; antes de la crisis estaba por debajo de G. 5.800.",
+   "contexto": "Las expectativas se forman con la información disponible; una crisis inesperada las deja atrás en días. El economista Aníbal Insfrán explicó a ABC Color que no faltan dólares: lo que subió fue la demanda, porque personas y empresas buscaron una moneda más segura. Según ABC, la calma del lunes llegó con el pago a los ahorristas y la resolución de la crisis política, aunque los importadores siguen comprando dólares para las ventas de fin de año. Un dólar más caro encarece las deudas en dólares y los productos importados; Insfrán sugiere además revisar el dólar de G. 6.458 que usa el Presupuesto 2027. Según La Nación (10 nov), la Cámara de Supermercados descartó subas inmediatas de precios porque gran parte de la mercadería para las fiestas se compró con un dólar más bajo. Emil Mendoza, presidente de la Asociación de Casas de Cambio, dijo a Última Hora que el ingreso de dólares del exterior a cada casa de cambio bajó de US$ 200.000-500.000 por día a US$ 20.000-30.000, porque inversores extranjeros retiran fondos de la bolsa: menos oferta de dólares sostiene su precio, y él prevé una leve suba hasta fin de año salvo que vuelva la confianza. Gustavo Cohener, gerente de Estadísticas Económicas del BCP, explicó a Última Hora que ante un choque la gente se refugia en el dólar; el BCP no busca fijar la cotización, pero sí evitar movimientos bruscos.",
    "datos": [
+    [
+     "G. 6.350–6.400",
+     "Venta en algunas casas de cambio (20 nov)"
+    ],
+    [
+     "G. 6.255",
+     "Dólar esperado para diciembre (encuesta del BCP)"
+    ],
+    [
+     "G. 6.500",
+     "Dólar esperado para fines de 2027"
+    ],
     [
      "G. 6.241",
      "Dólar interbancario (16 nov)"
@@ -6747,8 +7081,8 @@
     ]
    ],
    "clave": [
-    "G. 6.300",
-    "tras tocar G. 6.600"
+    "G. 6.400",
+    "tras bajar a G. 6.150"
    ],
    "fig": {
     "k": "barras",
@@ -6808,7 +7142,8 @@
     "da-oa-oacp"
    ],
    "rel": [
-    "guarani-cae"
+    "guarani-cae",
+    "tpm-noviembre"
    ],
    "pregunta": {
     "q": "Una familia paga una cuota de US$ 1.000. El dólar pasa de G. 6.000 a G. 6.600. ¿Cuánto más paga en guaraníes?",
@@ -6898,6 +7233,11 @@
      "ABC Color",
      "https://www.abc.com.py/negocios/2026/11/16/leve-repunte-del-dolar-en-el-arranque-de-la-semana/",
      "2026-11-16"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/dolar-retoma-el-alza-y-cierra-la-semana-en-g-6-400",
+     "2026-11-20"
     ]
    ]
   },
@@ -7024,136 +7364,6 @@
    ],
    "sector": [
     "comercio"
-   ]
-  },
-  {
-   "id": "energia-cedida",
-   "fecha": "2026-11-01",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/01/cedimos-32-de-nuestra-energia/",
-   "mas": [
-    [
-     "ABC Color",
-     "https://www.abc.com.py/economia/2026/10/19/paraguay-podria-comprar-energia-a-brasil-y-argentina-desde-2030/",
-     "2026-10-19"
-    ]
-   ],
-   "titulo": "Paraguay cedió el 32 % de su energía de Itaipú y Yacyretá",
-   "unidad": "global",
-   "tema": "4.7",
-   "kc": "sostenibilidad",
-   "resumen": "Entre enero y septiembre, Paraguay usó el 68 % de su parte de la energía de las binacionales (74 % de Itaipú y 40 % de Yacyretá) y cedió el 32 % restante a sus socios. Un informe técnico del IPPSE advierte que hacia 2030 el país podría consumir el 100 % y necesitar importar energía.",
-   "contexto": "La energía hidroeléctrica es renovable y barata, pero la demanda local crece rápido: la ANDE retiró en septiembre 9 % más energía que un año antes. Hoy sobra, y la parte que no se usa se cede. Según el IPPSE, entre 2028 y 2030 el país podría quedarse corto y tendría que comprar energía a Brasil o Argentina. Es una decisión de escasez y costo de oportunidad: usar más energía en casa significa ceder menos, y no invertir a tiempo puede encarecer el futuro.",
-   "datos": [
-    [
-     "68 %",
-     "Parte paraguaya usada en el país (ene-sep)"
-    ],
-    [
-     "32 %",
-     "Energía cedida a los socios"
-    ],
-    [
-     "74 % / 40 %",
-     "Uso de Itaipú / Yacyretá"
-    ],
-    [
-     "2030",
-     "Año en que Paraguay podría usar el 100 %"
-    ]
-   ],
-   "clave": [
-    "32 %",
-    "de la energía cedida"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "% de la parte paraguaya usada",
-    "rows": [
-     [
-      "Itaipú",
-      74
-     ],
-     [
-      "Yacyretá",
-      40
-     ],
-     [
-      "Total",
-      68,
-      1
-     ]
-    ]
-   },
-   "cap": "Porcentaje de la energía que corresponde a Paraguay en cada binacional y que el país consumió entre enero y septiembre de 2026.",
-   "pasos": [
-    "Crece la demanda de electricidad en Paraguay",
-    "El país usa una parte mayor de su energía",
-    "Se cede menos energía a los socios",
-    "Hacia 2030 la energía disponible podría no alcanzar",
-    "Hace falta invertir o importar energía: costo de oportunidad"
-   ],
-   "conceptos": [
-    [
-     "Escasez",
-     "Recursos limitados frente a necesidades crecientes."
-    ],
-    [
-     "Costo de oportunidad",
-     "Lo que se deja de ganar al elegir un uso del recurso."
-    ],
-    [
-     "Energía renovable",
-     "Se regenera naturalmente, como la hidroeléctrica."
-    ],
-    [
-     "Sostenibilidad",
-     "Satisfacer las necesidades de hoy sin comprometer las futuras."
-    ]
-   ],
-   "diagramas": [
-    "oferta-demanda"
-   ],
-   "rel": [
-    "itaipu-opinion"
-   ],
-   "pregunta": {
-    "q": "Si la demanda de electricidad sigue creciendo y la oferta no cambia, ¿qué pasa con el excedente que Paraguay cede?",
-    "opts": [
-     "Se reduce, hasta que el país consuma toda su parte",
-     "Aumenta",
-     "No cambia",
-     "Se vuelve infinito"
-    ],
-    "ok": 0,
-    "fb": "Con oferta fija y más demanda interna, queda menos energía sin usar: el excedente cedido se achica hasta desaparecer."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Consumidores e industrias",
-      "Usan energía barata y renovable."
-     ],
-     [
-      "Brasil y Argentina",
-      "Reciben la energía que Paraguay cede."
-     ]
-    ],
-    "pierden": [
-     [
-      "El futuro",
-      "Si no se invierte a tiempo, puede faltar energía hacia 2028-2030."
-     ]
-    ],
-    "corto": "El excedente de energía se achica.",
-    "largo": "Podría ser necesario importar energía hacia 2030 e invertir en líneas de transmisión.",
-    "supuestos": [
-     "Son proyecciones del IPPSE: dependen de cuánto crezca la demanda y de los caudales de los ríos."
-    ],
-    "conclusion": "La escasez futura es un problema de planificación: invertir a tiempo es más barato que importar en emergencia."
-   },
-   "sector": [
-    "energia"
    ]
   },
   {
@@ -7764,9 +7974,7 @@
     "tipo-cambio",
     "da-oa-da"
    ],
-   "rel": [
-    "carne-cae"
-   ],
+   "rel": [],
    "pregunta": {
     "q": "El 86 % de la soja va a Argentina. ¿Qué riesgo implica?",
     "opts": [
@@ -7801,120 +8009,6 @@
      "Que se mantengan los precios internacionales y el buen clima."
     ],
     "conclusion": "El récord impulsa el crecimiento, pero diversificar productos y mercados reduciría el riesgo."
-   },
-   "sector": [
-    "agro",
-    "comercio"
-   ]
-  },
-  {
-   "id": "carne-cae",
-   "fecha": "2026-11-02",
-   "medio": "La Prensa",
-   "url": "https://www.laprensaparaguay.com/2026/11/02/exportaciones-avicolas-registran-un-crecimiento-del-76-en-ingresos-hasta-octubre/",
-   "titulo": "Carne bovina: se exporta 24 % menos, aunque a mejor precio",
-   "unidad": "micro",
-   "tema": "2.5",
-   "kc": "cambio",
-   "resumen": "Con datos de Senacsa, entre enero y octubre el volumen de carne bovina exportada bajó de 305 a 231 millones de kilos. El precio por kilo subió de US$ 5,85 a US$ 7,12, pero los ingresos cayeron de US$ 1.787 a 1.645 millones.",
-   "contexto": "Este caso permite estimar una elasticidad con datos reales. El precio subió 21,7 % y la cantidad bajó 24,3 %: la cantidad respondió más que el precio, y por eso el ingreso total cayó. Es una aproximación, porque en un año cambian otras cosas además del precio. En cambio, las exportaciones de pollo crecieron 76 % en ingresos. Los principales compradores de carne bovina fueron Chile, Estados Unidos, Israel y Taiwán.",
-   "datos": [
-    [
-     "−24,3 %",
-     "Volumen exportado (305 → 231 M kg)"
-    ],
-    [
-     "+21,7 %",
-     "Precio por kilo (US$ 5,85 → 7,12)"
-    ],
-    [
-     "−7,9 %",
-     "Ingresos (US$ 1.787 → 1.645 M)"
-    ],
-    [
-     "+76 %",
-     "Ingresos por exportaciones de pollo"
-    ]
-   ],
-   "clave": [
-    "≈ −1,1",
-    "elasticidad estimada"
-   ],
-   "fig": {
-    "k": "ingreso"
-   },
-   "cap": "El precio sube de P₁ a P₂ y la cantidad baja de Q₁ a Q₂. Lo que se gana (verde) es menos que lo que se pierde (rojo): el ingreso total cae.",
-   "pasos": [
-    "Sube el precio de la carne paraguaya en el exterior",
-    "Los compradores reducen la cantidad que adquieren",
-    "La cantidad cae 24,3 %, más que la suba del precio (21,7 %)",
-    "|EPD| ≈ 24,3 ÷ 21,7 ≈ 1,1: demanda relativamente elástica",
-    "El ingreso total de los exportadores baja"
-   ],
-   "conceptos": [
-    [
-     "EPD",
-     "% de cambio de la cantidad demandada ÷ % de cambio del precio."
-    ],
-    [
-     "Ingreso total",
-     "Precio × cantidad vendida."
-    ],
-    [
-     "Demanda elástica",
-     "|EPD| > 1: la cantidad reacciona más que el precio."
-    ],
-    [
-     "Sustitutos",
-     "Bienes que pueden reemplazar a otro, como la carne de otros países."
-    ]
-   ],
-   "diagramas": [
-    "ped-ingreso",
-    "oferta-demanda"
-   ],
-   "rel": [
-    "soja-record",
-    "mercosur-ue"
-   ],
-   "pregunta": {
-    "q": "El precio sube 21,7 % y la cantidad baja 24,3 %. ¿Cuál es la EPD aproximada?",
-    "opts": [
-     "≈ −1,1: relativamente elástica",
-     "≈ −0,5: inelástica",
-     "≈ −5: casi perfectamente elástica",
-     "0: perfectamente inelástica"
-    ],
-    "ok": 0,
-    "fb": "EPD = −24,3 ÷ 21,7 ≈ −1,1. Como su valor absoluto es mayor que 1, la demanda es relativamente elástica y el ingreso cae al subir el precio."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Exportadores con volumen estable",
-      "Cobran mejor precio por kilo."
-     ],
-     [
-      "Productores de pollo",
-      "Ganan parte del mercado."
-     ]
-    ],
-    "pierden": [
-     [
-      "Frigoríficos y trabajadores del sector bovino",
-      "Hay menos volumen para procesar."
-     ],
-     [
-      "El rubro en total",
-      "Sus ingresos cayeron 7,9 %."
-     ]
-    ],
-    "corto": "Menos ingresos por carne aunque el precio suba.",
-    "largo": "Si la oferta se recupera, el volumen puede crecer; pero los compradores pueden pasarse a Brasil.",
-    "supuestos": [
-     "Que la caída del volumen se deba a la reacción de la demanda y no solo a que hubo menos oferta."
-    ],
-    "conclusion": "El dato sugiere una demanda relativamente elástica, pero parte de la caída viene de menos oferta: la estimación es aproximada."
    },
    "sector": [
     "agro",
@@ -8573,10 +8667,10 @@
   },
   {
    "id": "mipymes-fogapy",
-   "fecha": "2026-11-17",
+   "fecha": "2026-11-20",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/15/mipymes-tendal-de-heridos-por-crisis/",
-   "titulo": "Las mipymes piden un «Fogapy 2» para no frenar antes de fin de año",
+   "titulo": "Las mipymes venden hasta 35 % menos y la AFD lanza créditos de apoyo",
    "unidad": "macro",
    "tema": "3.6",
    "kc": "intervencion",
@@ -8586,9 +8680,25 @@
    "sector": [
     "comercio"
    ],
-   "resumen": "La Federación de Mipymes (Fedemipymes) pidió crear una mesa de trabajo con el Gobierno y los bancos y lanzar un «Fogapy 2»: créditos garantizados para capital de trabajo con 6 meses de gracia, como en la pandemia. Según el gremio, la crisis de Ueno dejó congelados más de US$ 1.200 millones del sector privado y ya se perdieron más de 5.000 empleos. El 17 de noviembre, Eugenio Caje, de la Asociación de Importadores y Comerciantes (Asimcopar), dijo a ABC Color que hoy entra apenas el 10 % de los contenedores de antes porque las pymes perdieron su capital de trabajo, y advirtió sobre una posible recesión. El gremio pidió un préstamo puente y un sistema de garantías similar al Fogapy; el viceministro de Comercio, Alberto Sborovsky, se comprometió a elevar el pedido.",
-   "contexto": "Muchas pequeñas empresas usaban Ueno para su capital operativo y sus líneas de crédito; el Fondo de Garantía devuelve hasta G. 228 millones por titular, así que montos mayores siguen sin liquidez. Sin ese dinero no pueden comprar mercadería para fin de año, y en diciembre tienen que pagar salarios y aguinaldos. Según Fedemipymes, el sector genera el 75 % del empleo, así que si frena puede caer la demanda agregada. El Fogapy es un fondo público que garantiza préstamos: el Estado asume parte del riesgo para que los bancos presten a quienes no tienen suficientes garantías. La propuesta involucra al MIC, al MEF, a la AFD y a Asoban.",
+   "resumen": "La Federación de Mipymes (Fedemipymes) pidió crear una mesa de trabajo con el Gobierno y los bancos y lanzar un «Fogapy 2»: créditos garantizados para capital de trabajo con 6 meses de gracia, como en la pandemia. Según el gremio, la crisis de Ueno dejó congelados más de US$ 1.200 millones del sector privado y ya se perdieron más de 5.000 empleos. El 17 de noviembre, Eugenio Caje, de la Asociación de Importadores y Comerciantes (Asimcopar), dijo a ABC Color que hoy entra apenas el 10 % de los contenedores de antes porque las pymes perdieron su capital de trabajo, y advirtió sobre una posible recesión. El gremio pidió un préstamo puente y un sistema de garantías similar al Fogapy; el viceministro de Comercio, Alberto Sborovsky, se comprometió a elevar el pedido. El 20 de noviembre, la AFD anunció un programa de hasta G. 50.000 millones para mipymes con ventas de hasta G. 10.000 millones al año: hasta G. 350 millones por empresa, en guaraníes, con plazos de hasta 36 meses (capital operativo) o 60 meses (refinanciación), hasta seis meses de gracia y posible garantía del Fogapy. Según Luis Tavella, presidente de Fedemipymes, en las dos primeras semanas de la crisis la facturación de las mipymes cayó en promedio entre 30 % y 35 % (Última Hora).",
+   "contexto": "Muchas pequeñas empresas usaban Ueno para su capital operativo y sus líneas de crédito; el Fondo de Garantía devuelve hasta G. 228 millones por titular, así que montos mayores siguen sin liquidez. Sin ese dinero no pueden comprar mercadería para fin de año, y en diciembre tienen que pagar salarios y aguinaldos. Según Fedemipymes, el sector genera el 75 % del empleo, así que si frena puede caer la demanda agregada. El Fogapy es un fondo público que garantiza préstamos: el Estado asume parte del riesgo para que los bancos presten a quienes no tienen suficientes garantías. La propuesta involucra al MIC, al MEF, a la AFD y a Asoban. Tavella advirtió que en unos 40 días las empresas deben pagar salarios, aguinaldos y vacaciones; según él, los gremios grandes (supermercados, importadores, mayoristas) reportan caídas menores, de 3 % a 5 %, y los rubros de primera necesidad no bajaron. La tasa de los créditos de la AFD la fija cada banco, y los bancos pueden refinanciar hasta el 31 de marzo de 2027 a quienes tenían depósitos en Ueno al 2 de noviembre.",
    "datos": [
+    [
+     "30-35 %",
+     "Caída de la facturación de las mipymes en las dos primeras semanas (Fedemipymes)"
+    ],
+    [
+     "G. 50.000 M",
+     "Programa de la AFD para mipymes"
+    ],
+    [
+     "G. 350 M",
+     "Máximo por empresa en el programa de la AFD"
+    ],
+    [
+     "6 meses",
+     "Periodo de gracia de los créditos de la AFD"
+    ],
     [
      "US$ 1.200 M+",
      "Fondos del sector privado congelados en Ueno, según Fedemipymes"
@@ -8606,10 +8716,6 @@
      "Parte del empleo que generan las mipymes, según Fedemipymes"
     ],
     [
-     "6 meses",
-     "Periodo de gracia propuesto para los créditos"
-    ],
-    [
      "10 %",
      "Contenedores que entran hoy frente a antes, según Asimcopar"
     ],
@@ -8619,8 +8725,8 @@
     ]
    ],
    "clave": [
-    "US$ 1.200 M+",
-    "del sector privado congelados en Ueno"
+    "30-35 %",
+    "menos facturación de las mipymes"
    ],
    "fig": {
     "k": "macro",
@@ -8707,6 +8813,16 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/17/crisis-de-ueno-bank-asimcopar-pide-prestamo-puente-para-pymes-y-alerta-por-recesion/",
      "2026-11-17"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/afd-anuncia-creditos-de-hasta-g-350-millones-para-mipymes",
+     "2026-11-20"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/mipymes-tuvieron-caida-de-hasta-35-en-facturacion-ante-crisis-y-preocupan-pagos-de-fin-de-ano",
+     "2026-11-20"
     ]
    ]
   }
@@ -8860,6 +8976,10 @@
     [
      "2026-10-23",
      5.5
+    ],
+    [
+     "2026-11-20",
+     5.5
     ]
    ],
    "lee": "El BCP bajó la tasa dos veces a comienzos de 2026 y desde febrero la mantiene en 5,50 %.",
@@ -8880,6 +9000,11 @@
      "2026-10-23",
      "El BCP mantiene la tasa en 5,50 %",
      "bcp-tpm"
+    ],
+    [
+     "2026-11-20",
+     "Primera reunión tras Ueno: el BCP mantiene la tasa en 5,50 %",
+     "tpm-noviembre"
     ]
    ]
   },
@@ -9209,12 +9334,12 @@
   },
   "2026-11-16": {
    "titulo": "Después de los anticipos: repartir Ueno y aprobar el Presupuesto",
-   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año. El miércoles 18, el BCP estimó que el agujero de Ueno está entre US$ 1.000 y 1.500 millones: los activos alcanzan para los depositantes, pero no para los bonistas, y el país podría enfrentar demandas en Nueva York. Ese mismo día Alliana cambió al director de Itaipú, que tenía US$ 163,8 millones en Ueno, y fijó como meta acordar con Brasil la tarifa 2027 antes del 31 de diciembre; el Senado prevé votar el Presupuesto el 24 de noviembre. El jueves 19, gremios empresariales propusieron recortar US$ 670 millones del Presupuesto y bajar el déficit a 2,9 %; la Conacom acusó a Frigorífico Concepción y Frigomerc de abusar de su poder sobre los ganaderos, y los bonistas del primero aceptaron reestructurar su deuda. Alliana aseguró que se devolverá todo el dinero de los ahorristas de Ueno, mientras el Black Friday llenó Ciudad del Este de compradores brasileños. El viernes 20, ABC Color informó que el Ejecutivo pidió al Senado administrar por hasta ocho meses las empresas vinculadas a Ueno, y que los comercios del Mercadito de Asunción siguen casi vacíos por la falta de efectivo.",
+   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año. El miércoles 18, el BCP estimó que el agujero de Ueno está entre US$ 1.000 y 1.500 millones: los activos alcanzan para los depositantes, pero no para los bonistas, y el país podría enfrentar demandas en Nueva York. Ese mismo día Alliana cambió al director de Itaipú, que tenía US$ 163,8 millones en Ueno, y fijó como meta acordar con Brasil la tarifa 2027 antes del 31 de diciembre; el Senado prevé votar el Presupuesto el 24 de noviembre. El jueves 19, gremios empresariales propusieron recortar US$ 670 millones del Presupuesto y bajar el déficit a 2,9 %; la Conacom acusó a Frigorífico Concepción y Frigomerc de abusar de su poder sobre los ganaderos, y los bonistas del primero aceptaron reestructurar su deuda. Alliana aseguró que se devolverá todo el dinero de los ahorristas de Ueno, mientras el Black Friday llenó Ciudad del Este de compradores brasileños. El viernes 20, ABC Color informó que el Ejecutivo pidió al Senado administrar por hasta ocho meses las empresas vinculadas a Ueno, y que los comercios del Mercadito de Asunción siguen casi vacíos por la falta de efectivo. Ese mismo viernes, el BCP mantuvo la tasa en 5,50 % en su primera reunión tras Ueno, la AFD lanzó créditos de hasta G. 350 millones para mipymes que facturan hasta 35 % menos, y el dólar volvió a G. 6.400 en casas de cambio; Capeco informó que se exporta 37 % menos maíz porque crece su uso en el país. El sábado 21, un informe de FELABAN mostró que antes de la crisis los bancos paraguayos eran rentables, pero con menos previsiones que sus vecinos.",
    "claves": [
     "ueno-deficit",
     "pgn-suspendido",
     "deficit-octubre",
-    "conacom-frigorificos",
+    "tpm-noviembre",
     "gremios-pgn-recorte"
    ]
   }
@@ -9312,12 +9437,7 @@
      "Meta de inflación (rango de ± 2 puntos)"
     ]
    ],
-   "agenda": [
-    [
-     "2026-11-20",
-     "Próxima reunión del Comité de Política Monetaria: decide si cambia la tasa."
-    ]
-   ],
+   "agenda": [],
    "eventos": [
     [
      "2026-01",
@@ -9402,6 +9522,14 @@
     [
      "2026-11-19",
      "Tras reunirse con el presidente del BCP, Alliana asegura que se devolverá el 100 % de los depósitos de Ueno."
+    ],
+    [
+     "2026-11-20",
+     "El Comité de Política Monetaria mantiene la tasa en 5,50 % (postura neutral) y vigila los efectos de Ueno."
+    ],
+    [
+     "2026-11-21",
+     "Según La Nación, Schreiner pidió al FMI comparar las metas de inflación con un esquema que también controle los agregados monetarios."
     ]
    ],
    "enlaces": [
@@ -9875,12 +10003,7 @@
      "Entidades financieras donde invierte"
     ]
    ],
-   "agenda": [
-    [
-     "2026-11-17",
-     "Pago de jubilaciones y aguinaldo, incluidos los jubilados que cobraban por Ueno."
-    ]
-   ],
+   "agenda": [],
    "eventos": [
     [
      "2026-11-03",
@@ -10327,6 +10450,15 @@
     "tema": "2.8",
     "url": "https://www.ultimahora.com/experto-preve-mayores-bajas-en-el-precio-de-los-combustibles",
     "fuente": "Última Hora"
+   },
+   {
+    "f": "2027-03-31",
+    "t": "Último día para refinanciar deudas de mipymes afectadas por Ueno",
+    "d": "Hasta esta fecha los bancos pueden renovar o reestructurar créditos de empresas que tenían depósitos en Ueno al 2 de noviembre.",
+    "tipo": "BCP",
+    "tema": "3.5",
+    "url": "https://www.ultimahora.com/afd-anuncia-creditos-de-hasta-g-350-millones-para-mipymes",
+    "fuente": "Última Hora"
    }
   ],
   "habituales": [
@@ -10417,6 +10549,10 @@
     [
      "US$ 15,7 M",
      "Exportaciones avícolas en 2026, a octubre (+76 %)"
+    ],
+    [
+     "−37 %",
+     "Maíz zafra exportado de junio a octubre frente a 2025 (Capeco, Última Hora, 20 nov)"
     ]
    ],
    "graficos": [
@@ -10934,7 +11070,9 @@
     "confianza-octubre",
     "bcp-mipymes",
     "caja-fiscal-octubre",
-    "ueno-vinculadas"
+    "ueno-vinculadas",
+    "tpm-noviembre",
+    "bancos-felaban"
    ],
    "hitos": [
     [
@@ -11128,6 +11266,21 @@
      "2026-11-20",
      "El Ejecutivo pide al Senado administrar por hasta ocho meses las empresas vinculadas a Ueno.",
      "ueno-vinculadas"
+    ],
+    [
+     "2026-11-20",
+     "El BCP mantiene la tasa en 5,50 % y vigila los efectos de Ueno.",
+     "tpm-noviembre"
+    ],
+    [
+     "2026-11-20",
+     "La AFD lanza créditos de hasta G. 350 millones para mipymes; Fedemipymes reporta ventas 30-35 % más bajas.",
+     "mipymes-fogapy"
+    ],
+    [
+     "2026-11-21",
+     "FELABAN: antes de Ueno, los bancos paraguayos tenían menos previsiones que la región.",
+     "bancos-felaban"
     ]
    ]
   },
@@ -11326,6 +11479,11 @@
      "2026-11-17",
      "Encuesta del BCP: el mercado espera G. 6.255 por dólar en diciembre y G. 6.500 en 2027.",
      "eve-noviembre"
+    ],
+    [
+     "2026-11-20",
+     "El dólar vuelve a subir y cierra la semana en G. 6.400 en casas de cambio.",
+     "dolar-6600"
     ]
    ]
   },
@@ -11348,7 +11506,8 @@
     "mercosur-ue",
     "energia-cedida",
     "comercio-octubre",
-    "pollo-exportaciones"
+    "pollo-exportaciones",
+    "maiz-exportaciones"
    ],
    "hitos": [
     [
@@ -11400,6 +11559,11 @@
      "2026-11-19",
      "Capeco confirma una cosecha récord de soja de 12,6 millones de toneladas en 2025/26.",
      "soja-record"
+    ],
+    [
+     "2026-11-20",
+     "Las exportaciones de maíz caen 37 % porque más grano se usa en el país.",
+     "maiz-exportaciones"
     ]
    ]
   }
@@ -11792,7 +11956,7 @@
   "nota": "No hay un dato reciente y confiable de acceso a agua potable; se agregará cuando se publique."
  },
  "mundo": {
-  "actualizado": "2026-11-15",
+  "actualizado": "2026-11-20",
   "intro": "Paraguay es una economía pequeña y abierta: lo que pasa con el petróleo, sus vecinos, China o las tasas de Estados Unidos llega rápido a los precios, al dólar y a las exportaciones. Cada tarjeta explica por qué importa y por dónde llega el efecto.",
   "actores": [
    {
@@ -11801,6 +11965,10 @@
     "sub": "Precio internacional del crudo",
     "por": "Paraguay importa todos sus combustibles. Su precio llega al transporte, a los alimentos y a la inflación.",
     "datos": [
+     [
+      "≈US$ 92",
+      "Brent por barril, según el comunicado del BCP del 20 de noviembre (La Nación)"
+     ],
      [
       "US$ 95,82",
       "Brent el 12 de noviembre, tras subir 3,3 % (EFE, ABC Color)"
@@ -14634,8 +14802,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-20",
-  "hora": "06:26",
+  "fecha": "2026-11-21",
+  "hora": "07:55",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -14643,8 +14811,8 @@
    [
     "USD",
     "Dólar estadounidense",
-    5900,
-    6320
+    6000,
+    6400
    ],
    [
     "ARS",
@@ -14661,7 +14829,7 @@
    [
     "EUR",
     "Euro",
-    6100,
+    6000,
     6800
    ]
   ],
@@ -14726,6 +14894,11 @@
      "2026-11-20",
      5900,
      6320
+    ],
+    [
+     "2026-11-21",
+     6000,
+     6400
     ]
    ],
    "ARS": [
@@ -14786,6 +14959,11 @@
     ],
     [
      "2026-11-20",
+     3,
+     3.8
+    ],
+    [
+     "2026-11-21",
      3,
      3.8
     ]
@@ -14850,6 +15028,11 @@
      "2026-11-20",
      1050,
      1140
+    ],
+    [
+     "2026-11-21",
+     1050,
+     1140
     ]
    ],
    "EUR": [
@@ -14911,6 +15094,11 @@
     [
      "2026-11-20",
      6100,
+     6800
+    ],
+    [
+     "2026-11-21",
+     6000,
      6800
     ]
    ]
@@ -14980,6 +15168,11 @@
     "US$ 163,8 M",
     "Fondos de Itaipú depositados en Ueno (más G. 115.200 M)",
     "itaipu-tarifa-2027"
+   ],
+   [
+    "30-35 %",
+    "Caída de la facturación de las mipymes en las dos primeras semanas (Fedemipymes)",
+    "mipymes-fogapy"
    ]
   ],
   "actores": [
@@ -15067,6 +15260,11 @@
     "Pedro Alliana",
     "Aseguró que se devolverá el 100 % de los depósitos a la vista, a plazo y en CDA de Ueno.",
     "ueno-devolucion"
+   ],
+   [
+    "AFD",
+    "Lanzó créditos de hasta G. 350 millones por empresa para mipymes afectadas.",
+    "mipymes-fogapy"
    ]
   ],
   "preguntas": [

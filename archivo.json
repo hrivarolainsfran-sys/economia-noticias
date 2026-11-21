@@ -3562,5 +3562,369 @@
   "sector": [
    "agro"
   ]
+ },
+ {
+  "id": "energia-cedida",
+  "fecha": "2026-11-01",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/01/cedimos-32-de-nuestra-energia/",
+  "mas": [
+   [
+    "ABC Color",
+    "https://www.abc.com.py/economia/2026/10/19/paraguay-podria-comprar-energia-a-brasil-y-argentina-desde-2030/",
+    "2026-10-19"
+   ]
+  ],
+  "titulo": "Paraguay cedió el 32 % de su energía de Itaipú y Yacyretá",
+  "unidad": "global",
+  "tema": "4.7",
+  "kc": "sostenibilidad",
+  "resumen": "Entre enero y septiembre, Paraguay usó el 68 % de su parte de la energía de las binacionales (74 % de Itaipú y 40 % de Yacyretá) y cedió el 32 % restante a sus socios. Un informe técnico del IPPSE advierte que hacia 2030 el país podría consumir el 100 % y necesitar importar energía.",
+  "contexto": "La energía hidroeléctrica es renovable y barata, pero la demanda local crece rápido: la ANDE retiró en septiembre 9 % más energía que un año antes. Hoy sobra, y la parte que no se usa se cede. Según el IPPSE, entre 2028 y 2030 el país podría quedarse corto y tendría que comprar energía a Brasil o Argentina. Es una decisión de escasez y costo de oportunidad: usar más energía en casa significa ceder menos, y no invertir a tiempo puede encarecer el futuro.",
+  "datos": [
+   [
+    "68 %",
+    "Parte paraguaya usada en el país (ene-sep)"
+   ],
+   [
+    "32 %",
+    "Energía cedida a los socios"
+   ],
+   [
+    "74 % / 40 %",
+    "Uso de Itaipú / Yacyretá"
+   ],
+   [
+    "2030",
+    "Año en que Paraguay podría usar el 100 %"
+   ]
+  ],
+  "clave": [
+   "32 %",
+   "de la energía cedida"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% de la parte paraguaya usada",
+   "rows": [
+    [
+     "Itaipú",
+     74
+    ],
+    [
+     "Yacyretá",
+     40
+    ],
+    [
+     "Total",
+     68,
+     1
+    ]
+   ]
+  },
+  "cap": "Porcentaje de la energía que corresponde a Paraguay en cada binacional y que el país consumió entre enero y septiembre de 2026.",
+  "pasos": [
+   "Crece la demanda de electricidad en Paraguay",
+   "El país usa una parte mayor de su energía",
+   "Se cede menos energía a los socios",
+   "Hacia 2030 la energía disponible podría no alcanzar",
+   "Hace falta invertir o importar energía: costo de oportunidad"
+  ],
+  "conceptos": [
+   [
+    "Escasez",
+    "Recursos limitados frente a necesidades crecientes."
+   ],
+   [
+    "Costo de oportunidad",
+    "Lo que se deja de ganar al elegir un uso del recurso."
+   ],
+   [
+    "Energía renovable",
+    "Se regenera naturalmente, como la hidroeléctrica."
+   ],
+   [
+    "Sostenibilidad",
+    "Satisfacer las necesidades de hoy sin comprometer las futuras."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "itaipu-opinion"
+  ],
+  "pregunta": {
+   "q": "Si la demanda de electricidad sigue creciendo y la oferta no cambia, ¿qué pasa con el excedente que Paraguay cede?",
+   "opts": [
+    "Se reduce, hasta que el país consuma toda su parte",
+    "Aumenta",
+    "No cambia",
+    "Se vuelve infinito"
+   ],
+   "ok": 0,
+   "fb": "Con oferta fija y más demanda interna, queda menos energía sin usar: el excedente cedido se achica hasta desaparecer."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Consumidores e industrias",
+     "Usan energía barata y renovable."
+    ],
+    [
+     "Brasil y Argentina",
+     "Reciben la energía que Paraguay cede."
+    ]
+   ],
+   "pierden": [
+    [
+     "El futuro",
+     "Si no se invierte a tiempo, puede faltar energía hacia 2028-2030."
+    ]
+   ],
+   "corto": "El excedente de energía se achica.",
+   "largo": "Podría ser necesario importar energía hacia 2030 e invertir en líneas de transmisión.",
+   "supuestos": [
+    "Son proyecciones del IPPSE: dependen de cuánto crezca la demanda y de los caudales de los ríos."
+   ],
+   "conclusion": "La escasez futura es un problema de planificación: invertir a tiempo es más barato que importar en emergencia."
+  },
+  "sector": [
+   "energia"
+  ]
+ },
+ {
+  "id": "bolsa-octubre",
+  "fecha": "2026-11-02",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/negocios/2026/11/02/bolsa-de-valores-supero-monto-negociado-en-2025-por-efecto-del-tipo-de-cambio/",
+  "titulo": "La bolsa supera en dólares lo negociado en 2025, pero cae 4 % en guaraníes",
+  "unidad": "global",
+  "tema": "4.5",
+  "kc": "cambio",
+  "inst": [
+   "bolsa"
+  ],
+  "resumen": "De enero a octubre se negociaron G. 47,9 billones en la Bolsa de Valores de Asunción: unos US$ 8.113 millones al cambio actual, más que todo 2025 (US$ 8.063 millones). En guaraníes, sin embargo, el volumen es 4 % menor que en el mismo periodo de 2025.",
+  "contexto": "La diferencia se explica por el tipo de cambio: durante 2026 el guaraní se apreció, así que la misma cantidad de guaraníes equivale a más dólares. Es un buen ejemplo de por qué hay que mirar en qué moneda se mide una cifra antes de compararla. Solo en octubre se negociaron G. 4,76 billones, 24,1 % menos que en octubre de 2025. Los bonos son el 93,7 % del volumen, las acciones el 5,5 % y los fondos el 0,8 %.",
+  "datos": [
+   [
+    "G. 47,9 bill.",
+    "Negociado de enero a octubre de 2026"
+   ],
+   [
+    "−4 %",
+    "Frente a enero-octubre de 2025, en guaraníes"
+   ],
+   [
+    "US$ 8.113 M",
+    "El mismo volumen en dólares, al cambio actual"
+   ],
+   [
+    "−24,1 %",
+    "Octubre frente a octubre de 2025"
+   ],
+   [
+    "93,7 %",
+    "Parte de los bonos en el volumen"
+   ]
+  ],
+  "clave": [
+   "−4 %",
+   "en guaraníes"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "billones de G.",
+   "rows": [
+    [
+     "Ene-oct 2025",
+     49.8
+    ],
+    [
+     "Ene-oct 2026",
+     47.9,
+     1
+    ]
+   ]
+  },
+  "cap": "Volumen negociado en la bolsa de enero a octubre, en billones de guaraníes.",
+  "pasos": [
+   "El guaraní se aprecia frente al dólar",
+   "Cada guaraní equivale a más dólares",
+   "El mismo volumen en guaraníes se ve más grande en dólares",
+   "En guaraníes el mercado cayó 4 %",
+   "Conclusión: hay que comparar en la misma moneda"
+  ],
+  "conceptos": [
+   [
+    "Apreciación",
+    "Suba del valor del guaraní frente al dólar."
+   ],
+   [
+    "Volumen negociado",
+    "Valor total de los títulos comprados y vendidos en un periodo."
+   ],
+   [
+    "Mercado secundario",
+    "Reventa de títulos entre inversores (91,2 % del volumen)."
+   ],
+   [
+    "Bono",
+    "Préstamo que el inversor da a una empresa o al Estado a cambio de intereses."
+   ]
+  ],
+  "diagramas": [
+   "tipo-cambio",
+   "bonos"
+  ],
+  "rel": [
+   "bolsa-ueno-bonos"
+  ],
+  "pregunta": {
+   "q": "El volumen bajó 4 % en guaraníes pero subió en dólares. ¿Por qué?",
+   "opts": [
+    "Porque el guaraní se apreció: cada guaraní vale más dólares",
+    "Porque se negociaron más títulos",
+    "Porque subió la inflación",
+    "Porque bajó la tasa del BCP"
+   ],
+   "ok": 0,
+   "fb": "Con un guaraní más fuerte, la misma cantidad de guaraníes se convierte en más dólares. El crecimiento en dólares es un efecto del tipo de cambio."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Quienes miden en dólares",
+     "Ven un mercado más grande que en 2025."
+    ]
+   ],
+   "pierden": [
+    [
+     "Casas de bolsa",
+     "El volumen real en guaraníes bajó, y en octubre cayó fuerte."
+    ]
+   ],
+   "corto": "Octubre fue débil y noviembre arranca con la crisis de Ueno y la depreciación del guaraní.",
+   "largo": "Con la depreciación de noviembre, el efecto se invierte: el mismo volumen en guaraníes valdrá menos dólares.",
+   "supuestos": [
+    "Que se compare usando el mismo tipo de cambio."
+   ],
+   "conclusion": "El récord en dólares es en parte un efecto del tipo de cambio: en guaraníes el mercado se achicó un poco."
+  }
+ },
+ {
+  "id": "carne-cae",
+  "fecha": "2026-11-02",
+  "medio": "La Prensa",
+  "url": "https://www.laprensaparaguay.com/2026/11/02/exportaciones-avicolas-registran-un-crecimiento-del-76-en-ingresos-hasta-octubre/",
+  "titulo": "Carne bovina: se exporta 24 % menos, aunque a mejor precio",
+  "unidad": "micro",
+  "tema": "2.5",
+  "kc": "cambio",
+  "resumen": "Con datos de Senacsa, entre enero y octubre el volumen de carne bovina exportada bajó de 305 a 231 millones de kilos. El precio por kilo subió de US$ 5,85 a US$ 7,12, pero los ingresos cayeron de US$ 1.787 a 1.645 millones.",
+  "contexto": "Este caso permite estimar una elasticidad con datos reales. El precio subió 21,7 % y la cantidad bajó 24,3 %: la cantidad respondió más que el precio, y por eso el ingreso total cayó. Es una aproximación, porque en un año cambian otras cosas además del precio. En cambio, las exportaciones de pollo crecieron 76 % en ingresos. Los principales compradores de carne bovina fueron Chile, Estados Unidos, Israel y Taiwán.",
+  "datos": [
+   [
+    "−24,3 %",
+    "Volumen exportado (305 → 231 M kg)"
+   ],
+   [
+    "+21,7 %",
+    "Precio por kilo (US$ 5,85 → 7,12)"
+   ],
+   [
+    "−7,9 %",
+    "Ingresos (US$ 1.787 → 1.645 M)"
+   ],
+   [
+    "+76 %",
+    "Ingresos por exportaciones de pollo"
+   ]
+  ],
+  "clave": [
+   "≈ −1,1",
+   "elasticidad estimada"
+  ],
+  "fig": {
+   "k": "ingreso"
+  },
+  "cap": "El precio sube de P₁ a P₂ y la cantidad baja de Q₁ a Q₂. Lo que se gana (verde) es menos que lo que se pierde (rojo): el ingreso total cae.",
+  "pasos": [
+   "Sube el precio de la carne paraguaya en el exterior",
+   "Los compradores reducen la cantidad que adquieren",
+   "La cantidad cae 24,3 %, más que la suba del precio (21,7 %)",
+   "|EPD| ≈ 24,3 ÷ 21,7 ≈ 1,1: demanda relativamente elástica",
+   "El ingreso total de los exportadores baja"
+  ],
+  "conceptos": [
+   [
+    "EPD",
+    "% de cambio de la cantidad demandada ÷ % de cambio del precio."
+   ],
+   [
+    "Ingreso total",
+    "Precio × cantidad vendida."
+   ],
+   [
+    "Demanda elástica",
+    "|EPD| > 1: la cantidad reacciona más que el precio."
+   ],
+   [
+    "Sustitutos",
+    "Bienes que pueden reemplazar a otro, como la carne de otros países."
+   ]
+  ],
+  "diagramas": [
+   "ped-ingreso",
+   "oferta-demanda"
+  ],
+  "rel": [
+   "soja-record",
+   "mercosur-ue"
+  ],
+  "pregunta": {
+   "q": "El precio sube 21,7 % y la cantidad baja 24,3 %. ¿Cuál es la EPD aproximada?",
+   "opts": [
+    "≈ −1,1: relativamente elástica",
+    "≈ −0,5: inelástica",
+    "≈ −5: casi perfectamente elástica",
+    "0: perfectamente inelástica"
+   ],
+   "ok": 0,
+   "fb": "EPD = −24,3 ÷ 21,7 ≈ −1,1. Como su valor absoluto es mayor que 1, la demanda es relativamente elástica y el ingreso cae al subir el precio."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Exportadores con volumen estable",
+     "Cobran mejor precio por kilo."
+    ],
+    [
+     "Productores de pollo",
+     "Ganan parte del mercado."
+    ]
+   ],
+   "pierden": [
+    [
+     "Frigoríficos y trabajadores del sector bovino",
+     "Hay menos volumen para procesar."
+    ],
+    [
+     "El rubro en total",
+     "Sus ingresos cayeron 7,9 %."
+    ]
+   ],
+   "corto": "Menos ingresos por carne aunque el precio suba.",
+   "largo": "Si la oferta se recupera, el volumen puede crecer; pero los compradores pueden pasarse a Brasil.",
+   "supuestos": [
+    "Que la caída del volumen se deba a la reacción de la demanda y no solo a que hubo menos oferta."
+   ],
+   "conclusion": "El dato sugiere una demanda relativamente elástica, pero parte de la caída viene de menos oferta: la estimación es aproximada."
+  },
+  "sector": [
+   "agro",
+   "comercio"
+  ]
  }
 ]
