@@ -3926,5 +3926,399 @@
    "agro",
    "comercio"
   ]
+ },
+ {
+  "id": "conatel-ueno",
+  "fecha": "2026-11-10",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/economia/2026/11/10/conatel-movio-g-70000-millones-a-ueno-un-mes-antes-de-la-caida-del-banco/",
+  "titulo": "Conatel pasó G. 70.000 millones a Ueno un mes antes de la caída",
+  "unidad": "macro",
+  "tema": "3.6",
+  "kc": "intervencion",
+  "inst": [
+   "mef"
+  ],
+  "resumen": "Según ABC Color, la Comisión Nacional de Telecomunicaciones (Conatel) depositó G. 70.000 millones en Ueno Bank en octubre: G. 50.000 millones retirados de Banco Interfisa el 13 y G. 20.000 millones del BNF el 15. Es cerca del 15 % de sus recursos. Su gerente financiero, Germán Escurra, admitió que este año no podrá transferir al MEF los G. 200.000 millones previstos.",
+  "contexto": "Muchas entidades públicas colocan su dinero en bancos para ganar intereses y luego transfieren excedentes al Tesoro: en 2025, Conatel aportó G. 118.000 millones al Estado. Si esos fondos quedan atrapados, el MEF recibe menos ingresos y el déficit fiscal puede crecer. Conatel presentó una denuncia penal y pidió al BCP prioridad para recuperar el dinero; su director Andrés Arrúa sostuvo que confiaron en los indicadores públicos del BCP. ABC Color pregunta si fue ingenuidad, exceso de confianza o una decisión tomada más arriba, porque no están claros los criterios para elegir a Ueno.",
+  "datos": [
+   [
+    "G. 70.000 M",
+    "Fondos de Conatel depositados en Ueno"
+   ],
+   [
+    "≈ 15 %",
+    "Parte de los recursos de Conatel"
+   ],
+   [
+    "G. 200.000 M",
+    "Transferencia anual comprometida al MEF, que no se cumplirá"
+   ],
+   [
+    "G. 118.000 M",
+    "Lo que Conatel transfirió al Estado en 2025"
+   ]
+  ],
+  "clave": [
+   "G. 70.000 M",
+   "de Conatel quedaron en Ueno"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "miles de millones de G.",
+   "rows": [
+    [
+     "Desde Interfisa (13 oct)",
+     50
+    ],
+    [
+     "Desde el BNF (15 oct)",
+     20
+    ],
+    [
+     "Transferido al Estado en 2025",
+     118
+    ],
+    [
+     "Meta de transferencia 2026",
+     200,
+     1
+    ]
+   ]
+  },
+  "cap": "Fondos que Conatel movió a Ueno y transferencias al Tesoro, en miles de millones de guaraníes, según ABC Color.",
+  "pasos": [
+   "Conatel coloca sus excedentes en bancos para ganar intereses",
+   "En octubre mueve G. 70.000 millones a Ueno",
+   "Ueno es intervenido y el dinero queda atrapado",
+   "Conatel no podrá transferir lo previsto al MEF",
+   "El Tesoro recibe menos ingresos y el déficit puede crecer"
+  ],
+  "conceptos": [
+   [
+    "Ingresos no tributarios",
+    "Recursos del Estado que no son impuestos, como las transferencias de entes públicos."
+   ],
+   [
+    "Déficit fiscal",
+    "Cuando el gasto público supera los ingresos en un año."
+   ],
+   [
+    "Problema principal-agente",
+    "Quien decide (el funcionario) no arriesga su propio dinero, sino el del público."
+   ],
+   [
+    "Diversificación",
+    "Repartir los fondos entre varios bancos para reducir el riesgo."
+   ]
+  ],
+  "diagramas": [
+   "politica-fiscal"
+  ],
+  "rel": [
+   "ande-ueno",
+   "ips-ueno",
+   "deuda-setiembre",
+   "ueno-morosidad"
+  ],
+  "pregunta": {
+   "q": "¿Cómo afecta al presupuesto que fondos de entes públicos queden atrapados en un banco quebrado?",
+   "opts": [
+    "Bajan los ingresos del Tesoro y puede crecer el déficit",
+    "Sube automáticamente la recaudación de impuestos",
+    "Baja la deuda pública",
+    "No tiene ningún efecto fiscal"
+   ],
+   "ok": 0,
+   "fb": "Conatel no podrá transferir los G. 200.000 millones previstos: el Estado recibe menos ingresos y, si mantiene su gasto, el déficit aumenta."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Bancos que reciben fondos públicos",
+     "Captan depósitos grandes y estables, aunque aquí el banco cayó."
+    ]
+   ],
+   "pierden": [
+    [
+     "Tesoro (MEF)",
+     "Recibirá menos transferencias de Conatel este año."
+    ],
+    [
+     "Contribuyentes",
+     "Si faltan ingresos, el déficit se cubre con más deuda o recortes."
+    ],
+    [
+     "Credibilidad de la gestión pública",
+     "No están claros los criterios para elegir a Ueno."
+    ]
+   ],
+   "corto": "Menos ingresos no tributarios en 2026 y una investigación penal en curso.",
+   "largo": "Puede llevar a reglas más estrictas para que los entes públicos diversifiquen sus depósitos y prioricen bancos más sólidos.",
+   "supuestos": [
+    "Que los fondos no se recuperen pronto en la liquidación",
+    "Lo que dicen los funcionarios de Conatel no fue verificado por la Justicia"
+   ],
+   "conclusion": "El caso muestra que el riesgo de un banco se traslada al presupuesto cuando el Estado deposita allí; más que buscar más interés, las entidades públicas necesitan reglas de diversificación y transparencia."
+  }
+ },
+ {
+  "id": "cooperativas-garantia",
+  "fecha": "2026-11-15",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/negocios/2026/11/12/ahorristas-de-cooperativa-poravoty-piden-destitucion-del-presidente-del-incoop/",
+  "titulo": "55 cooperativas en liquidación: ahorristas piden un fondo de garantía como el de los bancos",
+  "unidad": "micro",
+  "tema": "2.10",
+  "kc": "intervencion",
+  "resumen": "Ahorristas de la Cooperativa Poravoty, cerrada en enero de 2025 y en liquidación, pidieron la destitución del presidente interino del Incoop, Carlos Romero Roa, porque todavía no recuperaron sus ahorros, según La Nación. También pidieron al Congreso una ley que obligue a las cooperativas a hacer depósitos en el BCP para proteger a los socios, similar al Fondo de Garantía de Depósitos de los bancos. El diario indica que hoy hay 55 cooperativas en liquidación. Según Última Hora, tres cooperativas grandes (Universitaria, Coomecipar y Coopeduc) tienen más de G. 100.000 millones retenidos en Ueno; el Incoop asegura que su solvencia no está en riesgo, aunque a las cooperativas pequeñas el golpe les pesa más.",
+  "contexto": "Los depósitos en bancos tienen una garantía estatal hasta 75 salarios mínimos (la que se usó con Ueno), pero los ahorros en cooperativas no. Es un ejemplo de información asimétrica: el socio que ahorra no puede saber bien cómo se administra su cooperativa, y quienes la dirigen sí. La regulación (el Incoop) y los seguros de depósitos buscan corregir esa falla de mercado. Pero un seguro también tiene un costo: puede generar riesgo moral si los administradores asumen más riesgos sabiendo que los ahorros están protegidos.",
+  "datos": [
+   [
+    "55",
+    "Cooperativas en proceso de liquidación"
+   ],
+   [
+    "ene 2025",
+    "Cierre de la Cooperativa Poravoty"
+   ],
+   [
+    "17 nov",
+    "Manifestación convocada frente al Incoop"
+   ],
+   [
+    "G. 100.000 M+",
+    "Fondos de Universitaria, Coomecipar y Coopeduc retenidos en Ueno"
+   ],
+   [
+    "40 %",
+    "Máximo de fondos que una cooperativa puede tener en una sola entidad"
+   ]
+  ],
+  "clave": [
+   "55",
+   "cooperativas en liquidación"
+  ],
+  "fig": {
+   "k": "mercado",
+   "mueve": "D",
+   "dir": -1
+  },
+  "cap": "Cuando los socios desconfían de las cooperativas, baja la demanda de depósitos en ellas: D₁ pasa a D₂ y cae la cantidad ahorrada.",
+  "pasos": [
+   "Algunas cooperativas se administran mal y quiebran",
+   "Los socios no tenían información para anticiparlo",
+   "Pierden sus ahorros porque no hay garantía de depósitos",
+   "Baja la confianza y la demanda de ahorro en cooperativas",
+   "Se pide más regulación o un fondo de garantía"
+  ],
+  "conceptos": [
+   [
+    "Información asimétrica",
+    "Una parte de una transacción sabe más que la otra."
+   ],
+   [
+    "Riesgo moral",
+    "Tomar más riesgos cuando otro paga las pérdidas."
+   ],
+   [
+    "Garantía de depósitos",
+    "Seguro que devuelve los ahorros hasta un tope si la entidad quiebra."
+   ],
+   [
+    "Incoop",
+    "Instituto Nacional de Cooperativismo, el regulador de las cooperativas."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "ueno-devolucion",
+   "ueno-intervencion",
+   "ueno-lotes"
+  ],
+  "pregunta": {
+   "q": "¿Qué falla de mercado explica mejor que los socios de una cooperativa no detecten a tiempo que está mal administrada?",
+   "opts": [
+    "Información asimétrica",
+    "Externalidad positiva",
+    "Bien público",
+    "Poder de monopolio"
+   ],
+   "ok": 0,
+   "fb": "Los administradores conocen la situación real de la cooperativa y los socios no: es información asimétrica, que la regulación y los seguros de depósitos intentan corregir."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Socios ahorristas (con un fondo de garantía)",
+     "Tendrían sus ahorros protegidos hasta un tope."
+    ],
+    [
+     "Cooperativas bien administradas",
+     "Más confianza atrae más ahorro."
+    ]
+   ],
+   "pierden": [
+    [
+     "Cooperativas",
+     "Tendrían que aportar al fondo, lo que sube sus costos."
+    ],
+    [
+     "Ahorristas de Poravoty",
+     "Siguen sin recuperar su dinero mientras dura la liquidación."
+    ]
+   ],
+   "corto": "La crisis de Ueno aumenta la presión para proteger también a los ahorristas de cooperativas.",
+   "largo": "Un fondo de garantía puede dar estabilidad al sector, siempre que venga con más supervisión para evitar el riesgo moral.",
+   "supuestos": [
+    "Que el Congreso trate una ley de fondo de garantía.",
+    "Que el Incoop tenga capacidad para supervisar a cientos de cooperativas."
+   ],
+   "conclusion": "Proteger los ahorros corrige una falla de información, pero sin supervisión fuerte un seguro puede incentivar más riesgo; la clave es combinar garantía y control."
+  },
+  "mas": [
+   [
+    "Última Hora",
+    "https://www.ultimahora.com/mas-de-g-100-000-millones-de-cooperativas-quedaron-en-ueno-pero-descartan-riesgos-de-solvencia",
+    "2026-11-15"
+   ]
+  ],
+  "inst": []
+ },
+ {
+  "id": "confianza-octubre",
+  "fecha": "2026-11-16",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/negocios/2026/11/16/indice-de-confianza-del-consumidor-se-hunde-en-el-pesimismo-segun-encuesta/",
+  "mas": [
+   [
+    "Última Hora",
+    "https://www.ultimahora.com/confianza-del-consumidor-subio-en-octubre-pero-sigue-en-rango-de-pesimismo",
+    "2026-11-16"
+   ]
+  ],
+  "titulo": "La confianza del consumidor sigue en pesimismo: 45,3 puntos en octubre",
+  "unidad": "macro",
+  "tema": "3.2",
+  "kc": "cambio",
+  "resumen": "El Índice de Confianza del Consumidor (ICC), que mide el INE y publica el BCP, llegó a 45,30 puntos en octubre: mejoró frente a los 39,09 de septiembre, pero sigue por debajo de 50, la línea que separa el optimismo del pesimismo. La encuesta se hizo antes de la caída de Ueno Bank, según ABC Color. Solo el 17 % de los encuestados dijo estar en condiciones de ahorrar.",
+  "contexto": "Llama la atención que la confianza sea baja con una economía que creció 5,5 % hasta septiembre y con inflación baja. ABC Color lo atribuye a los precios de combustibles y alimentos, el endeudamiento de los hogares, el atraso en los pagos del Estado a proveedores y el déficit fiscal. La confianza es un determinante del consumo, el componente más grande de la demanda agregada: si las familias esperan tiempos difíciles, gastan menos y ahorran por precaución. Como la encuesta es anterior a Ueno, el dato de noviembre podría ser peor.",
+  "datos": [
+   [
+    "45,30",
+    "ICC de octubre 2026 (50 = neutral)"
+   ],
+   [
+    "39,09",
+    "ICC de septiembre 2026"
+   ],
+   [
+    "33,34",
+    "Índice de situación económica actual (oct.)"
+   ],
+   [
+    "57,25",
+    "Índice de expectativas económicas (oct.); 66,25 un año antes"
+   ],
+   [
+    "17 %",
+    "Encuestados con disposición a ahorrar (12 % en septiembre)"
+   ],
+   [
+    "5,5 %",
+    "Crecimiento acumulado del IMAEP hasta septiembre"
+   ]
+  ],
+  "clave": [
+   "45,3",
+   "puntos: zona de pesimismo"
+  ],
+  "fig": {
+   "k": "macro",
+   "mueve": "D",
+   "dir": -1
+  },
+  "cap": "Si la confianza cae, el consumo baja y la DA se desplaza de DA₁ a DA₂: menos producción real y menos presión sobre los precios.",
+  "pasos": [
+   "Las familias perciben precios altos, deudas e incertidumbre",
+   "La confianza del consumidor queda por debajo de 50",
+   "Los hogares posponen compras y ahorran por precaución",
+   "Baja el consumo y la DA se desplaza a la izquierda",
+   "Se frena el crecimiento del PIB real"
+  ],
+  "conceptos": [
+   [
+    "Confianza del consumidor",
+    "Cómo ven las familias su situación y el futuro; influye en cuánto gastan."
+   ],
+   [
+    "Consumo (C)",
+    "Gasto de los hogares; el mayor componente de la DA."
+   ],
+   [
+    "Ahorro por precaución",
+    "Dinero que se guarda ante la incertidumbre en lugar de gastarlo."
+   ],
+   [
+    "Indicador adelantado",
+    "Dato que anticipa hacia dónde va la economía."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da",
+   "da-oa-oacp"
+  ],
+  "rel": [
+   "consumo-cae",
+   "imaep-setiembre",
+   "ventas-setiembre"
+  ],
+  "pregunta": {
+   "q": "¿Por qué una caída de la confianza del consumidor puede frenar la economía?",
+   "opts": [
+    "Porque los hogares gastan menos y baja la demanda agregada",
+    "Porque sube la oferta agregada",
+    "Porque el BCP sube la tasa automáticamente",
+    "Porque aumentan las exportaciones"
+   ],
+   "ok": 0,
+   "fb": "La confianza afecta al consumo, el componente más grande de la DA. Si las familias gastan menos, la DA se desplaza a la izquierda."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Bancos y cooperativas sólidos",
+     "Más personas con disposición a ahorrar pueden aumentar los depósitos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Comercios y multitiendas",
+     "Venden menos justo antes de la temporada de fin de año."
+    ],
+    [
+     "Trabajadores del comercio",
+     "Menos ventas pueden traducirse en menos horas o despidos."
+    ]
+   ],
+   "corto": "La caída de Ueno puede hundir más el índice en noviembre y reducir las ventas de fin de año.",
+   "largo": "Si el Estado recupera credibilidad (pagos a proveedores, cuentas fiscales, sistema bancario), la confianza puede volver a zona de optimismo y sostener el consumo.",
+   "supuestos": [
+    "Que la encuesta refleje bien el ánimo de los hogares",
+    "Que la confianza se traduzca en decisiones de gasto",
+    "Que la crisis de Ueno no se extienda a otros bancos"
+   ],
+   "conclusion": "El crecimiento del PIB no alcanza para que las familias se sientan mejor; la confianza baja es una señal de alerta para el consumo, aunque por sí sola no garantiza una recesión."
+  },
+  "inst": [
+   "bcp",
+   "ine"
+  ],
+  "sector": [
+   "comercio"
+  ],
+  "opinion": false
  }
 ]

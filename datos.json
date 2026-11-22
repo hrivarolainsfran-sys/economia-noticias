@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21",
+ "actualizado": "2026-11-22",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -302,6 +302,16 @@
     "20 nov",
     "El dólar vuelve a G. 6.400 en casas de cambio.",
     "dolar-6600"
+   ],
+   [
+    "21 nov",
+    "Las buenas notas de las calificadoras ayudaron a que el Estado depositara en Ueno.",
+    "calificadoras-ueno"
+   ],
+   [
+    "21 nov",
+    "Los supermercados vuelven a vender normal, pero se gasta menos en ocio.",
+    "consumo-cae"
    ]
   ],
   "lentes": [
@@ -320,6 +330,393 @@
   ]
  },
  "noticias": [
+  {
+   "id": "faena-bovina-octubre",
+   "fecha": "2026-11-21",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/faena-bovina-cae-20-al-decimo-mes-del-ano-aunque-hubo-repunte-en-octubre",
+   "titulo": "La faena de vacunos cae 20 % en el año y los frigoríficos usan menos de la mitad de su capacidad",
+   "unidad": "micro",
+   "tema": "2.3",
+   "kc": "escasez",
+   "sector": [
+    "agro",
+    "industria"
+   ],
+   "resumen": "Según la Asociación Paraguaya de Productores y Exportadores de Carne (APPEC), citada por Última Hora, entre enero y octubre los frigoríficos de exportación faenaron 1.514.248 cabezas, 20 % menos que en el mismo periodo de 2025 (387.551 animales menos). En octubre hubo un repunte: 150.551 cabezas, 22 % más que en septiembre, y el uso de la capacidad instalada subió de 36 % a 41 %.",
+   "contexto": "La industria de la carne depende de cuántos animales listos para faena hay en el campo. Si el stock de ganado baja, los frigoríficos reciben menos vacunos y quedan con plantas a medio usar: en diez meses usaron en promedio solo el 45 % de su capacidad. La APPEC pide condiciones para invertir en ganadería y retener vientres (vacas que paren terneros), lo que muestra que la oferta de ganado tarda años en recuperarse. Este dato se cruza con la denuncia de la Conacom sobre el poder de compra de los frigoríficos: un frigorífico (Minerva) concentra el 40 % de la faena acumulada.",
+   "datos": [
+    [
+     "1.514.248",
+     "Cabezas faenadas en enero-octubre de 2026 (−20 %)"
+    ],
+    [
+     "387.551",
+     "Animales menos que en enero-octubre de 2025"
+    ],
+    [
+     "150.551",
+     "Cabezas faenadas en octubre (+22 % frente a septiembre)"
+    ],
+    [
+     "41 %",
+     "Uso de la capacidad instalada en octubre (36 % en septiembre)"
+    ],
+    [
+     "45 %",
+     "Uso promedio de la capacidad en enero-octubre"
+    ],
+    [
+     "40 %",
+     "Parte de la faena acumulada en Minerva"
+    ]
+   ],
+   "clave": [
+    "−20 %",
+    "de vacunos faenados en enero-octubre"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "O",
+    "dir": -1
+   },
+   "cap": "Mercado del ganado para faena: con menos animales disponibles, la oferta (O) se desplaza a la izquierda; se faena menos y el precio del ganado tiende a subir.",
+   "pasos": [
+    "El stock de ganado en el campo es menor",
+    "Llegan menos animales a los frigoríficos: la oferta de ganado baja",
+    "Se faena 20 % menos y las plantas usan menos de la mitad de su capacidad",
+    "El costo fijo de cada planta se reparte entre menos kilos de carne",
+    "Para recuperar la oferta hay que retener vientres, algo que tarda años"
+   ],
+   "conceptos": [
+    [
+     "Determinantes de la oferta",
+     "Factores distintos del precio que mueven la curva de oferta, como la cantidad de animales disponibles."
+    ],
+    [
+     "Capacidad instalada",
+     "Producción máxima que una planta puede hacer; si se usa poco, hay capacidad ociosa."
+    ],
+    [
+     "Oferta inelástica a corto plazo",
+     "La producción de ganado no puede aumentar rápido aunque suba el precio, porque criar un animal lleva años."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda"
+   ],
+   "rel": [
+    "conacom-frigorificos",
+    "frigorifico-concepcion-bonos",
+    "pollo-exportaciones"
+   ],
+   "pregunta": {
+    "q": "¿Por qué la oferta de ganado no puede recuperarse rápido aunque los frigoríficos tengan capacidad libre?",
+    "opts": [
+     "Porque criar un animal lleva años: la oferta es inelástica a corto plazo",
+     "Porque los frigoríficos no quieren comprar más",
+     "Porque la demanda mundial de carne desapareció",
+     "Porque el BCP subió la tasa de interés"
+    ],
+    "ok": 0,
+    "fb": "La cantidad de ganado depende de decisiones tomadas años antes (retener vientres, criar terneros). Por eso la oferta responde poco al precio en el corto plazo."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ganaderos con animales listos",
+      "Con menos oferta, los frigoríficos compiten más por cada animal."
+     ],
+     [
+      "Cooperativas que faenan",
+      "Chortitzer y Fernheim mantienen el 10 % de la faena cada una."
+     ]
+    ],
+    "pierden": [
+     [
+      "Frigoríficos",
+      "Usan menos de la mitad de sus plantas y reparten sus costos fijos entre menos producción."
+     ],
+     [
+      "Trabajadores de la industria",
+      "Menos faena puede significar menos turnos y menos empleo."
+     ],
+     [
+      "Exportaciones",
+      "Hay menos carne para vender afuera."
+     ]
+    ],
+    "corto": "El repunte de octubre alivia, pero el año cierra con mucha menos faena que 2025.",
+    "largo": "Si se retienen vientres y se invierte en ganadería, la oferta puede recuperarse en unos años; si no, la industria seguirá con capacidad ociosa.",
+    "supuestos": [
+     "Que la caída se deba sobre todo a menos stock de ganado y no a problemas de demanda externa",
+     "Que los datos de la ARP reflejen toda la faena de exportación"
+    ],
+    "conclusion": "La caída de la faena es un problema de oferta que no se resuelve en meses: la industria tiene capacidad, pero le faltan animales, y recuperarlos requiere inversión y tiempo."
+   }
+  },
+  {
+   "id": "brasilenos-vivienda",
+   "fecha": "2026-11-21",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/brasilenos-buscan-casa-en-paraguay-tras-eleccion-de-lula-segun-infocasas",
+   "titulo": "Tras la elección en Brasil, se cuadruplican las búsquedas de casas en Paraguay desde ese país",
+   "unidad": "micro",
+   "tema": "2.2",
+   "kc": "interdependencia",
+   "mundo": [
+    "brasil"
+   ],
+   "resumen": "Según InfoCasas, citado por Última Hora, en los 18 días posteriores al balotaje en Brasil entraron 97.322 visitas desde ese país a su portal de inmuebles en Paraguay, cuatro veces más que en los 18 días previos. Las búsquedas de inmuebles en Itapúa se multiplicaron por nueve y Encarnación fue la ciudad más buscada. La crisis de Ueno solo frenó una semana las búsquedas de los paraguayos.",
+   "contexto": "Es un ejemplo de cómo cambia la demanda por factores distintos del precio: aquí, las expectativas y las preferencias de compradores extranjeros después de un hecho político. Si esas visitas se convierten en compras o alquileres, la demanda de viviendas en ciudades como Encarnación y Ciudad del Este se desplazaría a la derecha y subirían los precios y alquileres. Hay que tener cuidado: una visita a un portal no es una compra, así que el dato mide interés, no ventas. Para los paraguayos que buscan casa, más demanda externa puede significar precios más altos.",
+   "datos": [
+    [
+     "97.322",
+     "Visitas desde Brasil en los 18 días posteriores a la elección"
+    ],
+    [
+     "×4",
+     "Aumento frente a los 18 días previos"
+    ],
+    [
+     "×9",
+     "Aumento de las búsquedas de inmuebles en Itapúa"
+    ],
+    [
+     "21.573",
+     "Visitantes desde São Paulo"
+    ],
+    [
+     "−18 %",
+     "Caída de la navegación de paraguayos entre el 3 y el 9 de noviembre (crisis de Ueno)"
+    ],
+    [
+     "+7 %",
+     "Navegación de paraguayos desde el 10 de noviembre, frente a semanas previas"
+    ]
+   ],
+   "clave": [
+    "×4",
+    "visitas desde Brasil a casas en Paraguay"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Mercado de viviendas en Encarnación o Ciudad del Este: si más brasileños compran o alquilan, la demanda (D) se desplaza a la derecha y suben el precio y la cantidad.",
+   "pasos": [
+    "Un hecho político en Brasil cambia las expectativas de algunas familias",
+    "Buscan vivir o invertir en Paraguay: crece el interés por casas",
+    "Si compran o alquilan, aumenta la demanda de viviendas",
+    "A corto plazo la oferta de casas casi no cambia, así que suben los precios",
+    "Con el tiempo, precios más altos atraen más construcción"
+   ],
+   "conceptos": [
+    [
+     "Determinantes de la demanda",
+     "Factores distintos del precio que mueven la curva: gustos, expectativas, ingresos, número de compradores."
+    ],
+    [
+     "Número de compradores",
+     "Si llegan más compradores al mercado, la demanda total aumenta."
+    ],
+    [
+     "Oferta inelástica de vivienda",
+     "Construir casas lleva tiempo, así que la cantidad ofrecida cambia poco a corto plazo."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda"
+   ],
+   "rel": [
+    "black-friday-cde"
+   ],
+   "pregunta": {
+    "q": "Si más familias brasileñas compran casas en Encarnación, ¿qué pasa en ese mercado?",
+    "opts": [
+     "La demanda se mueve a la derecha y sube el precio",
+     "La oferta se mueve a la derecha y baja el precio",
+     "La demanda se mueve a la izquierda y baja el precio",
+     "No cambia nada porque son extranjeros"
+    ],
+    "ok": 0,
+    "fb": "Más compradores aumentan la demanda. Como la oferta de casas no cambia rápido, el precio de equilibrio sube."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Propietarios e inmobiliarias",
+      "Más interesados permiten vender o alquilar más y a mejor precio."
+     ],
+     [
+      "Construcción",
+      "Una demanda más alta puede impulsar nuevos proyectos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Familias paraguayas que buscan casa",
+      "Pueden enfrentar precios y alquileres más altos en las ciudades más buscadas."
+     ]
+    ],
+    "corto": "Por ahora es interés en internet; el efecto en precios dependerá de cuántas visitas terminen en compras o alquileres.",
+    "largo": "Una llegada sostenida de compradores brasileños podría subir los precios en Itapúa y Alto Paraná y atraer inversión en construcción.",
+    "supuestos": [
+     "Que las visitas al portal se conviertan en operaciones reales",
+     "Que el interés no sea solo una reacción pasajera a la elección"
+    ],
+    "conclusion": "El dato muestra un posible aumento de la demanda por un factor externo, pero mide interés y no ventas; conviene esperar datos de operaciones antes de hablar de un alza de precios."
+   }
+  },
+  {
+   "id": "calificadoras-ueno",
+   "fecha": "2026-11-21",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/el-papel-clave-que-jugaron-las-calificadoras-en-el-deposito-de-fondos-publicos-en-ueno",
+   "titulo": "Las buenas notas de las calificadoras ayudaron a que el Estado depositara en Ueno",
+   "unidad": "micro",
+   "tema": "2.10",
+   "kc": "intervencion",
+   "inst": [
+    "mef",
+    "bolsa"
+   ],
+   "resumen": "Según datos del Informe de Bancos del MEF analizados por Última Hora, la parte de Ueno en los depósitos de las entidades públicas pasó de cerca de 2,7 % a 18,2 % en guaraníes y de cerca de 4 % a 22,9 % en dólares, entre enero de 2024 y septiembre de 2026. Tras las mejoras de nota de las calificadoras locales, la participación de Ueno en los certificados de depósito (CDA) subió unos 4,8 puntos en seis meses, y unos 8 puntos cuando pasó de A+py a AA-py. Tras la resolución, su nota bajó a Dpy.",
+   "contexto": "Las calificadoras de riesgo resuelven en parte un problema de información asimétrica: el depositante no sabe cuán sano está un banco y usa la nota como guía. Pero el análisis señala un conflicto de interés, porque el banco contrata y paga a quien lo califica. El abogado Óscar Tuma y el economista Sergio Sapena, citados por Última Hora, piden investigar esas evaluaciones y fiscalizar a las calificadoras. El diario aclara que los datos muestran la relación en el tiempo, pero no prueban por sí solos qué decidió cada institución pública.",
+   "datos": [
+    [
+     "18,2 %",
+     "Parte de Ueno en los depósitos públicos en guaraníes (sep. 2026; 2,7 % en ene. 2024)"
+    ],
+    [
+     "22,9 %",
+     "Parte de Ueno en los depósitos públicos en dólares (sep. 2026; 4 % en ene. 2024)"
+    ],
+    [
+     "+4,8 pp",
+     "Suba de su parte en los CDA públicos seis meses después de una mejora de nota"
+    ],
+    [
+     "+8 pp",
+     "Suba tras pasar de A+py a AA-py"
+    ],
+    [
+     "AApy",
+     "Nota local de Ueno desde marzo de 2026 (Solventa & Riskmétrica)"
+    ],
+    [
+     "Dpy",
+     "Nota tras el inicio de la resolución"
+    ]
+   ],
+   "clave": [
+    "22,9 %",
+    "de los depósitos públicos en dólares estaban en Ueno"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Guaraníes, ene. 2024",
+      2.7
+     ],
+     [
+      "Guaraníes, sep. 2026",
+      18.2,
+      1
+     ],
+     [
+      "Dólares, ene. 2024",
+      4
+     ],
+     [
+      "Dólares, sep. 2026",
+      22.9,
+      1
+     ]
+    ]
+   },
+   "cap": "Parte de Ueno en los depósitos de las entidades públicas (Informe de Bancos del MEF, según Última Hora): creció muchas veces en menos de tres años.",
+   "pasos": [
+    "Los depositantes no pueden ver por dentro la salud de un banco (información asimétrica)",
+    "Usan la nota de las calificadoras como señal",
+    "El banco paga a la calificadora: puede haber conflicto de interés",
+    "Con mejores notas, más fondos públicos fueron a Ueno",
+    "Cuando apareció la insolvencia, la nota cayó a Dpy y los fondos quedaron atrapados"
+   ],
+   "conceptos": [
+    [
+     "Información asimétrica",
+     "Una parte sabe más que la otra; aquí, el banco sabe más que quien deposita."
+    ],
+    [
+     "Calificadora de riesgo",
+     "Empresa que evalúa la capacidad de pago de un banco o emisor y le pone una nota."
+    ],
+    [
+     "Conflicto de interés",
+     "Cuando quien debe evaluar a alguien depende de que ese alguien le pague."
+    ],
+    [
+     "Fallo de mercado",
+     "Situación en que el mercado libre no asigna bien los recursos; la falta de información es uno de ellos."
+    ]
+   ],
+   "diagramas": [
+    "bonos"
+   ],
+   "rel": [
+    "ips-ueno",
+    "ande-ueno",
+    "itaipu-tarifa-2027",
+    "bancos-felaban"
+   ],
+   "pregunta": {
+    "q": "¿Por qué que el banco pague a su calificadora puede ser un problema?",
+    "opts": [
+     "Porque puede crear un conflicto de interés y notas demasiado buenas",
+     "Porque las calificadoras no saben economía",
+     "Porque baja la tasa de interés del BCP",
+     "Porque obliga al Estado a depositar en ese banco"
+    ],
+    "ok": 0,
+    "fb": "Si la calificadora depende del pago del banco, puede tener incentivos para ser menos exigente. Por eso se pide supervisarlas."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Supervisores y reguladores",
+      "El caso da argumentos para fiscalizar a las calificadoras y exigir más información."
+     ],
+     [
+      "Bancos con buena gestión",
+      "Notas más exigentes los distinguirían mejor de los riesgosos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Entidades públicas que depositaron en Ueno",
+      "Confiaron en notas altas y ahora tienen fondos atrapados."
+     ],
+     [
+      "Calificadoras locales",
+      "Su credibilidad queda en duda."
+     ],
+     [
+      "Contribuyentes",
+      "Las pérdidas de entes públicos terminan afectando al presupuesto."
+     ]
+    ],
+    "corto": "Probables investigaciones a las calificadoras y revisión de dónde depositan sus fondos las entidades públicas.",
+    "largo": "Reglas más claras (límites por banco, más supervisión de calificadoras) pueden reducir el riesgo, aunque tienen costos de control.",
+    "supuestos": [
+     "Que las notas hayan influido en las decisiones de las entidades, algo que los datos no prueban por sí solos"
+    ],
+    "conclusion": "Las calificadoras reducen la falta de información, pero si dependen del pago del calificado pueden fallar; el caso Ueno muestra que hacen falta supervisión y límites para concentrar fondos públicos en un solo banco."
+   }
+  },
   {
    "id": "tpm-noviembre",
    "fecha": "2026-11-20",
@@ -2334,140 +2731,6 @@
    }
   },
   {
-   "id": "confianza-octubre",
-   "fecha": "2026-11-16",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/negocios/2026/11/16/indice-de-confianza-del-consumidor-se-hunde-en-el-pesimismo-segun-encuesta/",
-   "mas": [
-    [
-     "Última Hora",
-     "https://www.ultimahora.com/confianza-del-consumidor-subio-en-octubre-pero-sigue-en-rango-de-pesimismo",
-     "2026-11-16"
-    ]
-   ],
-   "titulo": "La confianza del consumidor sigue en pesimismo: 45,3 puntos en octubre",
-   "unidad": "macro",
-   "tema": "3.2",
-   "kc": "cambio",
-   "resumen": "El Índice de Confianza del Consumidor (ICC), que mide el INE y publica el BCP, llegó a 45,30 puntos en octubre: mejoró frente a los 39,09 de septiembre, pero sigue por debajo de 50, la línea que separa el optimismo del pesimismo. La encuesta se hizo antes de la caída de Ueno Bank, según ABC Color. Solo el 17 % de los encuestados dijo estar en condiciones de ahorrar.",
-   "contexto": "Llama la atención que la confianza sea baja con una economía que creció 5,5 % hasta septiembre y con inflación baja. ABC Color lo atribuye a los precios de combustibles y alimentos, el endeudamiento de los hogares, el atraso en los pagos del Estado a proveedores y el déficit fiscal. La confianza es un determinante del consumo, el componente más grande de la demanda agregada: si las familias esperan tiempos difíciles, gastan menos y ahorran por precaución. Como la encuesta es anterior a Ueno, el dato de noviembre podría ser peor.",
-   "datos": [
-    [
-     "45,30",
-     "ICC de octubre 2026 (50 = neutral)"
-    ],
-    [
-     "39,09",
-     "ICC de septiembre 2026"
-    ],
-    [
-     "33,34",
-     "Índice de situación económica actual (oct.)"
-    ],
-    [
-     "57,25",
-     "Índice de expectativas económicas (oct.); 66,25 un año antes"
-    ],
-    [
-     "17 %",
-     "Encuestados con disposición a ahorrar (12 % en septiembre)"
-    ],
-    [
-     "5,5 %",
-     "Crecimiento acumulado del IMAEP hasta septiembre"
-    ]
-   ],
-   "clave": [
-    "45,3",
-    "puntos: zona de pesimismo"
-   ],
-   "fig": {
-    "k": "macro",
-    "mueve": "D",
-    "dir": -1
-   },
-   "cap": "Si la confianza cae, el consumo baja y la DA se desplaza de DA₁ a DA₂: menos producción real y menos presión sobre los precios.",
-   "pasos": [
-    "Las familias perciben precios altos, deudas e incertidumbre",
-    "La confianza del consumidor queda por debajo de 50",
-    "Los hogares posponen compras y ahorran por precaución",
-    "Baja el consumo y la DA se desplaza a la izquierda",
-    "Se frena el crecimiento del PIB real"
-   ],
-   "conceptos": [
-    [
-     "Confianza del consumidor",
-     "Cómo ven las familias su situación y el futuro; influye en cuánto gastan."
-    ],
-    [
-     "Consumo (C)",
-     "Gasto de los hogares; el mayor componente de la DA."
-    ],
-    [
-     "Ahorro por precaución",
-     "Dinero que se guarda ante la incertidumbre en lugar de gastarlo."
-    ],
-    [
-     "Indicador adelantado",
-     "Dato que anticipa hacia dónde va la economía."
-    ]
-   ],
-   "diagramas": [
-    "da-oa-da",
-    "da-oa-oacp"
-   ],
-   "rel": [
-    "consumo-cae",
-    "imaep-setiembre",
-    "ventas-setiembre"
-   ],
-   "pregunta": {
-    "q": "¿Por qué una caída de la confianza del consumidor puede frenar la economía?",
-    "opts": [
-     "Porque los hogares gastan menos y baja la demanda agregada",
-     "Porque sube la oferta agregada",
-     "Porque el BCP sube la tasa automáticamente",
-     "Porque aumentan las exportaciones"
-    ],
-    "ok": 0,
-    "fb": "La confianza afecta al consumo, el componente más grande de la DA. Si las familias gastan menos, la DA se desplaza a la izquierda."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Bancos y cooperativas sólidos",
-      "Más personas con disposición a ahorrar pueden aumentar los depósitos."
-     ]
-    ],
-    "pierden": [
-     [
-      "Comercios y multitiendas",
-      "Venden menos justo antes de la temporada de fin de año."
-     ],
-     [
-      "Trabajadores del comercio",
-      "Menos ventas pueden traducirse en menos horas o despidos."
-     ]
-    ],
-    "corto": "La caída de Ueno puede hundir más el índice en noviembre y reducir las ventas de fin de año.",
-    "largo": "Si el Estado recupera credibilidad (pagos a proveedores, cuentas fiscales, sistema bancario), la confianza puede volver a zona de optimismo y sostener el consumo.",
-    "supuestos": [
-     "Que la encuesta refleje bien el ánimo de los hogares",
-     "Que la confianza se traduzca en decisiones de gasto",
-     "Que la crisis de Ueno no se extienda a otros bancos"
-    ],
-    "conclusion": "El crecimiento del PIB no alcanza para que las familias se sientan mejor; la confianza baja es una señal de alerta para el consumo, aunque por sí sola no garantiza una recesión."
-   },
-   "inst": [
-    "bcp",
-    "ine"
-   ],
-   "sector": [
-    "comercio"
-   ],
-   "opinion": false
-  },
-  {
    "id": "consumo-electrico",
    "fecha": "2026-11-16",
    "medio": "Última Hora",
@@ -3988,131 +4251,6 @@
    }
   },
   {
-   "id": "cooperativas-garantia",
-   "fecha": "2026-11-15",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.py/negocios/2026/11/12/ahorristas-de-cooperativa-poravoty-piden-destitucion-del-presidente-del-incoop/",
-   "titulo": "55 cooperativas en liquidación: ahorristas piden un fondo de garantía como el de los bancos",
-   "unidad": "micro",
-   "tema": "2.10",
-   "kc": "intervencion",
-   "resumen": "Ahorristas de la Cooperativa Poravoty, cerrada en enero de 2025 y en liquidación, pidieron la destitución del presidente interino del Incoop, Carlos Romero Roa, porque todavía no recuperaron sus ahorros, según La Nación. También pidieron al Congreso una ley que obligue a las cooperativas a hacer depósitos en el BCP para proteger a los socios, similar al Fondo de Garantía de Depósitos de los bancos. El diario indica que hoy hay 55 cooperativas en liquidación. Según Última Hora, tres cooperativas grandes (Universitaria, Coomecipar y Coopeduc) tienen más de G. 100.000 millones retenidos en Ueno; el Incoop asegura que su solvencia no está en riesgo, aunque a las cooperativas pequeñas el golpe les pesa más.",
-   "contexto": "Los depósitos en bancos tienen una garantía estatal hasta 75 salarios mínimos (la que se usó con Ueno), pero los ahorros en cooperativas no. Es un ejemplo de información asimétrica: el socio que ahorra no puede saber bien cómo se administra su cooperativa, y quienes la dirigen sí. La regulación (el Incoop) y los seguros de depósitos buscan corregir esa falla de mercado. Pero un seguro también tiene un costo: puede generar riesgo moral si los administradores asumen más riesgos sabiendo que los ahorros están protegidos.",
-   "datos": [
-    [
-     "55",
-     "Cooperativas en proceso de liquidación"
-    ],
-    [
-     "ene 2025",
-     "Cierre de la Cooperativa Poravoty"
-    ],
-    [
-     "17 nov",
-     "Manifestación convocada frente al Incoop"
-    ],
-    [
-     "G. 100.000 M+",
-     "Fondos de Universitaria, Coomecipar y Coopeduc retenidos en Ueno"
-    ],
-    [
-     "40 %",
-     "Máximo de fondos que una cooperativa puede tener en una sola entidad"
-    ]
-   ],
-   "clave": [
-    "55",
-    "cooperativas en liquidación"
-   ],
-   "fig": {
-    "k": "mercado",
-    "mueve": "D",
-    "dir": -1
-   },
-   "cap": "Cuando los socios desconfían de las cooperativas, baja la demanda de depósitos en ellas: D₁ pasa a D₂ y cae la cantidad ahorrada.",
-   "pasos": [
-    "Algunas cooperativas se administran mal y quiebran",
-    "Los socios no tenían información para anticiparlo",
-    "Pierden sus ahorros porque no hay garantía de depósitos",
-    "Baja la confianza y la demanda de ahorro en cooperativas",
-    "Se pide más regulación o un fondo de garantía"
-   ],
-   "conceptos": [
-    [
-     "Información asimétrica",
-     "Una parte de una transacción sabe más que la otra."
-    ],
-    [
-     "Riesgo moral",
-     "Tomar más riesgos cuando otro paga las pérdidas."
-    ],
-    [
-     "Garantía de depósitos",
-     "Seguro que devuelve los ahorros hasta un tope si la entidad quiebra."
-    ],
-    [
-     "Incoop",
-     "Instituto Nacional de Cooperativismo, el regulador de las cooperativas."
-    ]
-   ],
-   "diagramas": [
-    "oferta-demanda"
-   ],
-   "rel": [
-    "ueno-devolucion",
-    "ueno-intervencion",
-    "ueno-lotes"
-   ],
-   "pregunta": {
-    "q": "¿Qué falla de mercado explica mejor que los socios de una cooperativa no detecten a tiempo que está mal administrada?",
-    "opts": [
-     "Información asimétrica",
-     "Externalidad positiva",
-     "Bien público",
-     "Poder de monopolio"
-    ],
-    "ok": 0,
-    "fb": "Los administradores conocen la situación real de la cooperativa y los socios no: es información asimétrica, que la regulación y los seguros de depósitos intentan corregir."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Socios ahorristas (con un fondo de garantía)",
-      "Tendrían sus ahorros protegidos hasta un tope."
-     ],
-     [
-      "Cooperativas bien administradas",
-      "Más confianza atrae más ahorro."
-     ]
-    ],
-    "pierden": [
-     [
-      "Cooperativas",
-      "Tendrían que aportar al fondo, lo que sube sus costos."
-     ],
-     [
-      "Ahorristas de Poravoty",
-      "Siguen sin recuperar su dinero mientras dura la liquidación."
-     ]
-    ],
-    "corto": "La crisis de Ueno aumenta la presión para proteger también a los ahorristas de cooperativas.",
-    "largo": "Un fondo de garantía puede dar estabilidad al sector, siempre que venga con más supervisión para evitar el riesgo moral.",
-    "supuestos": [
-     "Que el Congreso trate una ley de fondo de garantía.",
-     "Que el Incoop tenga capacidad para supervisar a cientos de cooperativas."
-    ],
-    "conclusion": "Proteger los ahorros corrige una falla de información, pero sin supervisión fuerte un seguro puede incentivar más riesgo; la clave es combinar garantía y control."
-   },
-   "mas": [
-    [
-     "Última Hora",
-     "https://www.ultimahora.com/mas-de-g-100-000-millones-de-cooperativas-quedaron-en-ueno-pero-descartan-riesgos-de-solvencia",
-     "2026-11-15"
-    ]
-   ],
-   "inst": []
-  },
-  {
    "id": "fitch-revision",
    "fecha": "2026-11-11",
    "medio": "Última Hora",
@@ -4499,141 +4637,6 @@
      "Que el clima acompañe a la próxima cosecha."
     ],
     "conclusion": "La economía llegó fuerte a la crisis, lo que da margen, pero el freno del crédito puede bajar el crecimiento de fin de año."
-   }
-  },
-  {
-   "id": "conatel-ueno",
-   "fecha": "2026-11-10",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/economia/2026/11/10/conatel-movio-g-70000-millones-a-ueno-un-mes-antes-de-la-caida-del-banco/",
-   "titulo": "Conatel pasó G. 70.000 millones a Ueno un mes antes de la caída",
-   "unidad": "macro",
-   "tema": "3.6",
-   "kc": "intervencion",
-   "inst": [
-    "mef"
-   ],
-   "resumen": "Según ABC Color, la Comisión Nacional de Telecomunicaciones (Conatel) depositó G. 70.000 millones en Ueno Bank en octubre: G. 50.000 millones retirados de Banco Interfisa el 13 y G. 20.000 millones del BNF el 15. Es cerca del 15 % de sus recursos. Su gerente financiero, Germán Escurra, admitió que este año no podrá transferir al MEF los G. 200.000 millones previstos.",
-   "contexto": "Muchas entidades públicas colocan su dinero en bancos para ganar intereses y luego transfieren excedentes al Tesoro: en 2025, Conatel aportó G. 118.000 millones al Estado. Si esos fondos quedan atrapados, el MEF recibe menos ingresos y el déficit fiscal puede crecer. Conatel presentó una denuncia penal y pidió al BCP prioridad para recuperar el dinero; su director Andrés Arrúa sostuvo que confiaron en los indicadores públicos del BCP. ABC Color pregunta si fue ingenuidad, exceso de confianza o una decisión tomada más arriba, porque no están claros los criterios para elegir a Ueno.",
-   "datos": [
-    [
-     "G. 70.000 M",
-     "Fondos de Conatel depositados en Ueno"
-    ],
-    [
-     "≈ 15 %",
-     "Parte de los recursos de Conatel"
-    ],
-    [
-     "G. 200.000 M",
-     "Transferencia anual comprometida al MEF, que no se cumplirá"
-    ],
-    [
-     "G. 118.000 M",
-     "Lo que Conatel transfirió al Estado en 2025"
-    ]
-   ],
-   "clave": [
-    "G. 70.000 M",
-    "de Conatel quedaron en Ueno"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "miles de millones de G.",
-    "rows": [
-     [
-      "Desde Interfisa (13 oct)",
-      50
-     ],
-     [
-      "Desde el BNF (15 oct)",
-      20
-     ],
-     [
-      "Transferido al Estado en 2025",
-      118
-     ],
-     [
-      "Meta de transferencia 2026",
-      200,
-      1
-     ]
-    ]
-   },
-   "cap": "Fondos que Conatel movió a Ueno y transferencias al Tesoro, en miles de millones de guaraníes, según ABC Color.",
-   "pasos": [
-    "Conatel coloca sus excedentes en bancos para ganar intereses",
-    "En octubre mueve G. 70.000 millones a Ueno",
-    "Ueno es intervenido y el dinero queda atrapado",
-    "Conatel no podrá transferir lo previsto al MEF",
-    "El Tesoro recibe menos ingresos y el déficit puede crecer"
-   ],
-   "conceptos": [
-    [
-     "Ingresos no tributarios",
-     "Recursos del Estado que no son impuestos, como las transferencias de entes públicos."
-    ],
-    [
-     "Déficit fiscal",
-     "Cuando el gasto público supera los ingresos en un año."
-    ],
-    [
-     "Problema principal-agente",
-     "Quien decide (el funcionario) no arriesga su propio dinero, sino el del público."
-    ],
-    [
-     "Diversificación",
-     "Repartir los fondos entre varios bancos para reducir el riesgo."
-    ]
-   ],
-   "diagramas": [
-    "politica-fiscal"
-   ],
-   "rel": [
-    "ande-ueno",
-    "ips-ueno",
-    "deuda-setiembre",
-    "ueno-morosidad"
-   ],
-   "pregunta": {
-    "q": "¿Cómo afecta al presupuesto que fondos de entes públicos queden atrapados en un banco quebrado?",
-    "opts": [
-     "Bajan los ingresos del Tesoro y puede crecer el déficit",
-     "Sube automáticamente la recaudación de impuestos",
-     "Baja la deuda pública",
-     "No tiene ningún efecto fiscal"
-    ],
-    "ok": 0,
-    "fb": "Conatel no podrá transferir los G. 200.000 millones previstos: el Estado recibe menos ingresos y, si mantiene su gasto, el déficit aumenta."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Bancos que reciben fondos públicos",
-      "Captan depósitos grandes y estables, aunque aquí el banco cayó."
-     ]
-    ],
-    "pierden": [
-     [
-      "Tesoro (MEF)",
-      "Recibirá menos transferencias de Conatel este año."
-     ],
-     [
-      "Contribuyentes",
-      "Si faltan ingresos, el déficit se cubre con más deuda o recortes."
-     ],
-     [
-      "Credibilidad de la gestión pública",
-      "No están claros los criterios para elegir a Ueno."
-     ]
-    ],
-    "corto": "Menos ingresos no tributarios en 2026 y una investigación penal en curso.",
-    "largo": "Puede llevar a reglas más estrictas para que los entes públicos diversifiquen sus depósitos y prioricen bancos más sólidos.",
-    "supuestos": [
-     "Que los fondos no se recuperen pronto en la liquidación",
-     "Lo que dicen los funcionarios de Conatel no fue verificado por la Justicia"
-    ],
-    "conclusion": "El caso muestra que el riesgo de un banco se traslada al presupuesto cuando el Estado deposita allí; más que buscar más interés, las entidades públicas necesitan reglas de diversificación y transparencia."
    }
   },
   {
@@ -5447,6 +5450,11 @@
      "Última Hora",
      "https://www.ultimahora.com/marco-riquelme-lidera-el-equipo-tecnico-de-negociacion-en-itaipu",
      "2026-11-18"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/nuevos-nombres-en-itaipu-ejecutivo-renueva-la-conduccion-paraguaya-de-la-binacional",
+     "2026-11-21"
     ]
    ]
   },
@@ -5619,7 +5627,7 @@
   },
   {
    "id": "consumo-cae",
-   "fecha": "2026-11-20",
+   "fecha": "2026-11-21",
    "medio": "La Nación",
    "url": "https://www.lanacion.com.py/negocios/2026/11/09/crisis-de-ueno-bank-pone-en-riesgo-el-repunte-de-ventas-en-diciembre-advierte-capasu/",
    "mas": [
@@ -5657,6 +5665,16 @@
      "Última Hora",
      "https://www.ultimahora.com/sector-gastronomico-sufre-caida-del-30-en-ventas-en-octubre",
      "2026-11-20"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/21/ventas-en-supermercados-se-normalizan-tras-crisis-con-ueno-bank-afirma-capasu/",
+     "2026-11-21"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/21/gremio-advierte-que-clientes-siguen-yendo-a-restaurantes-pero-gastan-menos-tras-caso-ueno-bank/",
+     "2026-11-21"
     ]
    ],
    "titulo": "La crisis de Ueno frena el consumo: multitiendas venden hasta 70 % menos",
@@ -5666,9 +5684,17 @@
    "sector": [
     "comercio"
    ],
-   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo. El 13 de noviembre, Asimcopar informó que sus ventas siguen 30 % abajo y que el efectivo pasó a ser el 70 % de los pagos; antes de la crisis cerca del 80 % de las compras se hacían con medios digitales (Última Hora). El 18 de noviembre, el presidente de Asimcopar, Eugenio Caje, dijo a La Nación que las ventas siguen entre 30 % y 40 % abajo, que 8 de cada 10 pagos se hacen en efectivo y que solo llega el 10 % de los unos 100 contenedores semanales habituales; el gremio pidió al MIC un préstamo puente. El 20 de noviembre, ABC Color describió el Mercadito de Asunción casi vacío: muchos clientes pagaban con tarjetas o transferencias de Ueno, ahora pagan en efectivo y el efectivo escasea; los vendedores dicen que no pueden bajar precios y tratan de no subirlos. Según Última Hora, el presidente de la Asociación de Restaurantes (Arpy), Oliver Gayet, estima que la gastronomía facturó 30 % menos en octubre que un año antes (20 % menos en septiembre) y que los primeros días de noviembre fueron peores, sobre todo en delivery.",
+   "resumen": "Según La Nación, los socios de Asimcopar (importadores y comerciantes) reportan caídas de ventas de hasta 70 % en las multitiendas tras la caída de Ueno Bank. La Cámara de Supermercados (Capasu) dice que sus ventas cayeron cerca de 10 % en las primeras 72 horas y que unas 9.000 personas podrían quedar sin empleo entre trabajadores directos e indirectos del grupo. El 13 de noviembre, Asimcopar informó que sus ventas siguen 30 % abajo y que el efectivo pasó a ser el 70 % de los pagos; antes de la crisis cerca del 80 % de las compras se hacían con medios digitales (Última Hora). El 18 de noviembre, el presidente de Asimcopar, Eugenio Caje, dijo a La Nación que las ventas siguen entre 30 % y 40 % abajo, que 8 de cada 10 pagos se hacen en efectivo y que solo llega el 10 % de los unos 100 contenedores semanales habituales; el gremio pidió al MIC un préstamo puente. El 20 de noviembre, ABC Color describió el Mercadito de Asunción casi vacío: muchos clientes pagaban con tarjetas o transferencias de Ueno, ahora pagan en efectivo y el efectivo escasea; los vendedores dicen que no pueden bajar precios y tratan de no subirlos. Según Última Hora, el presidente de la Asociación de Restaurantes (Arpy), Oliver Gayet, estima que la gastronomía facturó 30 % menos en octubre que un año antes (20 % menos en septiembre) y que los primeros días de noviembre fueron peores, sobre todo en delivery. El 21 de noviembre, el presidente de Capasu, Gustavo Lezcano, dijo a ABC Color que las ventas de los supermercados volvieron a niveles normales, aunque rubros de ocio como las bebidas alcohólicas siguen rezagados; Gayet (Arpy) contó a ABC que la gente sigue saliendo a comer, pero gasta menos, y que las empresas reducen a la mitad lo que pagan por persona en eventos de fin de año.",
    "contexto": "El consumo es el componente más grande de la demanda agregada. Cuando miles de familias no pueden usar sus ahorros por unos días y crece la incertidumbre, gastan menos y la DA se mueve a la izquierda. Según Capasu, las ventas empezaron a normalizarse a medida que el Fondo de Garantía de Depósitos devolvió el dinero a los pequeños ahorristas, pero el riesgo ahora es el desempleo: hasta octubre los supermercados crecían entre 8 % y 10 %, y en diciembre suelen vender entre 15 % y 20 % más que otros meses por el aguinaldo. Asimcopar advierte además que muchos comercios perdieron capital para reponer mercadería, y que la mitad de lo que venden las multitiendas lo producen mipymes nacionales.",
    "datos": [
+    [
+     "Normal",
+     "Ventas de supermercados al 21 de noviembre, según Capasu (algunos rubros de ocio siguen bajos)"
+    ],
+    [
+     "−50 %",
+     "Gasto por persona en eventos empresariales de fin de año frente a 2025 (G. 250.000-400.000 el año pasado), según Arpy"
+    ],
     [
      "−30 %",
      "Caída de la facturación de la gastronomía en octubre (Arpy)"
@@ -9334,7 +9360,7 @@
   },
   "2026-11-16": {
    "titulo": "Después de los anticipos: repartir Ueno y aprobar el Presupuesto",
-   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año. El miércoles 18, el BCP estimó que el agujero de Ueno está entre US$ 1.000 y 1.500 millones: los activos alcanzan para los depositantes, pero no para los bonistas, y el país podría enfrentar demandas en Nueva York. Ese mismo día Alliana cambió al director de Itaipú, que tenía US$ 163,8 millones en Ueno, y fijó como meta acordar con Brasil la tarifa 2027 antes del 31 de diciembre; el Senado prevé votar el Presupuesto el 24 de noviembre. El jueves 19, gremios empresariales propusieron recortar US$ 670 millones del Presupuesto y bajar el déficit a 2,9 %; la Conacom acusó a Frigorífico Concepción y Frigomerc de abusar de su poder sobre los ganaderos, y los bonistas del primero aceptaron reestructurar su deuda. Alliana aseguró que se devolverá todo el dinero de los ahorristas de Ueno, mientras el Black Friday llenó Ciudad del Este de compradores brasileños. El viernes 20, ABC Color informó que el Ejecutivo pidió al Senado administrar por hasta ocho meses las empresas vinculadas a Ueno, y que los comercios del Mercadito de Asunción siguen casi vacíos por la falta de efectivo. Ese mismo viernes, el BCP mantuvo la tasa en 5,50 % en su primera reunión tras Ueno, la AFD lanzó créditos de hasta G. 350 millones para mipymes que facturan hasta 35 % menos, y el dólar volvió a G. 6.400 en casas de cambio; Capeco informó que se exporta 37 % menos maíz porque crece su uso en el país. El sábado 21, un informe de FELABAN mostró que antes de la crisis los bancos paraguayos eran rentables, pero con menos previsiones que sus vecinos.",
+   "texto": "La semana empieza con el vencimiento del balance de exclusión de Ueno: el BCP separará activos y pasivos para licitarlos entre bancos y financieras y pagar el resto de la garantía. El Presupuesto 2027 está en el Senado, que tiene 15 días para sancionarlo, mientras el exministro Benigno López advierte que los recortes no alcanzan. El dólar se calmó en G. 6.150 y los transportistas presionan por una baja mayor del diésel. Entre las buenas noticias, Alemania ratificó el acuerdo Mercosur–UE y las exportaciones de pollo crecen 76 %. El lunes 16, el Gobierno y los gremios crearon un Gabinete de Impulso Económico para cambiar el Presupuesto en el Senado, y Alliana anunció recortes en Hambre Cero. La confianza del consumidor siguió en pesimismo aun antes de Ueno. El martes 17, el MEF informó que el déficit de doce meses llegó a 3,2 % del PIB porque el gasto crece 10,8 % y los ingresos solo 1 %, y el BCP dejó refinanciar sus deudas a las mipymes afectadas; la encuesta de expectativas ya espera un dólar de G. 6.255 a fin de año. El miércoles 18, el BCP estimó que el agujero de Ueno está entre US$ 1.000 y 1.500 millones: los activos alcanzan para los depositantes, pero no para los bonistas, y el país podría enfrentar demandas en Nueva York. Ese mismo día Alliana cambió al director de Itaipú, que tenía US$ 163,8 millones en Ueno, y fijó como meta acordar con Brasil la tarifa 2027 antes del 31 de diciembre; el Senado prevé votar el Presupuesto el 24 de noviembre. El jueves 19, gremios empresariales propusieron recortar US$ 670 millones del Presupuesto y bajar el déficit a 2,9 %; la Conacom acusó a Frigorífico Concepción y Frigomerc de abusar de su poder sobre los ganaderos, y los bonistas del primero aceptaron reestructurar su deuda. Alliana aseguró que se devolverá todo el dinero de los ahorristas de Ueno, mientras el Black Friday llenó Ciudad del Este de compradores brasileños. El viernes 20, ABC Color informó que el Ejecutivo pidió al Senado administrar por hasta ocho meses las empresas vinculadas a Ueno, y que los comercios del Mercadito de Asunción siguen casi vacíos por la falta de efectivo. Ese mismo viernes, el BCP mantuvo la tasa en 5,50 % en su primera reunión tras Ueno, la AFD lanzó créditos de hasta G. 350 millones para mipymes que facturan hasta 35 % menos, y el dólar volvió a G. 6.400 en casas de cambio; Capeco informó que se exporta 37 % menos maíz porque crece su uso en el país. El sábado 21, un informe de FELABAN mostró que antes de la crisis los bancos paraguayos eran rentables, pero con menos previsiones que sus vecinos. El fin de semana, Última Hora mostró que la parte de Ueno en los depósitos públicos llegó a 22,9 % en dólares, impulsada en parte por buenas notas de las calificadoras; la APPEC informó que la faena de vacunos cae 20 % en el año, y Capasu dijo que las ventas de los supermercados ya se normalizan.",
    "claves": [
     "ueno-deficit",
     "pgn-suspendido",
@@ -10553,6 +10579,10 @@
     [
      "−37 %",
      "Maíz zafra exportado de junio a octubre frente a 2025 (Capeco, Última Hora, 20 nov)"
+    ],
+    [
+     "1.514.248",
+     "Vacunos faenados en enero-octubre (−20 %, APPEC)"
     ]
    ],
    "graficos": [
@@ -10614,7 +10644,7 @@
      ]
     }
    ],
-   "fuente": "Capeco y La Nación (14 nov 2026); Senacsa y La Prensa (2 nov 2026). Senacsa y Última Hora (15 nov 2026).",
+   "fuente": "Capeco y La Nación (14 nov 2026); Senacsa y La Prensa (2 nov 2026). Senacsa y Última Hora (15 nov 2026). APPEC y Última Hora (21 nov 2026).",
    "actores": [
     [
      "Capeco",
@@ -11072,7 +11102,8 @@
     "caja-fiscal-octubre",
     "ueno-vinculadas",
     "tpm-noviembre",
-    "bancos-felaban"
+    "bancos-felaban",
+    "calificadoras-ueno"
    ],
    "hitos": [
     [
@@ -11281,6 +11312,16 @@
      "2026-11-21",
      "FELABAN: antes de Ueno, los bancos paraguayos tenían menos previsiones que la región.",
      "bancos-felaban"
+    ],
+    [
+     "2026-11-21",
+     "Datos del MEF: la parte de Ueno en los depósitos públicos llegó a 22,9 % en dólares; se cuestiona a las calificadoras.",
+     "calificadoras-ueno"
+    ],
+    [
+     "2026-11-21",
+     "Capasu dice que las ventas de supermercados se normalizan; los restaurantes reportan menos gasto por cliente.",
+     "consumo-cae"
     ]
    ]
   },
@@ -14803,7 +14844,7 @@
  },
  "cambios": {
   "fecha": "2026-11-21",
-  "hora": "07:55",
+  "hora": "12:16",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -14811,7 +14852,7 @@
    [
     "USD",
     "Dólar estadounidense",
-    6000,
+    5900,
     6400
    ],
    [
@@ -14897,7 +14938,7 @@
     ],
     [
      "2026-11-21",
-     6000,
+     5900,
      6400
     ]
    ],
@@ -15173,6 +15214,11 @@
     "30-35 %",
     "Caída de la facturación de las mipymes en las dos primeras semanas (Fedemipymes)",
     "mipymes-fogapy"
+   ],
+   [
+    "22,9 %",
+    "Parte de Ueno en los depósitos públicos en dólares (sep. 2026, MEF)",
+    "calificadoras-ueno"
    ]
   ],
   "actores": [
