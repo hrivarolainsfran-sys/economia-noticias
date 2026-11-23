@@ -897,7 +897,7 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 }
 /* Comentarios IA */
 .ia-page .sec-head h1{max-width:22ch}
-.ia-rules{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:6px 0 10px}
+.ia-rules{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:6px 0 10px}
 .ia-rule{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;display:grid;gap:2px;align-content:start}
 .ia-rule b{font-family:var(--f-display);font-size:2rem;line-height:1;color:var(--navy-2)}
 .ia-rule strong{font-size:.98rem}
@@ -917,6 +917,7 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 .ia-slot select{font:inherit;font-size:.9rem;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:4px 6px}
 .ia-x{position:absolute;top:6px;right:8px;border:0;background:none;font-size:1.2rem;line-height:1;color:var(--muted);cursor:pointer;padding:2px 4px}
 .ia-x:hover{color:var(--bad)}
+.ia-send{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:12px}.ia-send .note{margin:0;font-size:.86rem}
 .ia-checks{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem}
 .ia-checks .ok{color:var(--ok)}.ia-checks .bad{color:var(--bad);font-weight:600}.ia-checks .wait{color:var(--muted)}
 .ia-combos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:30px}
@@ -961,6 +962,7 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 .ia-tip strong{display:block;font-size:.95rem}
 .ia-tip p{margin:2px 0 0;font-size:.88rem;color:var(--ink-2)}
 .ia-foot{margin-top:4px}
+@media(max-width:980px){.ia-rules{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:860px){.ia-rules{grid-template-columns:repeat(2,minmax(0,1fr))}.ia-slots,.ia-combos{grid-template-columns:1fr}}
 </style>
 
@@ -1943,10 +1945,14 @@ function renderEmpresas() {
 
 /* Comentarios IA: artículos para el portafolio de la evaluación interna */
 const IA_UNI = { 2: ['micro', 'Microeconomía'], 3: ['macro', 'Macroeconomía'], 4: ['global', 'Economía global'] };
-const IA_REGLAS = [['3', 'comentarios', 'de hasta 800 palabras cada uno'], ['3', 'unidades distintas', 'Unidad 2, 3 y 4 (la Unidad 1 no cuenta)'], ['3', 'conceptos clave distintos', 'uno como lente de cada comentario'], ['1', 'año como máximo', 'entre la publicación del artículo y tu comentario']];
-const IA_DETALLE = ['El artículo debe venir de un medio de noticias: un diario, una revista o un sitio de noticias. No sirven libros, blogs personales ni páginas de estudio.', 'Trabaja con el artículo original del diario, no con el resumen de esta página. Guarda el enlace, la fecha y una copia.', 'En cada comentario se evalúa: diagramas, terminología, aplicación y análisis, el uso del concepto clave y la evaluación.', 'Adjunta el artículo a cada comentario e indica la unidad, el concepto clave, la fecha de publicación y la fecha en que escribiste.'];
+const IA_REGLAS = [['3', 'comentarios', 'de hasta 800 palabras cada uno'], ['3', 'unidades distintas', 'Unidad 2, 3 y 4 (la Unidad 1 no cuenta)'], ['3', 'conceptos clave distintos', 'uno como lente de cada comentario'], ['3', 'fuentes distintas', 'un medio diferente para cada comentario'], ['1', 'año como máximo', 'entre la publicación del artículo y tu comentario']];
+const IA_DETALLE = ['El artículo debe venir de un medio de noticias: un diario, una revista o un sitio de noticias. No sirven la televisión, la radio, las redes sociales, los libros, los blogs personales ni las páginas de estudio.', 'Trabaja con el artículo original del diario, no con el resumen de esta página. Guarda el enlace, la fecha y una copia.', 'En cada comentario se evalúa: diagramas, terminología, aplicación y análisis, el uso del concepto clave y la evaluación.', 'Adjunta el artículo a cada comentario e indica la unidad, el concepto clave, la fecha de publicación y la fecha en que escribiste.'];
 const IA_TIPS = [['Un solo problema económico', 'Elige artículos que traten un tema claro, no un resumen de muchas noticias.'], ['Con cifras', 'Precios, porcentajes o cantidades te ayudan a aplicar la teoría al caso real.'], ['Con una decisión para evaluar', 'Un impuesto, una tasa, una multa o un acuerdo: así tienes algo que evaluar.'], ['Que se pueda dibujar', 'Antes de elegir, piensa qué diagrama del programa vas a usar.'], ['Mejor noticias que columnas', 'Si el artículo ya trae todo el análisis, te deja poco para aportar a ti.'], ['Corto y de un medio confiable', 'Una o dos páginas alcanzan. Evita artículos con muro de pago si no puedes guardarlos.']];
 let IA_F = { u: 'todas', kc: 'todos', solo: true };
+const TALLER = 'https://hrivarolainsfran-sys.github.io/atlas-diagramas/taller/';
+const iaB64 = o => btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+const iaArt = (n, kc) => ({ t: n.titulo, m: n.medio, u: n.url, p: iaPub(n), n: iaUnidad(n), k: kc || '' });
+const iaTaller = (x, arts) => TALLER + '?art=' + iaB64({ x, a: arts }) + '#' + (x === 'val' ? 'ei-articulo' : 'escribir-ei');
 const iaUnidad = n => { const t = parseInt(n.tema, 10); return IA_UNI[t] ? t : ({ micro: 2, macro: 3, global: 4 })[n.unidad]; };
 const iaPub = n => { const m = (n.url || '').match(/\/(20\d\d)\/(\d\d)\/(\d\d)\//); return m && m[1] + '-' + m[2] + '-' + m[3] <= n.fecha ? m[1] + '-' + m[2] + '-' + m[3] : n.fecha; };
 const iaHasta = n => { const d = pd(iaPub(n)); d.setFullYear(d.getFullYear() + 1); return iso(d); };
@@ -1970,7 +1976,7 @@ function iaCard(x, P) {
     <dl class="ia-dl"><div><dt>Concepto clave</dt><dd>${kcs.map(([k, t]) => `<span><b>${KC[k]}.</b> ${esc(t)}</span>`).join('')}</dd></div><div><dt>Diagrama</dt><dd>${esc(r.dg)}</dd></div><div><dt>Para evaluar</dt><dd>${esc(r.ev)}</dd></div></dl>`
     : `<p class="ia-por">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p><div class="tags">${n.diagramas.map(k => `<span class="tag">${esc(LIB[k].t)}</span>`).join('')}${KC[n.kc] ? `<span class="tag kc">${KC[n.kc]}</span>` : ''}</div>`}
     <div class="ia-ft"><span class="ia-ven${dias < 60 ? ' warn' : ''}">${dias < 60 ? 'Vence pronto: ' : 'Sirve hasta el '}${fdate(iaHasta(n))}</span>
-      <div class="ia-btns"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Artículo original ↗</a><a class="btn" href="#n-${n.id}">Ver el análisis</a><button type="button" class="btn ia-pick${sel ? ' on' : ''}" data-id="${n.id}" data-u="${u}" data-kc="${kcs[0] ? kcs[0][0] : ''}" aria-pressed="${sel}">${sel ? '✓ En mi portafolio' : '+ Elegir para la Unidad ' + u}</button></div></div>
+      <div class="ia-btns"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Artículo original ↗</a><a class="btn" href="#n-${n.id}">Ver el análisis</a><a class="btn" href="${iaTaller('val', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Validar en el Taller ↗</a><a class="btn" href="${iaTaller('esc', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Escribir en el Taller ↗</a><button type="button" class="btn ia-pick${sel ? ' on' : ''}" data-id="${n.id}" data-u="${u}" data-kc="${kcs[0] ? kcs[0][0] : ''}" aria-pressed="${sel}">${sel ? '✓ En mi portafolio' : '+ Elegir para la Unidad ' + u}</button></div></div>
   </article>`;
 }
 function iaPortHTML(P) {
@@ -1979,7 +1985,8 @@ function iaPortHTML(P) {
   const medios = full.map(s => s.x.n.medio), pronto = full.filter(s => iaDias(s.x.n) < 60);
   const chk = (c, t) => `<li class="${c}">${c === 'ok' ? '✓' : c === 'bad' ? '✗' : '○'} ${t}</li>`;
   return `<div class="ia-slots">${slots.map(({ u, p, x }) => `<div class="ia-slot${x ? ' on' : ''}" style="--uc:var(--u-${IA_UNI[u][0]})"><small>Unidad ${u} · ${IA_UNI[u][1]}</small>${x ? `<a href="#n-${x.n.id}">${esc(x.n.titulo)}</a><label>Concepto clave <select data-slot="${u}"><option value="">Elige uno</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${p.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label><button type="button" class="ia-x" data-slot="${u}" aria-label="Quitar el artículo de la Unidad ${u}">×</button>` : `<span class="note">Todavía no elegiste un artículo de esta unidad.</span>`}</div>`).join('')}</div>
-    <ul class="ia-checks">${chk(full.length === 3 ? 'ok' : 'wait', `Un artículo por unidad (${full.length} de 3)`)}${chk(dup ? 'bad' : kcs.length === 3 ? 'ok' : 'wait', dup ? 'Repetiste un concepto clave: cada comentario necesita uno distinto' : `Tres conceptos clave distintos (${kcs.length} de 3)`)}${chk(pronto.length ? 'bad' : full.length ? 'ok' : 'wait', pronto.length ? `Escribe pronto: un artículo deja de servir el ${fdate(iaHasta(pronto[0].x.n))}` : 'Artículos con menos de un año')}${full.length > 1 ? chk(new Set(medios).size === medios.length ? 'ok' : 'wait', new Set(medios).size === medios.length ? 'Medios distintos (recomendado)' : 'Dos artículos del mismo medio: se permite, pero conviene variar') : ''}</ul>`;
+    <ul class="ia-checks">${chk(full.length === 3 ? 'ok' : 'wait', `Un artículo por unidad (${full.length} de 3)`)}${chk(dup ? 'bad' : kcs.length === 3 ? 'ok' : 'wait', dup ? 'Repetiste un concepto clave: cada comentario necesita uno distinto' : `Tres conceptos clave distintos (${kcs.length} de 3)`)}${chk(pronto.length ? 'bad' : full.length ? 'ok' : 'wait', pronto.length ? `Escribe pronto: un artículo deja de servir el ${fdate(iaHasta(pronto[0].x.n))}` : 'Artículos con menos de un año')}${chk(new Set(medios).size !== medios.length ? 'bad' : full.length === 3 ? 'ok' : 'wait', new Set(medios).size !== medios.length ? 'Repetiste un medio: cada comentario necesita una fuente distinta' : 'Un medio distinto para cada comentario')}</ul>
+    <div class="ia-send">${full.length ? `<a class="btn primary" href="${iaTaller('esc', full.map(s => iaArt(s.x.n, s.p.kc)))}" target="_blank" rel="noopener">${full.length === 1 ? 'Pasar este artículo al Taller' : `Pasar mis ${full.length} artículos al Taller`} →</a>` : ''}<span class="note">En el <a href="${TALLER}#escribir-ei" target="_blank" rel="noopener">Taller de Economía IB</a> escribes cada comentario con la rúbrica, el planificador y los modelos.</span></div>`;
 }
 function renderIA() {
   $('#app').innerHTML = '<div class="wrap"><p class="note" style="padding-block:40px">Cargando los artículos…</p></div>';
@@ -1989,10 +1996,10 @@ function drawIA() {
   const L = iaLista(), R = iaRecs(), P = iaPort(), BY = Object.fromEntries(L.map(x => [x.n.id, x]));
   const combos = ((IAREC && IAREC.combos) || []).map(c => Object.assign({}, c, { xs: c.ids.map(([id, kc]) => BY[id] && { x: BY[id], kc }) })).filter(c => c.xs.every(Boolean));
   $('#app').innerHTML = `<div class="wrap ia-page">
-    <div class="sec-head"><div><div class="eyebrow">Evaluación interna · Economía IB</div><h1>Artículos para tus tres comentarios</h1><p class="lede">Noticias económicas de Paraguay elegidas para el portafolio de la evaluación interna. Cada una trae el concepto clave que mejor le queda, el diagrama que puedes usar y qué evaluar. Elige tres, una de cada unidad.</p></div></div>
+    <div class="sec-head"><div><div class="eyebrow">Evaluación interna · Economía IB</div><h1>Artículos para tus tres comentarios</h1><p class="lede">Noticias económicas de Paraguay elegidas para el portafolio de la evaluación interna. Cada una trae el concepto clave que mejor le queda, el diagrama que puedes usar y qué evaluar. Elige tres, una de cada unidad y de medios distintos, y pásalas al Taller de Economía IB para escribir tus comentarios.</p></div></div>
     <section class="ia-rules" aria-label="Reglas del portafolio">${IA_REGLAS.map(([n, t, d]) => `<div class="ia-rule"><b>${n}</b><strong>${t}</strong><span>${d}</span></div>`).join('')}</section>
     <details class="ia-more"><summary>Más reglas importantes</summary><ul>${IA_DETALLE.map(t => `<li>${esc(t)}</li>`).join('')}</ul></details>
-    <section class="ia-port" id="ia-port"><div class="ia-port-h"><div><div class="eyebrow">Tu elección</div><h2>Mi portafolio</h2></div><span class="note">Se guarda solo en este dispositivo</span></div><div id="ia-port-in">${iaPortHTML(P)}</div></section>
+    <section class="ia-port" id="ia-port"><div class="ia-port-h"><div><div class="eyebrow">Tu elección</div><h2>Mi preselección</h2></div><span class="note">Se guarda en este dispositivo. La carpeta se escribe en el Taller.</span></div><div id="ia-port-in">${iaPortHTML(P)}</div></section>
     ${combos.length ? `<section class="ia-combos-s"><div class="sec-head"><div><div class="eyebrow">Lo que recomiendo</div><h2>Tres combinaciones que funcionan</h2></div><span class="note">Una unidad y un concepto distinto en cada artículo</span></div>
     <div class="ia-combos">${combos.map((c, i) => `<article class="ia-combo${i ? '' : ' top'}">${i ? '' : '<span class="ia-badge">Mi recomendación</span>'}<h3>${esc(c.t)}</h3><p>${esc(c.por)}</p><ol>${c.xs.map(({ x, kc }) => `<li style="--uc:var(--u-${IA_UNI[x.u][0]})"><small>Unidad ${x.u} · ${KC[kc]}</small><a href="#n-${x.n.id}">${esc(x.n.titulo)}</a></li>`).join('')}</ol><button type="button" class="btn${i ? '' : ' primary'} ia-combo-use" data-i="${i}">Usar esta combinación</button></article>`).join('')}</div></section>` : ''}
     <section><div class="sec-head"><div><div class="eyebrow">Elige tú</div><h2>Todos los artículos disponibles</h2></div><span class="note" id="ia-count" role="status"></span></div>
