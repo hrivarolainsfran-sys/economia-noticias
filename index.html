@@ -918,6 +918,16 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 .ia-x{position:absolute;top:6px;right:8px;border:0;background:none;font-size:1.2rem;line-height:1;color:var(--muted);cursor:pointer;padding:2px 4px}
 .ia-x:hover{color:var(--bad)}
 .ia-send{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:12px}.ia-send .note{margin:0;font-size:.86rem}
+.ia-orig{margin:-4px 0 0;font-size:.86rem;color:var(--ink-2);font-style:italic}.ia-orig span{font-style:normal;font-weight:600;color:var(--muted)}
+.ia-prof{margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:10px 18px;align-items:end}
+.ia-prof-t{display:grid;gap:2px}.ia-prof-t .note{margin:0;font-size:.86rem}
+.ia-prof-n{display:grid;gap:3px;font-size:.8rem;color:var(--muted)}
+.ia-prof-n input{font:inherit;font-size:.95rem;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:6px 8px;min-width:0}
+.ia-prof-n input[aria-invalid]{border-color:var(--bad);outline:1px solid var(--bad)}
+.ia-prof-b{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px}
+.ia-prof-m{grid-column:1/-1;margin:0;font-size:.86rem;min-height:0}.ia-prof-m:empty{display:none}
+.ia-bk{margin:14px 0 0;padding:10px 12px;border-radius:8px;background:var(--paper);font-size:.86rem;color:var(--ink-2)}
+@media (max-width:860px){.ia-prof{grid-template-columns:1fr}}
 .ia-checks{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem}
 .ia-checks .ok{color:var(--ok)}.ia-checks .bad{color:var(--bad);font-weight:600}.ia-checks .wait{color:var(--muted)}
 .ia-combos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:30px}
@@ -1951,10 +1961,11 @@ const IA_TIPS = [['Un solo problema económico', 'Elige artículos que traten un
 let IA_F = { u: 'todas', kc: 'todos', solo: true };
 const TALLER = 'https://hrivarolainsfran-sys.github.io/atlas-diagramas/taller/';
 const iaB64 = o => btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-const iaArt = (n, kc) => ({ t: n.titulo, m: n.medio, u: n.url, p: iaPub(n), n: iaUnidad(n), k: kc || '' });
+const iaRec = id => ((IAREC && IAREC.recomendados) || []).find(r => r.id === id);
+const iaArt = (n, kc) => { const r = iaRec(n.id) || {}; return Object.assign({ t: r.to || n.titulo, m: n.medio, u: n.url, p: iaPub(n), n: iaUnidad(n), k: kc || '' }, r.to ? { o: 1 } : {}); };
 const iaTaller = (x, arts) => TALLER + '?art=' + iaB64({ x, a: arts }) + '#' + (x === 'val' ? 'ei-articulo' : 'escribir-ei');
 const iaUnidad = n => { const t = parseInt(n.tema, 10); return IA_UNI[t] ? t : ({ micro: 2, macro: 3, global: 4 })[n.unidad]; };
-const iaPub = n => { const m = (n.url || '').match(/\/(20\d\d)\/(\d\d)\/(\d\d)\//); return m && m[1] + '-' + m[2] + '-' + m[3] <= n.fecha ? m[1] + '-' + m[2] + '-' + m[3] : n.fecha; };
+const iaPub = n => { const r = iaRec(n.id); if (r && /^\d{4}-\d\d-\d\d$/.test(r.fo || '') && r.fo <= n.fecha) return r.fo; const m = (n.url || '').match(/\/(20\d\d)\/(\d\d)\/(\d\d)\//); return m && m[1] + '-' + m[2] + '-' + m[3] <= n.fecha ? m[1] + '-' + m[2] + '-' + m[3] : n.fecha; };
 const iaHasta = n => { const d = pd(iaPub(n)); d.setFullYear(d.getFullYear() + 1); return iso(d); };
 const iaDias = n => Math.round((pd(iaHasta(n)) - pd(iso(new Date()))) / 864e5);
 const iaRecs = () => Object.fromEntries(((IAREC && IAREC.recomendados) || []).map(r => [r.id, r]));
@@ -1971,6 +1982,7 @@ function iaCard(x, P) {
   return `<article class="ia-card" style="--uc:var(--u-${uk})">
     <div class="ia-top"><span class="ia-u">Unidad ${u} · ${ut}</span>${r ? `<span class="ia-stars" title="Qué tan buena es para el IA">${'★'.repeat(r.e)}${'☆'.repeat(3 - r.e)}</span><span class="ia-niv">${esc(r.niv)}</span>` : ''}</div>
     <h3>${esc(n.titulo)}</h3>
+    ${r && r.to ? `<p class="ia-orig"><span>Título en el diario:</span> «${esc(r.to)}»</p>` : ''}
     <p class="ia-meta">${esc(n.medio)} · publicado el ${fdate(iaPub(n))} · Tema ${esc(n.tema)} ${esc(TEMAS[n.tema] || '')}</p>
     ${r ? `<p class="ia-por">${esc(r.por)}</p>
     <dl class="ia-dl"><div><dt>Concepto clave</dt><dd>${kcs.map(([k, t]) => `<span><b>${KC[k]}.</b> ${esc(t)}</span>`).join('')}</dd></div><div><dt>Diagrama</dt><dd>${esc(r.dg)}</dd></div><div><dt>Para evaluar</dt><dd>${esc(r.ev)}</dd></div></dl>`
@@ -1979,14 +1991,30 @@ function iaCard(x, P) {
       <div class="ia-btns"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Artículo original ↗</a><a class="btn" href="#n-${n.id}">Ver el análisis</a><a class="btn" href="${iaTaller('val', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Validar en el Taller ↗</a><a class="btn" href="${iaTaller('esc', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Escribir en el Taller ↗</a><button type="button" class="btn ia-pick${sel ? ' on' : ''}" data-id="${n.id}" data-u="${u}" data-kc="${kcs[0] ? kcs[0][0] : ''}" aria-pressed="${sel}">${sel ? '✓ En mi portafolio' : '+ Elegir para la Unidad ' + u}</button></div></div>
   </article>`;
 }
-function iaPortHTML(P) {
+function iaEst(P) {
   const L = Object.fromEntries(iaLista().map(x => [x.n.id, x])), slots = [2, 3, 4].map(u => ({ u, p: P[u], x: P[u] && L[P[u].id] }));
   const full = slots.filter(s => s.x), kcs = full.map(s => s.p.kc).filter(Boolean), dup = kcs.length !== new Set(kcs).size;
-  const medios = full.map(s => s.x.n.medio), pronto = full.filter(s => iaDias(s.x.n) < 60);
+  const medios = full.map(s => s.x.n.medio), mdup = new Set(medios).size !== medios.length, pronto = full.filter(s => iaDias(s.x.n) < 60);
+  return { slots, full, kcs, dup, medios, mdup, pronto };
+}
+function iaMsg(P, nombre) {
+  const { full, kcs, dup, mdup, pronto } = iaEst(P), L = ['Preselección para la evaluación interna (IA) de Economía IB', 'Alumno: ' + nombre, ''];
+  full.forEach(s => { const n = s.x.n, r = iaRec(n.id) || {}; L.push(`Unidad ${s.u} · ${IA_UNI[s.u][1]}`, `«${r.to || n.titulo}»`, `${n.medio}, publicado el ${fdate(iaPub(n))}. Concepto clave: ${KC[s.p.kc] || 'sin elegir'}.`, n.url, ''); });
+  const ck = (ok, t) => (ok ? '✓ ' : '✗ ') + t;
+  L.push('Comprobación:', ck(full.length === 3, `Un artículo por unidad (${full.length} de 3)`), ck(!dup && kcs.length === 3, dup ? 'Hay un concepto clave repetido' : `Tres conceptos clave distintos (${kcs.length} de 3)`), ck(!mdup, mdup ? 'Hay un medio repetido' : 'Un medio distinto para cada comentario'), ck(!pronto.length, pronto.length ? 'Un artículo deja de servir el ' + fdate(iaHasta(pronto[0].x.n)) : 'Artículos con menos de un año'));
+  return L.join('\n');
+}
+function iaPortHTML(P) {
+  const { slots, full, kcs, dup, medios, pronto } = iaEst(P), nombre = store.get('enp-ia-nombre', '');
   const chk = (c, t) => `<li class="${c}">${c === 'ok' ? '✓' : c === 'bad' ? '✗' : '○'} ${t}</li>`;
   return `<div class="ia-slots">${slots.map(({ u, p, x }) => `<div class="ia-slot${x ? ' on' : ''}" style="--uc:var(--u-${IA_UNI[u][0]})"><small>Unidad ${u} · ${IA_UNI[u][1]}</small>${x ? `<a href="#n-${x.n.id}">${esc(x.n.titulo)}</a><label>Concepto clave <select data-slot="${u}"><option value="">Elige uno</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${p.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label><button type="button" class="ia-x" data-slot="${u}" aria-label="Quitar el artículo de la Unidad ${u}">×</button>` : `<span class="note">Todavía no elegiste un artículo de esta unidad.</span>`}</div>`).join('')}</div>
     <ul class="ia-checks">${chk(full.length === 3 ? 'ok' : 'wait', `Un artículo por unidad (${full.length} de 3)`)}${chk(dup ? 'bad' : kcs.length === 3 ? 'ok' : 'wait', dup ? 'Repetiste un concepto clave: cada comentario necesita uno distinto' : `Tres conceptos clave distintos (${kcs.length} de 3)`)}${chk(pronto.length ? 'bad' : full.length ? 'ok' : 'wait', pronto.length ? `Escribe pronto: un artículo deja de servir el ${fdate(iaHasta(pronto[0].x.n))}` : 'Artículos con menos de un año')}${chk(new Set(medios).size !== medios.length ? 'bad' : full.length === 3 ? 'ok' : 'wait', new Set(medios).size !== medios.length ? 'Repetiste un medio: cada comentario necesita una fuente distinta' : 'Un medio distinto para cada comentario')}</ul>
-    <div class="ia-send">${full.length ? `<a class="btn primary" href="${iaTaller('esc', full.map(s => iaArt(s.x.n, s.p.kc)))}" target="_blank" rel="noopener">${full.length === 1 ? 'Pasar este artículo al Taller' : `Pasar mis ${full.length} artículos al Taller`} →</a>` : ''}<span class="note">En el <a href="${TALLER}#escribir-ei" target="_blank" rel="noopener">Taller de Economía IB</a> escribes cada comentario con la rúbrica, el planificador y los modelos.</span></div>`;
+    <div class="ia-send">${full.length ? `<a class="btn primary" href="${iaTaller('esc', full.map(s => iaArt(s.x.n, s.p.kc)))}" target="_blank" rel="noopener">${full.length === 1 ? 'Pasar este artículo al Taller' : `Pasar mis ${full.length} artículos al Taller`} →</a>` : ''}<span class="note">En el <a href="${TALLER}#escribir-ei" target="_blank" rel="noopener">Taller de Economía IB</a> escribes cada comentario con la rúbrica, el planificador y los modelos.</span></div>
+    ${full.length ? `<div class="ia-prof"><div class="ia-prof-t"><strong>Muéstrale tu elección a tu profesor</strong><span class="note">Envíale tus artículos antes de empezar a escribir. Así revisa que cumplen las reglas y que no todos eligieron los mismos.</span></div>
+      <label class="ia-prof-n">Tu nombre y apellido <input id="ia-nombre" type="text" autocomplete="name" maxlength="60" value="${esc(nombre)}" placeholder="Escribe tu nombre"></label>
+      <div class="ia-prof-b"><button type="button" class="btn" data-env="wa">Enviar por WhatsApp</button><button type="button" class="btn" data-env="mail">Enviar por correo</button><button type="button" class="btn" data-env="copy">Copiar el texto</button></div>
+      <p class="note ia-prof-m" id="ia-prof-m" role="status"></p></div>` : ''}
+    <p class="ia-bk"><b>¿Cambias de celular o de computadora?</b> Tu preselección y tu carpeta se guardan solo en este navegador. Pasa tus artículos al Taller y, antes de cambiar de dispositivo, entra a <a href="${TALLER}#escribir-ei" target="_blank" rel="noopener">Mi carpeta en el Taller</a>, toca «Descargar respaldo (.json)» y, en el otro dispositivo, usa «Recuperar un respaldo».</p>`;
 }
 function renderIA() {
   $('#app').innerHTML = '<div class="wrap"><p class="note" style="padding-block:40px">Cargando los artículos…</p></div>';
@@ -2022,6 +2050,16 @@ function drawIA() {
   $('#ia-solo').onchange = e => { IA_F.solo = e.target.checked; grid(); };
   $('#ia-grid').addEventListener('click', e => { const b = e.target.closest('.ia-pick'); if (!b) return; const P2 = iaPort(), u = b.dataset.u; if (P2[u] && P2[u].id === b.dataset.id) delete P2[u]; else P2[u] = { id: b.dataset.id, kc: Object.values(P2).some(p => p.kc === b.dataset.kc) ? '' : b.dataset.kc }; save(P2); });
   $('#ia-port').addEventListener('click', e => { const b = e.target.closest('.ia-x'); if (!b) return; const P2 = iaPort(); delete P2[b.dataset.slot]; save(P2); });
+  $('#ia-port').addEventListener('input', e => { if (e.target.id === 'ia-nombre') { e.target.removeAttribute('aria-invalid'); store.set('enp-ia-nombre', e.target.value.slice(0, 60)); } });
+  $('#ia-port').addEventListener('click', e => {
+    const b = e.target.closest('[data-env]'); if (!b) return;
+    const inp = $('#ia-nombre'), nombre = inp.value.trim(), m = $('#ia-prof-m');
+    if (!nombre) { inp.setAttribute('aria-invalid', 'true'); inp.focus(); m.textContent = 'Escribe tu nombre para que tu profesor sepa de quién es la elección.'; return; }
+    const msg = iaMsg(iaPort(), nombre); m.textContent = '';
+    if (b.dataset.env === 'wa') window.open('https://wa.me/?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+    else if (b.dataset.env === 'mail') location.href = 'mailto:?subject=' + encodeURIComponent('Preselección IA de Economía · ' + nombre) + '&body=' + encodeURIComponent(msg);
+    else { const ok = () => { m.textContent = 'Texto copiado. Pégalo en el mensaje para tu profesor.'; }; (navigator.clipboard ? navigator.clipboard.writeText(msg) : Promise.reject()).then(ok).catch(() => { const t = document.createElement('textarea'); t.value = msg; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); ok(); } catch (x) { m.textContent = 'No se pudo copiar. Usa WhatsApp o el correo.'; } t.remove(); }); }
+  });
   $('#ia-port').addEventListener('change', e => { const s = e.target.closest('select[data-slot]'); if (!s) return; const P2 = iaPort(); if (P2[s.dataset.slot]) { P2[s.dataset.slot].kc = s.value; save(P2); } });
   document.querySelectorAll('.ia-combo-use').forEach(b => b.onclick = () => { const c = combos[+b.dataset.i], P2 = {}; c.xs.forEach(({ x, kc }) => { P2[x.u] = { id: x.n.id, kc }; }); save(P2); $('#ia-port').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   grid();
