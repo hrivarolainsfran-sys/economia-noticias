@@ -4707,5 +4707,243 @@
    ],
    "conclusion": "Es una señal de confianza en el mercado de capitales paraguayo en un mal momento. Sus beneficios dependerán de que mejore la competencia y no solo cambie el dueño."
   }
+ },
+ {
+  "id": "bolsa-ueno-bonos",
+  "fecha": "2026-11-03",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/negocios/2026/11/03/suspenden-la-negociacion-de-todos-los-bonos-emitidos-por-ueno-bank/",
+  "titulo": "Suspenden la negociación de todos los bonos de Ueno Bank en la bolsa",
+  "unidad": "micro",
+  "tema": "2.10",
+  "kc": "intervencion",
+  "inst": [
+   "bcp",
+   "bolsa"
+  ],
+  "resumen": "La Superintendencia de Valores del BCP suspendió la oferta y la negociación de todos los bonos financieros y subordinados de Ueno Bank, incluidos los que había emitido Visión Banco. La Bolsa de Valores de Asunción aplicó la medida desde la rueda siguiente. Además, la BVA suspendió de forma preventiva a Ueno Casa de Bolsa y a Valores Casa de Bolsa por no entregar los fondos para liquidar operaciones de reporto, según ABC Color.",
+  "contexto": "Con el banco en resolución se suspende el pago de intereses y de capital de sus bonos: los inversores cobrarán según el resultado del proceso y el orden legal de prioridades. El regulador frenó la negociación para evitar que se compren y vendan a precios que no reflejan su valor real, lo que perjudicaría sobre todo a los pequeños inversores, que tienen menos información. Las operaciones cerradas antes de la medida pueden terminar de liquidarse.",
+  "datos": [
+   [
+    "Todas",
+    "Las series de bonos financieros y subordinados de Ueno"
+   ],
+   [
+    "Circular 13/2026",
+    "Comunicación de la BVA a las casas de bolsa"
+   ],
+   [
+    "Desde el 3 nov",
+    "Suspensión de la negociación"
+   ]
+  ],
+  "clave": [
+   "Suspendidos",
+   "todos los bonos de Ueno"
+  ],
+  "fig": {
+   "k": "bono",
+   "r": 14
+  },
+  "cap": "Cuando aumenta el riesgo de no cobrar, los inversores exigen una tasa mucho más alta y el precio del bono se desploma: aquí la tasa exigida pasa de 8 % a 14 %.",
+  "pasos": [
+   "El banco entra en resolución",
+   "Se suspende el pago de intereses y capital de sus bonos",
+   "Nadie sabe cuánto se podrá recuperar",
+   "Los precios podrían no reflejar el valor real",
+   "El regulador suspende la negociación para proteger a los inversores"
+  ],
+  "conceptos": [
+   [
+    "Bono subordinado",
+    "Bono que se cobra después de los depósitos si el banco quiebra."
+   ],
+   [
+    "Información asimétrica",
+    "Unos inversores saben más que otros sobre el valor real del título."
+   ],
+   [
+    "Regulador",
+    "La Superintendencia de Valores, que supervisa el mercado."
+   ],
+   [
+    "Orden de prelación",
+    "Orden legal en que se pagan las deudas de una empresa en quiebra."
+   ]
+  ],
+  "diagramas": [
+   "bonos"
+  ],
+  "rel": [
+   "ueno-intervencion",
+   "ueno-devolucion"
+  ],
+  "pregunta": {
+   "q": "¿Por qué el regulador suspendió la negociación de los bonos de Ueno?",
+   "opts": [
+    "Para evitar operaciones a precios que no reflejen su valor real, que perjudicarían a los inversores menos informados",
+    "Para que suban de precio",
+    "Para que el banco pueda emitir más bonos",
+    "Porque los bonos vencieron"
+   ],
+   "ok": 0,
+   "fb": "Con tanta incertidumbre, quienes tienen más información podrían aprovecharse de quienes tienen menos: es un problema de información asimétrica."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Inversores minoristas",
+     "Quedan protegidos de vender o comprar a precios distorsionados."
+    ]
+   ],
+   "pierden": [
+    [
+     "Tenedores de bonos de Ueno",
+     "No pueden vender y dependen del proceso de resolución para cobrar."
+    ],
+    [
+     "Casas de bolsa",
+     "Pierden operaciones y algunas tienen clientes afectados."
+    ]
+   ],
+   "corto": "Los bonos quedan congelados y sus tenedores no saben cuánto recuperarán.",
+   "largo": "Los inversores pueden exigir tasas más altas a otros bancos o preferir emisores con mejor calificación.",
+   "supuestos": [
+    "Que la suspensión dure hasta que se conozca el valor de recupero."
+   ],
+   "conclusion": "La suspensión protege a los menos informados, pero muestra que los bonos subordinados de un banco tienen un riesgo real que el mercado no siempre percibe."
+  },
+  "mas": [
+   [
+    "ABC Color",
+    "https://www.abc.com.py/economia/2026/11/06/ueno-bank-bva-suspende-a-ueno-y-valores-casa-de-bolsa-por-falta-de-fondos-para-cumplir-operaciones/",
+    "2026-11-06"
+   ]
+  ]
+ },
+ {
+  "id": "recaudacion-dnit",
+  "fecha": "2026-11-03",
+  "medio": "Prensa Mercosur",
+  "url": "https://prensamercosur.org/2026/11/03/paraguay-recaudacion-acumulada-de-la-dnit-crece-15-entre-enero-y-octubre-de-2026/",
+  "titulo": "La recaudación crece apenas 1,5 %: el guaraní fuerte bajó los impuestos de aduana",
+  "unidad": "macro",
+  "tema": "3.6",
+  "kc": "interdependencia",
+  "resumen": "La DNIT recaudó G. 35,95 billones entre enero y octubre de 2026, solo 1,5 % más que en 2025. Los impuestos internos subieron 9,9 %, pero los de aduana cayeron 10 %. En octubre la recaudación total bajó 5,4 %.",
+  "contexto": "Los impuestos de aduana se calculan sobre el valor de lo importado en guaraníes. Si el dólar baja, el mismo producto importado vale menos guaraníes y se recauda menos: según la DNIT, la apreciación del guaraní redujo la base imponible y las importaciones cayeron 5,1 % en octubre. Es un ejemplo de cómo el tipo de cambio afecta a las cuentas públicas. Con la depreciación de noviembre el efecto podría invertirse. Son datos preliminares.",
+  "datos": [
+   [
+    "G. 35,95 bill.",
+    "Recaudación enero-octubre"
+   ],
+   [
+    "+1,5 %",
+    "Frente a 2025"
+   ],
+   [
+    "+9,9 %",
+    "Impuestos internos"
+   ],
+   [
+    "−10 %",
+    "Impuestos de aduana"
+   ],
+   [
+    "−5,4 %",
+    "Recaudación de octubre"
+   ]
+  ],
+  "clave": [
+   "+1,5 %",
+   "recaudación anual"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "variación % ene-oct",
+   "rows": [
+    [
+     "Internos",
+     9.9
+    ],
+    [
+     "Total",
+     1.5,
+     1
+    ],
+    [
+     "Aduana",
+     -10
+    ]
+   ]
+  },
+  "cap": "Variación de la recaudación de la DNIT entre enero y octubre de 2026 frente a 2025.",
+  "pasos": [
+   "El guaraní se aprecia frente al dólar",
+   "Lo importado vale menos guaraníes",
+   "Se recaudan menos impuestos de aduana",
+   "El Estado recauda menos de lo previsto",
+   "Más presión sobre el déficit fiscal"
+  ],
+  "conceptos": [
+   [
+    "Recaudación",
+    "Dinero que el Estado cobra en impuestos."
+   ],
+   [
+    "Base imponible",
+    "Valor sobre el que se calcula un impuesto."
+   ],
+   [
+    "Impuestos indirectos",
+    "Gravan el consumo o las importaciones, como el IVA."
+   ],
+   [
+    "Déficit fiscal",
+    "Gasto público mayor que los ingresos."
+   ]
+  ],
+  "diagramas": [
+   "politica-fiscal",
+   "tipo-cambio"
+  ],
+  "rel": [],
+  "pregunta": {
+   "q": "¿Por qué un guaraní más fuerte reduce los impuestos de aduana?",
+   "opts": [
+    "Porque los importados valen menos guaraníes y el impuesto es un porcentaje de ese valor",
+    "Porque se importan más bienes",
+    "Porque suben los aranceles",
+    "Porque bajan los impuestos internos"
+   ],
+   "ok": 0,
+   "fb": "El impuesto es un porcentaje del valor en guaraníes. Si ese valor baja por la apreciación, la recaudación también baja."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Importadores",
+     "Pagaron menos impuestos de aduana."
+    ]
+   ],
+   "pierden": [
+    [
+     "El Estado",
+     "Tiene menos ingresos para cubrir el gasto."
+    ]
+   ],
+   "corto": "Menos recaudación de aduana en 2026.",
+   "largo": "Con la depreciación de noviembre, la recaudación de aduana podría subir: depender de ella hace a las cuentas públicas sensibles al tipo de cambio.",
+   "supuestos": [
+    "Los datos son preliminares."
+   ],
+   "conclusion": "Muestra la interdependencia entre el tipo de cambio y las finanzas públicas: diversificar los ingresos reduce esa vulnerabilidad."
+  },
+  "inst": [
+   "dnit"
+  ],
+  "sector": [
+   "comercio"
+  ]
  }
 ]
