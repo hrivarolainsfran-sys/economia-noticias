@@ -4320,5 +4320,392 @@
    "comercio"
   ],
   "opinion": false
+ },
+ {
+  "id": "el-nino-fitch",
+  "fecha": "2026-11-16",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/negocios/2026/11/16/paraguay-aparece-entre-los-paises-que-podrian-ganar-con-la-llegada-de-el-nino-segun-fitch-ratings/",
+  "titulo": "El Niño podría favorecer al agro y a las represas de Paraguay, según Fitch",
+  "unidad": "micro",
+  "tema": "2.2",
+  "kc": "sostenibilidad",
+  "resumen": "Un análisis de Fitch Ratings, difundido por la agencia RT y citado por La Nación, ubica a Paraguay, Argentina y Uruguay como los tres países sudamericanos que podrían ganar con El Niño. Más lluvias favorecerían los cultivos y la generación hidroeléctrica. Fitch advierte, sin embargo, que en la región podrían subir los precios de los alimentos y algunos costos de producción.",
+  "contexto": "El clima es un determinante de la oferta que no depende del precio: si llueve lo suficiente, los productores cosechan más con los mismos recursos y la curva de oferta se desplaza a la derecha. En Paraguay esto pesa mucho, porque la soja y otros granos son su principal exportación y casi toda su electricidad viene de represas. Para otros países, como Bolivia, Chile o Perú, Fitch prevé efectos negativos, y en Panamá una sequía podría afectar al canal. La misma variable (el clima) puede ser una buena noticia para unos y mala para otros.",
+  "datos": [
+   [
+    "3",
+    "Países sudamericanos con balance potencialmente positivo (Paraguay, Argentina, Uruguay)"
+   ],
+   [
+    "2 pp",
+    "Lo que podría caer el PIB de Perú en 2026-2027 en el peor escenario, según Fitch"
+   ]
+  ],
+  "clave": [
+   "El Niño",
+   "más lluvia: más oferta agrícola"
+  ],
+  "fig": {
+   "k": "mercado",
+   "mueve": "O",
+   "dir": 1
+  },
+  "cap": "Con más lluvias, la cosecha aumenta y la oferta de granos se desplaza de O₁ a O₂: más cantidad y un precio menor, si la demanda no cambia.",
+  "pasos": [
+   "Llega El Niño con más lluvias en la región",
+   "Mejoran los rendimientos agrícolas y el caudal del Paraná",
+   "La oferta de granos y de energía se desplaza a la derecha",
+   "Aumenta la producción y las exportaciones",
+   "Crece el PIB, aunque pueden subir costos en otras partes"
+  ],
+  "conceptos": [
+   [
+    "Determinantes de la oferta",
+    "Factores distintos del precio que desplazan la curva: clima, costos, tecnología."
+   ],
+   [
+    "Shock de oferta",
+    "Cambio repentino en la capacidad de producir."
+   ],
+   [
+    "Bien primario",
+    "Producto agrícola o minero sin transformar, sensible al clima."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda",
+   "exportaciones"
+  ],
+  "rel": [
+   "soja-record"
+  ],
+  "pregunta": {
+   "q": "Si El Niño trae más lluvias y mejora la cosecha de soja, ¿qué pasa en el mercado?",
+   "opts": [
+    "La oferta se desplaza a la derecha y el precio tiende a bajar",
+    "La demanda se desplaza a la derecha",
+    "La oferta se desplaza a la izquierda",
+    "No cambia nada porque el precio no cambió"
+   ],
+   "ok": 0,
+   "fb": "El clima es un determinante de la oferta: con más producción a cada precio, la curva de oferta se desplaza a la derecha."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Productores y exportadores agrícolas",
+     "Más rendimiento con los mismos recursos."
+    ],
+    [
+     "ANDE y las binacionales",
+     "Más agua en el Paraná permite generar más energía."
+    ]
+   ],
+   "pierden": [
+    [
+     "Consumidores de la región",
+     "Fitch advierte que los alimentos pueden encarecerse en otros países afectados."
+    ],
+    [
+     "Productores en zonas inundables",
+     "El exceso de lluvia también puede dañar cultivos y caminos."
+    ]
+   ],
+   "corto": "Mejores perspectivas para la campaña agrícola y para la generación hidroeléctrica.",
+   "largo": "La dependencia del clima muestra la vulnerabilidad de una economía basada en bienes primarios y represas.",
+   "supuestos": [
+    "Que las lluvias no se conviertan en inundaciones",
+    "Que los precios internacionales de los granos no caigan mucho",
+    "Que el análisis de Fitch se cumpla"
+   ],
+   "conclusion": "El Niño puede ser un empujón para la oferta agrícola y energética de Paraguay, pero depender del clima es un riesgo: la misma fuerza que ayuda este año puede dañar el próximo."
+  },
+  "sector": [
+   "agro",
+   "energia"
+  ],
+  "opinion": false
+ },
+ {
+  "id": "indice-miseria",
+  "fecha": "2026-11-16",
+  "medio": "ABC Color",
+  "opinion": true,
+  "url": "https://www.abc.com.py/economia/2026/11/16/una-mirada-a-traves-del-indice-global-de-miseria-en-america-latina/",
+  "titulo": "Índice de miseria: Paraguay en el puesto 74 y castigado por las tasas de interés",
+  "unidad": "macro",
+  "tema": "3.3",
+  "kc": "bienestar",
+  "resumen": "Un análisis de MF Economía e Inversiones publicado en ABC Color repasa el Índice Anual de Miseria de Hanke, que suma inflación, desempleo y tasas de interés de los préstamos y resta el crecimiento del PIB real por habitante. Paraguay quedó en el puesto 74 con 25,44 puntos, mejor que Brasil (59,64) o Argentina (88,35) y cerca de Uruguay (26,50) y Chile (24,01).",
+  "contexto": "El índice combina varios objetivos macroeconómicos en un solo número: cuanto más alto, peor. Según el análisis de MF Economía, en Venezuela y Argentina el problema principal es la inflación, en Chile el desempleo y en Paraguay, Brasil, Colombia o Perú las altas tasas de interés de los préstamos bancarios. Los autores atribuyen el mal desempeño de los países rezagados a la dependencia de materias primas, la informalidad, la incertidumbre jurídica y los déficits fiscales. Es un buen ejemplo de que la inflación baja (1,7 % en Paraguay) no alcanza si el crédito es caro.",
+  "datos": [
+   [
+    "74.º",
+    "Puesto de Paraguay en el ranking mundial (25,44 puntos)"
+   ],
+   [
+    "24,01",
+    "Chile (puesto 78)"
+   ],
+   [
+    "26,50",
+    "Uruguay (puesto 71)"
+   ],
+   [
+    "59,64",
+    "Brasil (puesto 19)"
+   ],
+   [
+    "88,35",
+    "Argentina (puesto 5)"
+   ],
+   [
+    "556,49",
+    "Venezuela, el peor del mundo en 2025"
+   ]
+  ],
+  "clave": [
+   "25,44",
+   "puntos de miseria: puesto 74"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "puntos",
+   "rows": [
+    [
+     "Argentina",
+     88.35,
+     0
+    ],
+    [
+     "Brasil",
+     59.64,
+     0
+    ],
+    [
+     "Bolivia",
+     44.04,
+     0
+    ],
+    [
+     "Uruguay",
+     26.5,
+     0
+    ],
+    [
+     "Paraguay",
+     25.44,
+     1
+    ],
+    [
+     "Chile",
+     24.01,
+     0
+    ]
+   ]
+  },
+  "cap": "Índice de miseria de Hanke 2025 en países de la región: más puntos significa peor desempeño combinado de inflación, desempleo, tasas de interés y crecimiento. Paraguay está entre los mejores de la región.",
+  "pasos": [
+   "Se suman la inflación, el desempleo y la tasa de interés de los préstamos",
+   "Se resta el crecimiento del PIB real por habitante",
+   "Un número alto indica peor situación macroeconómica",
+   "En Paraguay pesa sobre todo el costo del crédito",
+   "Bajar tasas requiere más competencia bancaria y confianza"
+  ],
+  "conceptos": [
+   [
+    "Índice de miseria",
+    "Indicador que suma inflación, desempleo y tasas de interés y resta el crecimiento del PIB per cápita."
+   ],
+   [
+    "Objetivos macroeconómicos",
+    "Crecimiento, bajo desempleo, inflación baja y estable, y equilibrio externo."
+   ],
+   [
+    "Tasa de interés activa",
+    "Lo que cobran los bancos por prestar dinero."
+   ],
+   [
+    "PIB real per cápita",
+    "Producción por habitante descontando la inflación."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da",
+   "politica-monetaria"
+  ],
+  "rel": [
+   "liquidez-tasas",
+   "inflacion-oct"
+  ],
+  "pregunta": {
+   "q": "Si Paraguay quisiera mejorar su índice de miseria, ¿qué componente le conviene atacar primero según el análisis?",
+   "opts": [
+    "Las altas tasas de interés de los préstamos",
+    "La hiperinflación",
+    "El desempleo masivo",
+    "La caída del PIB"
+   ],
+   "ok": 0,
+   "fb": "Según el análisis citado por ABC Color, en Paraguay el factor que más pesa es el costo del crédito bancario, no la inflación ni el desempleo."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Paraguay frente a la región",
+     "Su buena posición ayuda a la imagen del país ante inversores."
+    ],
+    [
+     "Hogares con ahorros",
+     "Inflación baja y estable preserva el poder de compra."
+    ]
+   ],
+   "pierden": [
+    [
+     "Deudores y mipymes",
+     "Pagan tasas de interés altas, el principal componente de la miseria en Paraguay."
+    ],
+    [
+     "Trabajadores informales",
+     "El índice no capta la baja calidad del empleo: puede dar una imagen demasiado buena."
+    ]
+   ],
+   "corto": "Con la crisis de Ueno y menos liquidez, las tasas de interés podrían subir y empeorar el componente que ya más pesa en Paraguay.",
+   "largo": "Mejorar requiere más competencia bancaria, menor informalidad y disciplina fiscal, según los autores; son cambios lentos.",
+   "supuestos": [
+    "Que los componentes midan bien el bienestar",
+    "Que el ranking use datos comparables entre países"
+   ],
+   "conclusion": "El índice muestra que Paraguay está mejor que la mayoría de sus vecinos, pero simplifica: suma variables con pesos iguales y deja afuera la desigualdad y la informalidad, por eso conviene leerlo junto con otros indicadores."
+  },
+  "mundo": [
+   "argentina",
+   "brasil"
+  ]
+ },
+ {
+  "id": "balanz-cadiem",
+  "fecha": "2026-11-17",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/grupo-financiero-argentino-balanz-capital-acuerda-tomar-el-control-de-cadiem",
+  "opinion": false,
+  "titulo": "El grupo argentino Balanz acuerda comprar la casa de bolsa Cadiem",
+  "unidad": "global",
+  "tema": "4.6",
+  "kc": "interdependencia",
+  "inst": [
+   "bolsa"
+  ],
+  "mundo": [
+   "argentina"
+  ],
+  "resumen": "Balanz Capital, un grupo argentino con US$ 17.000 millones en activos administrados y más de 1,5 millones de clientes, firmó un acuerdo de entendimiento para comprar la mayoría de las acciones de Cadiem Casa de Bolsa y de su administradora de fondos. Cadiem tiene más de 22.000 clientes en Paraguay. La operación depende de una revisión de unos 30 días y de las aprobaciones regulatorias.",
+  "contexto": "La compra de una empresa local por un grupo extranjero es inversión extranjera directa (IED): trae capital, tecnología y experiencia, como la plataforma digital de Balanz. Llega en plena crisis de Ueno, cuando las casas de bolsa sufrieron pedidos de rescate y los bonos cayeron, lo que muestra que un inversor externo todavía ve oportunidades en el mercado de capitales paraguayo. Para Paraguay, un mercado de valores más profundo puede abaratar el financiamiento de las empresas. También aumenta la concentración y la influencia de capitales argentinos.",
+  "datos": [
+   [
+    "US$ 17.000 M",
+    "Activos que administra Balanz Capital"
+   ],
+   [
+    "1,5 M+",
+    "Clientes de Balanz"
+   ],
+   [
+    "22.000+",
+    "Clientes de Cadiem en Paraguay"
+   ],
+   [
+    "30 días",
+    "Duración estimada de la revisión (debida diligencia)"
+   ],
+   [
+    "6",
+    "Países donde estaría Balanz con Paraguay"
+   ]
+  ],
+  "clave": [
+   "22.000+",
+   "clientes de Cadiem que pasarían a Balanz"
+  ],
+  "fig": {
+   "k": "divisas",
+   "mueve": "D",
+   "dir": 1
+  },
+  "cap": "La entrada de inversión extranjera directa aumenta la demanda de guaraníes, lo que presiona hacia arriba su valor.",
+  "pasos": [
+   "Balanz quiere crecer en la región",
+   "Acuerda comprar la mayoría de Cadiem",
+   "Entra capital extranjero (IED) a Paraguay",
+   "Aumenta la demanda de guaraníes y la competencia en el mercado de valores",
+   "Las empresas pueden tener más opciones de financiamiento"
+  ],
+  "conceptos": [
+   [
+    "Inversión extranjera directa",
+    "Compra o creación de empresas en otro país con control de su gestión."
+   ],
+   [
+    "Casa de bolsa",
+    "Empresa que compra y vende valores (bonos, acciones) por cuenta de sus clientes."
+   ],
+   [
+    "Debida diligencia",
+    "Revisión de la empresa antes de comprarla."
+   ],
+   [
+    "Mercado de capitales",
+    "Donde las empresas consiguen financiamiento a largo plazo con bonos y acciones."
+   ]
+  ],
+  "diagramas": [
+   "tipo-cambio",
+   "bonos"
+  ],
+  "rel": [
+   "liquidez-tasas"
+  ],
+  "pregunta": {
+   "q": "¿Cómo se clasifica la compra de Cadiem por Balanz en la balanza de pagos?",
+   "opts": [
+    "Inversión extranjera directa en la cuenta financiera",
+    "Exportación de servicios en la cuenta corriente",
+    "Remesa en la cuenta corriente",
+    "Reserva internacional del BCP"
+   ],
+   "ok": 0,
+   "fb": "Es IED: un inversor extranjero toma el control de una empresa local; se registra en la cuenta financiera."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Clientes de Cadiem",
+     "Acceden a más productos y a una plataforma con experiencia internacional."
+    ],
+    [
+     "Mercado de valores paraguayo",
+     "Gana un actor grande en medio de la crisis de confianza."
+    ]
+   ],
+   "pierden": [
+    [
+     "Casas de bolsa locales más pequeñas",
+     "Enfrentan un competidor con más recursos."
+    ],
+    [
+     "Accionistas que venden",
+     "Ceden el control de la empresa (aunque reciben un pago)."
+    ]
+   ],
+   "corto": "Si la revisión sale bien y los reguladores aprueban, Balanz asumiría la operación de Cadiem.",
+   "largo": "Más competencia y tecnología pueden profundizar el mercado de capitales, aunque también lo vuelven más dependiente de grupos extranjeros.",
+   "supuestos": [
+    "Que la debida diligencia no encuentre problemas",
+    "Que los reguladores aprueben la compra",
+    "Que la crisis de Ueno no empeore la confianza en el mercado"
+   ],
+   "conclusion": "Es una señal de confianza en el mercado de capitales paraguayo en un mal momento. Sus beneficios dependerán de que mejore la competencia y no solo cambie el dueño."
+  }
  }
 ]

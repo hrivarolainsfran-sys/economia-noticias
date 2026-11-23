@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22",
+ "actualizado": "2026-11-23",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -15,8 +15,8 @@
   },
   {
    "n": "Dólar",
-   "v": "G. 6.241",
-   "s": "BCP interbancario · 16 nov",
+   "v": "G. 6.310",
+   "s": "BCP referencial · 19 nov",
    "alert": 1,
    "k": "dolar"
   },
@@ -312,6 +312,11 @@
     "21 nov",
     "Los supermercados vuelven a vender normal, pero se gasta menos en ocio.",
     "consumo-cae"
+   ],
+   [
+    "22 nov",
+    "Capadei: los vaivenes del dólar tras Ueno frenan proyectos inmobiliarios.",
+    "capadei-dolar"
    ]
   ],
   "lentes": [
@@ -330,6 +335,380 @@
   ]
  },
  "noticias": [
+  {
+   "id": "che-roga-pora",
+   "fecha": "2026-11-22",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/fondos-alcanzaran-hasta-mediados-de-2027-y-sigue-en-tramite-nuevo-prestamo",
+   "titulo": "Che Róga Porã: la demanda agota antes de tiempo los fondos para viviendas",
+   "unidad": "micro",
+   "tema": "2.7",
+   "kc": "intervencion",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "El programa de viviendas Che Róga Porã empezó con US$ 260 millones (US$ 60 millones propios y US$ 200 millones de crédito) que debían durar hasta 2028, pero ya se usaron casi US$ 200 millones y la plata alcanzaría solo hasta mediados de 2027, según el ministro interino de Urbanismo, Víctor Villasboa, a Última Hora. El Gobierno pidió a Taiwán un segundo crédito de US$ 200 millones, sin fecha. Los préstamos son a hasta 30 años, con tasas de 6,5 % o 9,9 % según el ingreso.",
+   "contexto": "El programa abarata el crédito hipotecario: es como un subsidio a la tasa de interés para que más familias compren su primera vivienda. Con una tasa más baja, más familias pueden pagar la cuota y la demanda de viviendas aumenta; por eso los fondos se gastan más rápido de lo previsto. El Gobierno considera la vivienda un bien que el mercado ofrece de menos a las familias de ingresos medios. El costo es fiscal: se financia con deuda, en un momento de déficit alto y de crisis bancaria.",
+   "datos": [
+    [
+     "US$ 260 M",
+     "Fondo inicial (US$ 60 M propios + US$ 200 M de crédito)"
+    ],
+    [
+     "≈ US$ 200 M",
+     "Fondos ya utilizados"
+    ],
+    [
+     "mediados de 2027",
+     "Hasta cuándo alcanzan los recursos (antes: 2028)"
+    ],
+    [
+     "US$ 200 M",
+     "Segundo crédito pedido a Taiwán"
+    ],
+    [
+     "6,5 %",
+     "Tasa para ingresos de 1 a 6 salarios mínimos"
+    ],
+    [
+     "9,9 %",
+     "Tasa para ingresos de 6 a 9 salarios mínimos"
+    ],
+    [
+     "30 años",
+     "Plazo máximo de los créditos"
+    ]
+   ],
+   "clave": [
+    "6,5 %",
+    "tasa de interés para la primera vivienda"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Mercado de viviendas: el crédito barato de Che Róga Porã permite a más familias pagar una casa; la demanda (D) se desplaza a la derecha y suben la cantidad vendida y el precio.",
+   "pasos": [
+    "El Estado presta a tasas más bajas que las del mercado",
+    "Más familias pueden pagar la cuota de una casa",
+    "Aumenta la demanda de viviendas y de crédito",
+    "Los fondos se agotan antes de lo previsto",
+    "El Gobierno busca otro préstamo para seguir"
+   ],
+   "conceptos": [
+    [
+     "Subsidio",
+     "Pago o ventaja del Estado que baja el costo de un bien para el consumidor o el productor."
+    ],
+    [
+     "Bien preferente (merit good)",
+     "Bien que el mercado provee menos de lo socialmente deseable, como la vivienda o la educación."
+    ],
+    [
+     "Costo de oportunidad",
+     "Lo que el Estado deja de hacer con el dinero que usa en el programa."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda",
+    "politica-fiscal"
+   ],
+   "rel": [
+    "capadei-dolar",
+    "pgn-suspendido"
+   ],
+   "pregunta": {
+    "q": "¿Por qué los fondos de Che Róga Porã se agotan antes de lo previsto?",
+    "opts": [
+     "Porque la tasa subsidiada aumentó mucho la demanda de crédito para viviendas",
+     "Porque bajó la oferta de casas",
+     "Porque subió la tasa de interés del programa",
+     "Porque Taiwán retiró el préstamo"
+    ],
+    "ok": 0,
+    "fb": "Una tasa más baja que la del mercado hace que más familias pidan crédito: la demanda crece y el dinero se usa más rápido."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Familias de ingresos medios",
+      "Acceden a su primera casa con cuotas más bajas."
+     ],
+     [
+      "Constructoras y bancos",
+      "Venden más viviendas y otorgan más créditos."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes",
+      "El programa se paga con deuda que luego hay que devolver."
+     ],
+     [
+      "Familias que no califican",
+      "Si suben los precios de las casas, quienes no tienen el crédito pagan más."
+     ]
+    ],
+    "corto": "El programa sigue hasta mediados de 2027 aunque Ueno, que daba parte de los créditos, esté en resolución.",
+    "largo": "Si llega el nuevo crédito, más familias tendrán casa propia, pero también crece la deuda pública y la presión sobre los precios de la vivienda.",
+    "supuestos": [
+     "Que el segundo crédito de Taiwán se apruebe",
+     "Que la oferta de viviendas responda a la mayor demanda"
+    ],
+    "conclusion": "El subsidio cumple su objetivo de ampliar el acceso a la vivienda, pero su éxito lo vuelve caro: con déficit alto, el Gobierno tendrá que decidir cuánto más endeudarse para sostenerlo."
+   }
+  },
+  {
+   "id": "uranio-ia",
+   "fecha": "2026-11-22",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/uranio-agua-y-energia-los-proyectos-mineros-que-situan-a-paraguay-en-la-carrera-de-la-ia",
+   "titulo": "Uranio y energía de Itaipú: Paraguay entra en la cadena de la inteligencia artificial",
+   "unidad": "global",
+   "tema": "4.10",
+   "kc": "sostenibilidad",
+   "sector": [
+    "energia",
+    "industria"
+   ],
+   "mundo": [
+    "eeuu"
+   ],
+   "resumen": "Según Última Hora, el 23 de octubre Paraguay fue el país número 26 en firmar Pax Silica, la iniciativa de EE.UU. para asegurar chips, minerales y energía para la inteligencia artificial. Un día antes se cerró un contrato de 15 años por hasta 286 megavatios para un centro de datos, a entre US$ 48,91 y 56,39 por megavatio hora. La empresa texana Uranium Energy Corp tiene proyectos de uranio en Caazapá y Caaguazú que, según la Cámara Paraguaya de Minería, podrían explotarse en tres o cuatro años.",
+   "contexto": "Paraguay busca crecer atrayendo inversión extranjera directa en recursos naturales y en energía limpia, una estrategia de crecimiento orientada a los mercados externos. El gerente de UEC en Paraguay estima 1.200 empleos y entre US$ 10 y 17 millones al año en impuestos y regalías, pero el único dato auditado es un recurso de 8,96 millones de libras de óxido de uranio, que todavía no se demostró rentable. Vender electricidad a centros de datos da valor a la energía de Itaipú, aunque compite con un consumo interno que ya crece rápido. La minería también puede tener costos ambientales que el mercado no cuenta.",
+   "datos": [
+    [
+     "26",
+     "Lugar de Paraguay entre los firmantes de Pax Silica (23 oct)"
+    ],
+    [
+     "286 MW",
+     "Potencia contratada por 15 años para un centro de datos de IA"
+    ],
+    [
+     "US$ 48,91–56,39",
+     "Precio por megavatio hora del contrato"
+    ],
+    [
+     "117.000 ha",
+     "Área de los proyectos de uranio de UEC"
+    ],
+    [
+     "8,96 M lb",
+     "Recurso indicado de óxido de uranio en Yuty (SEC)"
+    ],
+    [
+     "1.200",
+     "Empleos directos e indirectos estimados por UEC"
+    ],
+    [
+     "US$ 10–17 M",
+     "Impuestos y regalías al año estimados por UEC"
+    ]
+   ],
+   "clave": [
+    "286 MW",
+    "de energía para un centro de datos de IA"
+   ],
+   "fig": {
+    "k": "oalp",
+    "s": 30
+   },
+   "cap": "Si la inversión extranjera en minería y centros de datos se concreta, aumenta el capital y la capacidad productiva: la OALP se desplaza a la derecha y crece el producto potencial.",
+   "pasos": [
+    "EE.UU. busca proveedores de energía y minerales fuera de China",
+    "Paraguay firma Pax Silica y un memorándum nuclear civil",
+    "Empresas extranjeras invierten en uranio y centros de datos",
+    "Más capital, empleo e impuestos si los proyectos avanzan",
+    "Crece la capacidad productiva, con riesgos ambientales a vigilar"
+   ],
+   "conceptos": [
+    [
+     "Inversión extranjera directa (IED)",
+     "Inversión de empresas de otro país para producir en Paraguay."
+    ],
+    [
+     "Recurso vs. reserva",
+     "Un recurso existe; una reserva, además, se demostró rentable de extraer."
+    ],
+    [
+     "Estrategia orientada al exterior",
+     "Crecer vendiendo al mundo y atrayendo inversión extranjera."
+    ]
+   ],
+   "diagramas": [
+    "politicas-oferta",
+    "externalidad"
+   ],
+   "rel": [
+    "consumo-electrico",
+    "itaipu-tarifa-2027"
+   ],
+   "pregunta": {
+    "q": "UEC informó un «recurso indicado» de uranio en Yuty. ¿Qué significa?",
+    "opts": [
+     "Que el uranio existe, pero aún no se demostró que sacarlo sea rentable",
+     "Que ya es una reserva lista para vender",
+     "Que el Estado ya cobra regalías por ese uranio",
+     "Que la mina ya produce 400 toneladas al año"
+    ],
+    "ok": 0,
+    "fb": "Un recurso es una cantidad estimada de mineral. Recién es reserva cuando se demuestra que extraerlo es rentable; por eso el empleo y las regalías todavía son estimaciones."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Estado",
+      "Podría cobrar regalías e impuestos y vender más energía."
+     ],
+     [
+      "Trabajadores de Caazapá y Caaguazú",
+      "Los proyectos podrían generar unos 1.200 empleos, según UEC."
+     ],
+     [
+      "Empresas de EE.UU.",
+      "Aseguran energía y minerales fuera de China."
+     ]
+    ],
+    "pierden": [
+     [
+      "Comunidades cercanas y el ambiente",
+      "La minería puede contaminar agua y suelo, un costo externo."
+     ],
+     [
+      "Consumidores de la ANDE",
+      "Si se vende mucha energía a centros de datos, queda menos margen para el consumo interno que crece."
+     ]
+    ],
+    "corto": "Por ahora son acuerdos y estudios: no hay producción ni regalías.",
+    "largo": "Si los proyectos se vuelven rentables, Paraguay podría sumar exportaciones mineras y de servicios digitales, diversificando más allá de la soja y la carne.",
+    "supuestos": [
+     "Que el uranio resulte rentable de extraer",
+     "Que haya reglas ambientales y de regalías claras",
+     "Que sobre energía para el país y para los centros de datos"
+    ],
+    "conclusion": "Es una oportunidad de diversificar el crecimiento con inversión extranjera, pero las cifras de empleo e impuestos son estimaciones de la propia empresa y hay que pesar los costos ambientales."
+   }
+  },
+  {
+   "id": "capadei-dolar",
+   "fecha": "2026-11-22",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/22/dolar-e-inversiones-inmobiliarias-que-preocupa-al-sector-y-que-espera-para-2027-segun-capadei/",
+   "titulo": "Los vaivenes del dólar frenan nuevos edificios, según los desarrolladores",
+   "unidad": "global",
+   "tema": "4.5",
+   "kc": "cambio",
+   "sector": [
+    "comercio"
+   ],
+   "resumen": "El presidente de Capadei, Raúl Constantino, dijo a ABC Color que la magnitud y la velocidad de los cambios del dólar llevan a postergar inversiones y a revisar proyectos inmobiliarios. Según el BCP, el dólar de referencia pasó de G. 5.694,47 el 9 de octubre a G. 6.310,30 el 19 de noviembre. Entre 75 % y 80 % de los costos del sector están en guaraníes, mientras que buena parte de las ventas se hace en dólares.",
+   "contexto": "Los proyectos inmobiliarios tardan años, así que necesitan prever el tipo de cambio. Cuando el guaraní se aprecia, los costos medidos en dólares suben y el margen se achica; cuando el dólar salta de golpe, como tras la crisis de Ueno, la incertidumbre hace que muchos esperen antes de invertir. La inversión es un componente de la demanda agregada, así que menos edificios nuevos significa menos empleo en la construcción y en sus proveedores. Capadei pide previsibilidad cambiaria, más crédito hipotecario y seguridad jurídica para 2027.",
+   "datos": [
+    [
+     "G. 5.694,47",
+     "Dólar de referencia del BCP el 9 de octubre"
+    ],
+    [
+     "G. 6.310,30",
+     "Dólar de referencia del BCP el 19 de noviembre"
+    ],
+    [
+     "75–80 %",
+     "Parte de los costos de los proyectos que se paga en guaraníes"
+    ],
+    [
+     "5",
+     "Condiciones que Capadei pide para 2027 (estabilidad, crédito hipotecario, seguridad jurídica, infraestructura y confianza)"
+    ]
+   ],
+   "clave": [
+    "75–80 %",
+    "de los costos de un edificio se pagan en guaraníes"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Si la incertidumbre cambiaria hace postergar proyectos, cae la inversión (I), un componente de la demanda agregada: DA se desplaza a la izquierda y bajan el producto real y el empleo.",
+   "pasos": [
+    "El dólar cae durante meses y luego salta tras la crisis de Ueno",
+    "Los desarrolladores venden en dólares pero pagan casi todo en guaraníes",
+    "No pueden prever su margen: postergan o revisan proyectos",
+    "Baja la inversión en construcción",
+    "Menos demanda agregada: menos empleo en obras y proveedores"
+   ],
+   "conceptos": [
+    [
+     "Tipo de cambio flotante",
+     "El precio del dólar lo fijan la oferta y la demanda, así que puede moverse mucho."
+    ],
+    [
+     "Inversión (I)",
+     "Gasto de las empresas en bienes de capital, como edificios; es parte de la DA."
+    ],
+    [
+     "Riesgo cambiario",
+     "Posibilidad de perder dinero porque cambia el tipo de cambio entre la venta y el pago de costos."
+    ]
+   ],
+   "diagramas": [
+    "tipo-cambio",
+    "da-oa-da"
+   ],
+   "rel": [
+    "dolar-6600",
+    "brasilenos-vivienda",
+    "che-roga-pora"
+   ],
+   "pregunta": {
+    "q": "Un desarrollador vende departamentos en dólares y paga 80 % de sus costos en guaraníes. ¿Qué le pasa si el guaraní se aprecia?",
+    "opts": [
+     "Sus costos medidos en dólares suben y su margen baja",
+     "Su margen sube porque cobra en dólares",
+     "No le afecta porque vende en dólares",
+     "Sus costos en guaraníes bajan"
+    ],
+    "ok": 0,
+    "fb": "Con un guaraní más fuerte, cada dólar de ventas compra menos guaraníes, pero los costos en guaraníes siguen iguales: medidos en dólares, son más altos y el margen se achica."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Compradores con ahorros en dólares",
+      "Cuando el dólar sube, sus dólares alcanzan para más guaraníes de costo de vivienda."
+     ],
+     [
+      "Proyectos bien financiados",
+      "En un mercado más selectivo, los proyectos sólidos enfrentan menos competencia."
+     ]
+    ],
+    "pierden": [
+     [
+      "Desarrolladores inmobiliarios",
+      "No pueden prever su margen y postergan proyectos."
+     ],
+     [
+      "Trabajadores de la construcción y proveedores",
+      "Menos obras nuevas significa menos empleo y ventas."
+     ],
+     [
+      "Familias sin vivienda propia",
+      "Menos proyectos y menos crédito retrasan el acceso a una casa."
+     ]
+    ],
+    "corto": "Más proyectos en pausa y más cautela mientras el dólar siga volátil tras la crisis de Ueno.",
+    "largo": "Si el tipo de cambio se estabiliza y crece el crédito hipotecario, la demanda insatisfecha de vivienda puede reactivar la inversión.",
+    "supuestos": [
+     "Que la volatilidad del dólar siga alta",
+     "Que los compradores sigan siendo sobre todo inversores",
+     "Capadei aún no tiene un relevamiento de cuántos proyectos se frenaron"
+    ],
+    "conclusion": "El problema no es que el dólar suba o baje, sino lo rápido que cambia: la incertidumbre frena la inversión, aunque el efecto exacto todavía no está medido."
+   }
+  },
   {
    "id": "faena-bovina-octubre",
    "fecha": "2026-11-21",
@@ -2607,130 +2986,6 @@
    }
   },
   {
-   "id": "balanz-cadiem",
-   "fecha": "2026-11-17",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/grupo-financiero-argentino-balanz-capital-acuerda-tomar-el-control-de-cadiem",
-   "opinion": false,
-   "titulo": "El grupo argentino Balanz acuerda comprar la casa de bolsa Cadiem",
-   "unidad": "global",
-   "tema": "4.6",
-   "kc": "interdependencia",
-   "inst": [
-    "bolsa"
-   ],
-   "mundo": [
-    "argentina"
-   ],
-   "resumen": "Balanz Capital, un grupo argentino con US$ 17.000 millones en activos administrados y más de 1,5 millones de clientes, firmó un acuerdo de entendimiento para comprar la mayoría de las acciones de Cadiem Casa de Bolsa y de su administradora de fondos. Cadiem tiene más de 22.000 clientes en Paraguay. La operación depende de una revisión de unos 30 días y de las aprobaciones regulatorias.",
-   "contexto": "La compra de una empresa local por un grupo extranjero es inversión extranjera directa (IED): trae capital, tecnología y experiencia, como la plataforma digital de Balanz. Llega en plena crisis de Ueno, cuando las casas de bolsa sufrieron pedidos de rescate y los bonos cayeron, lo que muestra que un inversor externo todavía ve oportunidades en el mercado de capitales paraguayo. Para Paraguay, un mercado de valores más profundo puede abaratar el financiamiento de las empresas. También aumenta la concentración y la influencia de capitales argentinos.",
-   "datos": [
-    [
-     "US$ 17.000 M",
-     "Activos que administra Balanz Capital"
-    ],
-    [
-     "1,5 M+",
-     "Clientes de Balanz"
-    ],
-    [
-     "22.000+",
-     "Clientes de Cadiem en Paraguay"
-    ],
-    [
-     "30 días",
-     "Duración estimada de la revisión (debida diligencia)"
-    ],
-    [
-     "6",
-     "Países donde estaría Balanz con Paraguay"
-    ]
-   ],
-   "clave": [
-    "22.000+",
-    "clientes de Cadiem que pasarían a Balanz"
-   ],
-   "fig": {
-    "k": "divisas",
-    "mueve": "D",
-    "dir": 1
-   },
-   "cap": "La entrada de inversión extranjera directa aumenta la demanda de guaraníes, lo que presiona hacia arriba su valor.",
-   "pasos": [
-    "Balanz quiere crecer en la región",
-    "Acuerda comprar la mayoría de Cadiem",
-    "Entra capital extranjero (IED) a Paraguay",
-    "Aumenta la demanda de guaraníes y la competencia en el mercado de valores",
-    "Las empresas pueden tener más opciones de financiamiento"
-   ],
-   "conceptos": [
-    [
-     "Inversión extranjera directa",
-     "Compra o creación de empresas en otro país con control de su gestión."
-    ],
-    [
-     "Casa de bolsa",
-     "Empresa que compra y vende valores (bonos, acciones) por cuenta de sus clientes."
-    ],
-    [
-     "Debida diligencia",
-     "Revisión de la empresa antes de comprarla."
-    ],
-    [
-     "Mercado de capitales",
-     "Donde las empresas consiguen financiamiento a largo plazo con bonos y acciones."
-    ]
-   ],
-   "diagramas": [
-    "tipo-cambio",
-    "bonos"
-   ],
-   "rel": [
-    "liquidez-tasas"
-   ],
-   "pregunta": {
-    "q": "¿Cómo se clasifica la compra de Cadiem por Balanz en la balanza de pagos?",
-    "opts": [
-     "Inversión extranjera directa en la cuenta financiera",
-     "Exportación de servicios en la cuenta corriente",
-     "Remesa en la cuenta corriente",
-     "Reserva internacional del BCP"
-    ],
-    "ok": 0,
-    "fb": "Es IED: un inversor extranjero toma el control de una empresa local; se registra en la cuenta financiera."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Clientes de Cadiem",
-      "Acceden a más productos y a una plataforma con experiencia internacional."
-     ],
-     [
-      "Mercado de valores paraguayo",
-      "Gana un actor grande en medio de la crisis de confianza."
-     ]
-    ],
-    "pierden": [
-     [
-      "Casas de bolsa locales más pequeñas",
-      "Enfrentan un competidor con más recursos."
-     ],
-     [
-      "Accionistas que venden",
-      "Ceden el control de la empresa (aunque reciben un pago)."
-     ]
-    ],
-    "corto": "Si la revisión sale bien y los reguladores aprueban, Balanz asumiría la operación de Cadiem.",
-    "largo": "Más competencia y tecnología pueden profundizar el mercado de capitales, aunque también lo vuelven más dependiente de grupos extranjeros.",
-    "supuestos": [
-     "Que la debida diligencia no encuentre problemas",
-     "Que los reguladores aprueben la compra",
-     "Que la crisis de Ueno no empeore la confianza en el mercado"
-    ],
-    "conclusion": "Es una señal de confianza en el mercado de capitales paraguayo en un mal momento. Sus beneficios dependerán de que mejore la competencia y no solo cambie el dueño."
-   }
-  },
-  {
    "id": "consumo-electrico",
    "fecha": "2026-11-16",
    "medio": "Última Hora",
@@ -2856,121 +3111,15 @@
    "opinion": false
   },
   {
-   "id": "el-nino-fitch",
-   "fecha": "2026-11-16",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.py/negocios/2026/11/16/paraguay-aparece-entre-los-paises-que-podrian-ganar-con-la-llegada-de-el-nino-segun-fitch-ratings/",
-   "titulo": "El Niño podría favorecer al agro y a las represas de Paraguay, según Fitch",
-   "unidad": "micro",
-   "tema": "2.2",
-   "kc": "sostenibilidad",
-   "resumen": "Un análisis de Fitch Ratings, difundido por la agencia RT y citado por La Nación, ubica a Paraguay, Argentina y Uruguay como los tres países sudamericanos que podrían ganar con El Niño. Más lluvias favorecerían los cultivos y la generación hidroeléctrica. Fitch advierte, sin embargo, que en la región podrían subir los precios de los alimentos y algunos costos de producción.",
-   "contexto": "El clima es un determinante de la oferta que no depende del precio: si llueve lo suficiente, los productores cosechan más con los mismos recursos y la curva de oferta se desplaza a la derecha. En Paraguay esto pesa mucho, porque la soja y otros granos son su principal exportación y casi toda su electricidad viene de represas. Para otros países, como Bolivia, Chile o Perú, Fitch prevé efectos negativos, y en Panamá una sequía podría afectar al canal. La misma variable (el clima) puede ser una buena noticia para unos y mala para otros.",
-   "datos": [
-    [
-     "3",
-     "Países sudamericanos con balance potencialmente positivo (Paraguay, Argentina, Uruguay)"
-    ],
-    [
-     "2 pp",
-     "Lo que podría caer el PIB de Perú en 2026-2027 en el peor escenario, según Fitch"
-    ]
-   ],
-   "clave": [
-    "El Niño",
-    "más lluvia: más oferta agrícola"
-   ],
-   "fig": {
-    "k": "mercado",
-    "mueve": "O",
-    "dir": 1
-   },
-   "cap": "Con más lluvias, la cosecha aumenta y la oferta de granos se desplaza de O₁ a O₂: más cantidad y un precio menor, si la demanda no cambia.",
-   "pasos": [
-    "Llega El Niño con más lluvias en la región",
-    "Mejoran los rendimientos agrícolas y el caudal del Paraná",
-    "La oferta de granos y de energía se desplaza a la derecha",
-    "Aumenta la producción y las exportaciones",
-    "Crece el PIB, aunque pueden subir costos en otras partes"
-   ],
-   "conceptos": [
-    [
-     "Determinantes de la oferta",
-     "Factores distintos del precio que desplazan la curva: clima, costos, tecnología."
-    ],
-    [
-     "Shock de oferta",
-     "Cambio repentino en la capacidad de producir."
-    ],
-    [
-     "Bien primario",
-     "Producto agrícola o minero sin transformar, sensible al clima."
-    ]
-   ],
-   "diagramas": [
-    "oferta-demanda",
-    "exportaciones"
-   ],
-   "rel": [
-    "soja-record"
-   ],
-   "pregunta": {
-    "q": "Si El Niño trae más lluvias y mejora la cosecha de soja, ¿qué pasa en el mercado?",
-    "opts": [
-     "La oferta se desplaza a la derecha y el precio tiende a bajar",
-     "La demanda se desplaza a la derecha",
-     "La oferta se desplaza a la izquierda",
-     "No cambia nada porque el precio no cambió"
-    ],
-    "ok": 0,
-    "fb": "El clima es un determinante de la oferta: con más producción a cada precio, la curva de oferta se desplaza a la derecha."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores y exportadores agrícolas",
-      "Más rendimiento con los mismos recursos."
-     ],
-     [
-      "ANDE y las binacionales",
-      "Más agua en el Paraná permite generar más energía."
-     ]
-    ],
-    "pierden": [
-     [
-      "Consumidores de la región",
-      "Fitch advierte que los alimentos pueden encarecerse en otros países afectados."
-     ],
-     [
-      "Productores en zonas inundables",
-      "El exceso de lluvia también puede dañar cultivos y caminos."
-     ]
-    ],
-    "corto": "Mejores perspectivas para la campaña agrícola y para la generación hidroeléctrica.",
-    "largo": "La dependencia del clima muestra la vulnerabilidad de una economía basada en bienes primarios y represas.",
-    "supuestos": [
-     "Que las lluvias no se conviertan en inundaciones",
-     "Que los precios internacionales de los granos no caigan mucho",
-     "Que el análisis de Fitch se cumpla"
-    ],
-    "conclusion": "El Niño puede ser un empujón para la oferta agrícola y energética de Paraguay, pero depender del clima es un riesgo: la misma fuerza que ayuda este año puede dañar el próximo."
-   },
-   "sector": [
-    "agro",
-    "energia"
-   ],
-   "opinion": false
-  },
-  {
    "id": "hambre-cero-recorte",
-   "fecha": "2026-11-17",
+   "fecha": "2026-11-22",
    "medio": "La Nación",
    "url": "https://www.lanacion.com.py/politica_edicion_impresa/2026/11/17/hambre-cero-tendra-recortes-de-hasta-usd-100-millones-en-2027/",
    "titulo": "Hambre Cero: el Gobierno quiere ahorrar hasta US$ 100 millones en 2027",
    "unidad": "macro",
    "tema": "3.4",
    "kc": "equidad",
-   "resumen": "El presidente Pedro Alliana anunció que el almuerzo escolar de Hambre Cero se dará de marzo a noviembre y no en feriados, lo que ahorraría entre US$ 80 y US$ 100 millones en 2027, según La Nación. El ministro de Desarrollo Social, Tadeo Rojas, dijo que el servicio cubriría unos 151 a 153 días de clase con asistencia plena. Hoy ya se redujo 40 % la provisión diaria por la baja asistencia en época de exámenes.",
+   "resumen": "El presidente Pedro Alliana anunció que el almuerzo escolar de Hambre Cero se dará de marzo a noviembre y no en feriados, lo que ahorraría entre US$ 80 y US$ 100 millones en 2027, según La Nación. El ministro de Desarrollo Social, Tadeo Rojas, dijo que el servicio cubriría unos 151 a 153 días de clase con asistencia plena. Hoy ya se redujo 40 % la provisión diaria por la baja asistencia en época de exámenes. El 22 de noviembre, La Nación informó que en escuelas como una de Horqueta la alimentación escolar, a cargo de las gobernaciones, terminó el viernes 20, aunque las clases siguen hasta el 30 de noviembre.",
    "contexto": "Hambre Cero es una transferencia en especie que busca mejorar la nutrición y la asistencia escolar de los niños, sobre todo de familias pobres: es un programa de equidad. En plena revisión del Presupuesto 2027, con un déficit de 3,9 % del PIB, el Gobierno busca recortar gastos sin quitar el beneficio en los días de clase. El argumento oficial es de eficiencia: no pagar comida que se desperdicia cuando los alumnos no van a la escuela. La pregunta económica es si el ahorro reduce solo el desperdicio o también deja sin comida a niños que la necesitan.",
    "datos": [
     [
@@ -2996,6 +3145,10 @@
     [
      "25.000",
      "Estudiantes de la media sumados el año pasado sin ampliar el presupuesto"
+    ],
+    [
+     "20 nov",
+     "Último día de alimentación escolar en algunas escuelas; las clases siguen hasta el 30 (La Nación)"
     ]
    ],
    "clave": [
@@ -3102,163 +3255,13 @@
    "inst": [
     "mef"
    ],
-   "opinion": false
-  },
-  {
-   "id": "indice-miseria",
-   "fecha": "2026-11-16",
-   "medio": "ABC Color",
-   "opinion": true,
-   "url": "https://www.abc.com.py/economia/2026/11/16/una-mirada-a-traves-del-indice-global-de-miseria-en-america-latina/",
-   "titulo": "Índice de miseria: Paraguay en el puesto 74 y castigado por las tasas de interés",
-   "unidad": "macro",
-   "tema": "3.3",
-   "kc": "bienestar",
-   "resumen": "Un análisis de MF Economía e Inversiones publicado en ABC Color repasa el Índice Anual de Miseria de Hanke, que suma inflación, desempleo y tasas de interés de los préstamos y resta el crecimiento del PIB real por habitante. Paraguay quedó en el puesto 74 con 25,44 puntos, mejor que Brasil (59,64) o Argentina (88,35) y cerca de Uruguay (26,50) y Chile (24,01).",
-   "contexto": "El índice combina varios objetivos macroeconómicos en un solo número: cuanto más alto, peor. Según el análisis de MF Economía, en Venezuela y Argentina el problema principal es la inflación, en Chile el desempleo y en Paraguay, Brasil, Colombia o Perú las altas tasas de interés de los préstamos bancarios. Los autores atribuyen el mal desempeño de los países rezagados a la dependencia de materias primas, la informalidad, la incertidumbre jurídica y los déficits fiscales. Es un buen ejemplo de que la inflación baja (1,7 % en Paraguay) no alcanza si el crédito es caro.",
-   "datos": [
+   "opinion": false,
+   "mas": [
     [
-     "74.º",
-     "Puesto de Paraguay en el ranking mundial (25,44 puntos)"
-    ],
-    [
-     "24,01",
-     "Chile (puesto 78)"
-    ],
-    [
-     "26,50",
-     "Uruguay (puesto 71)"
-    ],
-    [
-     "59,64",
-     "Brasil (puesto 19)"
-    ],
-    [
-     "88,35",
-     "Argentina (puesto 5)"
-    ],
-    [
-     "556,49",
-     "Venezuela, el peor del mundo en 2025"
+     "La Nación",
+     "https://www.lanacion.com.py/pais/2026/11/22/alumnos-quedan-sin-alimentacion-por-suspension-de-hambre-cero/",
+     "2026-11-22"
     ]
-   ],
-   "clave": [
-    "25,44",
-    "puntos de miseria: puesto 74"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "puntos",
-    "rows": [
-     [
-      "Argentina",
-      88.35,
-      0
-     ],
-     [
-      "Brasil",
-      59.64,
-      0
-     ],
-     [
-      "Bolivia",
-      44.04,
-      0
-     ],
-     [
-      "Uruguay",
-      26.5,
-      0
-     ],
-     [
-      "Paraguay",
-      25.44,
-      1
-     ],
-     [
-      "Chile",
-      24.01,
-      0
-     ]
-    ]
-   },
-   "cap": "Índice de miseria de Hanke 2025 en países de la región: más puntos significa peor desempeño combinado de inflación, desempleo, tasas de interés y crecimiento. Paraguay está entre los mejores de la región.",
-   "pasos": [
-    "Se suman la inflación, el desempleo y la tasa de interés de los préstamos",
-    "Se resta el crecimiento del PIB real por habitante",
-    "Un número alto indica peor situación macroeconómica",
-    "En Paraguay pesa sobre todo el costo del crédito",
-    "Bajar tasas requiere más competencia bancaria y confianza"
-   ],
-   "conceptos": [
-    [
-     "Índice de miseria",
-     "Indicador que suma inflación, desempleo y tasas de interés y resta el crecimiento del PIB per cápita."
-    ],
-    [
-     "Objetivos macroeconómicos",
-     "Crecimiento, bajo desempleo, inflación baja y estable, y equilibrio externo."
-    ],
-    [
-     "Tasa de interés activa",
-     "Lo que cobran los bancos por prestar dinero."
-    ],
-    [
-     "PIB real per cápita",
-     "Producción por habitante descontando la inflación."
-    ]
-   ],
-   "diagramas": [
-    "da-oa-da",
-    "politica-monetaria"
-   ],
-   "rel": [
-    "liquidez-tasas",
-    "inflacion-oct"
-   ],
-   "pregunta": {
-    "q": "Si Paraguay quisiera mejorar su índice de miseria, ¿qué componente le conviene atacar primero según el análisis?",
-    "opts": [
-     "Las altas tasas de interés de los préstamos",
-     "La hiperinflación",
-     "El desempleo masivo",
-     "La caída del PIB"
-    ],
-    "ok": 0,
-    "fb": "Según el análisis citado por ABC Color, en Paraguay el factor que más pesa es el costo del crédito bancario, no la inflación ni el desempleo."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Paraguay frente a la región",
-      "Su buena posición ayuda a la imagen del país ante inversores."
-     ],
-     [
-      "Hogares con ahorros",
-      "Inflación baja y estable preserva el poder de compra."
-     ]
-    ],
-    "pierden": [
-     [
-      "Deudores y mipymes",
-      "Pagan tasas de interés altas, el principal componente de la miseria en Paraguay."
-     ],
-     [
-      "Trabajadores informales",
-      "El índice no capta la baja calidad del empleo: puede dar una imagen demasiado buena."
-     ]
-    ],
-    "corto": "Con la crisis de Ueno y menos liquidez, las tasas de interés podrían subir y empeorar el componente que ya más pesa en Paraguay.",
-    "largo": "Mejorar requiere más competencia bancaria, menor informalidad y disciplina fiscal, según los autores; son cambios lentos.",
-    "supuestos": [
-     "Que los componentes midan bien el bienestar",
-     "Que el ranking use datos comparables entre países"
-    ],
-    "conclusion": "El índice muestra que Paraguay está mejor que la mayoría de sus vecinos, pero simplifica: suma variables con pesos iguales y deja afuera la desigualdad y la informalidad, por eso conviene leerlo junto con otros indicadores."
-   },
-   "mundo": [
-    "argentina",
-    "brasil"
    ]
   },
   {
@@ -5488,6 +5491,11 @@
      "La Nación",
      "https://www.lanacion.com.py/negocios/2026/11/14/gremio-del-sector-electrico-plantea-que-ande-amplie-sus-fuentes-de-financiamiento/",
      "2026-11-14"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/ande-usd-68-millones-atrapados-en-ueno-amenazan-el-ritmo-de-obras-electricas-segun-cecoel",
+     "2026-11-22"
     ]
    ],
    "titulo": "La ANDE tiene US$ 21 millones atrapados en Ueno y posterga obras",
@@ -5497,7 +5505,7 @@
    "sector": [
     "energia"
    ],
-   "resumen": "Félix Sosa volvió a la presidencia de la ANDE y, según ABC Color, admitió que no sabe cómo recuperará unos US$ 21 millones de un préstamo del BID que quedaron en Ueno Bank. Ese dinero financia la línea de 500 kV entre Itaipú y Villa Hayes y obras de 220 kV en el área metropolitana; algunas obras se postergarán y los pagos de G. 115.000 millones a proveedores se revisarán «caso por caso».",
+   "resumen": "Félix Sosa volvió a la presidencia de la ANDE y, según ABC Color, admitió que no sabe cómo recuperará unos US$ 21 millones de un préstamo del BID que quedaron en Ueno Bank. Ese dinero financia la línea de 500 kV entre Itaipú y Villa Hayes y obras de 220 kV en el área metropolitana; algunas obras se postergarán y los pagos de G. 115.000 millones a proveedores se revisarán «caso por caso». El 22 de noviembre, Última Hora sumó que la ANDE busca con el BID alternativas para seguir financiando sus obras y que, según Cecoel, sus contratistas cobran entre seis y diez meses después de terminar los trabajos.",
    "contexto": "Las líneas de transmisión son infraestructura: permiten usar más energía de Itaipú en el país y amplían la capacidad productiva a largo plazo, por eso son una política de oferta. Si se retrasan, la OALP crece más lento. Además, ABC Color recuerda que el contrato de potencia y la tarifa de Itaipú vencen el 31 de diciembre de 2026, y que la emisión de bonos de la ANDE quedó en pausa. En paralelo, según La Nación, la empresa Atome (proyecto de fertilizantes de US$ 665 millones en Villeta) notificó que da por terminado su contrato de energía con la ANDE a fines de 2026, aunque dice estar dispuesta a firmar uno nuevo. Según ABC Color (14 nov), la cámara de constructoras electromecánicas (Cecoel) teme que se frenen las obras: además de los US$ 21 millones del préstamo, hay una carta de crédito por casi US$ 47 millones para proveedores. La ANDE proyecta invertir US$ 614 millones en obras en 2027, 20 % más que en 2026. Otra empresa pública, Petropar, tiene US$ 46 millones de capital operativo atrapados en Ueno, según su presidente (Última Hora, 13 nov). Según La Nación (14 nov), Cecoel pide que la ANDE amplíe sus fuentes de financiamiento, incluidas alianzas público-privadas, y se queja de que los contratistas cobran entre 6 y 10 meses después de terminar las obras.",
    "datos": [
     [
@@ -6408,7 +6416,7 @@
   },
   {
    "id": "pgn-suspendido",
-   "fecha": "2026-11-18",
+   "fecha": "2026-11-22",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/diputados-aprueban-pgn-2027-con-modificaciones-pero-mantienen-elevado-deficit-de-3-9",
    "titulo": "Presupuesto 2027: el Senado lo trataría el 23 y 24 de noviembre, con el déficit en 3,9 %",
@@ -6418,9 +6426,17 @@
    "inst": [
     "mef"
    ],
-   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación. El 18 de noviembre, Última Hora informó que el Senado prevé estudiar el proyecto el lunes 23 con el ministro de Economía, Oscar Lovera, y votarlo el martes 24; el Congreso tiene hasta el 20 de diciembre para enviarlo al Ejecutivo. Ese día, funcionarios del Hospital de Clínicas marcharon contra un recorte que, según su sindicato, reduciría hasta G. 1,3 millones los ingresos de unos 6.000 trabajadores (ABC Color).",
+   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación. El 18 de noviembre, Última Hora informó que el Senado prevé estudiar el proyecto el lunes 23 con el ministro de Economía, Oscar Lovera, y votarlo el martes 24; el Congreso tiene hasta el 20 de diciembre para enviarlo al Ejecutivo. Ese día, funcionarios del Hospital de Clínicas marcharon contra un recorte que, según su sindicato, reduciría hasta G. 1,3 millones los ingresos de unos 6.000 trabajadores (ABC Color). El 22 de noviembre, Última Hora informó que el Senado empieza el lunes 23 con el ministro Lovera y prevé votar en plenaria el martes 24. Según ese diario, la versión con media sanción de Diputados suma G. 164,9 billones (US$ 25.546,5 millones), 10,7 % más que en 2026, con un déficit de 3,8 % del PIB, levemente por debajo del 3,9 % inicial; Diputados sumó, entre otros, fondos para el salario de médicos, la Justicia Electoral y las universidades.",
    "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja. El 13 de noviembre el ministro Oscar Lovera dijo a Diputados que la crisis de Ueno es un caso puntual y que espera mantener la emisión de bonos en el exterior: el plan prevé colocar G. 17,4 billones (US$ 2.708,7 millones), hasta 70 % más que en 2026, el 99 % en el mercado internacional (Última Hora).",
    "datos": [
+    [
+     "G. 164,9 bill.",
+     "Presupuesto con media sanción de Diputados (US$ 25.546,5 M; +10,7 %)"
+    ],
+    [
+     "3,8 %",
+     "Déficit de la versión de Diputados, según Última Hora (22 nov)"
+    ],
     [
      "G. 164 bill.",
      "Presupuesto 2027 aprobado por Diputados (US$ 25.478,2 M)"
@@ -6628,6 +6644,11 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/18/recorte-al-hospital-de-clinicas-afectaria-a-6000-funcionarios/",
      "2026-11-18"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/en-medio-de-presion-empresarial-y-crisis-de-ueno-senadores-definen-pgn-2027-esta-semana",
+     "2026-11-22"
     ]
    ]
   },
@@ -9107,6 +9128,10 @@
     [
      "2026-11-16",
      6241
+    ],
+    [
+     "2026-11-19",
+     6310.3
     ]
    ],
    "lee": "El guaraní se apreció casi todo el año, se depreció con fuerza en la primera semana de noviembre por la crisis de Ueno Bank y empezó a recuperarse el 9 de noviembre.",
@@ -9367,6 +9392,17 @@
     "deficit-octubre",
     "tpm-noviembre",
     "gremios-pgn-recorte"
+   ]
+  },
+  "2026-11-23": {
+   "titulo": "Semana del Presupuesto: el Senado decide con Ueno de fondo",
+   "texto": "El Senado empieza el lunes 23 a estudiar el Presupuesto 2027, que Diputados aprobó con un déficit de 3,8 % del PIB, y prevé votarlo el martes 24 bajo presión de los gremios para recortar más. El fin de semana, los desarrolladores inmobiliarios advirtieron que los vaivenes del dólar frenan proyectos, y el MUVH informó que la demanda agotará los fondos de Che Róga Porã a mediados de 2027. Última Hora explicó cómo Paraguay se suma a la cadena de la inteligencia artificial con uranio y energía de Itaipú, mientras la ANDE busca al BID para no frenar obras y algunas escuelas se quedaron sin almuerzo escolar antes del fin de clases.",
+   "claves": [
+    "pgn-suspendido",
+    "capadei-dolar",
+    "uranio-ia",
+    "che-roga-pora",
+    "ande-ueno"
    ]
   }
  },
@@ -9740,6 +9776,10 @@
     [
      "2026-11-19",
      "Gremios empresariales proponen al Senado recortar US$ 670 millones del Presupuesto 2027 y bajar el déficit a 2,9 % del PIB."
+    ],
+    [
+     "2026-11-22",
+     "El MUVH informa que los fondos de Che Róga Porã alcanzan hasta mediados de 2027 y tramita un segundo crédito de US$ 200 millones con Taiwán."
     ]
    ],
    "enlaces": [
@@ -11322,6 +11362,11 @@
      "2026-11-21",
      "Capasu dice que las ventas de supermercados se normalizan; los restaurantes reportan menos gasto por cliente.",
      "consumo-cae"
+    ],
+    [
+     "2026-11-22",
+     "La ANDE busca financiamiento del BID porque US$ 68 millones quedaron en Ueno (Cecoel).",
+     "ande-ueno"
     ]
    ]
   },
@@ -11434,6 +11479,16 @@
      "2026-11-19",
      "Los gremios proponen recortar US$ 670 millones y bajar el déficit de 2027 a 2,9 % del PIB.",
      "gremios-pgn-recorte"
+    ],
+    [
+     "2026-11-22",
+     "El Senado empieza a estudiar el Presupuesto el 23 y lo votaría el 24; la versión de Diputados prevé un déficit de 3,8 % del PIB.",
+     "pgn-suspendido"
+    ],
+    [
+     "2026-11-22",
+     "Algunas escuelas se quedan sin alimentación escolar desde el 20 de noviembre, aunque las clases siguen.",
+     "hambre-cero-recorte"
     ]
    ]
   },
@@ -11456,7 +11511,8 @@
     "guarani-cae",
     "dolar-6600",
     "bcp-cambiaria",
-    "eve-noviembre"
+    "eve-noviembre",
+    "capadei-dolar"
    ],
    "hitos": [
     [
@@ -11525,6 +11581,11 @@
      "2026-11-20",
      "El dólar vuelve a subir y cierra la semana en G. 6.400 en casas de cambio.",
      "dolar-6600"
+    ],
+    [
+     "2026-11-22",
+     "Capadei: la volatilidad del dólar (G. 5.694 el 9 oct, G. 6.310 el 19 nov) frena proyectos inmobiliarios.",
+     "capadei-dolar"
     ]
    ]
   },
@@ -12864,7 +12925,8 @@
    "itaipu-opinion",
    "energia-cedida",
    "ande-tarifa",
-   "consumo-electrico"
+   "consumo-electrico",
+   "uranio-ia"
   ]
  },
  "miradas": [
@@ -14843,8 +14905,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-21",
-  "hora": "12:16",
+  "fecha": "2026-11-23",
+  "hora": "05:53",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -14864,7 +14926,7 @@
    [
     "BRL",
     "Real brasileño",
-    1050,
+    1000,
     1140
    ],
    [
@@ -14940,6 +15002,11 @@
      "2026-11-21",
      5900,
      6400
+    ],
+    [
+     "2026-11-23",
+     5900,
+     6400
     ]
    ],
    "ARS": [
@@ -15005,6 +15072,11 @@
     ],
     [
      "2026-11-21",
+     3,
+     3.8
+    ],
+    [
+     "2026-11-23",
      3,
      3.8
     ]
@@ -15074,6 +15146,11 @@
      "2026-11-21",
      1050,
      1140
+    ],
+    [
+     "2026-11-23",
+     1000,
+     1140
     ]
    ],
    "EUR": [
@@ -15139,6 +15216,11 @@
     ],
     [
      "2026-11-21",
+     6000,
+     6800
+    ],
+    [
+     "2026-11-23",
      6000,
      6800
     ]
