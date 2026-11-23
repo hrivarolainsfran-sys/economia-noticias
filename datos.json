@@ -15450,5 +15450,336 @@
    "¿Qué es el riesgo moral y por qué existe un fondo de garantía de depósitos?",
    "¿Quién debería pagar el costo de la crisis: los ahorristas, los bancos o el Estado? Evalúa."
   ]
+ },
+ "ia": {
+  "actualizado": "2026-11-23",
+  "recomendados": [
+   {
+    "id": "isc-diesel",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "Una medida concreta y fácil de seguir: el Gobierno bajó a la mitad el impuesto al diésel y el litro bajó G. 300 hasta fin de año. Tiene cifras, una fecha de vencimiento y grupos que piden más.",
+    "kc": [
+     [
+      "intervencion",
+      "El Gobierno cambia un impuesto para bajar el precio: ¿corrige un problema o crea otro?"
+     ],
+     [
+      "sostenibilidad",
+      "Diésel más barato significa más consumo y más emisiones: una externalidad negativa."
+     ]
+    ],
+    "dg": "Oferta y demanda con impuesto indirecto: al bajar el impuesto, la oferta se desplaza hacia abajo. Puedes sumar el de externalidad negativa.",
+    "ev": "Quién gana (transportistas, consumidores) y quién pierde (el fisco, el ambiente); qué pasa en enero si vuelve el impuesto."
+   },
+   {
+    "id": "conacom-frigorificos",
+    "e": 3,
+    "niv": "Media",
+    "por": "Un caso real de poder de mercado: dos frigoríficos que hacen cerca del 60 % de la faena, acusados de abusar al comprar ganado, con multas propuestas en cifras.",
+    "kc": [
+     [
+      "equidad",
+      "¿Reciben los ganaderos un precio justo cuando hay pocos compradores?"
+     ],
+     [
+      "intervencion",
+      "La Conacom sanciona: ¿es la multa la mejor herramienta?"
+     ]
+    ],
+    "dg": "Poder de mercado: monopolio (o monopsonio, si lo ves en clase), con menos cantidad y pérdida de bienestar.",
+    "ev": "Efectos para ganaderos, consumidores y trabajadores; si una multa cambia la conducta; riesgos para una industria con capacidad ociosa."
+   },
+   {
+    "id": "ande-tarifa",
+    "e": 3,
+    "niv": "Media",
+    "por": "Un monopolio natural con precio regulado: la ANDE no subirá la tarifa por al menos un año. Sirve para analizar un precio máximo y la salud de una empresa pública.",
+    "kc": [
+     [
+      "eficiencia",
+      "Una tarifa por debajo del costo puede frenar inversiones: ¿se asignan bien los recursos?"
+     ],
+     [
+      "equidad",
+      "Alivio para los hogares hoy frente a usuarios futuros que necesitan más obras."
+     ]
+    ],
+    "dg": "Monopolio natural con regulación de precios (precio máximo).",
+    "ev": "Corto plazo (alivio, menos inflación) frente a largo plazo (obras postergadas mientras crece la demanda de energía)."
+   },
+   {
+    "id": "che-roga-pora",
+    "e": 2,
+    "niv": "Media",
+    "por": "Un programa de vivienda con crédito barato que se queda sin fondos antes de tiempo: muestra lo que pasa cuando la demanda supera lo que el Estado puede financiar.",
+    "kc": [
+     [
+      "equidad",
+      "¿Llega la ayuda a las familias que más la necesitan?"
+     ],
+     [
+      "escasez",
+      "Fondos limitados frente a muchas familias que quieren su casa."
+     ]
+    ],
+    "dg": "Subsidio en un mercado (crédito para vivienda): más cantidad demandada y costo para el Estado.",
+    "ev": "Costo para los contribuyentes y la deuda (el nuevo crédito de Taiwán); efecto en el precio de las viviendas; quién queda afuera."
+   },
+   {
+    "id": "faena-bovina-octubre",
+    "e": 2,
+    "niv": "Accesible",
+    "por": "Datos claros de una caída de la oferta: la faena bajó 20 % en el año y los frigoríficos usan menos de la mitad de su capacidad.",
+    "kc": [
+     [
+      "escasez",
+      "Hay menos ganado y no se puede producir más rápido."
+     ],
+     [
+      "cambio",
+      "El ciclo ganadero cambia la oferta de un año a otro."
+     ]
+    ],
+    "dg": "Oferta que se desplaza a la izquierda y oferta inelástica en el corto plazo.",
+    "ev": "Efectos en el precio de la carne, las exportaciones y el empleo; corto frente a largo plazo."
+   },
+   {
+    "id": "tpm-noviembre",
+    "e": 3,
+    "niv": "Media",
+    "por": "Una decisión concreta del BCP: la tasa queda en 5,50 %, con sus razones (crecimiento, inflación cerca del piso y el golpe de Ueno). Ideal para política monetaria.",
+    "kc": [
+     [
+      "intervencion",
+      "¿Debe el BCP mover la tasa o esperar a ver el efecto de Ueno?"
+     ],
+     [
+      "cambio",
+      "Cómo cambia la decisión después de una crisis bancaria."
+     ]
+    ],
+    "dg": "Demanda y oferta agregadas: la política monetaria desplaza la DA.",
+    "ev": "Ahorristas frente a deudores; los rezagos de la política monetaria; qué pasa si la DA cae por Ueno."
+   },
+   {
+    "id": "consumo-cae",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "Un golpe a la demanda agregada con cifras fuertes: ventas de multitiendas hasta 70 % abajo, supermercados cerca de 10 % menos y miles de empleos en riesgo.",
+    "kc": [
+     [
+      "cambio",
+      "Un hecho financiero cambia de golpe el consumo de las familias."
+     ],
+     [
+      "bienestar",
+      "Menos ventas y empleos en riesgo afectan el bienestar."
+     ]
+    ],
+    "dg": "Demanda agregada que se desplaza a la izquierda: menos producción y empleo (brecha recesiva).",
+    "ev": "Corto frente a largo plazo (recuperación al devolver los depósitos); qué política fiscal o monetaria puede ayudar."
+   },
+   {
+    "id": "deficit-octubre",
+    "e": 3,
+    "niv": "Media",
+    "por": "Cifras oficiales claras: déficit de 3,2 % del PIB, con el gasto creciendo 10,8 % y los ingresos solo 1 %. Permite evaluar la política fiscal y la deuda.",
+    "kc": [
+     [
+      "sostenibilidad",
+      "¿Puede el país sostener este déficit? La meta es volver a 1,5 % en 2028."
+     ],
+     [
+      "intervencion",
+      "Más gasto público: ¿qué se gana y qué se arriesga?"
+     ]
+    ],
+    "dg": "Política fiscal expansiva en demanda y oferta agregadas.",
+    "ev": "Beneficios del gasto frente al costo de la deuda; efecto en la calificación y las tasas; si es creíble la meta de 2028."
+   },
+   {
+    "id": "hambre-cero-recorte",
+    "e": 3,
+    "niv": "Media",
+    "por": "Un recorte concreto de hasta US$ 100 millones en el almuerzo escolar: permite discutir equidad, pobreza y en qué gastar el dinero público.",
+    "kc": [
+     [
+      "equidad",
+      "¿Quién pierde con el recorte? Los niños de familias pobres."
+     ],
+     [
+      "bienestar",
+      "Nutrición, asistencia a clases y capital humano."
+     ]
+    ],
+    "dg": "Curva de Lorenz y política fiscal: las transferencias en especie reducen la desigualdad.",
+    "ev": "Ahorro fiscal frente a efectos en educación y salud; corto frente a largo plazo."
+   },
+   {
+    "id": "inflacion-oct",
+    "e": 2,
+    "niv": "Accesible",
+    "por": "Un dato oficial corto y claro: los precios bajaron 0,1 % en octubre y la inflación anual quedó en 1,7 %, por debajo de la meta de 3,5 %.",
+    "kc": [
+     [
+      "bienestar",
+      "Precios más bajos dan más poder de compra a los asalariados."
+     ],
+     [
+      "cambio",
+      "Cómo pasa la inflación de 4,1 % a 1,7 % en un año."
+     ]
+    ],
+    "dg": "Shock de oferta favorable (bajan los alimentos): la OACP se desplaza a la derecha.",
+    "ev": "Quién gana (asalariados, ahorristas) y quién pierde (productores, deudores); riesgo de la depreciación de noviembre."
+   },
+   {
+    "id": "mercosur-ue",
+    "e": 3,
+    "niv": "Media",
+    "por": "Un acuerdo comercial grande con efecto directo en Paraguay (carne y soja). Permite analizar la baja de aranceles y la integración económica.",
+    "kc": [
+     [
+      "interdependencia",
+      "Más comercio con Europa, pero el acuerdo depende de lo que decidan Francia y el Parlamento Europeo."
+     ],
+     [
+      "cambio",
+      "Qué cambia cuando los aranceles bajan poco a poco."
+     ]
+    ],
+    "dg": "Efecto de quitar un arancel y libre comercio con exportaciones.",
+    "ev": "Exportadores frente a industrias que compiten con Europa; corto plazo (cambios graduales) frente a largo plazo."
+   },
+   {
+    "id": "guarani-cae",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "El guaraní perdió 8,17 % en cinco días, con una causa clara (Ueno y la incertidumbre política). Perfecto para el diagrama del mercado de divisas.",
+    "kc": [
+     [
+      "cambio",
+      "Un golpe de confianza cambia el valor de la moneda en pocos días."
+     ],
+     [
+      "interdependencia",
+      "Importaciones más caras y exportaciones más competitivas."
+     ]
+    ],
+    "dg": "Mercado de divisas: sube la demanda de dólares (la oferta de guaraníes) y el guaraní se deprecia.",
+    "ev": "Exportadores frente a importadores; inflación importada; qué pasa si la crisis se calma."
+   },
+   {
+    "id": "bcp-cambiaria",
+    "e": 2,
+    "niv": "Media",
+    "por": "El nuevo presidente del BCP anuncia que podría comprar dólares para estabilizar la cotización: sirve para comparar un tipo de cambio flotante con la intervención.",
+    "kc": [
+     [
+      "intervencion",
+      "¿Debe el banco central intervenir en el mercado del dólar?"
+     ],
+     [
+      "cambio",
+      "Un cambio de política después de los saltos del dólar."
+     ]
+    ],
+    "dg": "Mercado de divisas con intervención del banco central (compra o venta de reservas).",
+    "ev": "Estabilidad frente al costo en reservas; el riesgo de que el mercado espere siempre la ayuda del BCP."
+   },
+   {
+    "id": "black-friday-cde",
+    "e": 2,
+    "niv": "Accesible",
+    "por": "Un tema cercano: unas 500.000 personas, sobre todo brasileños, compran en Ciudad del Este. Muestra cómo el tipo de cambio y los precios atraen demanda de otro país.",
+    "kc": [
+     [
+      "interdependencia",
+      "Las ventas dependen del real y de la economía de Brasil."
+     ],
+     [
+      "cambio",
+      "Qué pasa si el real se debilita o cambian los controles en la frontera."
+     ]
+    ],
+    "dg": "Mercado de divisas (los brasileños demandan guaraníes) o demanda agregada (suben las exportaciones netas).",
+    "ev": "Quién gana (comercio de Ciudad del Este) y quién pierde (comercio de Brasil y de otras ciudades); el riesgo de depender del real."
+   },
+   {
+    "id": "uranio-ia",
+    "e": 2,
+    "niv": "Exigente",
+    "por": "Una estrategia de desarrollo nueva: energía de Itaipú y uranio para la cadena de la inteligencia artificial. Buena para hablar de diversificación y ambiente.",
+    "kc": [
+     [
+      "sostenibilidad",
+      "Minería de uranio y comunidades cercanas: beneficios frente a riesgos ambientales."
+     ],
+     [
+      "interdependencia",
+      "Acuerdos con EE.UU. y empresas extranjeras."
+     ]
+    ],
+    "dg": "Políticas de oferta (OALP) o externalidad negativa de la producción.",
+    "ev": "Diversificación frente a riesgos ambientales; quién se queda con los beneficios; todavía no hay producción."
+   }
+  ],
+  "combos": [
+   {
+    "t": "La más completa",
+    "por": "Tres temas con un diagrama claro y mucho para evaluar, de tres medios distintos.",
+    "ids": [
+     [
+      "isc-diesel",
+      "sostenibilidad"
+     ],
+     [
+      "tpm-noviembre",
+      "intervencion"
+     ],
+     [
+      "mercosur-ue",
+      "interdependencia"
+     ]
+    ]
+   },
+   {
+    "t": "La más accesible",
+    "por": "Artículos cortos, con cifras claras y diagramas básicos. Buena para empezar.",
+    "ids": [
+     [
+      "faena-bovina-octubre",
+      "escasez"
+     ],
+     [
+      "consumo-cae",
+      "cambio"
+     ],
+     [
+      "black-friday-cde",
+      "interdependencia"
+     ]
+    ]
+   },
+   {
+    "t": "El Estado en la economía",
+    "por": "Tres decisiones públicas para evaluar: una tarifa, un recorte y la política del dólar.",
+    "ids": [
+     [
+      "ande-tarifa",
+      "eficiencia"
+     ],
+     [
+      "hambre-cero-recorte",
+      "equidad"
+     ],
+     [
+      "bcp-cambiaria",
+      "intervencion"
+     ]
+    ]
+   }
+  ]
  }
 }

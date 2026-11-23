@@ -895,6 +895,73 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
   .steps li::before{background:#000}
   @page{margin:14mm}
 }
+/* Comentarios IA */
+.ia-page .sec-head h1{max-width:22ch}
+.ia-rules{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:6px 0 10px}
+.ia-rule{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;display:grid;gap:2px;align-content:start}
+.ia-rule b{font-family:var(--f-display);font-size:2rem;line-height:1;color:var(--navy-2)}
+.ia-rule strong{font-size:.98rem}
+.ia-rule span{font-size:.86rem;color:var(--muted)}
+.ia-more{margin:0 0 22px;font-size:.92rem}
+.ia-more summary{cursor:pointer;color:var(--navy-2);font-weight:600}
+.ia-more ul{margin:8px 0 0;padding-left:20px;display:grid;gap:4px}
+.ia-port{border:2px solid var(--navy-2);border-radius:var(--r);padding:16px 18px;background:var(--sheet);margin:0 0 30px;scroll-margin-top:90px}
+.ia-port-h{display:flex;justify-content:space-between;align-items:end;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.ia-port-h h2{margin:0}
+.ia-slots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.ia-slot{position:relative;border:1px dashed var(--rule);border-radius:10px;padding:10px 12px;min-height:92px;display:grid;gap:6px;align-content:start;min-width:0}
+.ia-slot.on{border:1px solid var(--rule);border-top:4px solid var(--uc)}
+.ia-slot small{font-weight:700;color:var(--uc);text-transform:uppercase;letter-spacing:.03em;font-size:.74rem}
+.ia-slot a{font-weight:600;line-height:1.3;padding-right:20px}
+.ia-slot label{display:grid;gap:3px;font-size:.8rem;color:var(--muted)}
+.ia-slot select{font:inherit;font-size:.9rem;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:4px 6px}
+.ia-x{position:absolute;top:6px;right:8px;border:0;background:none;font-size:1.2rem;line-height:1;color:var(--muted);cursor:pointer;padding:2px 4px}
+.ia-x:hover{color:var(--bad)}
+.ia-checks{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem}
+.ia-checks .ok{color:var(--ok)}.ia-checks .bad{color:var(--bad);font-weight:600}.ia-checks .wait{color:var(--muted)}
+.ia-combos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:30px}
+.ia-combo{position:relative;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:16px;display:grid;gap:8px;align-content:start}
+.ia-combo.top{border:2px solid var(--gold)}
+.ia-badge{position:absolute;top:-11px;left:14px;background:var(--gold);color:#1d1a12;font-size:.74rem;font-weight:700;border-radius:999px;padding:2px 10px}
+.ia-combo h3{margin:4px 0 0}
+.ia-combo p{margin:0;font-size:.9rem;color:var(--ink-2)}
+.ia-combo ol{list-style:none;margin:4px 0;padding:0;display:grid;gap:8px}
+.ia-combo li{border-left:4px solid var(--uc);padding-left:9px;display:grid;gap:1px}
+.ia-combo li small{color:var(--muted);font-size:.78rem}
+.ia-combo li a{font-size:.92rem;line-height:1.3}
+.ia-combo .btn{justify-self:start;cursor:pointer}
+.ia-filters{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin-bottom:16px}
+.ia-filters [role=group]{display:flex;flex-wrap:wrap;gap:6px}
+.ia-filters .chip{cursor:pointer}
+.ia-filters select{font:inherit;font-size:.88rem;border:1px solid var(--rule);border-radius:999px;padding:5px 10px;background:var(--sheet);color:var(--ink)}
+.ia-solo{display:flex;gap:6px;align-items:center;font-size:.9rem}
+.ia-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:16px;padding-bottom:26px}
+.ia-card{background:var(--sheet);border:1px solid var(--rule);border-top:4px solid var(--uc);border-radius:var(--r);padding:14px 16px;display:grid;gap:8px;align-content:start;min-width:0}
+.ia-top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:.8rem}
+.ia-u{font-weight:700;color:var(--uc);text-transform:uppercase;letter-spacing:.03em}
+.ia-stars{color:var(--gold);letter-spacing:1px;font-size:.95rem}
+.ia-niv{border:1px solid var(--rule);border-radius:999px;padding:1px 8px;color:var(--ink-2)}
+.ia-card h3{margin:0;font-size:1.08rem;line-height:1.3}
+.ia-meta{margin:0;font-size:.8rem;color:var(--muted)}
+.ia-por{margin:0;font-size:.93rem}
+.ia-dl{margin:0;display:grid;gap:8px;background:var(--paper);border-radius:8px;padding:10px 12px}
+.ia-dl div{display:grid;gap:2px}
+.ia-dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;font-weight:700;color:var(--navy-2)}
+.ia-dl dd{margin:0;font-size:.88rem;display:grid;gap:3px}
+.ia-ft{display:grid;gap:8px;margin-top:2px}
+.ia-ven{font-size:.8rem;color:var(--ok)}
+.ia-ven.warn{color:var(--bad);font-weight:600}
+.ia-btns{display:flex;flex-wrap:wrap;gap:6px}
+.ia-btns .btn{font-size:.85rem;padding:6px 10px}
+.ia-pick{cursor:pointer}
+.ia-pick.on{background:var(--ok-bg);border-color:var(--ok);color:var(--ok);font-weight:600}
+.ia-tip-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:12px;margin-bottom:18px}
+.ia-tip{display:flex;gap:12px;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:12px 14px}
+.ia-tip>b{flex:none;width:30px;height:30px;border-radius:50%;background:var(--navy-2);color:#fff;display:grid;place-items:center;font-size:.9rem}
+.ia-tip strong{display:block;font-size:.95rem}
+.ia-tip p{margin:2px 0 0;font-size:.88rem;color:var(--ink-2)}
+.ia-foot{margin-top:4px}
+@media(max-width:860px){.ia-rules{grid-template-columns:repeat(2,minmax(0,1fr))}.ia-slots,.ia-combos{grid-template-columns:1fr}}
 </style>
 
 <style>
@@ -1049,7 +1116,7 @@ h1,h2,h3{letter-spacing:-.035em;font-weight:700;line-height:1.12}
 /* =====================================================================
    1. DATOS: noticias, indicadores, región y semanas viven en datos.json
    ===================================================================== */
-let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null, CRONO = null, ITAIPU = null, MIRADAS = [], TRABAJO = null, EMPRESAS = [], METAS = null, ARCH = null, COOP = null, COMEX = null, QUIEN = null, PRESU = null, CAMB = null, ESP = null;
+let ACTUALIZADO = '', INDICADORES = [], DIARIOS = [], OFICIALES = [], NOTICIAS = [], DESTACADO = null, HIST = {}, REGION = null, SEMANAS = {}, INST = {}, BOLSA = null, CAL = null, SECT = {}, HISTORIAS = [], PAIS = null, DESA = null, MUNDO = null, MAPA = null, CRONO = null, ITAIPU = null, MIRADAS = [], TRABAJO = null, EMPRESAS = [], METAS = null, ARCH = null, COOP = null, COMEX = null, QUIEN = null, PRESU = null, CAMB = null, ESP = null, IAREC = null;
 
 const KC = { escasez:'Escasez', eleccion:'Elección', eficiencia:'Eficiencia', equidad:'Equidad', bienestar:'Bienestar económico', sostenibilidad:'Sostenibilidad', cambio:'Cambio', interdependencia:'Interdependencia', intervencion:'Intervención' };
 const UNI = { micro:'Microeconomía', macro:'Macroeconomía', global:'Economía global' };
@@ -1874,6 +1941,85 @@ function renderEmpresas() {
   document.querySelectorAll('.spectrum [data-go]').forEach(a => a.onclick = e => { e.preventDefault(); const t = document.getElementById('emp-' + a.dataset.go); if (t) t.scrollIntoView({ behavior: 'smooth' }); });
 }
 
+/* Comentarios IA: artículos para el portafolio de la evaluación interna */
+const IA_UNI = { 2: ['micro', 'Microeconomía'], 3: ['macro', 'Macroeconomía'], 4: ['global', 'Economía global'] };
+const IA_REGLAS = [['3', 'comentarios', 'de hasta 800 palabras cada uno'], ['3', 'unidades distintas', 'Unidad 2, 3 y 4 (la Unidad 1 no cuenta)'], ['3', 'conceptos clave distintos', 'uno como lente de cada comentario'], ['1', 'año como máximo', 'entre la publicación del artículo y tu comentario']];
+const IA_DETALLE = ['El artículo debe venir de un medio de noticias: un diario, una revista o un sitio de noticias. No sirven libros, blogs personales ni páginas de estudio.', 'Trabaja con el artículo original del diario, no con el resumen de esta página. Guarda el enlace, la fecha y una copia.', 'En cada comentario se evalúa: diagramas, terminología, aplicación y análisis, el uso del concepto clave y la evaluación.', 'Adjunta el artículo a cada comentario e indica la unidad, el concepto clave, la fecha de publicación y la fecha en que escribiste.'];
+const IA_TIPS = [['Un solo problema económico', 'Elige artículos que traten un tema claro, no un resumen de muchas noticias.'], ['Con cifras', 'Precios, porcentajes o cantidades te ayudan a aplicar la teoría al caso real.'], ['Con una decisión para evaluar', 'Un impuesto, una tasa, una multa o un acuerdo: así tienes algo que evaluar.'], ['Que se pueda dibujar', 'Antes de elegir, piensa qué diagrama del programa vas a usar.'], ['Mejor noticias que columnas', 'Si el artículo ya trae todo el análisis, te deja poco para aportar a ti.'], ['Corto y de un medio confiable', 'Una o dos páginas alcanzan. Evita artículos con muro de pago si no puedes guardarlos.']];
+let IA_F = { u: 'todas', kc: 'todos', solo: true };
+const iaUnidad = n => { const t = parseInt(n.tema, 10); return IA_UNI[t] ? t : ({ micro: 2, macro: 3, global: 4 })[n.unidad]; };
+const iaPub = n => { const m = (n.url || '').match(/\/(20\d\d)\/(\d\d)\/(\d\d)\//); return m && m[1] + '-' + m[2] + '-' + m[3] <= n.fecha ? m[1] + '-' + m[2] + '-' + m[3] : n.fecha; };
+const iaHasta = n => { const d = pd(iaPub(n)); d.setFullYear(d.getFullYear() + 1); return iso(d); };
+const iaDias = n => Math.round((pd(iaHasta(n)) - pd(iso(new Date()))) / 864e5);
+const iaRecs = () => Object.fromEntries(((IAREC && IAREC.recomendados) || []).map(r => [r.id, r]));
+const iaPort = () => { const p = store.get('enp-ia', {}); return p && typeof p === 'object' ? p : {}; };
+function iaLista() {
+  const R = iaRecs();
+  return NOTICIAS.concat(ARCH || []).filter(n => n.url && !n.opinion && iaUnidad(n) && !String(n.tema).startsWith('1.') && iaDias(n) > 0)
+    .map(n => ({ n, u: iaUnidad(n), r: R[n.id] }))
+    .sort((a, b) => ((b.r ? b.r.e : 0) - (a.r ? a.r.e : 0)) || b.n.fecha.localeCompare(a.n.fecha));
+}
+function iaCard(x, P) {
+  const { n, u, r } = x, dias = iaDias(n), sel = P[u] && P[u].id === n.id, [uk, ut] = IA_UNI[u];
+  const kcs = r ? r.kc : (KC[n.kc] ? [[n.kc, '']] : []);
+  return `<article class="ia-card" style="--uc:var(--u-${uk})">
+    <div class="ia-top"><span class="ia-u">Unidad ${u} · ${ut}</span>${r ? `<span class="ia-stars" title="Qué tan buena es para el IA">${'★'.repeat(r.e)}${'☆'.repeat(3 - r.e)}</span><span class="ia-niv">${esc(r.niv)}</span>` : ''}</div>
+    <h3>${esc(n.titulo)}</h3>
+    <p class="ia-meta">${esc(n.medio)} · publicado el ${fdate(iaPub(n))} · Tema ${esc(n.tema)} ${esc(TEMAS[n.tema] || '')}</p>
+    ${r ? `<p class="ia-por">${esc(r.por)}</p>
+    <dl class="ia-dl"><div><dt>Concepto clave</dt><dd>${kcs.map(([k, t]) => `<span><b>${KC[k]}.</b> ${esc(t)}</span>`).join('')}</dd></div><div><dt>Diagrama</dt><dd>${esc(r.dg)}</dd></div><div><dt>Para evaluar</dt><dd>${esc(r.ev)}</dd></div></dl>`
+    : `<p class="ia-por">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p><div class="tags">${n.diagramas.map(k => `<span class="tag">${esc(LIB[k].t)}</span>`).join('')}${KC[n.kc] ? `<span class="tag kc">${KC[n.kc]}</span>` : ''}</div>`}
+    <div class="ia-ft"><span class="ia-ven${dias < 60 ? ' warn' : ''}">${dias < 60 ? 'Vence pronto: ' : 'Sirve hasta el '}${fdate(iaHasta(n))}</span>
+      <div class="ia-btns"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Artículo original ↗</a><a class="btn" href="#n-${n.id}">Ver el análisis</a><button type="button" class="btn ia-pick${sel ? ' on' : ''}" data-id="${n.id}" data-u="${u}" data-kc="${kcs[0] ? kcs[0][0] : ''}" aria-pressed="${sel}">${sel ? '✓ En mi portafolio' : '+ Elegir para la Unidad ' + u}</button></div></div>
+  </article>`;
+}
+function iaPortHTML(P) {
+  const L = Object.fromEntries(iaLista().map(x => [x.n.id, x])), slots = [2, 3, 4].map(u => ({ u, p: P[u], x: P[u] && L[P[u].id] }));
+  const full = slots.filter(s => s.x), kcs = full.map(s => s.p.kc).filter(Boolean), dup = kcs.length !== new Set(kcs).size;
+  const medios = full.map(s => s.x.n.medio), pronto = full.filter(s => iaDias(s.x.n) < 60);
+  const chk = (c, t) => `<li class="${c}">${c === 'ok' ? '✓' : c === 'bad' ? '✗' : '○'} ${t}</li>`;
+  return `<div class="ia-slots">${slots.map(({ u, p, x }) => `<div class="ia-slot${x ? ' on' : ''}" style="--uc:var(--u-${IA_UNI[u][0]})"><small>Unidad ${u} · ${IA_UNI[u][1]}</small>${x ? `<a href="#n-${x.n.id}">${esc(x.n.titulo)}</a><label>Concepto clave <select data-slot="${u}"><option value="">Elige uno</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${p.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label><button type="button" class="ia-x" data-slot="${u}" aria-label="Quitar el artículo de la Unidad ${u}">×</button>` : `<span class="note">Todavía no elegiste un artículo de esta unidad.</span>`}</div>`).join('')}</div>
+    <ul class="ia-checks">${chk(full.length === 3 ? 'ok' : 'wait', `Un artículo por unidad (${full.length} de 3)`)}${chk(dup ? 'bad' : kcs.length === 3 ? 'ok' : 'wait', dup ? 'Repetiste un concepto clave: cada comentario necesita uno distinto' : `Tres conceptos clave distintos (${kcs.length} de 3)`)}${chk(pronto.length ? 'bad' : full.length ? 'ok' : 'wait', pronto.length ? `Escribe pronto: un artículo deja de servir el ${fdate(iaHasta(pronto[0].x.n))}` : 'Artículos con menos de un año')}${full.length > 1 ? chk(new Set(medios).size === medios.length ? 'ok' : 'wait', new Set(medios).size === medios.length ? 'Medios distintos (recomendado)' : 'Dos artículos del mismo medio: se permite, pero conviene variar') : ''}</ul>`;
+}
+function renderIA() {
+  $('#app').innerHTML = '<div class="wrap"><p class="note" style="padding-block:40px">Cargando los artículos…</p></div>';
+  loadArch().then(() => { if (location.hash.slice(1) === 'ia') drawIA(); });
+}
+function drawIA() {
+  const L = iaLista(), R = iaRecs(), P = iaPort(), BY = Object.fromEntries(L.map(x => [x.n.id, x]));
+  const combos = ((IAREC && IAREC.combos) || []).map(c => Object.assign({}, c, { xs: c.ids.map(([id, kc]) => BY[id] && { x: BY[id], kc }) })).filter(c => c.xs.every(Boolean));
+  $('#app').innerHTML = `<div class="wrap ia-page">
+    <div class="sec-head"><div><div class="eyebrow">Evaluación interna · Economía IB</div><h1>Artículos para tus tres comentarios</h1><p class="lede">Noticias económicas de Paraguay elegidas para el portafolio de la evaluación interna. Cada una trae el concepto clave que mejor le queda, el diagrama que puedes usar y qué evaluar. Elige tres, una de cada unidad.</p></div></div>
+    <section class="ia-rules" aria-label="Reglas del portafolio">${IA_REGLAS.map(([n, t, d]) => `<div class="ia-rule"><b>${n}</b><strong>${t}</strong><span>${d}</span></div>`).join('')}</section>
+    <details class="ia-more"><summary>Más reglas importantes</summary><ul>${IA_DETALLE.map(t => `<li>${esc(t)}</li>`).join('')}</ul></details>
+    <section class="ia-port" id="ia-port"><div class="ia-port-h"><div><div class="eyebrow">Tu elección</div><h2>Mi portafolio</h2></div><span class="note">Se guarda solo en este dispositivo</span></div><div id="ia-port-in">${iaPortHTML(P)}</div></section>
+    ${combos.length ? `<section class="ia-combos-s"><div class="sec-head"><div><div class="eyebrow">Lo que recomiendo</div><h2>Tres combinaciones que funcionan</h2></div><span class="note">Una unidad y un concepto distinto en cada artículo</span></div>
+    <div class="ia-combos">${combos.map((c, i) => `<article class="ia-combo${i ? '' : ' top'}">${i ? '' : '<span class="ia-badge">Mi recomendación</span>'}<h3>${esc(c.t)}</h3><p>${esc(c.por)}</p><ol>${c.xs.map(({ x, kc }) => `<li style="--uc:var(--u-${IA_UNI[x.u][0]})"><small>Unidad ${x.u} · ${KC[kc]}</small><a href="#n-${x.n.id}">${esc(x.n.titulo)}</a></li>`).join('')}</ol><button type="button" class="btn${i ? '' : ' primary'} ia-combo-use" data-i="${i}">Usar esta combinación</button></article>`).join('')}</div></section>` : ''}
+    <section><div class="sec-head"><div><div class="eyebrow">Elige tú</div><h2>Todos los artículos disponibles</h2></div><span class="note" id="ia-count" role="status"></span></div>
+      <div class="filters ia-filters"><div role="group" aria-label="Unidad">${[['todas', 'Todas'], ['2', 'Unidad 2 · Micro'], ['3', 'Unidad 3 · Macro'], ['4', 'Unidad 4 · Global']].map(([k, t]) => `<button type="button" class="chip" data-iu="${k}" aria-pressed="${IA_F.u === k}">${t}</button>`).join('')}</div>
+      <select id="ia-kc" aria-label="Concepto clave"><option value="todos">Todos los conceptos clave</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${IA_F.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select>
+      <label class="ia-solo"><input type="checkbox" id="ia-solo"${IA_F.solo ? ' checked' : ''}> Solo los recomendados</label></div>
+      <div class="ia-grid" id="ia-grid"></div></section>
+    <section class="ia-tips"><div class="sec-head"><div><div class="eyebrow">Consejos</div><h2>Cómo elegir un buen artículo</h2></div></div><div class="ia-tip-grid">${IA_TIPS.map(([t, d], i) => `<div class="ia-tip"><b>${i + 1}</b><div><strong>${t}</strong><p>${d}</p></div></div>`).join('')}</div></section>
+    <p class="note ia-foot">Las reglas siguen la guía de Economía IB vigente (primera evaluación 2022); confirma los detalles con tu profesor. «Sirve hasta» cuenta un año desde la fecha de publicación del artículo. Recomendaciones revisadas el ${fdate((IAREC && IAREC.actualizado) || ACTUALIZADO)}.</p>
+    <div style="height:30px"></div></div>`;
+  const grid = () => {
+    const P2 = iaPort(), xs = L.filter(x => (IA_F.u === 'todas' || String(x.u) === IA_F.u) && (!IA_F.solo || x.r) && (IA_F.kc === 'todos' || (x.r ? x.r.kc.some(k => k[0] === IA_F.kc) : x.n.kc === IA_F.kc)));
+    $('#ia-grid').innerHTML = xs.length ? xs.map(x => iaCard(x, P2)).join('') : `<p class="empty">No hay artículos ${IA_F.solo ? 'recomendados ' : ''}con ese filtro. ${IA_F.solo ? 'Desmarca «Solo los recomendados» para ver todos.' : ''}</p>`;
+    $('#ia-count').textContent = xs.length + (xs.length === 1 ? ' artículo' : ' artículos') + (IA_F.solo ? ` de ${L.filter(x => x.r).length} recomendados` : ` de ${L.length}`);
+  };
+  const port = () => { $('#ia-port-in').innerHTML = iaPortHTML(iaPort()); };
+  const save = P2 => { store.set('enp-ia', P2); port(); grid(); };
+  document.querySelectorAll('[data-iu]').forEach(b => b.onclick = () => { IA_F.u = b.dataset.iu; document.querySelectorAll('[data-iu]').forEach(c => c.setAttribute('aria-pressed', c === b)); grid(); });
+  $('#ia-kc').onchange = e => { IA_F.kc = e.target.value; grid(); };
+  $('#ia-solo').onchange = e => { IA_F.solo = e.target.checked; grid(); };
+  $('#ia-grid').addEventListener('click', e => { const b = e.target.closest('.ia-pick'); if (!b) return; const P2 = iaPort(), u = b.dataset.u; if (P2[u] && P2[u].id === b.dataset.id) delete P2[u]; else P2[u] = { id: b.dataset.id, kc: Object.values(P2).some(p => p.kc === b.dataset.kc) ? '' : b.dataset.kc }; save(P2); });
+  $('#ia-port').addEventListener('click', e => { const b = e.target.closest('.ia-x'); if (!b) return; const P2 = iaPort(); delete P2[b.dataset.slot]; save(P2); });
+  $('#ia-port').addEventListener('change', e => { const s = e.target.closest('select[data-slot]'); if (!s) return; const P2 = iaPort(); if (P2[s.dataset.slot]) { P2[s.dataset.slot].kc = s.value; save(P2); } });
+  document.querySelectorAll('.ia-combo-use').forEach(b => b.onclick = () => { const c = combos[+b.dataset.i], P2 = {}; c.xs.forEach(({ x, kc }) => { P2[x.u] = { id: x.n.id, kc }; }); save(P2); $('#ia-port').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+  grid();
+}
+
 /* Archivo de noticias */
 const loadArch = () => ARCH ? Promise.resolve(ARCH) : fetch('archivo.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : []).catch(() => []).then(a => {
   ARCH = (Array.isArray(a) ? a : (a.noticias || [])).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad] && !BYID[n.id])
@@ -1959,7 +2105,7 @@ const BLOQUES = [
   { id: 'temas', t: 'Temas', ic: 'temas', home: 'bloque-temas', d: 'Para entender la economía más allá del día a día.', items: [
     ['cronologia', 'Historia económica', 'Los hechos que formaron la economía del país.', 'reloj'], ['mundo', 'El mundo y Paraguay', 'Petróleo, Brasil, Argentina, China y EE.UU.', 'temas'], ['desarrollo', 'Desarrollo', 'IDH, pobreza, educación, ambiente y ODS.', 'hoja'], ['miradas', 'Dos miradas', 'Argumentos a favor y en contra en los temas polémicos.', 'balanza']] },
   { id: 'estudiar', t: 'Estudiar', ic: 'estudiar', home: 'bloque-estudiar', d: 'Para preparar Economía IB con ejemplos de Paraguay.', items: [
-    ['programa', 'Programa IB', 'Cada subtema con sus noticias y diagramas.', 'libro'], ['diagramas', 'Diagramas', 'Diagramas interactivos para mover las curvas.', 'ejes'], ['simulador', 'Simulador', 'Sé el ministro o el BCP y mira qué pasa.', 'sliders'], ['calculadoras', 'Calculadoras', 'Los cálculos que aparecen en las noticias.', 'calc']] },
+    ['programa', 'Programa IB', 'Cada subtema con sus noticias y diagramas.', 'libro'], ['ia', 'Comentarios IA', 'Artículos recomendados para tu portafolio de tres comentarios.', 'archivo'], ['diagramas', 'Diagramas', 'Diagramas interactivos para mover las curvas.', 'ejes'], ['simulador', 'Simulador', 'Sé el ministro o el BCP y mira qué pasa.', 'sliders'], ['calculadoras', 'Calculadoras', 'Los cálculos que aparecen en las noticias.', 'calc']] },
 ];
 const PADRE = { mapa: 'paraguay', bolsa: 'cotizaciones', quien: 'instituciones' };
 const bloqueDe = nav0 => { const nav = PADRE[nav0] || nav0; return bloqueDe0(nav); };
@@ -1990,6 +2136,7 @@ const statDe = r => {
   if (r === 'indicadores' && HIST.inflacion) { const p = HIST.inflacion.puntos; return 'Inflación: ' + num(p[p.length - 1][1], 1) + ' %'; }
   if (r === 'inicio') return NOTICIAS.length + ' noticias';
   if (r === 'miradas') return MIRADAS.length + ' debates';
+  if (r === 'ia' && IAREC) return IAREC.recomendados.length + ' artículos recomendados';
   if (r === 'diagramas') return Object.keys(LIB).length + ' diagramas';
   if (r === 'cronologia' && CRONO) return CRONO.hitos.length + ' hechos';
   if (r === 'quien' && QUIEN) return QUIEN.personas.length + ' personas';
@@ -2032,6 +2179,7 @@ const HUB_VISUAL = {
   }},
   estudiar: {image:'estudiar-ilustrado.jpg',sprite:'books',alt:'Ilustración de libros y materiales para estudiar economía',credit:'Ilustración generada con IA',eyebrow:'Tu espacio de aprendizaje',title:'Entiende. Practica. Conecta.',intro:'Aprende Economía IB con noticias de Paraguay, diagramas que puedes mover y herramientas para poner a prueba tus ideas.',cta:'Ver el programa IB',items:{
     programa:{src:'estudiar-ilustrado.jpg',sprite:'books',alt:'Ilustración de libros y apuntes de estudio',credit:'Ilustración generada con IA',label:'Organiza tu estudio'},
+    ia:{src:'estudiar-ilustrado.jpg',sprite:'books',alt:'Ilustración de libros y apuntes para preparar la evaluación interna',credit:'Ilustración generada con IA',label:'Prepara tu evaluación interna'},
     diagramas:{src:'estudiar-ilustrado.jpg',sprite:'charts',alt:'Ilustración de curvas económicas y herramientas de dibujo',credit:'Ilustración generada con IA',label:'Comprende las curvas'},
     simulador:{src:'estudiar-ilustrado.jpg',sprite:'city',alt:'Ilustración conceptual de una ciudad y sus actividades económicas',credit:'Ilustración generada con IA',label:'Prueba tus decisiones'},
     calculadoras:{src:'estudiar-ilustrado.jpg',sprite:'calculator',alt:'Ilustración de calculadora, monedas y una hoja de trabajo',credit:'Ilustración generada con IA',label:'Resuelve los números'}
@@ -2971,6 +3119,7 @@ function render() {
   else if (r === 'comercio') { nav = 'comercio'; renderComercio(); }
   else if (r === 'quien') { nav = 'quien'; renderQuien(); }
   else if (r.startsWith('emp-')) { nav = 'empresas'; renderEmpresas(); const t = document.getElementById(r); if (t) t.scrollIntoView(); }
+  else if (r === 'ia') { nav = 'ia'; renderIA(); }
   else if (r === 'archivo') { nav = 'archivo'; renderArchivo(); }
   else if (r === 'metas') { nav = 'metas'; renderMetas(); }
   else if (r === 'cronologia') { nav = 'cronologia'; renderCronologia(); }
@@ -2994,7 +3143,7 @@ function render() {
 fetch('datos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
   ACTUALIZADO = d.actualizado; DIARIOS = d.diarios || []; OFICIALES = d.oficiales || []; DESTACADO = d.destacado || null;
   INDICADORES = (d.indicadores || []).map(i => Array.isArray(i) ? { n: i[0], v: i[1], s: i[2], alert: i[3] } : i);
-  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null; CRONO = d.cronologia || null; ITAIPU = d.itaipu || null; MIRADAS = d.miradas || []; TRABAJO = d.trabajo || null; EMPRESAS = d.empresas || []; METAS = d.metas || null; COOP = d.cooperativas || null; COMEX = d.comercio || null; QUIEN = d.quien || null; PRESU = d.presupuesto || null; CAMB = d.cambios || null; ESP = d.especial || null;
+  HIST = d.historial || {}; REGION = d.region || null; SEMANAS = d.semanas || {}; INST = d.instituciones || {}; BOLSA = d.bolsa || null; CAL = d.calendario || null; SECT = d.sectores || {}; HISTORIAS = d.historias || []; PAIS = d.pais || null; DESA = d.desarrollo || null; MUNDO = d.mundo || null; MAPA = d.mapa || null; CRONO = d.cronologia || null; ITAIPU = d.itaipu || null; MIRADAS = d.miradas || []; TRABAJO = d.trabajo || null; EMPRESAS = d.empresas || []; METAS = d.metas || null; COOP = d.cooperativas || null; COMEX = d.comercio || null; QUIEN = d.quien || null; PRESU = d.presupuesto || null; CAMB = d.cambios || null; ESP = d.especial || null; IAREC = d.ia || null;
   NOTICIAS = (d.noticias || []).filter(n => n && n.id && n.fecha && n.titulo && UNI[n.unidad]).map(n => Object.assign({ datos: [], pasos: [], conceptos: [], diagramas: [], rel: [], resumen: '', contexto: '' }, n));
   NOTICIAS.forEach(n => { n.diagramas = n.diagramas.filter(k => LIB[k]); });
   BYID = Object.fromEntries(NOTICIAS.map(n => [n.id, n]));
