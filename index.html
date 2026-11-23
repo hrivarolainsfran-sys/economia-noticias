@@ -928,6 +928,15 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 .ia-prof-m{grid-column:1/-1;margin:0;font-size:.86rem;min-height:0}.ia-prof-m:empty{display:none}
 .ia-bk{margin:14px 0 0;padding:10px 12px;border-radius:8px;background:var(--paper);font-size:.86rem;color:var(--ink-2)}
 @media (max-width:860px){.ia-prof{grid-template-columns:1fr}}
+.ia-res{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:8px 18px;align-items:end;margin-bottom:12px}
+.ia-res .note{margin:0;font-size:.86rem}
+.ia-rs{font-size:.82rem;font-weight:600;line-height:1.3}.ia-rs.ok{color:var(--ok)}.ia-rs.bad{color:var(--bad)}
+.ia-slot .ia-resv{justify-self:start;font-size:.84rem}
+.ia-card.ia-taken{opacity:.6}
+.ia-tomado{cursor:not-allowed;color:var(--muted)}
+.ia-pick.busy,.ia-resv.busy,.ia-x.busy{opacity:.55;cursor:progress}
+.toast{max-width:calc(100vw - 32px);text-align:center;border-radius:14px}
+@media (max-width:860px){.ia-res{grid-template-columns:1fr}}
 .ia-checks{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem}
 .ia-checks .ok{color:var(--ok)}.ia-checks .bad{color:var(--bad);font-weight:600}.ia-checks .wait{color:var(--muted)}
 .ia-badge{position:absolute;top:-11px;left:14px;background:var(--gold);color:#1d1a12;font-size:.74rem;font-weight:700;border-radius:999px;padding:2px 10px}
@@ -1673,7 +1682,7 @@ if ('speechSynthesis' in window) { speechSynthesis.getVoices(); speechSynthesis.
 /* Compartir, evaluación y programa */
 const shareUrl = n => location.origin + location.pathname + '#n-' + n.id;
 const temaHash = t => 'tema-' + String(t).replace('.', '-');
-function toast(msg) { const t = document.createElement('div'); t.className = 'toast'; t.setAttribute('role', 'status'); t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 2200); }
+function toast(msg, ms) { document.querySelectorAll('.toast').forEach(x => x.remove()); const t = document.createElement('div'); t.className = 'toast'; t.setAttribute('role', 'status'); t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), ms || 2200); }
 function copyLink(url) {
   const fallback = () => { const i = document.createElement('input'); i.value = url; document.body.appendChild(i); i.select(); try { document.execCommand('copy'); toast('Enlace copiado'); } catch (e) { toast(url); } i.remove(); };
   if (navigator.clipboard) navigator.clipboard.writeText(url).then(() => toast('Enlace copiado'), fallback); else fallback();
@@ -1962,7 +1971,7 @@ const IA_UNI = { 2: ['micro', 'Microeconomía'], 3: ['macro', 'Macroeconomía'],
 const IA_REGLAS = [['3', 'comentarios', 'de hasta 800 palabras cada uno'], ['3', 'unidades distintas', 'Unidad 2, 3 y 4 (la Unidad 1 no cuenta)'], ['3', 'conceptos clave distintos', 'uno como lente de cada comentario'], ['3', 'fuentes distintas', 'un medio diferente para cada comentario'], ['1', 'año como máximo', 'entre la publicación del artículo y tu comentario']];
 const IA_DETALLE = ['El artículo debe venir de un medio de noticias: un diario, una revista o un sitio de noticias. No sirven la televisión, la radio, las redes sociales, los libros, los blogs personales ni las páginas de estudio.', 'Trabaja con el artículo original del diario, no con el resumen de esta página. Guarda el enlace, la fecha y una copia en PDF (más abajo te explicamos cómo).', 'En cada comentario se evalúa: diagramas, terminología, aplicación y análisis, el uso del concepto clave y la evaluación.', 'Adjunta el artículo a cada comentario e indica la unidad, el concepto clave, la fecha de publicación y la fecha en que escribiste.'];
 const IA_TIPS = [['Un solo problema económico', 'Elige artículos que traten un tema claro, no un resumen de muchas noticias.'], ['Con cifras', 'Precios, porcentajes o cantidades te ayudan a aplicar la teoría al caso real.'], ['Con una decisión para evaluar', 'Un impuesto, una tasa, una multa o un acuerdo: así tienes algo que evaluar.'], ['Que se pueda dibujar', 'Antes de elegir, piensa qué diagrama del programa vas a usar.'], ['Mejor noticias que columnas', 'Si el artículo ya trae todo el análisis, te deja poco para aportar a ti.'], ['Corto y de un medio confiable', 'Una o dos páginas alcanzan. Evita artículos con muro de pago si no puedes guardarlos.']];
-let IA_F = { u: 'todas', kc: 'todos', solo: true, niv: 'todos', m: 'todos' };
+let IA_F = { u: 'todas', kc: 'todos', solo: true, niv: 'todos', m: 'todos', libre: true };
 const TALLER = 'https://hrivarolainsfran-sys.github.io/atlas-diagramas/taller/';
 const ATLAS = 'https://hrivarolainsfran-sys.github.io/atlas-diagramas/';
 const IA_GUARDAR = [['iPhone (Safari)', ['Abre el artículo original y toca Compartir (el cuadrado con la flecha).', 'Toca «Imprimir».', 'En la vista previa, toca Compartir otra vez, arriba, y elige «Guardar en Archivos».']], ['Android (Chrome)', ['Abre el artículo original y toca el menú ⋮.', 'Toca «Compartir» y después «Imprimir».', 'Arriba, en la impresora, elige «Guardar como PDF» y toca el botón PDF.']], ['Computadora', ['Abre el artículo original y presiona Ctrl + P (Windows) o Cmd + P (Mac).', 'En «Destino», elige «Guardar como PDF».', 'Revisa la vista previa y guarda el archivo.']]];
@@ -1978,6 +1987,15 @@ const iaHasta = n => { const d = pd(iaPub(n)); d.setFullYear(d.getFullYear() + 1
 const iaDias = n => Math.round((pd(iaHasta(n)) - pd(iso(new Date()))) / 864e5);
 const iaRecs = () => Object.fromEntries(((IAREC && IAREC.recomendados) || []).map(r => [r.id, r]));
 const iaPort = () => { const p = store.get('enp-ia', {}); return p && typeof p === 'object' ? p : {}; };
+/* Reservas compartidas (hoja de Google del profesor): un artículo elegido deja de estar disponible para los demás. */
+const IA_RES = () => { const u = IAREC && IAREC.reservas; return typeof u === 'string' && (/^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(u) || /^http:\/\/(localhost|127\.0\.0\.1):\d+\//.test(u)) ? u : ''; };
+let IA_TOM = null, IA_RES_T = 0;
+const iaClave = () => { let k = store.get('enp-ia-clave', ''); if (!/^[\w-]{8,64}$/.test(k)) { k = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : Math.random().toString(36).slice(2) + Date.now().toString(36); store.set('enp-ia-clave', k); } return k; };
+const iaResReq = body => fetch(IA_RES(), body ? { method: 'POST', body: JSON.stringify(Object.assign({ k: iaClave() }, body)) } : { cache: 'no-store' })
+  .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(j => { if (j && Array.isArray(j.r)) IA_TOM = new Set(j.r.map(x => String(x.id))); return j || {}; });
+const iaMio = (P, id) => Object.values(P).some(p => p && p.id === id && p.r);
+const iaTomado = (P, id) => !!(IA_RES() && IA_TOM && IA_TOM.has(id) && !iaMio(P, id));
 function iaLista() {
   const R = iaRecs();
   return NOTICIAS.concat(ARCH || []).filter(n => n.url && !n.opinion && !IA_NO_MEDIO.test(n.medio || '') && iaUnidad(n) && !String(n.tema).startsWith('1.') && iaDias(n) > 0)
@@ -1985,9 +2003,11 @@ function iaLista() {
     .sort((a, b) => ((b.r ? b.r.e : 0) - (a.r ? a.r.e : 0)) || b.n.fecha.localeCompare(a.n.fecha));
 }
 function iaCard(x, P) {
-  const { n, u, r } = x, dias = iaDias(n), sel = P[u] && P[u].id === n.id, [uk, ut] = IA_UNI[u];
+  const { n, u, r } = x, dias = iaDias(n), sel = P[u] && P[u].id === n.id, [uk, ut] = IA_UNI[u], res = !!IA_RES(), tom = iaTomado(P, n.id);
   const kcs = r ? r.kc : (KC[n.kc] ? [[n.kc, '']] : []);
-  return `<article class="ia-card" style="--uc:var(--u-${uk})">
+  const pick = tom && !sel ? `<span class="btn ia-tomado" aria-disabled="true">Reservado por otro alumno</span>`
+    : `<button type="button" class="btn ia-pick${sel ? ' on' : ''}" data-id="${n.id}" data-u="${u}" data-kc="${kcs[0] ? kcs[0][0] : ''}" aria-pressed="${sel}">${sel ? (res && P[u].r ? '✓ Reservado para ti' : '✓ En mi portafolio') : (res ? '+ Reservar para la Unidad ' : '+ Elegir para la Unidad ') + u}</button>`;
+  return `<article class="ia-card${tom && !sel ? ' ia-taken' : ''}" style="--uc:var(--u-${uk})">
     <div class="ia-top"><span class="ia-u">Unidad ${u} · ${ut}</span>${r ? `<span class="ia-stars" title="Qué tan buena es para el IA">${'★'.repeat(r.e)}${'☆'.repeat(3 - r.e)}</span><span class="ia-niv">${esc(r.niv)}</span>` : ''}</div>
     <h3>${esc(n.titulo)}</h3>
     ${r && r.to ? `<p class="ia-orig"><span>Título en el diario:</span> «${esc(r.to)}»</p>` : ''}
@@ -1997,7 +2017,7 @@ function iaCard(x, P) {
     ${r.g ? `<details class="ia-guia"><summary>Guía de lectura</summary><p class="ia-gi">Lee el artículo original buscando estas respuestas:</p><ol>${(r.g.p || []).map(q => `<li>${esc(q)}</li>`).join('')}</ol>${r.g.d ? `<p class="ia-dato"><b>Dato clave para citar:</b> ${esc(r.g.d)}</p>` : ''}${r.g.a && r.g.a.length ? `<p class="ia-atlas"><b>Diagrama en el Atlas:</b> ${r.g.a.map(([k, t]) => `<a href="${ATLAS}#${encodeURIComponent(k)}" target="_blank" rel="noopener">${esc(t)} ↗</a>`).join('')}</p>` : ''}</details>` : ''}`
     : `<p class="ia-por">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p><div class="tags">${n.diagramas.map(k => `<span class="tag">${esc(LIB[k].t)}</span>`).join('')}${KC[n.kc] ? `<span class="tag kc">${KC[n.kc]}</span>` : ''}</div>`}
     <div class="ia-ft"><span class="ia-ven${dias < 60 ? ' warn' : ''}">${dias < 60 ? 'Vence pronto: ' : 'Sirve hasta el '}${fdate(iaHasta(n))}</span>
-      <div class="ia-btns"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Artículo original ↗</a><a class="btn" href="#n-${n.id}">Ver el análisis</a><a class="btn" href="${iaTaller('val', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Validar en el Taller ↗</a><a class="btn" href="${iaTaller('esc', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Escribir en el Taller ↗</a><button type="button" class="btn ia-pick${sel ? ' on' : ''}" data-id="${n.id}" data-u="${u}" data-kc="${kcs[0] ? kcs[0][0] : ''}" aria-pressed="${sel}">${sel ? '✓ En mi portafolio' : '+ Elegir para la Unidad ' + u}</button></div></div>
+      <div class="ia-btns"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Artículo original ↗</a><a class="btn" href="#n-${n.id}">Ver el análisis</a><a class="btn" href="${iaTaller('val', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Validar en el Taller ↗</a><a class="btn" href="${iaTaller('esc', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Escribir en el Taller ↗</a>${pick}</div></div>
   </article>`;
 }
 function iaEst(P) {
@@ -2015,12 +2035,15 @@ function iaMsg(P, nombre) {
 }
 function iaPortHTML(P) {
   const { slots, full, kcs, dup, medios, pronto } = iaEst(P), nombre = store.get('enp-ia-nombre', '');
-  const chk = (c, t) => `<li class="${c}">${c === 'ok' ? '✓' : c === 'bad' ? '✗' : '○'} ${t}</li>`;
-  return `<div class="ia-slots">${slots.map(({ u, p, x }) => `<div class="ia-slot${x ? ' on' : ''}" style="--uc:var(--u-${IA_UNI[u][0]})"><small>Unidad ${u} · ${IA_UNI[u][1]}</small>${x ? `<a href="#n-${x.n.id}">${esc(x.n.titulo)}</a><label>Concepto clave <select data-slot="${u}"><option value="">Elige uno</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${p.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label><button type="button" class="ia-x" data-slot="${u}" aria-label="Quitar el artículo de la Unidad ${u}">×</button>` : `<span class="note">Todavía no elegiste un artículo de esta unidad.</span>`}</div>`).join('')}</div>
-    <ul class="ia-checks">${chk(full.length === 3 ? 'ok' : 'wait', `Un artículo por unidad (${full.length} de 3)`)}${chk(dup ? 'bad' : kcs.length === 3 ? 'ok' : 'wait', dup ? 'Repetiste un concepto clave: cada comentario necesita uno distinto' : `Tres conceptos clave distintos (${kcs.length} de 3)`)}${chk(pronto.length ? 'bad' : full.length ? 'ok' : 'wait', pronto.length ? `Escribe pronto: un artículo deja de servir el ${fdate(iaHasta(pronto[0].x.n))}` : 'Artículos con menos de un año')}${chk(new Set(medios).size !== medios.length ? 'bad' : full.length === 3 ? 'ok' : 'wait', new Set(medios).size !== medios.length ? 'Repetiste un medio: cada comentario necesita una fuente distinta' : 'Un medio distinto para cada comentario')}</ul>
+  const chk = (c, t) => `<li class="${c}">${c === 'ok' ? '✓' : c === 'bad' ? '✗' : '○'} ${t}</li>`, res = !!IA_RES();
+  const nomIn = `<label class="ia-prof-n">Tu nombre y apellido <input id="ia-nombre" type="text" autocomplete="name" maxlength="60" value="${esc(nombre)}" placeholder="Escribe tu nombre"></label>`;
+  const rs = (u, p) => !res ? '' : p.r ? '<span class="ia-rs ok">✓ Reservado a tu nombre</span>' : iaTomado(P, p.id) ? '<span class="ia-rs bad">✗ Otro alumno ya lo reservó: quítalo y elige otro.</span>' : `<button type="button" class="btn ia-resv" data-slot="${u}">Reservar este artículo</button>`;
+  const nres = full.filter(s => s.p.r).length, ajeno = full.some(s => !s.p.r && iaTomado(P, s.p.id));
+  return `${res ? `<div class="ia-res">${nomIn}<p class="note">Cuando eliges un artículo, queda reservado para ti: tus compañeros lo ven como «Reservado» y no pueden elegirlo. Si cambias de idea, quítalo y vuelve a quedar libre.</p></div>` : ''}<div class="ia-slots">${slots.map(({ u, p, x }) => `<div class="ia-slot${x ? ' on' : ''}" style="--uc:var(--u-${IA_UNI[u][0]})"><small>Unidad ${u} · ${IA_UNI[u][1]}</small>${x ? `<a href="#n-${x.n.id}">${esc(x.n.titulo)}</a>${rs(u, p)}<label>Concepto clave <select data-slot="${u}"><option value="">Elige uno</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${p.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label><button type="button" class="ia-x" data-slot="${u}" aria-label="Quitar el artículo de la Unidad ${u}">×</button>` : `<span class="note">Todavía no elegiste un artículo de esta unidad.</span>`}</div>`).join('')}</div>
+    <ul class="ia-checks">${chk(full.length === 3 ? 'ok' : 'wait', `Un artículo por unidad (${full.length} de 3)`)}${chk(dup ? 'bad' : kcs.length === 3 ? 'ok' : 'wait', dup ? 'Repetiste un concepto clave: cada comentario necesita uno distinto' : `Tres conceptos clave distintos (${kcs.length} de 3)`)}${chk(pronto.length ? 'bad' : full.length ? 'ok' : 'wait', pronto.length ? `Escribe pronto: un artículo deja de servir el ${fdate(iaHasta(pronto[0].x.n))}` : 'Artículos con menos de un año')}${chk(new Set(medios).size !== medios.length ? 'bad' : full.length === 3 ? 'ok' : 'wait', new Set(medios).size !== medios.length ? 'Repetiste un medio: cada comentario necesita una fuente distinta' : 'Un medio distinto para cada comentario')}${res ? chk(ajeno ? 'bad' : full.length && nres === full.length ? 'ok' : 'wait', ajeno ? 'Un artículo tuyo ya lo reservó otro alumno: cámbialo' : `Artículos reservados a tu nombre (${nres} de ${full.length || 3})`) : ''}</ul>
     <div class="ia-send">${full.length ? `<a class="btn primary" href="${iaTaller('esc', full.map(s => iaArt(s.x.n, s.p.kc)))}" target="_blank" rel="noopener">${full.length === 1 ? 'Pasar este artículo al Taller' : `Pasar mis ${full.length} artículos al Taller`} →</a>` : ''}<span class="note">En el <a href="${TALLER}#escribir-ei" target="_blank" rel="noopener">Taller de Economía IB</a> escribes cada comentario con la rúbrica, el planificador y los modelos.</span></div>
     ${full.length ? `<div class="ia-prof"><div class="ia-prof-t"><strong>Muéstrale tu elección a tu profesor</strong><span class="note">Envíale tus artículos antes de empezar a escribir. Así revisa que cumplen las reglas y que no todos eligieron los mismos.</span></div>
-      <label class="ia-prof-n">Tu nombre y apellido <input id="ia-nombre" type="text" autocomplete="name" maxlength="60" value="${esc(nombre)}" placeholder="Escribe tu nombre"></label>
+      ${res ? '' : nomIn}
       <div class="ia-prof-b"><button type="button" class="btn" data-env="wa">Enviar por WhatsApp</button><button type="button" class="btn" data-env="mail">Enviar por correo</button><button type="button" class="btn" data-env="copy">Copiar el texto</button></div>
       <p class="note ia-prof-m" id="ia-prof-m" role="status"></p></div>` : ''}
     <p class="ia-bk"><b>¿Cambias de celular o de computadora?</b> Tu preselección y tu carpeta se guardan solo en este navegador. Pasa tus artículos al Taller y, antes de cambiar de dispositivo, entra a <a href="${TALLER}#escribir-ei" target="_blank" rel="noopener">Mi carpeta en el Taller</a>, toca «Descargar respaldo (.json)» y, en el otro dispositivo, usa «Recuperar un respaldo».</p>`;
@@ -2037,13 +2060,13 @@ function drawIA() {
     <div class="sec-head"><div><div class="eyebrow">Evaluación interna · Economía IB</div><h1>Artículos para tus tres comentarios</h1><p class="lede">Noticias económicas de Paraguay elegidas para el portafolio de la evaluación interna. Cada una trae el concepto clave que mejor le queda, el diagrama que puedes usar y qué evaluar. Elige tres, una de cada unidad y de medios distintos, y pásalas al Taller de Economía IB para escribir tus comentarios.</p></div></div>
     <section class="ia-rules" aria-label="Reglas del portafolio">${IA_REGLAS.map(([n, t, d]) => `<div class="ia-rule"><b>${n}</b><strong>${t}</strong><span>${d}</span></div>`).join('')}</section>
     <details class="ia-more"><summary>Más reglas importantes</summary><ul>${IA_DETALLE.map(t => `<li>${esc(t)}</li>`).join('')}</ul></details>
-    <section class="ia-port" id="ia-port"><div class="ia-port-h"><div><div class="eyebrow">Tu elección</div><h2>Mi preselección</h2></div><span class="note">Se guarda en este dispositivo. La carpeta se escribe en el Taller.</span></div><div id="ia-port-in">${iaPortHTML(P)}</div></section>
+    <section class="ia-port" id="ia-port"><div class="ia-port-h"><div><div class="eyebrow">Tu elección</div><h2>Mi preselección</h2></div><span class="note">${IA_RES() ? 'Tus reservas las ve toda la clase. La carpeta se escribe en el Taller.' : 'Se guarda en este dispositivo. La carpeta se escribe en el Taller.'}</span></div><div id="ia-port-in">${iaPortHTML(P)}</div></section>
     <section><div class="sec-head"><div><div class="eyebrow">Elige tú</div><h2>Todos los artículos disponibles</h2></div><span class="note" id="ia-count" role="status"></span></div>
       <div class="filters ia-filters"><div role="group" aria-label="Unidad">${[['todas', 'Todas'], ['2', 'Unidad 2 · Micro'], ['3', 'Unidad 3 · Macro'], ['4', 'Unidad 4 · Global']].map(([k, t]) => `<button type="button" class="chip" data-iu="${k}" aria-pressed="${IA_F.u === k}">${t}</button>`).join('')}</div>
       <select id="ia-kc" aria-label="Concepto clave"><option value="todos">Todos los conceptos clave</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${IA_F.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select>
       <select id="ia-niv" aria-label="Nivel de dificultad"><option value="todos">Todos los niveles</option>${['Accesible', 'Media', 'Exigente'].map(v => `<option value="${v}"${IA_F.niv === v ? ' selected' : ''}>${v}</option>`).join('')}</select>
       <select id="ia-m" aria-label="Medio"><option value="todos">Todos los medios</option><option value="nuevos"${IA_F.m === 'nuevos' ? ' selected' : ''}>Medios que todavía no elegí</option>${medios.map(([m, c]) => `<option value="${esc(m)}"${IA_F.m === m ? ' selected' : ''}>${esc(m)}</option>`).join('')}</select>
-      <label class="ia-solo"><input type="checkbox" id="ia-solo"${IA_F.solo ? ' checked' : ''}> Solo los recomendados</label></div>
+      <label class="ia-solo"><input type="checkbox" id="ia-solo"${IA_F.solo ? ' checked' : ''}> Solo los recomendados</label>${IA_RES() ? `<label class="ia-solo"><input type="checkbox" id="ia-libre"${IA_F.libre ? ' checked' : ''}> Ocultar los ya reservados</label>` : ''}</div>
       <div class="ia-grid" id="ia-grid"></div></section>
     <section class="ia-tips"><div class="sec-head"><div><div class="eyebrow">Consejos</div><h2>Cómo elegir un buen artículo</h2></div></div><div class="ia-tip-grid">${IA_TIPS.map(([t, d], i) => `<div class="ia-tip"><b>${i + 1}</b><div><strong>${t}</strong><p>${d}</p></div></div>`).join('')}</div></section>
     <section class="ia-save" id="ia-guardar"><div class="sec-head"><div><div class="eyebrow">Antes de escribir</div><h2>Cómo guardar tu artículo</h2></div><span class="note">El IB pide adjuntar una copia del artículo a cada comentario</span></div>
@@ -2054,7 +2077,7 @@ function drawIA() {
   const grid = () => {
     const P2 = iaPort(), usados = u => Object.entries(P2).filter(([k, p]) => k !== String(u) && BY[p.id]).map(([, p]) => BY[p.id].n.medio);
     const xs = L.filter(x => (IA_F.u === 'todas' || String(x.u) === IA_F.u) && (!IA_F.solo || x.r) && (IA_F.kc === 'todos' || (x.r ? x.r.kc.some(k => k[0] === IA_F.kc) : x.n.kc === IA_F.kc))
-      && (IA_F.niv === 'todos' || (x.r && x.r.niv === IA_F.niv)) && (IA_F.m === 'todos' || (IA_F.m === 'nuevos' ? !usados(x.u).includes(x.n.medio) : x.n.medio === IA_F.m)));
+      && (IA_F.niv === 'todos' || (x.r && x.r.niv === IA_F.niv)) && (IA_F.m === 'todos' || (IA_F.m === 'nuevos' ? !usados(x.u).includes(x.n.medio) : x.n.medio === IA_F.m)) && !(IA_F.libre && iaTomado(P2, x.n.id)));
     $('#ia-grid').innerHTML = xs.length ? xs.map(x => iaCard(x, P2)).join('') : `<p class="empty">No hay artículos ${IA_F.solo ? 'recomendados ' : ''}con esos filtros. ${IA_F.solo && IA_F.niv === 'todos' ? 'Desmarca «Solo los recomendados» para ver todos.' : 'Prueba con otros filtros.'}</p>`;
     $('#ia-count').textContent = xs.length + (xs.length === 1 ? ' artículo' : ' artículos') + (IA_F.solo ? ` de ${L.filter(x => x.r).length} recomendados` : ` de ${L.length}`);
   };
@@ -2065,8 +2088,38 @@ function drawIA() {
   $('#ia-solo').onchange = e => { IA_F.solo = e.target.checked; grid(); };
   $('#ia-niv').onchange = e => { IA_F.niv = e.target.value; grid(); };
   $('#ia-m').onchange = e => { IA_F.m = e.target.value; grid(); };
-  $('#ia-grid').addEventListener('click', e => { const b = e.target.closest('.ia-pick'); if (!b) return; const P2 = iaPort(), u = b.dataset.u; if (P2[u] && P2[u].id === b.dataset.id) delete P2[u]; else P2[u] = { id: b.dataset.id, kc: Object.values(P2).some(p => p.kc === b.dataset.kc) ? '' : b.dataset.kc }; save(P2); });
-  $('#ia-port').addEventListener('click', e => { const b = e.target.closest('.ia-x'); if (!b) return; const P2 = iaPort(); delete P2[b.dataset.slot]; save(P2); });
+  const aviso = t => toast(t, 5000), busy = (b, on) => { if (b) { b.disabled = on; b.classList.toggle('busy', on); } };
+  const kcLibre = (P2, u, kc) => Object.entries(P2).some(([k2, p]) => k2 !== String(u) && p.kc === kc) ? '' : kc;
+  const reservar = (u, id, kc, b) => {
+    const nombre = String(store.get('enp-ia-nombre', '') || '').trim(), x = BY[id];
+    if (!x) return;
+    if (nombre.length < 3) { const i = $('#ia-nombre'); if (i) { i.setAttribute('aria-invalid', 'true'); i.scrollIntoView({ behavior: 'smooth', block: 'center' }); i.focus({ preventScroll: true }); } aviso('Escribe tu nombre y apellido en «Mi preselección» para reservar un artículo.'); return; }
+    busy(b, true);
+    iaResReq({ a: 'res', id, u: +u, n: nombre, t: (iaRec(id) || {}).to || x.n.titulo, m: x.n.medio }).then(j => {
+      const P2 = iaPort();
+      if (j.ok) { P2[u] = { id, kc: P2[u] && P2[u].id === id ? P2[u].kc : kcLibre(P2, u, kc), r: 1 }; save(P2); aviso('Reservado. Ningún compañero puede elegir este artículo.'); }
+      else { save(P2); aviso(j.e === 'tomado' ? 'Otro alumno ya reservó este artículo. Elige otro.' : j.e === 'unidad' ? `Ya hay un artículo de la Unidad ${u} reservado con tu nombre desde otro dispositivo. Pídele a tu profesor que lo libere.` : 'No se pudo reservar. Inténtalo de nuevo en un momento.'); }
+    }).catch(() => { busy(b, false); aviso('No hay conexión con las reservas. Revisa tu internet e inténtalo de nuevo.'); });
+  };
+  const liberar = (u, b) => {
+    const p = iaPort()[u], fin = () => { const P2 = iaPort(); delete P2[u]; save(P2); };
+    if (!p) return;
+    if (!IA_RES() || !p.r) { fin(); return; }
+    busy(b, true);
+    iaResReq({ a: 'lib', id: p.id }).then(() => { fin(); aviso('Quitaste el artículo: ahora queda libre para tus compañeros.'); })
+      .catch(() => { busy(b, false); aviso('No hay conexión con las reservas: el artículo sigue reservado. Inténtalo de nuevo.'); });
+  };
+  $('#ia-grid').addEventListener('click', e => {
+    const b = e.target.closest('.ia-pick'); if (!b || b.disabled) return;
+    const P2 = iaPort(), u = b.dataset.u;
+    if (P2[u] && P2[u].id === b.dataset.id) return liberar(u, b);
+    if (IA_RES()) return reservar(u, b.dataset.id, b.dataset.kc, b);
+    P2[u] = { id: b.dataset.id, kc: kcLibre(P2, u, b.dataset.kc) }; save(P2);
+  });
+  $('#ia-port').addEventListener('click', e => {
+    const x = e.target.closest('.ia-x'); if (x && !x.disabled) return liberar(x.dataset.slot, x);
+    const r = e.target.closest('.ia-resv'); if (r && !r.disabled) { const p = iaPort()[r.dataset.slot]; if (p) reservar(r.dataset.slot, p.id, p.kc, r); }
+  });
   $('#ia-port').addEventListener('input', e => { if (e.target.id === 'ia-nombre') { e.target.removeAttribute('aria-invalid'); store.set('enp-ia-nombre', e.target.value.slice(0, 60)); } });
   $('#ia-port').addEventListener('click', e => {
     const b = e.target.closest('[data-env]'); if (!b) return;
@@ -2078,7 +2131,16 @@ function drawIA() {
     else { const ok = () => { m.textContent = 'Texto copiado. Pégalo en el mensaje para tu profesor.'; }; (navigator.clipboard ? navigator.clipboard.writeText(msg) : Promise.reject()).then(ok).catch(() => { const t = document.createElement('textarea'); t.value = msg; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); ok(); } catch (x) { m.textContent = 'No se pudo copiar. Usa WhatsApp o el correo.'; } t.remove(); }); }
   });
   $('#ia-port').addEventListener('change', e => { const s = e.target.closest('select[data-slot]'); if (!s) return; const P2 = iaPort(); if (P2[s.dataset.slot]) { P2[s.dataset.slot].kc = s.value; save(P2); } });
+  const libre = $('#ia-libre'); if (libre) libre.onchange = e => { IA_F.libre = e.target.checked; grid(); };
   grid();
+  clearInterval(IA_RES_T);
+  if (IA_RES()) {
+    let fallo = false;
+    const upd = () => iaResReq().then(() => { if (location.hash.slice(1) !== 'ia' || !$('#ia-grid')) return; if (document.activeElement && document.activeElement.id !== 'ia-nombre') port(); grid(); })
+      .catch(() => { if (!fallo) { fallo = true; aviso('No se pudieron cargar las reservas de la clase. Revisa tu conexión.'); } });
+    upd();
+    IA_RES_T = setInterval(() => { if (location.hash.slice(1) !== 'ia') clearInterval(IA_RES_T); else if (!document.hidden) upd(); }, 60000);
+  }
 }
 
 /* Archivo de noticias */
