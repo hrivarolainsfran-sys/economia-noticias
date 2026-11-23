@@ -15472,7 +15472,25 @@
      ]
     ],
     "dg": "Oferta y demanda con impuesto indirecto: al bajar el impuesto, la oferta se desplaza hacia abajo. Puedes sumar el de externalidad negativa.",
-    "ev": "Quién gana (transportistas, consumidores) y quién pierde (el fisco, el ambiente); qué pasa en enero si vuelve el impuesto."
+    "ev": "Quién gana (transportistas, consumidores) y quién pierde (el fisco, el ambiente); qué pasa en enero si vuelve el impuesto.",
+    "g": {
+     "p": [
+      "¿Qué impuesto cambió, en cuánto y hasta cuándo?",
+      "¿Cuánto bajó el litro y quién fija ese precio: Petropar o el mercado?",
+      "¿Qué pasará en enero si el impuesto vuelve a su nivel anterior?"
+     ],
+     "d": "El impuesto selectivo al consumo del diésel baja 50 % y el litro baja G. 300.",
+     "a": [
+      [
+       "impuesto-especifico",
+       "Impuesto indirecto específico"
+      ],
+      [
+       "ext-neg-prod",
+       "Externalidad negativa de la producción"
+      ]
+     ]
+    }
    },
    {
     "id": "conacom-frigorificos",
@@ -15492,7 +15510,21 @@
      ]
     ],
     "dg": "Poder de mercado: monopolio (o monopsonio, si lo ves en clase), con menos cantidad y pérdida de bienestar.",
-    "ev": "Efectos para ganaderos, consumidores y trabajadores; si una multa cambia la conducta; riesgos para una industria con capacidad ociosa."
+    "ev": "Efectos para ganaderos, consumidores y trabajadores; si una multa cambia la conducta; riesgos para una industria con capacidad ociosa.",
+    "g": {
+     "p": [
+      "¿A qué empresas acusa la Conacom y qué parte de la faena tienen?",
+      "¿Por qué pagar menos por el ganado puede ser un abuso de posición dominante?",
+      "¿Las multas que pide alcanzan para cambiar la conducta de las empresas?"
+     ],
+     "d": "Las dos empresas suman cerca del 60 % de la faena nacional.",
+     "a": [
+      [
+       "eficiencia",
+       "Eficiencia en la asignación de recursos"
+      ]
+     ]
+    }
    },
    {
     "id": "ande-tarifa",
@@ -15512,47 +15544,135 @@
      ]
     ],
     "dg": "Monopolio natural con regulación de precios (precio máximo).",
-    "ev": "Corto plazo (alivio, menos inflación) frente a largo plazo (obras postergadas mientras crece la demanda de energía)."
+    "ev": "Corto plazo (alivio, menos inflación) frente a largo plazo (obras postergadas mientras crece la demanda de energía).",
+    "g": {
+     "p": [
+      "¿Quién decidió no subir la tarifa y por cuánto tiempo?",
+      "¿Por qué la ANDE es un monopolio natural y por qué el Estado regula su precio?",
+      "¿Qué inversiones pueden faltar si la tarifa no cubre los costos?"
+     ],
+     "d": "La tarifa eléctrica no se reajustará por al menos un año.",
+     "a": [
+      [
+       "precio-max",
+       "Precio máximo"
+      ]
+     ]
+    }
    },
    {
-    "id": "che-roga-pora",
-    "to": "Che Róga Porã: Fondos alcanzarán hasta mediados de 2027 y sigue en trámite nuevo préstamo",
-    "fo": "2026-11-22",
-    "e": 2,
-    "niv": "Media",
-    "por": "Un programa de vivienda con crédito barato que se queda sin fondos antes de tiempo: muestra lo que pasa cuando la demanda supera lo que el Estado puede financiar.",
+    "id": "salario-minimo",
+    "to": "Reajuste del salario mínimo: estos son los pagos por hora, día y jornada nocturna",
+    "fo": "2026-06-26",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "Un clásico del programa con cifras claras: el Gobierno fija por decreto un precio mínimo en el mercado de trabajo y el artículo trae el monto mensual, diario y por hora.",
     "kc": [
      [
       "equidad",
-      "¿Llega la ayuda a las familias que más la necesitan?"
+      "¿El aumento reduce la desigualdad o deja afuera a quienes trabajan en la informalidad?"
      ],
      [
-      "escasez",
-      "Fondos limitados frente a muchas familias que quieren su casa."
+      "intervencion",
+      "El Estado fija un precio mínimo en el mercado de trabajo."
      ]
     ],
-    "dg": "Subsidio en un mercado (crédito para vivienda): más cantidad demandada y costo para el Estado.",
-    "ev": "Costo para los contribuyentes y la deuda (el nuevo crédito de Taiwán); efecto en el precio de las viviendas; quién queda afuera."
+    "dg": "Precio mínimo en el mercado de trabajo: la oferta de trabajo supera a la demanda y aparece desempleo.",
+    "ev": "Trabajadores que ganan más frente a quienes no consiguen empleo formal; costos de las pequeñas empresas; el peso de la informalidad en Paraguay.",
+    "g": {
+     "p": [
+      "¿Cuánto sube el salario mínimo y desde cuándo?",
+      "¿Está por encima del salario de equilibrio en todos los sectores y regiones?",
+      "¿Quién gana y quién puede perder: trabajadores formales, informales, pequeñas empresas?"
+     ],
+     "d": "El salario mínimo sube 5 % y llega a G. 3.044.000 por mes.",
+     "a": [
+      [
+       "precio-min",
+       "Precio mínimo"
+      ],
+      [
+       "salario-minimo",
+       "Salario mínimo y desempleo"
+      ]
+     ]
+    }
    },
    {
-    "id": "faena-bovina-octubre",
-    "to": "Faena bovina cae 20% al décimo mes del año, aunque hubo repunte en octubre",
-    "fo": "2026-11-21",
-    "e": 2,
+    "id": "carne-cae",
+    "to": "Exportaciones avícolas registran un crecimiento del 76% en ingresos hasta octubre",
+    "fo": "2026-11-02",
+    "e": 3,
     "niv": "Accesible",
-    "por": "Datos claros de una caída de la oferta: la faena bajó 20 % en el año y los frigoríficos usan menos de la mitad de su capacidad.",
+    "por": "Cifras fáciles de comparar: se exporta menos carne bovina, el precio por kilo sube y aun así los ingresos bajan, mientras el pollo crece. Ojo: el título habla del pollo y los datos de la carne bovina están en el texto.",
     "kc": [
      [
       "escasez",
-      "Hay menos ganado y no se puede producir más rápido."
+      "Hay menos ganado: se exporta menos carne aunque el precio por kilo sube."
      ],
      [
       "cambio",
-      "El ciclo ganadero cambia la oferta de un año a otro."
+      "Las exportaciones crecen en el pollo, un sustituto de la carne bovina."
      ]
     ],
-    "dg": "Oferta que se desplaza a la izquierda y oferta inelástica en el corto plazo.",
-    "ev": "Efectos en el precio de la carne, las exportaciones y el empleo; corto frente a largo plazo."
+    "dg": "Oferta que se desplaza a la izquierda (sube el precio, baja la cantidad) y elasticidad precio de la demanda con el ingreso total.",
+    "ev": "Por qué los ingresos cayeron aunque subió el precio; frigoríficos y trabajadores frente a productores de pollo; corto frente a largo plazo.",
+    "g": {
+     "p": [
+      "¿Cuánto bajó el volumen exportado de carne bovina y cuánto subió el precio por kilo?",
+      "¿Por qué los ingresos cayeron aunque el precio subió? ¿Qué dice eso de la elasticidad?",
+      "¿Por qué crecen las exportaciones de pollo mientras cae la carne bovina?"
+     ],
+     "d": "El precio por kilo sube de US$ 5,85 a US$ 7,12, pero los ingresos bajan de US$ 1.787 a 1.645 millones.",
+     "a": [
+      [
+       "equilibrio-cambio",
+       "Cambio del equilibrio"
+      ],
+      [
+       "epd-it",
+       "Elasticidad e ingreso total"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "bomberos-bien-publico",
+    "to": "Bomberos voluntarios recibirán desembolsos tras acuerdo con el intendente Bello",
+    "fo": "2026-06-10",
+    "e": 2,
+    "niv": "Media",
+    "por": "Un bien público paraguayo: los bomberos voluntarios protegen a todos, pero dependen de transferencias que llegan tarde. Tiene cifras y una decisión de financiamiento para evaluar.",
+    "kc": [
+     [
+      "intervencion",
+      "Nadie paga por sí solo un servicio que protege a todos: el municipio decide financiarlo."
+     ],
+     [
+      "equidad",
+      "Los bomberos protegen a todos los vecinos, paguen o no."
+     ]
+    ],
+    "dg": "El IB no exige un diagrama propio para los bienes públicos: explica la no rivalidad y la no exclusión, y usa el de externalidad positiva para mostrar la falta de provisión.",
+    "ev": "Financiar con impuestos frente a donaciones voluntarias; el problema del polizón; por qué un pago irregular (el anterior fue en 2020) no alcanza.",
+    "g": {
+     "p": [
+      "¿Cuánto dinero transfiere la Municipalidad, a quiénes y de dónde sale?",
+      "¿Por qué el servicio de los bomberos es no rival y no excluible?",
+      "¿Qué pasa con un bien público si nadie está obligado a pagarlo?"
+     ],
+     "d": "La Municipalidad transfiere unos G. 3.000 millones, financiados con el 3,5 % del impuesto a la construcción.",
+     "a": [
+      [
+       "nota-bienes-publicos",
+       "Bienes públicos"
+      ],
+      [
+       "ext-pos-cons",
+       "Externalidad positiva del consumo"
+      ]
+     ]
+    }
    },
    {
     "id": "tpm-noviembre",
@@ -15572,27 +15692,21 @@
      ]
     ],
     "dg": "Demanda y oferta agregadas: la política monetaria desplaza la DA.",
-    "ev": "Ahorristas frente a deudores; los rezagos de la política monetaria; qué pasa si la DA cae por Ueno."
-   },
-   {
-    "id": "consumo-cae",
-    "to": "Crisis de Ueno Bank pone en riesgo el repunte de ventas en diciembre, advierte Capasu",
-    "fo": "2026-11-09",
-    "e": 3,
-    "niv": "Accesible",
-    "por": "Un golpe a la demanda agregada con cifras fuertes: ventas de multitiendas hasta 70 % abajo, supermercados cerca de 10 % menos y miles de empleos en riesgo.",
-    "kc": [
-     [
-      "cambio",
-      "Un hecho financiero cambia de golpe el consumo de las familias."
+    "ev": "Ahorristas frente a deudores; los rezagos de la política monetaria; qué pasa si la DA cae por Ueno.",
+    "g": {
+     "p": [
+      "¿Qué decidió el Comité de Política Monetaria y por qué lo llama «neutral»?",
+      "¿Qué datos de inflación y crecimiento usa para justificar la decisión?",
+      "¿Qué podría hacer el BCP si la crisis de Ueno hace caer la demanda?"
      ],
-     [
-      "bienestar",
-      "Menos ventas y empleos en riesgo afectan el bienestar."
+     "d": "La tasa de política monetaria se mantiene en 5,50 %.",
+     "a": [
+      [
+       "politica-monetaria",
+       "Política monetaria"
+      ]
      ]
-    ],
-    "dg": "Demanda agregada que se desplaza a la izquierda: menos producción y empleo (brecha recesiva).",
-    "ev": "Corto frente a largo plazo (recuperación al devolver los depósitos); qué política fiscal o monetaria puede ayudar."
+    }
    },
    {
     "id": "deficit-octubre",
@@ -15612,7 +15726,21 @@
      ]
     ],
     "dg": "Política fiscal expansiva en demanda y oferta agregadas.",
-    "ev": "Beneficios del gasto frente al costo de la deuda; efecto en la calificación y las tasas; si es creíble la meta de 2028."
+    "ev": "Beneficios del gasto frente al costo de la deuda; efecto en la calificación y las tasas; si es creíble la meta de 2028.",
+    "g": {
+     "p": [
+      "¿Cuánto es el déficit y qué parte del PIB representa?",
+      "¿Por qué el gasto crece mucho más rápido que los ingresos?",
+      "¿Es creíble volver a un déficit de 1,5 % del PIB en 2028?"
+     ],
+     "d": "Entre enero y octubre el gasto crece 10,8 % y los ingresos solo 1,0 %.",
+     "a": [
+      [
+       "politica-fiscal",
+       "Política fiscal"
+      ]
+     ]
+    }
    },
    {
     "id": "hambre-cero-recorte",
@@ -15632,7 +15760,25 @@
      ]
     ],
     "dg": "Curva de Lorenz y política fiscal: las transferencias en especie reducen la desigualdad.",
-    "ev": "Ahorro fiscal frente a efectos en educación y salud; corto frente a largo plazo."
+    "ev": "Ahorro fiscal frente a efectos en educación y salud; corto frente a largo plazo.",
+    "g": {
+     "p": [
+      "¿Qué cambia en el almuerzo escolar y cuánto se ahorraría?",
+      "¿Qué familias dependen más de Hambre Cero?",
+      "¿Vale la pena el ahorro fiscal frente a sus efectos en la educación y la salud?"
+     ],
+     "d": "El nuevo calendario ahorraría entre US$ 80 y 100 millones en 2027.",
+     "a": [
+      [
+       "lorenz",
+       "Curva de Lorenz"
+      ],
+      [
+       "politica-fiscal",
+       "Política fiscal"
+      ]
+     ]
+    }
    },
    {
     "id": "inflacion-oct",
@@ -15652,7 +15798,101 @@
      ]
     ],
     "dg": "Shock de oferta favorable (bajan los alimentos): la OACP se desplaza a la derecha.",
-    "ev": "Quién gana (asalariados, ahorristas) y quién pierde (productores, deudores); riesgo de la depreciación de noviembre."
+    "ev": "Quién gana (asalariados, ahorristas) y quién pierde (productores, deudores); riesgo de la depreciación de noviembre.",
+    "g": {
+     "p": [
+      "¿Cuánto bajaron los precios en octubre y cuál es la inflación de doce meses?",
+      "¿Qué productos bajaron de precio y por qué?",
+      "¿Una inflación por debajo de la meta es buena o mala para la economía?"
+     ],
+     "d": "La inflación de doce meses es 1,7 %, por debajo de la meta de 3,5 %.",
+     "a": [
+      [
+       "oacp-desplaz",
+       "Desplazamientos de la OACP"
+      ],
+      [
+       "deflacion",
+       "Deflación buena y mala"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "desempleo-41",
+    "to": "Desempleo en Paraguay cae al 4,1% y se suman más de 66.000 nuevos ocupados, según el INE",
+    "fo": "2026-10-30",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "Datos oficiales claros: el desempleo baja y hay 66.000 personas ocupadas más. Permite hablar de los tipos de desempleo, la subocupación y la informalidad.",
+    "kc": [
+     [
+      "bienestar",
+      "Más gente con empleo e ingresos: ¿mejora el bienestar de los hogares?"
+     ],
+     [
+      "cambio",
+      "El desempleo baja de 4,9 % a 4,1 % en un año."
+     ]
+    ],
+    "dg": "Aumento de la demanda agregada: más producción real y menos desempleo cíclico.",
+    "ev": "Si los empleos nuevos son formales o informales; la subocupación (4,2 %); si la crisis de noviembre puede revertir la mejora.",
+    "g": {
+     "p": [
+      "¿Cuánto bajó el desempleo y cuántas personas ocupadas más hay?",
+      "¿Qué diferencia hay entre desempleo y subocupación?",
+      "¿Los empleos nuevos son formales? ¿Qué no muestra la tasa de desempleo?"
+     ],
+     "d": "El desempleo baja a 4,1 %, frente a 4,9 % un año antes.",
+     "a": [
+      [
+       "da-aumento-y",
+       "Aumento de la DA y de la producción"
+      ],
+      [
+       "brecha-deflacionaria",
+       "Brecha con desempleo cíclico"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "imaep-setiembre",
+    "to": "Economía acumula crecimiento de 5,5% al cierre del mes de setiembre",
+    "fo": "2026-11-11",
+    "e": 2,
+    "niv": "Media",
+    "por": "Un dato oficial de crecimiento con sectores que ganan y sectores que pierden. Sirve para explicar qué mide el crecimiento económico y cuáles son sus límites.",
+    "kc": [
+     [
+      "cambio",
+      "La economía crece 5,5 % en el año, pero no todos los sectores avanzan."
+     ],
+     [
+      "bienestar",
+      "¿Más producción significa que los hogares viven mejor?"
+     ]
+    ],
+    "dg": "Ciclo económico y aumento de la demanda agregada con más producción real.",
+    "ev": "Qué sectores impulsan el crecimiento y cuáles se quedan atrás; crecimiento frente a bienestar; el dato es anterior a la crisis de Ueno.",
+    "g": {
+     "p": [
+      "¿Cuánto creció la economía en septiembre y en lo que va del año?",
+      "¿Qué sectores crecieron y cuáles tuvieron un mal desempeño?",
+      "¿Por qué se calcula también el indicador sin agricultura ni binacionales?"
+     ],
+     "d": "La actividad económica crece 3,9 % en septiembre y acumula 5,5 % en el año.",
+     "a": [
+      [
+       "ciclo-economico",
+       "Ciclo económico"
+      ],
+      [
+       "da-aumento-y",
+       "Aumento de la DA y de la producción"
+      ]
+     ]
+    }
    },
    {
     "id": "mercosur-ue",
@@ -15672,7 +15912,25 @@
      ]
     ],
     "dg": "Efecto de quitar un arancel y libre comercio con exportaciones.",
-    "ev": "Exportadores frente a industrias que compiten con Europa; corto plazo (cambios graduales) frente a largo plazo."
+    "ev": "Exportadores frente a industrias que compiten con Europa; corto plazo (cambios graduales) frente a largo plazo.",
+    "g": {
+     "p": [
+      "¿Desde cuándo se aplica el acuerdo y por qué es provisional?",
+      "¿Qué productos de Paraguay pueden venderse más en Europa sin aranceles?",
+      "¿Qué industrias del Mercosur pueden perder con la competencia europea?"
+     ],
+     "d": "Desde el 1 de mayo se aplica en forma provisional y elimina los aranceles de algunos productos desde el primer día.",
+     "a": [
+      [
+       "arancel",
+       "Efecto de un arancel"
+      ],
+      [
+       "exportaciones",
+       "Libre comercio con exportaciones"
+      ]
+     ]
+    }
    },
    {
     "id": "guarani-cae",
@@ -15692,7 +15950,25 @@
      ]
     ],
     "dg": "Mercado de divisas: sube la demanda de dólares (la oferta de guaraníes) y el guaraní se deprecia.",
-    "ev": "Exportadores frente a importadores; inflación importada; qué pasa si la crisis se calma."
+    "ev": "Exportadores frente a importadores; inflación importada; qué pasa si la crisis se calma.",
+    "g": {
+     "p": [
+      "¿Cuánto se depreció el guaraní en un día y en cinco días?",
+      "¿Por qué sube la demanda de dólares?",
+      "¿Quién gana y quién pierde con un dólar más caro?"
+     ],
+     "d": "El guaraní pierde 8,17 % en cinco días y el dólar llega a G. 6.487.",
+     "a": [
+      [
+       "tc-flotante",
+       "Tipo de cambio flotante"
+      ],
+      [
+       "tc-da-oa",
+       "Tipo de cambio, DA y OA"
+      ]
+     ]
+    }
    },
    {
     "id": "bcp-cambiaria",
@@ -15712,7 +15988,21 @@
      ]
     ],
     "dg": "Mercado de divisas con intervención del banco central (compra o venta de reservas).",
-    "ev": "Estabilidad frente al costo en reservas; el riesgo de que el mercado espere siempre la ayuda del BCP."
+    "ev": "Estabilidad frente al costo en reservas; el riesgo de que el mercado espere siempre la ayuda del BCP.",
+    "g": {
+     "p": [
+      "¿Qué cambia en la forma en que el BCP interviene en el mercado de dólares?",
+      "¿En qué casos dice que intervendría?",
+      "¿Qué riesgos tiene intervenir con las reservas?"
+     ],
+     "d": "El BCP podría también comprar dólares a los bancos, no solo venderlos, para estabilizar la cotización.",
+     "a": [
+      [
+       "tc-controlado",
+       "Tipo de cambio controlado"
+      ]
+     ]
+    }
    },
    {
     "id": "black-friday-cde",
@@ -15732,27 +16022,101 @@
      ]
     ],
     "dg": "Mercado de divisas (los brasileños demandan guaraníes) o demanda agregada (suben las exportaciones netas).",
-    "ev": "Quién gana (comercio de Ciudad del Este) y quién pierde (comercio de Brasil y de otras ciudades); el riesgo de depender del real."
+    "ev": "Quién gana (comercio de Ciudad del Este) y quién pierde (comercio de Brasil y de otras ciudades); el riesgo de depender del real.",
+    "g": {
+     "p": [
+      "¿Quiénes compran en Ciudad del Este y por qué cruzan desde Brasil?",
+      "¿Cómo influye el tipo de cambio entre el real y el guaraní?",
+      "¿Qué pasa con el comercio de la ciudad si el real se debilita?"
+     ],
+     "d": "El intendente espera unas 500.000 personas en la región.",
+     "a": [
+      [
+       "tc-flotante",
+       "Tipo de cambio flotante"
+      ],
+      [
+       "da-desplaz",
+       "Desplazamientos de la DA"
+      ]
+     ]
+    }
    },
    {
-    "id": "uranio-ia",
-    "to": "Uranio, agua y energía: Los proyectos mineros que sitúan a Paraguay en la carrera de la IA",
-    "fo": "2026-11-22",
-    "e": 2,
-    "niv": "Exigente",
-    "por": "Una estrategia de desarrollo nueva: energía de Itaipú y uranio para la cadena de la inteligencia artificial. Buena para hablar de diversificación y ambiente.",
+    "id": "maquila",
+    "to": "Maquila exporta US$1,148 millones y genera un superávit de US$543 millones en Paraguay",
+    "fo": "2026-10-16",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "Cifras claras de un sector exportador que crece y emplea a más de 36.000 personas. Es de un diario de Colombia: te sirve como una fuente distinta de las de tus compañeros.",
     "kc": [
      [
-      "sostenibilidad",
-      "Minería de uranio y comunidades cercanas: beneficios frente a riesgos ambientales."
+      "interdependencia",
+      "El 59 % de lo que exporta la maquila va a Brasil."
      ],
      [
-      "interdependencia",
-      "Acuerdos con EE.UU. y empresas extranjeras."
+      "cambio",
+      "Las exportaciones de la maquila crecen 25 % en un año."
      ]
     ],
-    "dg": "Políticas de oferta (OALP) o externalidad negativa de la producción.",
-    "ev": "Diversificación frente a riesgos ambientales; quién se queda con los beneficios; todavía no hay producción."
+    "dg": "Libre comercio con exportaciones; también aumento de las exportaciones netas en la demanda agregada.",
+    "ev": "Empleo y divisas frente a la dependencia de Brasil; cuánto valor queda en Paraguay si la maquila importa US$ 605 millones en insumos.",
+    "g": {
+     "p": [
+      "¿Cuánto exportó y cuánto importó la maquila, y cuál fue el saldo?",
+      "¿Por qué la maquila importa insumos para luego exportar?",
+      "¿Qué riesgo tiene que el 59 % de las ventas vayan a Brasil?"
+     ],
+     "d": "La maquila exporta US$ 1.148 millones (+25 %) y deja un saldo positivo de US$ 543 millones.",
+     "a": [
+      [
+       "exportaciones",
+       "Libre comercio con exportaciones"
+      ],
+      [
+       "da-desplaz",
+       "Desplazamientos de la DA"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "ied-record",
+    "to": "Inversión extranjera neta en Paraguay alcanza récord de US$ 1.151 millones en 2025",
+    "fo": "2026-10-30",
+    "e": 2,
+    "niv": "Media",
+    "por": "Un récord oficial para estudiar la cuenta financiera de la balanza de pagos y los efectos de la inversión extranjera directa.",
+    "kc": [
+     [
+      "interdependencia",
+      "Llega capital extranjero: más inversión, pero también salida futura de utilidades."
+     ],
+     [
+      "cambio",
+      "Récord de inversión extranjera directa desde 2008."
+     ]
+    ],
+    "dg": "Mercado de divisas: la entrada de dólares aprecia el guaraní; también aumento de la OALP.",
+    "ev": "Empleo y tecnología frente a la salida futura de utilidades; si la crisis de noviembre afecta la confianza de los inversores.",
+    "g": {
+     "p": [
+      "¿Cuánto fue la inversión extranjera directa en 2025 y por qué es un récord?",
+      "¿De qué países viene la inversión?",
+      "¿Cómo afecta la llegada de dólares al tipo de cambio?"
+     ],
+     "d": "La inversión extranjera directa neta llega a US$ 1.151 millones en 2025, la mayor desde 2008.",
+     "a": [
+      [
+       "tc-flotante",
+       "Tipo de cambio flotante"
+      ],
+      [
+       "oalp-aumento",
+       "Aumento de la OALP"
+      ]
+     ]
+    }
    }
   ],
   "combos": [
@@ -15779,7 +16143,7 @@
     "por": "Artículos cortos, con cifras claras y diagramas básicos, de tres medios distintos. Buena para empezar.",
     "ids": [
      [
-      "faena-bovina-octubre",
+      "carne-cae",
       "escasez"
      ],
      [
@@ -15809,7 +16173,44 @@
       "intervencion"
      ]
     ]
+   },
+   {
+    "t": "Trabajo y empleo",
+    "por": "Tres miradas sobre el trabajo en Paraguay: el salario mínimo, la baja del desempleo y los empleos de la maquila. Son de tres medios que pocos compañeros van a usar.",
+    "ids": [
+     [
+      "salario-minimo",
+      "equidad"
+     ],
+     [
+      "desempleo-41",
+      "bienestar"
+     ],
+     [
+      "maquila",
+      "interdependencia"
+     ]
+    ]
+   },
+   {
+    "t": "Lejos de los medios de siempre",
+    "por": "Si tus compañeros ya eligieron ABC Color, Última Hora o La Nación: tres medios distintos, para que tu portafolio no se parezca al de ellos.",
+    "ids": [
+     [
+      "carne-cae",
+      "escasez"
+     ],
+     [
+      "imaep-setiembre",
+      "cambio"
+     ],
+     [
+      "ied-record",
+      "interdependencia"
+     ]
+    ]
    }
-  ]
+  ],
+  "enlaces": "2026-11-23"
  }
 }
