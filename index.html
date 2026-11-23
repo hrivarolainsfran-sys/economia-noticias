@@ -930,17 +930,7 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 @media (max-width:860px){.ia-prof{grid-template-columns:1fr}}
 .ia-checks{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.88rem}
 .ia-checks .ok{color:var(--ok)}.ia-checks .bad{color:var(--bad);font-weight:600}.ia-checks .wait{color:var(--muted)}
-.ia-combos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:30px}
-.ia-combo{position:relative;background:var(--sheet);border:1px solid var(--rule);border-radius:var(--r);padding:16px;display:grid;gap:8px;align-content:start}
-.ia-combo.top{border:2px solid var(--gold)}
 .ia-badge{position:absolute;top:-11px;left:14px;background:var(--gold);color:#1d1a12;font-size:.74rem;font-weight:700;border-radius:999px;padding:2px 10px}
-.ia-combo h3{margin:4px 0 0}
-.ia-combo p{margin:0;font-size:.9rem;color:var(--ink-2)}
-.ia-combo ol{list-style:none;margin:4px 0;padding:0;display:grid;gap:8px}
-.ia-combo li{border-left:4px solid var(--uc);padding-left:9px;display:grid;gap:1px}
-.ia-combo li small{color:var(--muted);font-size:.78rem}
-.ia-combo li a{font-size:.92rem;line-height:1.3}
-.ia-combo .btn{justify-self:start;cursor:pointer}
 .ia-filters{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin-bottom:16px}
 .ia-filters [role=group]{display:flex;flex-wrap:wrap;gap:6px}
 .ia-filters .chip{cursor:pointer}
@@ -987,7 +977,7 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 .ia-tip p{margin:2px 0 0;font-size:.88rem;color:var(--ink-2)}
 .ia-foot{margin-top:4px}
 @media(max-width:980px){.ia-rules{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:860px){.ia-rules{grid-template-columns:repeat(2,minmax(0,1fr))}.ia-slots,.ia-combos{grid-template-columns:1fr}}
+@media(max-width:860px){.ia-rules{grid-template-columns:repeat(2,minmax(0,1fr))}.ia-slots{grid-template-columns:1fr}}
 </style>
 
 <style>
@@ -2043,14 +2033,11 @@ function drawIA() {
   const L = iaLista(), R = iaRecs(), P = iaPort(), BY = Object.fromEntries(L.map(x => [x.n.id, x]));
   const medios = Object.entries(L.reduce((o, x) => (o[x.n.medio] = (o[x.n.medio] || 0) + 1, o), {})).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'es'));
   if (IA_F.m !== 'todos' && IA_F.m !== 'nuevos' && !medios.some(([m]) => m === IA_F.m)) IA_F.m = 'todos';
-  const combos = ((IAREC && IAREC.combos) || []).map(c => Object.assign({}, c, { xs: c.ids.map(([id, kc]) => BY[id] && { x: BY[id], kc }) })).filter(c => c.xs.every(Boolean));
   $('#app').innerHTML = `<div class="wrap ia-page">
     <div class="sec-head"><div><div class="eyebrow">Evaluación interna · Economía IB</div><h1>Artículos para tus tres comentarios</h1><p class="lede">Noticias económicas de Paraguay elegidas para el portafolio de la evaluación interna. Cada una trae el concepto clave que mejor le queda, el diagrama que puedes usar y qué evaluar. Elige tres, una de cada unidad y de medios distintos, y pásalas al Taller de Economía IB para escribir tus comentarios.</p></div></div>
     <section class="ia-rules" aria-label="Reglas del portafolio">${IA_REGLAS.map(([n, t, d]) => `<div class="ia-rule"><b>${n}</b><strong>${t}</strong><span>${d}</span></div>`).join('')}</section>
     <details class="ia-more"><summary>Más reglas importantes</summary><ul>${IA_DETALLE.map(t => `<li>${esc(t)}</li>`).join('')}</ul></details>
     <section class="ia-port" id="ia-port"><div class="ia-port-h"><div><div class="eyebrow">Tu elección</div><h2>Mi preselección</h2></div><span class="note">Se guarda en este dispositivo. La carpeta se escribe en el Taller.</span></div><div id="ia-port-in">${iaPortHTML(P)}</div></section>
-    ${combos.length ? `<section class="ia-combos-s"><div class="sec-head"><div><div class="eyebrow">Lo que recomiendo</div><h2>Tres combinaciones que funcionan</h2></div><span class="note">Una unidad y un concepto distinto en cada artículo</span></div>
-    <div class="ia-combos">${combos.map((c, i) => `<article class="ia-combo${i ? '' : ' top'}">${i ? '' : '<span class="ia-badge">Mi recomendación</span>'}<h3>${esc(c.t)}</h3><p>${esc(c.por)}</p><ol>${c.xs.map(({ x, kc }) => `<li style="--uc:var(--u-${IA_UNI[x.u][0]})"><small>Unidad ${x.u} · ${KC[kc]}</small><a href="#n-${x.n.id}">${esc(x.n.titulo)}</a></li>`).join('')}</ol><button type="button" class="btn${i ? '' : ' primary'} ia-combo-use" data-i="${i}">Usar esta combinación</button></article>`).join('')}</div></section>` : ''}
     <section><div class="sec-head"><div><div class="eyebrow">Elige tú</div><h2>Todos los artículos disponibles</h2></div><span class="note" id="ia-count" role="status"></span></div>
       <div class="filters ia-filters"><div role="group" aria-label="Unidad">${[['todas', 'Todas'], ['2', 'Unidad 2 · Micro'], ['3', 'Unidad 3 · Macro'], ['4', 'Unidad 4 · Global']].map(([k, t]) => `<button type="button" class="chip" data-iu="${k}" aria-pressed="${IA_F.u === k}">${t}</button>`).join('')}</div>
       <select id="ia-kc" aria-label="Concepto clave"><option value="todos">Todos los conceptos clave</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${IA_F.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select>
@@ -2091,7 +2078,6 @@ function drawIA() {
     else { const ok = () => { m.textContent = 'Texto copiado. Pégalo en el mensaje para tu profesor.'; }; (navigator.clipboard ? navigator.clipboard.writeText(msg) : Promise.reject()).then(ok).catch(() => { const t = document.createElement('textarea'); t.value = msg; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); ok(); } catch (x) { m.textContent = 'No se pudo copiar. Usa WhatsApp o el correo.'; } t.remove(); }); }
   });
   $('#ia-port').addEventListener('change', e => { const s = e.target.closest('select[data-slot]'); if (!s) return; const P2 = iaPort(); if (P2[s.dataset.slot]) { P2[s.dataset.slot].kc = s.value; save(P2); } });
-  document.querySelectorAll('.ia-combo-use').forEach(b => b.onclick = () => { const c = combos[+b.dataset.i], P2 = {}; c.xs.forEach(({ x, kc }) => { P2[x.u] = { id: x.n.id, kc }; }); save(P2); $('#ia-port').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   grid();
 }
 
