@@ -21,7 +21,11 @@ def revisar(url, titulo):
     req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept-Language': 'es'})
     try:
         with urllib.request.urlopen(req, timeout=25) as r:
-            final, body = r.geturl(), r.read(3_000_000).decode('utf-8', 'replace')
+            final, raw = r.geturl(), r.read(3_000_000)
+        try:  # casi todos los diarios usan UTF-8; algunos (El Nacional) usan Latin-1
+            body = raw.decode('utf-8')
+        except UnicodeDecodeError:
+            body = raw.decode('cp1252', 'replace')
     except urllib.error.HTTPError as e:
         return ('ROTO' if e.code in (404, 410) else 'SIN DATO'), f'HTTP {e.code}'
     except Exception as e:

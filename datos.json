@@ -15452,7 +15452,7 @@
   ]
  },
  "ia": {
-  "actualizado": "2026-11-23",
+  "actualizado": "2026-11-24",
   "recomendados": [
    {
     "id": "isc-diesel",
@@ -16117,8 +16117,680 @@
       ]
      ]
     }
+   },
+   {
+    "id": "pepino-precio",
+    "to": "Productores de pepino denuncian caída del precio y apuntan al contrabando",
+    "fo": "2026-11-13",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "Un caso de oferta y demanda muy fácil de ver: la caja de pepino pasó de G. 100.000 a G. 40.000 en dos semanas. Los productores culpan al contrabando y el MAG a la alta producción: dos explicaciones para evaluar.",
+    "kc": [
+     [
+      "eleccion",
+      "El productor ya plantó y cosecha igual aunque el precio caiga: ¿qué opciones tiene?"
+     ],
+     [
+      "intervencion",
+      "¿Debería el Estado frenar el contrabando o comprar la producción local?"
+     ]
+    ],
+    "dg": "Oferta y demanda: un aumento de la oferta baja el precio de equilibrio. Puedes agregar la oferta del contrabando como importación barata.",
+    "ev": "Si la causa es la cosecha o el contrabando; quién gana (consumidores) y quién pierde (productores); qué medidas servirían.",
+    "g": {
+     "p": [
+      "¿Cuánto bajó el precio de la caja y en cuánto tiempo?",
+      "¿Qué explicación da el productor y cuál da el MAG?",
+      "¿Cuánto cuesta producir un kilo y cuánto se paga en el Mercado de Abasto?"
+     ],
+     "d": "La caja de 20 kg bajó de G. 100.000 a G. 40.000, unos G. 2.000 por kilo, frente a un costo de G. 1.600 por kilo en finca.",
+     "a": [
+      [
+       "equilibrio-cambio",
+       "Cambio del equilibrio"
+      ],
+      [
+       "oferta-mov",
+       "Desplazamiento de la oferta"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "ganado-oferta",
+    "to": "Menor oferta de ganado mantiene precios firmes, señala Appec",
+    "fo": "2026-03-17",
+    "e": 3,
+    "niv": "Media",
+    "por": "Ideal para la elasticidad de la oferta: hay 27 % menos ganado para faena y no se puede criar más rápido. El precio sube y los frigoríficos trabajan a media máquina.",
+    "kc": [
+     [
+      "cambio",
+      "Cinco años de caída del hato cambian el mercado de la carne."
+     ],
+     [
+      "escasez",
+      "Hay menos ganado del que la industria quiere procesar."
+     ]
+    ],
+    "dg": "Elasticidad precio de la oferta: una oferta muy inelástica a corto plazo, que se vuelve más elástica a largo plazo.",
+    "ev": "Por qué la oferta tarda en responder; efectos sobre productores, frigoríficos y consumidores; corto plazo frente a largo plazo.",
+    "g": {
+     "p": [
+      "¿Cuánto cayó la oferta de ganado y cuánto subió su precio?",
+      "¿A qué porcentaje de su capacidad trabajan los frigoríficos?",
+      "¿Por qué los ganaderos no pueden producir más rápido?"
+     ],
+     "d": "La oferta de ganado para la industria cayó 27 % y los frigoríficos trabajan entre 50 % y 55 % de su capacidad.",
+     "a": [
+      [
+       "epo-rel",
+       "Elasticidad precio de la oferta"
+      ],
+      [
+       "equilibrio-cambio",
+       "Cambio del equilibrio"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "agro-oferta",
+    "to": "Soja, arroz y poroto: los cultivos que empujaron al agro con un salto de 11,1%",
+    "fo": "2026-10-05",
+    "e": 2,
+    "niv": "Accesible",
+    "por": "Una buena cosecha desplaza la oferta agrícola: la agricultura creció 11,1 %, pero no todos los cultivos subieron. Sirve para hablar de los determinantes de la oferta.",
+    "kc": [
+     [
+      "cambio",
+      "El clima y los precios esperados cambian qué y cuánto se siembra."
+     ],
+     [
+      "eleccion",
+      "Cada productor elige qué cultivar según precios y costos."
+     ]
+    ],
+    "dg": "Desplazamiento de la curva de oferta a la derecha por mejor clima y tecnología.",
+    "ev": "Qué factores movieron la oferta; por qué unos cultivos crecieron y otros bajaron; efectos en precios y exportaciones.",
+    "g": {
+     "p": [
+      "¿Cuánto creció la agricultura en el segundo trimestre y en el semestre?",
+      "¿Qué cultivos crecieron y cuáles produjeron menos?",
+      "¿Qué pasó con las exportaciones?"
+     ],
+     "d": "La agricultura creció 11,1 % en el segundo trimestre de 2026 y 12,3 % en el primer semestre.",
+     "a": [
+      [
+       "oferta-mov",
+       "Desplazamiento de la oferta"
+      ],
+      [
+       "equilibrio-cambio",
+       "Cambio del equilibrio"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "maiz-exportaciones",
+    "to": "Exportación de maíz zafra cae 37% por mayor demanda interna",
+    "fo": "2026-11-20",
+    "e": 3,
+    "niv": "Media",
+    "por": "Se exporta 37 % menos maíz, pero no por mala cosecha: más maíz se queda en el país para etanol y para alimentar cerdos y aves. Un buen ejemplo de demanda derivada.",
+    "kc": [
+     [
+      "eleccion",
+      "Los productores eligen vender en el país o exportar según dónde pagan más."
+     ],
+     [
+      "interdependencia",
+      "El maíz conecta los mercados del etanol, la carne y las exportaciones a Brasil."
+     ]
+    ],
+    "dg": "Oferta y demanda: la demanda interna se desplaza a la derecha y queda menos para exportar.",
+    "ev": "Ventajas de agregar valor en el país frente a la pérdida de divisas; quién gana y quién pierde.",
+    "g": {
+     "p": [
+      "¿Cuánto maíz se exportó y cuánto menos que en 2025?",
+      "¿Por qué se queda más maíz en el país?",
+      "¿Quiénes son los principales compradores?"
+     ],
+     "d": "De junio a octubre se exportaron 1.446.906 toneladas de maíz zafra, 37 % menos que en 2025.",
+     "a": [
+      [
+       "demanda-mov",
+       "Desplazamiento de la demanda"
+      ],
+      [
+       "equilibrio-cambio",
+       "Cambio del equilibrio"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "pobreza-16",
+    "to": "Pobreza en Paraguay disminuye al 16% según informe del INE",
+    "fo": "2026-03-27",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "La pobreza bajó de 19 % a 16 % y el INE estima cuánto ayudaron las transferencias del Estado. Perfecto para equidad y política fiscal. Ojo: vence en marzo de 2027.",
+    "kc": [
+     [
+      "equidad",
+      "El campo tiene más pobreza que la ciudad: 22,1 % frente a 13,6 %."
+     ],
+     [
+      "intervencion",
+      "Sin Tekoporã, Hambre Cero y la pensión, la pobreza habría sido 19,9 %."
+     ]
+    ],
+    "dg": "Curva de Lorenz: las transferencias acercan la curva a la línea de igualdad.",
+    "ev": "Si las transferencias son la mejor herramienta; costo para el presupuesto; diferencia entre pobreza urbana y rural.",
+    "g": {
+     "p": [
+      "¿Cuánto bajó la pobreza total y la extrema?",
+      "¿Dónde hay más pobreza, en el campo o en la ciudad?",
+      "¿Cuánto habría sido la pobreza sin transferencias?"
+     ],
+     "d": "La pobreza bajó a 16,0 % en 2025 y habría sido de 19,9 % sin las transferencias del Estado.",
+     "a": [
+      [
+       "lorenz",
+       "Curva de Lorenz"
+      ],
+      [
+       "ciclo-pobreza",
+       "Ciclo de la pobreza"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "recaudacion-dnit",
+    "to": "Paraguay: Recaudación acumulada de la DNIT crece 1,5% entre enero y octubre de 2026",
+    "fo": "2026-11-03",
+    "e": 2,
+    "niv": "Exigente",
+    "por": "Los impuestos internos crecen 9,9 %, pero los de aduana caen 10 % porque el guaraní fuerte abarató las importaciones. Une la política fiscal con el tipo de cambio.",
+    "kc": [
+     [
+      "interdependencia",
+      "El tipo de cambio afecta cuánto recauda el Estado."
+     ],
+     [
+      "cambio",
+      "La recaudación crece cada vez menos."
+     ]
+    ],
+    "dg": "Política fiscal: menos ingresos tributarios con el mismo gasto aumentan el déficit. Puedes sumar el tipo de cambio flotante.",
+    "ev": "Consecuencias para el déficit y la deuda; qué pasa si el guaraní se deprecia; si conviene subir impuestos o recortar gastos.",
+    "g": {
+     "p": [
+      "¿Cuánto recaudó la DNIT y cuánto creció frente a 2025?",
+      "¿Qué impuestos subieron y cuáles bajaron?",
+      "¿Por qué bajaron los impuestos de aduana?"
+     ],
+     "d": "La DNIT recaudó G. 35,95 billones entre enero y octubre, 1,5 % más; los impuestos aduaneros cayeron 10 %.",
+     "a": [
+      [
+       "politica-fiscal",
+       "Política fiscal"
+      ],
+      [
+       "tc-flotante",
+       "Tipo de cambio flotante"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "combustibles",
+    "to": "Precios de combustibles: cuánto subieron el gasoil y las naftas en Petropar y los privados en 2026",
+    "fo": "2026-10-28",
+    "e": 3,
+    "niv": "Media",
+    "por": "El diésel cuesta 48,6 % más que en febrero por el petróleo caro. Es un ejemplo claro de inflación por costos: el diésel mueve casi todo lo que se transporta.",
+    "kc": [
+     [
+      "interdependencia",
+      "Una guerra en Medio Oriente encarece el combustible en Paraguay."
+     ],
+     [
+      "bienestar",
+      "Transporte y alimentos más caros golpean más a los hogares pobres."
+     ]
+    ],
+    "dg": "Inflación por alza de costos: la OACP se desplaza a la izquierda.",
+    "ev": "Efectos en precios, producción y empleo; quién sufre más; si el Estado debería bajar impuestos o subsidiar.",
+    "g": {
+     "p": [
+      "¿Cuánto subió el diésel desde febrero y cuántas subas hubo?",
+      "¿Cuál es la causa de las subas?",
+      "¿Qué papel tuvo el tipo de cambio?"
+     ],
+     "d": "El diésel común de Petropar cuesta G. 9.285, 48,6 % más que en febrero, tras seis subas en el año.",
+     "a": [
+      [
+       "inflacion-costos",
+       "Inflación por alza de costos"
+      ],
+      [
+       "oacp-desplaz",
+       "Desplazamientos de la OACP"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "pib-2t-2026",
+    "to": "Economía local creció 4% en el segundo trimestre y acumuló una expansión de 5,7% en el semestre",
+    "fo": "2026-09-29",
+    "e": 2,
+    "niv": "Media",
+    "por": "Muestra el PIB medido de dos formas: por sectores y por el gasto. El consumo y las exportaciones crecen, pero la inversión cae 11,8 %.",
+    "kc": [
+     [
+      "cambio",
+      "La economía crece, pero cambia de motor: más exportaciones, menos inversión."
+     ],
+     [
+      "sostenibilidad",
+      "¿Se puede crecer mucho tiempo si cae la inversión?"
+     ]
+    ],
+    "dg": "Demanda agregada: C + I + G + (X − M). Muestra qué componente empuja y cuál frena.",
+    "ev": "Si el crecimiento es sostenible con menos inversión; dependencia del agro y del clima; corto plazo frente a largo plazo.",
+    "g": {
+     "p": [
+      "¿Cuánto creció el PIB en el trimestre y en el semestre?",
+      "¿Qué componentes del gasto crecieron y cuál cayó?",
+      "¿Qué sectores empujaron el crecimiento?"
+     ],
+     "d": "El PIB creció 4 % en el segundo trimestre de 2026; la inversión cayó 11,8 %.",
+     "a": [
+      [
+       "da-desplaz",
+       "Desplazamientos de la DA"
+      ],
+      [
+       "ciclo-economico",
+       "Ciclo económico"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "comercio-octubre",
+    "to": "Comercio exterior acumula un superávit de 668 millones de dólares a octubre, según un informe del BCP",
+    "fo": "2026-11-12",
+    "e": 3,
+    "niv": "Media",
+    "por": "La soja dio vuelta la balanza comercial: hay superávit de US$ 668,6 millones. Sirve para la balanza de pagos y para explicar por qué el guaraní se había fortalecido.",
+    "kc": [
+     [
+      "interdependencia",
+      "Las exportaciones dependen de la soja y de los compradores externos."
+     ],
+     [
+      "cambio",
+      "De déficit en 2025 a superávit en 2026."
+     ]
+    ],
+    "dg": "Tipo de cambio flotante: más exportaciones aumentan la demanda de guaraníes.",
+    "ev": "Riesgo de depender de un solo producto; qué pasa si las importaciones siguen creciendo más rápido; efectos en el tipo de cambio.",
+    "g": {
+     "p": [
+      "¿Cuánto exportó e importó Paraguay hasta octubre?",
+      "¿Qué productos explican el aumento de las exportaciones?",
+      "¿Cómo se compara con 2025?"
+     ],
+     "d": "Exportaciones por US$ 17.815,6 millones e importaciones por US$ 17.147,1 millones: superávit de US$ 668,6 millones.",
+     "a": [
+      [
+       "tc-flotante",
+       "Tipo de cambio flotante"
+      ],
+      [
+       "exportaciones",
+       "Libre comercio con exportaciones"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "hidrovia-2026",
+    "to": "PARAGUAY: La bajante no detiene a la Hidrovía: CAFyM proyecta mover 28 millones de toneladas y prepara una nueva etapa de dragado",
+    "fo": "2026-08-12",
+    "e": 2,
+    "niv": "Exigente",
+    "por": "Paraguay no tiene salida al mar y depende de los ríos para exportar. La bajante encarece el transporte y el dragado es la respuesta: un tema de desarrollo y sostenibilidad.",
+    "kc": [
+     [
+      "sostenibilidad",
+      "La bajante de los ríos pone en riesgo la principal vía de comercio."
+     ],
+     [
+      "interdependencia",
+      "El comercio exterior depende de ríos compartidos con otros países."
+     ]
+    ],
+    "dg": "Barreras al desarrollo: ser país sin litoral sube los costos. Puedes usar la OACP para el costo de transporte.",
+    "ev": "Costos y beneficios del dragado; quién lo paga; efectos ambientales; alternativas como el Corredor Bioceánico.",
+    "g": {
+     "p": [
+      "¿Cuánta carga se proyecta mover por la hidrovía en 2026?",
+      "¿Qué problema causa la bajante de los ríos?",
+      "¿Qué obras se preparan y quién las financia?"
+     ],
+     "d": "El CAFyM proyecta mover 28 millones de toneladas por la hidrovía en 2026.",
+     "a": [
+      [
+       "oacp-desplaz",
+       "Desplazamientos de la OACP"
+      ],
+      [
+       "ciclo-pobreza",
+       "Ciclo de la pobreza"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "informalidad-bid",
+    "to": "Índice BID: hay empleo e ingresos suficientes, pero la informalidad sobra",
+    "fo": "2026-11-10",
+    "e": 3,
+    "niv": "Media",
+    "por": "Paraguay es 3.º en cantidad de empleo, pero 12.º de 15 en formalidad. Muestra que crear trabajo no alcanza para el desarrollo si los empleos son informales.",
+    "kc": [
+     [
+      "equidad",
+      "Los informales no tienen jubilación ni seguro social."
+     ],
+     [
+      "bienestar",
+      "Mucho empleo, pero de baja calidad."
+     ]
+    ],
+    "dg": "Políticas del lado de la oferta: formalizar mejora la productividad y desplaza la OALP.",
+    "ev": "Causas de la informalidad; qué políticas la reducirían; costos para empresas y trabajadores.",
+    "g": {
+     "p": [
+      "¿Qué puesto tiene Paraguay en el índice del BID?",
+      "¿En qué le va bien y en qué le va mal?",
+      "¿Qué porcentaje de los ocupados es informal?"
+     ],
+     "d": "Paraguay queda 7.º de 17 países, pero 12.º de 15 en formalidad (20,1 puntos).",
+     "a": [
+      [
+       "politicas-oferta",
+       "Políticas del lado de la oferta"
+      ],
+      [
+       "ciclo-pobreza",
+       "Ciclo de la pobreza"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "exportaciones-brasil-industria",
+    "to": "Paraguay conquista espacio en la industria brasileña: exportaciones superan los USD 2.700 millones",
+    "fo": "2026-10-26",
+    "e": 3,
+    "niv": "Media",
+    "por": "Paraguay vende cada vez más componentes industriales a Brasil gracias al Mercosur. Ideal para integración económica: unión aduanera, cadenas de valor y dependencia de un socio grande.",
+    "kc": [
+     [
+      "interdependencia",
+      "La industria paraguaya depende de la brasileña, y al revés."
+     ],
+     [
+      "cambio",
+      "Las exportaciones pasan de materias primas a bienes industriales."
+     ]
+    ],
+    "dg": "Integración económica: sin aranceles entre socios, crece el comercio. Puedes usar el de libre comercio con exportaciones.",
+    "ev": "Ventajas de la unión aduanera; riesgo de depender de Brasil; qué hace falta para sostener el crecimiento industrial.",
+    "g": {
+     "p": [
+      "¿Cuánto exportó Paraguay a Brasil y cuánto creció?",
+      "¿Qué productos industriales crecieron más?",
+      "¿Qué ventajas da el Mercosur, según el artículo?"
+     ],
+     "d": "Las exportaciones a Brasil sumaron US$ 2.742,8 millones al tercer trimestre de 2026, 6,3 % más.",
+     "a": [
+      [
+       "exportaciones",
+       "Libre comercio con exportaciones"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "cpc-tomador-precios",
+    "to": "El 66% de la carne paraguaya se exporta y define los precios internos, según la CPC",
+    "fo": "2026-02-18",
+    "e": 3,
+    "niv": "Exigente",
+    "por": "La industria de la carne dice que Paraguay es tomador de precios porque exporta dos tercios de su carne. Va muy bien con la acusación de la Conacom a dos frigoríficos: dos miradas sobre el poder de mercado.",
+    "kc": [
+     [
+      "interdependencia",
+      "El precio del ganado depende del mercado mundial."
+     ],
+     [
+      "equidad",
+      "¿Reciben los ganaderos un precio justo o hay poder de compra?"
+     ]
+    ],
+    "dg": "Libre comercio con exportaciones (precio mundial dado). Puedes contrastar con un mercado con pocos compradores.",
+    "ev": "Si el argumento de la CPC es convincente; qué diría la Conacom; quién tiene más poder en la cadena.",
+    "g": {
+     "p": [
+      "¿Qué parte de la carne se exporta y qué parte se consume en el país?",
+      "¿Por qué la CPC dice que Paraguay es tomador de precios?",
+      "¿Qué dice el informe de la Conacom, según la CPC?"
+     ],
+     "d": "Cerca del 66 % de la faena bovina se exporta y el 34 % se consume en el país.",
+     "a": [
+      [
+       "exportaciones",
+       "Libre comercio con exportaciones"
+      ],
+      [
+       "equilibrio",
+       "Equilibrio de mercado"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "chia-superficie",
+    "to": "Paraguay amplía 157% su superficie de chía pese a la baja de precios",
+    "fo": "2026-10-03",
+    "e": 2,
+    "niv": "Accesible",
+    "por": "Los productores siembran mucha más chía aunque el precio internacional baja. Sirve para explicar los determinantes de la oferta y qué pasa cuando muchos entran al mismo mercado.",
+    "kc": [
+     [
+      "eleccion",
+      "Cada productor decide qué cultivar según el precio esperado."
+     ],
+     [
+      "cambio",
+      "La chía pasó a ser un cultivo importante en pocos años."
+     ]
+    ],
+    "dg": "Oferta y demanda: más productores desplazan la oferta a la derecha y baja el precio.",
+    "ev": "Si conviene seguir sembrando chía; riesgos de depender de un precio que baja; ventajas de industrializarla.",
+    "g": {
+     "p": [
+      "¿Cuánto creció la superficie de chía y entre qué campañas?",
+      "¿Cuánto se exportó, a cuántos países y quién compra más?",
+      "¿Qué pasó con el precio internacional?"
+     ],
+     "d": "La superficie de chía creció 157,3 % entre 2022-2023 y 2025-2026; se exportaron 47.426 toneladas hasta agosto.",
+     "a": [
+      [
+       "oferta-mov",
+       "Desplazamiento de la oferta"
+      ],
+      [
+       "equilibrio-cambio",
+       "Cambio del equilibrio"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "riesgo-pais-119",
+    "to": "Riesgo país retorna a niveles habituales y Paraguay mantiene la confianza de los mercados",
+    "fo": "2026-11-17",
+    "e": 2,
+    "niv": "Exigente",
+    "por": "Tras la caída de Ueno, el riesgo país subió a 137 puntos y volvió a 119. Permite discutir la deuda pública, la confianza de los inversores y el costo de endeudarse.",
+    "kc": [
+     [
+      "interdependencia",
+      "Los inversores internacionales deciden cuánto le cuesta al Estado endeudarse."
+     ],
+     [
+      "sostenibilidad",
+      "¿Puede Paraguay seguir endeudándose sin perder la confianza?"
+     ]
+    ],
+    "dg": "Política fiscal: un déficit financiado con deuda; el riesgo país sube el costo de esa deuda.",
+    "ev": "Por qué los inversores separaron a Ueno del Estado; riesgos si sube la deuda; corto plazo frente a largo plazo.",
+    "g": {
+     "p": [
+      "¿Cuánto subió y cuánto bajó el riesgo país?",
+      "¿Cómo se compara Paraguay con otros países de la región?",
+      "¿Qué advierten los especialistas?"
+     ],
+     "d": "El riesgo país pasó de 114 a 137 puntos básicos y bajó a 119 el 13 de noviembre.",
+     "a": [
+      [
+       "politica-fiscal",
+       "Política fiscal"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "pgn-adenda",
+    "to": "¿Qué cambia en el PGN 2027? Ejecutivo plantea recortes y reasignaciones por USD 276 millones",
+    "fo": "2026-11-12",
+    "e": 3,
+    "niv": "Media",
+    "por": "El nuevo Gobierno quiere recortar y mover US$ 276 millones del Presupuesto 2027 hacia la salud. Un caso claro de política fiscal y de costo de oportunidad del gasto público.",
+    "kc": [
+     [
+      "eleccion",
+      "Más dinero para salud significa menos para otra cosa."
+     ],
+     [
+      "intervencion",
+      "El Estado decide en qué gastar y cuánto endeudarse."
+     ]
+    ],
+    "dg": "Política fiscal restrictiva: menos gasto desplaza la DA a la izquierda.",
+    "ev": "Si conviene recortar en plena crisis; qué áreas ganan y cuáles pierden; efecto en el déficit y el crecimiento.",
+    "g": {
+     "p": [
+      "¿Cuánto suman los recortes y reasignaciones de la adenda?",
+      "¿Cuánto es el presupuesto original y cuánto crece frente a 2026?",
+      "¿Qué áreas quiere priorizar el Gobierno?"
+     ],
+     "d": "La adenda propone recortes y reasignaciones por unos US$ 276 millones sobre un presupuesto de G. 166,3 billones.",
+     "a": [
+      [
+       "politica-fiscal",
+       "Política fiscal"
+      ],
+      [
+       "da-desplaz",
+       "Desplazamientos de la DA"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "dolar-sube-noviembre",
+    "to": "El dólar vuelve a subir en Paraguay: ¿qué está impulsando la cotización y qué se espera?",
+    "fo": "2026-11-09",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "Explica de forma sencilla por qué sube el dólar y a quién afecta. Muy bueno para el tipo de cambio flotante: oferta y demanda de divisas, ganadores y perdedores.",
+    "kc": [
+     [
+      "interdependencia",
+      "Brasil, los importadores y los inversores mueven el precio del dólar."
+     ],
+     [
+      "bienestar",
+      "Un dólar más caro encarece medicamentos y tecnología."
+     ]
+    ],
+    "dg": "Tipo de cambio flotante: aumenta la demanda de dólares (oferta de guaraníes) y el guaraní se deprecia.",
+    "ev": "Quién gana (exportadores) y quién pierde (importadores, deudores en dólares); si el BCP debería intervenir.",
+    "g": {
+     "p": [
+      "¿A cuánto se vendía y se compraba el dólar el 9 de noviembre?",
+      "¿Qué factores empujan la suba?",
+      "¿A quién perjudica y a quién beneficia un dólar más caro?"
+     ],
+     "d": "La referencia interbancaria del BCP fue de G. 6.388,47 por dólar el 5 de noviembre.",
+     "a": [
+      [
+       "tc-flotante",
+       "Tipo de cambio flotante"
+      ],
+      [
+       "tc-da-oa",
+       "Efectos del tipo de cambio en DA y OA"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "nuevos-destinos-rediex",
+    "to": "Made in Paraguay: 70 productos ingresaron a nuevos destinos",
+    "fo": "2026-08-25",
+    "e": 2,
+    "niv": "Accesible",
+    "por": "Productos paraguayos llegan a 43 países con envíos nuevos. Sirve para hablar de diversificar exportaciones como estrategia de desarrollo. Ojo: el titular dice 70 productos y el texto, 75.",
+    "kc": [
+     [
+      "cambio",
+      "La canasta exportadora empieza a diversificarse."
+     ],
+     [
+      "interdependencia",
+      "Más países compran productos paraguayos."
+     ]
+    ],
+    "dg": "Libre comercio con exportaciones; puedes sumar la idea de diversificación frente a concentración.",
+    "ev": "Si los montos son suficientes para cambiar la economía; qué políticas ayudan a diversificar; riesgos de depender de la soja.",
+    "g": {
+     "p": [
+      "¿Cuántos productos llegaron a destinos nuevos y a cuántos países?",
+      "¿Cuál fue el caso nuevo más grande?",
+      "¿Qué cuenta Rediex como un caso nuevo?"
+     ],
+     "d": "Entre enero y julio, 75 productos se exportaron a destinos nuevos en 43 países; el mayor caso fue biodiésel a Singapur por US$ 5,5 millones.",
+     "a": [
+      [
+       "exportaciones",
+       "Libre comercio con exportaciones"
+      ]
+     ]
+    }
    }
   ],
-  "enlaces": "2026-11-23"
+  "enlaces": "2026-11-24"
  }
 }

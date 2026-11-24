@@ -1,5 +1,898 @@
 [
  {
+  "id": "exportaciones-brasil-industria",
+  "fecha": "2026-10-26",
+  "medio": "El Nacional",
+  "url": "https://elnacional.com.py/economia/paraguay-conquista-espacio-industria-brasilena-exportaciones-superan-usd-2700-millones-n114169",
+  "titulo": "Paraguay vende más productos industriales a Brasil: US$ 2.742,8 millones hasta septiembre",
+  "unidad": "global",
+  "tema": "4.4",
+  "kc": "interdependencia",
+  "resumen": "Las exportaciones de Paraguay a Brasil sumaron US$ 2.742,8 millones al cierre del tercer trimestre de 2026, 6,3 % más que un año antes. Crecen las manufacturas: materiales eléctricos (US$ 260,2 millones), aluminio (US$ 112,1 millones), químicos (US$ 80,9 millones, el doble) y plásticos (US$ 61 millones).",
+  "contexto": "Paraguay y Brasil son socios del Mercosur, una unión aduanera: sus productos circulan sin aranceles entre los países miembros. Gracias a esa integración, a la cercanía y a costos logísticos más bajos, empresas paraguayas fabrican componentes que luego usa la industria brasileña, muchas veces bajo el régimen de maquila. Es una forma de entrar en cadenas de valor regionales y vender bienes con más valor agregado que las materias primas. El desafío, según El Nacional, es sostenerlo con inversión, tecnología, capacitación y productividad. También es una dependencia: si la economía brasileña se frena, estas ventas caen.",
+  "datos": [
+   [
+    "US$ 2.742,8 M",
+    "Exportaciones a Brasil hasta septiembre de 2026"
+   ],
+   [
+    "+6,3 %",
+    "Frente al mismo periodo de 2025"
+   ],
+   [
+    "US$ 260,2 M",
+    "Máquinas, aparatos y materiales eléctricos"
+   ],
+   [
+    "US$ 112,1 M",
+    "Aluminio y sus manufacturas"
+   ],
+   [
+    "US$ 80,9 M",
+    "Productos químicos (duplicaron sus ventas)"
+   ],
+   [
+    "US$ 61 M",
+    "Plásticos y sus manufacturas"
+   ]
+  ],
+  "clave": [
+   "US$ 2.742,8 M",
+   "exportados a Brasil"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ M",
+   "rows": [
+    [
+     "Materiales eléctricos",
+     260.2,
+     1
+    ],
+    [
+     "Aluminio",
+     112.1
+    ],
+    [
+     "Químicos",
+     80.9
+    ],
+    [
+     "Plásticos",
+     61
+    ]
+   ]
+  },
+  "cap": "Exportaciones industriales a Brasil hasta el tercer trimestre de 2026, según El Nacional.",
+  "pasos": [
+   "Mercosur elimina aranceles entre los socios",
+   "Empresas paraguayas fabrican componentes",
+   "La industria brasileña los compra",
+   "Crecen las exportaciones industriales",
+   "Paraguay entra en cadenas de valor regionales"
+  ],
+  "conceptos": [
+   [
+    "Unión aduanera",
+    "Comercio libre entre los miembros y un arancel común frente a terceros países."
+   ],
+   [
+    "Cadena de valor",
+    "Etapas de producción de un bien, que pueden estar en varios países."
+   ],
+   [
+    "Maquila",
+    "Régimen en el que se fabrican o ensamblan productos para exportar."
+   ],
+   [
+    "Valor agregado",
+    "Lo que se suma al producto al transformarlo."
+   ]
+  ],
+  "diagramas": [
+   "exportaciones"
+  ],
+  "rel": [
+   "maquila",
+   "mercosur-ue"
+  ],
+  "pregunta": {
+   "q": "¿Qué ventaja da el Mercosur a las empresas paraguayas que venden a Brasil?",
+   "opts": [
+    "Pueden vender sin pagar aranceles entre los países miembros",
+    "Brasil les paga en guaraníes",
+    "No necesitan cumplir normas de calidad",
+    "El Estado brasileño les compra toda la producción"
+   ],
+   "ok": 0,
+   "fb": "En una unión aduanera, los bienes circulan sin aranceles entre los socios, lo que abarata vender en el país vecino."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Industria paraguaya",
+     "Más ventas de productos con valor agregado."
+    ],
+    [
+     "Trabajadores industriales",
+     "Más empleo en fábricas y maquilas."
+    ]
+   ],
+   "pierden": [
+    [
+     "Industrias brasileñas que compiten",
+     "Enfrentan la competencia de proveedores paraguayos."
+    ]
+   ],
+   "corto": "Más exportaciones industriales.",
+   "largo": "Si se sostiene con inversión y productividad, la economía depende menos de las materias primas; pero depende más de Brasil.",
+   "supuestos": [
+    "Que la economía brasileña siga demandando componentes.",
+    "Datos hasta el tercer trimestre de 2026."
+   ],
+   "conclusion": "La integración con Brasil ayuda a industrializar las exportaciones, aunque concentra el riesgo en un solo socio."
+  }
+ },
+ {
+  "id": "cpc-tomador-precios",
+  "fecha": "2026-02-18",
+  "medio": "MarketData",
+  "url": "https://marketdata.com.py/noticias/el-66-de-la-carne-paraguaya-se-exporta-y-define-los-precios-internos-segun-la-cpc-150442/",
+  "titulo": "Los frigoríficos dicen que no fijan el precio: el 66 % de la carne se exporta",
+  "unidad": "micro",
+  "tema": "2.11",
+  "kc": "interdependencia",
+  "resumen": "Según la Cámara Paraguaya de Carnes (CPC), cerca del 66 % de la faena anual de carne bovina se exporta y el 34 % se consume en el país. Por eso, dice el gremio, Paraguay es tomador de precios: ni los frigoríficos ni los productores fijan el precio del ganado, que sigue al precio internacional.",
+  "contexto": "Un tomador de precios es un vendedor tan pequeño frente al mercado total que no puede cambiar el precio: lo acepta como dado. La CPC sostiene que Paraguay no tiene escala para influir en el precio mundial de la carne y cita el informe de la Comisión Nacional de la Competencia (Conacom), que identifica al precio implícito de exportación como el principal determinante del precio que recibe el productor. El argumento importa porque la Conacom analiza si los frigoríficos abusan de su poder de compra frente a los ganaderos. Hay que leerlo con cuidado: la CPC representa a la industria, y un país puede ser tomador de precios al vender afuera y, al mismo tiempo, tener pocos compradores de ganado adentro (oligopsonio).",
+  "datos": [
+   [
+    "66 %",
+    "Parte de la faena bovina que se exporta, según la CPC"
+   ],
+   [
+    "34 %",
+    "Parte que consume el mercado interno"
+   ]
+  ],
+  "clave": [
+   "66 %",
+   "de la carne se exporta"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Exportación",
+     66,
+     1
+    ],
+    [
+     "Consumo interno",
+     34
+    ]
+   ]
+  },
+  "cap": "Destino de la faena anual de carne bovina, según la Cámara Paraguaya de Carnes.",
+  "pasos": [
+   "Paraguay exporta dos tercios de su carne",
+   "El precio lo marca el mercado mundial",
+   "El frigorífico paga al productor según el precio de exportación",
+   "El precio del ganado sube o baja con el internacional",
+   "La discusión: ¿hay además poder de compra dentro del país?"
+  ],
+  "conceptos": [
+   [
+    "Tomador de precios",
+    "Vendedor que no puede influir en el precio de mercado y lo acepta como dado."
+   ],
+   [
+    "Poder de mercado",
+    "Capacidad de una empresa de fijar un precio distinto del de competencia."
+   ],
+   [
+    "Oligopsonio",
+    "Mercado con pocos compradores, que pueden presionar el precio que pagan."
+   ],
+   [
+    "Precio implícito de exportación",
+    "Valor exportado dividido por el volumen exportado."
+   ]
+  ],
+  "diagramas": [
+   "exportaciones"
+  ],
+  "rel": [
+   "conacom-frigorificos"
+  ],
+  "pregunta": {
+   "q": "Según la CPC, ¿por qué los frigoríficos paraguayos no fijan el precio del ganado?",
+   "opts": [
+    "Porque Paraguay es pequeño en el mercado mundial y toma el precio internacional",
+    "Porque el Gobierno fija el precio de la carne",
+    "Porque hay un solo frigorífico en el país",
+    "Porque el consumo interno es la mayor parte"
+   ],
+   "ok": 0,
+   "fb": "Como se exporta cerca del 66 % y Paraguay no puede mover el precio mundial, el precio de exportación marca lo que se paga al productor."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Frigoríficos",
+     "El argumento los defiende de la acusación de abuso de poder."
+    ],
+    [
+     "Ganaderos, cuando sube el precio mundial",
+     "Reciben más por cada animal."
+    ]
+   ],
+   "pierden": [
+    [
+     "Ganaderos, cuando baja el precio mundial",
+     "Tienen poco margen para negociar."
+    ],
+    [
+     "Consumidores",
+     "Pagan la carne a precios cercanos a los de exportación."
+    ]
+   ],
+   "corto": "El precio del ganado sigue al internacional.",
+   "largo": "Abrir más mercados sostiene el precio; la competencia entre frigoríficos sigue en discusión.",
+   "supuestos": [
+    "Que el precio internacional se transmita completo al productor, como dice la CPC.",
+    "La CPC es parte interesada: representa a la industria."
+   ],
+   "conclusion": "Ser tomador de precios afuera no descarta tener poder de compra adentro: eso es lo que analiza la Conacom."
+  }
+ },
+ {
+  "id": "chia-superficie",
+  "fecha": "2026-10-03",
+  "medio": "MarketData",
+  "url": "https://marketdata.com.py/noticias/paraguay-amplia-157-su-superficie-de-chia-pese-a-la-baja-de-precios-156100",
+  "titulo": "La chía ocupa 157 % más superficie aunque su precio internacional baja",
+  "unidad": "micro",
+  "tema": "2.2",
+  "kc": "eleccion",
+  "resumen": "Entre las campañas 2022-2023 y 2025-2026, la superficie sembrada con chía creció 157,3 %. Hasta agosto, Paraguay exportó 47.426 toneladas por US$ 131,9 millones a casi 70 países, y Estados Unidos compra el 32 %. Pero los precios internacionales están por debajo de los de la campaña anterior.",
+  "contexto": "Según la Cámara Paraguaya de Exportadores de Sésamo (Capexse), Paraguay es el principal proveedor mundial de chía en volumen. Muchos productores nuevos sumaron hectáreas, pero la producción esperada se mantiene en 50.000 a 60.000 toneladas, parecida a campañas anteriores, porque el rendimiento varía con cada campaña (unos 700 kilos por hectárea). Cuando la oferta crece más rápido que la demanda, el precio baja. La cámara señala que todavía hay espacio para industrializar la chía y venderla con más valor agregado.",
+  "datos": [
+   [
+    "+157,3 %",
+    "Superficie de chía entre 2022-2023 y 2025-2026"
+   ],
+   [
+    "47.426 t",
+    "Chía exportada hasta agosto de 2026"
+   ],
+   [
+    "US$ 131,9 M",
+    "Valor exportado hasta agosto"
+   ],
+   [
+    "32 %",
+    "Parte que compra Estados Unidos"
+   ],
+   [
+    "≈ 70",
+    "Países de destino"
+   ],
+   [
+    "50.000-60.000 t",
+    "Producción esperada de la campaña"
+   ]
+  ],
+  "clave": [
+   "+157 %",
+   "superficie de chía"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Estados Unidos",
+     32,
+     1
+    ],
+    [
+     "Países Bajos",
+     9
+    ],
+    [
+     "Perú",
+     7
+    ],
+    [
+     "Alemania",
+     7
+    ],
+    [
+     "Canadá",
+     5
+    ]
+   ]
+  },
+  "cap": "Parte de las exportaciones de chía por destino, según Capexse.",
+  "pasos": [
+   "Más productores siembran chía",
+   "Crece la superficie cultivada",
+   "Aumenta la oferta",
+   "El precio internacional baja",
+   "Cada productor decide si sigue con la chía o cambia de cultivo"
+  ],
+  "conceptos": [
+   [
+    "Determinantes de la oferta",
+    "Factores distintos del precio que cambian cuánto se ofrece: número de productores, costos, clima, tecnología."
+   ],
+   [
+    "Desplazamiento de la oferta",
+    "Cuando cambia un determinante, la curva entera se mueve."
+   ],
+   [
+    "Rendimiento",
+    "Producción por hectárea."
+   ],
+   [
+    "Valor agregado",
+    "Lo que se suma al producto al procesarlo antes de venderlo."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "agro-oferta"
+  ],
+  "pregunta": {
+   "q": "Paraguay exportó 47.426 toneladas de chía por unos US$ 131,9 millones. ¿Cuál fue el precio promedio por tonelada?",
+   "opts": [
+    "≈ US$ 2.780",
+    "≈ US$ 278",
+    "≈ US$ 27.800",
+    "≈ US$ 360"
+   ],
+   "ok": 0,
+   "fb": "131.900.000 ÷ 47.426 ≈ US$ 2.780 por tonelada."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Compradores externos",
+     "Consiguen chía más barata y de un proveedor grande."
+    ],
+    [
+     "El país",
+     "Más divisas y presencia en casi 70 mercados."
+    ]
+   ],
+   "pierden": [
+    [
+     "Productores que entraron tarde",
+     "Sembraron cuando el precio ya bajaba."
+    ],
+    [
+     "Pequeños productores",
+     "Tienen menos margen para resistir precios bajos."
+    ]
+   ],
+   "corto": "Más oferta y precios más bajos.",
+   "largo": "Si el precio sigue bajo, algunos productores volverán a otros cultivos; industrializar la chía podría darle más valor.",
+   "supuestos": [
+    "Que la demanda mundial no crezca al mismo ritmo que la oferta.",
+    "El precio varía según el tipo de producto y el mercado."
+   ],
+   "conclusion": "La chía muestra cómo un buen precio atrae productores hasta que la mayor oferta hace bajar ese precio."
+  }
+ },
+ {
+  "id": "riesgo-pais-119",
+  "fecha": "2026-11-17",
+  "medio": "MarketData",
+  "url": "https://marketdata.com.py/noticias/riesgo-pais-retorna-a-niveles-habituales-y-paraguay-mantiene-la-confianza-de-los-mercados-156998/",
+  "titulo": "El riesgo país vuelve a 119 puntos: los inversores separan a Ueno del Estado",
+  "unidad": "macro",
+  "tema": "3.6",
+  "kc": "interdependencia",
+  "resumen": "El riesgo país de Paraguay subió de 114 a un máximo de 137 puntos básicos tras la caída de Ueno Bank y bajó a 119 puntos el 13 de noviembre. Sigue por encima de Uruguay (65), Chile (70) y Perú (85), pero muy por debajo de Brasil (165) y Argentina (897).",
+  "contexto": "El riesgo país mide cuánto más rendimiento piden los inversores por los bonos de un país que por los de Estados Unidos: 100 puntos básicos equivalen a 1 punto porcentual. Cuanto más alto, más caro le sale al Estado endeudarse. Según Avalon Casa de Bolsa, los inversores distinguieron entre la quiebra de un banco y la capacidad de pago del Estado, y S&P mantuvo el grado de inversión. Pero los especialistas advierten que el mercado dio «el beneficio de la duda, no un cheque en blanco»: la crisis puede encarecer el crédito y exige mejor regulación y más transparencia.",
+  "datos": [
+   [
+    "119 pb",
+    "Riesgo país al 13 de noviembre"
+   ],
+   [
+    "137 pb",
+    "Máximo durante la crisis"
+   ],
+   [
+    "114 pb",
+    "Nivel antes de la crisis"
+   ],
+   [
+    "65 pb",
+    "Riesgo país de Uruguay"
+   ],
+   [
+    "897 pb",
+    "Riesgo país de Argentina"
+   ]
+  ],
+  "clave": [
+   "119",
+   "puntos básicos de riesgo país"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "pb",
+   "rows": [
+    [
+     "Uruguay",
+     65
+    ],
+    [
+     "Chile",
+     70
+    ],
+    [
+     "Perú",
+     85
+    ],
+    [
+     "Paraguay",
+     119,
+     1
+    ],
+    [
+     "Brasil",
+     165
+    ],
+    [
+     "Colombia",
+     204
+    ]
+   ]
+  },
+  "cap": "Riesgo país en puntos básicos, según Avalon Casa de Bolsa y Bloomberg.",
+  "pasos": [
+   "Cae Ueno Bank y crece la incertidumbre",
+   "Los inversores piden más rendimiento por los bonos paraguayos",
+   "El riesgo país sube a 137 puntos",
+   "Comprueban que las finanzas del Estado no cambiaron",
+   "El riesgo país baja a 119 puntos"
+  ],
+  "conceptos": [
+   [
+    "Riesgo país",
+    "Rendimiento extra que piden los inversores por la deuda de un país frente a la de Estados Unidos."
+   ],
+   [
+    "Punto básico",
+    "Una centésima de punto porcentual: 100 pb = 1 %."
+   ],
+   [
+    "Grado de inversión",
+    "Calificación que indica bajo riesgo de no pago."
+   ],
+   [
+    "Deuda pública",
+    "Lo que el Estado debe por préstamos y bonos."
+   ]
+  ],
+  "diagramas": [
+   "bonos",
+   "politica-fiscal"
+  ],
+  "rel": [
+   "bonos-embi",
+   "sp-calificacion"
+  ],
+  "pregunta": {
+   "q": "El riesgo país de Paraguay es de 119 puntos básicos. ¿Cuántos puntos porcentuales más que Estados Unidos paga, aproximadamente, por su deuda?",
+   "opts": [
+    "1,19",
+    "11,9",
+    "0,119",
+    "119"
+   ],
+   "ok": 0,
+   "fb": "100 puntos básicos son 1 punto porcentual, así que 119 pb ≈ 1,19 puntos porcentuales."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "El Estado",
+     "Puede seguir endeudándose a tasas relativamente bajas."
+    ],
+    [
+     "Tenedores de bonos paraguayos",
+     "Sus bonos recuperaron valor."
+    ]
+   ],
+   "pierden": [
+    [
+     "Empresas y familias",
+     "La crisis bancaria puede encarecer el crédito aunque el riesgo país baje."
+    ]
+   ],
+   "corto": "El susto en el mercado de deuda duró poco.",
+   "largo": "Mantener la confianza depende de mejorar la regulación y la transparencia.",
+   "supuestos": [
+    "Que no aparezcan problemas en otras entidades.",
+    "Datos al 13 de noviembre."
+   ],
+   "conclusion": "El riesgo país muestra confianza en el Estado, pero no resuelve los problemas del sistema financiero."
+  }
+ },
+ {
+  "id": "pgn-adenda",
+  "fecha": "2026-11-12",
+  "medio": "El Nacional",
+  "url": "https://elnacional.com.py/economia/que-cambia-pgn-2027-ejecutivo-plantea-recortes-reasignaciones-usd-276-millones-n115119",
+  "titulo": "Presupuesto 2027: el Gobierno propone recortar y mover US$ 276 millones",
+  "unidad": "macro",
+  "tema": "3.6",
+  "kc": "eleccion",
+  "resumen": "El Ministerio de Economía presentó una adenda al Presupuesto 2027 con recortes y reasignaciones por unos US$ 276 millones. El proyecto original suma G. 166,3 billones (unos US$ 25.700 millones), 11,2 % más que el presupuesto de 2026, con un déficit de hasta 3,9 % del PIB.",
+  "contexto": "El presidente Pedro Alliana anunció una política de austeridad y ya recortó G. 20.000 millones en gastos de la Presidencia, como pasajes, viáticos y catering. La adenda quiere priorizar la salud, sobre todo medicamentos e insumos, además de educación, seguridad e infraestructura. Pero los US$ 276 millones no son todos recorte: una parte es dinero que se cambia de destino. Gastar más en un área obliga a gastar menos en otra: es el costo de oportunidad del gasto público. El Congreso decide cómo queda el presupuesto final.",
+  "datos": [
+   [
+    "US$ 276 M",
+    "Recortes y reasignaciones de la adenda"
+   ],
+   [
+    "G. 166,3 bill.",
+    "Proyecto original del Presupuesto 2027"
+   ],
+   [
+    "+11,2 %",
+    "Frente al presupuesto aprobado para 2026"
+   ],
+   [
+    "3,9 % del PIB",
+    "Déficit máximo previsto"
+   ],
+   [
+    "G. 20.000 M",
+    "Recorte en gastos de la Presidencia"
+   ]
+  ],
+  "clave": [
+   "US$ 276 M",
+   "recortes y reasignaciones"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% del PIB",
+   "rows": [
+    [
+     "Déficit previsto 2027",
+     3.9,
+     1
+    ]
+   ]
+  },
+  "cap": "Déficit máximo previsto en el proyecto de Presupuesto 2027.",
+  "pasos": [
+   "El nuevo Gobierno anuncia austeridad",
+   "Recorta gastos de funcionamiento",
+   "Mueve recursos hacia salud y otras prioridades",
+   "El Congreso analiza la adenda",
+   "Se decide quién recibe más y quién menos"
+  ],
+  "conceptos": [
+   [
+    "Presupuesto público",
+    "Plan de ingresos y gastos del Estado para un año."
+   ],
+   [
+    "Déficit fiscal",
+    "Cuando el Estado gasta más de lo que recauda."
+   ],
+   [
+    "Austeridad",
+    "Política de reducir el gasto público."
+   ],
+   [
+    "Costo de oportunidad",
+    "Lo que se deja de hacer al elegir un uso del dinero."
+   ]
+  ],
+  "diagramas": [
+   "politica-fiscal"
+  ],
+  "rel": [
+   "pgn-2027",
+   "gremios-pgn-recorte"
+  ],
+  "pregunta": {
+   "q": "¿Por qué la adenda de US$ 276 millones no significa que el presupuesto baje US$ 276 millones?",
+   "opts": [
+    "Porque una parte es dinero que se cambia de destino, no que se recorta",
+    "Porque el Congreso ya la rechazó",
+    "Porque está en guaraníes",
+    "Porque solo afecta a la Presidencia"
+   ],
+   "ok": 0,
+   "fb": "La adenda mezcla recortes y reasignaciones: mover dinero de un área a otra no reduce el total."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Salud pública",
+     "Recibiría más recursos para medicamentos e insumos."
+    ],
+    [
+     "Contribuyentes",
+     "Si baja el déficit, habrá menos deuda futura."
+    ]
+   ],
+   "pierden": [
+    [
+     "Instituciones recortadas",
+     "Tendrán menos presupuesto."
+    ],
+    [
+     "Proveedores del Estado",
+     "Menos compras en los rubros recortados."
+    ]
+   ],
+   "corto": "Menos gasto en funcionamiento y más en salud.",
+   "largo": "Un déficit menor reduce la deuda, pero recortar inversión puede frenar el crecimiento.",
+   "supuestos": [
+    "Que el Congreso apruebe la adenda.",
+    "El detalle de las partidas todavía no se conoce."
+   ],
+   "conclusion": "El presupuesto obliga a elegir: cada guaraní para salud sale de otra parte o de más deuda."
+  }
+ },
+ {
+  "id": "dolar-sube-noviembre",
+  "fecha": "2026-11-09",
+  "medio": "El Nacional",
+  "url": "https://elnacional.com.py/economia/el-dolar-vuelve-subir-paraguay-que-esta-impulsando-cotizacion-espera-n114948",
+  "titulo": "El dólar vuelve a subir: qué lo empuja y a quién afecta",
+  "unidad": "global",
+  "tema": "4.5",
+  "kc": "interdependencia",
+  "resumen": "El 9 de noviembre, el dólar se vendía entre G. 6.450 y G. 6.600 en las casas de cambio. La referencia interbancaria del BCP era de G. 6.388,47 el 5 de noviembre. Meses antes había bajado de G. 6.000.",
+  "contexto": "En un tipo de cambio flotante, el precio del dólar en guaraníes se forma por la oferta y la demanda de divisas. Según El Nacional, empujan la demanda de dólares las compras de grandes empresas e inversionistas, los importadores y movimientos financieros regionales, sobre todo de Brasil. La crisis de Ueno sumó incertidumbre, pero la suba había empezado antes. Un dólar más caro encarece productos importados, tecnología, medicamentos e insumos, y las deudas en dólares; en cambio, los exportadores reciben más guaraníes.",
+  "datos": [
+   [
+    "G. 6.450-6.600",
+    "Venta en casas de cambio, 9 de noviembre"
+   ],
+   [
+    "G. 6.100-6.200",
+    "Compra en casas de cambio"
+   ],
+   [
+    "G. 6.388,47",
+    "Referencia interbancaria del BCP (5 de noviembre)"
+   ],
+   [
+    "menos de G. 6.000",
+    "Nivel de meses anteriores"
+   ]
+  ],
+  "clave": [
+   "G. 6.388",
+   "por dólar, referencia del BCP"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "G.",
+   "rows": [
+    [
+     "Meses anteriores",
+     6000
+    ],
+    [
+     "Referencia BCP, 5 nov.",
+     6388,
+     1
+    ]
+   ]
+  },
+  "cap": "Guaraníes por dólar. El valor de meses anteriores es aproximado: el artículo dice que estuvo por debajo de G. 6.000.",
+  "pasos": [
+   "Aumenta la demanda de dólares de empresas e importadores",
+   "La crisis de Ueno suma incertidumbre",
+   "Sube el precio del dólar en guaraníes",
+   "Se encarecen los importados y las deudas en dólares",
+   "Los exportadores reciben más guaraníes"
+  ],
+  "conceptos": [
+   [
+    "Tipo de cambio flotante",
+    "El precio de la moneda lo fijan la oferta y la demanda."
+   ],
+   [
+    "Depreciación",
+    "Cuando el guaraní pierde valor frente al dólar."
+   ],
+   [
+    "Demanda de divisas",
+    "Quienes necesitan dólares para importar, invertir o pagar deudas."
+   ],
+   [
+    "Inflación importada",
+    "Suba de precios que viene de importaciones más caras."
+   ]
+  ],
+  "diagramas": [
+   "tipo-cambio"
+  ],
+  "rel": [
+   "guarani-cae",
+   "bcp-cambiaria"
+  ],
+  "pregunta": {
+   "q": "Un celular importado cuesta US$ 300. ¿Cuánto más cuesta en guaraníes si el dólar pasa de G. 6.000 a G. 6.400?",
+   "opts": [
+    "G. 120.000",
+    "G. 400.000",
+    "G. 12.000",
+    "G. 1.200.000"
+   ],
+   "ok": 0,
+   "fb": "300 × 6.400 − 300 × 6.000 = 1.920.000 − 1.800.000 = G. 120.000."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Exportadores",
+     "Reciben más guaraníes por cada dólar."
+    ]
+   ],
+   "pierden": [
+    [
+     "Consumidores de importados",
+     "Tecnología, medicamentos e insumos más caros."
+    ],
+    [
+     "Deudores en dólares",
+     "Necesitan más guaraníes para pagar."
+    ]
+   ],
+   "corto": "Importados más caros.",
+   "largo": "Si la suba dura, puede traer más inflación, pero también hace más competitivas las exportaciones.",
+   "supuestos": [
+    "Que la suba no sea solo una corrección temporal.",
+    "Cotizaciones del 5 y 9 de noviembre."
+   ],
+   "conclusion": "La depreciación reparte ganancias y pérdidas: ayuda a quien vende afuera y perjudica a quien compra afuera."
+  }
+ },
+ {
+  "id": "nuevos-destinos-rediex",
+  "fecha": "2026-08-25",
+  "medio": "Diario Hoy",
+  "url": "https://www.hoy.com.py/negocios/comercio-e-industrias/2026/08/25/made-in-paraguay-70-productos-ingresaron-a-nuevos-destinos",
+  "titulo": "75 productos paraguayos llegan a destinos nuevos: del biodiésel en Singapur al girasol en Nepal",
+  "unidad": "global",
+  "tema": "4.10",
+  "kc": "cambio",
+  "resumen": "Según Rediex, entre enero y julio de 2026 se exportaron 75 productos paraguayos a destinos nuevos, y 8 de ellos se vendieron afuera por primera vez. Los nuevos envíos llegaron a 43 países. El mayor caso fue biodiésel a Singapur por US$ 5,5 millones. (El titular del diario dice 70 productos; el texto, 75.)",
+  "contexto": "Rediex cuenta como caso nuevo un producto que superó US$ 50.000 de exportación a un destino en 2026 sin haberlo hecho entre 2019 y 2025. Hay ejemplos variados: aceite de girasol a Nepal y Malasia, aceite de cártamo a Uruguay, conductores eléctricos de aluminio a Guyana, tripas bovinas a Ucrania y maderas a Suecia. Diversificar productos y destinos reduce la dependencia de la soja, la carne y unos pocos compradores: por eso es una estrategia de desarrollo. Pero los montos todavía son pequeños frente al total de exportaciones.",
+  "datos": [
+   [
+    "75",
+    "Productos con destinos nuevos (enero-julio)"
+   ],
+   [
+    "8",
+    "Productos exportados por primera vez"
+   ],
+   [
+    "43",
+    "Países que recibieron los nuevos envíos"
+   ],
+   [
+    "US$ 5,5 M",
+    "Biodiésel a Singapur, el mayor caso nuevo"
+   ],
+   [
+    "US$ 50.000",
+    "Mínimo para contar como caso nuevo"
+   ]
+  ],
+  "clave": [
+   "75",
+   "productos con destinos nuevos"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "",
+   "rows": [
+    [
+     "Productos con destino nuevo",
+     75,
+     1
+    ],
+    [
+     "Países de destino",
+     43
+    ],
+    [
+     "Productos nuevos en el exterior",
+     8
+    ]
+   ]
+  },
+  "cap": "Nuevos casos de exportación de enero a julio de 2026, según Rediex.",
+  "pasos": [
+   "Empresas buscan compradores fuera de los mercados de siempre",
+   "Se abren mercados nuevos",
+   "Productos llegan a destinos nuevos",
+   "Se diversifica la canasta exportadora",
+   "Baja la dependencia de pocos productos y compradores"
+  ],
+  "conceptos": [
+   [
+    "Diversificación de exportaciones",
+    "Vender más productos distintos y a más países."
+   ],
+   [
+    "Concentración exportadora",
+    "Depender de pocos productos o compradores."
+   ],
+   [
+    "Promoción de exportaciones",
+    "Políticas que ayudan a las empresas a vender afuera."
+   ],
+   [
+    "Valor agregado",
+    "Lo que se suma al producto al procesarlo."
+   ]
+  ],
+  "diagramas": [
+   "exportaciones"
+  ],
+  "rel": [
+   "maquila",
+   "pollo-exportaciones"
+  ],
+  "pregunta": {
+   "q": "¿Por qué diversificar las exportaciones es una estrategia de desarrollo?",
+   "opts": [
+    "Reduce la dependencia de pocos productos y compradores",
+    "Hace subir siempre el precio de la soja",
+    "Elimina la necesidad de importar",
+    "Obliga a otros países a bajar sus aranceles"
+   ],
+   "ok": 0,
+   "fb": "Si un país vende muchos productos a muchos destinos, una mala cosecha o la caída de un comprador lo golpean menos."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Empresas exportadoras",
+     "Más mercados donde vender."
+    ],
+    [
+     "Trabajadores de la industria",
+     "Más demanda para productos con valor agregado."
+    ]
+   ],
+   "pierden": [
+    [
+     "Nadie directamente",
+     "Pero abrir mercados cuesta: viajes, certificaciones y promoción."
+    ]
+   ],
+   "corto": "Más destinos, aunque con montos pequeños.",
+   "largo": "Si los nuevos envíos crecen, la economía depende menos del clima y de la soja.",
+   "supuestos": [
+    "Que los nuevos envíos se repitan y no sean ventas de una sola vez.",
+    "Datos de enero a julio."
+   ],
+   "conclusion": "Es un buen comienzo para diversificar, pero todavía pesa poco frente a la soja y la carne."
+  }
+ },
+ {
   "id": "desempleo-41",
   "fecha": "2026-10-30",
   "medio": "Diario Hoy",
