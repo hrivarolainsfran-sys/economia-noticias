@@ -95,6 +95,7 @@ function reservar_(q) {
     if (String(f[i][6]) === k && Number(f[i][2]) === u) h.deleteRow(i + 2);
   }
   h.appendRow([new Date(), nombre, u, texto_(q.t, 200), texto_(q.m, 60), id, k, 'Activo']);
+  avisar_(nombre, u, q);
   return lista_();
 }
 
@@ -121,6 +122,20 @@ function liberar_(q) {
     }
   }
   return lista_();
+}
+
+/* Aviso al profesor por correo cada vez que un alumno reserva un artículo. */
+const PROFESOR = 'hrivarola@faith.edu.py';
+const UNIDADES = { 2: 'Microeconomía', 3: 'Macroeconomía', 4: 'Economía global' };
+function avisar_(nombre, u, q) {
+  try {
+    MailApp.sendEmail({
+      to: PROFESOR,
+      subject: 'Reserva de artículo · ' + nombre + ' · ' + UNIDADES[u],
+      body: nombre + ' eligió un artículo para su comentario de ' + UNIDADES[u] + ':\n\n«' + String(q.t || '').slice(0, 200) + '»\n' + String(q.m || '') +
+        '\n\nYa nadie más puede elegirlo. Para liberarlo, borrá su fila en la hoja de reservas:\n' + SpreadsheetApp.getActiveSpreadsheet().getUrl()
+    });
+  } catch (err) { /* si falla el correo, la reserva igual queda guardada */ }
 }
 
 function salida_(o) {

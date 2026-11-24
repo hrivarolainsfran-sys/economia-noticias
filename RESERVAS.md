@@ -12,6 +12,8 @@ se guardan en una hoja de Google del profesor.
 - Si quita un artículo de su preselección, el artículo vuelve a quedar libre.
 - **Una reserva activa a la vez.** Cuando el alumno termina su comentario toca «Ya terminé este comentario»: el artículo sigue reservado a su nombre (columna «Estado» = Terminado) y recién entonces puede reservar el de otra unidad.
 - Los alumnos no ven quién reservó cada artículo. Los nombres solo aparecen en la hoja del profesor.
+- Cada vez que un alumno reserva un artículo, el script le envía un correo al profesor (hrivarola@faith.edu.py) con el nombre, la unidad y el título.
+- El Taller de práctica (pestaña «Artículos») usa esta misma hoja: un artículo reservado en un sitio queda bloqueado también en el otro.
 - La página consulta las reservas al abrir la sección y después cada minuto. Antes de guardar una reserva, la hoja comprueba que el artículo siga libre, así que dos alumnos no pueden quedarse con el mismo.
 
 ## Puesta en marcha (una sola vez, unos 5 minutos)
