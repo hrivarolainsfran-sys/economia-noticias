@@ -931,7 +931,8 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 .ia-res{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:8px 18px;align-items:end;margin-bottom:12px}
 .ia-res .note{margin:0;font-size:.86rem}
 .ia-rs{font-size:.82rem;font-weight:600;line-height:1.3}.ia-rs.ok{color:var(--ok)}.ia-rs.bad{color:var(--bad)}
-.ia-slot .ia-resv{justify-self:start;font-size:.84rem}
+.ia-slot .ia-resv,.ia-slot .ia-fin{justify-self:start;font-size:.84rem}
+.ia-slot .ia-fin{border-color:var(--ok);color:var(--ok)}
 .ia-card.ia-taken{opacity:.6}
 .ia-tomado{cursor:not-allowed;color:var(--muted)}
 .ia-pick.busy,.ia-resv.busy,.ia-x.busy{opacity:.55;cursor:progress}
@@ -2008,7 +2009,7 @@ function iaCard(x, P) {
   const { n, u, r } = x, dias = iaDias(n), sel = P[u] && P[u].id === n.id, [uk, ut] = IA_UNI[u], res = !!IA_RES(), tom = iaTomado(P, n.id);
   const kcs = r ? r.kc : (KC[n.kc] ? [[n.kc, '']] : []);
   const pick = tom && !sel ? `<span class="btn ia-tomado" aria-disabled="true">Reservado por otro alumno</span>`
-    : `<button type="button" class="btn ia-pick${sel ? ' on' : ''}" data-id="${n.id}" data-u="${u}" data-kc="${kcs[0] ? kcs[0][0] : ''}" aria-pressed="${sel}">${sel ? (res && P[u].r ? '✓ Reservado para ti' : '✓ En mi portafolio') : (res ? '+ Reservar para la Unidad ' : '+ Elegir para la Unidad ') + u}</button>`;
+    : `<button type="button" class="btn ia-pick${sel ? ' on' : ''}" data-id="${n.id}" data-u="${u}" data-kc="${kcs[0] ? kcs[0][0] : ''}" aria-pressed="${sel}">${sel ? (res && P[u].r ? (P[u].t ? '✓ Comentario terminado' : '✓ Reservado para ti') : '✓ En mi portafolio') : (res ? '+ Reservar para la Unidad ' : '+ Elegir para la Unidad ') + u}</button>`;
   return `<article class="ia-card${tom && !sel ? ' ia-taken' : ''}" style="--uc:var(--u-${uk})">
     <div class="ia-top"><span class="ia-u">Unidad ${u} · ${ut}</span>${r ? `<span class="ia-stars" title="Qué tan buena es para el IA">${'★'.repeat(r.e)}${'☆'.repeat(3 - r.e)}</span><span class="ia-niv">${esc(r.niv)}</span>` : ''}</div>
     <h3>${esc(n.titulo)}</h3>
@@ -2040,9 +2041,9 @@ function iaPortHTML(P) {
   const { slots, full, kcs, dup, medios, pronto } = iaEst(P), nombre = store.get('enp-ia-nombre', '');
   const chk = (c, t) => `<li class="${c}">${c === 'ok' ? '✓' : c === 'bad' ? '✗' : '○'} ${t}</li>`, res = !!IA_RES();
   const nomIn = `<label class="ia-prof-n">Tu nombre y apellido <input id="ia-nombre" type="text" autocomplete="name" maxlength="60" value="${esc(nombre)}" placeholder="Escribe tu nombre"></label>`;
-  const rs = (u, p) => !res ? '' : p.r ? '<span class="ia-rs ok">✓ Reservado a tu nombre</span>' : iaTomado(P, p.id) ? '<span class="ia-rs bad">✗ Otro alumno ya lo reservó: quítalo y elige otro.</span>' : `<button type="button" class="btn ia-resv" data-slot="${u}">Reservar este artículo</button>`;
+  const rs = (u, p) => !res ? '' : p.r && p.t ? '<span class="ia-rs ok">✓ Comentario terminado: el artículo sigue reservado a tu nombre</span>' : p.r ? `<span class="ia-rs ok">✓ Reservado a tu nombre</span><button type="button" class="btn ia-fin" data-slot="${u}">Ya terminé este comentario</button>` : iaTomado(P, p.id) ? '<span class="ia-rs bad">✗ Otro alumno ya lo reservó: quítalo y elige otro.</span>' : `<button type="button" class="btn ia-resv" data-slot="${u}">Reservar este artículo</button>`;
   const nres = full.filter(s => s.p.r).length, ajeno = full.some(s => !s.p.r && iaTomado(P, s.p.id));
-  return `${res ? `<div class="ia-res">${nomIn}<p class="note">Cuando eliges un artículo, queda reservado para ti: tus compañeros lo ven como «Reservado» y no pueden elegirlo. Si cambias de idea, quítalo y vuelve a quedar libre.</p></div>` : ''}<div class="ia-slots">${slots.map(({ u, p, x }) => `<div class="ia-slot${x ? ' on' : ''}" style="--uc:var(--u-${IA_UNI[u][0]})"><small>Unidad ${u} · ${IA_UNI[u][1]}</small>${x ? `<a href="#n-${x.n.id}">${esc(x.n.titulo)}</a>${rs(u, p)}<label>Concepto clave <select data-slot="${u}"><option value="">Elige uno</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${p.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label><button type="button" class="ia-x" data-slot="${u}" aria-label="Quitar el artículo de la Unidad ${u}">×</button>` : `<span class="note">Todavía no elegiste un artículo de esta unidad.</span>`}</div>`).join('')}</div>
+  return `${res ? `<div class="ia-res">${nomIn}<p class="note">Reservas <b>un artículo a la vez</b>: tus compañeros lo ven como «Reservado» y no pueden elegirlo. Cuando termines ese comentario, toca «Ya terminé este comentario»: el artículo sigue siendo tuyo y ya puedes reservar el de otra unidad. Si cambias de idea antes de terminar, quítalo y vuelve a quedar libre.</p></div>` : ''}<div class="ia-slots">${slots.map(({ u, p, x }) => `<div class="ia-slot${x ? ' on' : ''}" style="--uc:var(--u-${IA_UNI[u][0]})"><small>Unidad ${u} · ${IA_UNI[u][1]}</small>${x ? `<a href="#n-${x.n.id}">${esc(x.n.titulo)}</a>${rs(u, p)}<label>Concepto clave <select data-slot="${u}"><option value="">Elige uno</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${p.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select></label><button type="button" class="ia-x" data-slot="${u}" aria-label="Quitar el artículo de la Unidad ${u}">×</button>` : `<span class="note">Todavía no elegiste un artículo de esta unidad.</span>`}</div>`).join('')}</div>
     <ul class="ia-checks">${chk(full.length === 3 ? 'ok' : 'wait', `Un artículo por unidad (${full.length} de 3)`)}${chk(dup ? 'bad' : kcs.length === 3 ? 'ok' : 'wait', dup ? 'Repetiste un concepto clave: cada comentario necesita uno distinto' : `Tres conceptos clave distintos (${kcs.length} de 3)`)}${chk(pronto.length ? 'bad' : full.length ? 'ok' : 'wait', pronto.length ? `Escribe pronto: un artículo deja de servir el ${fdate(iaHasta(pronto[0].x.n))}` : 'Artículos con menos de un año')}${chk(new Set(medios).size !== medios.length ? 'bad' : full.length === 3 ? 'ok' : 'wait', new Set(medios).size !== medios.length ? 'Repetiste un medio: cada comentario necesita una fuente distinta' : 'Un medio distinto para cada comentario')}${res ? chk(ajeno ? 'bad' : full.length && nres === full.length ? 'ok' : 'wait', ajeno ? 'Un artículo tuyo ya lo reservó otro alumno: cámbialo' : `Artículos reservados a tu nombre (${nres} de ${full.length || 3})`) : ''}</ul>
     <div class="ia-send">${full.length ? `<a class="btn primary" href="${iaTaller('esc', full.map(s => iaArt(s.x.n, s.p.kc)))}" target="_blank" rel="noopener">${full.length === 1 ? 'Pasar este artículo al Taller' : `Pasar mis ${full.length} artículos al Taller`} →</a>` : ''}<span class="note">En el <a href="${TALLER}#escribir-ei" target="_blank" rel="noopener">Taller de Economía IB</a> escribes cada comentario con la rúbrica, el planificador y los modelos.</span></div>
     ${full.length ? `<div class="ia-prof"><div class="ia-prof-t"><strong>Muéstrale tu elección a tu profesor</strong><span class="note">Envíale tus artículos antes de empezar a escribir. Así revisa que cumplen las reglas y que no todos eligieron los mismos.</span></div>
@@ -2097,17 +2098,21 @@ function drawIA() {
     const nombre = String(store.get('enp-ia-nombre', '') || '').trim(), x = BY[id];
     if (!x) return;
     if (nombre.length < 3) { const i = $('#ia-nombre'); if (i) { i.setAttribute('aria-invalid', 'true'); i.scrollIntoView({ behavior: 'smooth', block: 'center' }); i.focus({ preventScroll: true }); } aviso('Escribe tu nombre y apellido en «Mi preselección» para reservar un artículo.'); return; }
+    const P0 = iaPort(), activo = Object.entries(P0).find(([k2, p]) => k2 !== String(u) && p && p.r && !p.t);
+    if (activo) { aviso(`Solo puedes tener un artículo reservado a la vez. Termina tu comentario de la Unidad ${activo[0]} (botón «Ya terminé este comentario») o quítalo antes de reservar otro.`); return; }
+    if (P0[u] && P0[u].t) { aviso(`Ya terminaste tu comentario de la Unidad ${u}. Si quieres cambiar de artículo, pídeselo a tu profesor.`); return; }
     busy(b, true);
     iaResReq({ a: 'res', id, u: +u, n: nombre, t: (iaRec(id) || {}).to || x.n.titulo, m: x.n.medio }).then(j => {
       const P2 = iaPort();
       if (j.ok) { P2[u] = { id, kc: P2[u] && P2[u].id === id ? P2[u].kc : kcLibre(P2, u, kc), r: 1 }; save(P2); aviso('Reservado. Ningún compañero puede elegir este artículo.'); }
-      else { save(P2); aviso(j.e === 'tomado' ? 'Otro alumno ya reservó este artículo. Elige otro.' : j.e === 'unidad' ? `Ya hay un artículo de la Unidad ${u} reservado con tu nombre desde otro dispositivo. Pídele a tu profesor que lo libere.` : 'No se pudo reservar. Inténtalo de nuevo en un momento.'); }
+      else { save(P2); aviso(j.e === 'tomado' ? 'Otro alumno ya reservó este artículo. Elige otro.' : j.e === 'unidad' ? `Ya hay un artículo de la Unidad ${u} reservado con tu nombre. Si quieres cambiarlo, pídele a tu profesor que lo libere.` : j.e === 'activo' ? 'Ya tienes otro artículo reservado sin terminar (quizás desde otro dispositivo). Solo puedes tener uno a la vez.' : 'No se pudo reservar. Inténtalo de nuevo en un momento.'); }
     }).catch(() => { busy(b, false); aviso('No hay conexión con las reservas. Revisa tu internet e inténtalo de nuevo.'); });
   };
   const liberar = (u, b) => {
     const p = iaPort()[u], fin = () => { const P2 = iaPort(); delete P2[u]; save(P2); };
     if (!p) return;
     if (!IA_RES() || !p.r) { fin(); return; }
+    if (p.t && !confirm('Ya terminaste este comentario. Si lo quitas, el artículo queda libre para tus compañeros. ¿Quitarlo igual?')) return;
     busy(b, true);
     iaResReq({ a: 'lib', id: p.id }).then(() => { fin(); aviso('Quitaste el artículo: ahora queda libre para tus compañeros.'); })
       .catch(() => { busy(b, false); aviso('No hay conexión con las reservas: el artículo sigue reservado. Inténtalo de nuevo.'); });
@@ -2121,7 +2126,17 @@ function drawIA() {
   });
   $('#ia-port').addEventListener('click', e => {
     const x = e.target.closest('.ia-x'); if (x && !x.disabled) return liberar(x.dataset.slot, x);
-    const r = e.target.closest('.ia-resv'); if (r && !r.disabled) { const p = iaPort()[r.dataset.slot]; if (p) reservar(r.dataset.slot, p.id, p.kc, r); }
+    const r = e.target.closest('.ia-resv'); if (r && !r.disabled) { const p = iaPort()[r.dataset.slot]; if (p) reservar(r.dataset.slot, p.id, p.kc, r); return; }
+    const f = e.target.closest('.ia-fin'); if (f && !f.disabled) {
+      const u = f.dataset.slot, p = iaPort()[u]; if (!p) return;
+      if (!confirm('¿Terminaste tu comentario con este artículo? Seguirá reservado a tu nombre y podrás reservar el de otra unidad.')) return;
+      busy(f, true);
+      iaResReq({ a: 'fin', id: p.id }).then(j => {
+        const P2 = iaPort();
+        if (j.ok || j.e === 'no') { if (P2[u]) { P2[u].t = 1; if (j.e === 'no') delete P2[u].r; } save(P2); aviso(j.ok ? '¡Bien! Comentario terminado. Ya puedes reservar el artículo de otra unidad.' : 'Tu profesor ya había liberado este artículo.'); }
+        else { busy(f, false); aviso('No se pudo marcar como terminado. Inténtalo de nuevo.'); }
+      }).catch(() => { busy(f, false); aviso('No hay conexión con las reservas. Inténtalo de nuevo.'); });
+    }
   });
   $('#ia-port').addEventListener('input', e => { if (e.target.id === 'ia-nombre') { e.target.removeAttribute('aria-invalid'); store.set('enp-ia-nombre', e.target.value.slice(0, 60)); } });
   $('#ia-port').addEventListener('click', e => {

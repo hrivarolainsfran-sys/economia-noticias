@@ -1,11 +1,15 @@
 /* Reservas de artículos para la evaluación interna (IA) de Economía IB.
    Se pega en una hoja de cálculo de Google: Extensiones → Apps Script.
    Cada reserva es una fila de la pestaña «Reservas». Para liberar un artículo,
-   borra su fila. Instrucciones completas en RESERVAS.md. */
+   borra su fila. Instrucciones completas en RESERVAS.md.
+   Regla: cada alumno puede tener UNA sola reserva activa. Cuando termina su
+   comentario la marca como «Terminado»: el artículo sigue siendo suyo y puede
+   reservar el siguiente. Un artículo por unidad como máximo. */
 
 const HOJA = 'Reservas';
-const COLS = ['Fecha', 'Alumno', 'Unidad', 'Artículo', 'Medio', 'Id', 'Clave'];
-// Columnas (desde 0): 0 Fecha, 1 Alumno, 2 Unidad, 3 Artículo, 4 Medio, 5 Id, 6 Clave
+const COLS = ['Fecha', 'Alumno', 'Unidad', 'Artículo', 'Medio', 'Id', 'Clave', 'Estado'];
+// Columnas (desde 0): 0 Fecha, 1 Alumno, 2 Unidad, 3 Artículo, 4 Medio, 5 Id, 6 Clave, 7 Estado
+const TERMINADO = 'Terminado';
 
 function doGet() {
   return salida_(lista_());
@@ -19,6 +23,7 @@ function doPost(e) {
   try {
     if (q.a === 'res') return salida_(reservar_(q));
     if (q.a === 'lib') return salida_(liberar_(q));
+    if (q.a === 'fin') return salida_(terminar_(q));
     return salida_({ ok: false, e: 'accion' });
   } finally {
     lock.releaseLock();
@@ -40,6 +45,9 @@ function hoja_() {
     h.getRange(1, 1, 1, COLS.length).setFontWeight('bold');
     h.setColumnWidth(2, 180);
     h.setColumnWidth(4, 360);
+  } else if (h.getRange(1, COLS.length).getValue() !== COLS[COLS.length - 1]) {
+    // Hojas creadas con la versión anterior: agrega la columna «Estado».
+    h.getRange(1, COLS.length).setValue(COLS[COLS.length - 1]).setFontWeight('bold');
   }
   return h;
 }
@@ -68,19 +76,39 @@ function reservar_(q) {
   if (!/^[\w-]{1,80}$/.test(id) || [2, 3, 4].indexOf(u) < 0 || !/^[\w-]{8,64}$/.test(k) || norm_(nombre).length < 3) {
     return Object.assign(lista_(), { ok: false, e: 'datos' });
   }
-  const h = hoja_(), f = filas_();
+  const h = hoja_(), f = filas_(), yo = x => String(x[6]) === k || norm_(x[1]) === norm_(nombre);
   const tomado = f.find(x => String(x[5]) === id);
   if (tomado) {
     return Object.assign(lista_(f), String(tomado[6]) === k ? {} : { ok: false, e: 'tomado' });
   }
-  const otro = f.find(x => Number(x[2]) === u && norm_(x[1]) === norm_(nombre) && String(x[6]) !== k);
-  if (otro) return Object.assign(lista_(f), { ok: false, e: 'unidad' });
-  // Si este mismo navegador ya tenía un artículo en esta unidad, se cambia por el nuevo.
+  // Un artículo por unidad: si ya tiene uno en esta unidad, solo puede cambiarlo
+  // desde el mismo navegador y mientras no lo haya terminado.
+  const mismaUnidad = f.filter(x => yo(x) && Number(x[2]) === u);
+  if (mismaUnidad.some(x => String(x[6]) !== k || x[7] === TERMINADO)) {
+    return Object.assign(lista_(f), { ok: false, e: 'unidad' });
+  }
+  // Una sola reserva activa a la vez (sin contar la de esta unidad, que se reemplaza).
+  if (f.some(x => yo(x) && Number(x[2]) !== u && x[7] !== TERMINADO)) {
+    return Object.assign(lista_(f), { ok: false, e: 'activo' });
+  }
   for (let i = f.length - 1; i >= 0; i--) {
     if (String(f[i][6]) === k && Number(f[i][2]) === u) h.deleteRow(i + 2);
   }
-  h.appendRow([new Date(), nombre, u, texto_(q.t, 200), texto_(q.m, 60), id, k]);
+  h.appendRow([new Date(), nombre, u, texto_(q.t, 200), texto_(q.m, 60), id, k, 'Activo']);
   return lista_();
+}
+
+function terminar_(q) {
+  const id = String(q.id || ''), k = String(q.k || '');
+  const h = hoja_(), f = filas_();
+  for (let i = 0; i < f.length; i++) {
+    if (String(f[i][5]) === id) {
+      if (String(f[i][6]) !== k) return Object.assign(lista_(f), { ok: false, e: 'ajeno' });
+      h.getRange(i + 2, COLS.length).setValue(TERMINADO);
+      return lista_(f);
+    }
+  }
+  return Object.assign(lista_(f), { ok: false, e: 'no' });
 }
 
 function liberar_(q) {

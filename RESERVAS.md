@@ -10,6 +10,7 @@ se guardan en una hoja de Google del profesor.
 - Cada alumno puede tener un artículo por unidad (2, 3 y 4).
   - Si elige otro artículo de la misma unidad, el anterior se libera.
 - Si quita un artículo de su preselección, el artículo vuelve a quedar libre.
+- **Una reserva activa a la vez.** Cuando el alumno termina su comentario toca «Ya terminé este comentario»: el artículo sigue reservado a su nombre (columna «Estado» = Terminado) y recién entonces puede reservar el de otra unidad.
 - Los alumnos no ven quién reservó cada artículo. Los nombres solo aparecen en la hoja del profesor.
 - La página consulta las reservas al abrir la sección y después cada minuto. Antes de guardar una reserva, la hoja comprueba que el artículo siga libre, así que dos alumnos no pueden quedarse con el mismo.
 
@@ -36,7 +37,7 @@ La hoja sigue siendo privada. Los alumnos solo hablan con el script, que respond
 ## Hoja de este curso
 
 - Hoja: «Reservas IA Economía» en el Google Drive del profesor (pestaña «Reservas»).
-- Script: «Proyecto sin título», implementado como aplicación web el 24 de noviembre de 2026 (versión 1).
+- Script: «Proyecto sin título», implementado como aplicación web el 24 de noviembre de 2026 (versión 2: una reserva activa a la vez).
 - La URL `/exec` está en `datos.json` → `ia.reservas`.
 
 ## Tareas del profesor
