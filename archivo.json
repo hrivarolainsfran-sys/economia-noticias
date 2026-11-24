@@ -6587,5 +6587,513 @@
   "sector": [
    "comercio"
   ]
+ },
+ {
+  "id": "itaipu-opinion",
+  "fecha": "2026-11-08",
+  "medio": "ABC Color",
+  "opinion": true,
+  "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/08/gastos-sociales-de-itaipu-43-de-la-tarifa-vs-sobrecosto-para-ande/",
+  "titulo": "Opinión: los gastos sociales de Itaipú y el costo de la luz",
+  "unidad": "micro",
+  "tema": "2.7",
+  "kc": "equidad",
+  "resumen": "En una columna de opinión, el ingeniero Axel Benítez sostiene que los gastos socioambientales de Itaipú sumaron US$ 1.213,9 millones en 2025, el 43,2 % del costo del servicio. Según su cálculo, eso significó para la ANDE un sobrecosto de US$ 296,4 millones ese año.",
+  "contexto": "La tarifa de Itaipú se fijó en US$ 19,28 por kW-mes para 2024-2026, aunque la deuda de la represa se terminó de pagar en 2023. El autor argumenta que ese margen se usa para gasto social que no pasa por el Presupuesto y que pagan los usuarios en su factura de luz. Es una postura, no un dato oficial: sirve para practicar cómo separar hechos de opiniones y discutir quién gana y quién pierde con un precio regulado.",
+  "datos": [
+   [
+    "US$ 19,28",
+    "Tarifa de Itaipú por kW-mes (2024-2026)"
+   ],
+   [
+    "43,2 %",
+    "Gastos sociales sobre el costo (según el autor)"
+   ],
+   [
+    "US$ 296,4 M",
+    "Sobrecosto para la ANDE en 2025 (según el autor)"
+   ]
+  ],
+  "clave": [
+   "43,2 %",
+   "del costo, según el autor"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ M",
+   "rows": [
+    [
+     "Gasto social",
+     1213.9,
+     1
+    ],
+    [
+     "Resto del costo",
+     1593.6
+    ]
+   ]
+  },
+  "cap": "Costo del servicio de Itaipú en 2025, en millones de dólares, según el cálculo del autor.",
+  "pasos": [
+   "La tarifa se mantiene aunque la deuda ya se pagó",
+   "El margen se destina a gasto social y obras",
+   "La ANDE paga más por la energía",
+   "El costo llega a los usuarios en la factura",
+   "Debate: equidad del gasto frente a eficiencia del precio"
+  ],
+  "conceptos": [
+   [
+    "Afirmación positiva",
+    "Se puede comprobar con datos: «la tarifa es US$ 19,28»."
+   ],
+   [
+    "Afirmación normativa",
+    "Es un juicio de valor: «los usuarios no deberían pagarlo»."
+   ],
+   [
+    "Precio regulado",
+    "Precio fijado por el Estado o por un acuerdo, no por el mercado."
+   ],
+   [
+    "Monopolio natural",
+    "Un solo productor abastece al mercado más barato que varios."
+   ]
+  ],
+  "diagramas": [],
+  "rel": [],
+  "pregunta": {
+   "q": "«Los usuarios no deberían pagar gastos sociales en la factura de luz.» ¿Qué tipo de afirmación es?",
+   "opts": [
+    "Normativa: es un juicio de valor",
+    "Positiva: se comprueba con datos",
+    "Un dato oficial de la ANDE",
+    "Una ley económica"
+   ],
+   "ok": 0,
+   "fb": "Dice lo que «debería» ser: es normativa. En economía conviene separar los hechos (positivos) de las opiniones (normativas)."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Beneficiarios del gasto social y de las obras",
+     "Reciben recursos de Itaipú."
+    ]
+   ],
+   "pierden": [
+    [
+     "Usuarios de la ANDE",
+     "Según el autor, pagan una energía más cara."
+    ]
+   ],
+   "corto": "Más gasto social fuera del Presupuesto.",
+   "largo": "Menos transparencia y presión sobre la tarifa de la ANDE; la negociación del Anexo C definirá la tarifa.",
+   "supuestos": [
+    "Las cifras son cálculos del autor; otros análisis pueden llegar a otros resultados."
+   ],
+   "conclusion": "Es un debate normativo: equidad (gasto social) frente a eficiencia y transparencia (precio de la energía)."
+  },
+  "sector": [
+   "energia"
+  ]
+ },
+ {
+  "id": "deuda-setiembre",
+  "fecha": "2026-11-09",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/deuda-publica-asciende-a-usd-22-569-millones-13-2-mas-que-el-2025",
+  "titulo": "La deuda pública llega a US$ 22.569 millones, 35,4 % del PIB",
+  "unidad": "macro",
+  "tema": "3.6",
+  "kc": "sostenibilidad",
+  "inst": [
+   "mef"
+  ],
+  "resumen": "Según datos del MEF publicados por Última Hora, la deuda pública llegó a US$ 22.569,1 millones en septiembre de 2026, el 35,4 % del PIB: US$ 2.649,3 millones más que un año antes (+13,2 %) y 10,3 % más que al cierre de 2025. El 82,1 % es deuda externa y el 57,9 % son bonos.",
+  "contexto": "La deuda crece porque el Estado gasta más de lo que recauda (déficit fiscal) y cubre la diferencia pidiendo prestado. La deuda en guaraníes sube (29 % del total) y la deuda en moneda extranjera baja de 77,3 % a 69 %, lo que protege al Estado cuando el guaraní se deprecia, como pasó en noviembre con la crisis de Ueno. Según Última Hora, el proyecto de Presupuesto 2027 prevé que la deuda siga subiendo; algunos economistas, sin nombre en el artículo, plantean que podría llegar a 60 % o 70 % del PIB.",
+  "datos": [
+   [
+    "US$ 22.569,1 M",
+    "Deuda pública a septiembre de 2026"
+   ],
+   [
+    "35,4 %",
+    "Deuda sobre el PIB"
+   ],
+   [
+    "+13,2 %",
+    "Aumento en un año (US$ 2.649,3 M más)"
+   ],
+   [
+    "82,1 %",
+    "Parte que es deuda externa"
+   ],
+   [
+    "69 %",
+    "Parte en moneda extranjera (77,3 % un año antes)"
+   ]
+  ],
+  "clave": [
+   "35,4 %",
+   "del PIB es deuda pública"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ millones",
+   "rows": [
+    [
+     "Dic 2025",
+     20447.9
+    ],
+    [
+     "Sep 2026",
+     22569.1,
+     1
+    ]
+   ]
+  },
+  "cap": "Deuda pública de Paraguay, en millones de dólares, según el MEF vía Última Hora.",
+  "pasos": [
+   "El Estado gasta más de lo que recauda (déficit)",
+   "Emite bonos y toma préstamos para cubrir la diferencia",
+   "La deuda sube a US$ 22.569 millones",
+   "Pagar intereses resta recursos a otros gastos",
+   "Si el guaraní se deprecia, la deuda en dólares pesa más"
+  ],
+  "conceptos": [
+   [
+    "Deuda pública",
+    "Lo que el Estado debe a acreedores internos y externos."
+   ],
+   [
+    "Déficit fiscal",
+    "Cuando el gasto público supera los ingresos en un año."
+   ],
+   [
+    "Ratio deuda/PIB",
+    "Mide la deuda frente al tamaño de la economía."
+   ],
+   [
+    "Riesgo cambiario",
+    "La deuda en dólares se encarece en guaraníes cuando el guaraní se deprecia."
+   ]
+  ],
+  "diagramas": [
+   "politica-fiscal",
+   "bonos"
+  ],
+  "rel": [
+   "pgn-suspendido",
+   "bonos-embi",
+   "guarani-cae"
+  ],
+  "pregunta": {
+   "q": "Si el guaraní se deprecia, ¿qué pasa con el peso de la deuda pública en dólares?",
+   "opts": [
+    "Aumenta: se necesitan más guaraníes para pagar cada dólar",
+    "Disminuye automáticamente",
+    "No cambia",
+    "Se convierte en deuda interna"
+   ],
+   "ok": 0,
+   "fb": "La deuda en moneda extranjera se paga en dólares; si el guaraní vale menos, el Estado necesita más guaraníes de impuestos para pagarla."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Beneficiarios del gasto público",
+     "La deuda financia obras y programas que no alcanzan a cubrir los impuestos."
+    ],
+    [
+     "Inversores en bonos",
+     "Reciben intereses de un país con grado de inversión."
+    ]
+   ],
+   "pierden": [
+    [
+     "Contribuyentes futuros",
+     "Tendrán que pagar los intereses y el capital."
+    ],
+    [
+     "Otros gastos públicos",
+     "Más intereses dejan menos espacio para salud, educación o inversión (costo de oportunidad)."
+    ]
+   ],
+   "corto": "La crisis de Ueno y la suba del riesgo país pueden encarecer las próximas emisiones de bonos.",
+   "largo": "Con 35,4 % del PIB la deuda sigue siendo moderada, pero si los déficits continúan el ratio seguirá subiendo y la calificación podría peligrar.",
+   "supuestos": [
+    "Que la economía siga creciendo y el PIB crezca más que la deuda",
+    "Que las tasas internacionales no suban"
+   ],
+   "conclusion": "La deuda de Paraguay todavía es baja frente a la región, pero crece rápido; la clave es que el Presupuesto 2027 reduzca el déficit para que el ratio no siga en aumento."
+  }
+ },
+ {
+  "id": "informalidad-bid",
+  "fecha": "2026-11-10",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/negocios/2026/11/10/indice-bid-hay-empleo-e-ingresos-suficientes-pero-la-informalidad-sobra/",
+  "titulo": "Mucho empleo, poca formalidad: Paraguay en el índice laboral del BID",
+  "unidad": "global",
+  "tema": "4.8",
+  "kc": "equidad",
+  "inst": [
+   "ine"
+  ],
+  "resumen": "En el Índice de Mejores Trabajos 2026 del BID, citado por ABC Color, Paraguay queda 7.º de 17 países con 59,8 puntos, sobre el promedio regional (58). Es 3.º en cantidad de empleo (80 puntos), pero 10.º en calidad (39,4) y 12.º de 15 en formalidad (20,1 puntos).",
+  "contexto": "El índice mide dos cosas: cuántas personas trabajan y si esos trabajos son formales y pagan lo suficiente para salir de la pobreza. Paraguay crea empleo, pero según el INE el 61,6 % de los ocupados no agropecuarios era informal en el segundo trimestre de 2026, y en microempresas la informalidad llega a 73 %. Los trabajadores informales no aportan a la jubilación ni tienen seguro social, y el BID advierte que la informalidad baja los salarios, aumenta la desigualdad y frena la productividad. Por eso es una barrera al desarrollo, no solo un problema del mercado laboral.",
+  "datos": [
+   [
+    "7.º de 17",
+    "Puesto de Paraguay en el índice (59,8 puntos)"
+   ],
+   [
+    "80",
+    "Puntaje en cantidad de empleo (3.º de la región)"
+   ],
+   [
+    "39,4",
+    "Puntaje en calidad (10.º; región: 40,6)"
+   ],
+   [
+    "20,1",
+    "Puntaje en formalidad (12.º de 15)"
+   ],
+   [
+    "61,6 %",
+    "Informalidad de ocupados no agropecuarios (INE, 2.º trim. 2026)"
+   ]
+  ],
+  "clave": [
+   "20,1",
+   "puntos en formalidad (12.º de 15)"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "puntos (0 a 100)",
+   "rows": [
+    [
+     "Cantidad",
+     80
+    ],
+    [
+     "Salario suficiente",
+     58.7
+    ],
+    [
+     "Calidad",
+     39.4
+    ],
+    [
+     "Formalidad",
+     20.1,
+     1
+    ]
+   ]
+  },
+  "cap": "Puntajes de Paraguay en el Índice de Mejores Trabajos 2026 del BID, según ABC Color. La formalidad es el punto más débil.",
+  "pasos": [
+   "Muchas personas trabajan, pero en empresas pequeñas y sin registro",
+   "No aportan a la jubilación ni al seguro social",
+   "Las empresas informales no acceden a crédito y crecen poco",
+   "La productividad y los salarios quedan bajos",
+   "El desarrollo se frena y la desigualdad persiste"
+  ],
+  "conceptos": [
+   [
+    "Empleo informal",
+    "Trabajo sin registro, sin aportes a la seguridad social ni protección laboral."
+   ],
+   [
+    "Calidad del empleo",
+    "Si el trabajo es formal y paga lo suficiente para salir de la pobreza."
+   ],
+   [
+    "Barreras al desarrollo",
+    "Factores que impiden que el crecimiento mejore el bienestar de toda la población."
+   ],
+   [
+    "Productividad",
+    "Producción por trabajador; sube con capital, capacitación y tecnología."
+   ]
+  ],
+  "diagramas": [
+   "politicas-oferta"
+  ],
+  "rel": [],
+  "pregunta": {
+   "q": "¿Por qué la alta informalidad es una barrera al desarrollo económico?",
+   "opts": [
+    "Porque deja a los trabajadores sin protección social y frena la productividad",
+    "Porque aumenta el desempleo a cero",
+    "Porque sube la inflación",
+    "Porque aprecia el guaraní"
+   ],
+   "ok": 0,
+   "fb": "Los trabajadores informales no tienen jubilación ni seguro, y las empresas informales invierten y crecen poco: el crecimiento no se traduce en más bienestar."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Trabajadores con empleo",
+     "Paraguay tiene alta participación y ocupación: 3.º en la región en cantidad de empleo."
+    ],
+    [
+     "Microempresas informales",
+     "Evitan costos de registro, impuestos y aportes en el corto plazo."
+    ]
+   ],
+   "pierden": [
+    [
+     "Trabajadores informales",
+     "No tienen jubilación, seguro médico ni protección ante despidos."
+    ],
+    [
+     "IPS y el Estado",
+     "Menos aportantes y menos recaudación para financiar servicios."
+    ],
+    [
+     "Mujeres",
+     "Su puntaje de formalidad (17,1) es menor que el de los hombres (23,2)."
+    ]
+   ],
+   "corto": "La informalidad no cambia rápido; el desafío es formalizar a quienes ya trabajan y ganan.",
+   "largo": "Si se reducen los costos de formalizarse y se mejora la capacitación, puede subir la productividad y la cobertura de jubilaciones.",
+   "supuestos": [
+    "Que los datos del BID sean comparables entre países",
+    "Que formalizarse no sea demasiado caro para las microempresas"
+   ],
+   "conclusion": "Paraguay resolvió bastante bien la cantidad de empleo, pero no la calidad; las políticas de oferta que bajan el costo de formalizarse podrían convertir ese empleo en desarrollo."
+  }
+ },
+ {
+  "id": "imaep-setiembre",
+  "fecha": "2026-11-11",
+  "medio": "5Días",
+  "url": "https://5dias.com.py/article/economa-acumula-crecimiento-de-55-al-cierre-del-mes-de-setiembre",
+  "titulo": "La economía creció 3,9 % en septiembre y acumula 5,5 % en el año",
+  "unidad": "macro",
+  "tema": "3.1",
+  "kc": "cambio",
+  "inst": [
+   "bcp"
+  ],
+  "resumen": "El Indicador Mensual de Actividad Económica (IMAEP) del BCP creció 3,9 % en septiembre frente a septiembre de 2025, y la economía acumuló una expansión de 5,5 % entre enero y septiembre. Impulsaron la generación de electricidad, las manufacturas y los servicios; en cambio, el transporte, los servicios a empresas y las telecomunicaciones tuvieron un mal desempeño. Sin agricultura ni binacionales, el indicador subió 4,0 % en septiembre y 4,9 % en el año.",
+  "contexto": "El IMAEP es un adelanto mensual del PIB: permite ver cómo va la economía sin esperar los datos trimestrales. Que crezca 3,9 % en septiembre muestra que la economía venía fuerte antes de la crisis de Ueno, aunque más lenta que en agosto (6,7 %). El indicador que excluye la agricultura y las binacionales es importante porque la soja y la energía dependen del clima y pueden inflar o reducir el total. Los datos de octubre y noviembre mostrarán si la crisis bancaria frenó la demanda agregada.",
+  "datos": [
+   [
+    "3,9 %",
+    "Crecimiento interanual del IMAEP en septiembre"
+   ],
+   [
+    "5,5 %",
+    "Crecimiento acumulado enero-septiembre"
+   ],
+   [
+    "4,0 %",
+    "IMAEP sin agricultura ni binacionales (septiembre)"
+   ],
+   [
+    "4,9 %",
+    "Ese indicador, acumulado en el año"
+   ]
+  ],
+  "clave": [
+   "3,9 %",
+   "creció la economía en septiembre"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% interanual",
+   "rows": [
+    [
+     "Jun",
+     5.6,
+     0
+    ],
+    [
+     "Jul",
+     5.5,
+     0
+    ],
+    [
+     "Ago",
+     6.7,
+     0
+    ],
+    [
+     "Sep",
+     3.9,
+     1
+    ]
+   ]
+  },
+  "cap": "Variación interanual del IMAEP por mes: septiembre crece menos que agosto, pero la economía sigue en expansión.",
+  "pasos": [
+   "Más generación eléctrica, manufacturas y servicios",
+   "Sube la producción del mes frente a un año antes",
+   "El IMAEP crece 3,9 %",
+   "El acumulado del año llega a 5,5 %",
+   "Es la base antes del golpe de la crisis de Ueno"
+  ],
+  "conceptos": [
+   [
+    "IMAEP",
+    "Indicador mensual que anticipa la evolución del PIB."
+   ],
+   [
+    "Variación interanual",
+    "Cambio frente al mismo mes del año anterior."
+   ],
+   [
+    "PIB real",
+    "Valor de la producción a precios constantes, sin el efecto de la inflación."
+   ],
+   [
+    "Ciclo económico",
+    "Subidas y bajadas de la actividad alrededor de su tendencia."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-oacp"
+  ],
+  "rel": [
+   "consumo-cae"
+  ],
+  "pregunta": {
+   "q": "¿Por qué el BCP publica también un IMAEP sin agricultura ni binacionales?",
+   "opts": [
+    "Porque la soja y la energía dependen mucho del clima y pueden distorsionar el total",
+    "Porque esos sectores no forman parte del PIB",
+    "Porque así el crecimiento siempre parece mayor",
+    "Porque la ley prohíbe medir la agricultura cada mes"
+   ],
+   "ok": 0,
+   "fb": "La agricultura y la energía de Itaipú y Yacyretá varían mucho con la lluvia; quitarlas permite ver mejor la tendencia del resto de la economía."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Trabajadores e industria",
+     "Más producción suele traer más empleo e ingresos."
+    ],
+    [
+     "El Estado",
+     "Más actividad significa más recaudación."
+    ]
+   ],
+   "pierden": [
+    [
+     "Transporte y telecomunicaciones",
+     "Fueron los sectores con peor desempeño en septiembre."
+    ]
+   ],
+   "corto": "El dato es anterior a la crisis de Ueno: octubre y noviembre pueden mostrar un freno del consumo y del crédito.",
+   "largo": "Si la confianza se recupera, la economía puede seguir creciendo cerca de su tendencia de 4 %.",
+   "supuestos": [
+    "Que la crisis bancaria no reduzca con fuerza el crédito ni el consumo.",
+    "Que el clima acompañe a la próxima cosecha."
+   ],
+   "conclusion": "La economía llegó fuerte a la crisis, lo que da margen, pero el freno del crédito puede bajar el crecimiento de fin de año."
+  }
  }
 ]

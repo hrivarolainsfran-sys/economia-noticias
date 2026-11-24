@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23",
+ "actualizado": "2026-11-24",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -322,6 +322,11 @@
     "23 nov",
     "El plan de fusión con Visión permitía diferir pérdidas por 20 años, aprobado por el BCP.",
     "ueno-plan-fusion"
+   ],
+   [
+    "23 nov",
+    "Bancard: los pagos electrónicos caen 3,3 % frente a octubre tras el cierre de Ueno.",
+    "pagos-bancard"
    ]
   ],
   "lentes": [
@@ -340,6 +345,592 @@
   ]
  },
  "noticias": [
+  {
+   "id": "itau-proyeccion",
+   "fecha": "2026-11-23",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/banco-mantiene-proyeccion-de-crecimiento-de-4-5-para-2026-pero-advierte-mayores-riesgos",
+   "opinion": false,
+   "titulo": "Itaú mantiene su pronóstico: Paraguay crecería 4,5 % en 2026, pero con más riesgos",
+   "unidad": "macro",
+   "tema": "3.3",
+   "kc": "cambio",
+   "inst": [
+    "bcp"
+   ],
+   "resumen": "El banco Itaú mantuvo su escenario base para Paraguay pese a la crisis de Ueno: prevé un crecimiento del PIB de 4,5 % y una inflación de 3,0 % en 2026, un dólar de G. 6.100 a fin de año y la tasa del BCP en 5,50 % hasta fines de 2027, según Última Hora. La economía creció 5,4 % interanual en el tercer trimestre, empujada por electricidad, manufactura y construcción. El banco advierte, sin embargo, que los riesgos aumentaron, sobre todo para el tipo de cambio y para las cuentas fiscales.",
+   "contexto": "Los cuatro grandes objetivos macroeconómicos son crecimiento, inflación baja y estable, empleo y equilibrio externo, y este informe los repasa todos. La inflación de 1,7 % está cerca del límite inferior de la meta del BCP (3,5 % ± 2 puntos), lo que da margen para no subir la tasa; pero el guaraní se depreció en octubre y noviembre, y un dólar más caro encarece los bienes importados. En lo fiscal, el déficit de 12 meses ya llegó a 3,0 % del PIB en setiembre y Itaú lo proyecta en 3,2 % para 2026; los depósitos públicos en Ueno (unos US$ 850 millones, US$ 350 millones del IPS) podrían exigir más deuda. Con una deuda de 35,4 % del PIB, el banco considera que todavía hay espacio fiscal.",
+   "datos": [
+    [
+     "4,5 %",
+     "Crecimiento del PIB proyectado por Itaú para 2026"
+    ],
+    [
+     "3,0 %",
+     "Inflación proyectada para 2026"
+    ],
+    [
+     "G. 6.100",
+     "Dólar previsto a fin de 2026"
+    ],
+    [
+     "5,50 %",
+     "Tasa del BCP que Itaú espera hasta fines de 2027"
+    ],
+    [
+     "5,4 %",
+     "Crecimiento interanual del tercer trimestre"
+    ],
+    [
+     "4,9 %",
+     "IMAEP sin agricultura ni binacionales, tercer trimestre"
+    ],
+    [
+     "1,7 %",
+     "Inflación interanual de octubre"
+    ],
+    [
+     "3,2 %",
+     "Déficit fiscal proyectado para 2026 (% del PIB)"
+    ],
+    [
+     "US$ 850 M",
+     "Depósitos del sector público en Ueno (US$ 350 M del IPS)"
+    ],
+    [
+     "35,4 %",
+     "Deuda pública bruta / PIB a setiembre"
+    ]
+   ],
+   "clave": [
+    "4,5 %",
+    "crecimiento previsto para 2026"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Crecimiento 2026",
+      4.5,
+      1
+     ],
+     [
+      "Inflación 2026",
+      3.0,
+      0
+     ],
+     [
+      "Inflación oct.",
+      1.7,
+      0
+     ],
+     [
+      "Tasa BCP",
+      5.5,
+      0
+     ],
+     [
+      "Déficit 2026",
+      3.2,
+      0
+     ]
+    ]
+   },
+   "cap": "Las proyecciones de Itaú para 2026: crecimiento de 4,5 %, inflación de 3,0 % y déficit fiscal de 3,2 % del PIB, con la tasa del BCP en 5,50 %.",
+   "pasos": [
+    "La crisis de Ueno y las elecciones en Brasil aumentan la incertidumbre",
+    "El guaraní se deprecia y el BCP interviene en el mercado cambiario",
+    "La inflación baja (1,7 %) da margen para mantener la tasa en 5,50 %",
+    "La actividad sigue firme por la cosecha récord, la electricidad y la construcción",
+    "El riesgo principal pasa a ser fiscal: más déficit y más deuda para cubrir a Ueno"
+   ],
+   "conceptos": [
+    [
+     "Objetivos macroeconómicos",
+     "Crecimiento, inflación baja y estable, bajo desempleo y equilibrio externo."
+    ],
+    [
+     "Meta de inflación",
+     "Rango que el banco central busca para la inflación: en Paraguay, 3,5 % ± 2 puntos."
+    ],
+    [
+     "Espacio fiscal",
+     "Margen que tiene el Estado para gastar o endeudarse sin poner en riesgo su solvencia."
+    ],
+    [
+     "Balance de riesgos",
+     "Si es más probable que el dato final quede por encima o por debajo de la proyección."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da",
+    "politica-monetaria"
+   ],
+   "rel": [
+    "tpm-noviembre",
+    "eve-noviembre",
+    "deficit-octubre",
+    "dolar-6600"
+   ],
+   "pregunta": {
+    "q": "La inflación (1,7 %) está cerca del piso de la meta del BCP, pero el guaraní se depreció. ¿Por qué el BCP no baja la tasa, según Itaú?",
+    "opts": [
+     "Porque la incertidumbre interna y externa es alta y una baja podría presionar más el dólar",
+     "Porque la inflación está por encima de la meta",
+     "Porque la economía está en recesión",
+     "Porque el déficit fiscal es cero"
+    ],
+    "ok": 0,
+    "fb": "Con la inflación baja habría margen para recortar, pero una tasa menor haría menos atractivo el guaraní en plena volatilidad; por eso se espera que la tasa quede en 5,50 %."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Exportadores",
+      "Un dólar más alto que a inicios de año mejora sus ingresos en guaraníes."
+     ],
+     [
+      "Ahorristas en guaraníes",
+      "La inflación baja y la tasa estable protegen el valor de su ahorro."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes futuros",
+      "Si el Estado debe reponer los depósitos públicos en Ueno, habrá más deuda e intereses."
+     ],
+     [
+      "Importadores y consumidores",
+      "La depreciación del guaraní encarece los bienes importados."
+     ]
+    ],
+    "corto": "La economía sigue creciendo y la inflación está contenida; el BCP mantiene la tasa mientras vigila el dólar.",
+    "largo": "Si el déficit no baja y la deuda sube para cubrir a Ueno, el espacio fiscal y la calificación del país pueden deteriorarse.",
+    "supuestos": [
+     "Que la cosecha récord se concrete",
+     "Que la crisis de Ueno siga siendo un caso aislado",
+     "Que la depreciación no se traslade mucho a los precios"
+    ],
+    "conclusion": "Los fundamentos (crecimiento, inflación baja, deuda moderada) siguen sólidos, pero el informe muestra que el riesgo se mudó del lado monetario al fiscal; es una proyección de un banco privado, no un dato oficial."
+   }
+  },
+  {
+   "id": "pagos-bancard",
+   "fecha": "2026-11-23",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/23/pagos-electronicos-asi-impacto-el-cierre-de-ueno-bank-en-los-comercios/",
+   "opinion": false,
+   "mas": [
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/estas-son-las-seis-ciudades-mas-afectadas-en-pagos-electronicos-tras-caida-de-ueno",
+     "2026-11-23"
+    ]
+   ],
+   "titulo": "Tras el cierre de Ueno, los pagos con tarjeta y QR caen 3,3 % frente a octubre",
+   "unidad": "macro",
+   "tema": "3.2",
+   "kc": "cambio",
+   "sector": [
+    "comercio"
+   ],
+   "resumen": "Según un informe de la procesadora Bancard citado por ABC Color, entre el 3 y el 20 de noviembre el monto de pagos electrónicos procesados cayó 3,30 % y la cantidad de operaciones 7,41 % frente a los mismos 18 días de octubre. Frente a noviembre de 2025, todavía crecieron 1,92 % en monto y 5,24 % en operaciones. Los supermercados y el consumo masivo, que pesan 24,6 % del total, bajaron 6 %; Pedro Juan Caballero fue la ciudad más golpeada (−8,7 %).",
+   "contexto": "El consumo de los hogares es el componente más grande de la demanda agregada, y los pagos electrónicos son un termómetro rápido de cómo se comporta. Según Última Hora, la caída se concentró en los primeros días tras el cierre de Ueno y luego se fue moderando: parte de las compras pasó de la tarjeta al efectivo, como explicó el viceministro de Comercio, Alberto Sborovsky. Las estaciones de servicio se mantuvieron estables (+0,1 %), lo que muestra que la demanda de bienes necesarios cae menos. El dato confirma un golpe al consumo, pero también que no hubo un derrumbe: los niveles siguen por encima de 2025.",
+   "datos": [
+    [
+     "−3,30 %",
+     "Monto de pagos electrónicos procesados, 3-20 nov frente a octubre"
+    ],
+    [
+     "−7,41 %",
+     "Cantidad de operaciones frente a octubre"
+    ],
+    [
+     "+1,92 %",
+     "Monto frente a noviembre de 2025"
+    ],
+    [
+     "+5,24 %",
+     "Operaciones frente a noviembre de 2025"
+    ],
+    [
+     "−6 %",
+     "Supermercados y consumo masivo (24,6 % del total)"
+    ],
+    [
+     "−8,7 %",
+     "Pedro Juan Caballero, la ciudad con mayor caída"
+    ],
+    [
+     "+0,1 %",
+     "Estaciones de servicio frente a octubre (+13 % interanual)"
+    ]
+   ],
+   "clave": [
+    "−3,3 %",
+    "pagos electrónicos frente a octubre"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Menos consumo con tarjeta y QR tras el cierre de Ueno: el consumo, parte de la DA, cae y la curva se mueve de DA₁ a DA₂; el producto baja levemente en el corto plazo.",
+   "pasos": [
+    "El BCP cierra Ueno Bank y sus clientes pierden acceso a sus cuentas por unos días",
+    "Muchos pasan a pagar en efectivo o postergan compras",
+    "Los pagos electrónicos caen 3,3 % en monto y 7,4 % en operaciones frente a octubre",
+    "Baja el consumo, sobre todo en supermercados y tiendas",
+    "La DA se desplaza un poco a la izquierda, aunque la caída se modera con los días"
+   ],
+   "conceptos": [
+    [
+     "Consumo (C)",
+     "Gasto de los hogares en bienes y servicios; el mayor componente de la DA."
+    ],
+    [
+     "Demanda agregada",
+     "DA = C + I + G + (X − M)."
+    ],
+    [
+     "Confianza del consumidor",
+     "Cuando cae, los hogares gastan menos y ahorran más por precaución."
+    ],
+    [
+     "Bienes necesarios",
+     "Su demanda cambia poco ante shocks, como el combustible."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da"
+   ],
+   "rel": [
+    "consumo-cae",
+    "ueno-intervencion",
+    "mipymes-fogapy",
+    "ventas-setiembre"
+   ],
+   "pregunta": {
+    "q": "Si los pagos electrónicos caen 3,3 % frente a octubre por la crisis de Ueno, ¿qué curva se desplaza y hacia dónde?",
+    "opts": [
+     "La DA, hacia la izquierda, porque baja el consumo",
+     "La OACP, hacia la derecha",
+     "La DA, hacia la derecha, porque se usa más efectivo",
+     "La OALP, hacia la izquierda"
+    ],
+    "ok": 0,
+    "fb": "Una caída del consumo reduce la DA. Usar efectivo en lugar de tarjeta no cambia la DA; lo que la reduce son las compras que no se hicieron."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Estaciones de servicio",
+      "Su demanda casi no cambió (+0,1 %) y crece 13 % frente a 2025."
+     ],
+     [
+      "Comercios del interior",
+      "Ciudades como Nueva Esperanza o Ciudad del Este siguieron creciendo."
+     ]
+    ],
+    "pierden": [
+     [
+      "Supermercados y tiendas",
+      "Venden 6 % y 3,2 % menos por medios electrónicos que en octubre."
+     ],
+     [
+      "Comercios del área metropolitana y de Pedro Juan Caballero",
+      "Allí se concentraron las caídas."
+     ]
+    ],
+    "corto": "El consumo cae en noviembre, pero la baja se fue moderando y los supermercados ya mostraban +3,1 % el 16 de noviembre, según Última Hora.",
+    "largo": "Si la confianza se recupera, el uso de pagos electrónicos seguirá creciendo; si la crisis se prolonga, puede frenar la bancarización.",
+    "supuestos": [
+     "Que parte de la caída sea solo un paso al efectivo y no menos compras",
+     "Que los datos de Bancard representen al total del comercio"
+    ],
+    "conclusion": "El shock de Ueno golpeó el consumo de forma clara pero acotada; el dato sirve como señal temprana, aunque no mide las compras en efectivo y puede exagerar la caída real del gasto."
+   }
+  },
+  {
+   "id": "dolar-agro",
+   "fecha": "2026-11-23",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/23/dolar-en-repunte-da-un-escenario-mas-tranquilizador-para-el-campo-afirma-el-mag/",
+   "opinion": false,
+   "titulo": "El dólar vuelve a G. 6.400 y el MAG ve un escenario más tranquilo para el campo",
+   "unidad": "global",
+   "tema": "4.5",
+   "kc": "interdependencia",
+   "sector": [
+    "agro"
+   ],
+   "resumen": "El ministro de Agricultura, Carlos Giménez, dijo a ABC Color que la recuperación del dólar, que volvió a rondar G. 6.400 tras caer hasta G. 5.800, da más previsibilidad a los agroexportadores después de meses de pérdida de rentabilidad. Entre enero y octubre, Paraguay exportó 8.388.016 toneladas de soja, 35 % más que en el mismo periodo de 2025, y la Capeco estima una zafra récord de 12,6 millones de toneladas. El ministro aclaró que todavía es prematuro saber si el dólar más alto impulsará nuevas inversiones.",
+   "contexto": "Los exportadores venden en dólares y pagan muchos costos en guaraníes: cuando el guaraní se aprecia (dólar barato), reciben menos guaraníes por cada tonelada vendida. Durante gran parte de 2026 el dólar estuvo bajo, incluso por debajo de G. 6.000 en octubre según casas de cambio, y eso afectó a la soja, el maíz, el trigo y la carne. La crisis de Ueno empujó la demanda de dólares y depreció el guaraní, lo que mejora la competitividad de las exportaciones. Giménez dijo que no puede afirmar si la suba es un rebote por la crisis financiera o si antes el tipo de cambio estaba presionado por el BCP.",
+   "datos": [
+    [
+     "G. 6.400",
+     "Nivel al que volvió el dólar, según ABC Color"
+    ],
+    [
+     "G. 5.800",
+     "Mínimo al que llegó semanas antes"
+    ],
+    [
+     "8.388.016 t",
+     "Soja exportada entre enero y octubre de 2026"
+    ],
+    [
+     "+35 %",
+     "Aumento frente a enero-octubre de 2025 (6.188.331 t)"
+    ],
+    [
+     "12,6 M t",
+     "Producción récord de soja estimada para la zafra 2025/26 (Capeco)"
+    ]
+   ],
+   "clave": [
+    "G. 6.400",
+    "el dólar se recupera para el campo"
+   ],
+   "fig": {
+    "k": "divisas",
+    "mueve": "O",
+    "dir": 1
+   },
+   "cap": "Tras la crisis de Ueno, más gente cambia guaraníes por dólares: la oferta de guaraníes pasa de O₁ a O₂ y el guaraní se deprecia; con un dólar más caro, las exportaciones paraguayas son más competitivas.",
+   "pasos": [
+    "Durante 2026 el guaraní se apreció y el dólar bajó hasta G. 5.800",
+    "Los exportadores recibían menos guaraníes por cada dólar vendido",
+    "La crisis de Ueno aumentó la demanda de dólares (más oferta de guaraníes)",
+    "El guaraní se depreció y el dólar volvió a G. 6.400",
+    "Los ingresos en guaraníes de los agroexportadores mejoran y hay más previsibilidad"
+   ],
+   "conceptos": [
+    [
+     "Depreciación",
+     "Pérdida de valor de una moneda en un régimen de tipo de cambio flotante."
+    ],
+    [
+     "Competitividad de precios",
+     "Con una moneda más débil, los productos del país son más baratos para los extranjeros."
+    ],
+    [
+     "Tipo de cambio flotante",
+     "Lo fija la oferta y la demanda de divisas, con intervenciones del banco central."
+    ],
+    [
+     "Previsibilidad",
+     "Un tipo de cambio estable reduce el riesgo de exportar e invertir."
+    ]
+   ],
+   "diagramas": [
+    "tipo-cambio",
+    "exportaciones"
+   ],
+   "rel": [
+    "dolar-6600",
+    "capadei-dolar",
+    "soja-record",
+    "maiz-exportaciones",
+    "guarani-cae"
+   ],
+   "pregunta": {
+    "q": "¿Por qué un dólar a G. 6.400 en lugar de G. 5.800 favorece a los exportadores de soja?",
+    "opts": [
+     "Porque reciben más guaraníes por cada dólar que cobran por sus ventas",
+     "Porque la soja se vuelve más cara en el exterior",
+     "Porque baja el precio internacional de la soja",
+     "Porque aumentan las importaciones"
+    ],
+    "ok": 0,
+    "fb": "La depreciación del guaraní aumenta el ingreso en moneda local de quien vende en dólares, y abarata el producto para los compradores extranjeros."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Agroexportadores (soja, maíz, carne)",
+      "Reciben más guaraníes por cada dólar exportado."
+     ],
+     [
+      "Productores que compiten con importaciones",
+      "Lo importado se encarece."
+     ]
+    ],
+    "pierden": [
+     [
+      "Importadores y consumidores",
+      "Los bienes importados y los insumos en dólares suben de precio."
+     ],
+     [
+      "Endeudados en dólares con ingresos en guaraníes",
+      "Su deuda pesa más en moneda local."
+     ]
+    ],
+    "corto": "Mejora la rentabilidad del campo en plena cosecha récord y hay algo más de previsibilidad.",
+    "largo": "Si el tipo de cambio se estabiliza, puede alentar inversiones en el agro; si sigue volátil, la incertidumbre frena decisiones.",
+    "supuestos": [
+     "Que la depreciación no sea un rebote pasajero por la crisis",
+     "Que los precios internacionales de la soja no caigan"
+    ],
+    "conclusion": "La depreciación ayuda a los exportadores, pero el propio ministro no sabe si es duradera; para invertir, al campo le importa más un tipo de cambio estable que uno alto."
+   }
+  },
+  {
+   "id": "exportaciones-rediex",
+   "fecha": "2026-11-23",
+   "medio": "MarketData",
+   "url": "https://marketdata.com.py/noticias/exportaciones-paraguayas-podrian-superar-los-usd-13-000-millones-en-2026-y-alcanzar-un-nuevo-record-157184/",
+   "opinion": false,
+   "titulo": "Exportaciones récord: podrían pasar US$ 13.000 millones con más industria y maquila",
+   "unidad": "global",
+   "tema": "4.10",
+   "kc": "cambio",
+   "sector": [
+    "industria",
+    "comercio"
+   ],
+   "resumen": "Las exportaciones registradas de Paraguay sumaron US$ 11.363 millones entre enero y octubre de 2026, cerca de 20 % más que un año antes, según datos del BCP citados por MarketData. El viceministro de la Rediex, Eduardo Gustale, estima que el año cerraría por encima de US$ 13.000 millones, un récord. Las manufacturas de origen industrial crecieron más de 32 % y la maquila acumuló cerca de US$ 1.300 millones, con una meta de US$ 1.500 millones a fin de año.",
+   "contexto": "Paraguay depende mucho de pocos productos primarios (soja, carne, energía), cuyos precios y cosechas son volátiles. Que crezcan las manufacturas y la maquila es una señal de diversificación de exportaciones, una estrategia de crecimiento orientada al exterior. La maquila importa insumos sin aranceles, los transforma con mano de obra local y reexporta: crea empleo formal y transfiere conocimiento. Según MarketData, Rediex ve interés de inversores en inteligencia artificial, industria forestal y minería, atraídos por la estabilidad, la energía barata y la ubicación, aunque el interés no garantiza que los proyectos se concreten.",
+   "datos": [
+    [
+     "US$ 11.363 M",
+     "Exportaciones registradas de enero a octubre de 2026 (BCP)"
+    ],
+    [
+     "≈ +20 %",
+     "Aumento frente a enero-octubre de 2025"
+    ],
+    [
+     "> US$ 13.000 M",
+     "Proyección de Rediex para todo 2026"
+    ],
+    [
+     "+32 %",
+     "Manufacturas de origen industrial, enero-octubre"
+    ],
+    [
+     "≈ US$ 1.300 M",
+     "Exportaciones de maquila hasta octubre"
+    ],
+    [
+     "US$ 1.500 M",
+     "Maquila esperada al cierre de 2026"
+    ],
+    [
+     "102",
+     "Casos de productos exportados a destinos nuevos"
+    ]
+   ],
+   "clave": [
+    "US$ 13.000 M",
+    "exportaciones esperadas en 2026"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "US$ M",
+    "rows": [
+     [
+      "Ene-oct 2026",
+      11363,
+      0
+     ],
+     [
+      "Proyección 2026",
+      13000,
+      1
+     ],
+     [
+      "Maquila a oct.",
+      1300,
+      0
+     ],
+     [
+      "Maquila 2026 (meta)",
+      1500,
+      0
+     ]
+    ]
+   },
+   "cap": "Exportaciones registradas acumuladas a octubre (US$ 11.363 millones) y la proyección de Rediex para el año; la maquila aporta cerca de US$ 1.300 millones.",
+   "pasos": [
+    "La cosecha récord y la industria impulsan las ventas al exterior",
+    "Las manufacturas crecen más de 32 % y la maquila suma US$ 1.300 millones",
+    "Se abren 102 destinos nuevos para productos paraguayos",
+    "Las exportaciones pueden superar US$ 13.000 millones en 2026",
+    "Una canasta más diversificada reduce la dependencia de las materias primas"
+   ],
+   "conceptos": [
+    [
+     "Diversificación de exportaciones",
+     "Vender más productos y a más países para depender menos de pocos bienes primarios."
+    ],
+    [
+     "Maquila",
+     "Régimen que permite importar insumos sin impuestos, transformarlos y reexportar."
+    ],
+    [
+     "Crecimiento orientado al exterior",
+     "Estrategia de desarrollo basada en exportar y atraer inversión extranjera."
+    ],
+    [
+     "Inversión extranjera directa",
+     "Empresas de otros países que instalan plantas o negocios en el país."
+    ]
+   ],
+   "diagramas": [
+    "exportaciones",
+    "politicas-oferta"
+   ],
+   "rel": [
+    "comercio-octubre",
+    "soja-record",
+    "pollo-exportaciones",
+    "uranio-ia",
+    "maiz-exportaciones"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el crecimiento de la maquila y las manufacturas ayuda al desarrollo de Paraguay?",
+    "opts": [
+     "Porque diversifica las exportaciones y reduce la dependencia de las materias primas",
+     "Porque aumenta los aranceles a las importaciones",
+     "Porque hace subir el precio de la soja",
+     "Porque reduce el empleo formal"
+    ],
+    "ok": 0,
+    "fb": "Exportar bienes industriales hace a la economía menos vulnerable a las cosechas y a los precios de los commodities, y crea empleo formal."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Trabajadores de la industria",
+      "La maquila y las manufacturas generan empleo formal."
+     ],
+     [
+      "Economía en su conjunto",
+      "Más divisas y una canasta exportadora menos concentrada."
+     ]
+    ],
+    "pierden": [
+     [
+      "Fisco en el corto plazo",
+      "La maquila paga menos impuestos que otras actividades."
+     ],
+     [
+      "Productores locales sin acceso a los incentivos",
+      "Compiten por mano de obra y energía con empresas beneficiadas."
+     ]
+    ],
+    "corto": "Las exportaciones cerrarían 2026 en un récord, lo que sostiene la entrada de divisas.",
+    "largo": "Si la industria y la maquila siguen creciendo, Paraguay depende menos del clima y de los precios de la soja.",
+    "supuestos": [
+     "Que se mantenga el ritmo de noviembre y diciembre (más de US$ 818 millones por mes)",
+     "Que el interés de los inversores se concrete en proyectos",
+     "Que la energía siga siendo barata"
+    ],
+    "conclusion": "El récord y el avance industrial son buenas noticias para el desarrollo, pero buena parte del aumento sigue viniendo de la cosecha; la diversificación todavía es incipiente."
+   }
+  },
   {
    "id": "ueno-plan-fusion",
    "fecha": "2026-11-23",
@@ -1482,8 +2073,7 @@
    ],
    "rel": [
     "eve-noviembre",
-    "liquidez-tasas",
-    "imaep-setiembre"
+    "liquidez-tasas"
    ],
    "pregunta": {
     "q": "La inflación está cerca del piso del rango y la demanda se frena por Ueno. ¿Qué haría normalmente un banco central con metas de inflación?",
@@ -2762,7 +3352,6 @@
    ],
    "rel": [
     "pgn-suspendido",
-    "deuda-setiembre",
     "caja-fiscal-octubre"
    ],
    "pregunta": {
@@ -3381,16 +3970,36 @@
   },
   {
    "id": "hambre-cero-recorte",
-   "fecha": "2026-11-22",
+   "fecha": "2026-11-23",
    "medio": "La Nación",
    "url": "https://www.lanacion.com.py/politica_edicion_impresa/2026/11/17/hambre-cero-tendra-recortes-de-hasta-usd-100-millones-en-2027/",
-   "titulo": "Hambre Cero: el Gobierno quiere ahorrar hasta US$ 100 millones en 2027",
+   "titulo": "Hambre Cero: el Gobierno quiere ahorrar US$ 130 millones por año hasta 2030",
    "unidad": "macro",
    "tema": "3.4",
    "kc": "equidad",
-   "resumen": "El presidente Pedro Alliana anunció que el almuerzo escolar de Hambre Cero se dará de marzo a noviembre y no en feriados, lo que ahorraría entre US$ 80 y US$ 100 millones en 2027, según La Nación. El ministro de Desarrollo Social, Tadeo Rojas, dijo que el servicio cubriría unos 151 a 153 días de clase con asistencia plena. Hoy ya se redujo 40 % la provisión diaria por la baja asistencia en época de exámenes. El 22 de noviembre, La Nación informó que en escuelas como una de Horqueta la alimentación escolar, a cargo de las gobernaciones, terminó el viernes 20, aunque las clases siguen hasta el 30 de noviembre.",
+   "resumen": "El presidente Pedro Alliana anunció que el almuerzo escolar de Hambre Cero se dará de marzo a noviembre y no en feriados, lo que ahorraría entre US$ 80 y US$ 100 millones en 2027, según La Nación. El ministro de Desarrollo Social, Tadeo Rojas, dijo que el servicio cubriría unos 151 a 153 días de clase con asistencia plena. Hoy ya se redujo 40 % la provisión diaria por la baja asistencia en época de exámenes. El 22 de noviembre, La Nación informó que en escuelas como una de Horqueta la alimentación escolar, a cargo de las gobernaciones, terminó el viernes 20, aunque las clases siguen hasta el 30 de noviembre. El 23 de noviembre, tras reunirse con Alliana, los ministros Tadeo Rojas (MDS) y Luis Ramírez (MEC) anunciaron tres ajustes desde 2027, según ABC Color: almuerzo solo de marzo a octubre (ahorro de casi US$ 70 millones por año), 10 % menos en las órdenes de servicio por la inasistencia habitual de 10 % a 15 % (US$ 44,2 millones por año) y un precio más bajo del catering. En total, Rojas estimó un ahorro cercano a US$ 130 millones por año y US$ 460 millones hasta julio de 2030. Ese día, el titular de la Comisión de Hacienda del Senado, Silvio Ovelar, dijo a Última Hora que la idea sigue siendo recortar unos US$ 70 a 80 millones reduciendo los días de servicio.",
    "contexto": "Hambre Cero es una transferencia en especie que busca mejorar la nutrición y la asistencia escolar de los niños, sobre todo de familias pobres: es un programa de equidad. En plena revisión del Presupuesto 2027, con un déficit de 3,9 % del PIB, el Gobierno busca recortar gastos sin quitar el beneficio en los días de clase. El argumento oficial es de eficiencia: no pagar comida que se desperdicia cuando los alumnos no van a la escuela. La pregunta económica es si el ahorro reduce solo el desperdicio o también deja sin comida a niños que la necesitan.",
    "datos": [
+    [
+     "US$ 130 M",
+     "Ahorro anual estimado con los tres ajustes desde 2027 (ABC Color, 23 nov)"
+    ],
+    [
+     "US$ 460 M",
+     "Ahorro total estimado entre 2027 y julio de 2030"
+    ],
+    [
+     "≈ US$ 70 M",
+     "Ahorro anual por dar el almuerzo solo de marzo a octubre"
+    ],
+    [
+     "US$ 44,2 M",
+     "Ahorro anual por recortar 10 % las órdenes de servicio"
+    ],
+    [
+     "10–15 %",
+     "Inasistencia escolar habitual, según el MDS"
+    ],
     [
      "US$ 80–100 M",
      "Ahorro estimado en 2027 con el nuevo calendario"
@@ -3421,31 +4030,31 @@
     ]
    ],
    "clave": [
-    "US$ 100 M",
-    "ahorro buscado en Hambre Cero"
+    "US$ 130 M",
+    "ahorro anual buscado en Hambre Cero"
    ],
    "fig": {
     "k": "barras",
-    "u": "US$ M",
+    "u": "US$ M por año",
     "rows": [
      [
-      "Ahorro mínimo",
-      80,
+      "Calendario mar-oct",
+      70,
       0
      ],
      [
-      "Ahorro máximo",
-      100,
+      "10 % menos órdenes",
+      44.2,
+      0
+     ],
+     [
+      "Total estimado",
+      130,
       1
-     ],
-     [
-      "Parte del MDS",
-      16,
-      0
      ]
     ]
    },
-   "cap": "El Gobierno estima ahorrar entre US$ 80 y 100 millones en 2027; US$ 16 millones corresponden al Ministerio de Desarrollo Social.",
+   "cap": "El Gobierno estima ahorrar unos US$ 130 millones por año desde 2027: casi US$ 70 millones por acortar el calendario, US$ 44,2 millones por recortar 10 % las órdenes de servicio y el resto por un catering más barato.",
    "pasos": [
     "El Presupuesto 2027 tiene un déficit alto y el Gobierno busca recortes",
     "Hambre Cero se limitará a los días con asistencia plena",
@@ -3512,7 +4121,7 @@
       "Venden menos raciones al Estado."
      ]
     ],
-    "corto": "El Presupuesto 2027 suma un ahorro de hasta US$ 100 millones.",
+    "corto": "El Presupuesto 2027 suma un ahorro de hasta US$ 130 millones por año, aunque el Senado habla de US$ 70 a 80 millones.",
     "largo": "Si el recorte afecta la nutrición o la asistencia, puede dañar la educación y el capital humano de los más pobres.",
     "supuestos": [
      "Que la asistencia sea realmente baja en febrero y noviembre",
@@ -3530,6 +4139,16 @@
      "La Nación",
      "https://www.lanacion.com.py/pais/2026/11/22/alumnos-quedan-sin-alimentacion-por-suspension-de-hambre-cero/",
      "2026-11-22"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/23/hambre-cero-gobierno-busca-ahorrar-us-130-millones-anuales-y-sostener-el-programa-hasta-2030/",
+     "2026-11-23"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/senado-objeta-recortes-transversales-planteados-por-el-ejecutivo-en-pgn-2027",
+     "2026-11-23"
     ]
    ]
   },
@@ -4180,7 +4799,6 @@
     "da-oa-da"
    ],
    "rel": [
-    "imaep-setiembre",
     "consumo-cae"
    ],
    "pregunta": {
@@ -4779,137 +5397,6 @@
    }
   },
   {
-   "id": "imaep-setiembre",
-   "fecha": "2026-11-11",
-   "medio": "5Días",
-   "url": "https://5dias.com.py/article/economa-acumula-crecimiento-de-55-al-cierre-del-mes-de-setiembre",
-   "titulo": "La economía creció 3,9 % en septiembre y acumula 5,5 % en el año",
-   "unidad": "macro",
-   "tema": "3.1",
-   "kc": "cambio",
-   "inst": [
-    "bcp"
-   ],
-   "resumen": "El Indicador Mensual de Actividad Económica (IMAEP) del BCP creció 3,9 % en septiembre frente a septiembre de 2025, y la economía acumuló una expansión de 5,5 % entre enero y septiembre. Impulsaron la generación de electricidad, las manufacturas y los servicios; en cambio, el transporte, los servicios a empresas y las telecomunicaciones tuvieron un mal desempeño. Sin agricultura ni binacionales, el indicador subió 4,0 % en septiembre y 4,9 % en el año.",
-   "contexto": "El IMAEP es un adelanto mensual del PIB: permite ver cómo va la economía sin esperar los datos trimestrales. Que crezca 3,9 % en septiembre muestra que la economía venía fuerte antes de la crisis de Ueno, aunque más lenta que en agosto (6,7 %). El indicador que excluye la agricultura y las binacionales es importante porque la soja y la energía dependen del clima y pueden inflar o reducir el total. Los datos de octubre y noviembre mostrarán si la crisis bancaria frenó la demanda agregada.",
-   "datos": [
-    [
-     "3,9 %",
-     "Crecimiento interanual del IMAEP en septiembre"
-    ],
-    [
-     "5,5 %",
-     "Crecimiento acumulado enero-septiembre"
-    ],
-    [
-     "4,0 %",
-     "IMAEP sin agricultura ni binacionales (septiembre)"
-    ],
-    [
-     "4,9 %",
-     "Ese indicador, acumulado en el año"
-    ]
-   ],
-   "clave": [
-    "3,9 %",
-    "creció la economía en septiembre"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "% interanual",
-    "rows": [
-     [
-      "Jun",
-      5.6,
-      0
-     ],
-     [
-      "Jul",
-      5.5,
-      0
-     ],
-     [
-      "Ago",
-      6.7,
-      0
-     ],
-     [
-      "Sep",
-      3.9,
-      1
-     ]
-    ]
-   },
-   "cap": "Variación interanual del IMAEP por mes: septiembre crece menos que agosto, pero la economía sigue en expansión.",
-   "pasos": [
-    "Más generación eléctrica, manufacturas y servicios",
-    "Sube la producción del mes frente a un año antes",
-    "El IMAEP crece 3,9 %",
-    "El acumulado del año llega a 5,5 %",
-    "Es la base antes del golpe de la crisis de Ueno"
-   ],
-   "conceptos": [
-    [
-     "IMAEP",
-     "Indicador mensual que anticipa la evolución del PIB."
-    ],
-    [
-     "Variación interanual",
-     "Cambio frente al mismo mes del año anterior."
-    ],
-    [
-     "PIB real",
-     "Valor de la producción a precios constantes, sin el efecto de la inflación."
-    ],
-    [
-     "Ciclo económico",
-     "Subidas y bajadas de la actividad alrededor de su tendencia."
-    ]
-   ],
-   "diagramas": [
-    "da-oa-oacp"
-   ],
-   "rel": [
-    "consumo-cae"
-   ],
-   "pregunta": {
-    "q": "¿Por qué el BCP publica también un IMAEP sin agricultura ni binacionales?",
-    "opts": [
-     "Porque la soja y la energía dependen mucho del clima y pueden distorsionar el total",
-     "Porque esos sectores no forman parte del PIB",
-     "Porque así el crecimiento siempre parece mayor",
-     "Porque la ley prohíbe medir la agricultura cada mes"
-    ],
-    "ok": 0,
-    "fb": "La agricultura y la energía de Itaipú y Yacyretá varían mucho con la lluvia; quitarlas permite ver mejor la tendencia del resto de la economía."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Trabajadores e industria",
-      "Más producción suele traer más empleo e ingresos."
-     ],
-     [
-      "El Estado",
-      "Más actividad significa más recaudación."
-     ]
-    ],
-    "pierden": [
-     [
-      "Transporte y telecomunicaciones",
-      "Fueron los sectores con peor desempeño en septiembre."
-     ]
-    ],
-    "corto": "El dato es anterior a la crisis de Ueno: octubre y noviembre pueden mostrar un freno del consumo y del crédito.",
-    "largo": "Si la confianza se recupera, la economía puede seguir creciendo cerca de su tendencia de 4 %.",
-    "supuestos": [
-     "Que la crisis bancaria no reduzca con fuerza el crédito ni el consumo.",
-     "Que el clima acompañe a la próxima cosecha."
-    ],
-    "conclusion": "La economía llegó fuerte a la crisis, lo que da margen, pero el freno del crédito puede bajar el crecimiento de fin de año."
-   }
-  },
-  {
    "id": "mtess-ueno",
    "fecha": "2026-11-17",
    "medio": "Última Hora",
@@ -4988,8 +5475,7 @@
     "da-oa-da"
    ],
    "rel": [
-    "consumo-cae",
-    "informalidad-bid"
+    "consumo-cae"
    ],
    "pregunta": {
     "q": "¿Qué tipo de desempleo reduce principalmente el dictamen del Ministerio de Trabajo?",
@@ -5297,280 +5783,11 @@
    }
   },
   {
-   "id": "deuda-setiembre",
-   "fecha": "2026-11-09",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/deuda-publica-asciende-a-usd-22-569-millones-13-2-mas-que-el-2025",
-   "titulo": "La deuda pública llega a US$ 22.569 millones, 35,4 % del PIB",
-   "unidad": "macro",
-   "tema": "3.6",
-   "kc": "sostenibilidad",
-   "inst": [
-    "mef"
-   ],
-   "resumen": "Según datos del MEF publicados por Última Hora, la deuda pública llegó a US$ 22.569,1 millones en septiembre de 2026, el 35,4 % del PIB: US$ 2.649,3 millones más que un año antes (+13,2 %) y 10,3 % más que al cierre de 2025. El 82,1 % es deuda externa y el 57,9 % son bonos.",
-   "contexto": "La deuda crece porque el Estado gasta más de lo que recauda (déficit fiscal) y cubre la diferencia pidiendo prestado. La deuda en guaraníes sube (29 % del total) y la deuda en moneda extranjera baja de 77,3 % a 69 %, lo que protege al Estado cuando el guaraní se deprecia, como pasó en noviembre con la crisis de Ueno. Según Última Hora, el proyecto de Presupuesto 2027 prevé que la deuda siga subiendo; algunos economistas, sin nombre en el artículo, plantean que podría llegar a 60 % o 70 % del PIB.",
-   "datos": [
-    [
-     "US$ 22.569,1 M",
-     "Deuda pública a septiembre de 2026"
-    ],
-    [
-     "35,4 %",
-     "Deuda sobre el PIB"
-    ],
-    [
-     "+13,2 %",
-     "Aumento en un año (US$ 2.649,3 M más)"
-    ],
-    [
-     "82,1 %",
-     "Parte que es deuda externa"
-    ],
-    [
-     "69 %",
-     "Parte en moneda extranjera (77,3 % un año antes)"
-    ]
-   ],
-   "clave": [
-    "35,4 %",
-    "del PIB es deuda pública"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "US$ millones",
-    "rows": [
-     [
-      "Dic 2025",
-      20447.9
-     ],
-     [
-      "Sep 2026",
-      22569.1,
-      1
-     ]
-    ]
-   },
-   "cap": "Deuda pública de Paraguay, en millones de dólares, según el MEF vía Última Hora.",
-   "pasos": [
-    "El Estado gasta más de lo que recauda (déficit)",
-    "Emite bonos y toma préstamos para cubrir la diferencia",
-    "La deuda sube a US$ 22.569 millones",
-    "Pagar intereses resta recursos a otros gastos",
-    "Si el guaraní se deprecia, la deuda en dólares pesa más"
-   ],
-   "conceptos": [
-    [
-     "Deuda pública",
-     "Lo que el Estado debe a acreedores internos y externos."
-    ],
-    [
-     "Déficit fiscal",
-     "Cuando el gasto público supera los ingresos en un año."
-    ],
-    [
-     "Ratio deuda/PIB",
-     "Mide la deuda frente al tamaño de la economía."
-    ],
-    [
-     "Riesgo cambiario",
-     "La deuda en dólares se encarece en guaraníes cuando el guaraní se deprecia."
-    ]
-   ],
-   "diagramas": [
-    "politica-fiscal",
-    "bonos"
-   ],
-   "rel": [
-    "pgn-suspendido",
-    "bonos-embi",
-    "guarani-cae"
-   ],
-   "pregunta": {
-    "q": "Si el guaraní se deprecia, ¿qué pasa con el peso de la deuda pública en dólares?",
-    "opts": [
-     "Aumenta: se necesitan más guaraníes para pagar cada dólar",
-     "Disminuye automáticamente",
-     "No cambia",
-     "Se convierte en deuda interna"
-    ],
-    "ok": 0,
-    "fb": "La deuda en moneda extranjera se paga en dólares; si el guaraní vale menos, el Estado necesita más guaraníes de impuestos para pagarla."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Beneficiarios del gasto público",
-      "La deuda financia obras y programas que no alcanzan a cubrir los impuestos."
-     ],
-     [
-      "Inversores en bonos",
-      "Reciben intereses de un país con grado de inversión."
-     ]
-    ],
-    "pierden": [
-     [
-      "Contribuyentes futuros",
-      "Tendrán que pagar los intereses y el capital."
-     ],
-     [
-      "Otros gastos públicos",
-      "Más intereses dejan menos espacio para salud, educación o inversión (costo de oportunidad)."
-     ]
-    ],
-    "corto": "La crisis de Ueno y la suba del riesgo país pueden encarecer las próximas emisiones de bonos.",
-    "largo": "Con 35,4 % del PIB la deuda sigue siendo moderada, pero si los déficits continúan el ratio seguirá subiendo y la calificación podría peligrar.",
-    "supuestos": [
-     "Que la economía siga creciendo y el PIB crezca más que la deuda",
-     "Que las tasas internacionales no suban"
-    ],
-    "conclusion": "La deuda de Paraguay todavía es baja frente a la región, pero crece rápido; la clave es que el Presupuesto 2027 reduzca el déficit para que el ratio no siga en aumento."
-   }
-  },
-  {
-   "id": "informalidad-bid",
-   "fecha": "2026-11-10",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/negocios/2026/11/10/indice-bid-hay-empleo-e-ingresos-suficientes-pero-la-informalidad-sobra/",
-   "titulo": "Mucho empleo, poca formalidad: Paraguay en el índice laboral del BID",
-   "unidad": "global",
-   "tema": "4.8",
-   "kc": "equidad",
-   "inst": [
-    "ine"
-   ],
-   "resumen": "En el Índice de Mejores Trabajos 2026 del BID, citado por ABC Color, Paraguay queda 7.º de 17 países con 59,8 puntos, sobre el promedio regional (58). Es 3.º en cantidad de empleo (80 puntos), pero 10.º en calidad (39,4) y 12.º de 15 en formalidad (20,1 puntos).",
-   "contexto": "El índice mide dos cosas: cuántas personas trabajan y si esos trabajos son formales y pagan lo suficiente para salir de la pobreza. Paraguay crea empleo, pero según el INE el 61,6 % de los ocupados no agropecuarios era informal en el segundo trimestre de 2026, y en microempresas la informalidad llega a 73 %. Los trabajadores informales no aportan a la jubilación ni tienen seguro social, y el BID advierte que la informalidad baja los salarios, aumenta la desigualdad y frena la productividad. Por eso es una barrera al desarrollo, no solo un problema del mercado laboral.",
-   "datos": [
-    [
-     "7.º de 17",
-     "Puesto de Paraguay en el índice (59,8 puntos)"
-    ],
-    [
-     "80",
-     "Puntaje en cantidad de empleo (3.º de la región)"
-    ],
-    [
-     "39,4",
-     "Puntaje en calidad (10.º; región: 40,6)"
-    ],
-    [
-     "20,1",
-     "Puntaje en formalidad (12.º de 15)"
-    ],
-    [
-     "61,6 %",
-     "Informalidad de ocupados no agropecuarios (INE, 2.º trim. 2026)"
-    ]
-   ],
-   "clave": [
-    "20,1",
-    "puntos en formalidad (12.º de 15)"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "puntos (0 a 100)",
-    "rows": [
-     [
-      "Cantidad",
-      80
-     ],
-     [
-      "Salario suficiente",
-      58.7
-     ],
-     [
-      "Calidad",
-      39.4
-     ],
-     [
-      "Formalidad",
-      20.1,
-      1
-     ]
-    ]
-   },
-   "cap": "Puntajes de Paraguay en el Índice de Mejores Trabajos 2026 del BID, según ABC Color. La formalidad es el punto más débil.",
-   "pasos": [
-    "Muchas personas trabajan, pero en empresas pequeñas y sin registro",
-    "No aportan a la jubilación ni al seguro social",
-    "Las empresas informales no acceden a crédito y crecen poco",
-    "La productividad y los salarios quedan bajos",
-    "El desarrollo se frena y la desigualdad persiste"
-   ],
-   "conceptos": [
-    [
-     "Empleo informal",
-     "Trabajo sin registro, sin aportes a la seguridad social ni protección laboral."
-    ],
-    [
-     "Calidad del empleo",
-     "Si el trabajo es formal y paga lo suficiente para salir de la pobreza."
-    ],
-    [
-     "Barreras al desarrollo",
-     "Factores que impiden que el crecimiento mejore el bienestar de toda la población."
-    ],
-    [
-     "Productividad",
-     "Producción por trabajador; sube con capital, capacitación y tecnología."
-    ]
-   ],
-   "diagramas": [
-    "politicas-oferta"
-   ],
-   "rel": [],
-   "pregunta": {
-    "q": "¿Por qué la alta informalidad es una barrera al desarrollo económico?",
-    "opts": [
-     "Porque deja a los trabajadores sin protección social y frena la productividad",
-     "Porque aumenta el desempleo a cero",
-     "Porque sube la inflación",
-     "Porque aprecia el guaraní"
-    ],
-    "ok": 0,
-    "fb": "Los trabajadores informales no tienen jubilación ni seguro, y las empresas informales invierten y crecen poco: el crecimiento no se traduce en más bienestar."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Trabajadores con empleo",
-      "Paraguay tiene alta participación y ocupación: 3.º en la región en cantidad de empleo."
-     ],
-     [
-      "Microempresas informales",
-      "Evitan costos de registro, impuestos y aportes en el corto plazo."
-     ]
-    ],
-    "pierden": [
-     [
-      "Trabajadores informales",
-      "No tienen jubilación, seguro médico ni protección ante despidos."
-     ],
-     [
-      "IPS y el Estado",
-      "Menos aportantes y menos recaudación para financiar servicios."
-     ],
-     [
-      "Mujeres",
-      "Su puntaje de formalidad (17,1) es menor que el de los hombres (23,2)."
-     ]
-    ],
-    "corto": "La informalidad no cambia rápido; el desafío es formalizar a quienes ya trabajan y ganan.",
-    "largo": "Si se reducen los costos de formalizarse y se mejora la capacitación, puede subir la productividad y la cobertura de jubilaciones.",
-    "supuestos": [
-     "Que los datos del BID sean comparables entre países",
-     "Que formalizarse no sea demasiado caro para las microempresas"
-    ],
-    "conclusion": "Paraguay resolvió bastante bien la cantidad de empleo, pero no la calidad; las políticas de oferta que bajan el costo de formalizarse podrían convertir ese empleo en desarrollo."
-   }
-  },
-  {
    "id": "itaipu-tarifa-2027",
-   "fecha": "2026-11-18",
+   "fecha": "2026-11-23",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/itaipu-inicia-la-cuenta-regresiva-para-negociar-la-tarifa",
-   "titulo": "Itaipú cambia de director y apura la tarifa 2027: acuerdo con Brasil antes del 31 de diciembre",
+   "titulo": "Itaipú: nuevo Consejo y visita del canciller de Brasil a 39 días de que venza la tarifa",
    "unidad": "micro",
    "tema": "2.11",
    "kc": "interdependencia",
@@ -5580,9 +5797,21 @@
    "mundo": [
     "brasil"
    ],
-   "resumen": "Félix Sosa, que volvió a presidir la ANDE el lunes 9, dijo a Última Hora que urge definir la tarifa de Itaipú y el acuerdo operativo antes de que venzan el 31 de diciembre de 2026. Según el entendimiento de mayo de 2024, desde 2027 la tarifa reflejaría solo el costo estricto de operación; con la fórmula del Cecuse quedaría entre US$ 8 y US$ 10 por kW al mes. El 16 de noviembre Última Hora informó que, tras la destitución de Santiago Peña, el Ejecutivo aún no dijo públicamente quién negociará por Paraguay. Según el ingeniero Guillermo López Flores, si no hay acuerdo antes del 31 de diciembre Brasil pagaría la tarifa técnica y Paraguay perdería unos US$ 650 millones anuales para obras; para la ANDE, en cambio, la tarifa de compra bajaría entre 38 % y 48 %. El 18 de noviembre, el presidente Alliana reemplazó a Justo Zacarías Irún por el ingeniero Hugo Zárate como director general paraguayo de Itaipú, tras conocerse que la binacional tenía US$ 163,8 millones y G. 115.200 millones depositados en Ueno, según Última Hora. El canciller Rubén Ramírez Lezcano dijo que la meta es definir la tarifa antes del 31 de diciembre y negociar el Anexo C durante 2027; el equipo técnico paraguayo lo encabeza el ministro de Industria y Comercio, Marco Riquelme, y Alliana aceptó reunirse con Lula en Brasilia.",
+   "resumen": "Félix Sosa, que volvió a presidir la ANDE el lunes 9, dijo a Última Hora que urge definir la tarifa de Itaipú y el acuerdo operativo antes de que venzan el 31 de diciembre de 2026. Según el entendimiento de mayo de 2024, desde 2027 la tarifa reflejaría solo el costo estricto de operación; con la fórmula del Cecuse quedaría entre US$ 8 y US$ 10 por kW al mes. El 16 de noviembre Última Hora informó que, tras la destitución de Santiago Peña, el Ejecutivo aún no dijo públicamente quién negociará por Paraguay. Según el ingeniero Guillermo López Flores, si no hay acuerdo antes del 31 de diciembre Brasil pagaría la tarifa técnica y Paraguay perdería unos US$ 650 millones anuales para obras; para la ANDE, en cambio, la tarifa de compra bajaría entre 38 % y 48 %. El 18 de noviembre, el presidente Alliana reemplazó a Justo Zacarías Irún por el ingeniero Hugo Zárate como director general paraguayo de Itaipú, tras conocerse que la binacional tenía US$ 163,8 millones y G. 115.200 millones depositados en Ueno, según Última Hora. El canciller Rubén Ramírez Lezcano dijo que la meta es definir la tarifa antes del 31 de diciembre y negociar el Anexo C durante 2027; el equipo técnico paraguayo lo encabeza el ministro de Industria y Comercio, Marco Riquelme, y Alliana aceptó reunirse con Lula en Brasilia. El 23 de noviembre asumieron en el Consejo de Administración de Itaipú, por el Decreto 7243/2026, el expresidente Nicanor Duarte Frutos y los ministros Marco Riquelme, Rolando de Barros Barreto y Rubén Ramírez Lezcano; cobrarán solo el sueldo de consejero, que según sus declaraciones juradas es de G. 124,6 millones, informó ABC Color. Ese mismo diario anunció que el canciller de Brasil, Mauro Vieira, llega a Asunción el martes 24 para tratar Itaipú con su par paraguayo. Hoy rige una tarifa de US$ 19,28 por kW-mes; del lado brasileño, el director Enio Verri apunta a US$ 10 a US$ 12 desde 2027.",
    "contexto": "Itaipú vende electricidad sin competencia: la tarifa no la fija el mercado sino un acuerdo entre Paraguay y Brasil, como en un monopolio regulado. Como la deuda de construcción se terminó de pagar en 2023, una tarifa basada solo en el costo sería mucho más baja y abarataría la energía para la ANDE, pero también reduciría los fondos que Itaipú dedica a gastos sociales. Según el artículo, la negociación la conduce el ministro Javier Giménez, y Sosa adelantó que la ANDE volverá a vender energía al mercado libre de Brasil.",
    "datos": [
+    [
+     "US$ 19,28",
+     "Tarifa vigente por kW-mes (2024-2026)"
+    ],
+    [
+     "US$ 10–12",
+     "Tarifa que busca Brasil desde 2027, según Enio Verri (ABC Color)"
+    ],
+    [
+     "24 nov",
+     "Visita del canciller brasileño Mauro Vieira a Asunción"
+    ],
     [
      "US$ 163,8 M",
      "Fondos de Itaipú depositados en Ueno (más G. 115.200 millones)"
@@ -5658,7 +5887,6 @@
     "monopolio"
    ],
    "rel": [
-    "itaipu-opinion",
     "ande-tarifa",
     "ande-ueno",
     "ueno-deficit"
@@ -5723,6 +5951,16 @@
      "Última Hora",
      "https://www.ultimahora.com/nuevos-nombres-en-itaipu-ejecutivo-renueva-la-conduccion-paraguaya-de-la-binacional",
      "2026-11-21"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/23/itaipu-nicanor-duarte-frutos-y-tres-ministros-asumen-en-el-consejo-y-cancilleria-queda-sin-representante/",
+     "2026-11-23"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/23/canciller-de-brasil-llega-a-asuncion-para-tratar-la-tarifa-de-itaipu-con-paraguay/",
+     "2026-11-23"
     ]
    ]
   },
@@ -5854,8 +6092,7 @@
    ],
    "rel": [
     "ande-tarifa",
-    "ueno-intervencion",
-    "itaipu-opinion"
+    "ueno-intervencion"
    ],
    "pregunta": {
     "q": "¿Por qué el retraso de una línea de transmisión eléctrica afecta a la economía a largo plazo?",
@@ -6459,8 +6696,7 @@
    ],
    "rel": [
     "ande-ueno",
-    "itaipu-tarifa-2027",
-    "itaipu-opinion"
+    "itaipu-tarifa-2027"
    ],
    "pregunta": {
     "q": "Si el Estado fija la tarifa de la ANDE por debajo de su costo medio durante mucho tiempo, ¿qué es lo más probable?",
@@ -6680,19 +6916,23 @@
   },
   {
    "id": "pgn-suspendido",
-   "fecha": "2026-11-22",
+   "fecha": "2026-11-23",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/diputados-aprueban-pgn-2027-con-modificaciones-pero-mantienen-elevado-deficit-de-3-9",
-   "titulo": "Presupuesto 2027: el Senado lo trataría el 23 y 24 de noviembre, con el déficit en 3,9 %",
+   "titulo": "Presupuesto 2027: el Senado objeta los recortes generales y lo vota esta semana",
    "unidad": "macro",
    "tema": "3.6",
    "kc": "intervencion",
    "inst": [
     "mef"
    ],
-   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación. El 18 de noviembre, Última Hora informó que el Senado prevé estudiar el proyecto el lunes 23 con el ministro de Economía, Oscar Lovera, y votarlo el martes 24; el Congreso tiene hasta el 20 de diciembre para enviarlo al Ejecutivo. Ese día, funcionarios del Hospital de Clínicas marcharon contra un recorte que, según su sindicato, reduciría hasta G. 1,3 millones los ingresos de unos 6.000 trabajadores (ABC Color). El 22 de noviembre, Última Hora informó que el Senado empieza el lunes 23 con el ministro Lovera y prevé votar en plenaria el martes 24. Según ese diario, la versión con media sanción de Diputados suma G. 164,9 billones (US$ 25.546,5 millones), 10,7 % más que en 2026, con un déficit de 3,8 % del PIB, levemente por debajo del 3,9 % inicial; Diputados sumó, entre otros, fondos para el salario de médicos, la Justicia Electoral y las universidades.",
+   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación. El 18 de noviembre, Última Hora informó que el Senado prevé estudiar el proyecto el lunes 23 con el ministro de Economía, Oscar Lovera, y votarlo el martes 24; el Congreso tiene hasta el 20 de diciembre para enviarlo al Ejecutivo. Ese día, funcionarios del Hospital de Clínicas marcharon contra un recorte que, según su sindicato, reduciría hasta G. 1,3 millones los ingresos de unos 6.000 trabajadores (ABC Color). El 22 de noviembre, Última Hora informó que el Senado empieza el lunes 23 con el ministro Lovera y prevé votar en plenaria el martes 24. Según ese diario, la versión con media sanción de Diputados suma G. 164,9 billones (US$ 25.546,5 millones), 10,7 % más que en 2026, con un déficit de 3,8 % del PIB, levemente por debajo del 3,9 % inicial; Diputados sumó, entre otros, fondos para el salario de médicos, la Justicia Electoral y las universidades. El 23 de noviembre, la Comisión de Hacienda del Senado recibió al ministro Oscar Lovera. Su presidente, Silvio Ovelar, dijo a Última Hora que varios senadores rechazan los recortes generalizados a remuneraciones extraordinarias y bonificaciones y prefieren revisar entidad por entidad, protegiendo a las universidades y al MEC. Diputados había sumado G. 44.000 millones para las universidades nacionales. El Senado puede aprobar la versión inicial, la de la Comisión Bicameral, la de Diputados o una propia.",
    "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja. El 13 de noviembre el ministro Oscar Lovera dijo a Diputados que la crisis de Ueno es un caso puntual y que espera mantener la emisión de bonos en el exterior: el plan prevé colocar G. 17,4 billones (US$ 2.708,7 millones), hasta 70 % más que en 2026, el 99 % en el mercado internacional (Última Hora).",
    "datos": [
+    [
+     "G. 44.000 M",
+     "Fondos extra para universidades aprobados por Diputados (G. 20.000 M para la UNA)"
+    ],
     [
      "G. 164,9 bill.",
      "Presupuesto con media sanción de Diputados (US$ 25.546,5 M; +10,7 %)"
@@ -6913,6 +7153,11 @@
      "Última Hora",
      "https://www.ultimahora.com/en-medio-de-presion-empresarial-y-crisis-de-ueno-senadores-definen-pgn-2027-esta-semana",
      "2026-11-22"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/senado-objeta-recortes-transversales-planteados-por-el-ejecutivo-en-pgn-2027",
+     "2026-11-23"
     ]
    ]
   },
@@ -8087,114 +8332,6 @@
    ]
   },
   {
-   "id": "itaipu-opinion",
-   "fecha": "2026-11-08",
-   "medio": "ABC Color",
-   "opinion": true,
-   "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/08/gastos-sociales-de-itaipu-43-de-la-tarifa-vs-sobrecosto-para-ande/",
-   "titulo": "Opinión: los gastos sociales de Itaipú y el costo de la luz",
-   "unidad": "micro",
-   "tema": "2.7",
-   "kc": "equidad",
-   "resumen": "En una columna de opinión, el ingeniero Axel Benítez sostiene que los gastos socioambientales de Itaipú sumaron US$ 1.213,9 millones en 2025, el 43,2 % del costo del servicio. Según su cálculo, eso significó para la ANDE un sobrecosto de US$ 296,4 millones ese año.",
-   "contexto": "La tarifa de Itaipú se fijó en US$ 19,28 por kW-mes para 2024-2026, aunque la deuda de la represa se terminó de pagar en 2023. El autor argumenta que ese margen se usa para gasto social que no pasa por el Presupuesto y que pagan los usuarios en su factura de luz. Es una postura, no un dato oficial: sirve para practicar cómo separar hechos de opiniones y discutir quién gana y quién pierde con un precio regulado.",
-   "datos": [
-    [
-     "US$ 19,28",
-     "Tarifa de Itaipú por kW-mes (2024-2026)"
-    ],
-    [
-     "43,2 %",
-     "Gastos sociales sobre el costo (según el autor)"
-    ],
-    [
-     "US$ 296,4 M",
-     "Sobrecosto para la ANDE en 2025 (según el autor)"
-    ]
-   ],
-   "clave": [
-    "43,2 %",
-    "del costo, según el autor"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "US$ M",
-    "rows": [
-     [
-      "Gasto social",
-      1213.9,
-      1
-     ],
-     [
-      "Resto del costo",
-      1593.6
-     ]
-    ]
-   },
-   "cap": "Costo del servicio de Itaipú en 2025, en millones de dólares, según el cálculo del autor.",
-   "pasos": [
-    "La tarifa se mantiene aunque la deuda ya se pagó",
-    "El margen se destina a gasto social y obras",
-    "La ANDE paga más por la energía",
-    "El costo llega a los usuarios en la factura",
-    "Debate: equidad del gasto frente a eficiencia del precio"
-   ],
-   "conceptos": [
-    [
-     "Afirmación positiva",
-     "Se puede comprobar con datos: «la tarifa es US$ 19,28»."
-    ],
-    [
-     "Afirmación normativa",
-     "Es un juicio de valor: «los usuarios no deberían pagarlo»."
-    ],
-    [
-     "Precio regulado",
-     "Precio fijado por el Estado o por un acuerdo, no por el mercado."
-    ],
-    [
-     "Monopolio natural",
-     "Un solo productor abastece al mercado más barato que varios."
-    ]
-   ],
-   "diagramas": [],
-   "rel": [],
-   "pregunta": {
-    "q": "«Los usuarios no deberían pagar gastos sociales en la factura de luz.» ¿Qué tipo de afirmación es?",
-    "opts": [
-     "Normativa: es un juicio de valor",
-     "Positiva: se comprueba con datos",
-     "Un dato oficial de la ANDE",
-     "Una ley económica"
-    ],
-    "ok": 0,
-    "fb": "Dice lo que «debería» ser: es normativa. En economía conviene separar los hechos (positivos) de las opiniones (normativas)."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Beneficiarios del gasto social y de las obras",
-      "Reciben recursos de Itaipú."
-     ]
-    ],
-    "pierden": [
-     [
-      "Usuarios de la ANDE",
-      "Según el autor, pagan una energía más cara."
-     ]
-    ],
-    "corto": "Más gasto social fuera del Presupuesto.",
-    "largo": "Menos transparencia y presión sobre la tarifa de la ANDE; la negociación del Anexo C definirá la tarifa.",
-    "supuestos": [
-     "Las cifras son cálculos del autor; otros análisis pueden llegar a otros resultados."
-    ],
-    "conclusion": "Es un debate normativo: equidad (gasto social) frente a eficiencia y transparencia (precio de la energía)."
-   },
-   "sector": [
-    "energia"
-   ]
-  },
-  {
    "id": "sp-calificacion",
    "fecha": "2026-11-07",
    "medio": "La Nación",
@@ -8295,7 +8432,6 @@
    "rel": [
     "bonos-embi",
     "pgn-suspendido",
-    "deuda-setiembre",
     "alliana-gobierno"
    ],
    "pregunta": {
@@ -9420,13 +9556,13 @@
   },
   "2026-11-23": {
    "titulo": "Semana del Presupuesto: el Senado decide con Ueno de fondo",
-   "texto": "El Senado empieza el lunes 23 a estudiar el Presupuesto 2027, que Diputados aprobó con un déficit de 3,8 % del PIB, y prevé votarlo el martes 24 bajo presión de los gremios para recortar más. El fin de semana, los desarrolladores inmobiliarios advirtieron que los vaivenes del dólar frenan proyectos, y el MUVH informó que la demanda agotará los fondos de Che Róga Porã a mediados de 2027. Última Hora explicó cómo Paraguay se suma a la cadena de la inteligencia artificial con uranio y energía de Itaipú, mientras la ANDE busca al BID para no frenar obras y algunas escuelas se quedaron sin almuerzo escolar antes del fin de clases. El lunes, Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión Banco, y los inversores de los fondos de Cadiem siguen sin fecha para cobrar todo.",
+   "texto": "El Senado empezó el lunes 23 a estudiar el Presupuesto 2027 con el ministro Lovera: los senadores objetan los recortes generales y lo votarían el martes 24, mientras el Gobierno anunció ajustes en Hambre Cero para ahorrar unos US$ 130 millones por año. Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión, y los datos de Bancard muestran que los pagos electrónicos cayeron 3,3 % frente a octubre tras el cierre del banco. Con el dólar de vuelta en G. 6.400, el MAG ve un escenario más tranquilo para el campo, y Rediex prevé exportaciones récord de más de US$ 13.000 millones. En Itaipú asumió un nuevo Consejo y el canciller de Brasil llega a Asunción a negociar la tarifa, que vence el 31 de diciembre.",
    "claves": [
     "pgn-suspendido",
     "ueno-plan-fusion",
-    "capadei-dolar",
-    "uranio-ia",
-    "ande-ueno"
+    "pagos-bancard",
+    "itaipu-tarifa-2027",
+    "dolar-agro"
    ]
   }
  },
@@ -9808,6 +9944,14 @@
     [
      "2026-11-22",
      "El MUVH informa que los fondos de Che Róga Porã alcanzan hasta mediados de 2027 y tramita un segundo crédito de US$ 200 millones con Taiwán."
+    ],
+    [
+     "2026-11-23",
+     "El ministro Oscar Lovera presenta el Presupuesto 2027 ante la Comisión de Hacienda del Senado, que objeta los recortes generales."
+    ],
+    [
+     "2026-11-23",
+     "El Gobierno anuncia ajustes en Hambre Cero desde 2027: ahorro estimado de US$ 130 millones por año."
     ]
    ],
    "enlaces": [
@@ -10354,6 +10498,10 @@
    [
     "2026-11-22",
     "Los afectados por los rescates de fondos mutuos de Cadiem tienen su primera reunión con el directorio; esperan una respuesta formal esta semana."
+   ],
+   [
+    "2026-11-23",
+    "La BVA informa que Electroban pagó fuera de horario G. 2.524,9 millones de capital e intereses de bonos que vencían el 20 de noviembre; regularizó el pago, pero quedó registrado como tardío (5Días)."
    ]
   ],
   "ib": [
@@ -10467,6 +10615,15 @@
     "tema": "3.6",
     "url": "https://www.ultimahora.com/senado-tratara-proyecto-de-pgn-2027-la-proxima-semana-a-dias-de-vencer-el-plazo",
     "fuente": "Última Hora"
+   },
+   {
+    "f": "2026-11-24",
+    "t": "El canciller de Brasil, Mauro Vieira, visita Asunción",
+    "d": "Se reúne con el canciller Rubén Ramírez Lezcano; Itaipú y su tarifa 2027 son tema central.",
+    "tipo": "Energía",
+    "tema": "2.11",
+    "url": "https://www.abc.com.py/economia/2026/11/23/canciller-de-brasil-llega-a-asuncion-para-tratar-la-tarifa-de-itaipu-con-paraguay/",
+    "fuente": "ABC Color"
    },
    {
     "f": "2026-11-30",
@@ -11177,7 +11334,9 @@
     "bancos-felaban",
     "calificadoras-ueno",
     "cadiem-fondos",
-    "ueno-plan-fusion"
+    "ueno-plan-fusion",
+    "pagos-bancard",
+    "itau-proyeccion"
    ],
    "hitos": [
     [
@@ -11411,6 +11570,16 @@
      "2026-11-23",
      "Última Hora revela que el BCP aprobó en 2024 un plan que dejaba a Ueno diferir por 20 años las pérdidas de Visión.",
      "ueno-plan-fusion"
+    ],
+    [
+     "2026-11-23",
+     "Bancard: los pagos electrónicos caen 3,3 % frente a octubre entre el 3 y el 20 de noviembre; la caída se modera.",
+     "pagos-bancard"
+    ],
+    [
+     "2026-11-23",
+     "Itaú mantiene un crecimiento de 4,5 % para 2026, pero advierte más riesgos fiscales y cambiarios por Ueno.",
+     "itau-proyeccion"
     ]
    ]
   },
@@ -11533,6 +11702,16 @@
      "2026-11-22",
      "Algunas escuelas se quedan sin alimentación escolar desde el 20 de noviembre, aunque las clases siguen.",
      "hambre-cero-recorte"
+    ],
+    [
+     "2026-11-23",
+     "La Comisión de Hacienda del Senado recibe al ministro Lovera y objeta los recortes generales de Diputados.",
+     "pgn-suspendido"
+    ],
+    [
+     "2026-11-23",
+     "El Gobierno anuncia ajustes en Hambre Cero desde 2027 para ahorrar unos US$ 130 millones por año.",
+     "hambre-cero-recorte"
     ]
    ]
   },
@@ -11556,7 +11735,8 @@
     "dolar-6600",
     "bcp-cambiaria",
     "eve-noviembre",
-    "capadei-dolar"
+    "capadei-dolar",
+    "dolar-agro"
    ],
    "hitos": [
     [
@@ -11630,6 +11810,11 @@
      "2026-11-22",
      "Capadei: la volatilidad del dólar (G. 5.694 el 9 oct, G. 6.310 el 19 nov) frena proyectos inmobiliarios.",
      "capadei-dolar"
+    ],
+    [
+     "2026-11-23",
+     "El dólar vuelve a G. 6.400 y el MAG ve más previsibilidad para los agroexportadores.",
+     "dolar-agro"
     ]
    ]
   },
@@ -11653,7 +11838,8 @@
     "energia-cedida",
     "comercio-octubre",
     "pollo-exportaciones",
-    "maiz-exportaciones"
+    "maiz-exportaciones",
+    "exportaciones-rediex"
    ],
    "hitos": [
     [
@@ -11710,6 +11896,11 @@
      "2026-11-20",
      "Las exportaciones de maíz caen 37 % porque más grano se usa en el país.",
      "maiz-exportaciones"
+    ],
+    [
+     "2026-11-23",
+     "Rediex prevé exportaciones récord de más de US$ 13.000 millones en 2026, con la maquila cerca de US$ 1.500 millones.",
+     "exportaciones-rediex"
     ]
    ]
   }
@@ -14949,8 +15140,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-23",
-  "hora": "05:53",
+  "fecha": "2026-11-24",
+  "hora": "06:02",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -14958,8 +15149,8 @@
    [
     "USD",
     "Dólar estadounidense",
-    5900,
-    6400
+    6000,
+    6450
    ],
    [
     "ARS",
@@ -15051,6 +15242,11 @@
      "2026-11-23",
      5900,
      6400
+    ],
+    [
+     "2026-11-24",
+     6000,
+     6450
     ]
    ],
    "ARS": [
@@ -15121,6 +15317,11 @@
     ],
     [
      "2026-11-23",
+     3,
+     3.8
+    ],
+    [
+     "2026-11-24",
      3,
      3.8
     ]
@@ -15195,6 +15396,11 @@
      "2026-11-23",
      1000,
      1140
+    ],
+    [
+     "2026-11-24",
+     1000,
+     1140
     ]
    ],
    "EUR": [
@@ -15265,6 +15471,11 @@
     ],
     [
      "2026-11-23",
+     6000,
+     6800
+    ],
+    [
+     "2026-11-24",
      6000,
      6800
     ]
@@ -17010,6 +17221,44 @@
       [
        "politicas-oferta",
        "Políticas del lado de la oferta"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "exportaciones-rediex",
+    "to": "Exportaciones paraguayas podrían superar los USD 13.000 millones en 2026 y alcanzar un nuevo récord",
+    "fo": "2026-11-23",
+    "e": 2,
+    "niv": "Accesible",
+    "por": "Cifras claras de exportaciones, maquila y manufacturas para analizar la diversificación como estrategia de crecimiento y desarrollo.",
+    "kc": [
+     [
+      "cambio",
+      "La canasta exportadora pasa de materias primas a manufacturas y maquila."
+     ],
+     [
+      "interdependencia",
+      "El crecimiento depende de los mercados externos y de la inversión extranjera."
+     ]
+    ],
+    "dg": "Exportaciones: X sube y desplaza la DA a la derecha; o el diagrama de exportaciones con libre comercio.",
+    "ev": "Ventajas y límites de la maquila y la diversificación; cuánto del récord se debe a la cosecha y cuánto a la industria.",
+    "g": {
+     "p": [
+      "¿Cuánto exportó Paraguay de enero a octubre y cuánto espera Rediex para el año?",
+      "¿Qué sectores crecen más y qué papel tiene la maquila?",
+      "¿Qué condiciones dice Rediex que atraen a los inversores y qué duda plantea el artículo?"
+     ],
+     "d": "Las exportaciones registradas sumaron USD 11.363 millones entre enero y octubre de 2026, cerca de 20 % más que un año antes.",
+     "a": [
+      [
+       "exportaciones",
+       "Exportaciones y libre comercio"
+      ],
+      [
+       "da-desplaz",
+       "Desplazamiento de la DA"
       ]
      ]
     }
