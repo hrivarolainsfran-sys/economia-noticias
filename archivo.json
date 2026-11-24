@@ -1,5 +1,754 @@
 [
  {
+  "id": "pasaje-subsidio",
+  "fecha": "2026-11-02",
+  "medio": "RDN",
+  "url": "https://www.rdn.com.py/2026/11/02/tarifa-tecnica-del-pasaje-sube-y-eleva-subsidio-estatal",
+  "titulo": "El pasaje cuesta hasta G. 6.669, pero el pasajero paga G. 3.400: el Estado cubre la diferencia",
+  "unidad": "micro",
+  "tema": "2.7",
+  "kc": "intervencion",
+  "resumen": "Según el MOPC, la tarifa técnica del pasaje (lo que cuesta llevar a un pasajero) llegó a G. 6.669 en mayo de 2026 en los buses diferenciales y a G. 5.189 en los convencionales. Los usuarios siguen pagando G. 3.400 y G. 2.300: el Estado aporta un subsidio de G. 2.740 y G. 2.610 por pasajero.",
+  "contexto": "La tarifa técnica subió por el encarecimiento del gasoil: en octubre de 2025 era de G. 4.399 en los convencionales. Como el pasaje que paga el usuario no cambia, la diferencia la cubre el Estado con subsidios a las empresas. En 2025 el Gobierno entregó G. 402.980 millones y prevé pagar G. 29.600 millones más por diferencias tarifarias, de los que quedan pendientes G. 9.600 millones. Las empresas de Cetrapam reclaman actualizar la tarifa y cobrar lo que el Estado les debe. Una ley nueva (7617/2026) prepara un cambio en la forma de fijar las tarifas.",
+  "datos": [
+   [
+    "G. 6.669",
+    "Tarifa técnica del bus diferencial, mayo de 2026"
+   ],
+   [
+    "G. 5.189",
+    "Tarifa técnica del convencional"
+   ],
+   [
+    "G. 3.400 / G. 2.300",
+    "Lo que paga el usuario (diferencial / convencional)"
+   ],
+   [
+    "G. 2.740 / G. 2.610",
+    "Subsidio estatal por pasajero"
+   ],
+   [
+    "G. 402.980 M",
+    "Subsidios entregados en 2025"
+   ]
+  ],
+  "clave": [
+   "G. 6.669",
+   "cuesta un pasaje diferencial"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "G.",
+   "rows": [
+    [
+     "Paga el usuario",
+     3400
+    ],
+    [
+     "Subsidio del Estado",
+     2740
+    ],
+    [
+     "Tarifa técnica, mayo 2026",
+     6669,
+     1
+    ]
+   ]
+  },
+  "cap": "Bus diferencial del área metropolitana de Asunción, según el MOPC.",
+  "pasos": [
+   "Sube el precio del gasoil",
+   "Aumenta el costo de cada viaje",
+   "El pasaje para el usuario no cambia",
+   "El Estado paga la diferencia a las empresas",
+   "Sube el gasto público en subsidios"
+  ],
+  "conceptos": [
+   [
+    "Subvención (subsidio)",
+    "Pago del Estado a los productores que baja el precio para el consumidor."
+   ],
+   [
+    "Tarifa técnica",
+    "Costo de llevar a un pasajero, calculado por el Estado."
+   ],
+   [
+    "Costo de oportunidad",
+    "Lo que el Estado deja de financiar al gastar en subsidios."
+   ],
+   [
+    "Externalidad positiva",
+    "El transporte público reduce tráfico y contaminación: beneficia a terceros."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "combustibles"
+  ],
+  "pregunta": {
+   "q": "Si viajar en bus diferencial cuesta G. 6.669 y el pasajero paga G. 3.400, ¿qué parte del costo cubre el pasajero?",
+   "opts": [
+    "≈ 51 %",
+    "≈ 41 %",
+    "≈ 96 %",
+    "≈ 25 %"
+   ],
+   "ok": 0,
+   "fb": "3.400 ÷ 6.669 × 100 ≈ 51 %. El resto lo pagan el subsidio y, si falta, las empresas hasta que el Estado compense."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Pasajeros",
+     "Pagan mucho menos que el costo real."
+    ],
+    [
+     "Empresas de transporte",
+     "Reciben ingresos aunque el pasaje no suba."
+    ]
+   ],
+   "pierden": [
+    [
+     "Contribuyentes",
+     "Financian el subsidio con sus impuestos."
+    ],
+    [
+     "El fisco",
+     "Más gasto en medio de un déficit alto."
+    ]
+   ],
+   "corto": "El pasaje no sube pese al gasoil caro.",
+   "largo": "El subsidio crece con cada suba del combustible; sin mejorar el servicio, se paga más por lo mismo.",
+   "supuestos": [
+    "Que el Estado pague a tiempo a las empresas.",
+    "Tarifas técnicas de mayo de 2026; la de junio sigue en discusión."
+   ],
+   "conclusion": "El subsidio protege a los pasajeros, pero su costo para el Estado crece cada vez que sube el combustible."
+  }
+ },
+ {
+  "id": "tomate-sobreoferta",
+  "fecha": "2026-10-12",
+  "medio": "El Nacional",
+  "url": "https://elnacional.com.py/economia/tomate-g-1500-kilo-productores-rematan-su-cosecha-aun-asi-encuentran-compradores-n113440",
+  "titulo": "Tomate a G. 1.500 el kilo: sobra producción y los productores no encuentran compradores",
+  "unidad": "micro",
+  "tema": "2.3",
+  "kc": "escasez",
+  "resumen": "Según la Asociación de Productores Frutihortícolas, el tomate se vende en finca entre G. 1.500 y G. 2.000 el kilo y el locote entre G. 3.000 y G. 4.000. Aun así, los productores no consiguen compradores para toda su cosecha. Dicen que necesitarían cobrar entre G. 5.000 y G. 10.000 por kilo de tomate para cubrir sus costos.",
+  "contexto": "Hay mucha mercadería disponible al mismo tiempo, y el mercado se saturó. A eso se suman las lluvias y granizadas, que dañaron parte de los cultivos. El tomate es perecedero: no se puede guardar para venderlo cuando el precio mejore, así que el productor acepta lo que le ofrecen. Es un caso de exceso de oferta: al precio que el productor quiere, se ofrece más de lo que se compra, y el precio baja. La asociación propone vender directamente a los supermercados.",
+  "datos": [
+   [
+    "G. 1.500-2.000",
+    "Precio del kilo de tomate en finca"
+   ],
+   [
+    "G. 3.000-4.000",
+    "Precio del kilo de locote en finca"
+   ],
+   [
+    "G. 5.000-10.000",
+    "Precio por kilo que cubriría los costos del tomate, según los productores"
+   ]
+  ],
+  "clave": [
+   "G. 1.500",
+   "el kilo de tomate en finca"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "G. por kilo",
+   "rows": [
+    [
+     "Precio actual (mínimo)",
+     1500,
+     1
+    ],
+    [
+     "Precio que cubre costos (mínimo)",
+     5000
+    ]
+   ]
+  },
+  "cap": "Precio del tomate en finca frente al que pide el sector, según la Asociación de Productores Frutihortícolas.",
+  "pasos": [
+   "Muchos productores cosechan al mismo tiempo",
+   "El mercado se satura",
+   "Hay más oferta que demanda",
+   "El precio baja por debajo del costo",
+   "Como el tomate se pudre, igual se vende barato"
+  ],
+  "conceptos": [
+   [
+    "Exceso de oferta",
+    "Al precio vigente se ofrece más de lo que se quiere comprar."
+   ],
+   [
+    "Equilibrio de mercado",
+    "Precio al que la cantidad ofrecida es igual a la demandada."
+   ],
+   [
+    "Bien perecedero",
+    "Producto que se echa a perder y no se puede almacenar mucho tiempo."
+   ],
+   [
+    "Costo de producción",
+    "Lo que cuesta producir: semillas, insumos, mano de obra."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "pepino-precio"
+  ],
+  "pregunta": {
+   "q": "Si al precio que quieren los productores sobra tomate, ¿qué pasa con el precio en un mercado libre?",
+   "opts": [
+    "Baja hasta que se vende todo lo ofrecido",
+    "Sube porque hay más tomate",
+    "Se queda igual",
+    "Lo fija el supermercado"
+   ],
+   "ok": 0,
+   "fb": "Con exceso de oferta, los vendedores bajan el precio para vender; así sube la cantidad demandada hasta el equilibrio."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Consumidores",
+     "Tomate más barato."
+    ],
+    [
+     "Supermercados e intermediarios",
+     "Compran a precios bajos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Productores",
+     "Venden por debajo del costo y pierden su inversión."
+    ],
+    [
+     "Familias rurales",
+     "Menos ingresos."
+    ]
+   ],
+   "corto": "Precios muy bajos y pérdidas para el productor.",
+   "largo": "Algunos productores dejarán de plantar tomate y la oferta bajará; vender directo o industrializar podría ayudar.",
+   "supuestos": [
+    "Que los costos que informa el sector sean correctos.",
+    "Precios de octubre de 2026."
+   ],
+   "conclusion": "El exceso de oferta baja el precio, y en productos perecederos el productor casi no tiene forma de esperar."
+  }
+ },
+ {
+  "id": "empleo-1t-2026",
+  "fecha": "2026-05-01",
+  "medio": "MarketData",
+  "url": "https://marketdata.com.py/noticias/como-y-en-que-condiciones-trabajan-los-paraguayos-radiografia-del-empleo-en-2026-152357/",
+  "titulo": "Hay 117.000 ocupados más, pero crece la subocupación: cómo trabajan los paraguayos",
+  "unidad": "macro",
+  "tema": "3.3",
+  "kc": "bienestar",
+  "resumen": "Según la Encuesta Permanente de Hogares del INE, en el primer trimestre de 2026 había 3.204.472 personas ocupadas, unas 117.000 más que un año antes. El desempleo bajó de 5,5 % a 5,3 %, pero la subocupación subió de 3,1 % a 3,9 %: unas 131.483 personas trabajan menos horas de las que quisieran.",
+  "contexto": "Para medir el mercado laboral no alcanza con el desempleo. Sumando desocupados (177.961) y subocupados, 309.444 personas, el 9,1 % de la fuerza de trabajo, no tienen todo el trabajo que necesitan. Seis de cada diez subocupados son mujeres. La mayoría de los trabajadores está en microempresas, con jornadas de unas 43 horas por semana, y en el campo hay menos formalidad y menores ingresos. Es un ejemplo de por qué la tasa de desempleo puede ocultar parte del problema.",
+  "datos": [
+   [
+    "3.204.472",
+    "Personas ocupadas, 1.er trimestre de 2026"
+   ],
+   [
+    "+117.000",
+    "Ocupados más que un año antes"
+   ],
+   [
+    "5,3 %",
+    "Desempleo (5,5 % un año antes)"
+   ],
+   [
+    "3,9 %",
+    "Subocupación (3,1 % un año antes)"
+   ],
+   [
+    "9,1 %",
+    "Desocupados más subocupados sobre la fuerza de trabajo"
+   ]
+  ],
+  "clave": [
+   "9,1 %",
+   "sin todo el trabajo que necesita"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Desempleo",
+     5.3
+    ],
+    [
+     "Subocupación",
+     3.9
+    ],
+    [
+     "Total subutilizado",
+     9.1,
+     1
+    ]
+   ]
+  },
+  "cap": "Mercado laboral en el primer trimestre de 2026, según el INE.",
+  "pasos": [
+   "La economía crece",
+   "Las empresas contratan más",
+   "Baja levemente el desempleo",
+   "Pero muchos trabajan menos horas de las que quieren",
+   "El problema real es más grande que la tasa de desempleo"
+  ],
+  "conceptos": [
+   [
+    "Tasa de desempleo",
+    "Desocupados ÷ fuerza de trabajo × 100."
+   ],
+   [
+    "Subocupación",
+    "Trabajar menos horas de las que uno quisiera y poder trabajar más."
+   ],
+   [
+    "Desempleo oculto",
+    "Personas sin trabajo suficiente que no aparecen en la tasa de desempleo."
+   ],
+   [
+    "Informalidad",
+    "Trabajos sin aportes a la jubilación ni seguro social."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da"
+  ],
+  "rel": [
+   "desempleo-41",
+   "informalidad-bid"
+  ],
+  "pregunta": {
+   "q": "Hay 177.961 desocupados y 131.483 subocupados. ¿Cuántas personas no tienen todo el trabajo que necesitan?",
+   "opts": [
+    "309.444",
+    "46.478",
+    "177.961",
+    "3.204.472"
+   ],
+   "ok": 0,
+   "fb": "177.961 + 131.483 = 309.444 personas, el 9,1 % de la fuerza de trabajo."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Los 117.000 nuevos ocupados",
+     "Tienen ingresos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Subocupados, sobre todo mujeres",
+     "Ganan menos de lo que necesitan."
+    ],
+    [
+     "Trabajadores rurales",
+     "Menos formalidad y menores ingresos."
+    ]
+   ],
+   "corto": "Más empleo, pero no de calidad para todos.",
+   "largo": "Sin empleos formales y de jornada completa, el crecimiento no reduce tanto la pobreza.",
+   "supuestos": [
+    "Datos del primer trimestre: hay variaciones por estación del año."
+   ],
+   "conclusion": "La tasa de desempleo mejoró, pero la subocupación muestra que el mercado laboral tiene problemas de calidad."
+  }
+ },
+ {
+  "id": "eve-inflacion-2027",
+  "fecha": "2026-11-23",
+  "medio": "El Nacional",
+  "url": "https://elnacional.com.py/economia/inflacion-cerraria-2026-29-pero-preven-nuevas-subas-precios-diciembre-n115671",
+  "titulo": "El mercado espera 2,9 % de inflación este año y 3,5 % en 2027, justo en la meta del BCP",
+  "unidad": "macro",
+  "tema": "3.5",
+  "kc": "cambio",
+  "resumen": "Según la encuesta de expectativas del BCP de noviembre, los agentes económicos esperan que la inflación cierre 2026 en 2,9 % (antes esperaban 3 %) y que llegue a 3,5 % en 2027, igual a la meta del Banco Central. Esperan una tasa de política monetaria de 5,50 % y un dólar a G. 6.255 en diciembre y G. 6.500 a fines de 2027.",
+  "contexto": "El BCP tiene una meta de inflación de 3,5 % y usa la tasa de política monetaria para acercarse a ella. Las expectativas importan: si empresas y trabajadores esperan más inflación, suben precios y salarios por adelantado, y la inflación esperada se cumple. Que las expectativas para 2027 coincidan con la meta indica que el mercado confía en el BCP. Pero se espera más inflación en 2027 que en 2026 (0,6 puntos más) y un dólar más caro, que encarece lo importado. Son expectativas, no datos oficiales.",
+  "datos": [
+   [
+    "2,9 %",
+    "Inflación esperada para 2026"
+   ],
+   [
+    "3,5 %",
+    "Inflación esperada para 2027 (meta del BCP)"
+   ],
+   [
+    "0,3 %",
+    "Inflación esperada para noviembre"
+   ],
+   [
+    "5,50 %",
+    "Tasa de política monetaria esperada"
+   ],
+   [
+    "G. 6.500",
+    "Dólar esperado a fines de 2027"
+   ],
+   [
+    "4,5 %",
+    "Crecimiento esperado del PIB en 2026"
+   ]
+  ],
+  "clave": [
+   "3,5 %",
+   "inflación esperada para 2027"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Inflación esperada 2026",
+     2.9
+    ],
+    [
+     "Inflación esperada 2027",
+     3.5,
+     1
+    ],
+    [
+     "Meta del BCP",
+     3.5
+    ]
+   ]
+  },
+  "cap": "Mediana de la Encuesta de Expectativas de Variables Económicas del BCP, noviembre de 2026.",
+  "pasos": [
+   "El BCP fija una meta de inflación de 3,5 %",
+   "Los agentes esperan una inflación cercana a la meta",
+   "Empresas y trabajadores fijan precios y salarios con esa expectativa",
+   "El BCP mantiene la tasa en 5,50 %",
+   "La inflación se queda cerca de la meta"
+  ],
+  "conceptos": [
+   [
+    "Metas de inflación",
+    "Política en la que el banco central anuncia la inflación que busca y ajusta la tasa para lograrla."
+   ],
+   [
+    "Expectativas de inflación",
+    "La inflación que la gente espera; influye en precios y salarios."
+   ],
+   [
+    "Tasa de política monetaria",
+    "Tasa de interés de referencia que fija el banco central."
+   ],
+   [
+    "Credibilidad",
+    "Confianza en que el banco central cumplirá su meta."
+   ]
+  ],
+  "diagramas": [
+   "politica-monetaria"
+  ],
+  "rel": [
+   "eve-noviembre",
+   "tpm-noviembre"
+  ],
+  "pregunta": {
+   "q": "¿Por qué al BCP le importa que la inflación esperada para 2027 sea igual a su meta?",
+   "opts": [
+    "Porque muestra que la gente confía en que cumplirá la meta, y eso ayuda a cumplirla",
+    "Porque así puede imprimir más dinero",
+    "Porque la inflación esperada siempre es la real",
+    "Porque baja el tipo de cambio"
+   ],
+   "ok": 0,
+   "fb": "Si las expectativas están en la meta, empresas y trabajadores fijan precios y salarios de acuerdo con ella: la credibilidad del banco central hace más fácil controlar la inflación."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Hogares",
+     "Inflación baja y previsible protege su poder de compra."
+    ],
+    [
+     "El BCP",
+     "Su credibilidad le permite no subir la tasa."
+    ]
+   ],
+   "pierden": [
+    [
+     "Importadores y consumidores de importados",
+     "Un dólar más caro sube precios en 2027."
+    ]
+   ],
+   "corto": "Precios estables a fin de año.",
+   "largo": "Más inflación en 2027; el BCP deberá decidir si sube la tasa.",
+   "supuestos": [
+    "Son expectativas, no datos oficiales.",
+    "Que la crisis de Ueno no cambie el escenario."
+   ],
+   "conclusion": "Las expectativas ancladas en la meta muestran confianza en el BCP, aunque se espera más inflación el próximo año."
+  }
+ },
+ {
+  "id": "carne-99m",
+  "fecha": "2026-11-14",
+  "medio": "El Nacional",
+  "url": "https://elnacional.com.py/economia/paraguay-exporta-menos-carne-pierde-usd-99-millones-n115209",
+  "titulo": "Se exporta 23 % menos carne, pero a 22,4 % más por tonelada: Paraguay pierde US$ 99 millones",
+  "unidad": "global",
+  "tema": "4.1",
+  "kc": "interdependencia",
+  "resumen": "Según el BCP, entre enero y octubre de 2026 Paraguay exportó unas 230.500 toneladas de carne bovina, 23 % menos que en 2025, por US$ 1.638,5 millones: 5,7 % menos en valor, unos US$ 99 millones. El precio promedio subió de US$ 5.807 a US$ 7.108 por tonelada (+22,4 %).",
+  "contexto": "El ingreso por exportaciones es precio por cantidad. Como el precio internacional subió mucho, el valor cayó bastante menos que el volumen. Los destinos cambian: Chile, el principal comprador, compró 9,3 % menos en valor; Estados Unidos creció 61,8 % e Israel 59,5 %. Entre los tres suman el 66,8 % de los ingresos, y Paraguay vendió carne a 52 países. Depender de pocos compradores es un riesgo, pero abrir mercados como Estados Unidos ayuda a diversificar.",
+  "datos": [
+   [
+    "230.500 t",
+    "Carne bovina exportada, enero-octubre (−23 %)"
+   ],
+   [
+    "US$ 1.638,5 M",
+    "Valor exportado (−5,7 %)"
+   ],
+   [
+    "US$ 99 M",
+    "Ingresos que se dejaron de recibir"
+   ],
+   [
+    "US$ 7.108",
+    "Precio promedio por tonelada (US$ 5.807 en 2025)"
+   ],
+   [
+    "+61,8 %",
+    "Ventas a Estados Unidos en valor"
+   ],
+   [
+    "52",
+    "Países compradores"
+   ]
+  ],
+  "clave": [
+   "US$ 99 M",
+   "menos por carne exportada"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ por t",
+   "rows": [
+    [
+     "2025",
+     5807
+    ],
+    [
+     "2026",
+     7108,
+     1
+    ]
+   ]
+  },
+  "cap": "Precio promedio por tonelada de carne bovina exportada, enero-octubre, según el BCP.",
+  "pasos": [
+   "Hay menos ganado para faenar",
+   "Se exporta menos carne",
+   "El precio internacional sube",
+   "El ingreso cae menos que el volumen",
+   "Crecen mercados nuevos como Estados Unidos"
+  ],
+  "conceptos": [
+   [
+    "Ingreso por exportaciones",
+    "Precio × cantidad exportada."
+   ],
+   [
+    "Precio internacional",
+    "Precio fijado en el mercado mundial, que Paraguay toma como dado."
+   ],
+   [
+    "Diversificación de mercados",
+    "Vender a más países para no depender de pocos compradores."
+   ],
+   [
+    "Términos de intercambio",
+    "Relación entre los precios de lo que un país exporta y lo que importa."
+   ]
+  ],
+  "diagramas": [
+   "exportaciones"
+  ],
+  "rel": [
+   "carne-cae",
+   "cpc-tomador-precios"
+  ],
+  "pregunta": {
+   "q": "Si la cantidad exportada cae 23 % y el precio sube 22,4 %, ¿por qué el valor cae solo 5,7 %?",
+   "opts": [
+    "Porque el precio más alto compensa en parte la menor cantidad",
+    "Porque se exportó a más países",
+    "Porque el guaraní se apreció",
+    "Porque el BCP compró carne"
+   ],
+   "ok": 0,
+   "fb": "Valor = precio × cantidad: 0,77 × 1,224 ≈ 0,94, es decir, unos 6 % menos."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Frigoríficos y ganaderos",
+     "Mejor precio por tonelada."
+    ],
+    [
+     "Diversificación",
+     "Estados Unidos e Israel ganan peso."
+    ]
+   ],
+   "pierden": [
+    [
+     "El país",
+     "US$ 99 millones menos de divisas."
+    ],
+    [
+     "Trabajadores de frigoríficos",
+     "Menos faena y menos trabajo."
+    ]
+   ],
+   "corto": "Menos divisas por carne.",
+   "largo": "Si el hato se recupera y los precios se mantienen, los ingresos pueden volver a crecer.",
+   "supuestos": [
+    "Que los precios internacionales sigan altos.",
+    "Datos de enero a octubre."
+   ],
+   "conclusion": "El buen precio amortigua la caída, pero el problema de fondo es que hay menos ganado."
+  }
+ },
+ {
+  "id": "energia-29-mwh",
+  "fecha": "2026-10-13",
+  "medio": "MarketData",
+  "url": "https://marketdata.com.py/noticias/costo-de-generacion-de-usd-29-mwh-posiciona-a-paraguay-entre-los-mercados-electricos-mas-competitivos-156291",
+  "titulo": "Energía a US$ 29 por MWh: Paraguay tiene electricidad limpia y barata, pero pierde hasta 10 %",
+  "unidad": "global",
+  "tema": "4.7",
+  "kc": "sostenibilidad",
+  "resumen": "Gracias a Itaipú, Yacyretá y Acaray, generar electricidad en Paraguay cuesta en promedio US$ 29 por MWh, según el especialista Victorio Oxilia, y la tarifa residencial es de US$ 0,056 por kWh, de las más bajas de la región. Pero entre 8 % y 10 % de la energía se pierde por robos o consumo no registrado.",
+  "contexto": "Paraguay genera toda su electricidad con represas: es energía renovable y barata, una ventaja para el desarrollo sostenible y para atraer industrias. La tarifa de Itaipú por energía firme ronda los US$ 37 por MWh. El precio final también incluye transmisión, distribución y pérdidas. Oxilia advierte que, si la demanda sigue creciendo, el país podría necesitar nuevas fuentes de generación más caras. Usar bien la energía disponible, reduciendo las pérdidas, es parte de un desarrollo sostenible.",
+  "datos": [
+   [
+    "US$ 29/MWh",
+    "Costo promedio de generación"
+   ],
+   [
+    "US$ 0,056/kWh",
+    "Tarifa residencial"
+   ],
+   [
+    "8-10 %",
+    "Energía sustraída o no registrada"
+   ],
+   [
+    "US$ 37/MWh",
+    "Tarifa de Itaipú por energía firme"
+   ]
+  ],
+  "clave": [
+   "US$ 29",
+   "por MWh de generación"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$/MWh",
+   "rows": [
+    [
+     "Costo promedio de generación",
+     29,
+     1
+    ],
+    [
+     "Tarifa de Itaipú (energía firme)",
+     37
+    ]
+   ]
+  },
+  "cap": "Costos de la electricidad en Paraguay, según Victorio Oxilia en MarketData.",
+  "pasos": [
+   "Las represas generan energía renovable",
+   "El costo de generar es bajo",
+   "La tarifa para el usuario es baja",
+   "Parte de la energía se pierde",
+   "Si crece la demanda, harán falta nuevas fuentes"
+  ],
+  "conceptos": [
+   [
+    "Energía renovable",
+    "La que viene de fuentes que no se agotan, como el agua de los ríos."
+   ],
+   [
+    "Desarrollo sostenible",
+    "Satisfacer las necesidades de hoy sin comprometer las de las futuras generaciones."
+   ],
+   [
+    "Pérdidas técnicas y no técnicas",
+    "Energía que se pierde en la red o por robos y conexiones ilegales."
+   ],
+   [
+    "Ventaja comparativa",
+    "Producir algo con menor costo de oportunidad que otros países."
+   ]
+  ],
+  "diagramas": [
+   "politicas-oferta"
+  ],
+  "rel": [
+   "energia-cedida",
+   "ande-tarifa"
+  ],
+  "pregunta": {
+   "q": "¿Por qué la electricidad barata y renovable ayuda al desarrollo sostenible de Paraguay?",
+   "opts": [
+    "Baja costos de producción sin emitir tanto CO₂ y puede atraer industrias",
+    "Porque se puede gastar sin límite",
+    "Porque elimina la pobreza automáticamente",
+    "Porque no requiere inversión"
+   ],
+   "ok": 0,
+   "fb": "La energía hidroeléctrica es renovable y barata: reduce costos y emisiones. Pero hay que usarla bien e invertir para cuando crezca la demanda."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Hogares",
+     "Tarifas de las más bajas de la región."
+    ],
+    [
+     "Industrias",
+     "Costos de energía bajos para producir."
+    ]
+   ],
+   "pierden": [
+    [
+     "ANDE",
+     "Pierde ingresos por la energía robada o no registrada."
+    ]
+   ],
+   "corto": "Energía barata para todos.",
+   "largo": "Si la demanda crece, habrá que invertir en nuevas fuentes, probablemente más caras.",
+   "supuestos": [
+    "Que las represas mantengan su generación (depende del agua).",
+    "El costo de US$ 29 es una estimación del especialista."
+   ],
+   "conclusion": "La energía limpia y barata es una gran ventaja, pero hay que cuidarla reduciendo pérdidas y planificando el futuro."
+  }
+ },
+ {
   "id": "exportaciones-brasil-industria",
   "fecha": "2026-10-26",
   "medio": "El Nacional",

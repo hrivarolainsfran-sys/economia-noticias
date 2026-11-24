@@ -16789,6 +16789,230 @@
       ]
      ]
     }
+   },
+   {
+    "id": "pasaje-subsidio",
+    "to": "Tarifa técnica del pasaje sube y eleva subsidio estatal",
+    "fo": "2026-11-02",
+    "e": 3,
+    "niv": "Accesible",
+    "por": "Un subsidio que se ve todos los días: el pasaje cuesta G. 6.669 y el pasajero paga G. 3.400. Muy bueno para el gobierno en los mercados y el costo de oportunidad del gasto.",
+    "kc": [
+     [
+      "intervencion",
+      "El Estado paga parte del pasaje para que no suba."
+     ],
+     [
+      "equidad",
+      "¿A quién beneficia más el subsidio al transporte?"
+     ]
+    ],
+    "dg": "Subvención: la oferta se desplaza hacia abajo y el precio para el usuario baja.",
+    "ev": "Quién gana y quién paga; si conviene subsidiar o subir el pasaje; qué pasa si sigue subiendo el gasoil.",
+    "g": {
+     "p": [
+      "¿Cuánto cuesta llevar a un pasajero y cuánto paga el usuario?",
+      "¿Cuánto aporta el Estado por pasajero?",
+      "¿Por qué subió la tarifa técnica?"
+     ],
+     "d": "La tarifa técnica del diferencial llegó a G. 6.669 en mayo de 2026; el usuario paga G. 3.400 y el Estado aporta G. 2.740.",
+     "a": [
+      [
+       "subvencion",
+       "Subvención a la producción"
+      ],
+      [
+       "ext-pos-cons",
+       "Externalidad positiva del consumo"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "tomate-sobreoferta",
+    "to": "Tomate a G. 1.500 el kilo: productores rematan su cosecha y aun así no encuentran compradores",
+    "fo": "2026-10-12",
+    "e": 2,
+    "niv": "Accesible",
+    "por": "Sobra tomate y el precio cae a G. 1.500 el kilo, muy por debajo del costo. Un caso simple de exceso de oferta con un producto que no se puede guardar.",
+    "kc": [
+     [
+      "escasez",
+      "Al revés de la escasez: hay más de lo que el mercado compra."
+     ],
+     [
+      "eleccion",
+      "El productor elige entre vender barato o perder la cosecha."
+     ]
+    ],
+    "dg": "Oferta y demanda: exceso de oferta a un precio alto; el precio baja hasta el equilibrio.",
+    "ev": "Por qué el productor no puede esperar; qué soluciones hay (venta directa, industria); si el Estado debería intervenir.",
+    "g": {
+     "p": [
+      "¿A cuánto se vende el kilo de tomate y de locote en finca?",
+      "¿Cuánto necesitarían cobrar los productores para cubrir costos?",
+      "¿Qué causas da el artículo?"
+     ],
+     "d": "El tomate se vende entre G. 1.500 y G. 2.000 el kilo, cuando cubrir los costos exigiría entre G. 5.000 y G. 10.000.",
+     "a": [
+      [
+       "equilibrio",
+       "Equilibrio de mercado"
+      ],
+      [
+       "epo-rel",
+       "Elasticidad de la oferta"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "empleo-1t-2026",
+    "to": "Cómo y en qué condiciones trabajan los paraguayos: radiografía del empleo en 2026",
+    "fo": "2026-05-01",
+    "e": 2,
+    "niv": "Media",
+    "por": "Hay más empleo, pero la subocupación sube. Sirve para discutir si la tasa de desempleo muestra todo el problema del mercado laboral.",
+    "kc": [
+     [
+      "bienestar",
+      "Trabajar menos horas de las que uno quiere reduce ingresos."
+     ],
+     [
+      "equidad",
+      "Las mujeres y los trabajadores rurales salen peor."
+     ]
+    ],
+    "dg": "Brecha deflacionaria y desempleo cíclico; puedes comentar las limitaciones de la tasa de desempleo.",
+    "ev": "Limitaciones de la tasa de desempleo; desempleo oculto; qué políticas mejorarían la calidad del empleo.",
+    "g": {
+     "p": [
+      "¿Cuántas personas están ocupadas y cuántas más que en 2025?",
+      "¿Qué pasó con el desempleo y con la subocupación?",
+      "¿Quiénes son la mayoría de los subocupados?"
+     ],
+     "d": "El desempleo bajó a 5,3 %, pero la subocupación subió a 3,9 %; en total, el 9,1 % de la fuerza de trabajo no tiene el trabajo que necesita.",
+     "a": [
+      [
+       "brecha-deflacionaria",
+       "Brecha deflacionaria"
+      ],
+      [
+       "ciclo-economico",
+       "Ciclo económico"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "eve-inflacion-2027",
+    "to": "Inflación cerraría 2026 en 2,9%, pero prevén nuevas subas de precios hasta diciembre",
+    "fo": "2026-11-23",
+    "e": 2,
+    "niv": "Exigente",
+    "por": "El mercado espera 3,5 % de inflación en 2027, justo la meta del BCP. Muy bueno para metas de inflación, expectativas y credibilidad del banco central.",
+    "kc": [
+     [
+      "cambio",
+      "Se espera más inflación en 2027 que en 2026."
+     ],
+     [
+      "intervencion",
+      "El BCP usa la tasa de interés para cumplir su meta."
+     ]
+    ],
+    "dg": "Política monetaria: el BCP sube o baja la tasa para mover la DA y acercar la inflación a la meta.",
+    "ev": "Importancia de las expectativas; si el BCP debería subir la tasa; efecto del dólar sobre la inflación.",
+    "g": {
+     "p": [
+      "¿Cuánta inflación se espera para 2026 y para 2027?",
+      "¿Cuál es la meta del BCP?",
+      "¿Qué se espera para la tasa de interés y el dólar?"
+     ],
+     "d": "Los agentes esperan una inflación de 2,9 % en 2026 y de 3,5 % en 2027, igual a la meta del BCP.",
+     "a": [
+      [
+       "politica-monetaria",
+       "Política monetaria"
+      ],
+      [
+       "inflacion-demanda",
+       "Inflación de demanda"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "carne-99m",
+    "to": "Paraguay exporta menos carne y pierde USD 99 millones",
+    "fo": "2026-11-14",
+    "e": 3,
+    "niv": "Media",
+    "por": "Se exporta 23 % menos carne pero a mejor precio, y aparecen nuevos compradores como Estados Unidos. Ideal para comercio internacional: precio, cantidad y diversificación de mercados.",
+    "kc": [
+     [
+      "interdependencia",
+      "El ingreso depende del precio mundial y de pocos compradores."
+     ],
+     [
+      "cambio",
+      "Chile pierde peso y crecen Estados Unidos e Israel."
+     ]
+    ],
+    "dg": "Libre comercio con exportaciones: precio mundial más alto y menor oferta interna.",
+    "ev": "Riesgo de depender de pocos compradores; si el precio alto compensa la menor oferta; efectos en el empleo.",
+    "g": {
+     "p": [
+      "¿Cuánta carne se exportó y cuánto bajó el volumen?",
+      "¿Cuánto subió el precio por tonelada?",
+      "¿Cuáles son los principales compradores y cómo cambiaron?"
+     ],
+     "d": "Se exportaron unas 230.500 toneladas (−23 %) por US$ 1.638,5 millones; el precio por tonelada subió 22,4 %.",
+     "a": [
+      [
+       "exportaciones",
+       "Libre comercio con exportaciones"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "energia-29-mwh",
+    "to": "Costo de generación de USD 29/MWh posiciona a Paraguay entre los mercados eléctricos más competitivos",
+    "fo": "2026-10-13",
+    "e": 2,
+    "niv": "Media",
+    "por": "Paraguay produce electricidad limpia y muy barata, pero pierde hasta 10 % y la demanda crece. Sirve para desarrollo sostenible y ventajas para atraer inversión.",
+    "kc": [
+     [
+      "sostenibilidad",
+      "Energía renovable, pero con límites si la demanda sigue creciendo."
+     ],
+     [
+      "eficiencia",
+      "Perder 8-10 % de la energía es un desperdicio de recursos."
+     ]
+    ],
+    "dg": "Políticas de oferta: energía barata baja costos y desplaza la OALP a la derecha.",
+    "ev": "Ventajas de la energía hidroeléctrica; cómo reducir pérdidas; qué pasará cuando la demanda supere la oferta.",
+    "g": {
+     "p": [
+      "¿Cuánto cuesta generar electricidad en Paraguay y cuánto paga un hogar?",
+      "¿Cuánta energía se pierde y por qué?",
+      "¿Qué riesgo ve el especialista a largo plazo?"
+     ],
+     "d": "El costo promedio de generación es de US$ 29 por MWh y se pierde entre 8 % y 10 % de la energía.",
+     "a": [
+      [
+       "oalp-aumento",
+       "Aumento de la OALP"
+      ],
+      [
+       "politicas-oferta",
+       "Políticas del lado de la oferta"
+      ]
+     ]
+    }
    }
   ],
   "enlaces": "2026-11-24"
