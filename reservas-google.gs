@@ -24,6 +24,7 @@ function doPost(e) {
     if (q.a === 'res') return salida_(reservar_(q));
     if (q.a === 'lib') return salida_(liberar_(q));
     if (q.a === 'fin') return salida_(terminar_(q));
+    if (q.a === 'aviso') return salida_(aviso_(q));
     return salida_({ ok: false, e: 'accion' });
   } finally {
     lock.releaseLock();
@@ -136,6 +137,20 @@ function avisar_(nombre, u, q) {
         '\n\nYa nadie más puede elegirlo. Para liberarlo, borrá su fila en la hoja de reservas:\n' + SpreadsheetApp.getActiveSpreadsheet().getUrl()
     });
   } catch (err) { /* si falla el correo, la reserva igual queda guardada */ }
+}
+
+/* Aviso del Taller: un alumno envió su clasificación de artículos. Máximo un correo por alumno cada 10 minutos. */
+function aviso_(q) {
+  const k = String(q.k || ''), nombre = texto_(q.n, 60), x = texto_(q.x, 200);
+  if (!/^[\w-]{8,64}$/.test(k) || norm_(nombre).length < 3) return { ok: false, e: 'datos' };
+  const c = CacheService.getScriptCache();
+  if (c.get('av_' + k)) return { ok: true, r: [] };
+  c.put('av_' + k, '1', 600);
+  try {
+    MailApp.sendEmail({ to: PROFESOR, subject: 'Taller · ' + nombre + ' envió su clasificación de artículos',
+      body: nombre + ' ' + x + '.\n\nRevisala y devolvela en el panel del profesor del Taller:\nhttps://hrivarolainsfran-sys.github.io/atlas-diagramas/taller/#profesor' });
+  } catch (err) { }
+  return { ok: true, r: [] };
 }
 
 function salida_(o) {
