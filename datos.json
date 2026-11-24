@@ -327,6 +327,11 @@
     "23 nov",
     "Bancard: los pagos electrónicos caen 3,3 % frente a octubre tras el cierre de Ueno.",
     "pagos-bancard"
+   ],
+   [
+    "24 nov",
+    "El informe favorable a la fusión Ueno–Visión se firmó en menos de una hora.",
+    "ueno-plan-fusion"
    ]
   ],
   "lentes": [
@@ -883,7 +888,6 @@
     "politicas-oferta"
    ],
    "rel": [
-    "comercio-octubre",
     "soja-record",
     "pollo-exportaciones",
     "uranio-ia",
@@ -933,7 +937,7 @@
   },
   {
    "id": "ueno-plan-fusion",
-   "fecha": "2026-11-23",
+   "fecha": "2026-11-24",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/sin-beneficios-del-bcp-no-hubiera-existido-las-facilidades-regulatorias-y-contables-que-otorgaron-a-ueno",
    "opinion": false,
@@ -944,7 +948,7 @@
    "inst": [
     "bcp"
    ],
-   "resumen": "Última Hora accedió al plan de factibilidad con el que Ueno Bank absorbió a Visión Banco en 2024. El plan pedía repartir en 20 años G. 2,68 billones de cartera deteriorada de Visión (unos US$ 420 millones) y crear un fideicomiso de G. 2,52 billones para gastos de la fusión, y que ambos montos contaran con riesgo 0 % al calcular la solvencia. La Superintendencia de Bancos consideró las proyecciones «ambiciosas pero logrables» y el directorio del BCP autorizó la fusión en mayo y junio de 2024.",
+   "resumen": "Última Hora accedió al plan de factibilidad con el que Ueno Bank absorbió a Visión Banco en 2024. El plan pedía repartir en 20 años G. 2,68 billones de cartera deteriorada de Visión (unos US$ 420 millones) y crear un fideicomiso de G. 2,52 billones para gastos de la fusión, y que ambos montos contaran con riesgo 0 % al calcular la solvencia. La Superintendencia de Bancos consideró las proyecciones «ambiciosas pero logrables» y el directorio del BCP autorizó la fusión en mayo y junio de 2024. El 24 de noviembre, Última Hora agregó que el informe técnico favorable se firmó en menos de una hora: 12 funcionarios lo firmaron entre las 16:12 y las 17:11 del 16 de mayo de 2024.",
    "contexto": "Un banco debe guardar previsiones (reservas) cuando sus créditos se vuelven incobrables, y eso reduce sus ganancias y su capital. Al diferir esas pérdidas por 20 años, el banco fusionado mostraba indicadores mejores que los reales: según el artículo, la morosidad proyectada bajaba de 7,27 % a cerca de 1 %. Es un caso de información asimétrica: depositantes, bonistas y calificadoras ven los balances, pero no lo que esconden los tratamientos especiales. También hay riesgo moral: si el regulador flexibiliza las reglas para evitar una crisis hoy, los bancos tienen menos incentivos para cuidar su riesgo. En enero de 2025, el BCP aceptó además que Ueno emitiera hasta US$ 500 millones como bonos comunes y no subordinados, que dejan de contar como capital.",
    "datos": [
     [
@@ -974,6 +978,10 @@
     [
      "US$ 500 M",
      "Bonos que el plan permitía emitir en 2024-2025"
+    ],
+    [
+     "12 firmas",
+     "Del informe técnico favorable de la Superintendencia, entre las 16:12 y las 17:11 del 16 de mayo de 2024"
     ]
    ],
    "clave": [
@@ -1084,7 +1092,14 @@
      "Que la Superintendencia haya aplicado criterios usados en casos anteriores, como dice su informe"
     ],
     "conclusion": "Flexibilizar las reglas evitó un problema en 2024, pero al ocultar pérdidas en el tiempo aumentó la información asimétrica y lo hizo más grande; la regulación bancaria funciona mejor cuando los balances muestran el riesgo real."
-   }
+   },
+   "mas": [
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/bcp-consintio-fusion-inusual-de-ueno-y-vision-informe-favorable-se-firmo-en-menos-de-una-hora",
+     "2026-11-24"
+    ]
+   ]
   },
   {
    "id": "cadiem-fondos",
@@ -2205,8 +2220,7 @@
    ],
    "rel": [
     "soja-record",
-    "pollo-exportaciones",
-    "comercio-octubre"
+    "pollo-exportaciones"
    ],
    "pregunta": {
     "q": "Las plantas de etanol compran más maíz. ¿Qué pasa en el mercado interno del maíz?",
@@ -2953,11 +2967,11 @@
   },
   {
    "id": "black-friday-cde",
-   "fecha": "2026-11-19",
+   "fecha": "2026-11-23",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/black-friday-arranca-con-una-multitud-de-compradores-en-ciudad-del-este",
    "opinion": false,
-   "titulo": "Black Friday en Ciudad del Este: esperan 500.000 visitantes, sobre todo brasileños",
+   "titulo": "Black Friday en Ciudad del Este: habría movido US$ 350 millones, menos de lo esperado",
    "unidad": "global",
    "tema": "4.6",
    "kc": "interdependencia",
@@ -2967,9 +2981,21 @@
    "mundo": [
     "brasil"
    ],
-   "resumen": "El Black Friday comenzó el 19 de noviembre en Ciudad del Este con largas filas de compradores, en su mayoría brasileños que cruzaron el Puente de la Amistad, según Última Hora. El intendente Daniel Pereira Mujica estimó que llegarán unas 500.000 personas a la región. Las tiendas ofrecen descuentos de hasta 50 % en televisores, notebooks y productos gaming; lo más buscado fueron celulares, consolas, perfumes y electrónicos.",
+   "resumen": "El Black Friday comenzó el 19 de noviembre en Ciudad del Este con largas filas de compradores, en su mayoría brasileños que cruzaron el Puente de la Amistad, según Última Hora. El intendente Daniel Pereira Mujica estimó que llegarán unas 500.000 personas a la región. Las tiendas ofrecen descuentos de hasta 50 % en televisores, notebooks y productos gaming; lo más buscado fueron celulares, consolas, perfumes y electrónicos. Al terminar, los comerciantes estimaron, según ABC Color, que los cuatro días movieron unos US$ 350 millones (US$ 300 millones el año pasado): las ventas crecieron entre 10 % y 15 %, por debajo del 30 % esperado, por la devaluación del real y la situación económica de Paraguay y Brasil.",
    "contexto": "Cuando un turista extranjero compra en Paraguay, esa venta entra al país como una exportación de servicios (turismo y comercio de frontera) en la cuenta corriente. El comercio de Ciudad del Este depende mucho de la demanda brasileña y, por lo tanto, de la economía de Brasil y del tipo de cambio entre el real y el guaraní. La fiesta llega en un momento en que el consumo local cae por la crisis de Ueno, por lo que la demanda externa es un alivio para el comercio. La Municipalidad anunció G. 25.000 millones de inversión en el microcentro para 2027.",
    "datos": [
+    [
+     "US$ 350 M",
+     "Movimiento estimado en los cuatro días (2025: US$ 300 M), según los comerciantes"
+    ],
+    [
+     "10–15 %",
+     "Aumento de las ventas frente a 2025 (se esperaba 30 %)"
+    ],
+    [
+     "30.000–44.000",
+     "Personas que cruzaron a pie el Puente de la Amistad por día, según la Receita Federal"
+    ],
     [
      "500.000",
      "Visitantes esperados en la región, según el intendente"
@@ -2988,8 +3014,8 @@
     ]
    ],
    "clave": [
-    "500.000",
-    "visitantes esperados en Ciudad del Este"
+    "US$ 350 M",
+    "movidos en cuatro días de Black Friday"
    ],
    "fig": {
     "k": "macro",
@@ -3074,7 +3100,14 @@
      "Que Brasil no endurezca los controles de compras"
     ],
     "conclusion": "El Black Friday muestra cómo la demanda externa sostiene una economía de frontera, pero también su dependencia de Brasil y del tipo de cambio."
-   }
+   },
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/este/2026/11/23/black-friday-de-ciudad-del-este-habria-movido-usd-350-millones-en-cuatro-dias/",
+     "2026-11-23"
+    ]
+   ]
   },
   {
    "id": "ueno-deficit",
@@ -4979,163 +5012,6 @@
      "Que los bancos se interesen en los lotes."
     ],
     "conclusion": "Repartir Ueno por lotes reduce el riesgo de contagio y protege a los jubilados, pero el éxito depende de la calidad real de sus activos, todavía en revisión."
-   }
-  },
-  {
-   "id": "comercio-octubre",
-   "fecha": "2026-11-12",
-   "medio": "La Nación",
-   "url": "https://www.lanacion.com.py/negocios/2026/11/12/comercio-exterior-acumula-un-superavit-de-668-millones-de-dolares-a-octubre-segun-un-informe-del-bcp/",
-   "titulo": "Superávit comercial de US$ 668,6 millones a octubre: la soja empuja las exportaciones",
-   "unidad": "global",
-   "tema": "4.6",
-   "kc": "interdependencia",
-   "inst": [
-    "bcp"
-   ],
-   "sector": [
-    "comercio",
-    "agro",
-    "industria"
-   ],
-   "resumen": "Según el informe del BCP citado por La Nación, entre enero y octubre de 2026 Paraguay exportó US$ 17.815,6 millones (25 % más que en 2025) e importó US$ 17.147,1 millones (14,5 % más). El saldo es un superávit comercial de US$ 668,6 millones, algo menor que los US$ 712 millones de septiembre. Las exportaciones registradas sumaron US$ 11.362,9 millones (+19,3 %), sobre todo por granos, aceite y harina de soja.",
-   "contexto": "La balanza comercial (exportaciones menos importaciones de bienes) es la parte más grande de la cuenta corriente de la balanza de pagos. En 2025 Paraguay cerró con déficit comercial; en 2026 la cosecha récord de soja lo dio vuelta. También crecieron las reexportaciones (US$ 4.444,1 millones, +18,6 %) y la maquila (US$ 1.300,2 millones, +26,4 %). Un superávit significa que entran más dólares por comercio de los que salen: eso aumenta la demanda de guaraníes y ayuda a explicar por qué el guaraní se había fortalecido antes de la crisis de Ueno. Como las importaciones crecen más rápido que el mes anterior, el superávit se achica.",
-   "datos": [
-    [
-     "US$ 17.815,6 M",
-     "Exportaciones totales enero-octubre (+25 %)"
-    ],
-    [
-     "US$ 17.147,1 M",
-     "Importaciones totales (+14,5 %)"
-    ],
-    [
-     "US$ 668,6 M",
-     "Superávit comercial acumulado"
-    ],
-    [
-     "US$ 11.362,9 M",
-     "Exportaciones registradas (+19,3 %)"
-    ],
-    [
-     "US$ 4.444,1 M",
-     "Reexportaciones (+18,6 %)"
-    ],
-    [
-     "US$ 1.300,2 M",
-     "Exportaciones de maquila (+26,4 %)"
-    ]
-   ],
-   "clave": [
-    "US$ 668,6 M",
-    "de superávit comercial a octubre"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "US$ millones (ene-oct 2026)",
-    "rows": [
-     [
-      "Exportaciones registradas",
-      11362.9,
-      1
-     ],
-     [
-      "Reexportaciones",
-      4444.1
-     ],
-     [
-      "Otras exportaciones",
-      2008.6
-     ],
-     [
-      "Importaciones totales",
-      17147.1
-     ]
-    ]
-   },
-   "cap": "Las tres barras de exportaciones suman US$ 17.815,6 millones, un poco más que las importaciones: la diferencia es el superávit comercial de US$ 668,6 millones.",
-   "pasos": [
-    "Paraguay cosecha y vende al exterior una cantidad récord de soja",
-    "Las exportaciones crecen más rápido (25 %) que las importaciones (14,5 %)",
-    "La balanza comercial pasa a superávit: US$ 668,6 M",
-    "Entran más dólares y aumenta la demanda de guaraníes",
-    "Las exportaciones netas (X − M) suman a la demanda agregada"
-   ],
-   "conceptos": [
-    [
-     "Balanza comercial",
-     "Exportaciones menos importaciones de bienes en un periodo."
-    ],
-    [
-     "Cuenta corriente",
-     "Parte de la balanza de pagos con el comercio de bienes y servicios, los ingresos y las transferencias (como las remesas)."
-    ],
-    [
-     "Reexportación",
-     "Venta al exterior de bienes importados, sin transformarlos mucho."
-    ],
-    [
-     "Maquila",
-     "Régimen en el que empresas transforman insumos importados para exportar, con beneficios impositivos."
-    ],
-    [
-     "Exportaciones netas",
-     "X − M, uno de los componentes de la demanda agregada."
-    ]
-   ],
-   "diagramas": [
-    "exportaciones",
-    "tipo-cambio",
-    "da-oa-da"
-   ],
-   "rel": [
-    "soja-record",
-    "remesas-2026",
-    "guarani-cae"
-   ],
-   "pregunta": {
-    "q": "Si las exportaciones crecen 25 % y las importaciones 14,5 %, ¿qué pasa con la demanda de guaraníes en el mercado de divisas?",
-    "opts": [
-     "Aumenta, porque los exportadores cambian más dólares por guaraníes",
-     "Baja, porque entran menos dólares",
-     "No cambia, el comercio no afecta al tipo de cambio",
-     "Aumenta la oferta de guaraníes"
-    ],
-    "ok": 0,
-    "fb": "Los exportadores cobran en dólares y necesitan guaraníes para pagar costos locales: la demanda de guaraníes se desplaza a la derecha y el guaraní tiende a apreciarse."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores y exportadores de soja",
-      "Venden más volumen y generan más ingresos."
-     ],
-     [
-      "Empresas de maquila y sus trabajadores",
-      "Sus exportaciones crecen 26,4 %."
-     ],
-     [
-      "Estado y BCP",
-      "Más dólares fortalecen las reservas y la recaudación."
-     ]
-    ],
-    "pierden": [
-     [
-      "Industrias que compiten con importaciones",
-      "Un guaraní más fuerte abarata los productos importados."
-     ],
-     [
-      "Economía poco diversificada",
-      "Depender tanto de la soja expone al país a sequías y a los precios mundiales."
-     ]
-    ],
-    "corto": "El superávit aporta dólares en plena volatilidad cambiaria y puede ayudar a calmar el dólar.",
-    "largo": "Si el crecimiento depende sobre todo de la soja, un mal año de clima o de precios puede volver a llevar la balanza a déficit.",
-    "supuestos": [
-     "Que los precios internacionales de la soja se mantengan.",
-     "Que la crisis de Ueno no frene las importaciones de insumos ni el crédito al comercio."
-    ],
-    "conclusion": "El superávit es una buena noticia para la balanza de pagos y el guaraní, pero muestra a la vez la dependencia de pocos productos primarios."
    }
   },
   {
@@ -9032,6 +8908,114 @@
      "2026-11-20"
     ]
    ]
+  },
+  {
+   "id": "ue-auditoria-carne",
+   "fecha": "2026-11-24",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/negocios/abc-campo/2026/11/24/auditoria-de-la-union-europea-verifica-el-sistema-sanitario-de-paraguay-para-exportar-carne/",
+   "opinion": false,
+   "titulo": "La Unión Europea audita la sanidad animal de Paraguay para seguir comprando su carne",
+   "unidad": "global",
+   "tema": "4.2",
+   "kc": "interdependencia",
+   "sector": [
+    "agro"
+   ],
+   "resumen": "Una misión de la Dirección General de Salud y Seguridad Alimentaria (DG-SANTE) de la Unión Europea revisa en persona el sistema veterinario de Paraguay hasta el 3 de diciembre, según ABC Color. Es la primera auditoría de este tipo en casi siete años, según el presidente del Senacsa, José Carlos Martin: controla fiebre aftosa, identificación y registro del ganado, y visita estancias, el laboratorio central y frigoríficos como Frigochorti, en Boquerón. Además, Egipto extendió hasta el 31 de diciembre las habilitaciones vencidas de algunos frigoríficos y enviará técnicos para renovarlas.",
+   "contexto": "Para vender carne a la Unión Europea no alcanza con tener buen precio: el país exportador tiene que demostrar que cumple normas sanitarias estrictas. Estas reglas son barreras no arancelarias: no cobran un impuesto, pero si un país no las cumple, pierde el acceso al mercado. Para Paraguay, la carne bovina es uno de sus principales productos de exportación, así que mantener abiertos mercados exigentes como el europeo o el egipcio sostiene la demanda externa y el precio que reciben los ganaderos. Las auditorías también tienen un costo: controles, vacunación y trazabilidad que pagan el Estado y los productores.",
+   "datos": [
+    [
+     "Hasta 3 dic",
+     "Permanencia de la misión de la UE en Paraguay"
+    ],
+    [
+     "≈ 7 años",
+     "Desde la auditoría anterior de este tipo, según el Senacsa"
+    ],
+    [
+     "31 dic",
+     "Prórroga de Egipto para frigoríficos con habilitación vencida"
+    ]
+   ],
+   "clave": [
+    "≈ 7 años",
+    "desde la última auditoría sanitaria de la UE"
+   ],
+   "fig": {
+    "k": "exportaciones"
+   },
+   "cap": "Con libre comercio, el precio mundial (Pm) está por encima del precio interno: Paraguay produce más de lo que consume y exporta la diferencia. Si no aprueba la auditoría, pierde ese acceso y la cantidad exportada baja.",
+   "pasos": [
+    "La UE exige normas sanitarias para comprar carne",
+    "Envía auditores a revisar aftosa, trazabilidad y frigoríficos",
+    "Si Paraguay aprueba, mantiene el acceso a un mercado que paga bien",
+    "Se sostiene la demanda externa de carne y el ingreso de los ganaderos",
+    "Si no aprueba, la norma funciona como una barrera y caen las exportaciones"
+   ],
+   "conceptos": [
+    [
+     "Barrera no arancelaria",
+     "Restricción al comercio distinta de un impuesto: normas sanitarias, técnicas o administrativas."
+    ],
+    [
+     "Medida sanitaria",
+     "Regla para proteger la salud de personas y animales que los productos importados deben cumplir."
+    ],
+    [
+     "Trazabilidad",
+     "Poder seguir a cada animal o producto desde su origen hasta el consumidor."
+    ]
+   ],
+   "diagramas": [
+    "exportaciones",
+    "arancel"
+   ],
+   "rel": [
+    "faena-bovina-octubre",
+    "conacom-frigorificos",
+    "mercosur-ue"
+   ],
+   "pregunta": {
+    "q": "La UE exige que la carne cumpla normas sanitarias para entrar a su mercado. ¿Qué tipo de medida es?",
+    "opts": [
+     "Una barrera no arancelaria",
+     "Un arancel",
+     "Una cuota de importación",
+     "Un subsidio a la exportación"
+    ],
+    "ok": 0,
+    "fb": "No cobra un impuesto ni fija una cantidad: es una regla técnica que el producto debe cumplir. Por eso se la llama barrera no arancelaria (administrativa o sanitaria)."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Frigoríficos exportadores",
+      "Si aprueban, mantienen el acceso a mercados que pagan buenos precios."
+     ],
+     [
+      "Consumidores europeos",
+      "Tienen más garantías sobre la sanidad de la carne importada."
+     ]
+    ],
+    "pierden": [
+     [
+      "Ganaderos y Estado (en costos)",
+      "Vacunación, registro y controles cuestan dinero y tiempo."
+     ],
+     [
+      "Frigoríficos que no cumplan",
+      "Pueden perder su habilitación, como ya ocurrió con algunas autorizaciones de Egipto que vencieron."
+     ]
+    ],
+    "corto": "Hasta el 3 de diciembre los auditores revisan el sistema; en diciembre llegan los técnicos de Egipto. Mientras tanto, las exportaciones siguen.",
+    "largo": "Aprobar estos controles da reputación sanitaria y puede abrir otros mercados exigentes; fallar podría cerrar destinos y bajar el precio que reciben los ganaderos.",
+    "supuestos": [
+     "Que la auditoría termine sin observaciones graves",
+     "Que la demanda europea y egipcia de carne se mantenga"
+    ],
+    "conclusion": "Las normas sanitarias encarecen la producción, pero también son la llave de los mercados que mejor pagan: para un exportador de carne, cumplirlas es una inversión más que un costo."
+   }
   }
  ],
  "historial": {
@@ -9556,7 +9540,7 @@
   },
   "2026-11-23": {
    "titulo": "Semana del Presupuesto: el Senado decide con Ueno de fondo",
-   "texto": "El Senado empezó el lunes 23 a estudiar el Presupuesto 2027 con el ministro Lovera: los senadores objetan los recortes generales y lo votarían el martes 24, mientras el Gobierno anunció ajustes en Hambre Cero para ahorrar unos US$ 130 millones por año. Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión, y los datos de Bancard muestran que los pagos electrónicos cayeron 3,3 % frente a octubre tras el cierre del banco. Con el dólar de vuelta en G. 6.400, el MAG ve un escenario más tranquilo para el campo, y Rediex prevé exportaciones récord de más de US$ 13.000 millones. En Itaipú asumió un nuevo Consejo y el canciller de Brasil llega a Asunción a negociar la tarifa, que vence el 31 de diciembre.",
+   "texto": "El Senado empezó el lunes 23 a estudiar el Presupuesto 2027 con el ministro Lovera: los senadores objetan los recortes generales y lo votarían el martes 24, mientras el Gobierno anunció ajustes en Hambre Cero para ahorrar unos US$ 130 millones por año. Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión, y los datos de Bancard muestran que los pagos electrónicos cayeron 3,3 % frente a octubre tras el cierre del banco. Con el dólar de vuelta en G. 6.400, el MAG ve un escenario más tranquilo para el campo, y Rediex prevé exportaciones récord de más de US$ 13.000 millones. En Itaipú asumió un nuevo Consejo y el canciller de Brasil llega a Asunción a negociar la tarifa, que vence el 31 de diciembre. El martes 24, ABC Color informó que una misión de la Unión Europea audita hasta el 3 de diciembre la sanidad animal para la carne, y los comerciantes de Ciudad del Este estimaron que el Black Friday movió unos US$ 350 millones, menos de lo esperado por la caída del real.",
    "claves": [
     "pgn-suspendido",
     "ueno-plan-fusion",
@@ -10635,6 +10619,15 @@
     "fuente": "ABC Color"
    },
    {
+    "f": "2026-12-03",
+    "t": "Termina la auditoría sanitaria de la UE a la carne paraguaya",
+    "d": "La misión de la DG-SANTE revisa aftosa, trazabilidad y frigoríficos; de su resultado depende el acceso al mercado europeo.",
+    "tipo": "Datos",
+    "tema": "4.2",
+    "url": "https://www.abc.com.py/negocios/abc-campo/2026/11/24/auditoria-de-la-union-europea-verifica-el-sistema-sanitario-de-paraguay-para-exportar-carne/",
+    "fuente": "ABC Color"
+   },
+   {
     "f": "2026-12-04",
     "t": "Cumbre del Mercosur en Montevideo",
     "d": "Uruguay entrega la presidencia pro tempore a Argentina; viajará el presidente Alliana.",
@@ -10705,6 +10698,15 @@
     "tema": "2.8",
     "url": "https://www.ultimahora.com/experto-preve-mayores-bajas-en-el-precio-de-los-combustibles",
     "fuente": "Última Hora"
+   },
+   {
+    "f": "2026-12-31",
+    "t": "Vence la prórroga de Egipto a frigoríficos con habilitación vencida",
+    "d": "Técnicos egipcios llegan en diciembre a evaluar la renovación del registro sanitario.",
+    "tipo": "Datos",
+    "tema": "4.2",
+    "url": "https://www.abc.com.py/negocios/abc-campo/2026/11/24/auditoria-de-la-union-europea-verifica-el-sistema-sanitario-de-paraguay-para-exportar-carne/",
+    "fuente": "ABC Color"
    },
    {
     "f": "2027-03-31",
@@ -11580,6 +11582,11 @@
      "2026-11-23",
      "Itaú mantiene un crecimiento de 4,5 % para 2026, pero advierte más riesgos fiscales y cambiarios por Ueno.",
      "itau-proyeccion"
+    ],
+    [
+     "2026-11-24",
+     "Última Hora: el informe favorable a la fusión Ueno–Visión se firmó en menos de una hora en 2024.",
+     "ueno-plan-fusion"
     ]
    ]
   },
@@ -11839,7 +11846,8 @@
     "comercio-octubre",
     "pollo-exportaciones",
     "maiz-exportaciones",
-    "exportaciones-rediex"
+    "exportaciones-rediex",
+    "ue-auditoria-carne"
    ],
    "hitos": [
     [
@@ -11901,6 +11909,11 @@
      "2026-11-23",
      "Rediex prevé exportaciones récord de más de US$ 13.000 millones en 2026, con la maquila cerca de US$ 1.500 millones.",
      "exportaciones-rediex"
+    ],
+    [
+     "2026-11-24",
+     "La Unión Europea audita la sanidad animal de Paraguay para la carne, hasta el 3 de diciembre.",
+     "ue-auditoria-carne"
     ]
    ]
   }

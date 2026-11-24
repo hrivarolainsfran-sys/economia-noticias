@@ -7095,5 +7095,162 @@
    ],
    "conclusion": "La economía llegó fuerte a la crisis, lo que da margen, pero el freno del crédito puede bajar el crecimiento de fin de año."
   }
+ },
+ {
+  "id": "comercio-octubre",
+  "fecha": "2026-11-12",
+  "medio": "La Nación",
+  "url": "https://www.lanacion.com.py/negocios/2026/11/12/comercio-exterior-acumula-un-superavit-de-668-millones-de-dolares-a-octubre-segun-un-informe-del-bcp/",
+  "titulo": "Superávit comercial de US$ 668,6 millones a octubre: la soja empuja las exportaciones",
+  "unidad": "global",
+  "tema": "4.6",
+  "kc": "interdependencia",
+  "inst": [
+   "bcp"
+  ],
+  "sector": [
+   "comercio",
+   "agro",
+   "industria"
+  ],
+  "resumen": "Según el informe del BCP citado por La Nación, entre enero y octubre de 2026 Paraguay exportó US$ 17.815,6 millones (25 % más que en 2025) e importó US$ 17.147,1 millones (14,5 % más). El saldo es un superávit comercial de US$ 668,6 millones, algo menor que los US$ 712 millones de septiembre. Las exportaciones registradas sumaron US$ 11.362,9 millones (+19,3 %), sobre todo por granos, aceite y harina de soja.",
+  "contexto": "La balanza comercial (exportaciones menos importaciones de bienes) es la parte más grande de la cuenta corriente de la balanza de pagos. En 2025 Paraguay cerró con déficit comercial; en 2026 la cosecha récord de soja lo dio vuelta. También crecieron las reexportaciones (US$ 4.444,1 millones, +18,6 %) y la maquila (US$ 1.300,2 millones, +26,4 %). Un superávit significa que entran más dólares por comercio de los que salen: eso aumenta la demanda de guaraníes y ayuda a explicar por qué el guaraní se había fortalecido antes de la crisis de Ueno. Como las importaciones crecen más rápido que el mes anterior, el superávit se achica.",
+  "datos": [
+   [
+    "US$ 17.815,6 M",
+    "Exportaciones totales enero-octubre (+25 %)"
+   ],
+   [
+    "US$ 17.147,1 M",
+    "Importaciones totales (+14,5 %)"
+   ],
+   [
+    "US$ 668,6 M",
+    "Superávit comercial acumulado"
+   ],
+   [
+    "US$ 11.362,9 M",
+    "Exportaciones registradas (+19,3 %)"
+   ],
+   [
+    "US$ 4.444,1 M",
+    "Reexportaciones (+18,6 %)"
+   ],
+   [
+    "US$ 1.300,2 M",
+    "Exportaciones de maquila (+26,4 %)"
+   ]
+  ],
+  "clave": [
+   "US$ 668,6 M",
+   "de superávit comercial a octubre"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ millones (ene-oct 2026)",
+   "rows": [
+    [
+     "Exportaciones registradas",
+     11362.9,
+     1
+    ],
+    [
+     "Reexportaciones",
+     4444.1
+    ],
+    [
+     "Otras exportaciones",
+     2008.6
+    ],
+    [
+     "Importaciones totales",
+     17147.1
+    ]
+   ]
+  },
+  "cap": "Las tres barras de exportaciones suman US$ 17.815,6 millones, un poco más que las importaciones: la diferencia es el superávit comercial de US$ 668,6 millones.",
+  "pasos": [
+   "Paraguay cosecha y vende al exterior una cantidad récord de soja",
+   "Las exportaciones crecen más rápido (25 %) que las importaciones (14,5 %)",
+   "La balanza comercial pasa a superávit: US$ 668,6 M",
+   "Entran más dólares y aumenta la demanda de guaraníes",
+   "Las exportaciones netas (X − M) suman a la demanda agregada"
+  ],
+  "conceptos": [
+   [
+    "Balanza comercial",
+    "Exportaciones menos importaciones de bienes en un periodo."
+   ],
+   [
+    "Cuenta corriente",
+    "Parte de la balanza de pagos con el comercio de bienes y servicios, los ingresos y las transferencias (como las remesas)."
+   ],
+   [
+    "Reexportación",
+    "Venta al exterior de bienes importados, sin transformarlos mucho."
+   ],
+   [
+    "Maquila",
+    "Régimen en el que empresas transforman insumos importados para exportar, con beneficios impositivos."
+   ],
+   [
+    "Exportaciones netas",
+    "X − M, uno de los componentes de la demanda agregada."
+   ]
+  ],
+  "diagramas": [
+   "exportaciones",
+   "tipo-cambio",
+   "da-oa-da"
+  ],
+  "rel": [
+   "soja-record",
+   "remesas-2026",
+   "guarani-cae"
+  ],
+  "pregunta": {
+   "q": "Si las exportaciones crecen 25 % y las importaciones 14,5 %, ¿qué pasa con la demanda de guaraníes en el mercado de divisas?",
+   "opts": [
+    "Aumenta, porque los exportadores cambian más dólares por guaraníes",
+    "Baja, porque entran menos dólares",
+    "No cambia, el comercio no afecta al tipo de cambio",
+    "Aumenta la oferta de guaraníes"
+   ],
+   "ok": 0,
+   "fb": "Los exportadores cobran en dólares y necesitan guaraníes para pagar costos locales: la demanda de guaraníes se desplaza a la derecha y el guaraní tiende a apreciarse."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Productores y exportadores de soja",
+     "Venden más volumen y generan más ingresos."
+    ],
+    [
+     "Empresas de maquila y sus trabajadores",
+     "Sus exportaciones crecen 26,4 %."
+    ],
+    [
+     "Estado y BCP",
+     "Más dólares fortalecen las reservas y la recaudación."
+    ]
+   ],
+   "pierden": [
+    [
+     "Industrias que compiten con importaciones",
+     "Un guaraní más fuerte abarata los productos importados."
+    ],
+    [
+     "Economía poco diversificada",
+     "Depender tanto de la soja expone al país a sequías y a los precios mundiales."
+    ]
+   ],
+   "corto": "El superávit aporta dólares en plena volatilidad cambiaria y puede ayudar a calmar el dólar.",
+   "largo": "Si el crecimiento depende sobre todo de la soja, un mal año de clima o de precios puede volver a llevar la balanza a déficit.",
+   "supuestos": [
+    "Que los precios internacionales de la soja se mantengan.",
+    "Que la crisis de Ueno no frene las importaciones de insumos ni el crédito al comercio."
+   ],
+   "conclusion": "El superávit es una buena noticia para la balanza de pagos y el guaraní, pero muestra a la vez la dependencia de pocos productos primarios."
+  }
  }
 ]
