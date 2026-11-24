@@ -15683,7 +15683,7 @@
     "to": "Experto prevé mayores bajas en el precio de los combustibles",
     "fo": "2026-11-13",
     "e": 3,
-    "niv": "Accesible",
+    "niv": "Media",
     "por": "Una medida concreta y fácil de seguir: el Gobierno bajó a la mitad el impuesto al diésel y el litro bajó G. 300 hasta fin de año. Tiene cifras, una fecha de vencimiento y grupos que piden más.",
     "kc": [
      [
@@ -15700,8 +15700,8 @@
     "g": {
      "p": [
       "¿Qué impuesto cambió, en cuánto y hasta cuándo?",
-      "¿Cuánto bajó el litro y quién fija ese precio: Petropar o el mercado?",
-      "¿Qué pasará en enero si el impuesto vuelve a su nivel anterior?"
+      "Si el impuesto baja G. 340 y el precio baja G. 300, ¿quién se queda con la diferencia y qué dice eso de la elasticidad?",
+      "¿Qué costo tiene la medida para el Estado y para el ambiente?"
      ],
      "d": "El impuesto selectivo al consumo del diésel baja 50 % y el litro baja G. 300.",
      "a": [
@@ -15789,7 +15789,7 @@
     "to": "Reajuste del salario mínimo: estos son los pagos por hora, día y jornada nocturna",
     "fo": "2026-06-26",
     "e": 3,
-    "niv": "Accesible",
+    "niv": "Media",
     "por": "Un clásico del programa con cifras claras: el Gobierno fija por decreto un precio mínimo en el mercado de trabajo y el artículo trae el monto mensual, diario y por hora.",
     "kc": [
      [
@@ -15818,44 +15818,6 @@
       [
        "salario-minimo",
        "Salario mínimo y desempleo"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "carne-cae",
-    "to": "Exportaciones avícolas registran un crecimiento del 76% en ingresos hasta octubre",
-    "fo": "2026-11-02",
-    "e": 3,
-    "niv": "Accesible",
-    "por": "Cifras fáciles de comparar: se exporta menos carne bovina, el precio por kilo sube y aun así los ingresos bajan, mientras el pollo crece. Ojo: el título habla del pollo y los datos de la carne bovina están en el texto.",
-    "kc": [
-     [
-      "escasez",
-      "Hay menos ganado: se exporta menos carne aunque el precio por kilo sube."
-     ],
-     [
-      "cambio",
-      "Las exportaciones crecen en el pollo, un sustituto de la carne bovina."
-     ]
-    ],
-    "dg": "Oferta que se desplaza a la izquierda (sube el precio, baja la cantidad) y elasticidad precio de la demanda con el ingreso total.",
-    "ev": "Por qué los ingresos cayeron aunque subió el precio; frigoríficos y trabajadores frente a productores de pollo; corto frente a largo plazo.",
-    "g": {
-     "p": [
-      "¿Cuánto bajó el volumen exportado de carne bovina y cuánto subió el precio por kilo?",
-      "¿Por qué los ingresos cayeron aunque el precio subió? ¿Qué dice eso de la elasticidad?",
-      "¿Por qué crecen las exportaciones de pollo mientras cae la carne bovina?"
-     ],
-     "d": "El precio por kilo sube de US$ 5,85 a US$ 7,12, pero los ingresos bajan de US$ 1.787 a 1.645 millones.",
-     "a": [
-      [
-       "equilibrio-cambio",
-       "Cambio del equilibrio"
-      ],
-      [
-       "epd-it",
-       "Elasticidad e ingreso total"
       ]
      ]
     }
@@ -16005,82 +15967,6 @@
     }
    },
    {
-    "id": "inflacion-oct",
-    "to": "Paraguay registra inflación del -0,1 % en octubre por bajadas en precios de los alimentos",
-    "fo": "2026-11-03",
-    "e": 2,
-    "niv": "Accesible",
-    "por": "Un dato oficial corto y claro: los precios bajaron 0,1 % en octubre y la inflación anual quedó en 1,7 %, por debajo de la meta de 3,5 %.",
-    "kc": [
-     [
-      "bienestar",
-      "Precios más bajos dan más poder de compra a los asalariados."
-     ],
-     [
-      "cambio",
-      "Cómo pasa la inflación de 4,1 % a 1,7 % en un año."
-     ]
-    ],
-    "dg": "Shock de oferta favorable (bajan los alimentos): la OACP se desplaza a la derecha.",
-    "ev": "Quién gana (asalariados, ahorristas) y quién pierde (productores, deudores); riesgo de la depreciación de noviembre.",
-    "g": {
-     "p": [
-      "¿Cuánto bajaron los precios en octubre y cuál es la inflación de doce meses?",
-      "¿Qué productos bajaron de precio y por qué?",
-      "¿Una inflación por debajo de la meta es buena o mala para la economía?"
-     ],
-     "d": "La inflación de doce meses es 1,7 %, por debajo de la meta de 3,5 %.",
-     "a": [
-      [
-       "oacp-desplaz",
-       "Desplazamientos de la OACP"
-      ],
-      [
-       "deflacion",
-       "Deflación buena y mala"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "desempleo-41",
-    "to": "Desempleo en Paraguay cae al 4,1% y se suman más de 66.000 nuevos ocupados, según el INE",
-    "fo": "2026-10-30",
-    "e": 3,
-    "niv": "Accesible",
-    "por": "Datos oficiales claros: el desempleo baja y hay 66.000 personas ocupadas más. Permite hablar de los tipos de desempleo, la subocupación y la informalidad.",
-    "kc": [
-     [
-      "bienestar",
-      "Más gente con empleo e ingresos: ¿mejora el bienestar de los hogares?"
-     ],
-     [
-      "cambio",
-      "El desempleo baja de 4,9 % a 4,1 % en un año."
-     ]
-    ],
-    "dg": "Aumento de la demanda agregada: más producción real y menos desempleo cíclico.",
-    "ev": "Si los empleos nuevos son formales o informales; la subocupación (4,2 %); si la crisis de noviembre puede revertir la mejora.",
-    "g": {
-     "p": [
-      "¿Cuánto bajó el desempleo y cuántas personas ocupadas más hay?",
-      "¿Qué diferencia hay entre desempleo y subocupación?",
-      "¿Los empleos nuevos son formales? ¿Qué no muestra la tasa de desempleo?"
-     ],
-     "d": "El desempleo baja a 4,1 %, frente a 4,9 % un año antes.",
-     "a": [
-      [
-       "da-aumento-y",
-       "Aumento de la DA y de la producción"
-      ],
-      [
-       "brecha-deflacionaria",
-       "Brecha con desempleo cíclico"
-      ]
-     ]
-    }
-   },
-   {
     "id": "imaep-setiembre",
     "to": "Economía acumula crecimiento de 5,5% al cierre del mes de setiembre",
     "fo": "2026-11-11",
@@ -16157,44 +16043,6 @@
     }
    },
    {
-    "id": "guarani-cae",
-    "to": "El guaraní registra la mayor caída mundial frente al dólar en medio de la incertidumbre",
-    "fo": "2026-11-05",
-    "e": 3,
-    "niv": "Accesible",
-    "por": "El guaraní perdió 8,17 % en cinco días, con una causa clara (Ueno y la incertidumbre política). Perfecto para el diagrama del mercado de divisas.",
-    "kc": [
-     [
-      "cambio",
-      "Un golpe de confianza cambia el valor de la moneda en pocos días."
-     ],
-     [
-      "interdependencia",
-      "Importaciones más caras y exportaciones más competitivas."
-     ]
-    ],
-    "dg": "Mercado de divisas: sube la demanda de dólares (la oferta de guaraníes) y el guaraní se deprecia.",
-    "ev": "Exportadores frente a importadores; inflación importada; qué pasa si la crisis se calma.",
-    "g": {
-     "p": [
-      "¿Cuánto se depreció el guaraní en un día y en cinco días?",
-      "¿Por qué sube la demanda de dólares?",
-      "¿Quién gana y quién pierde con un dólar más caro?"
-     ],
-     "d": "El guaraní pierde 8,17 % en cinco días y el dólar llega a G. 6.487.",
-     "a": [
-      [
-       "tc-flotante",
-       "Tipo de cambio flotante"
-      ],
-      [
-       "tc-da-oa",
-       "Tipo de cambio, DA y OA"
-      ]
-     ]
-    }
-   },
-   {
     "id": "bcp-cambiaria",
     "to": "Nuevo titular del BCP dice que apuntan a \"recuperar credibilidad\" e intervenir en tipo de cambio",
     "fo": "2026-11-10",
@@ -16224,82 +16072,6 @@
       [
        "tc-controlado",
        "Tipo de cambio controlado"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "black-friday-cde",
-    "to": "Black Friday arranca con una multitud de compradores en Ciudad del Este",
-    "fo": "2026-11-19",
-    "e": 2,
-    "niv": "Accesible",
-    "por": "Un tema cercano: unas 500.000 personas, sobre todo brasileños, compran en Ciudad del Este. Muestra cómo el tipo de cambio y los precios atraen demanda de otro país.",
-    "kc": [
-     [
-      "interdependencia",
-      "Las ventas dependen del real y de la economía de Brasil."
-     ],
-     [
-      "cambio",
-      "Qué pasa si el real se debilita o cambian los controles en la frontera."
-     ]
-    ],
-    "dg": "Mercado de divisas (los brasileños demandan guaraníes) o demanda agregada (suben las exportaciones netas).",
-    "ev": "Quién gana (comercio de Ciudad del Este) y quién pierde (comercio de Brasil y de otras ciudades); el riesgo de depender del real.",
-    "g": {
-     "p": [
-      "¿Quiénes compran en Ciudad del Este y por qué cruzan desde Brasil?",
-      "¿Cómo influye el tipo de cambio entre el real y el guaraní?",
-      "¿Qué pasa con el comercio de la ciudad si el real se debilita?"
-     ],
-     "d": "El intendente espera unas 500.000 personas en la región.",
-     "a": [
-      [
-       "tc-flotante",
-       "Tipo de cambio flotante"
-      ],
-      [
-       "da-desplaz",
-       "Desplazamientos de la DA"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "maquila",
-    "to": "Maquila exporta US$1,148 millones y genera un superávit de US$543 millones en Paraguay",
-    "fo": "2026-10-16",
-    "e": 3,
-    "niv": "Accesible",
-    "por": "Cifras claras de un sector exportador que crece y emplea a más de 36.000 personas. Es de un diario de Colombia: te sirve como una fuente distinta de las de tus compañeros.",
-    "kc": [
-     [
-      "interdependencia",
-      "El 59 % de lo que exporta la maquila va a Brasil."
-     ],
-     [
-      "cambio",
-      "Las exportaciones de la maquila crecen 25 % en un año."
-     ]
-    ],
-    "dg": "Libre comercio con exportaciones; también aumento de las exportaciones netas en la demanda agregada.",
-    "ev": "Empleo y divisas frente a la dependencia de Brasil; cuánto valor queda en Paraguay si la maquila importa US$ 605 millones en insumos.",
-    "g": {
-     "p": [
-      "¿Cuánto exportó y cuánto importó la maquila, y cuál fue el saldo?",
-      "¿Por qué la maquila importa insumos para luego exportar?",
-      "¿Qué riesgo tiene que el 59 % de las ventas vayan a Brasil?"
-     ],
-     "d": "La maquila exporta US$ 1.148 millones (+25 %) y deja un saldo positivo de US$ 543 millones.",
-     "a": [
-      [
-       "exportaciones",
-       "Libre comercio con exportaciones"
-      ],
-      [
-       "da-desplaz",
-       "Desplazamientos de la DA"
       ]
      ]
     }
@@ -16343,44 +16115,6 @@
     }
    },
    {
-    "id": "pepino-precio",
-    "to": "Productores de pepino denuncian caída del precio y apuntan al contrabando",
-    "fo": "2026-11-13",
-    "e": 3,
-    "niv": "Accesible",
-    "por": "Un caso de oferta y demanda muy fácil de ver: la caja de pepino pasó de G. 100.000 a G. 40.000 en dos semanas. Los productores culpan al contrabando y el MAG a la alta producción: dos explicaciones para evaluar.",
-    "kc": [
-     [
-      "eleccion",
-      "El productor ya plantó y cosecha igual aunque el precio caiga: ¿qué opciones tiene?"
-     ],
-     [
-      "intervencion",
-      "¿Debería el Estado frenar el contrabando o comprar la producción local?"
-     ]
-    ],
-    "dg": "Oferta y demanda: un aumento de la oferta baja el precio de equilibrio. Puedes agregar la oferta del contrabando como importación barata.",
-    "ev": "Si la causa es la cosecha o el contrabando; quién gana (consumidores) y quién pierde (productores); qué medidas servirían.",
-    "g": {
-     "p": [
-      "¿Cuánto bajó el precio de la caja y en cuánto tiempo?",
-      "¿Qué explicación da el productor y cuál da el MAG?",
-      "¿Cuánto cuesta producir un kilo y cuánto se paga en el Mercado de Abasto?"
-     ],
-     "d": "La caja de 20 kg bajó de G. 100.000 a G. 40.000, unos G. 2.000 por kilo, frente a un costo de G. 1.600 por kilo en finca.",
-     "a": [
-      [
-       "equilibrio-cambio",
-       "Cambio del equilibrio"
-      ],
-      [
-       "oferta-mov",
-       "Desplazamiento de la oferta"
-      ]
-     ]
-    }
-   },
-   {
     "id": "ganado-oferta",
     "to": "Menor oferta de ganado mantiene precios firmes, señala Appec",
     "fo": "2026-03-17",
@@ -16410,44 +16144,6 @@
       [
        "epo-rel",
        "Elasticidad precio de la oferta"
-      ],
-      [
-       "equilibrio-cambio",
-       "Cambio del equilibrio"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "agro-oferta",
-    "to": "Soja, arroz y poroto: los cultivos que empujaron al agro con un salto de 11,1%",
-    "fo": "2026-10-05",
-    "e": 2,
-    "niv": "Accesible",
-    "por": "Una buena cosecha desplaza la oferta agrícola: la agricultura creció 11,1 %, pero no todos los cultivos subieron. Sirve para hablar de los determinantes de la oferta.",
-    "kc": [
-     [
-      "cambio",
-      "El clima y los precios esperados cambian qué y cuánto se siembra."
-     ],
-     [
-      "eleccion",
-      "Cada productor elige qué cultivar según precios y costos."
-     ]
-    ],
-    "dg": "Desplazamiento de la curva de oferta a la derecha por mejor clima y tecnología.",
-    "ev": "Qué factores movieron la oferta; por qué unos cultivos crecieron y otros bajaron; efectos en precios y exportaciones.",
-    "g": {
-     "p": [
-      "¿Cuánto creció la agricultura en el segundo trimestre y en el semestre?",
-      "¿Qué cultivos crecieron y cuáles produjeron menos?",
-      "¿Qué pasó con las exportaciones?"
-     ],
-     "d": "La agricultura creció 11,1 % en el segundo trimestre de 2026 y 12,3 % en el primer semestre.",
-     "a": [
-      [
-       "oferta-mov",
-       "Desplazamiento de la oferta"
       ],
       [
        "equilibrio-cambio",
@@ -16490,44 +16186,6 @@
       [
        "equilibrio-cambio",
        "Cambio del equilibrio"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "pobreza-16",
-    "to": "Pobreza en Paraguay disminuye al 16% según informe del INE",
-    "fo": "2026-03-27",
-    "e": 3,
-    "niv": "Accesible",
-    "por": "La pobreza bajó de 19 % a 16 % y el INE estima cuánto ayudaron las transferencias del Estado. Perfecto para equidad y política fiscal. Ojo: vence en marzo de 2027.",
-    "kc": [
-     [
-      "equidad",
-      "El campo tiene más pobreza que la ciudad: 22,1 % frente a 13,6 %."
-     ],
-     [
-      "intervencion",
-      "Sin Tekoporã, Hambre Cero y la pensión, la pobreza habría sido 19,9 %."
-     ]
-    ],
-    "dg": "Curva de Lorenz: las transferencias acercan la curva a la línea de igualdad.",
-    "ev": "Si las transferencias son la mejor herramienta; costo para el presupuesto; diferencia entre pobreza urbana y rural.",
-    "g": {
-     "p": [
-      "¿Cuánto bajó la pobreza total y la extrema?",
-      "¿Dónde hay más pobreza, en el campo o en la ciudad?",
-      "¿Cuánto habría sido la pobreza sin transferencias?"
-     ],
-     "d": "La pobreza bajó a 16,0 % en 2025 y habría sido de 19,9 % sin las transferencias del Estado.",
-     "a": [
-      [
-       "lorenz",
-       "Curva de Lorenz"
-      ],
-      [
-       "ciclo-pobreza",
-       "Ciclo de la pobreza"
       ]
      ]
     }
@@ -16833,44 +16491,6 @@
     }
    },
    {
-    "id": "chia-superficie",
-    "to": "Paraguay amplía 157% su superficie de chía pese a la baja de precios",
-    "fo": "2026-10-03",
-    "e": 2,
-    "niv": "Accesible",
-    "por": "Los productores siembran mucha más chía aunque el precio internacional baja. Sirve para explicar los determinantes de la oferta y qué pasa cuando muchos entran al mismo mercado.",
-    "kc": [
-     [
-      "eleccion",
-      "Cada productor decide qué cultivar según el precio esperado."
-     ],
-     [
-      "cambio",
-      "La chía pasó a ser un cultivo importante en pocos años."
-     ]
-    ],
-    "dg": "Oferta y demanda: más productores desplazan la oferta a la derecha y baja el precio.",
-    "ev": "Si conviene seguir sembrando chía; riesgos de depender de un precio que baja; ventajas de industrializarla.",
-    "g": {
-     "p": [
-      "¿Cuánto creció la superficie de chía y entre qué campañas?",
-      "¿Cuánto se exportó, a cuántos países y quién compra más?",
-      "¿Qué pasó con el precio internacional?"
-     ],
-     "d": "La superficie de chía creció 157,3 % entre 2022-2023 y 2025-2026; se exportaron 47.426 toneladas hasta agosto.",
-     "a": [
-      [
-       "oferta-mov",
-       "Desplazamiento de la oferta"
-      ],
-      [
-       "equilibrio-cambio",
-       "Cambio del equilibrio"
-      ]
-     ]
-    }
-   },
-   {
     "id": "riesgo-pais-119",
     "to": "Riesgo país retorna a niveles habituales y Paraguay mantiene la confianza de los mercados",
     "fo": "2026-11-17",
@@ -16943,83 +16563,11 @@
     }
    },
    {
-    "id": "dolar-sube-noviembre",
-    "to": "El dólar vuelve a subir en Paraguay: ¿qué está impulsando la cotización y qué se espera?",
-    "fo": "2026-11-09",
-    "e": 3,
-    "niv": "Accesible",
-    "por": "Explica de forma sencilla por qué sube el dólar y a quién afecta. Muy bueno para el tipo de cambio flotante: oferta y demanda de divisas, ganadores y perdedores.",
-    "kc": [
-     [
-      "interdependencia",
-      "Brasil, los importadores y los inversores mueven el precio del dólar."
-     ],
-     [
-      "bienestar",
-      "Un dólar más caro encarece medicamentos y tecnología."
-     ]
-    ],
-    "dg": "Tipo de cambio flotante: aumenta la demanda de dólares (oferta de guaraníes) y el guaraní se deprecia.",
-    "ev": "Quién gana (exportadores) y quién pierde (importadores, deudores en dólares); si el BCP debería intervenir.",
-    "g": {
-     "p": [
-      "¿A cuánto se vendía y se compraba el dólar el 9 de noviembre?",
-      "¿Qué factores empujan la suba?",
-      "¿A quién perjudica y a quién beneficia un dólar más caro?"
-     ],
-     "d": "La referencia interbancaria del BCP fue de G. 6.388,47 por dólar el 5 de noviembre.",
-     "a": [
-      [
-       "tc-flotante",
-       "Tipo de cambio flotante"
-      ],
-      [
-       "tc-da-oa",
-       "Efectos del tipo de cambio en DA y OA"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "nuevos-destinos-rediex",
-    "to": "Made in Paraguay: 70 productos ingresaron a nuevos destinos",
-    "fo": "2026-08-25",
-    "e": 2,
-    "niv": "Accesible",
-    "por": "Productos paraguayos llegan a 43 países con envíos nuevos. Sirve para hablar de diversificar exportaciones como estrategia de desarrollo. Ojo: el titular dice 70 productos y el texto, 75.",
-    "kc": [
-     [
-      "cambio",
-      "La canasta exportadora empieza a diversificarse."
-     ],
-     [
-      "interdependencia",
-      "Más países compran productos paraguayos."
-     ]
-    ],
-    "dg": "Libre comercio con exportaciones; puedes sumar la idea de diversificación frente a concentración.",
-    "ev": "Si los montos son suficientes para cambiar la economía; qué políticas ayudan a diversificar; riesgos de depender de la soja.",
-    "g": {
-     "p": [
-      "¿Cuántos productos llegaron a destinos nuevos y a cuántos países?",
-      "¿Cuál fue el caso nuevo más grande?",
-      "¿Qué cuenta Rediex como un caso nuevo?"
-     ],
-     "d": "Entre enero y julio, 75 productos se exportaron a destinos nuevos en 43 países; el mayor caso fue biodiésel a Singapur por US$ 5,5 millones.",
-     "a": [
-      [
-       "exportaciones",
-       "Libre comercio con exportaciones"
-      ]
-     ]
-    }
-   },
-   {
     "id": "pasaje-subsidio",
     "to": "Tarifa técnica del pasaje sube y eleva subsidio estatal",
     "fo": "2026-11-02",
     "e": 3,
-    "niv": "Accesible",
+    "niv": "Media",
     "por": "Un subsidio que se ve todos los días: el pasaje cuesta G. 6.669 y el pasajero paga G. 3.400. Muy bueno para el gobierno en los mercados y el costo de oportunidad del gasto.",
     "kc": [
      [
@@ -17036,8 +16584,8 @@
     "g": {
      "p": [
       "¿Cuánto cuesta llevar a un pasajero y cuánto paga el usuario?",
-      "¿Cuánto aporta el Estado por pasajero?",
-      "¿Por qué subió la tarifa técnica?"
+      "Calcula qué porcentaje del costo cubre el subsidio en cada tipo de bus.",
+      "¿Qué pasa con el gasto del Estado si sigue subiendo el gasoil? ¿Qué alternativas hay?"
      ],
      "d": "La tarifa técnica del diferencial llegó a G. 6.669 en mayo de 2026; el usuario paga G. 3.400 y el Estado aporta G. 2.740.",
      "a": [
@@ -17048,44 +16596,6 @@
       [
        "ext-pos-cons",
        "Externalidad positiva del consumo"
-      ]
-     ]
-    }
-   },
-   {
-    "id": "tomate-sobreoferta",
-    "to": "Tomate a G. 1.500 el kilo: productores rematan su cosecha y aun así no encuentran compradores",
-    "fo": "2026-10-12",
-    "e": 2,
-    "niv": "Accesible",
-    "por": "Sobra tomate y el precio cae a G. 1.500 el kilo, muy por debajo del costo. Un caso simple de exceso de oferta con un producto que no se puede guardar.",
-    "kc": [
-     [
-      "escasez",
-      "Al revés de la escasez: hay más de lo que el mercado compra."
-     ],
-     [
-      "eleccion",
-      "El productor elige entre vender barato o perder la cosecha."
-     ]
-    ],
-    "dg": "Oferta y demanda: exceso de oferta a un precio alto; el precio baja hasta el equilibrio.",
-    "ev": "Por qué el productor no puede esperar; qué soluciones hay (venta directa, industria); si el Estado debería intervenir.",
-    "g": {
-     "p": [
-      "¿A cuánto se vende el kilo de tomate y de locote en finca?",
-      "¿Cuánto necesitarían cobrar los productores para cubrir costos?",
-      "¿Qué causas da el artículo?"
-     ],
-     "d": "El tomate se vende entre G. 1.500 y G. 2.000 el kilo, cuando cubrir los costos exigiría entre G. 5.000 y G. 10.000.",
-     "a": [
-      [
-       "equilibrio",
-       "Equilibrio de mercado"
-      ],
-      [
-       "epo-rel",
-       "Elasticidad de la oferta"
       ]
      ]
     }
@@ -17239,39 +16749,475 @@
     }
    },
    {
-    "id": "exportaciones-rediex",
-    "to": "Exportaciones paraguayas podrían superar los USD 13.000 millones en 2026 y alcanzar un nuevo récord",
-    "fo": "2026-11-23",
+    "id": "emblemas-gasoil-isc",
+    "to": "Emblemas privados bajan el gasoil tras reducción del impuesto",
+    "fo": "2026-11-13",
+    "e": 3,
+    "niv": "Exigente",
+    "por": "Un caso real de incidencia de un impuesto: el impuesto baja G. 340 pero el precio solo G. 300. Permite calcular quién se queda con la rebaja y relacionarlo con la elasticidad.",
+    "kc": [
+     [
+      "intervencion",
+      "El Estado cambia un impuesto para bajar el precio."
+     ],
+     [
+      "equidad",
+      "¿Quién se queda con la rebaja: consumidores o vendedores?"
+     ]
+    ],
+    "dg": "Impuesto indirecto específico: al bajar el impuesto la oferta se desplaza hacia abajo; muestra la incidencia según la elasticidad.",
+    "ev": "Por qué no se traslada toda la rebaja; rol de Petropar; costo fiscal y efecto ambiental.",
+    "g": {
+     "p": [
+      "¿Cuánto baja el impuesto y cuánto baja el precio por litro?",
+      "¿Qué cambió: la tasa o la base imponible?",
+      "¿Por qué se quejaron los emblemas privados de Petropar?"
+     ],
+     "d": "El impuesto baja G. 340 por litro y los emblemas bajan el precio G. 300.",
+     "a": [
+      [
+       "impuesto-especifico",
+       "Impuesto indirecto específico"
+      ],
+      [
+       "incidencia",
+       "Incidencia del impuesto según la EPD"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "topes-tarjetas",
+    "to": "Baja de comisiones en tarjetas: qué cambia desde hoy y cómo afecta",
+    "fo": "2026-07-01",
+    "e": 3,
+    "niv": "Media",
+    "por": "Un precio máximo de verdad: el BCP fijó topes de 3 % y 2 % a las comisiones por pagos con tarjeta. Permite analizar el diagrama de precio máximo y sus riesgos.",
+    "kc": [
+     [
+      "intervencion",
+      "El Estado fija el precio máximo de un servicio."
+     ],
+     [
+      "eficiencia",
+      "¿Mejora la asignación de recursos o crea escasez del servicio?"
+     ]
+    ],
+    "dg": "Precio máximo: se fija por debajo del equilibrio; analiza el exceso de demanda y la pérdida de eficiencia.",
+    "ev": "Quién gana y quién pierde; qué pasa si el tope queda bajo el costo; efecto en el uso de efectivo.",
+    "g": {
+     "p": [
+      "¿Cuáles son los nuevos topes y cuánto se cobraba antes?",
+      "¿Quién paga la comisión: el consumidor o el comercio?",
+      "¿Qué busca el BCP con esta medida?"
+     ],
+     "d": "Desde el 1 de julio, la comisión máxima es de 3 % con crédito y 2 % con débito; antes llegaba a cerca de 5 %.",
+     "a": [
+      [
+       "precio-max",
+       "Precio máximo"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "tabaco-isc-proyecto",
+    "to": "Diputados: Presentan otro proyecto para aumentar impuesto al tabaco y financiar sistema de salud",
+    "fo": "2026-09-01",
+    "e": 3,
+    "niv": "Media",
+    "por": "Un impuesto a un bien de demérito con cifras claras: subir el impuesto al tabaco de 22 % a 32 %. Une el tema 2.7 con externalidades y elasticidad.",
+    "kc": [
+     [
+      "intervencion",
+      "El impuesto busca reducir el consumo y financiar la salud."
+     ],
+     [
+      "equidad",
+      "Los impuestos al tabaco pesan más en los hogares pobres."
+     ]
+    ],
+    "dg": "Impuesto ad valorem sobre una demanda inelástica; puedes sumar externalidad negativa del consumo.",
+    "ev": "Si reduce el consumo o solo recauda; riesgo de contrabando; efecto regresivo; es solo un proyecto.",
+    "g": {
+     "p": [
+      "¿Cuánto es el impuesto actual y cuánto se propone?",
+      "¿Cuánto gasta el Estado por el tabaco y cuánto recauda, según el diputado?",
+      "¿A qué se destinaría lo recaudado?"
+     ],
+     "d": "El proyecto eleva el impuesto al tabaco del 22 % al 32 % del precio final.",
+     "a": [
+      [
+       "impuesto-advalorem",
+       "Impuesto ad valorem"
+      ],
+      [
+       "ext-neg-cons",
+       "Externalidad negativa del consumo"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "atome-tarifa",
+    "to": "Acuerdo Atome-ANDE: el porqué de la tarifa y la conveniencia para el país",
+    "fo": "2026-06-09",
+    "e": 3,
+    "niv": "Exigente",
+    "por": "¿Es un subsidio vender energía a US$ 30 a una planta de hidrógeno verde? Gobierno y sindicatos opinan distinto. Muy bueno para subsidios y costo de oportunidad.",
+    "kc": [
+     [
+      "eleccion",
+      "¿Ceder la energía a Brasil a US$ 10 o venderla a US$ 30?"
+     ],
+     [
+      "intervencion",
+      "El Estado decide una tarifa especial para atraer inversión."
+     ]
+    ],
+    "dg": "Subvención: baja el costo del productor y desplaza su oferta; compara con el costo de oportunidad de la energía.",
+    "ev": "Si es o no un subsidio; costo de oportunidad; quién paga si la tarifa no cubre costos.",
+    "g": {
+     "p": [
+      "¿Qué tarifa pide Atome y cuánto invertiría?",
+      "¿A qué precio se cede la energía a Brasil y cuánto pagan las criptomineras?",
+      "¿Por qué los sindicatos hablan de subsidio y qué responde el Gobierno?"
+     ],
+     "d": "Atome pide una tarifa de US$ 30 por MWh para 125 MW; la energía no usada se cede a Brasil a US$ 10.",
+     "a": [
+      [
+       "subvencion",
+       "Subvención a la producción"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "autos-electricos-iva",
+    "to": "Avanza proyecto de 5% para autos eléctricos",
+    "fo": "2026-10-27",
     "e": 2,
-    "niv": "Accesible",
-    "por": "Cifras claras de exportaciones, maquila y manufacturas para analizar la diversificación como estrategia de crecimiento y desarrollo.",
+    "niv": "Exigente",
+    "por": "Quitar una exoneración a los autos eléctricos: más recaudación, pero menos incentivo ambiental. Une impuestos indirectos (2.7) con externalidades positivas (2.8).",
+    "kc": [
+     [
+      "sostenibilidad",
+      "Gravar autos eléctricos reduce un incentivo a contaminar menos."
+     ],
+     [
+      "intervencion",
+      "El Estado usa impuestos para recaudar y para orientar el consumo."
+     ]
+    ],
+    "dg": "Impuesto indirecto que desplaza la oferta hacia arriba; contrasta con la externalidad positiva de los autos eléctricos.",
+    "ev": "Recaudación frente a objetivos ambientales; efecto de la transición gradual; quién paga.",
+    "g": {
+     "p": [
+      "¿Qué impuesto se propone y cuál se mantiene en cero?",
+      "¿Cuánto dura la transición y qué pasa en 2032?",
+      "¿Por qué existía la exoneración?"
+     ],
+     "d": "Se propone un IVA de 5 % con arancel cero durante cinco años; en 2032 pagarían 10 % de IVA y 20 % de arancel.",
+     "a": [
+      [
+       "impuesto-advalorem",
+       "Impuesto ad valorem"
+      ],
+      [
+       "ext-pos-cons",
+       "Externalidad positiva del consumo"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "productividad-laboral",
+    "to": "Productividad laboral en Paraguay: más horas de trabajo, pero menor rendimiento económico",
+    "fo": "2026-10-14",
+    "e": 3,
+    "niv": "Media",
+    "por": "Paraguay trabaja más horas pero produce cinco veces menos por hora que Estados Unidos. Ideal para políticas de oferta y crecimiento a largo plazo.",
     "kc": [
      [
       "cambio",
-      "La canasta exportadora pasa de materias primas a manufacturas y maquila."
+      "La productividad casi no crece desde 2018."
      ],
      [
-      "interdependencia",
-      "El crecimiento depende de los mercados externos y de la inversión extranjera."
+      "bienestar",
+      "Baja productividad significa salarios bajos."
      ]
     ],
-    "dg": "Exportaciones: X sube y desplaza la DA a la derecha; o el diagrama de exportaciones con libre comercio.",
-    "ev": "Ventajas y límites de la maquila y la diversificación; cuánto del récord se debe a la cosecha y cuánto a la industria.",
+    "dg": "Políticas de oferta: la inversión en capital humano y tecnología desplaza la OALP a la derecha.",
+    "ev": "Qué políticas suben la productividad; plazos largos; costo para el Estado.",
     "g": {
      "p": [
-      "¿Cuánto exportó Paraguay de enero a octubre y cuánto espera Rediex para el año?",
-      "¿Qué sectores crecen más y qué papel tiene la maquila?",
-      "¿Qué condiciones dice Rediex que atraen a los inversores y qué duda plantea el artículo?"
+      "¿Cuánto produce una hora de trabajo en Paraguay y en otros países?",
+      "¿Cuántas horas al año se trabaja en Paraguay y en Uruguay?",
+      "¿Qué pasó con la productividad antes y después de 2018?"
      ],
-     "d": "Las exportaciones registradas sumaron USD 11.363 millones entre enero y octubre de 2026, cerca de 20 % más que un año antes.",
+     "d": "Cada hora trabajada genera US$ 16,3 en Paraguay frente a US$ 81,8 en Estados Unidos.",
      "a": [
       [
-       "exportaciones",
-       "Exportaciones y libre comercio"
+       "oalp-aumento",
+       "Aumento de la OALP"
+      ],
+      [
+       "politicas-oferta",
+       "Políticas del lado de la oferta"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "fmi-fiscal",
+    "to": "FMI propone revisar la estructura fiscal de Paraguay: ingresos, exenciones y déficit bajo análisis",
+    "fo": "2026-09-03",
+    "e": 3,
+    "niv": "Exigente",
+    "por": "El FMI prevé un déficit de 3,5 % del PIB, más del doble de la meta, y propone cómo corregirlo. Muy completo para política fiscal y sostenibilidad de la deuda.",
+    "kc": [
+     [
+      "sostenibilidad",
+      "¿Puede el Estado sostener déficits altos?"
+     ],
+     [
+      "equidad",
+      "Revisar el IVA puede afectar más a los pobres."
+     ]
+    ],
+    "dg": "Política fiscal restrictiva: subir ingresos o bajar gastos desplaza la DA a la izquierda; relaciona con crecer por encima del potencial.",
+    "ev": "Opciones para bajar el déficit y quién paga cada una; riesgos de ajustar en plena crisis.",
+    "g": {
+     "p": [
+      "¿Cuánto déficit prevé el FMI y cuál era la meta?",
+      "¿Por qué subió el déficit?",
+      "¿Qué medidas recomienda el FMI y qué advierten los exministros?"
+     ],
+     "d": "El FMI estima un déficit de 3,5 % del PIB en 2026 frente a una meta de 1,5 %.",
+     "a": [
+      [
+       "politica-fiscal",
+       "Política fiscal"
       ],
       [
        "da-desplaz",
-       "Desplazamiento de la DA"
+       "Desplazamientos de la DA"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "arancel-eeuu-julio",
+    "to": "Paraguay mejora acceso a EE.UU.: carga de arancel baja 5,7 puntos, por debajo de la región",
+    "fo": "2026-10-25",
+    "e": 3,
+    "niv": "Exigente",
+    "por": "Los aranceles de Estados Unidos cambian y Paraguay pasa a pagar menos que Brasil. Excelente para protección comercial y competitividad internacional.",
+    "kc": [
+     [
+      "interdependencia",
+      "Una decisión de EE. UU. cambia la competitividad de Paraguay."
+     ],
+     [
+      "cambio",
+      "La política comercial de EE. UU. cambió varias veces en 2026."
+     ]
+    ],
+    "dg": "Efecto de un arancel: precio, cantidad y bienestar; aquí desde el lado del país exportador.",
+    "ev": "Ventaja frente a Brasil; límites de un promedio; riesgo de nuevos cambios en EE. UU.",
+    "g": {
+     "p": [
+      "¿Cuánto bajó el arancel promedio a Paraguay y cuándo?",
+      "¿Qué pasó con Brasil y otros países?",
+      "¿Qué otros factores influyen en las exportaciones, según el artículo?"
+     ],
+     "d": "El arancel promedio a las exportaciones de Paraguay a EE. UU. bajó de 12,8 % a 7,1 % entre el 21 y el 24 de julio de 2026.",
+     "a": [
+      [
+       "arancel",
+       "Efecto de un arancel"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "dolar-5880",
+    "to": "El dólar baja a G. 5.880 y aumenta la presión sobre el BCP",
+    "fo": "2026-09-30",
+    "e": 3,
+    "niv": "Exigente",
+    "por": "Entran tantos dólares que el guaraní se aprecia al nivel más fuerte desde 2018, y crece la presión para que el BCP intervenga. Ideal para tipo de cambio controlado.",
+    "kc": [
+     [
+      "interdependencia",
+      "Inversión, soja y bonos traen dólares de afuera."
+     ],
+     [
+      "intervencion",
+      "¿Debe el BCP comprar dólares?"
+     ]
+    ],
+    "dg": "Tipo de cambio: aumenta la oferta de dólares y el guaraní se aprecia; agrega la intervención del BCP (flotación administrada).",
+    "ev": "Ganadores y perdedores de la apreciación; costos y límites de intervenir; comparación con la suba posterior por Ueno.",
+    "g": {
+     "p": [
+      "¿A cuánto llegó el dólar y desde cuándo no estaba tan bajo?",
+      "¿Qué factores trajeron más dólares?",
+      "¿A quién perjudica un dólar barato?"
+     ],
+     "d": "El dólar bajó a unos G. 5.880; la IED pasó de unos US$ 300 millones anuales a más de US$ 1.000 millones.",
+     "a": [
+      [
+       "tc-controlado",
+       "Tipo de cambio controlado"
+      ],
+      [
+       "tc-flotante",
+       "Tipo de cambio flotante"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "ied-brasil",
+    "to": "Brasil concentra el 15% de la inversión extranjera en Paraguay y fortalece su integración productiva",
+    "fo": "2026-11-02",
+    "e": 2,
+    "niv": "Media",
+    "por": "Brasil es el mayor inversor en Paraguay y compra cada vez más productos industriales. Sirve para integración económica, IED y diversificación.",
+    "kc": [
+     [
+      "interdependencia",
+      "Paraguay depende de la inversión y la demanda de Brasil."
+     ],
+     [
+      "cambio",
+      "Crecen las exportaciones no tradicionales."
+     ]
+    ],
+    "dg": "Integración económica: libre comercio dentro del bloque; puedes usar libre comercio con exportaciones.",
+    "ev": "Ventajas de la integración; riesgo de depender de Brasil; saldo comercial a favor de Brasil.",
+    "g": {
+     "p": [
+      "¿Cuánto invirtió Brasil en Paraguay y qué parte del total es?",
+      "¿Cuánto crecieron las exportaciones a Brasil con y sin energía?",
+      "¿Qué productos industriales crecen más?"
+     ],
+     "d": "Brasil tiene un saldo de inversión directa de US$ 2.191 millones, el 15 % del total.",
+     "a": [
+      [
+       "exportaciones",
+       "Libre comercio con exportaciones"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "balanz-cadiem",
+    "to": "Grupo financiero argentino Balanz Capital acuerda tomar el control de Cadiem",
+    "fo": "2026-11-17",
+    "e": 2,
+    "niv": "Media",
+    "por": "Un grupo argentino compra una casa de bolsa paraguaya en plena crisis de Ueno. Ejemplo concreto de inversión extranjera directa y de la cuenta financiera.",
+    "kc": [
+     [
+      "interdependencia",
+      "Capitales argentinos entran al mercado financiero paraguayo."
+     ],
+     [
+      "cambio",
+      "La crisis de Ueno abre oportunidades para inversores externos."
+     ]
+    ],
+    "dg": "Balanza de pagos: la IED entra en la cuenta financiera; puedes vincularla con la oferta de dólares (tipo de cambio).",
+    "ev": "Beneficios de la IED (capital, tecnología) frente a riesgos; por qué invertir en plena crisis.",
+    "g": {
+     "p": [
+      "¿Quién compra Cadiem y qué tamaño tiene?",
+      "¿Cuántos clientes tiene Cadiem en Paraguay?",
+      "¿De qué depende que se cierre la operación?"
+     ],
+     "d": "Balanz Capital administra US$ 17.000 millones y Cadiem tiene más de 22.000 clientes en Paraguay.",
+     "a": [
+      [
+       "tc-flotante",
+       "Tipo de cambio flotante"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "hambre-cero",
+    "to": "Hambre Cero: un millón de alumnos con alimentación diaria, 22.000 empleos y más mipymes",
+    "fo": "2026-07-02",
+    "e": 2,
+    "niv": "Media",
+    "por": "Alimentar a un millón de alumnos como estrategia de desarrollo: capital humano, empleo y compras a mipymes. Las cifras son oficiales, así que hay que evaluarlas con cuidado.",
+    "kc": [
+     [
+      "equidad",
+      "Llega a los niños de familias pobres."
+     ],
+     [
+      "bienestar",
+      "Nutrición y educación como base del desarrollo."
+     ]
+    ],
+    "dg": "Ciclo de la pobreza: invertir en capital humano rompe la trampa; puedes sumar la OALP.",
+    "ev": "Costo frente a beneficios a largo plazo; calidad del servicio; cifras oficiales no evaluadas por separado.",
+    "g": {
+     "p": [
+      "¿A cuántos alumnos e instituciones llega el programa?",
+      "¿Cuántos empleos y qué cambio en compras a mipymes informa el Gobierno?",
+      "¿Cuánto dinero se transfirió a las gobernaciones?"
+     ],
+     "d": "Hambre Cero alimenta a más de un millón de alumnos en 7.082 instituciones.",
+     "a": [
+      [
+       "ciclo-pobreza",
+       "Ciclo de la pobreza"
+      ],
+      [
+       "oalp-aumento",
+       "Aumento de la OALP"
+      ]
+     ]
+    }
+   },
+   {
+    "id": "pisa-2025",
+    "to": "Paraguay: tras PISA 2025, expertos advierten que el sistema educativo está desfasado y carece de un plan claro de mejora",
+    "fo": "2026-09-12",
+    "e": 3,
+    "niv": "Media",
+    "por": "Solo 24 % de los alumnos llega al nivel básico de lectura. La educación es capital humano: un tema ideal para políticas de oferta a largo plazo.",
+    "kc": [
+     [
+      "cambio",
+      "Los resultados empeoraron desde 2022."
+     ],
+     [
+      "equidad",
+      "Una mala educación limita las oportunidades futuras."
+     ]
+    ],
+    "dg": "Políticas de oferta: invertir en educación desplaza la OALP, aunque con años de retraso.",
+    "ev": "Por qué la educación es una política de oferta; plazos largos; costo y prioridades del gasto público.",
+    "g": {
+     "p": [
+      "¿Qué porcentaje de alumnos alcanza el nivel básico en lectura, matemáticas y ciencias?",
+      "¿Cómo cambió el puntaje de lectura desde 2022?",
+      "¿Qué proponen los expertos?"
+     ],
+     "d": "Solo el 24 % de los alumnos paraguayos alcanzó el nivel básico en lectura, frente a 69 % del promedio internacional.",
+     "a": [
+      [
+       "oalp-aumento",
+       "Aumento de la OALP"
+      ],
+      [
+       "politicas-oferta",
+       "Políticas del lado de la oferta"
       ]
      ]
     }

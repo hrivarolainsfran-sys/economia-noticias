@@ -974,6 +974,8 @@ body:not(.home) .ticker,body:not(.home) .edition{display:none}
 .ia-dl dd{margin:0;font-size:.88rem;display:grid;gap:3px}
 .ia-ft{display:grid;gap:8px;margin-top:2px}
 .ia-ven{font-size:.8rem;color:var(--ok)}
+.ia-ref{margin:4px 0 0;padding-top:8px;border-top:1px dashed var(--rule);font-size:.82rem;color:var(--ink-2);line-height:1.35}
+.ia-ref span{display:block;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--uc)}
 .ia-ven.warn{color:var(--bad);font-weight:600}
 .ia-btns{display:flex;flex-wrap:wrap;gap:6px}
 .ia-btns .btn{font-size:.85rem;padding:6px 10px}
@@ -2018,6 +2020,7 @@ function iaCard(x, P) {
     : `<p class="ia-por">${esc(n.resumen.split(/\.\s/)[0].replace(/\.$/, ''))}.</p><div class="tags">${n.diagramas.map(k => `<span class="tag">${esc(LIB[k].t)}</span>`).join('')}${KC[n.kc] ? `<span class="tag kc">${KC[n.kc]}</span>` : ''}</div>`}
     <div class="ia-ft"><span class="ia-ven${dias < 60 ? ' warn' : ''}">${dias < 60 ? 'Vence pronto: ' : 'Sirve hasta el '}${fdate(iaHasta(n))}</span>
       <div class="ia-btns"><a class="btn" href="${esc(n.url)}" target="_blank" rel="noopener">Artículo original ↗</a><a class="btn" href="#n-${n.id}">Ver el análisis</a><a class="btn" href="${iaTaller('val', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Validar en el Taller ↗</a><a class="btn" href="${iaTaller('esc', [iaArt(n, kcs[0] && kcs[0][0])])}" target="_blank" rel="noopener">Escribir en el Taller ↗</a>${pick}</div></div>
+    <p class="ia-ref"><span>Referencia del programa</span> Unidad ${u} · ${ut} › ${esc(n.tema)} ${esc(TEMAS[n.tema] || '')}</p>
   </article>`;
 }
 function iaEst(P) {
@@ -2064,7 +2067,7 @@ function drawIA() {
     <section><div class="sec-head"><div><div class="eyebrow">Elige tú</div><h2>Todos los artículos disponibles</h2></div><span class="note" id="ia-count" role="status"></span></div>
       <div class="filters ia-filters"><div role="group" aria-label="Unidad">${[['todas', 'Todas'], ['2', 'Unidad 2 · Micro'], ['3', 'Unidad 3 · Macro'], ['4', 'Unidad 4 · Global']].map(([k, t]) => `<button type="button" class="chip" data-iu="${k}" aria-pressed="${IA_F.u === k}">${t}</button>`).join('')}</div>
       <select id="ia-kc" aria-label="Concepto clave"><option value="todos">Todos los conceptos clave</option>${Object.entries(KC).map(([k, v]) => `<option value="${k}"${IA_F.kc === k ? ' selected' : ''}>${v}</option>`).join('')}</select>
-      <select id="ia-niv" aria-label="Nivel de dificultad"><option value="todos">Todos los niveles</option>${['Accesible', 'Media', 'Exigente'].map(v => `<option value="${v}"${IA_F.niv === v ? ' selected' : ''}>${v}</option>`).join('')}</select>
+      <select id="ia-niv" aria-label="Nivel de dificultad"><option value="todos">Todos los niveles</option>${['Media', 'Exigente'].map(v => `<option value="${v}"${IA_F.niv === v ? ' selected' : ''}>${v}</option>`).join('')}</select>
       <select id="ia-m" aria-label="Medio"><option value="todos">Todos los medios</option><option value="nuevos"${IA_F.m === 'nuevos' ? ' selected' : ''}>Medios que todavía no elegí</option>${medios.map(([m, c]) => `<option value="${esc(m)}"${IA_F.m === m ? ' selected' : ''}>${esc(m)}</option>`).join('')}</select>
       <label class="ia-solo"><input type="checkbox" id="ia-solo"${IA_F.solo ? ' checked' : ''}> Solo los recomendados</label>${IA_RES() ? `<label class="ia-solo"><input type="checkbox" id="ia-libre"${IA_F.libre ? ' checked' : ''}> Ocultar los ya reservados</label>` : ''}</div>
       <div class="ia-grid" id="ia-grid"></div></section>

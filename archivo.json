@@ -1,5 +1,1261 @@
 [
  {
+  "id": "emblemas-gasoil-isc",
+  "fecha": "2026-11-13",
+  "medio": "RDN",
+  "url": "https://www.rdn.com.py/2026/11/13/emblemas-privados-bajan-el-gasoil-tras-reduccion-del-impuesto",
+  "titulo": "El impuesto al gasoil baja G. 340, pero el precio baja G. 300: ¿quién se queda con la diferencia?",
+  "unidad": "micro",
+  "tema": "2.7",
+  "kc": "intervencion",
+  "resumen": "El Gobierno redujo 50 % el impuesto selectivo al consumo (ISC) del gasoil común: el impuesto baja G. 340 por litro. Los emblemas privados acordaron bajar el precio G. 300. La tasa sigue en 18 %, pero se redujo la base imponible, que antes era de G. 3.777,78 por litro.",
+  "contexto": "Cuando baja un impuesto indirecto, no siempre baja el precio en el mismo monto: cuánto llega al consumidor depende de las elasticidades de la oferta y la demanda. Aquí, de G. 340 de rebaja del impuesto, G. 300 llegan al precio y G. 40 quedan en manos de los vendedores. Petropar, la petrolera estatal, bajó además G. 300 sus naftas, algo que no se había acordado con los privados, que se quejaron de quedar en desventaja. Es un caso real de incidencia de un impuesto.",
+  "datos": [
+   [
+    "G. 340",
+    "Rebaja del impuesto por litro de gasoil común"
+   ],
+   [
+    "G. 300",
+    "Rebaja del precio en los emblemas privados"
+   ],
+   [
+    "18 %",
+    "Tasa del ISC, que no cambió"
+   ],
+   [
+    "G. 3.777,78",
+    "Base imponible por litro antes de la rebaja"
+   ],
+   [
+    "50 %",
+    "Reducción temporal del impuesto"
+   ]
+  ],
+  "clave": [
+   "G. 300 de G. 340",
+   "de la rebaja llegan al consumidor"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "G. por litro",
+   "rows": [
+    [
+     "Rebaja del impuesto",
+     340
+    ],
+    [
+     "Rebaja del precio",
+     300,
+     1
+    ]
+   ]
+  },
+  "cap": "Gasoil común en los emblemas privados, según RDN.",
+  "pasos": [
+   "El Gobierno baja el impuesto al gasoil",
+   "La oferta se desplaza hacia abajo",
+   "El precio de mercado baja",
+   "Parte de la rebaja llega al consumidor y parte queda al vendedor",
+   "Petropar baja también las naftas y presiona a los privados"
+  ],
+  "conceptos": [
+   [
+    "Impuesto indirecto específico",
+    "Monto fijo por unidad vendida, que desplaza la oferta."
+   ],
+   [
+    "Incidencia del impuesto",
+    "Quién soporta realmente el impuesto: consumidores o productores."
+   ],
+   [
+    "Elasticidad precio de la demanda",
+    "Determina cuánto del impuesto se traslada al precio."
+   ],
+   [
+    "Empresa pública",
+    "Petropar, que compite con los privados y puede presionar precios."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "isc-diesel",
+   "combustibles"
+  ],
+  "pregunta": {
+   "q": "El impuesto baja G. 340 y el precio baja G. 300. ¿Qué parte de la rebaja recibe el consumidor?",
+   "opts": [
+    "≈ 88 %",
+    "≈ 12 %",
+    "100 %",
+    "≈ 50 %"
+   ],
+   "ok": 0,
+   "fb": "300 ÷ 340 ≈ 0,88: el consumidor recibe cerca del 88 % y el vendedor se queda con el 12 % (G. 40)."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Transportistas y consumidores",
+     "Pagan G. 300 menos por litro."
+    ],
+    [
+     "Vendedores",
+     "Se quedan con G. 40 por litro."
+    ]
+   ],
+   "pierden": [
+    [
+     "El fisco",
+     "Recauda G. 340 menos por litro."
+    ],
+    [
+     "El ambiente",
+     "Más consumo de diésel, más emisiones."
+    ]
+   ],
+   "corto": "Combustible más barato hasta fin de año.",
+   "largo": "Si el impuesto vuelve en enero, el precio sube otra vez.",
+   "supuestos": [
+    "Que la demanda de gasoil sea inelástica.",
+    "Rebaja temporal hasta el 31 de diciembre."
+   ],
+   "conclusion": "La rebaja del impuesto se traslada casi toda al precio, como predice una demanda inelástica."
+  }
+ },
+ {
+  "id": "topes-tarjetas",
+  "fecha": "2026-07-01",
+  "medio": "RDN",
+  "url": "https://www.rdn.com.py/2026/07/01/baja-de-comisiones-en-tarjetas-que-cambia-desde-hoy-y-como-afecta",
+  "titulo": "Precio máximo a las comisiones: nadie puede cobrar más de 3 % por pagos con tarjeta de crédito",
+  "unidad": "micro",
+  "tema": "2.7",
+  "kc": "intervencion",
+  "resumen": "Desde el 1 de julio de 2026, el Banco Central fijó topes obligatorios a las comisiones que pagan los comercios por cobrar con tarjeta: 3 % para crédito y 2 % para débito. Antes, algunas comisiones de crédito rondaban el 5 %, sobre todo por intermediarios llamados subadquirientes.",
+  "contexto": "Es un precio máximo: el Estado fija el precio más alto que se puede cobrar por un servicio. El objetivo del BCP es que más comercios acepten pagos electrónicos y usen menos efectivo. El cambio no modifica lo que paga el consumidor con su tarjeta, sino lo que el comercio paga a procesadoras e intermediarios. Los pagos con QR vinculados a tarjetas también deben respetar los topes, y el BCP prepara pagos QR por transferencia que serían aún más baratos. Un precio máximo puede tener efectos no deseados: si el tope queda por debajo del costo, algunos intermediarios podrían ofrecer menos el servicio.",
+  "datos": [
+   [
+    "3 %",
+    "Comisión máxima con tarjeta de crédito"
+   ],
+   [
+    "2 %",
+    "Comisión máxima con tarjeta de débito"
+   ],
+   [
+    "≈ 5 %",
+    "Comisiones de crédito que se cobraban antes"
+   ],
+   [
+    "1 de julio de 2026",
+    "Entrada en vigor"
+   ]
+  ],
+  "clave": [
+   "3 %",
+   "tope a la comisión de crédito"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Comisión de crédito antes",
+     5
+    ],
+    [
+     "Tope de crédito",
+     3,
+     1
+    ],
+    [
+     "Tope de débito",
+     2
+    ]
+   ]
+  },
+  "cap": "Comisiones por pagos con tarjeta, según el BCP citado por RDN.",
+  "pasos": [
+   "Los comercios pagaban comisiones altas",
+   "El BCP fija un precio máximo",
+   "Baja el costo de cobrar con tarjeta",
+   "Más comercios aceptan pagos electrónicos",
+   "Los intermediarios ganan menos por operación"
+  ],
+  "conceptos": [
+   [
+    "Precio máximo",
+    "Precio legal más alto que se puede cobrar, fijado por debajo del equilibrio."
+   ],
+   [
+    "Exceso de demanda",
+    "Si el tope es muy bajo, se quiere más servicio del que se ofrece."
+   ],
+   [
+    "Intermediario",
+    "Empresa entre el comercio y la procesadora que cobra su parte."
+   ],
+   [
+    "Inclusión financiera",
+    "Acceso de más personas y negocios a pagos y servicios financieros."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [],
+  "pregunta": {
+   "q": "Un comercio vende G. 1.000.000 con tarjeta de crédito. ¿Cuánto ahorra en comisiones si pasa de 5 % al tope de 3 %?",
+   "opts": [
+    "G. 20.000",
+    "G. 30.000",
+    "G. 50.000",
+    "G. 2.000"
+   ],
+   "ok": 0,
+   "fb": "5 % de 1.000.000 = 50.000; 3 % = 30.000. Ahorra G. 20.000."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Comercios, sobre todo pequeños",
+     "Pagan menos por cada venta con tarjeta."
+    ],
+    [
+     "Consumidores",
+     "Más lugares aceptan pagos electrónicos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Procesadoras e intermediarios",
+     "Ganan menos por operación."
+    ]
+   ],
+   "corto": "Menores costos para los comercios.",
+   "largo": "Más pagos electrónicos y menos efectivo, si los intermediarios siguen ofreciendo el servicio.",
+   "supuestos": [
+    "Que el tope no quede por debajo del costo de procesar pagos.",
+    "Que los comercios trasladen el ahorro a sus precios."
+   ],
+   "conclusion": "Un precio máximo bien calibrado puede bajar costos sin crear escasez del servicio."
+  }
+ },
+ {
+  "id": "tabaco-isc-proyecto",
+  "fecha": "2026-09-01",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/politica/2026/09/01/diputados-presentan-otro-proyecto-para-aumentar-impuesto-al-tabaco-para-financiar-sistema-de-salud/",
+  "titulo": "Proponen subir el impuesto al tabaco de 22 % a 32 % para financiar la salud",
+  "unidad": "micro",
+  "tema": "2.7",
+  "kc": "intervencion",
+  "resumen": "Tres diputados liberales presentaron un proyecto para subir el impuesto selectivo al consumo del tabaco de 22 % a 32 % del precio final y destinar lo recaudado a medicamentos, deudas con proveedores y salarios del sector salud. Según el diputado Adrián Vaesken, el tabaco cuesta al Estado más de US$ 300 millones por año y solo aporta US$ 50 millones.",
+  "contexto": "El tabaco es un bien de demérito: su consumo daña a quien fuma y genera costos para otros (externalidad negativa), sobre todo en el sistema de salud. Un impuesto indirecto ad valorem sube el precio y reduce la cantidad consumida. Como la demanda de cigarrillos es inelástica, la cantidad baja poco y la recaudación sube bastante. Aun con 32 %, Paraguay quedaría por debajo del 40 % a 60 % que recomienda la OMS, según el diputado. Es un proyecto de ley: todavía no fue aprobado.",
+  "datos": [
+   [
+    "22 % → 32 %",
+    "Impuesto al tabaco propuesto (sobre el precio final)"
+   ],
+   [
+    "US$ 300 M+",
+    "Gasto anual del Estado atribuido al tabaco, según el diputado"
+   ],
+   [
+    "US$ 50 M",
+    "Lo que recauda el Estado por el tabaco"
+   ],
+   [
+    "40 %-60 %",
+    "Rango recomendado por la OMS, según el proyecto"
+   ]
+  ],
+  "clave": [
+   "32 %",
+   "impuesto propuesto al tabaco"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ M por año",
+   "rows": [
+    [
+     "Gasto atribuido al tabaco",
+     300,
+     1
+    ],
+    [
+     "Recaudación actual",
+     50
+    ]
+   ]
+  },
+  "cap": "Cifras citadas por el diputado Adrián Vaesken en ABC Color.",
+  "pasos": [
+   "Fumar genera costos de salud para todos",
+   "Se propone subir el impuesto de 22 % a 32 %",
+   "Sube el precio de los cigarrillos",
+   "El consumo baja un poco y la recaudación sube",
+   "Lo recaudado va al sistema de salud"
+  ],
+  "conceptos": [
+   [
+    "Impuesto ad valorem",
+    "Impuesto como porcentaje del precio."
+   ],
+   [
+    "Bien de demérito",
+    "Bien que se consume más de lo socialmente deseable."
+   ],
+   [
+    "Externalidad negativa del consumo",
+    "Costo que el consumo impone a terceros."
+   ],
+   [
+    "Demanda inelástica",
+    "La cantidad responde poco al precio."
+   ]
+  ],
+  "diagramas": [
+   "externalidad",
+   "oferta-demanda"
+  ],
+  "rel": [],
+  "pregunta": {
+   "q": "Si la demanda de cigarrillos es inelástica, ¿qué pasa al subir el impuesto?",
+   "opts": [
+    "La cantidad baja poco y la recaudación sube",
+    "La cantidad baja mucho y la recaudación cae",
+    "No cambia el precio",
+    "El consumo sube"
+   ],
+   "ok": 0,
+   "fb": "Con demanda inelástica, el precio sube y la cantidad cae poco: el Estado recauda más, aunque el efecto sobre el consumo es limitado."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Sistema de salud",
+     "Más recursos para medicamentos."
+    ],
+    [
+     "Fumadores que dejan",
+     "Mejor salud a largo plazo."
+    ]
+   ],
+   "pierden": [
+    [
+     "Fumadores de bajos ingresos",
+     "Gastan más (impuesto regresivo)."
+    ],
+    [
+     "Industria tabacalera",
+     "Menos ventas."
+    ]
+   ],
+   "corto": "Cigarrillos más caros y más recaudación.",
+   "largo": "Menos fumadores y menos gasto en salud, si no crece el contrabando.",
+   "supuestos": [
+    "Que el proyecto se apruebe.",
+    "Que el contrabando no reemplace a las ventas legales.",
+    "Cifras del diputado, no verificadas por separado."
+   ],
+   "conclusion": "Un impuesto al tabaco puede corregir una externalidad y recaudar, pero hay que vigilar el contrabando y su efecto en los más pobres."
+  }
+ },
+ {
+  "id": "atome-tarifa",
+  "fecha": "2026-06-09",
+  "medio": "Diario Hoy",
+  "url": "https://www.hoy.com.py/nacionales/2026/06/09/acuerdo-atome-ande-el-porque-de-la-tarifa-y-la-conveniencia-para-el-pais",
+  "titulo": "Energía a US$ 30 para una planta de hidrógeno verde: ¿subsidio o buen negocio?",
+  "unidad": "micro",
+  "tema": "2.7",
+  "kc": "eleccion",
+  "resumen": "La empresa Atome quiere comprar a la ANDE 125 megavatios de energía a una tarifa preferencial de US$ 30 por MWh para instalar una planta de hidrógeno y fertilizantes verdes, con una inversión de US$ 665 millones. Los sindicatos de la ANDE denuncian que es una tarifa por debajo del costo; el Gobierno dice que no es un subsidio.",
+  "contexto": "Un subsidio es un pago o beneficio del Estado que baja el costo de un productor. El Gobierno argumenta que no lo es, porque la tarifa cubre el costo de producción, y que la alternativa es peor: la energía que Paraguay no usa debe cederla a Brasil a un precio simbólico de US$ 10 por MWh, y hoy cede entre 40 % y 50 % de su energía. Las criptomineras pagan US$ 42. La pregunta económica es de costo de oportunidad: ¿qué es lo mejor que Paraguay puede hacer con esa energía?",
+  "datos": [
+   [
+    "US$ 30/MWh",
+    "Tarifa pedida por Atome"
+   ],
+   [
+    "125 MW",
+    "Consumo intensivo previsto"
+   ],
+   [
+    "US$ 665 M",
+    "Inversión prevista"
+   ],
+   [
+    "US$ 10/MWh",
+    "Precio al que se cede energía a Brasil"
+   ],
+   [
+    "US$ 42/MWh",
+    "Lo que pagan las criptomineras"
+   ],
+   [
+    "40 %-50 %",
+    "Energía que Paraguay sigue cediendo a Brasil"
+   ]
+  ],
+  "clave": [
+   "US$ 30",
+   "por MWh para Atome"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$/MWh",
+   "rows": [
+    [
+     "Cesión a Brasil",
+     10
+    ],
+    [
+     "Tarifa Atome",
+     30,
+     1
+    ],
+    [
+     "Criptomineras",
+     42
+    ]
+   ]
+  },
+  "cap": "Precios de la energía citados por el Gobierno en Diario HOY.",
+  "pasos": [
+   "Paraguay tiene energía que no usa",
+   "Si no la usa, la cede a Brasil a US$ 10",
+   "Atome ofrece pagar US$ 30 e invertir",
+   "Los sindicatos lo ven como subsidio encubierto",
+   "El Gobierno lo ve como mejor uso de la energía"
+  ],
+  "conceptos": [
+   [
+    "Subvención (subsidio)",
+    "Beneficio del Estado que baja el costo de producir."
+   ],
+   [
+    "Costo de oportunidad",
+    "El valor de la mejor alternativa a la que se renuncia."
+   ],
+   [
+    "Discriminación de precios",
+    "Cobrar precios distintos a distintos clientes por el mismo bien."
+   ],
+   [
+    "Inversión extranjera directa",
+    "Capital extranjero que instala producción en el país."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda"
+  ],
+  "rel": [
+   "energia-29-mwh",
+   "energia-cedida"
+  ],
+  "pregunta": {
+   "q": "Si la alternativa es ceder la energía a US$ 10, ¿cuánto más recibe Paraguay por cada MWh vendido a Atome?",
+   "opts": [
+    "US$ 20",
+    "US$ 30",
+    "US$ 12",
+    "US$ 40"
+   ],
+   "ok": 0,
+   "fb": "30 − 10 = US$ 20 más por MWh, aunque menos que los US$ 42 de las criptomineras."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "El país",
+     "Cobra más que cediendo la energía y recibe inversión."
+    ],
+    [
+     "Atome",
+     "Energía barata para producir hidrógeno verde."
+    ]
+   ],
+   "pierden": [
+    [
+     "ANDE",
+     "Cobra menos que a otros grandes consumidores."
+    ],
+    [
+     "Otros usuarios",
+     "Si la tarifa no cubre costos, podrían pagar la diferencia."
+    ]
+   ],
+   "corto": "Inversión y empleo en la construcción.",
+   "largo": "Depende de si la tarifa cubre el costo y de cuándo Paraguay necesite esa energía para sí.",
+   "supuestos": [
+    "Que la tarifa cubra el costo, como dice el Gobierno.",
+    "Que la energía no haga falta en el país en los próximos años."
+   ],
+   "conclusion": "Si la energía se pierde a US$ 10, venderla a US$ 30 parece mejor; el debate es si otros pagarían más."
+  }
+ },
+ {
+  "id": "autos-electricos-iva",
+  "fecha": "2026-10-27",
+  "medio": "El Nacional",
+  "url": "https://elnacional.com.py/economia/avanza-proyecto-5-autos-electricos-n114226",
+  "titulo": "Autos eléctricos: el Gobierno quiere cobrarles 5 % de IVA y quitarles la exoneración total",
+  "unidad": "micro",
+  "tema": "2.7",
+  "kc": "sostenibilidad",
+  "resumen": "La DNIT propone cobrar un IVA de 5 % a la importación y primera venta de vehículos eléctricos e híbridos, que hoy están exonerados por completo. Tras negociar con los distribuidores (CADAM), el arancel de importación seguiría en cero durante una transición de cinco años. En 2032 pagarían el régimen general: 10 % de IVA y 20 % de arancel.",
+  "contexto": "La exoneración era un incentivo fiscal para estimular la transición energética: al no pagar impuestos, los autos eléctricos son más baratos y se compran más. Quitarla recauda más, pero sube su precio y frena su adopción. Desde la teoría de externalidades, los autos eléctricos contaminan menos que los de combustión, así que gravarlos igual que a estos reduce un incentivo a un consumo con beneficios ambientales. La transición gradual busca no golpear a un sector que recién empieza.",
+  "datos": [
+   [
+    "5 %",
+    "IVA propuesto durante la transición"
+   ],
+   [
+    "0 %",
+    "Arancel de importación en la transición"
+   ],
+   [
+    "5 años",
+    "Duración de la transición"
+   ],
+   [
+    "10 % + 20 %",
+    "IVA y arancel del régimen general desde 2032"
+   ]
+  ],
+  "clave": [
+   "5 %",
+   "de IVA a los autos eléctricos"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Hoy",
+     0
+    ],
+    [
+     "Transición (IVA)",
+     5,
+     1
+    ],
+    [
+     "2032 (IVA + arancel)",
+     30
+    ]
+   ]
+  },
+  "cap": "Carga impositiva propuesta para la importación de autos eléctricos, según El Nacional (la suma de 2032 es aproximada).",
+  "pasos": [
+   "Los autos eléctricos estaban exonerados",
+   "El Estado propone cobrar 5 % de IVA",
+   "Sube el precio de los autos eléctricos",
+   "Se compran menos que sin impuesto",
+   "En 2032 pagan como cualquier auto"
+  ],
+  "conceptos": [
+   [
+    "Impuesto indirecto",
+    "Impuesto que se paga al comprar un bien."
+   ],
+   [
+    "Incentivo fiscal",
+    "Rebaja de impuestos para promover una actividad."
+   ],
+   [
+    "Externalidad positiva",
+    "Beneficio para terceros, como menos contaminación."
+   ],
+   [
+    "Elasticidad de la demanda",
+    "Cuánto cae la compra de autos eléctricos si sube su precio."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda",
+   "externalidad"
+  ],
+  "rel": [],
+  "pregunta": {
+   "q": "Un auto eléctrico cuesta US$ 30.000 sin impuestos. ¿Cuánto costaría con el IVA de 5 %?",
+   "opts": [
+    "US$ 31.500",
+    "US$ 30.500",
+    "US$ 33.000",
+    "US$ 35.000"
+   ],
+   "ok": 0,
+   "fb": "30.000 × 1,05 = US$ 31.500."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "El fisco",
+     "Más recaudación."
+    ],
+    [
+     "Importadores",
+     "Una transición gradual en vez de un cambio brusco."
+    ]
+   ],
+   "pierden": [
+    [
+     "Compradores de autos eléctricos",
+     "Pagan más."
+    ],
+    [
+     "El ambiente",
+     "Menos incentivo para dejar los autos a combustión."
+    ]
+   ],
+   "corto": "Autos eléctricos algo más caros.",
+   "largo": "Si se igualan los impuestos en 2032, se pierde el incentivo a la electromovilidad.",
+   "supuestos": [
+    "Que el proyecto se apruebe como está.",
+    "Que la demanda responda al precio."
+   ],
+   "conclusion": "El Estado gana recaudación, pero renuncia a parte de un incentivo ambiental."
+  }
+ },
+ {
+  "id": "productividad-laboral",
+  "fecha": "2026-10-14",
+  "medio": "RDN",
+  "url": "https://www.rdn.com.py/2026/10/14/productividad-laboral-en-paraguay-mas-horas-de-trabajo-pero-menor-rendimiento-economico",
+  "titulo": "Cada hora de trabajo produce US$ 16,3 en Paraguay y US$ 81,8 en Estados Unidos",
+  "unidad": "macro",
+  "tema": "3.7",
+  "kc": "cambio",
+  "resumen": "Cada hora trabajada en Paraguay genera US$ 16,3, frente a US$ 81,8 en Estados Unidos, US$ 38,7 en Uruguay y US$ 34,4 en Chile. Los paraguayos trabajan más horas (2.123 al año, contra 1.481 en Uruguay), pero producen menos por hora. La productividad creció 50 % entre 2005 y 2018, pero solo 2,7 % entre 2018 y 2025.",
+  "contexto": "La productividad laboral es la producción por hora trabajada, y es la base del crecimiento a largo plazo y de los salarios. La brecha no se debe a que los paraguayos se esfuercen menos, sino a las condiciones: tecnología, maquinaria, herramientas y capacitación. El estancamiento desde 2018 se relaciona con la desaceleración de 2019, la pandemia y las sequías de 2021 y 2022. Las políticas de oferta, como invertir en educación, infraestructura y tecnología, buscan aumentar la productividad y desplazar la OALP.",
+  "datos": [
+   [
+    "US$ 16,3",
+    "Producción por hora trabajada en Paraguay (2025)"
+   ],
+   [
+    "US$ 81,8",
+    "En Estados Unidos"
+   ],
+   [
+    "US$ 38,7",
+    "En Uruguay"
+   ],
+   [
+    "2.123 horas",
+    "Trabajadas por año en Paraguay (1.481 en Uruguay)"
+   ],
+   [
+    "+2,7 %",
+    "Crecimiento de la productividad 2018-2025 (+50 % en 2005-2018)"
+   ]
+  ],
+  "clave": [
+   "US$ 16,3",
+   "por hora trabajada"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ por hora",
+   "rows": [
+    [
+     "Paraguay",
+     16.3,
+     1
+    ],
+    [
+     "Argentina",
+     33.8
+    ],
+    [
+     "Chile",
+     34.4
+    ],
+    [
+     "Uruguay",
+     38.7
+    ],
+    [
+     "Estados Unidos",
+     81.8
+    ]
+   ]
+  },
+  "cap": "Productividad laboral por hora trabajada, según RDN.",
+  "pasos": [
+   "Poca tecnología y capacitación",
+   "Baja producción por hora",
+   "Salarios bajos aunque se trabajen muchas horas",
+   "Las políticas de oferta pueden subir la productividad",
+   "Sube el PIB potencial"
+  ],
+  "conceptos": [
+   [
+    "Productividad laboral",
+    "Producción por hora trabajada."
+   ],
+   [
+    "Políticas de oferta",
+    "Medidas para aumentar la capacidad productiva a largo plazo."
+   ],
+   [
+    "Capital humano",
+    "Conocimientos y habilidades de los trabajadores."
+   ],
+   [
+    "PIB potencial",
+    "Lo que la economía puede producir con pleno empleo."
+   ]
+  ],
+  "diagramas": [
+   "politicas-oferta"
+  ],
+  "rel": [
+   "pisa-2025",
+   "informalidad-bid"
+  ],
+  "pregunta": {
+   "q": "¿Cuántas veces más produce por hora un trabajador en Estados Unidos que uno en Paraguay?",
+   "opts": [
+    "≈ 5 veces",
+    "≈ 2 veces",
+    "≈ 10 veces",
+    "≈ 1,5 veces"
+   ],
+   "ok": 0,
+   "fb": "81,8 ÷ 16,3 ≈ 5."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Trabajadores, si sube la productividad",
+     "Mejores salarios."
+    ]
+   ],
+   "pierden": [
+    [
+     "Trabajadores hoy",
+     "Muchas horas con bajos ingresos."
+    ]
+   ],
+   "corto": "La productividad casi no crece.",
+   "largo": "Sin inversión en capital humano y tecnología, la brecha no se cierra.",
+   "supuestos": [
+    "Comparaciones en dólares, que dependen del tipo de cambio."
+   ],
+   "conclusion": "Paraguay no necesita trabajar más horas, sino producir más por hora: ahí entran las políticas de oferta."
+  }
+ },
+ {
+  "id": "fmi-fiscal",
+  "fecha": "2026-09-03",
+  "medio": "InfoNegocios",
+  "url": "https://infonegocios.com.py/nota-principal/fmi-propone-revisar-la-estructura-fiscal-de-paraguay-ingresos-exenciones-y-deficit-bajo-analisis",
+  "titulo": "El FMI prevé un déficit de 3,5 % del PIB y pide revisar exenciones e impuestos",
+  "unidad": "macro",
+  "tema": "3.6",
+  "kc": "sostenibilidad",
+  "resumen": "En su Consulta del Artículo IV 2026, el FMI estima que el déficit fiscal llegará a 3,5 % del PIB en 2026, frente a la meta de 1,5 %, y que se volvería al límite de la Ley de Responsabilidad Fiscal en 2028. Proyecta un crecimiento de 4,4 %, por encima del potencial de 3,8 %. Recomienda mejorar la recaudación y revisar exenciones que cuestan entre 1 % y 2 % del PIB.",
+  "contexto": "El déficit subió por el pago de deudas atrasadas, menores ingresos por la apreciación del guaraní y más gasto en salud. El FMI propone ampliar la factura electrónica, mejorar el cumplimiento y formalizar la economía, lo que podría sumar 1,2 puntos del PIB en ingresos, y revisar deducciones del impuesto a la renta personal y tasas reducidas del IVA. Los exministros Óscar Llamosas y Benigno López coinciden en que hace falta avanzar, pero advierten que cambiar tasas del IVA puede subir precios y afectar a los hogares de menores ingresos.",
+  "datos": [
+   [
+    "3,5 % del PIB",
+    "Déficit fiscal estimado para 2026"
+   ],
+   [
+    "1,5 % del PIB",
+    "Meta inicial (límite de la ley)"
+   ],
+   [
+    "4,4 %",
+    "Crecimiento proyectado en 2026"
+   ],
+   [
+    "3,8 %",
+    "Crecimiento potencial estimado"
+   ],
+   [
+    "1 %-2 % del PIB",
+    "Costo de los gastos tributarios (exenciones)"
+   ],
+   [
+    "1,2 pts del PIB",
+    "Ingresos que podrían sumar las mejoras de recaudación"
+   ]
+  ],
+  "clave": [
+   "3,5 %",
+   "del PIB de déficit"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% del PIB",
+   "rows": [
+    [
+     "Meta",
+     1.5
+    ],
+    [
+     "Déficit estimado 2026",
+     3.5,
+     1
+    ]
+   ]
+  },
+  "cap": "Déficit fiscal de 2026 según el FMI, citado por InfoNegocios.",
+  "pasos": [
+   "Caen ingresos y suben gastos",
+   "El déficit llega a 3,5 % del PIB",
+   "Crece la deuda",
+   "El FMI propone recaudar más y revisar exenciones",
+   "Se vuelve al límite legal en 2028"
+  ],
+  "conceptos": [
+   [
+    "Déficit fiscal",
+    "El Estado gasta más de lo que recauda."
+   ],
+   [
+    "Regla fiscal",
+    "Ley que limita el déficit (1,5 % del PIB en Paraguay)."
+   ],
+   [
+    "Gasto tributario",
+    "Ingreso al que el Estado renuncia por exenciones y rebajas."
+   ],
+   [
+    "Crecimiento potencial",
+    "Lo que la economía puede crecer sin generar inflación."
+   ]
+  ],
+  "diagramas": [
+   "politica-fiscal"
+  ],
+  "rel": [
+   "deficit-octubre",
+   "pgn-adenda"
+  ],
+  "pregunta": {
+   "q": "Si la economía crece 4,4 % y el potencial es 3,8 %, ¿qué indica?",
+   "opts": [
+    "Que la economía crece por encima de su capacidad sostenible",
+    "Que hay recesión",
+    "Que hay desempleo alto",
+    "Que el déficit es cero"
+   ],
+   "ok": 0,
+   "fb": "Crecer por encima del potencial indica una brecha inflacionaria: un motivo para no seguir estimulando con déficit."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Contribuyentes que ya pagan",
+     "Más formalización reparte mejor la carga."
+    ]
+   ],
+   "pierden": [
+    [
+     "Hogares de bajos ingresos",
+     "Si suben tasas del IVA, pagan más."
+    ],
+    [
+     "Sectores con exenciones",
+     "Pierden beneficios."
+    ]
+   ],
+   "corto": "Ajustes graduales en recaudación.",
+   "largo": "Volver al límite fiscal reduce riesgos de deuda.",
+   "supuestos": [
+    "Que las reformas se aprueben.",
+    "Proyecciones de septiembre, antes de la crisis de Ueno."
+   ],
+   "conclusion": "El FMI pide ordenar las cuentas, pero el cómo define quién paga."
+  }
+ },
+ {
+  "id": "arancel-eeuu-julio",
+  "fecha": "2026-10-25",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/10/25/paraguay-mejora-acceso-a-eeuu-carga-de-arancel-baja-57-puntos-por-debajo-de-la-region/",
+  "titulo": "Estados Unidos baja el arancel a Paraguay de 12,8 % a 7,1 % y lo sube a Brasil hasta 16,6 %",
+  "unidad": "global",
+  "tema": "4.2",
+  "kc": "interdependencia",
+  "resumen": "Según la Cepal, citada por ABC Color, el arancel promedio que paga lo que Paraguay exporta a Estados Unidos bajó de 12,8 % a 7,1 % entre el 21 y el 24 de julio de 2026: 5,7 puntos menos. En cambio, el de Brasil subió de 10,3 % a 16,6 %. El arancel promedio de Estados Unidos era de 11,1 %.",
+  "contexto": "Un arancel es un impuesto a las importaciones: sube el precio con el que un producto entra al país. Durante 2026, Estados Unidos cambió varias veces su política: la Corte Suprema anuló los aranceles «recíprocos» y el Gobierno los reemplazó por uno de 10 %, y en julio agregó tasas de hasta 12,5 % para 60 países. Para Paraguay, la carga bajó y quedó por debajo de sus socios del Mercosur. Pagar menos arancel mejora el precio relativo de sus productos, aunque no garantiza más ventas: también cuentan productividad, logística y condiciones sanitarias.",
+  "datos": [
+   [
+    "12,8 % → 7,1 %",
+    "Arancel promedio a las exportaciones de Paraguay a EE. UU."
+   ],
+   [
+    "−5,7 puntos",
+    "Reducción entre el 21 y el 24 de julio"
+   ],
+   [
+    "10,3 % → 16,6 %",
+    "Arancel a Brasil en el mismo periodo"
+   ],
+   [
+    "11,1 %",
+    "Arancel promedio ponderado de EE. UU."
+   ]
+  ],
+  "clave": [
+   "7,1 %",
+   "arancel de EE. UU. a Paraguay"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Paraguay",
+     7.1,
+     1
+    ],
+    [
+     "Argentina",
+     8.6
+    ],
+    [
+     "Promedio EE. UU.",
+     11.1
+    ],
+    [
+     "Uruguay",
+     11.9
+    ],
+    [
+     "Brasil",
+     16.6
+    ]
+   ]
+  },
+  "cap": "Arancel promedio ponderado de EE. UU. a fines de julio de 2026, según la Cepal citada por ABC Color.",
+  "pasos": [
+   "Estados Unidos cambia sus aranceles",
+   "Baja la carga para Paraguay y sube para Brasil",
+   "Los productos paraguayos llegan más baratos",
+   "Ganan competitividad frente a otros proveedores",
+   "Pueden crecer las exportaciones a EE. UU."
+  ],
+  "conceptos": [
+   [
+    "Arancel",
+    "Impuesto a las importaciones."
+   ],
+   [
+    "Proteccionismo",
+    "Políticas que protegen a los productores nacionales de la competencia extranjera."
+   ],
+   [
+    "Precio relativo",
+    "Precio de un bien comparado con otro."
+   ],
+   [
+    "Desviación de comercio",
+    "Cuando los compradores cambian de proveedor por diferencias de aranceles."
+   ]
+  ],
+  "diagramas": [
+   "arancel"
+  ],
+  "rel": [
+   "mercosur-ue"
+  ],
+  "pregunta": {
+   "q": "Un producto paraguayo vale US$ 100 en frontera. ¿Cuánto ahorra el importador de EE. UU. con el arancel de 7,1 % en vez de 12,8 %?",
+   "opts": [
+    "US$ 5,70",
+    "US$ 7,10",
+    "US$ 12,80",
+    "US$ 0,57"
+   ],
+   "ok": 0,
+   "fb": "12,80 − 7,10 = US$ 5,70 por cada US$ 100."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Exportadores paraguayos",
+     "Llegan más baratos a EE. UU."
+    ],
+    [
+     "Consumidores de EE. UU.",
+     "Productos más baratos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Exportadores brasileños",
+     "Pagan más que los paraguayos."
+    ],
+    [
+     "Productores de EE. UU.",
+     "Más competencia."
+    ]
+   ],
+   "corto": "Mejor acceso al mercado de EE. UU.",
+   "largo": "Depende de que la política de EE. UU. no vuelva a cambiar.",
+   "supuestos": [
+    "Promedios: no todos los productos pagan 7,1 %.",
+    "Datos de julio de 2026."
+   ],
+   "conclusion": "Un arancel menor ayuda, pero la competitividad depende también de producir mejor y más barato."
+  }
+ },
+ {
+  "id": "dolar-5880",
+  "fecha": "2026-09-30",
+  "medio": "El Nacional",
+  "url": "https://elnacional.com.py/economia/el-dolar-baja-g-5880-aumenta-presion-sobre-bcp-n112811",
+  "titulo": "Entran tantos dólares que el dólar baja a G. 5.880: ¿debe intervenir el BCP?",
+  "unidad": "global",
+  "tema": "4.5",
+  "kc": "interdependencia",
+  "resumen": "A fines de septiembre de 2026 el dólar bajó a unos G. 5.880, su nivel más bajo desde 2018. El economista Amílcar Ferreira lo explica por la entrada de dólares: más inversión extranjera directa (pasó de unos US$ 300 millones por año a más de US$ 1.000 millones tras el grado de inversión), la soja récord, las remesas y un bono en guaraníes por US$ 1.000 millones.",
+  "contexto": "En un tipo de cambio flotante, si aumenta la oferta de dólares, el guaraní se aprecia. Un dólar barato ayuda a importadores, consumidores y deudores en dólares, pero perjudica a quienes cobran en dólares y pagan costos en guaraníes, como los exportadores o el sector inmobiliario. Por eso aumenta la presión para que el BCP compre dólares y frene la apreciación: es un tipo de cambio controlado (flotación administrada). Semanas después, con la crisis de Ueno, el dólar volvió a subir.",
+  "datos": [
+   [
+    "G. 5.880",
+    "Cotización del dólar a fines de septiembre"
+   ],
+   [
+    "US$ 1.000 M+",
+    "IED anual tras el grado de inversión (≈ US$ 300 M hasta 2024)"
+   ],
+   [
+    "US$ 1.000 M",
+    "Bono global en guaraníes emitido a comienzos de año"
+   ],
+   [
+    "2018",
+    "Último año con un dólar tan bajo"
+   ]
+  ],
+  "clave": [
+   "G. 5.880",
+   "por dólar"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ M de IED por año",
+   "rows": [
+    [
+     "Hasta 2024",
+     300
+    ],
+    [
+     "Tras el grado de inversión",
+     1000,
+     1
+    ]
+   ]
+  },
+  "cap": "Inversión extranjera directa anual aproximada, según Amílcar Ferreira en El Nacional.",
+  "pasos": [
+   "Entran dólares por inversión, soja, remesas y bonos",
+   "Aumenta la oferta de dólares",
+   "El guaraní se aprecia",
+   "Se abaratan importaciones; pierden los exportadores",
+   "Crece la presión para que el BCP compre dólares"
+  ],
+  "conceptos": [
+   [
+    "Apreciación",
+    "El guaraní gana valor frente al dólar."
+   ],
+   [
+    "Tipo de cambio controlado",
+    "El banco central interviene para suavizar los movimientos."
+   ],
+   [
+    "Inversión extranjera directa",
+    "Capital extranjero que se invierte en empresas del país."
+   ],
+   [
+    "Reservas internacionales",
+    "Divisas que guarda el banco central."
+   ]
+  ],
+  "diagramas": [
+   "tipo-cambio"
+  ],
+  "rel": [
+   "guarani-cae",
+   "bcp-cambiaria",
+   "dolar-sube-noviembre"
+  ],
+  "pregunta": {
+   "q": "Si el BCP compra dólares en el mercado, ¿qué pasa con el tipo de cambio?",
+   "opts": [
+    "Sube el dólar (el guaraní se deprecia)",
+    "Baja el dólar",
+    "No cambia",
+    "Sube la inflación de inmediato a 10 %"
+   ],
+   "ok": 0,
+   "fb": "Al comprar dólares aumenta la demanda de divisas y su precio sube: el guaraní se deprecia."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Importadores y consumidores",
+     "Productos importados más baratos."
+    ],
+    [
+     "Deudores en dólares",
+     "Pagan menos guaraníes."
+    ]
+   ],
+   "pierden": [
+    [
+     "Exportadores e inmobiliarias",
+     "Cobran en dólares y pagan en guaraníes."
+    ]
+   ],
+   "corto": "Inflación más baja por importados baratos.",
+   "largo": "Una apreciación larga puede restar competitividad a las exportaciones.",
+   "supuestos": [
+    "Que los flujos de dólares sigan."
+   ],
+   "conclusion": "La apreciación muestra confianza en el país, pero reparte ganancias y pérdidas; por eso el BCP evalúa intervenir."
+  }
+ },
+ {
+  "id": "ied-brasil",
+  "fecha": "2026-11-02",
+  "medio": "MarketData",
+  "url": "https://marketdata.com.py/noticias/brasil-concentra-el-15-de-la-inversion-extranjera-en-paraguay-y-fortalece-su-integracion-productiva-156698",
+  "titulo": "Brasil tiene el 15 % de la inversión extranjera en Paraguay: US$ 2.191 millones",
+  "unidad": "global",
+  "tema": "4.4",
+  "kc": "interdependencia",
+  "resumen": "Brasil es el principal origen de la inversión extranjera directa en Paraguay, con un saldo de US$ 2.191 millones al cierre de 2025, el 15 % del total. Hasta el tercer trimestre de 2026, las exportaciones a Brasil crecieron 6 %, y 12 % sin contar la electricidad. Las autopartes superan los US$ 300 millones y la leche en polvo ronda los US$ 70 millones.",
+  "contexto": "La integración económica del Mercosur facilita que empresas brasileñas se instalen en Paraguay, muchas bajo el régimen de maquila, para aprovechar costos más bajos y vender a Brasil. Así crecen las exportaciones no tradicionales y la economía se diversifica. Pero la relación es desigual: las importaciones desde Brasil crecen 11 % y el saldo comercial sigue a favor de Brasil. Depender de un socio grande trae oportunidades y riesgos.",
+  "datos": [
+   [
+    "US$ 2.191 M",
+    "Saldo de inversión directa de Brasil al cierre de 2025"
+   ],
+   [
+    "15 %",
+    "Parte del total de inversión extranjera"
+   ],
+   [
+    "+6 %",
+    "Exportaciones a Brasil hasta el 3.er trimestre (+12 % sin energía)"
+   ],
+   [
+    "US$ 300 M+",
+    "Exportaciones de autopartes en 2026"
+   ],
+   [
+    "+11 %",
+    "Importaciones desde Brasil"
+   ]
+  ],
+  "clave": [
+   "15 %",
+   "de la inversión extranjera viene de Brasil"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Exportaciones a Brasil",
+     6
+    ],
+    [
+     "Sin energía eléctrica",
+     12,
+     1
+    ],
+    [
+     "Importaciones desde Brasil",
+     11
+    ]
+   ]
+  },
+  "cap": "Variación interanual del comercio con Brasil al tercer trimestre de 2026, según la CCPB citada por MarketData.",
+  "pasos": [
+   "El Mercosur integra los mercados",
+   "Empresas brasileñas invierten en Paraguay",
+   "Producen autopartes y otros bienes industriales",
+   "Venden a Brasil",
+   "Crecen y se diversifican las exportaciones"
+  ],
+  "conceptos": [
+   [
+    "Mercado común",
+    "Integración con libre circulación de bienes, servicios y capitales."
+   ],
+   [
+    "Inversión extranjera directa",
+    "Capital extranjero que crea o compra empresas."
+   ],
+   [
+    "Maquila",
+    "Fabricación para exportar con régimen especial."
+   ],
+   [
+    "Diversificación",
+    "Exportar más productos distintos."
+   ]
+  ],
+  "diagramas": [
+   "exportaciones"
+  ],
+  "rel": [
+   "exportaciones-brasil-industria",
+   "maquila",
+   "ied-record"
+  ],
+  "pregunta": {
+   "q": "Si la IED de Brasil es US$ 2.191 millones y equivale al 15 % del total, ¿cuánto es el total aproximado?",
+   "opts": [
+    "≈ US$ 14.600 M",
+    "≈ US$ 3.300 M",
+    "≈ US$ 21.900 M",
+    "≈ US$ 1.500 M"
+   ],
+   "ok": 0,
+   "fb": "2.191 ÷ 0,15 ≈ US$ 14.600 millones."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Trabajadores industriales",
+     "Empleo en maquilas y fábricas."
+    ],
+    [
+     "El país",
+     "Exportaciones más diversas."
+    ]
+   ],
+   "pierden": [
+    [
+     "Productores locales que compiten",
+     "Más competencia de empresas grandes."
+    ]
+   ],
+   "corto": "Más inversión y exportaciones.",
+   "largo": "Mayor dependencia de la economía brasileña.",
+   "supuestos": [
+    "Que Brasil siga creciendo y demandando."
+   ],
+   "conclusion": "La integración con Brasil impulsa la industria, pero concentra el riesgo en un solo socio."
+  }
+ },
+ {
   "id": "pasaje-subsidio",
   "fecha": "2026-11-02",
   "medio": "RDN",
