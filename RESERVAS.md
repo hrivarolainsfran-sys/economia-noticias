@@ -33,6 +33,12 @@ se guardan en una hoja de Google del profesor.
 
 La hoja sigue siendo privada. Los alumnos solo hablan con el script, que responde qué artículos están tomados. El script no comparte nombres.
 
+## Hoja de este curso
+
+- Hoja: «Reservas IA Economía» en el Google Drive del profesor (pestaña «Reservas»).
+- Script: «Proyecto sin título», implementado como aplicación web el 24 de noviembre de 2026 (versión 1).
+- La URL `/exec` está en `datos.json` → `ia.reservas`.
+
 ## Tareas del profesor
 
 - **Ver quién eligió qué:** abra la pestaña «Reservas» de la hoja.
