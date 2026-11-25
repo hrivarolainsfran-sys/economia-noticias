@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24",
+ "actualizado": "2026-11-25",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -33,8 +33,8 @@
   },
   {
    "n": "Riesgo país",
-   "v": "143 pb",
-   "s": "EMBI · 5 nov",
+   "v": "155 pb",
+   "s": "EMBI · 20 nov (MEF)",
    "alert": 1,
    "k": "embi"
   },
@@ -332,6 +332,21 @@
     "24 nov",
     "El informe favorable a la fusión Ueno–Visión se firmó en menos de una hora.",
     "ueno-plan-fusion"
+   ],
+   [
+    "20 nov",
+    "El riesgo país llega a 155 pb, su mayor nivel en más de 15 meses.",
+    "bonos-embi"
+   ],
+   [
+    "24 nov",
+    "Alliana propone adelantar 5 salarios mínimos a unos 5.000 trabajadores del Grupo Vázquez.",
+    "indemnizacion-vazquez"
+   ],
+   [
+    "24 nov",
+    "Bonistas de Ueno y sus empresas reclaman US$ 365 millones.",
+    "bonistas-ueno"
    ]
   ],
   "lentes": [
@@ -350,6 +365,443 @@
   ]
  },
  "noticias": [
+  {
+   "id": "indice-hambre-2026",
+   "fecha": "2026-11-25",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/25/paraguay-entre-paises-de-menor-indice-de-hambre-de-america-latina-en-2026/",
+   "titulo": "Índice Global del Hambre: Paraguay queda en el grupo más bajo de América Latina",
+   "unidad": "global",
+   "tema": "4.8",
+   "kc": "bienestar",
+   "resumen": "Según el Índice Global del Hambre (GHI) 2026, publicado por ABC Color, Paraguay tiene menos de 5 puntos, en la categoría de hambre baja junto con Chile, Uruguay y Costa Rica. En 2000 tenía 12,8 puntos; en 2012, 6,9. La subalimentación afecta al 4,1 % de la población (2023-2025) y el retraso en el crecimiento infantil bajó de 18,5 % en 2000 a 3,2 %.",
+   "contexto": "El GHI es un indicador compuesto: combina subalimentación, retraso en el crecimiento infantil, emaciación infantil y mortalidad de menores de cinco años. Por eso mide algo distinto que el PIB por habitante o la pobreza monetaria: mira resultados de bienestar. El promedio mundial es 18,1 puntos y el de América Latina y el Caribe, 7,4; Brasil y Argentina tienen 5,5 y Bolivia 14,2. El artículo advierte que el índice usa sobre todo datos de 2021-2025 y que producir muchos alimentos no garantiza que todos los hogares puedan comprar una dieta adecuada. La noticia llega cuando el Presupuesto 2027 recorta fondos de Hambre Cero, el programa de alimentación escolar.",
+   "datos": [
+    [
+     "< 5",
+     "Puntaje de Paraguay en el GHI 2026 (hambre baja)"
+    ],
+    [
+     "12,8",
+     "Puntaje de Paraguay en 2000"
+    ],
+    [
+     "4,1 %",
+     "Población subalimentada (2023-2025)"
+    ],
+    [
+     "18,5 % → 3,2 %",
+     "Retraso en el crecimiento infantil, de 2000 al informe 2026"
+    ],
+    [
+     "7,4",
+     "Promedio de América Latina y el Caribe"
+    ],
+    [
+     "18,1",
+     "Promedio mundial (moderado)"
+    ],
+    [
+     "5,5",
+     "Brasil y Argentina"
+    ]
+   ],
+   "clave": [
+    "< 5",
+    "puntos: hambre baja"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "puntos GHI",
+    "rows": [
+     [
+      "Haití",
+      34.4
+     ],
+     [
+      "Guatemala",
+      18.3
+     ],
+     [
+      "Mundo",
+      18.1
+     ],
+     [
+      "Bolivia",
+      14.2
+     ],
+     [
+      "Am. Latina",
+      7.4
+     ],
+     [
+      "Perú",
+      6.5
+     ],
+     [
+      "Colombia",
+      6.1
+     ],
+     [
+      "Brasil",
+      5.5
+     ],
+     [
+      "Argentina",
+      5.5
+     ],
+     [
+      "Paraguay (2000)",
+      12.8,
+      1
+     ]
+    ]
+   },
+   "cap": "Puntaje del Índice Global del Hambre 2026 (más alto = más hambre). Paraguay está por debajo de 5 puntos, por eso no aparece con un valor exacto; la barra resaltada es su puntaje del año 2000.",
+   "pasos": [
+    "Crecen la producción y los ingresos de los hogares",
+    "Más familias acceden a alimentos y a servicios de salud",
+    "Bajan la subalimentación y el retraso del crecimiento infantil",
+    "El GHI de Paraguay cae de 12,8 a menos de 5 puntos",
+    "El desafío es sostenerlo en los hogares más vulnerables"
+   ],
+   "conceptos": [
+    [
+     "Indicador compuesto",
+     "Combina varias medidas en un solo número, como el IDH o el GHI."
+    ],
+    [
+     "Subalimentación",
+     "Consumo de calorías insuficiente de forma habitual."
+    ],
+    [
+     "Retraso del crecimiento",
+     "Niños con talla baja para su edad por mala nutrición prolongada."
+    ],
+    [
+     "Desarrollo económico",
+     "Mejora del bienestar y de las capacidades de las personas, no solo del ingreso."
+    ]
+   ],
+   "diagramas": [
+    "lorenz",
+    "politicas-oferta"
+   ],
+   "rel": [
+    "hambre-cero-recorte",
+    "pgn-suspendido"
+   ],
+   "pregunta": {
+    "q": "¿Por qué el Índice Global del Hambre es útil además del PIB por habitante?",
+    "opts": [
+     "Porque mide resultados de bienestar, como la nutrición infantil, que el ingreso promedio no muestra",
+     "Porque mide la inflación de los alimentos",
+     "Porque reemplaza a la pobreza monetaria",
+     "Porque solo usa datos de 2026"
+    ],
+    "ok": 0,
+    "fb": "El GHI es un indicador compuesto de resultados de bienestar (subalimentación, talla y mortalidad infantil). Un país puede crecer y tener hogares sin acceso a una dieta adecuada."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Niños y hogares de bajos ingresos",
+      "La menor subalimentación y el menor retraso del crecimiento mejoran su salud y su capital humano."
+     ],
+     [
+      "La economía en el largo plazo",
+      "Una población mejor nutrida es más productiva."
+     ]
+    ],
+    "pierden": [
+     [
+      "Hogares vulnerables, si se recortan programas",
+      "El índice promedia: puede ocultar bolsones de hambre si se reducen ayudas como Hambre Cero."
+     ]
+    ],
+    "corto": "El dato no cambia de inmediato: usa información de 2021-2025, antes de la crisis de Ueno y de los recortes del Presupuesto 2027.",
+    "largo": "Mantener el avance depende del empleo, de la productividad y de que el gasto social llegue a quienes más lo necesitan.",
+    "supuestos": [
+     "Que las cifras oficiales de nutrición sean comparables entre países.",
+     "Que el empleo y los ingresos reales sigan creciendo."
+    ],
+    "conclusion": "Paraguay muestra un avance real en una dimensión clave del desarrollo, pero un indicador bajo no garantiza que todos los hogares accedan a alimentos; recortar programas de nutrición es un riesgo para sostenerlo."
+   }
+  },
+  {
+   "id": "indemnizacion-vazquez",
+   "fecha": "2026-11-24",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/grupo-vazquez-ejecutivo-propone-ley-para-indemnizacion-parcial-de-g-15-millones-a-ex-trabajadores",
+   "mas": [
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/24/grupo-vazquez-proyecto-de-alliana-para-auxiliar-a-trabajadores-es-un-parche-dice-abogado-laboralista/",
+     "2026-11-24"
+    ]
+   ],
+   "titulo": "Alliana propone adelantar 5 salarios mínimos a los trabajadores del Grupo Vázquez",
+   "unidad": "macro",
+   "tema": "3.3",
+   "kc": "equidad",
+   "inst": [
+    "ips"
+   ],
+   "resumen": "El presidente Pedro Alliana anunció un proyecto de ley para adelantar a cada extrabajador de las empresas del Grupo Vázquez una indemnización parcial de hasta 5 salarios mínimos (G. 15.220.000). Según Última Hora, son casi 5.000 trabajadores y la medida costaría G. 62.000 millones (unos US$ 10 millones); Alliana dijo que el Estado luego cobrará a las empresas, pero no precisó de dónde saldrán los fondos. También se mantiene la cobertura del IPS hasta fin de año.",
+   "contexto": "A tres semanas del cierre de las empresas ligadas a Ueno, los trabajadores no cobran sueldos ni liquidaciones y protestan a diario. Perder el ingreso de golpe reduce el consumo de esas familias, un efecto que se suma a la caída de ventas del comercio. El adelanto funciona como una transferencia temporal: sostiene el consumo y la equidad mientras se liquidan los bienes de las empresas. El riesgo es fiscal: si el Estado no logra recuperar el dinero, el costo termina en los contribuyentes. Un abogado laboralista citado por ABC Color calificó el proyecto de «parche».",
+   "datos": [
+    [
+     "G. 15.220.000",
+     "Adelanto por trabajador: 5 salarios mínimos"
+    ],
+    [
+     "5.000",
+     "Trabajadores alcanzados, aproximadamente"
+    ],
+    [
+     "G. 62.000 M",
+     "Costo total estimado (unos US$ 10 millones)"
+    ],
+    [
+     "22",
+     "Empresas del Grupo Vázquez afectadas"
+    ],
+    [
+     "31 dic",
+     "Hasta cuándo se mantiene la cobertura del IPS"
+    ]
+   ],
+   "clave": [
+    "G. 15,2 M",
+    "adelanto por trabajador"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "La pérdida de empleos e ingresos reduce el consumo y desplaza la DA a la izquierda (DA₁ a DA₂). El adelanto de la indemnización amortigua esa caída, pero no la revierte: es una transferencia pequeña frente a la economía.",
+   "pasos": [
+    "Cierran las 22 empresas del Grupo Vázquez tras la caída de Ueno",
+    "Unos 5.000 trabajadores quedan sin sueldo ni liquidación",
+    "Cae el consumo de sus familias",
+    "El Ejecutivo propone adelantar 5 salarios mínimos por persona",
+    "El Estado intenta luego cobrar a las empresas"
+   ],
+   "conceptos": [
+    [
+     "Desempleo estructural",
+     "Desempleo por el cierre de empresas o sectores; requiere reubicar a los trabajadores."
+    ],
+    [
+     "Indemnización",
+     "Pago que corresponde al trabajador cuando lo despiden sin causa."
+    ],
+    [
+     "Pago de transferencia",
+     "Dinero que el Estado da sin recibir un bien o servicio a cambio."
+    ],
+    [
+     "Estabilizador automático",
+     "Gasto o impuesto que amortigua el ciclo sin una decisión nueva; este adelanto, en cambio, es discrecional."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da",
+    "politica-fiscal"
+   ],
+   "rel": [
+    "mtess-ueno",
+    "consumo-cae",
+    "ueno-deficit"
+   ],
+   "pregunta": {
+    "q": "¿Qué efecto macroeconómico busca el adelanto de G. 15,2 millones a cada trabajador?",
+    "opts": [
+     "Amortiguar la caída del consumo y de la demanda agregada",
+     "Bajar la inflación",
+     "Aumentar la oferta agregada de largo plazo",
+     "Fortalecer el guaraní"
+    ],
+    "ok": 0,
+    "fb": "Al reponer parte del ingreso perdido, las familias pueden seguir consumiendo; eso frena la caída del consumo, el mayor componente de la DA."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Extrabajadores del Grupo Vázquez",
+      "Reciben ingresos ya, sin esperar la venta de los bienes de las empresas."
+     ],
+     [
+      "Comercio de barrio",
+      "Sostiene parte del consumo de esas familias."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes",
+      "Si el Estado no recupera el dinero de las empresas, el costo de G. 62.000 millones queda en el Presupuesto."
+     ],
+     [
+      "Otros acreedores de las empresas",
+      "El Estado pasaría a competir con ellos por los mismos bienes."
+     ]
+    ],
+    "corto": "Si el Congreso lo aprueba rápido, alivia a unas 5.000 familias antes de fin de año.",
+    "largo": "El problema de fondo es la reubicación laboral: sin nuevos empleos, el desempleo de estas personas puede durar más que el adelanto.",
+    "supuestos": [
+     "Que el Congreso apruebe la ley.",
+     "Que existan fondos y que el Estado pueda recuperarlos de las empresas."
+    ],
+    "conclusion": "El adelanto es una respuesta razonable por equidad y para sostener el consumo, con un costo fiscal pequeño, pero solo cubre una parte de la liquidación y no resuelve la reinserción laboral."
+   }
+  },
+  {
+   "id": "bonistas-ueno",
+   "fecha": "2026-11-24",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/bonistas-de-ueno-y-de-empresas-vinculadas-exigen-recuperar-usd-365-millones",
+   "mas": [
+    [
+     "5Días",
+     "https://5dias.com.py/article/bonistas-de-itti-evaluarn-opciones-de-cobro-deuda-ascendera-a-us-40-millones",
+     "2026-11-24"
+    ]
+   ],
+   "titulo": "Bonistas de Ueno y sus empresas reclaman US$ 365 millones y temen quedar al final de la fila",
+   "unidad": "micro",
+   "tema": "2.10",
+   "kc": "intervencion",
+   "inst": [
+    "bolsa"
+   ],
+   "resumen": "Unos 300 inversores organizados afirman que Ueno y sus firmas vinculadas emitieron unos US$ 365 millones en bonos: 30 % del banco y 70 % de empresas como Grupo Vázquez, itti, u Holding y Terravaz, según Última Hora. Temen que los activos de esas empresas se usen para devolver el 100 % a los ahorristas del banco. Según 5Días, itti tenía una deuda financiera de US$ 66 millones a junio y sus bonistas se reúnen el 10 de diciembre para decidir si reestructuran o exigen el pago anticipado.",
+   "contexto": "Un depósito está protegido por el Fondo de Garantía (hasta 75 salarios mínimos); un bono no: quien lo compra asume el riesgo del emisor. Los afectados dicen que compraron confiando en calificaciones A o AA y en mensajes oficiales, y denuncian presión dentro del banco para convertir depósitos en bonos. Es un caso de información asimétrica: el emisor sabía más que el inversor sobre su situación. También muestra un riesgo moral: si el Estado rescata a todos, otros inversores podrían asumir riesgos excesivos en el futuro. Los bonistas piden separar los activos de cada empresa y una ley de resarcimiento.",
+   "datos": [
+    [
+     "US$ 365 M",
+     "Bonos emitidos por Ueno y empresas vinculadas"
+    ],
+    [
+     "30 % / 70 %",
+     "Parte del banco / parte de empresas vinculadas"
+    ],
+    [
+     "300",
+     "Afectados organizados (estiman que hay más)"
+    ],
+    [
+     "G. 228,5 M",
+     "Tope del Fondo de Garantía por cliente (75 salarios mínimos)"
+    ],
+    [
+     "US$ 42 M",
+     "Bonos del grupo en poder del IPS"
+    ],
+    [
+     "US$ 66 M",
+     "Deuda financiera de itti a junio de 2026 (5Días)"
+    ],
+    [
+     "10 dic",
+     "Asamblea de bonistas de itti"
+    ]
+   ],
+   "clave": [
+    "US$ 365 M",
+    "en bonos en riesgo"
+   ],
+   "fig": {
+    "k": "barras",
+    "u": "%",
+    "rows": [
+     [
+      "Bonos del banco Ueno",
+      30
+     ],
+     [
+      "Bonos de empresas vinculadas",
+      70,
+      1
+     ]
+    ]
+   },
+   "cap": "De los US$ 365 millones en bonos del grupo, el 70 % lo emitieron empresas distintas del banco (Grupo Vázquez, itti, u Holding, Terravaz), que no tienen garantía de depósitos.",
+   "pasos": [
+    "Ueno y sus empresas emiten bonos con buenas calificaciones",
+    "Inversores compran sin conocer la situación real",
+    "El banco quiebra y las empresas vinculadas dejan de pagar",
+    "El Estado prioriza devolver los depósitos con los activos",
+    "Los bonistas temen cobrar poco o nada"
+   ],
+   "conceptos": [
+    [
+     "Bono corporativo",
+     "Deuda que emite una empresa; paga intereses, pero no tiene garantía estatal."
+    ],
+    [
+     "Información asimétrica",
+     "Una parte sabe más que la otra sobre lo que se vende."
+    ],
+    [
+     "Riesgo moral",
+     "Asumir más riesgo cuando otro paga las pérdidas."
+    ],
+    [
+     "Calificación de riesgo",
+     "Nota que estima la probabilidad de que un emisor pague su deuda."
+    ]
+   ],
+   "diagramas": [
+    "bonos"
+   ],
+   "rel": [
+    "ueno-deficit",
+    "calificadoras-ueno",
+    "cadiem-fondos",
+    "ips-ueno"
+   ],
+   "pregunta": {
+    "q": "¿Por qué los bonistas de Ueno no tienen la misma protección que los ahorristas?",
+    "opts": [
+     "Porque un bono es una inversión con riesgo del emisor y no lo cubre el Fondo de Garantía de Depósitos",
+     "Porque los bonos pagan menos intereses",
+     "Porque el BCP prohibió los bonos",
+     "Porque los bonos solo los compran extranjeros"
+    ],
+    "ok": 0,
+    "fb": "El Fondo de Garantía protege depósitos hasta un tope; el bono es deuda de la empresa y quien lo compra asume el riesgo de impago a cambio de un interés mayor."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Ahorristas del banco",
+      "Si los activos se usan para devolverles el 100 %, recuperan todo su dinero."
+     ]
+    ],
+    "pierden": [
+     [
+      "Bonistas de las empresas vinculadas",
+      "Pueden cobrar tarde y solo una parte."
+     ],
+     [
+      "El mercado de valores",
+      "Cae la confianza en bonos corporativos y en las calificaciones."
+     ],
+     [
+      "IPS y sus aportantes",
+      "Tiene US$ 42 millones en bonos del grupo."
+     ]
+    ],
+    "corto": "Las asambleas de bonistas, como la de itti el 10 de diciembre, decidirán si se reestructuran las deudas o se exige el pago.",
+    "largo": "Si se ve que las calificaciones no anticiparon el riesgo, los inversores exigirán más interés a los emisores privados y habrá más presión para regular mejor el mercado.",
+    "supuestos": [
+     "Que los activos de cada empresa no alcancen para todos los acreedores.",
+     "Que el Estado no cree un mecanismo especial de resarcimiento."
+    ],
+    "conclusion": "Los bonistas asumieron un riesgo mayor a cambio de más interés, pero hubo fallas de información y de supervisión; un rescate total los aliviaría, aunque con un costo fiscal y un riesgo moral para el futuro."
+   }
+  },
   {
    "id": "itau-proyeccion",
    "fecha": "2026-11-23",
@@ -3235,7 +3687,8 @@
     "ueno-lotes",
     "ueno-devolucion",
     "ueno-morosidad",
-    "fitch-revision"
+    "fitch-revision",
+    "bonistas-ueno"
    ],
    "pregunta": {
     "q": "¿Por qué los bonistas de Ueno no recuperan su dinero y los depositantes sí?",
@@ -4010,7 +4463,7 @@
    "unidad": "macro",
    "tema": "3.4",
    "kc": "equidad",
-   "resumen": "El presidente Pedro Alliana anunció que el almuerzo escolar de Hambre Cero se dará de marzo a noviembre y no en feriados, lo que ahorraría entre US$ 80 y US$ 100 millones en 2027, según La Nación. El ministro de Desarrollo Social, Tadeo Rojas, dijo que el servicio cubriría unos 151 a 153 días de clase con asistencia plena. Hoy ya se redujo 40 % la provisión diaria por la baja asistencia en época de exámenes. El 22 de noviembre, La Nación informó que en escuelas como una de Horqueta la alimentación escolar, a cargo de las gobernaciones, terminó el viernes 20, aunque las clases siguen hasta el 30 de noviembre. El 23 de noviembre, tras reunirse con Alliana, los ministros Tadeo Rojas (MDS) y Luis Ramírez (MEC) anunciaron tres ajustes desde 2027, según ABC Color: almuerzo solo de marzo a octubre (ahorro de casi US$ 70 millones por año), 10 % menos en las órdenes de servicio por la inasistencia habitual de 10 % a 15 % (US$ 44,2 millones por año) y un precio más bajo del catering. En total, Rojas estimó un ahorro cercano a US$ 130 millones por año y US$ 460 millones hasta julio de 2030. Ese día, el titular de la Comisión de Hacienda del Senado, Silvio Ovelar, dijo a Última Hora que la idea sigue siendo recortar unos US$ 70 a 80 millones reduciendo los días de servicio.",
+   "resumen": "El presidente Pedro Alliana anunció que el almuerzo escolar de Hambre Cero se dará de marzo a noviembre y no en feriados, lo que ahorraría entre US$ 80 y US$ 100 millones en 2027, según La Nación. El ministro de Desarrollo Social, Tadeo Rojas, dijo que el servicio cubriría unos 151 a 153 días de clase con asistencia plena. Hoy ya se redujo 40 % la provisión diaria por la baja asistencia en época de exámenes. El 22 de noviembre, La Nación informó que en escuelas como una de Horqueta la alimentación escolar, a cargo de las gobernaciones, terminó el viernes 20, aunque las clases siguen hasta el 30 de noviembre. El 23 de noviembre, tras reunirse con Alliana, los ministros Tadeo Rojas (MDS) y Luis Ramírez (MEC) anunciaron tres ajustes desde 2027, según ABC Color: almuerzo solo de marzo a octubre (ahorro de casi US$ 70 millones por año), 10 % menos en las órdenes de servicio por la inasistencia habitual de 10 % a 15 % (US$ 44,2 millones por año) y un precio más bajo del catering. En total, Rojas estimó un ahorro cercano a US$ 130 millones por año y US$ 460 millones hasta julio de 2030. Ese día, el titular de la Comisión de Hacienda del Senado, Silvio Ovelar, dijo a Última Hora que la idea sigue siendo recortar unos US$ 70 a 80 millones reduciendo los días de servicio. El 24 de noviembre, la Comisión de Hacienda del Senado recortó US$ 64 millones de Hambre Cero en el Presupuesto 2027, con el objetivo de cubrir 155 días de alimentación escolar (Última Hora, ABC Color).",
    "contexto": "Hambre Cero es una transferencia en especie que busca mejorar la nutrición y la asistencia escolar de los niños, sobre todo de familias pobres: es un programa de equidad. En plena revisión del Presupuesto 2027, con un déficit de 3,9 % del PIB, el Gobierno busca recortar gastos sin quitar el beneficio en los días de clase. El argumento oficial es de eficiencia: no pagar comida que se desperdicia cuando los alumnos no van a la escuela. La pregunta económica es si el ahorro reduce solo el desperdicio o también deja sin comida a niños que la necesitan.",
    "datos": [
     [
@@ -4120,7 +4573,8 @@
    "rel": [
     "pgn-suspendido",
     "isc-diesel",
-    "mipymes-fogapy"
+    "mipymes-fogapy",
+    "indice-hambre-2026"
    ],
    "pregunta": {
     "q": "¿Qué dilema económico plantea el recorte de Hambre Cero?",
@@ -4182,6 +4636,11 @@
      "Última Hora",
      "https://www.ultimahora.com/senado-objeta-recortes-transversales-planteados-por-el-ejecutivo-en-pgn-2027",
      "2026-11-23"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/pgn-2027-recortan-usd-64-millones-de-hambre-cero-y-reponen-gastos-salariales-extras",
+     "2026-11-24"
     ]
    ]
   },
@@ -4743,142 +5202,6 @@
    ]
   },
   {
-   "id": "ventas-setiembre",
-   "fecha": "2026-11-13",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/bcp-reporta-aumento-en-las-ventas-en-setiembre-aunque-crecimiento-se-desacelero",
-   "titulo": "Las ventas crecen 2,5 % en septiembre, pero se desaceleran",
-   "unidad": "macro",
-   "tema": "3.1",
-   "kc": "cambio",
-   "resumen": "El Estimador de Cifras de Negocios (ECN) del BCP mostró que las ventas de septiembre crecieron 2,5 % interanual y acumulan 4,3 % en el año. Es menos que en agosto (4,4 %) y que en septiembre de 2025 (8,4 %). Crecieron las manufacturas y el comercio, mientras que bajaron las ventas de varios servicios.",
-   "contexto": "El ECN mide las ventas de las empresas cada mes y sirve para seguir la economía antes de que salga el PIB, que es trimestral. Junto con el IMAEP, que creció 3,9 % en septiembre, muestra una economía que seguía creciendo pero más despacio antes de la crisis de Ueno. Los datos son de septiembre: todavía no reflejan la caída del consumo de noviembre que reportan comercios y multitiendas. Comparar con el mismo mes del año anterior (variación interanual) evita confundir cambios de temporada con cambios reales.",
-   "datos": [
-    [
-     "2,5 %",
-     "Ventas de septiembre frente a septiembre de 2025"
-    ],
-    [
-     "4,3 %",
-     "Crecimiento acumulado en el año"
-    ],
-    [
-     "3,9 %",
-     "Promedio móvil de tres meses"
-    ],
-    [
-     "4,4 %",
-     "Crecimiento interanual de agosto"
-    ],
-    [
-     "8,4 %",
-     "Crecimiento interanual de septiembre de 2025"
-    ]
-   ],
-   "clave": [
-    "2,5 %",
-    "ventas de septiembre"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "%",
-    "rows": [
-     [
-      "Sep 2025",
-      8.4
-     ],
-     [
-      "Ago 2026",
-      4.4
-     ],
-     [
-      "Sep 2026",
-      2.5,
-      1
-     ],
-     [
-      "Acumulado 2026",
-      4.3
-     ]
-    ]
-   },
-   "cap": "Variación interanual de las ventas según el Estimador de Cifras de Negocios del BCP (Última Hora).",
-   "pasos": [
-    "Las empresas venden más que hace un año",
-    "El ECN crece 2,5 %, pero menos que en meses anteriores",
-    "Manufacturas y comercio crecen; algunos servicios caen",
-    "La demanda agregada se modera",
-    "En noviembre, la crisis de Ueno puede frenar aún más el consumo"
-   ],
-   "conceptos": [
-    [
-     "Variación interanual",
-     "Cambio de una cifra frente al mismo mes del año anterior."
-    ],
-    [
-     "Desaceleración",
-     "La economía sigue creciendo, pero a un ritmo menor."
-    ],
-    [
-     "Indicador adelantado",
-     "Dato mensual que anticipa lo que mostrará el PIB."
-    ],
-    [
-     "Promedio móvil",
-     "Promedio de varios meses que suaviza los saltos de un mes."
-    ]
-   ],
-   "diagramas": [
-    "da-oa-da"
-   ],
-   "rel": [
-    "consumo-cae"
-   ],
-   "pregunta": {
-    "q": "Las ventas crecieron 2,5 % en septiembre frente a 4,4 % en agosto. ¿Qué significa?",
-    "opts": [
-     "Siguen creciendo, pero más despacio",
-     "Las ventas cayeron",
-     "Hay recesión",
-     "Los precios bajaron 2,5 %"
-    ],
-    "ok": 0,
-    "fb": "Una tasa positiva pero menor indica desaceleración: las ventas siguen subiendo, aunque a menor ritmo. Recesión implica caídas del PIB real."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Manufacturas y comercio",
-      "Siguen aumentando sus ventas, en rubros como farmacéutica, alimentos y equipamiento del hogar."
-     ]
-    ],
-    "pierden": [
-     [
-      "Empresas de servicios",
-      "Bajaron sus ventas en transporte, telecomunicaciones y servicios a empresas."
-     ],
-     [
-      "Grandes tiendas y vendedores de insumos agrícolas",
-      "Registraron menos ventas."
-     ]
-    ],
-    "corto": "Los datos de octubre y noviembre mostrarán si la crisis de Ueno convierte la desaceleración en caída.",
-    "largo": "Si la confianza se recupera, el crecimiento puede volver a acelerarse con la cosecha récord de soja.",
-    "supuestos": [
-     "Que el ECN represente bien a toda la economía",
-     "Que no se revisen los datos"
-    ],
-    "conclusion": "La economía crecía más despacio ya antes de la crisis bancaria; por eso el golpe de Ueno al consumo llega en un momento delicado."
-   },
-   "inst": [
-    "bcp"
-   ],
-   "sector": [
-    "comercio",
-    "industria"
-   ]
-  },
-  {
    "id": "ueno-lotes",
    "fecha": "2026-11-12",
    "medio": "La Nación",
@@ -5351,7 +5674,8 @@
     "da-oa-da"
    ],
    "rel": [
-    "consumo-cae"
+    "consumo-cae",
+    "indemnizacion-vazquez"
    ],
    "pregunta": {
     "q": "¿Qué tipo de desempleo reduce principalmente el dictamen del Ministerio de Trabajo?",
@@ -5660,10 +5984,10 @@
   },
   {
    "id": "itaipu-tarifa-2027",
-   "fecha": "2026-11-23",
+   "fecha": "2026-11-25",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/itaipu-inicia-la-cuenta-regresiva-para-negociar-la-tarifa",
-   "titulo": "Itaipú: nuevo Consejo y visita del canciller de Brasil a 39 días de que venza la tarifa",
+   "titulo": "Itaipú: a 36 días de que venza la tarifa, organizaciones dicen que la ANDE paga US$ 389 millones de más",
    "unidad": "micro",
    "tema": "2.11",
    "kc": "interdependencia",
@@ -5673,9 +5997,21 @@
    "mundo": [
     "brasil"
    ],
-   "resumen": "Félix Sosa, que volvió a presidir la ANDE el lunes 9, dijo a Última Hora que urge definir la tarifa de Itaipú y el acuerdo operativo antes de que venzan el 31 de diciembre de 2026. Según el entendimiento de mayo de 2024, desde 2027 la tarifa reflejaría solo el costo estricto de operación; con la fórmula del Cecuse quedaría entre US$ 8 y US$ 10 por kW al mes. El 16 de noviembre Última Hora informó que, tras la destitución de Santiago Peña, el Ejecutivo aún no dijo públicamente quién negociará por Paraguay. Según el ingeniero Guillermo López Flores, si no hay acuerdo antes del 31 de diciembre Brasil pagaría la tarifa técnica y Paraguay perdería unos US$ 650 millones anuales para obras; para la ANDE, en cambio, la tarifa de compra bajaría entre 38 % y 48 %. El 18 de noviembre, el presidente Alliana reemplazó a Justo Zacarías Irún por el ingeniero Hugo Zárate como director general paraguayo de Itaipú, tras conocerse que la binacional tenía US$ 163,8 millones y G. 115.200 millones depositados en Ueno, según Última Hora. El canciller Rubén Ramírez Lezcano dijo que la meta es definir la tarifa antes del 31 de diciembre y negociar el Anexo C durante 2027; el equipo técnico paraguayo lo encabeza el ministro de Industria y Comercio, Marco Riquelme, y Alliana aceptó reunirse con Lula en Brasilia. El 23 de noviembre asumieron en el Consejo de Administración de Itaipú, por el Decreto 7243/2026, el expresidente Nicanor Duarte Frutos y los ministros Marco Riquelme, Rolando de Barros Barreto y Rubén Ramírez Lezcano; cobrarán solo el sueldo de consejero, que según sus declaraciones juradas es de G. 124,6 millones, informó ABC Color. Ese mismo diario anunció que el canciller de Brasil, Mauro Vieira, llega a Asunción el martes 24 para tratar Itaipú con su par paraguayo. Hoy rige una tarifa de US$ 19,28 por kW-mes; del lado brasileño, el director Enio Verri apunta a US$ 10 a US$ 12 desde 2027.",
+   "resumen": "Félix Sosa, que volvió a presidir la ANDE el lunes 9, dijo a Última Hora que urge definir la tarifa de Itaipú y el acuerdo operativo antes de que venzan el 31 de diciembre de 2026. Según el entendimiento de mayo de 2024, desde 2027 la tarifa reflejaría solo el costo estricto de operación; con la fórmula del Cecuse quedaría entre US$ 8 y US$ 10 por kW al mes. El 16 de noviembre Última Hora informó que, tras la destitución de Santiago Peña, el Ejecutivo aún no dijo públicamente quién negociará por Paraguay. Según el ingeniero Guillermo López Flores, si no hay acuerdo antes del 31 de diciembre Brasil pagaría la tarifa técnica y Paraguay perdería unos US$ 650 millones anuales para obras; para la ANDE, en cambio, la tarifa de compra bajaría entre 38 % y 48 %. El 18 de noviembre, el presidente Alliana reemplazó a Justo Zacarías Irún por el ingeniero Hugo Zárate como director general paraguayo de Itaipú, tras conocerse que la binacional tenía US$ 163,8 millones y G. 115.200 millones depositados en Ueno, según Última Hora. El canciller Rubén Ramírez Lezcano dijo que la meta es definir la tarifa antes del 31 de diciembre y negociar el Anexo C durante 2027; el equipo técnico paraguayo lo encabeza el ministro de Industria y Comercio, Marco Riquelme, y Alliana aceptó reunirse con Lula en Brasilia. El 23 de noviembre asumieron en el Consejo de Administración de Itaipú, por el Decreto 7243/2026, el expresidente Nicanor Duarte Frutos y los ministros Marco Riquelme, Rolando de Barros Barreto y Rubén Ramírez Lezcano; cobrarán solo el sueldo de consejero, que según sus declaraciones juradas es de G. 124,6 millones, informó ABC Color. Ese mismo diario anunció que el canciller de Brasil, Mauro Vieira, llega a Asunción el martes 24 para tratar Itaipú con su par paraguayo. Hoy rige una tarifa de US$ 19,28 por kW-mes; del lado brasileño, el director Enio Verri apunta a US$ 10 a US$ 12 desde 2027. El 25 de noviembre, ABC Color publicó un comunicado de cinco organizaciones (entre ellas Itaipú Causa Nacional y el Movimiento Campesino Paraguayo) que sostiene que el costo del servicio de Itaipú no debería pasar de US$ 8,87 por kW-mes y que la tarifa de US$ 19,28 le cuesta a la ANDE US$ 389 millones solo en 2026. Piden bajar la tarifa al costo, ampliar la tarifa social y exportar a Brasil la energía sobrante a por lo menos US$ 100 por MWh; advierten que bajar la tarifa sin subir la compensación por cesión de energía reduciría el precio efectivo de exportación. Según el presidente de la ANDE, Félix Sosa, Alliana pretende viajar a Brasil este año para tratar el tema.",
    "contexto": "Itaipú vende electricidad sin competencia: la tarifa no la fija el mercado sino un acuerdo entre Paraguay y Brasil, como en un monopolio regulado. Como la deuda de construcción se terminó de pagar en 2023, una tarifa basada solo en el costo sería mucho más baja y abarataría la energía para la ANDE, pero también reduciría los fondos que Itaipú dedica a gastos sociales. Según el artículo, la negociación la conduce el ministro Javier Giménez, y Sosa adelantó que la ANDE volverá a vender energía al mercado libre de Brasil.",
    "datos": [
+    [
+     "US$ 8,87",
+     "Costo del servicio por kW-mes, según cinco organizaciones (ABC Color)"
+    ],
+    [
+     "US$ 389 M",
+     "Lo que la ANDE pagaría de más en 2026, según esas organizaciones"
+    ],
+    [
+     "US$ 100/MWh",
+     "Precio mínimo que piden por la energía exportada a Brasil"
+    ],
     [
      "US$ 19,28",
      "Tarifa vigente por kW-mes (2024-2026)"
@@ -5837,12 +6173,17 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/23/canciller-de-brasil-llega-a-asuncion-para-tratar-la-tarifa-de-itaipu-con-paraguay/",
      "2026-11-23"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/25/itaipu-aseguran-que-ande-pierde-us-389-millones-este-ano-y-piden-a-alliana-cambiar-el-calculo-de-la-tarifa/",
+     "2026-11-25"
     ]
    ]
   },
   {
    "id": "ande-ueno",
-   "fecha": "2026-11-14",
+   "fecha": "2026-11-25",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/economia/2026/11/10/sosa-admite-que-la-ande-no-sabe-como-recuperar-sus-fondos-de-ueno-bank-y-que-habra-obras-postergadas/",
    "mas": [
@@ -5875,6 +6216,11 @@
      "Última Hora",
      "https://www.ultimahora.com/ande-usd-68-millones-atrapados-en-ueno-amenazan-el-ritmo-de-obras-electricas-segun-cecoel",
      "2026-11-22"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/alarma-por-ueno-advierten-de-impacto-de-mas-de-usd-300-millones-en-el-sector-energetico",
+     "2026-11-24"
     ]
    ],
    "titulo": "La ANDE tiene US$ 21 millones atrapados en Ueno y posterga obras",
@@ -5884,9 +6230,17 @@
    "sector": [
     "energia"
    ],
-   "resumen": "Félix Sosa volvió a la presidencia de la ANDE y, según ABC Color, admitió que no sabe cómo recuperará unos US$ 21 millones de un préstamo del BID que quedaron en Ueno Bank. Ese dinero financia la línea de 500 kV entre Itaipú y Villa Hayes y obras de 220 kV en el área metropolitana; algunas obras se postergarán y los pagos de G. 115.000 millones a proveedores se revisarán «caso por caso». El 22 de noviembre, Última Hora sumó que la ANDE busca con el BID alternativas para seguir financiando sus obras y que, según Cecoel, sus contratistas cobran entre seis y diez meses después de terminar los trabajos.",
+   "resumen": "Félix Sosa volvió a la presidencia de la ANDE y, según ABC Color, admitió que no sabe cómo recuperará unos US$ 21 millones de un préstamo del BID que quedaron en Ueno Bank. Ese dinero financia la línea de 500 kV entre Itaipú y Villa Hayes y obras de 220 kV en el área metropolitana; algunas obras se postergarán y los pagos de G. 115.000 millones a proveedores se revisarán «caso por caso». El 22 de noviembre, Última Hora sumó que la ANDE busca con el BID alternativas para seguir financiando sus obras y que, según Cecoel, sus contratistas cobran entre seis y diez meses después de terminar los trabajos. El 24 de noviembre, según Última Hora, el exgerente técnico de la ANDE Fabián Cáceres estimó que la estatal perdió más de US$ 94 millones por operaciones con Ueno, cerca del 93 % provenientes de Itaipú y de organismos multilaterales; el experto en energía Victorio Oxilia sostuvo que el perjuicio para todo el sector energético puede superar los US$ 300 millones.",
    "contexto": "Las líneas de transmisión son infraestructura: permiten usar más energía de Itaipú en el país y amplían la capacidad productiva a largo plazo, por eso son una política de oferta. Si se retrasan, la OALP crece más lento. Además, ABC Color recuerda que el contrato de potencia y la tarifa de Itaipú vencen el 31 de diciembre de 2026, y que la emisión de bonos de la ANDE quedó en pausa. En paralelo, según La Nación, la empresa Atome (proyecto de fertilizantes de US$ 665 millones en Villeta) notificó que da por terminado su contrato de energía con la ANDE a fines de 2026, aunque dice estar dispuesta a firmar uno nuevo. Según ABC Color (14 nov), la cámara de constructoras electromecánicas (Cecoel) teme que se frenen las obras: además de los US$ 21 millones del préstamo, hay una carta de crédito por casi US$ 47 millones para proveedores. La ANDE proyecta invertir US$ 614 millones en obras en 2027, 20 % más que en 2026. Otra empresa pública, Petropar, tiene US$ 46 millones de capital operativo atrapados en Ueno, según su presidente (Última Hora, 13 nov). Según La Nación (14 nov), Cecoel pide que la ANDE amplíe sus fuentes de financiamiento, incluidas alianzas público-privadas, y se queja de que los contratistas cobran entre 6 y 10 meses después de terminar las obras.",
    "datos": [
+    [
+     "US$ 94 M+",
+     "Pérdida de la ANDE por Ueno, según el exgerente Fabián Cáceres"
+    ],
+    [
+     "US$ 300 M+",
+     "Perjuicio posible para el sector energético, según Victorio Oxilia"
+    ],
     [
      "US$ 21 M",
      "Fondos de la ANDE que quedaron en Ueno Bank"
@@ -6353,151 +6707,6 @@
    ]
   },
   {
-   "id": "remesas-2026",
-   "fecha": "2026-11-13",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/05/24/remesas-familiares-crecieron-32-durante-el-primer-trimestre/",
-   "titulo": "Las remesas caen 9 % hasta agosto: llegan menos desde Argentina",
-   "unidad": "global",
-   "tema": "4.6",
-   "kc": "interdependencia",
-   "mundo": [
-    "espana",
-    "argentina",
-    "eeuu"
-   ],
-   "resumen": "Según cifras preliminares del BCP citadas por ABC Color (13 nov), las remesas familiares sumaron US$ 805 millones entre enero y agosto de 2026, 9 % menos que los US$ 881 millones del mismo periodo de 2025. Las que llegan desde Argentina cayeron 35 % y sumaron US$ 128 millones. En el primer trimestre todavía crecían 3,2 % (US$ 318,9 millones).",
-   "contexto": "Las remesas se registran en la cuenta corriente de la balanza de pagos, como transferencias. Para muchas familias son un ingreso clave para el consumo y la educación. España sigue siendo el origen principal, con casi el 57 % (US$ 460 millones hasta agosto), seguida de Argentina, Estados Unidos (US$ 91 millones), Brasil y Francia. Según ABC Color, en el último año completo las remesas habían marcado un récord de más de US$ 1.350 millones; la caída de 2026 se explica sobre todo por Argentina. El diario aclara que la caída de Ueno y de su empresa vinculada Wepa no corta los envíos: Western Union sigue operando por otros corresponsales. Las remesas dependen del empleo, los salarios y el tipo de cambio en los países donde viven los emigrantes.",
-   "datos": [
-    [
-     "US$ 805 M",
-     "Remesas de enero a agosto de 2026 (preliminar)"
-    ],
-    [
-     "−9 %",
-     "Frente a enero-agosto de 2025 (US$ 881 M)"
-    ],
-    [
-     "US$ 460 M",
-     "Desde España, casi el 57 % del total"
-    ],
-    [
-     "US$ 128 M",
-     "Desde Argentina (−35 %)"
-    ],
-    [
-     "US$ 318,9 M",
-     "Remesas del primer trimestre (+3,2 %)"
-    ]
-   ],
-   "clave": [
-    "−9 %",
-    "remesas a agosto"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "US$ M, enero-agosto 2026",
-    "rows": [
-     [
-      "España",
-      460,
-      1
-     ],
-     [
-      "Argentina",
-      128
-     ],
-     [
-      "Estados Unidos",
-      91
-     ],
-     [
-      "Brasil",
-      28
-     ],
-     [
-      "Francia",
-      19
-     ]
-    ]
-   },
-   "cap": "Origen de las remesas familiares de enero a agosto de 2026 (BCP, preliminar).",
-   "pasos": [
-    "La economía argentina y su tipo de cambio reducen lo que ahorran los emigrantes",
-    "Paraguayos en el exterior envían menos dinero a sus familias",
-    "Entran menos dólares por la cuenta corriente",
-    "Las familias receptoras consumen menos",
-    "La demanda agregada (C) crece más lento"
-   ],
-   "conceptos": [
-    [
-     "Remesas",
-     "Dinero que los emigrantes envían a sus familias."
-    ],
-    [
-     "Cuenta corriente",
-     "Registra comercio de bienes y servicios, renta y transferencias."
-    ],
-    [
-     "Transferencias corrientes",
-     "Pagos sin contrapartida, como las remesas."
-    ],
-    [
-     "Interdependencia",
-     "El ingreso de familias paraguayas depende de economías lejanas."
-    ]
-   ],
-   "diagramas": [
-    "da-oa-da"
-   ],
-   "rel": [
-    "consumo-cae"
-   ],
-   "pregunta": {
-    "q": "Si las remesas desde Argentina caen 35 %, ¿qué componente de la DA de Paraguay se ve afectado primero?",
-    "opts": [
-     "El consumo (C) de las familias que las reciben",
-     "La inversión (I) de las empresas",
-     "El gasto público (G)",
-     "Las importaciones (M), que suben"
-    ],
-    "ok": 0,
-    "fb": "Las remesas son ingreso de los hogares receptores; si caen, esas familias consumen menos y baja C."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Otros canales de envío",
-      "Según ABC Color, Western Union sigue operando por otros corresponsales y puede captar los envíos que antes pasaban por Wepa."
-     ]
-    ],
-    "pierden": [
-     [
-      "Familias receptoras",
-      "Menos ingreso para consumo y educación."
-     ],
-     [
-      "Comercio de zonas con muchos emigrantes",
-      "Vende menos en un momento en que el consumo ya cae por Ueno."
-     ]
-    ],
-    "corto": "Menos consumo de los hogares que reciben remesas, sumado al golpe de la crisis de Ueno.",
-    "largo": "Si la economía argentina se recupera, las remesas desde allí pueden volver; la dependencia de España y Argentina sigue siendo un riesgo.",
-    "supuestos": [
-     "Son cifras preliminares del BCP y pueden revisarse",
-     "El artículo no detalla las causas de la caída desde Argentina"
-    ],
-    "conclusion": "La caída de 9 % es moderada frente al récord anterior, pero llega en mal momento para el consumo; muestra cómo la situación de un país vecino se transmite a los hogares paraguayos."
-   },
-   "mas": [
-    [
-     "ABC Color",
-     "https://www.abc.com.py/negocios/2026/11/13/flujo-de-remesas-familiares-al-paraguay-suma-us-805-millones-a-setiembre/",
-     "2026-11-13"
-    ]
-   ]
-  },
-  {
    "id": "ande-tarifa",
    "fecha": "2026-11-10",
    "medio": "ABC Color",
@@ -6627,184 +6836,36 @@
    ]
   },
   {
-   "id": "ips-ueno",
-   "fecha": "2026-11-13",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
-   "mas": [
-    [
-     "ABC Color",
-     "https://www.abc.com.py/economia/2026/11/03/ips-garantiza-el-pago-de-jubilaciones-y-aguinaldos-ante-intervencion-del-bcp-a-ueno-bank/",
-     "2026-11-03"
-    ],
-    [
-     "Última Hora",
-     "https://www.ultimahora.com/ips-denunciara-a-ueno-y-bcp-por-mas-de-usd-500-millones-de-fondos-depositados",
-     "2026-11-09"
-    ],
-    [
-     "Última Hora",
-     "https://www.ultimahora.com/efecto-ueno-ips-analiza-usar-g-784-239-millones-de-sus-ahorros-para-pagar-jubilaciones-de-este-ano",
-     "2026-11-11"
-    ],
-    [
-     "5Días",
-     "https://5dias.com.py/article/empeor-el-panorama-en-ips-renta-de-inversiones-alcanzara-para-pagar-jubilaciones-solo-hasta-2032",
-     "2026-11-13"
-    ]
-   ],
-   "titulo": "El IPS tenía más de US$ 500 millones en Ueno y prepara una denuncia",
-   "unidad": "macro",
-   "tema": "3.4",
-   "kc": "bienestar",
-   "inst": [
-    "ips"
-   ],
-   "resumen": "El Instituto de Previsión Social tenía fondos de jubilaciones invertidos en bonos y certificados de depósito de Ueno Bank, y unos 32.000 de sus 90.000 jubilados cobraban por ese banco. Tras reunirse con el presidente Alliana, garantizó el pago de haberes y aguinaldo para el 17 de noviembre a través de otros siete bancos. Según su director jurídico, Pablo Morínigo, citado por Última Hora, el monto superaría los US$ 516 millones (unos US$ 334 millones del Fondo de Jubilaciones y US$ 182 millones de fondos de inversión), y el IPS prepara una denuncia contra directivos de Ueno y funcionarios del BCP. Según Última Hora, un documento interno muestra que el IPS planea usar G. 784.239 millones de las rentas de sus inversiones para pagar jubilaciones y aguinaldo de noviembre y diciembre, porque G. 411.789 millones de su cuenta operativa quedaron inmovilizados en Ueno. Según 5Días (13 nov), el consumo de las rentas de las inversiones se acerca al 70 %, frente al 36 % proyectado para este año, y el nuevo cálculo indica que alcanzarían para pagar jubilaciones solo hasta 2032, tres años antes que la estimación anterior (2035).",
-   "contexto": "El fondo de jubilaciones es el ahorro de los trabajadores para su vejez. Para que crezca se invierte, y toda inversión tiene riesgo. El IPS tiene recursos en 14 entidades, pero una parte grande estaba en un solo banco que quebró. El caso muestra por qué los fondos de pensiones deben diversificar y por qué la supervisión importa: si el fondo pierde, el costo lo pagan los jubilados o el Estado. Sin Ueno, el IPS habría necesitado solo unos G. 372.450 millones de sus rentas; las proyecciones ya advertían que, sin cambios, el fondo se agotaría en 2046.",
-   "datos": [
-    [
-     "US$ 516 M+",
-     "Fondos del IPS en Ueno, según su director jurídico"
-    ],
-    [
-     "≈ US$ 334 M",
-     "Parte del Fondo de Jubilaciones"
-    ],
-    [
-     "≈ US$ 182 M",
-     "Parte de los fondos de inversión"
-    ],
-    [
-     "32.000",
-     "Jubilados que cobraban por Ueno"
-    ],
-    [
-     "17 nov",
-     "Fecha de pago de haberes y aguinaldo"
-    ],
-    [
-     "G. 784.239 M",
-     "Rentas que el IPS usaría para pagar nov. y dic."
-    ],
-    [
-     "G. 411.789 M",
-     "Cuenta operativa del IPS inmovilizada en Ueno"
-    ],
-    [
-     "2032",
-     "Hasta cuándo alcanzaría la renta de inversiones (antes 2035), según 5Días"
-    ],
-    [
-     "≈ 70 %",
-     "Consumo de las rentas este año (proyectado: 36 %)"
-    ]
-   ],
-   "clave": [
-    "US$ 516 M+",
-    "del IPS en Ueno"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "US$ millones",
-    "rows": [
-     [
-      "Fondo de Jubilaciones",
-      334
-     ],
-     [
-      "Fondos de inversión",
-      182
-     ],
-     [
-      "Total (más de)",
-      516,
-      1
-     ]
-    ]
-   },
-   "cap": "Fondos del IPS colocados en Ueno Bank, en millones de dólares, según el director jurídico del IPS (Última Hora, 9 nov).",
-   "pasos": [
-    "El IPS invierte el fondo de jubilaciones",
-    "Una parte grande va a un solo banco",
-    "El banco queda en resolución y sus títulos se congelan",
-    "El fondo puede perder parte de su valor",
-    "Riesgo para las jubilaciones futuras si no se recupera"
-   ],
-   "conceptos": [
-    [
-     "Fondo de pensiones",
-     "Ahorro colectivo que paga las jubilaciones."
-    ],
-    [
-     "Diversificación",
-     "Repartir las inversiones para no depender de una sola."
-    ],
-    [
-     "Seguridad social",
-     "Protección ante la vejez, la enfermedad o el desempleo."
-    ],
-    [
-     "Bienestar económico",
-     "Calidad de vida y seguridad financiera de la población."
-    ]
-   ],
-   "diagramas": [],
-   "rel": [
-    "ueno-intervencion",
-    "ueno-devolucion"
-   ],
-   "pregunta": {
-    "q": "¿Qué enseña este caso sobre cómo invertir un fondo de jubilaciones?",
-    "opts": [
-     "Que hay que diversificar para no depender de una sola entidad",
-     "Que conviene poner todo en el banco que más paga",
-     "Que el fondo no debería invertirse nunca",
-     "Que el riesgo no importa si el banco es grande"
-    ],
-    "ok": 0,
-    "fb": "Concentrar una parte grande en una sola entidad aumenta el riesgo. Diversificar reduce la pérdida si una de ellas falla."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Jubilados",
-      "Cobran en fecha gracias a la intervención del Gobierno."
-     ]
-    ],
-    "pierden": [
-     [
-      "El fondo jubilatorio",
-      "Puede perder parte de los US$ 380 millones."
-     ],
-     [
-      "Trabajadores activos",
-      "Sus futuras jubilaciones dependen de la salud del fondo."
-     ]
-    ],
-    "corto": "Los pagos se mantienen y se cambian de banco.",
-    "largo": "Usar las rentas acumuladas para gastos corrientes adelanta el problema de sostenibilidad del fondo: si no se recupera el dinero, harán falta más aportes, menos beneficios o ayuda del Estado. Según 5Días, la renta de las inversiones alcanzaría solo hasta 2032: sin reformas (aportes, edad o beneficios), el Estado podría tener que cubrir el faltante.",
-    "supuestos": [
-     "Que el proceso de resolución devuelva una parte importante del dinero."
-    ],
-    "conclusion": "Garantizar los pagos calma a los jubilados, pero el problema de fondo es cómo se invierte el ahorro previsional y quién lo supervisa."
-   }
-  },
-  {
    "id": "pgn-suspendido",
-   "fecha": "2026-11-23",
+   "fecha": "2026-11-25",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/diputados-aprueban-pgn-2027-con-modificaciones-pero-mantienen-elevado-deficit-de-3-9",
-   "titulo": "Presupuesto 2027: el Senado objeta los recortes generales y lo vota esta semana",
+   "titulo": "Presupuesto 2027: la comisión del Senado lo deja en US$ 25.500 millones y el pleno vota el jueves",
    "unidad": "macro",
    "tema": "3.6",
    "kc": "intervencion",
    "inst": [
     "mef"
    ],
-   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación. El 18 de noviembre, Última Hora informó que el Senado prevé estudiar el proyecto el lunes 23 con el ministro de Economía, Oscar Lovera, y votarlo el martes 24; el Congreso tiene hasta el 20 de diciembre para enviarlo al Ejecutivo. Ese día, funcionarios del Hospital de Clínicas marcharon contra un recorte que, según su sindicato, reduciría hasta G. 1,3 millones los ingresos de unos 6.000 trabajadores (ABC Color). El 22 de noviembre, Última Hora informó que el Senado empieza el lunes 23 con el ministro Lovera y prevé votar en plenaria el martes 24. Según ese diario, la versión con media sanción de Diputados suma G. 164,9 billones (US$ 25.546,5 millones), 10,7 % más que en 2026, con un déficit de 3,8 % del PIB, levemente por debajo del 3,9 % inicial; Diputados sumó, entre otros, fondos para el salario de médicos, la Justicia Electoral y las universidades. El 23 de noviembre, la Comisión de Hacienda del Senado recibió al ministro Oscar Lovera. Su presidente, Silvio Ovelar, dijo a Última Hora que varios senadores rechazan los recortes generalizados a remuneraciones extraordinarias y bonificaciones y prefieren revisar entidad por entidad, protegiendo a las universidades y al MEC. Diputados había sumado G. 44.000 millones para las universidades nacionales. El Senado puede aprobar la versión inicial, la de la Comisión Bicameral, la de Diputados o una propia.",
+   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación. El 18 de noviembre, Última Hora informó que el Senado prevé estudiar el proyecto el lunes 23 con el ministro de Economía, Oscar Lovera, y votarlo el martes 24; el Congreso tiene hasta el 20 de diciembre para enviarlo al Ejecutivo. Ese día, funcionarios del Hospital de Clínicas marcharon contra un recorte que, según su sindicato, reduciría hasta G. 1,3 millones los ingresos de unos 6.000 trabajadores (ABC Color). El 22 de noviembre, Última Hora informó que el Senado empieza el lunes 23 con el ministro Lovera y prevé votar en plenaria el martes 24. Según ese diario, la versión con media sanción de Diputados suma G. 164,9 billones (US$ 25.546,5 millones), 10,7 % más que en 2026, con un déficit de 3,8 % del PIB, levemente por debajo del 3,9 % inicial; Diputados sumó, entre otros, fondos para el salario de médicos, la Justicia Electoral y las universidades. El 23 de noviembre, la Comisión de Hacienda del Senado recibió al ministro Oscar Lovera. Su presidente, Silvio Ovelar, dijo a Última Hora que varios senadores rechazan los recortes generalizados a remuneraciones extraordinarias y bonificaciones y prefieren revisar entidad por entidad, protegiendo a las universidades y al MEC. Diputados había sumado G. 44.000 millones para las universidades nacionales. El Senado puede aprobar la versión inicial, la de la Comisión Bicameral, la de Diputados o una propia. El 24 de noviembre, tras unas 11 horas de estudio, la Comisión de Hacienda del Senado dejó el proyecto en unos US$ 25.500 millones, US$ 200 millones menos que la propuesta del Ejecutivo (US$ 25.754 millones), según su presidente Silvio Ovelar (ABC Color). Repuso fondos para Salud, la UNA y las universidades del interior, y todas las remuneraciones extraordinarias y bonificaciones que había recortado Diputados; Hambre Cero pierde US$ 64 millones, pero la alimentación escolar cubriría 155 días (Última Hora). El pleno lo trata el jueves 26 de noviembre; por ley debe votarlo antes del 30 de noviembre y luego vuelve a Diputados.",
    "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja. El 13 de noviembre el ministro Oscar Lovera dijo a Diputados que la crisis de Ueno es un caso puntual y que espera mantener la emisión de bonos en el exterior: el plan prevé colocar G. 17,4 billones (US$ 2.708,7 millones), hasta 70 % más que en 2026, el 99 % en el mercado internacional (Última Hora).",
    "datos": [
+    [
+     "US$ 25.500 M",
+     "Presupuesto que avaló la Comisión de Hacienda del Senado (24 nov)"
+    ],
+    [
+     "−US$ 64 M",
+     "Recorte a Hambre Cero en la versión de la comisión"
+    ],
+    [
+     "155",
+     "Días de alimentación escolar que se buscan cubrir"
+    ],
+    [
+     "26 nov",
+     "Sesión del pleno del Senado"
+    ],
     [
      "G. 44.000 M",
      "Fondos extra para universidades aprobados por Diputados (G. 20.000 M para la UNA)"
@@ -6859,8 +6920,8 @@
     ]
    ],
    "clave": [
-    "3,9 %",
-    "de déficit, sin cambios"
+    "US$ 25.500 M",
+    "versión de la comisión del Senado"
    ],
    "fig": {
     "k": "macro",
@@ -6907,7 +6968,8 @@
     "alliana-gobierno",
     "fitch-revision",
     "ueno-lotes",
-    "hambre-cero-recorte"
+    "hambre-cero-recorte",
+    "indice-hambre-2026"
    ],
    "pregunta": {
     "q": "Diputados recortó US$ 276 millones pero reasignó parte a salud y obras, y el déficit siguió en 3,9 %. ¿Por qué no bajó el déficit?",
@@ -6941,7 +7003,7 @@
       "El déficit de 3,9 % implica más deuda e intereses."
      ]
     ],
-    "corto": "El Senado puede cambiar el texto; el gasto total sigue creciendo y sostiene la demanda agregada en 2027.",
+    "corto": "El pleno del Senado vota el 26 de noviembre; la comisión repuso gastos salariales y recortó Hambre Cero, así que el gasto total casi no cambia y sigue sosteniendo la demanda agregada en 2027.",
     "largo": "Si el déficit no baja, la deuda sube y es más difícil conservar la calificación del país.",
     "supuestos": [
      "Que el Gobierno consiga colocar la deuda prevista pese a la crisis de Ueno.",
@@ -7034,6 +7096,16 @@
      "Última Hora",
      "https://www.ultimahora.com/senado-objeta-recortes-transversales-planteados-por-el-ejecutivo-en-pgn-2027",
      "2026-11-23"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/pgn-2027-recortan-usd-64-millones-de-hambre-cero-y-reponen-gastos-salariales-extras",
+     "2026-11-24"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/25/pgn-2027-comision-de-hacienda-del-senado-avala-us-25500-millones-y-el-pleno-debate-el-jueves/",
+     "2026-11-25"
     ]
    ]
   },
@@ -7810,16 +7882,36 @@
   },
   {
    "id": "bonos-embi",
-   "fecha": "2026-11-14",
+   "fecha": "2026-11-25",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/negocios/2026/11/06/en-medio-de-la-crisis-de-ueno-bank-precios-de-bonos-soberanos-de-paraguay-se-desploman/",
-   "titulo": "Los bonos de Paraguay siguen cayendo y su rendimiento sube",
+   "titulo": "El riesgo país sube a 155 puntos y los bonos de Paraguay siguen cayendo",
    "unidad": "macro",
    "tema": "3.6",
    "kc": "cambio",
-   "resumen": "En la primera semana de noviembre el riesgo país (EMBI) pasó de 125 a 143 puntos básicos. Según ABC Color (14 nov), con datos del MEF, entre el 2 y el 13 de noviembre el bono con vencimiento en 2050 bajó de 85,64 a 83,08 puntos (−2,99 %) y su rendimiento subió de 6,65 % a 6,90 %; los bonos de largo plazo fueron los que más cayeron.",
-   "contexto": "Cuando el Estado emite bonos, se endeuda con inversores. Si esos inversores ven más riesgo, venden los bonos, su precio cae y el país debe ofrecer intereses más altos para volver a endeudarse. Paraguay tiene grado de inversión, pero en el último escalón con Moody’s y S&P: un recorte lo dejaría fuera de esa categoría. Aun así, su riesgo país sigue por debajo del de Brasil, México o Colombia. Precio y rendimiento de un bono se mueven al revés: si el precio cae, el interés que exige el inversor sube. Los bonos de largo plazo son más sensibles al riesgo, por eso cayeron más. ABC aclara que la baja no se explica solo por Ueno, porque también influyen las condiciones internacionales, y que no cambia el interés de los bonos ya emitidos a tasa fija. El ministro Oscar Lovera dijo a Diputados (13 nov) que hubo una leve caída con recuperación esa semana y que espera mantener las emisiones de 2027.",
+   "resumen": "En la primera semana de noviembre el riesgo país (EMBI) pasó de 125 a 143 puntos básicos. Según ABC Color (14 nov), con datos del MEF, entre el 2 y el 13 de noviembre el bono con vencimiento en 2050 bajó de 85,64 a 83,08 puntos (−2,99 %) y su rendimiento subió de 6,65 % a 6,90 %; los bonos de largo plazo fueron los que más cayeron. Según MarketData (25 nov), con datos del MEF y J.P. Morgan, el EMBI llegó a 155 puntos básicos el 20 de noviembre, su mayor nivel en más de 15 meses: subió 22 % frente al cierre de octubre (127) y 49 % frente a diciembre de 2025 (104). Solo entre el 13 y el 20 de noviembre pasó de 134 a 155. Aun así, Paraguay tiene el segundo menor riesgo país de los ocho mercados del informe, detrás de Uruguay (101).",
+   "contexto": "Cuando el Estado emite bonos, se endeuda con inversores. Si esos inversores ven más riesgo, venden los bonos, su precio cae y el país debe ofrecer intereses más altos para volver a endeudarse. Paraguay tiene grado de inversión, pero en el último escalón con Moody’s y S&P: un recorte lo dejaría fuera de esa categoría. Aun así, su riesgo país sigue por debajo del de Brasil, México o Colombia. Precio y rendimiento de un bono se mueven al revés: si el precio cae, el interés que exige el inversor sube. Los bonos de largo plazo son más sensibles al riesgo, por eso cayeron más. ABC aclara que la baja no se explica solo por Ueno, porque también influyen las condiciones internacionales, y que no cambia el interés de los bonos ya emitidos a tasa fija. El ministro Oscar Lovera dijo a Diputados (13 nov) que hubo una leve caída con recuperación esa semana y que espera mantener las emisiones de 2027. MarketData destaca que en noviembre subió el riesgo de los ocho países del informe (el índice latinoamericano pasó de 217 a 248 pb), por lo que no todo se explica por Ueno; pero la brecha con Uruguay se amplió de 34 a 54 puntos en el año.",
    "datos": [
+    [
+     "155 pb",
+     "EMBI de Paraguay al 20 de noviembre (MEF, J.P. Morgan)"
+    ],
+    [
+     "+22 %",
+     "Suba frente al cierre de octubre (127 pb)"
+    ],
+    [
+     "134 → 155",
+     "EMBI entre el 13 y el 20 de noviembre"
+    ],
+    [
+     "248 pb",
+     "Índice latinoamericano al 20 de noviembre"
+    ],
+    [
+     "101 pb",
+     "Uruguay, el único con menos riesgo que Paraguay"
+    ],
     [
      "85,64 → 83,08",
      "Precio del bono 2050 del 2 al 13 de noviembre (−2,99 %)"
@@ -7850,8 +7942,8 @@
     ]
    ],
    "clave": [
-    "6,90 %",
-    "rendimiento del bono 2050"
+    "155 pb",
+    "riesgo país al 20 nov"
    ],
    "fig": {
     "k": "bono",
@@ -7895,15 +7987,15 @@
     "pgn-suspendido"
    ],
    "pregunta": {
-    "q": "El EMBI subió de 125 a 143 puntos básicos. ¿Cuánto interés extra implica?",
+    "q": "El EMBI de Paraguay subió de 127 a 155 puntos básicos en noviembre. ¿Cuánto interés extra implica frente a los bonos de EE.UU.?",
     "opts": [
-     "0,18 puntos porcentuales",
-     "18 puntos porcentuales",
-     "1,8 puntos porcentuales",
-     "Nada"
+     "0,28 puntos porcentuales más",
+     "28 puntos porcentuales más",
+     "2,8 puntos porcentuales más",
+     "Nada, porque los bonos son a tasa fija"
     ],
     "ok": 0,
-    "fb": "18 pb = 0,18 puntos porcentuales (100 pb = 1 punto). Parece poco, pero sobre miles de millones de dólares de deuda es mucho dinero."
+    "fb": "28 pb = 0,28 puntos porcentuales (100 pb = 1 punto). Encarece las nuevas emisiones, aunque no cambia el interés de los bonos ya emitidos a tasa fija."
    },
    "evaluacion": {
     "ganan": [
@@ -7947,6 +8039,11 @@
      "Última Hora",
      "https://www.ultimahora.com/mef-espera-que-crisis-de-ueno-no-afecte-emisiones-de-bonos-del-tesoro-en-2027",
      "2026-11-13"
+    ],
+    [
+     "MarketData",
+     "https://marketdata.com.py/laboratorio/analisis/finanzas/sube-el-riesgo-pais-de-paraguay-pero-se-mantiene-entre-los-mas-bajos-de-la-region-157242",
+     "2026-11-25"
     ]
    ]
   },
@@ -9398,6 +9495,14 @@
     [
      "2026-11-05",
      143
+    ],
+    [
+     "2026-11-13",
+     134
+    ],
+    [
+     "2026-11-20",
+     155
     ]
    ],
    "lee": "Más puntos básicos significa que el país paga más interés que EE.UU. para endeudarse.",
@@ -9412,12 +9517,17 @@
      "2026-11-05",
      "Caen los bonos de Paraguay",
      "bonos-embi"
+    ],
+    [
+     "2026-11-20",
+     "El riesgo país llega a 155 pb, el mayor nivel en más de 15 meses",
+     "bonos-embi"
     ]
    ]
   }
  },
  "region": {
-  "actualizado": "2026-11-09",
+  "actualizado": "2026-11-25",
   "paises": [
    "Paraguay",
    "Argentina",
@@ -9487,13 +9597,14 @@
     "k": "embi",
     "t": "Riesgo país (EMBI)",
     "u": "pb",
-    "fuente": "Cierre del 5 nov 2026 (ABC Color)",
-    "url": "https://www.abc.com.py/negocios/2026/11/06/en-medio-de-la-crisis-de-ueno-bank-precios-de-bonos-soberanos-de-paraguay-se-desploman/",
+    "fuente": "MEF con datos de J.P. Morgan, 20 nov 2026 (MarketData)",
+    "url": "https://marketdata.com.py/laboratorio/analisis/finanzas/sube-el-riesgo-pais-de-paraguay-pero-se-mantiene-entre-los-mas-bajos-de-la-region-157242",
     "v": {
-     "Paraguay": 143,
-     "Brasil": 202,
-     "Uruguay": 85,
-     "Chile": 104
+     "Paraguay": 155,
+     "Uruguay": 101,
+     "Brasil": 235,
+     "Bolivia": 595,
+     "Argentina": 1065
     }
    }
   ],
@@ -9501,7 +9612,7 @@
    "Paraguay es el país con más crecimiento proyectado y menos inflación del grupo: según la CEPAL crecerá 4,5 % en 2026, más del doble que la región (2,0 %).",
    "La tasa de interés real (tasa del banco central menos inflación) muestra cuán restrictiva es la política monetaria: Brasil ≈ 9,2 puntos, Paraguay ≈ 3,8, Uruguay ≈ 1,1 y Chile ≈ 0.",
    "Argentina tiene la inflación más alta (33,4 % anual), aunque bajó mucho frente a años anteriores.",
-   "Uruguay y Chile tienen menos riesgo país que Paraguay a pesar de crecer menos: los inversores miran también la historia de pagos y la solidez de las instituciones."
+   "Uruguay tiene menos riesgo país que Paraguay (101 frente a 155 pb al 20 de noviembre) pese a crecer menos: los inversores miran la historia de pagos y la solidez de las instituciones. En noviembre subió el riesgo de toda la región, y Argentina (1.065 pb) y Bolivia (595 pb) siguen siendo los más riesgosos."
   ]
  },
  "semanas": {
@@ -9540,13 +9651,13 @@
   },
   "2026-11-23": {
    "titulo": "Semana del Presupuesto: el Senado decide con Ueno de fondo",
-   "texto": "El Senado empezó el lunes 23 a estudiar el Presupuesto 2027 con el ministro Lovera: los senadores objetan los recortes generales y lo votarían el martes 24, mientras el Gobierno anunció ajustes en Hambre Cero para ahorrar unos US$ 130 millones por año. Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión, y los datos de Bancard muestran que los pagos electrónicos cayeron 3,3 % frente a octubre tras el cierre del banco. Con el dólar de vuelta en G. 6.400, el MAG ve un escenario más tranquilo para el campo, y Rediex prevé exportaciones récord de más de US$ 13.000 millones. En Itaipú asumió un nuevo Consejo y el canciller de Brasil llega a Asunción a negociar la tarifa, que vence el 31 de diciembre. El martes 24, ABC Color informó que una misión de la Unión Europea audita hasta el 3 de diciembre la sanidad animal para la carne, y los comerciantes de Ciudad del Este estimaron que el Black Friday movió unos US$ 350 millones, menos de lo esperado por la caída del real.",
+   "texto": "El Senado empezó el lunes 23 a estudiar el Presupuesto 2027 con el ministro Lovera: los senadores objetan los recortes generales y lo votarían el martes 24, mientras el Gobierno anunció ajustes en Hambre Cero para ahorrar unos US$ 130 millones por año. Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión, y los datos de Bancard muestran que los pagos electrónicos cayeron 3,3 % frente a octubre tras el cierre del banco. Con el dólar de vuelta en G. 6.400, el MAG ve un escenario más tranquilo para el campo, y Rediex prevé exportaciones récord de más de US$ 13.000 millones. En Itaipú asumió un nuevo Consejo y el canciller de Brasil llega a Asunción a negociar la tarifa, que vence el 31 de diciembre. El martes 24, ABC Color informó que una misión de la Unión Europea audita hasta el 3 de diciembre la sanidad animal para la carne, y los comerciantes de Ciudad del Este estimaron que el Black Friday movió unos US$ 350 millones, menos de lo esperado por la caída del real. El martes 24, la Comisión de Hacienda del Senado dejó el Presupuesto en unos US$ 25.500 millones, con US$ 64 millones menos para Hambre Cero, y el pleno lo vota el jueves 26. Alliana propuso adelantar 5 salarios mínimos a unos 5.000 trabajadores del Grupo Vázquez, los bonistas del grupo reclaman US$ 365 millones y el riesgo país llegó a 155 puntos, su mayor nivel en más de 15 meses.",
    "claves": [
     "pgn-suspendido",
     "ueno-plan-fusion",
-    "pagos-bancard",
+    "indemnizacion-vazquez",
     "itaipu-tarifa-2027",
-    "dolar-agro"
+    "bonos-embi"
    ]
   }
  },
@@ -9836,8 +9947,8 @@
    ],
    "agenda": [
     [
-     "2026-11-24",
-     "Sesión prevista del Senado para votar el Presupuesto 2027."
+     "2026-11-26",
+     "El pleno del Senado vota el Presupuesto 2027 (debe hacerlo antes del 30 de noviembre)."
     ],
     [
      "2026-12-20",
@@ -9936,6 +10047,10 @@
     [
      "2026-11-23",
      "El Gobierno anuncia ajustes en Hambre Cero desde 2027: ahorro estimado de US$ 130 millones por año."
+    ],
+    [
+     "2026-11-24",
+     "La Comisión de Hacienda del Senado deja el Presupuesto 2027 en unos US$ 25.500 millones, repone gastos salariales y recorta US$ 64 millones de Hambre Cero."
     ]
    ],
    "enlaces": [
@@ -10486,6 +10601,10 @@
    [
     "2026-11-23",
     "La BVA informa que Electroban pagó fuera de horario G. 2.524,9 millones de capital e intereses de bonos que vencían el 20 de noviembre; regularizó el pago, pero quedó registrado como tardío (5Días)."
+   ],
+   [
+    "2026-11-24",
+    "Bonistas de Ueno y sus empresas vinculadas reclaman US$ 365 millones en bonos (70 % de empresas distintas del banco); itti convoca a sus acreedores para el 10 de diciembre (Última Hora, 5Días)."
    ]
   ],
   "ib": [
@@ -10610,12 +10729,30 @@
     "fuente": "ABC Color"
    },
    {
+    "f": "2026-11-26",
+    "t": "El pleno del Senado vota el Presupuesto 2027",
+    "d": "La Comisión de Hacienda lo dejó en unos US$ 25.500 millones; luego vuelve a Diputados.",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.abc.com.py/economia/2026/11/25/pgn-2027-comision-de-hacienda-del-senado-avala-us-25500-millones-y-el-pleno-debate-el-jueves/",
+    "fuente": "ABC Color"
+   },
+   {
     "f": "2026-11-30",
     "t": "Termina la exoneración de intereses moratorios de Ueno",
     "d": "Hasta esta fecha los clientes con préstamos y tarjetas no pagan intereses moratorios ni punitorios.",
     "tipo": "BCP",
     "tema": "2.10",
     "url": "https://www.abc.com.py/economia/2026/11/12/clientes-de-ueno-bcp-exoneran-temporalmente-intereses-moratorios-y-recargos-por-prestamos-y-tarjetas/",
+    "fuente": "ABC Color"
+   },
+   {
+    "f": "2026-11-30",
+    "t": "Plazo del Senado para votar el Presupuesto 2027",
+    "d": "Por ley, el Senado debe votarlo antes de esta fecha; después Diputados tiene 10 días.",
+    "tipo": "Congreso",
+    "tema": "3.6",
+    "url": "https://www.abc.com.py/economia/2026/11/25/pgn-2027-comision-de-hacienda-del-senado-avala-us-25500-millones-y-el-pleno-debate-el-jueves/",
     "fuente": "ABC Color"
    },
    {
@@ -10653,6 +10790,15 @@
     "tema": "4.5",
     "url": "https://www.infobae.com/estados-unidos/2026/10/28/la-reserva-federal-de-estados-unidos-mantuvo-sin-cambios-la-tasa-de-interes-de-referencia/",
     "fuente": "Infobae"
+   },
+   {
+    "f": "2026-12-10",
+    "t": "Asamblea de bonistas de itti",
+    "d": "Decidirán si reestructuran o exigen el pago anticipado de 21 series de bonos de la tecnológica del Grupo Vázquez.",
+    "tipo": "Bolsa",
+    "tema": "2.10",
+    "url": "https://5dias.com.py/article/bonistas-de-itti-evaluarn-opciones-de-cobro-deuda-ascendera-a-us-40-millones",
+    "fuente": "5Días"
    },
    {
     "f": "2026-12-15",
@@ -11338,7 +11484,9 @@
     "cadiem-fondos",
     "ueno-plan-fusion",
     "pagos-bancard",
-    "itau-proyeccion"
+    "itau-proyeccion",
+    "indemnizacion-vazquez",
+    "bonistas-ueno"
    ],
    "hitos": [
     [
@@ -11587,6 +11735,16 @@
      "2026-11-24",
      "Última Hora: el informe favorable a la fusión Ueno–Visión se firmó en menos de una hora en 2024.",
      "ueno-plan-fusion"
+    ],
+    [
+     "2026-11-24",
+     "Alliana propone adelantar 5 salarios mínimos (G. 15,2 millones) a unos 5.000 trabajadores del Grupo Vázquez.",
+     "indemnizacion-vazquez"
+    ],
+    [
+     "2026-11-24",
+     "Bonistas de Ueno y sus empresas vinculadas reclaman US$ 365 millones en bonos.",
+     "bonistas-ueno"
     ]
    ]
   },
@@ -11719,6 +11877,16 @@
      "2026-11-23",
      "El Gobierno anuncia ajustes en Hambre Cero desde 2027 para ahorrar unos US$ 130 millones por año.",
      "hambre-cero-recorte"
+    ],
+    [
+     "2026-11-24",
+     "La Comisión de Hacienda del Senado deja el Presupuesto en unos US$ 25.500 millones y recorta US$ 64 millones de Hambre Cero.",
+     "pgn-suspendido"
+    ],
+    [
+     "2026-11-26",
+     "El pleno del Senado vota el Presupuesto 2027 (próximo).",
+     "pgn-suspendido"
     ]
    ]
   },
@@ -12270,6 +12438,12 @@
     "1",
     "Fin de la pobreza",
     "Pobreza monetaria 16,0 % (19 % en 2024)",
+    "mejora"
+   ],
+   [
+    "2",
+    "Hambre cero",
+    "Índice Global del Hambre 2026: menos de 5 puntos (hambre baja), frente a 12,8 en 2000; subalimentación de 4,1 % (2023-2025). ABC Color, 25 nov 2026.",
     "mejora"
    ],
    [
@@ -15153,8 +15327,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-24",
-  "hora": "06:02",
+  "fecha": "2026-11-25",
+  "hora": "07:41",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -15163,7 +15337,7 @@
     "USD",
     "Dólar estadounidense",
     6000,
-    6450
+    6400
    ],
    [
     "ARS",
@@ -15175,7 +15349,7 @@
     "BRL",
     "Real brasileño",
     1000,
-    1140
+    1120
    ],
    [
     "EUR",
@@ -15260,6 +15434,11 @@
      "2026-11-24",
      6000,
      6450
+    ],
+    [
+     "2026-11-25",
+     6000,
+     6400
     ]
    ],
    "ARS": [
@@ -15335,6 +15514,11 @@
     ],
     [
      "2026-11-24",
+     3,
+     3.8
+    ],
+    [
+     "2026-11-25",
      3,
      3.8
     ]
@@ -15414,6 +15598,11 @@
      "2026-11-24",
      1000,
      1140
+    ],
+    [
+     "2026-11-25",
+     1000,
+     1120
     ]
    ],
    "EUR": [
@@ -15489,6 +15678,11 @@
     ],
     [
      "2026-11-24",
+     6000,
+     6800
+    ],
+    [
+     "2026-11-25",
      6000,
      6800
     ]
@@ -15569,6 +15763,21 @@
     "22,9 %",
     "Parte de Ueno en los depósitos públicos en dólares (sep. 2026, MEF)",
     "calificadoras-ueno"
+   ],
+   [
+    "US$ 365 M",
+    "Bonos emitidos por Ueno y sus empresas vinculadas (70 % de las empresas)",
+    "bonistas-ueno"
+   ],
+   [
+    "G. 15,2 M",
+    "Adelanto de indemnización propuesto por trabajador del Grupo Vázquez",
+    "indemnizacion-vazquez"
+   ],
+   [
+    "US$ 94 M+",
+    "Pérdida de la ANDE por Ueno, según el exgerente Fabián Cáceres",
+    "ande-ueno"
    ]
   ],
   "actores": [
@@ -15676,7 +15885,7 @@
   ]
  },
  "ia": {
-  "actualizado": "2026-11-24",
+  "actualizado": "2026-11-25",
   "recomendados": [
    {
     "id": "isc-diesel",
@@ -16492,7 +16701,7 @@
    },
    {
     "id": "riesgo-pais-119",
-    "to": "Riesgo país retorna a niveles habituales y Paraguay mantiene la confianza de los mercados",
+    "to": "Riesgo país retorna a niveles habituales y Paraguay mantiene la confianza de los mercados, según expertos",
     "fo": "2026-11-17",
     "e": 2,
     "niv": "Exigente",
@@ -17223,7 +17432,7 @@
     }
    }
   ],
-  "enlaces": "2026-11-24",
+  "enlaces": "2026-11-25",
   "reservas": "https://script.google.com/macros/s/AKfycbzXOrEyQdhJYrYTNBw5-G-DvkYBoUF6obGpfHGQMsS06-GmLXMW5z4EjEbcPj_3LqSouw/exec"
  }
 }

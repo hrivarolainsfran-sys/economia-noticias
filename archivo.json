@@ -1,5 +1,450 @@
 [
  {
+  "id": "ips-ueno",
+  "fecha": "2026-11-13",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/nacionales/2026/11/07/ueno-bank-ips-garantiza-pagos-para-el-17-de-noviembre-tras-reunion-con-alliana/",
+  "mas": [
+   [
+    "ABC Color",
+    "https://www.abc.com.py/economia/2026/11/03/ips-garantiza-el-pago-de-jubilaciones-y-aguinaldos-ante-intervencion-del-bcp-a-ueno-bank/",
+    "2026-11-03"
+   ],
+   [
+    "Última Hora",
+    "https://www.ultimahora.com/ips-denunciara-a-ueno-y-bcp-por-mas-de-usd-500-millones-de-fondos-depositados",
+    "2026-11-09"
+   ],
+   [
+    "Última Hora",
+    "https://www.ultimahora.com/efecto-ueno-ips-analiza-usar-g-784-239-millones-de-sus-ahorros-para-pagar-jubilaciones-de-este-ano",
+    "2026-11-11"
+   ],
+   [
+    "5Días",
+    "https://5dias.com.py/article/empeor-el-panorama-en-ips-renta-de-inversiones-alcanzara-para-pagar-jubilaciones-solo-hasta-2032",
+    "2026-11-13"
+   ]
+  ],
+  "titulo": "El IPS tenía más de US$ 500 millones en Ueno y prepara una denuncia",
+  "unidad": "macro",
+  "tema": "3.4",
+  "kc": "bienestar",
+  "inst": [
+   "ips"
+  ],
+  "resumen": "El Instituto de Previsión Social tenía fondos de jubilaciones invertidos en bonos y certificados de depósito de Ueno Bank, y unos 32.000 de sus 90.000 jubilados cobraban por ese banco. Tras reunirse con el presidente Alliana, garantizó el pago de haberes y aguinaldo para el 17 de noviembre a través de otros siete bancos. Según su director jurídico, Pablo Morínigo, citado por Última Hora, el monto superaría los US$ 516 millones (unos US$ 334 millones del Fondo de Jubilaciones y US$ 182 millones de fondos de inversión), y el IPS prepara una denuncia contra directivos de Ueno y funcionarios del BCP. Según Última Hora, un documento interno muestra que el IPS planea usar G. 784.239 millones de las rentas de sus inversiones para pagar jubilaciones y aguinaldo de noviembre y diciembre, porque G. 411.789 millones de su cuenta operativa quedaron inmovilizados en Ueno. Según 5Días (13 nov), el consumo de las rentas de las inversiones se acerca al 70 %, frente al 36 % proyectado para este año, y el nuevo cálculo indica que alcanzarían para pagar jubilaciones solo hasta 2032, tres años antes que la estimación anterior (2035).",
+  "contexto": "El fondo de jubilaciones es el ahorro de los trabajadores para su vejez. Para que crezca se invierte, y toda inversión tiene riesgo. El IPS tiene recursos en 14 entidades, pero una parte grande estaba en un solo banco que quebró. El caso muestra por qué los fondos de pensiones deben diversificar y por qué la supervisión importa: si el fondo pierde, el costo lo pagan los jubilados o el Estado. Sin Ueno, el IPS habría necesitado solo unos G. 372.450 millones de sus rentas; las proyecciones ya advertían que, sin cambios, el fondo se agotaría en 2046.",
+  "datos": [
+   [
+    "US$ 516 M+",
+    "Fondos del IPS en Ueno, según su director jurídico"
+   ],
+   [
+    "≈ US$ 334 M",
+    "Parte del Fondo de Jubilaciones"
+   ],
+   [
+    "≈ US$ 182 M",
+    "Parte de los fondos de inversión"
+   ],
+   [
+    "32.000",
+    "Jubilados que cobraban por Ueno"
+   ],
+   [
+    "17 nov",
+    "Fecha de pago de haberes y aguinaldo"
+   ],
+   [
+    "G. 784.239 M",
+    "Rentas que el IPS usaría para pagar nov. y dic."
+   ],
+   [
+    "G. 411.789 M",
+    "Cuenta operativa del IPS inmovilizada en Ueno"
+   ],
+   [
+    "2032",
+    "Hasta cuándo alcanzaría la renta de inversiones (antes 2035), según 5Días"
+   ],
+   [
+    "≈ 70 %",
+    "Consumo de las rentas este año (proyectado: 36 %)"
+   ]
+  ],
+  "clave": [
+   "US$ 516 M+",
+   "del IPS en Ueno"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ millones",
+   "rows": [
+    [
+     "Fondo de Jubilaciones",
+     334
+    ],
+    [
+     "Fondos de inversión",
+     182
+    ],
+    [
+     "Total (más de)",
+     516,
+     1
+    ]
+   ]
+  },
+  "cap": "Fondos del IPS colocados en Ueno Bank, en millones de dólares, según el director jurídico del IPS (Última Hora, 9 nov).",
+  "pasos": [
+   "El IPS invierte el fondo de jubilaciones",
+   "Una parte grande va a un solo banco",
+   "El banco queda en resolución y sus títulos se congelan",
+   "El fondo puede perder parte de su valor",
+   "Riesgo para las jubilaciones futuras si no se recupera"
+  ],
+  "conceptos": [
+   [
+    "Fondo de pensiones",
+    "Ahorro colectivo que paga las jubilaciones."
+   ],
+   [
+    "Diversificación",
+    "Repartir las inversiones para no depender de una sola."
+   ],
+   [
+    "Seguridad social",
+    "Protección ante la vejez, la enfermedad o el desempleo."
+   ],
+   [
+    "Bienestar económico",
+    "Calidad de vida y seguridad financiera de la población."
+   ]
+  ],
+  "diagramas": [],
+  "rel": [
+   "ueno-intervencion",
+   "ueno-devolucion"
+  ],
+  "pregunta": {
+   "q": "¿Qué enseña este caso sobre cómo invertir un fondo de jubilaciones?",
+   "opts": [
+    "Que hay que diversificar para no depender de una sola entidad",
+    "Que conviene poner todo en el banco que más paga",
+    "Que el fondo no debería invertirse nunca",
+    "Que el riesgo no importa si el banco es grande"
+   ],
+   "ok": 0,
+   "fb": "Concentrar una parte grande en una sola entidad aumenta el riesgo. Diversificar reduce la pérdida si una de ellas falla."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Jubilados",
+     "Cobran en fecha gracias a la intervención del Gobierno."
+    ]
+   ],
+   "pierden": [
+    [
+     "El fondo jubilatorio",
+     "Puede perder parte de los US$ 380 millones."
+    ],
+    [
+     "Trabajadores activos",
+     "Sus futuras jubilaciones dependen de la salud del fondo."
+    ]
+   ],
+   "corto": "Los pagos se mantienen y se cambian de banco.",
+   "largo": "Usar las rentas acumuladas para gastos corrientes adelanta el problema de sostenibilidad del fondo: si no se recupera el dinero, harán falta más aportes, menos beneficios o ayuda del Estado. Según 5Días, la renta de las inversiones alcanzaría solo hasta 2032: sin reformas (aportes, edad o beneficios), el Estado podría tener que cubrir el faltante.",
+   "supuestos": [
+    "Que el proceso de resolución devuelva una parte importante del dinero."
+   ],
+   "conclusion": "Garantizar los pagos calma a los jubilados, pero el problema de fondo es cómo se invierte el ahorro previsional y quién lo supervisa."
+  }
+ },
+ {
+  "id": "remesas-2026",
+  "fecha": "2026-11-13",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/05/24/remesas-familiares-crecieron-32-durante-el-primer-trimestre/",
+  "titulo": "Las remesas caen 9 % hasta agosto: llegan menos desde Argentina",
+  "unidad": "global",
+  "tema": "4.6",
+  "kc": "interdependencia",
+  "mundo": [
+   "espana",
+   "argentina",
+   "eeuu"
+  ],
+  "resumen": "Según cifras preliminares del BCP citadas por ABC Color (13 nov), las remesas familiares sumaron US$ 805 millones entre enero y agosto de 2026, 9 % menos que los US$ 881 millones del mismo periodo de 2025. Las que llegan desde Argentina cayeron 35 % y sumaron US$ 128 millones. En el primer trimestre todavía crecían 3,2 % (US$ 318,9 millones).",
+  "contexto": "Las remesas se registran en la cuenta corriente de la balanza de pagos, como transferencias. Para muchas familias son un ingreso clave para el consumo y la educación. España sigue siendo el origen principal, con casi el 57 % (US$ 460 millones hasta agosto), seguida de Argentina, Estados Unidos (US$ 91 millones), Brasil y Francia. Según ABC Color, en el último año completo las remesas habían marcado un récord de más de US$ 1.350 millones; la caída de 2026 se explica sobre todo por Argentina. El diario aclara que la caída de Ueno y de su empresa vinculada Wepa no corta los envíos: Western Union sigue operando por otros corresponsales. Las remesas dependen del empleo, los salarios y el tipo de cambio en los países donde viven los emigrantes.",
+  "datos": [
+   [
+    "US$ 805 M",
+    "Remesas de enero a agosto de 2026 (preliminar)"
+   ],
+   [
+    "−9 %",
+    "Frente a enero-agosto de 2025 (US$ 881 M)"
+   ],
+   [
+    "US$ 460 M",
+    "Desde España, casi el 57 % del total"
+   ],
+   [
+    "US$ 128 M",
+    "Desde Argentina (−35 %)"
+   ],
+   [
+    "US$ 318,9 M",
+    "Remesas del primer trimestre (+3,2 %)"
+   ]
+  ],
+  "clave": [
+   "−9 %",
+   "remesas a agosto"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "US$ M, enero-agosto 2026",
+   "rows": [
+    [
+     "España",
+     460,
+     1
+    ],
+    [
+     "Argentina",
+     128
+    ],
+    [
+     "Estados Unidos",
+     91
+    ],
+    [
+     "Brasil",
+     28
+    ],
+    [
+     "Francia",
+     19
+    ]
+   ]
+  },
+  "cap": "Origen de las remesas familiares de enero a agosto de 2026 (BCP, preliminar).",
+  "pasos": [
+   "La economía argentina y su tipo de cambio reducen lo que ahorran los emigrantes",
+   "Paraguayos en el exterior envían menos dinero a sus familias",
+   "Entran menos dólares por la cuenta corriente",
+   "Las familias receptoras consumen menos",
+   "La demanda agregada (C) crece más lento"
+  ],
+  "conceptos": [
+   [
+    "Remesas",
+    "Dinero que los emigrantes envían a sus familias."
+   ],
+   [
+    "Cuenta corriente",
+    "Registra comercio de bienes y servicios, renta y transferencias."
+   ],
+   [
+    "Transferencias corrientes",
+    "Pagos sin contrapartida, como las remesas."
+   ],
+   [
+    "Interdependencia",
+    "El ingreso de familias paraguayas depende de economías lejanas."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da"
+  ],
+  "rel": [
+   "consumo-cae"
+  ],
+  "pregunta": {
+   "q": "Si las remesas desde Argentina caen 35 %, ¿qué componente de la DA de Paraguay se ve afectado primero?",
+   "opts": [
+    "El consumo (C) de las familias que las reciben",
+    "La inversión (I) de las empresas",
+    "El gasto público (G)",
+    "Las importaciones (M), que suben"
+   ],
+   "ok": 0,
+   "fb": "Las remesas son ingreso de los hogares receptores; si caen, esas familias consumen menos y baja C."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Otros canales de envío",
+     "Según ABC Color, Western Union sigue operando por otros corresponsales y puede captar los envíos que antes pasaban por Wepa."
+    ]
+   ],
+   "pierden": [
+    [
+     "Familias receptoras",
+     "Menos ingreso para consumo y educación."
+    ],
+    [
+     "Comercio de zonas con muchos emigrantes",
+     "Vende menos en un momento en que el consumo ya cae por Ueno."
+    ]
+   ],
+   "corto": "Menos consumo de los hogares que reciben remesas, sumado al golpe de la crisis de Ueno.",
+   "largo": "Si la economía argentina se recupera, las remesas desde allí pueden volver; la dependencia de España y Argentina sigue siendo un riesgo.",
+   "supuestos": [
+    "Son cifras preliminares del BCP y pueden revisarse",
+    "El artículo no detalla las causas de la caída desde Argentina"
+   ],
+   "conclusion": "La caída de 9 % es moderada frente al récord anterior, pero llega en mal momento para el consumo; muestra cómo la situación de un país vecino se transmite a los hogares paraguayos."
+  },
+  "mas": [
+   [
+    "ABC Color",
+    "https://www.abc.com.py/negocios/2026/11/13/flujo-de-remesas-familiares-al-paraguay-suma-us-805-millones-a-setiembre/",
+    "2026-11-13"
+   ]
+  ]
+ },
+ {
+  "id": "ventas-setiembre",
+  "fecha": "2026-11-13",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/bcp-reporta-aumento-en-las-ventas-en-setiembre-aunque-crecimiento-se-desacelero",
+  "titulo": "Las ventas crecen 2,5 % en septiembre, pero se desaceleran",
+  "unidad": "macro",
+  "tema": "3.1",
+  "kc": "cambio",
+  "resumen": "El Estimador de Cifras de Negocios (ECN) del BCP mostró que las ventas de septiembre crecieron 2,5 % interanual y acumulan 4,3 % en el año. Es menos que en agosto (4,4 %) y que en septiembre de 2025 (8,4 %). Crecieron las manufacturas y el comercio, mientras que bajaron las ventas de varios servicios.",
+  "contexto": "El ECN mide las ventas de las empresas cada mes y sirve para seguir la economía antes de que salga el PIB, que es trimestral. Junto con el IMAEP, que creció 3,9 % en septiembre, muestra una economía que seguía creciendo pero más despacio antes de la crisis de Ueno. Los datos son de septiembre: todavía no reflejan la caída del consumo de noviembre que reportan comercios y multitiendas. Comparar con el mismo mes del año anterior (variación interanual) evita confundir cambios de temporada con cambios reales.",
+  "datos": [
+   [
+    "2,5 %",
+    "Ventas de septiembre frente a septiembre de 2025"
+   ],
+   [
+    "4,3 %",
+    "Crecimiento acumulado en el año"
+   ],
+   [
+    "3,9 %",
+    "Promedio móvil de tres meses"
+   ],
+   [
+    "4,4 %",
+    "Crecimiento interanual de agosto"
+   ],
+   [
+    "8,4 %",
+    "Crecimiento interanual de septiembre de 2025"
+   ]
+  ],
+  "clave": [
+   "2,5 %",
+   "ventas de septiembre"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Sep 2025",
+     8.4
+    ],
+    [
+     "Ago 2026",
+     4.4
+    ],
+    [
+     "Sep 2026",
+     2.5,
+     1
+    ],
+    [
+     "Acumulado 2026",
+     4.3
+    ]
+   ]
+  },
+  "cap": "Variación interanual de las ventas según el Estimador de Cifras de Negocios del BCP (Última Hora).",
+  "pasos": [
+   "Las empresas venden más que hace un año",
+   "El ECN crece 2,5 %, pero menos que en meses anteriores",
+   "Manufacturas y comercio crecen; algunos servicios caen",
+   "La demanda agregada se modera",
+   "En noviembre, la crisis de Ueno puede frenar aún más el consumo"
+  ],
+  "conceptos": [
+   [
+    "Variación interanual",
+    "Cambio de una cifra frente al mismo mes del año anterior."
+   ],
+   [
+    "Desaceleración",
+    "La economía sigue creciendo, pero a un ritmo menor."
+   ],
+   [
+    "Indicador adelantado",
+    "Dato mensual que anticipa lo que mostrará el PIB."
+   ],
+   [
+    "Promedio móvil",
+    "Promedio de varios meses que suaviza los saltos de un mes."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da"
+  ],
+  "rel": [
+   "consumo-cae"
+  ],
+  "pregunta": {
+   "q": "Las ventas crecieron 2,5 % en septiembre frente a 4,4 % en agosto. ¿Qué significa?",
+   "opts": [
+    "Siguen creciendo, pero más despacio",
+    "Las ventas cayeron",
+    "Hay recesión",
+    "Los precios bajaron 2,5 %"
+   ],
+   "ok": 0,
+   "fb": "Una tasa positiva pero menor indica desaceleración: las ventas siguen subiendo, aunque a menor ritmo. Recesión implica caídas del PIB real."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Manufacturas y comercio",
+     "Siguen aumentando sus ventas, en rubros como farmacéutica, alimentos y equipamiento del hogar."
+    ]
+   ],
+   "pierden": [
+    [
+     "Empresas de servicios",
+     "Bajaron sus ventas en transporte, telecomunicaciones y servicios a empresas."
+    ],
+    [
+     "Grandes tiendas y vendedores de insumos agrícolas",
+     "Registraron menos ventas."
+    ]
+   ],
+   "corto": "Los datos de octubre y noviembre mostrarán si la crisis de Ueno convierte la desaceleración en caída.",
+   "largo": "Si la confianza se recupera, el crecimiento puede volver a acelerarse con la cosecha récord de soja.",
+   "supuestos": [
+    "Que el ECN represente bien a toda la economía",
+    "Que no se revisen los datos"
+   ],
+   "conclusion": "La economía crecía más despacio ya antes de la crisis bancaria; por eso el golpe de Ueno al consumo llega en un momento delicado."
+  },
+  "inst": [
+   "bcp"
+  ],
+  "sector": [
+   "comercio",
+   "industria"
+  ]
+ },
+ {
   "id": "emblemas-gasoil-isc",
   "fecha": "2026-11-13",
   "medio": "RDN",
