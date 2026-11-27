@@ -357,6 +357,11 @@
     "26 nov",
     "Itaipú tiene unos US$ 183 millones retenidos en Ueno y paraliza tres obras.",
     "itaipu-ueno-obras"
+   ],
+   [
+    "26 nov",
+    "El BCP propone una ley de liquidación extrajudicial de Ueno que permitiría pagar también a los bonistas.",
+    "bonistas-ueno"
    ]
   ],
   "lentes": [
@@ -375,6 +380,124 @@
   ]
  },
  "noticias": [
+  {
+   "id": "viviendas-bid-2030",
+   "fecha": "2026-11-27",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/27/paraguay-necesitaria-hacia-2030-unas-125000-viviendas-urbanas-adicionales/",
+   "opinion": false,
+   "titulo": "Paraguay necesitará unas 125.000 viviendas urbanas más hacia 2030, según el BID",
+   "unidad": "global",
+   "tema": "4.10",
+   "kc": "sostenibilidad",
+   "resumen": "Un estudio del BID sobre brechas de infraestructura, publicado por ABC Color, proyecta que la población de Paraguay pasará de 6,93 millones en 2024 a 7,41 millones en 2030 (+6,9 %), casi el doble que el promedio de América Latina (+3,8 %). Casi todo el aumento será urbano: las ciudades sumarían un 10,6 % de habitantes y harían falta unas 125.054 viviendas urbanas más (de 1.176.270 a 1.301.324), mientras las rurales bajarían en unas 6.557.",
+   "contexto": "Cuando la población urbana crece, aumenta la demanda de viviendas, agua, saneamiento, electricidad y transporte. Si la oferta de terrenos urbanizados e infraestructura no acompaña, suben los precios de la vivienda y los costos de los servicios, y se pierden parte de las ganancias de productividad que trae la urbanización. El estudio aclara que las 125.054 viviendas no son el déficit habitacional total: no incluyen las carencias actuales ni las casas de mala calidad o que hay que reponer. El BID estima que la región debería invertir US$ 1,596 billones en infraestructura entre 2025 y 2030, un 3,53 % del PIB por año. El artículo fue elaborado por MF Economía e Inversiones para ABC Color.",
+   "datos": [
+    [
+     "125.054",
+     "Viviendas urbanas adicionales que necesitaría Paraguay hacia 2030"
+    ],
+    [
+     "6,9 %",
+     "Crecimiento de la población de Paraguay 2024-2030 (América Latina: 3,8 %)"
+    ],
+    [
+     "10,6 %",
+     "Aumento de la población urbana de Paraguay 2024-2030"
+    ],
+    [
+     "63,5 % → 65,7 %",
+     "Parte de la población que vive en ciudades, 2024 y 2030"
+    ],
+    [
+     "3,53 % del PIB",
+     "Inversión anual en infraestructura que necesitaría la región (2025-2030)"
+    ]
+   ],
+   "clave": [
+    "125.054",
+    "viviendas urbanas más hacia 2030"
+   ],
+   "fig": {
+    "k": "mercado",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "Mercado de la vivienda urbana: el aumento de la población de las ciudades desplaza la demanda (D) a la derecha; si la oferta no crece, sube el precio de equilibrio.",
+   "pasos": [
+    "La población de Paraguay crece más rápido que la de la región",
+    "Casi todo el aumento ocurre en las ciudades",
+    "Sube la demanda de viviendas y de servicios urbanos",
+    "Si la oferta de suelo e infraestructura no acompaña, suben los precios",
+    "La inversión en infraestructura amplía la capacidad productiva (OALP)"
+   ],
+   "conceptos": [
+    [
+     "Urbanización",
+     "Paso de la población del campo a las ciudades."
+    ],
+    [
+     "Infraestructura",
+     "Capital físico básico: rutas, agua, saneamiento, energía y transporte."
+    ],
+    [
+     "Déficit habitacional",
+     "Viviendas que faltan o que no cumplen condiciones mínimas."
+    ],
+    [
+     "Política de oferta",
+     "Medida que aumenta la capacidad productiva de la economía y desplaza la OALP."
+    ]
+   ],
+   "diagramas": [
+    "oferta-demanda",
+    "politicas-oferta"
+   ],
+   "rel": [
+    "che-roga-pora",
+    "capadei-dolar"
+   ],
+   "pregunta": {
+    "q": "Si la población urbana crece 10,6 % y la oferta de viviendas no cambia, ¿qué pasa en el mercado de la vivienda?",
+    "opts": [
+     "La demanda se desplaza a la derecha y sube el precio de equilibrio",
+     "La oferta se desplaza a la derecha y baja el precio",
+     "La demanda se desplaza a la izquierda",
+     "No cambia nada: la vivienda es un bien inferior"
+    ],
+    "ok": 0,
+    "fb": "Más hogares en las ciudades significan más demanda a cada precio; con la oferta fija, el nuevo equilibrio tiene un precio y una cantidad mayores."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Constructoras y fabricantes de materiales",
+      "Tendrán más demanda de viviendas e infraestructura."
+     ],
+     [
+      "Dueños de terrenos urbanos",
+      "Su suelo vale más si la demanda crece más rápido que la oferta."
+     ]
+    ],
+    "pierden": [
+     [
+      "Familias jóvenes y de bajos ingresos",
+      "Les costará más comprar o alquilar si los precios suben."
+     ],
+     [
+      "El Estado y los municipios",
+      "Necesitan más inversión en agua, saneamiento y transporte, con presupuestos ajustados."
+     ]
+    ],
+    "corto": "La demanda de viviendas sigue creciendo, pero la construcción depende del crédito y del tipo de cambio, que hoy frenan algunos proyectos.",
+    "largo": "Si la infraestructura acompaña, la urbanización puede subir la productividad y la OALP; si no, habrá más asentamientos precarios y servicios caros.",
+    "supuestos": [
+     "Que las proyecciones de población del BID se cumplan.",
+     "Que haya financiamiento para viviendas e infraestructura."
+    ],
+    "conclusion": "El crecimiento urbano es una oportunidad de desarrollo, pero solo si la oferta de viviendas e infraestructura crece al mismo ritmo; si no, el ajuste será por precios más altos."
+   }
+  },
   {
    "id": "indice-hambre-2026",
    "fecha": "2026-11-25",
@@ -668,7 +791,7 @@
   },
   {
    "id": "bonistas-ueno",
-   "fecha": "2026-11-24",
+   "fecha": "2026-11-26",
    "medio": "Última Hora",
    "url": "https://www.ultimahora.com/bonistas-de-ueno-y-de-empresas-vinculadas-exigen-recuperar-usd-365-millones",
    "mas": [
@@ -676,18 +799,32 @@
      "5Días",
      "https://5dias.com.py/article/bonistas-de-itti-evaluarn-opciones-de-cobro-deuda-ascendera-a-us-40-millones",
      "2026-11-24"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/la-ley-especial-que-impulsa-el-bcp-para-agilizar-la-liquidacion-de-ueno-y-pagar-a-todos-los-acreedores",
+     "2026-11-26"
     ]
    ],
-   "titulo": "Bonistas de Ueno y sus empresas reclaman US$ 365 millones y temen quedar al final de la fila",
+   "titulo": "Bonistas de Ueno reclaman US$ 365 millones; el BCP propone una ley para que también cobren",
    "unidad": "micro",
    "tema": "2.10",
    "kc": "intervencion",
    "inst": [
-    "bolsa"
+    "bolsa",
+    "bcp"
    ],
-   "resumen": "Unos 300 inversores organizados afirman que Ueno y sus firmas vinculadas emitieron unos US$ 365 millones en bonos: 30 % del banco y 70 % de empresas como Grupo Vázquez, itti, u Holding y Terravaz, según Última Hora. Temen que los activos de esas empresas se usen para devolver el 100 % a los ahorristas del banco. Según 5Días, itti tenía una deuda financiera de US$ 66 millones a junio y sus bonistas se reúnen el 10 de diciembre para decidir si reestructuran o exigen el pago anticipado.",
-   "contexto": "Un depósito está protegido por el Fondo de Garantía (hasta 75 salarios mínimos); un bono no: quien lo compra asume el riesgo del emisor. Los afectados dicen que compraron confiando en calificaciones A o AA y en mensajes oficiales, y denuncian presión dentro del banco para convertir depósitos en bonos. Es un caso de información asimétrica: el emisor sabía más que el inversor sobre su situación. También muestra un riesgo moral: si el Estado rescata a todos, otros inversores podrían asumir riesgos excesivos en el futuro. Los bonistas piden separar los activos de cada empresa y una ley de resarcimiento.",
+   "resumen": "Unos 300 inversores organizados afirman que Ueno y sus firmas vinculadas emitieron unos US$ 365 millones en bonos: 30 % del banco y 70 % de empresas como Grupo Vázquez, itti, u Holding y Terravaz, según Última Hora. Temen que los activos de esas empresas se usen para devolver el 100 % a los ahorristas del banco. Según 5Días, itti tenía una deuda financiera de US$ 66 millones a junio y sus bonistas se reúnen el 10 de diciembre para decidir si reestructuran o exigen el pago anticipado. El 26 de noviembre, el presidente del BCP, Jorge Schreiner, anunció que el banco central envió al Poder Ejecutivo un proyecto de ley de urgencia que crea una liquidación extrajudicial de Ueno, según Última Hora: un liquidador designado por el BCP, por hasta 180 días prorrogables seis meses, podría hacer compensaciones y daciones en pago (cancelar deudas con inmuebles u otros bienes) y sumar a acreedores que no son depositantes, como los tenedores de bonos locales e internacionales.",
+   "contexto": "Un depósito está protegido por el Fondo de Garantía (hasta 75 salarios mínimos); un bono no: quien lo compra asume el riesgo del emisor. Los afectados dicen que compraron confiando en calificaciones A o AA y en mensajes oficiales, y denuncian presión dentro del banco para convertir depósitos en bonos. Es un caso de información asimétrica: el emisor sabía más que el inversor sobre su situación. También muestra un riesgo moral: si el Estado rescata a todos, otros inversores podrían asumir riesgos excesivos en el futuro. Los bonistas piden separar los activos de cada empresa y una ley de resarcimiento. Según Schreiner, la ley vigente no deja al interventor hacer esas operaciones; con la nueva norma, solo los activos más difíciles de vender llegarían a la quiebra judicial, y quedarían poco más de 100 grandes clientes para negociar después del traspaso de unos 1.000 depositantes a otros bancos.",
    "datos": [
+    [
+     "180 días",
+     "Plazo máximo del liquidador según el proyecto del BCP (prorrogable seis meses)"
+    ],
+    [
+     "≈ 100",
+     "Grandes clientes que quedarían para negociar con bienes"
+    ],
     [
      "US$ 365 M",
      "Bonos emitidos por Ueno y empresas vinculadas"
@@ -742,7 +879,7 @@
     "Inversores compran sin conocer la situación real",
     "El banco quiebra y las empresas vinculadas dejan de pagar",
     "El Estado prioriza devolver los depósitos con los activos",
-    "Los bonistas temen cobrar poco o nada"
+    "El BCP propone una ley para que los bonistas también cobren con bienes del banco"
    ],
    "conceptos": [
     [
@@ -787,6 +924,10 @@
      [
       "Ahorristas del banco",
       "Si los activos se usan para devolverles el 100 %, recuperan todo su dinero."
+     ],
+     [
+      "Bonistas del banco",
+      "Con la ley propuesta podrían recibir cartera o inmuebles a cambio de sus bonos."
      ]
     ],
     "pierden": [
@@ -803,11 +944,12 @@
       "Tiene US$ 42 millones en bonos del grupo."
      ]
     ],
-    "corto": "Las asambleas de bonistas, como la de itti el 10 de diciembre, decidirán si se reestructuran las deudas o se exige el pago.",
+    "corto": "El BCP pidió que el Congreso trate la ley de urgencia la semana siguiente; además, las asambleas de bonistas, como la de itti el 10 de diciembre, decidirán si se reestructuran las deudas o se exige el pago.",
     "largo": "Si se ve que las calificaciones no anticiparon el riesgo, los inversores exigirán más interés a los emisores privados y habrá más presión para regular mejor el mercado.",
     "supuestos": [
      "Que los activos de cada empresa no alcancen para todos los acreedores.",
-     "Que el Estado no cree un mecanismo especial de resarcimiento."
+     "Que el Estado no cree un mecanismo especial de resarcimiento.",
+     "Que el Congreso apruebe pronto la ley de liquidación extrajudicial."
     ],
     "conclusion": "Los bonistas asumieron un riesgo mayor a cambio de más interés, pero hubo fallas de información y de supervisión; un rescate total los aliviaría, aunque con un costo fiscal y un riesgo moral para el futuro."
    }
@@ -8294,146 +8436,6 @@
    }
   },
   {
-   "id": "liquidez-tasas",
-   "fecha": "2026-11-15",
-   "medio": "ABC Color",
-   "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/15/menor-liquidez-presion-sobre-las-tasas-y-cautela-bancaria/",
-   "titulo": "Menos liquidez tras Ueno: ¿suben las tasas de interés?",
-   "unidad": "macro",
-   "tema": "3.5",
-   "kc": "cambio",
-   "inst": [
-    "bcp",
-    "bolsa"
-   ],
-   "resumen": "Según un análisis de ABC Color, tras la caída de Ueno el sistema financiero tiene menos dinero disponible: parte de los ahorristas que cobran del Fondo de Garantía retira efectivo, algunos fondos de inversión suspendieron rescates y los bancos se vuelven más cautelosos para prestar. Se habla de subas de 2 a 4 puntos en algunas tasas, pero los datos del BCP muestran que la tasa interbancaria bajó de 5,46 % (3 nov) a 5,39 % (9 nov), con la tasa del BCP en 5,50 %.",
-   "contexto": "La liquidez es la facilidad para convertir un activo en dinero. Cuando la gente guarda efectivo fuera de los bancos y los bancos prefieren tener reservas en vez de prestar, hay menos oferta de fondos prestables y su precio, la tasa de interés, tiende a subir. El artículo aclara que no hay una suba generalizada confirmada: la tasa interbancaria (la que se cobran los bancos entre sí) incluso bajó levemente, porque el BCP sigue dando liquidez con reportos, la Facilidad Permanente de Liquidez y, desde el 13 de noviembre, un encaje más bajo. Al 10 de noviembre el Fondo de Garantía había pagado unos G. 2,205 billones a 1.782.360 personas. ABC Color menciona que las tensiones podrían durar unos dos meses, pero aclara que es una estimación, no una proyección oficial.",
-   "datos": [
-    [
-     "5,46 % → 5,39 %",
-     "Tasa interbancaria del 3 al 9 de noviembre (BCP)"
-    ],
-    [
-     "5,50 %",
-     "Tasa de política monetaria (TPM)"
-    ],
-    [
-     "2 a 4 pp",
-     "Subas mencionadas en algunas operaciones (no confirmadas como generales)"
-    ],
-    [
-     "G. 2,205 billones",
-     "Anticipos del Fondo de Garantía al 10 de noviembre"
-    ],
-    [
-     "1.782.360",
-     "Personas que habían cobrado al 10 de noviembre"
-    ],
-    [
-     "G. 6.204,38",
-     "Dólar referencial interbancario del 10 de noviembre"
-    ]
-   ],
-   "clave": [
-    "5,39 %",
-    "tasa interbancaria el 9 de noviembre"
-   ],
-   "fig": {
-    "k": "barras",
-    "u": "%",
-    "rows": [
-     [
-      "Interbancaria 3 nov",
-      5.46
-     ],
-     [
-      "Interbancaria 9 nov",
-      5.39,
-      1
-     ],
-     [
-      "Tasa del BCP",
-      5.5
-     ]
-    ]
-   },
-   "cap": "La tasa interbancaria bajó levemente después de la intervención de Ueno y quedó por debajo de la tasa del BCP (ABC Color con datos del BCP).",
-   "pasos": [
-    "Cae Ueno y crece la desconfianza",
-    "Parte de los ahorristas guarda efectivo y los bancos prestan con más cautela",
-    "Baja la oferta de fondos prestables: presión al alza sobre algunas tasas",
-    "El BCP inyecta liquidez (reportos, encaje más bajo)",
-    "La tasa interbancaria se mantiene cerca de 5,4 %"
-   ],
-   "conceptos": [
-    [
-     "Liquidez",
-     "Facilidad para convertir un activo en dinero sin perder valor."
-    ],
-    [
-     "Tasa interbancaria",
-     "Tasa a la que los bancos se prestan dinero entre sí por pocos días."
-    ],
-    [
-     "Fondos prestables",
-     "Dinero que ahorristas y bancos ofrecen para préstamos; su precio es la tasa de interés."
-    ],
-    [
-     "Facilidad Permanente de Liquidez",
-     "Préstamo del BCP a los bancos a cambio de títulos como garantía."
-    ]
-   ],
-   "diagramas": [
-    "politica-monetaria",
-    "bonos"
-   ],
-   "rel": [
-    "encaje-ueno",
-    "ueno-devolucion"
-   ],
-   "pregunta": {
-    "q": "Si los ahorristas retiran efectivo y los bancos prestan menos, ¿qué presión aparece sobre las tasas de interés?",
-    "opts": [
-     "Al alza, porque hay menos fondos para prestar",
-     "A la baja, porque hay más ahorro",
-     "Ninguna, las tasas solo las fija el Congreso",
-     "A la baja, porque sube el dólar"
-    ],
-    "ok": 0,
-    "fb": "Menos oferta de fondos prestables sube su precio, la tasa de interés. Por eso el BCP inyecta liquidez: para que esa presión no se generalice."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Bancos con mucha liquidez",
-      "Pueden cobrar tasas más altas en algunos segmentos."
-     ],
-     [
-      "Ahorristas que depositan",
-      "Algunas entidades ofrecen más por captar depósitos."
-     ]
-    ],
-    "pierden": [
-     [
-      "Empresas y familias que necesitan crédito",
-      "Les cuesta más o les dan menos préstamos."
-     ],
-     [
-      "Fondos de inversión expuestos a Ueno",
-      "Tienen rescates suspendidos y títulos valuados en cero."
-     ]
-    ],
-    "corto": "Crédito más caro o escaso en algunos segmentos mientras dura la desconfianza; el BCP busca que no se traslade a todo el sistema.",
-    "largo": "Si el dinero vuelve a los bancos y se regularizan los fondos, las tasas se normalizan; si no, el crédito más caro frena el consumo y la inversión.",
-    "supuestos": [
-     "Que la desconfianza no se contagie a otras entidades",
-     "Que el BCP mantenga su apoyo de liquidez",
-     "El plazo de dos meses es una estimación, no un dato oficial"
-    ],
-    "conclusion": "Hay presión sobre algunas tasas, pero los datos oficiales todavía no muestran una suba general; la respuesta del BCP será decisiva para que el problema de liquidez no se vuelva un freno al crecimiento."
-   }
-  },
-  {
    "id": "asoban-regulacion",
    "fecha": "2026-11-14",
    "medio": "La Nación",
@@ -9729,7 +9731,7 @@
   },
   "2026-11-23": {
    "titulo": "Semana del Presupuesto: el Senado lo aprueba con Ueno de fondo",
-   "texto": "El Senado empezó el lunes 23 a estudiar el Presupuesto 2027 con el ministro Lovera: los senadores objetan los recortes generales y lo votarían el martes 24, mientras el Gobierno anunció ajustes en Hambre Cero para ahorrar unos US$ 130 millones por año. Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión, y los datos de Bancard muestran que los pagos electrónicos cayeron 3,3 % frente a octubre tras el cierre del banco. Con el dólar de vuelta en G. 6.400, el MAG ve un escenario más tranquilo para el campo, y Rediex prevé exportaciones récord de más de US$ 13.000 millones. En Itaipú asumió un nuevo Consejo y el canciller de Brasil llega a Asunción a negociar la tarifa, que vence el 31 de diciembre. El martes 24, ABC Color informó que una misión de la Unión Europea audita hasta el 3 de diciembre la sanidad animal para la carne, y los comerciantes de Ciudad del Este estimaron que el Black Friday movió unos US$ 350 millones, menos de lo esperado por la caída del real. El martes 24, la Comisión de Hacienda del Senado dejó el Presupuesto en unos US$ 25.500 millones, con US$ 64 millones menos para Hambre Cero, y el pleno lo vota el jueves 26. Alliana propuso adelantar 5 salarios mínimos a unos 5.000 trabajadores del Grupo Vázquez, los bonistas del grupo reclaman US$ 365 millones y el riesgo país llegó a 155 puntos, su mayor nivel en más de 15 meses. El jueves 26 el Senado aprobó el Presupuesto 2027 en unos G. 165,3 billones, con déficit de 3,9 % del PIB y un recorte de unos US$ 130 millones a Hambre Cero, y lo devolvió a Diputados. El Gobierno anunció pagos de US$ 300 millones a las empresas viales antes de fin de año, el BCP presentó el traspaso a otros bancos de depósitos de Ueno de hasta G. 5.000 millones por cliente, e Itaipú informó unos US$ 183 millones retenidos en el banco y tres obras paralizadas. Dende proyectó que la economía crecerá entre 3,5 % y 4 % en 2027, menos que en 2026, y los organizadores de eventos prevén 30 % menos actividad por la crisis de Ueno.",
+   "texto": "El Senado empezó el lunes 23 a estudiar el Presupuesto 2027 con el ministro Lovera: los senadores objetan los recortes generales y lo votarían el martes 24, mientras el Gobierno anunció ajustes en Hambre Cero para ahorrar unos US$ 130 millones por año. Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión, y los datos de Bancard muestran que los pagos electrónicos cayeron 3,3 % frente a octubre tras el cierre del banco. Con el dólar de vuelta en G. 6.400, el MAG ve un escenario más tranquilo para el campo, y Rediex prevé exportaciones récord de más de US$ 13.000 millones. En Itaipú asumió un nuevo Consejo y el canciller de Brasil llega a Asunción a negociar la tarifa, que vence el 31 de diciembre. El martes 24, ABC Color informó que una misión de la Unión Europea audita hasta el 3 de diciembre la sanidad animal para la carne, y los comerciantes de Ciudad del Este estimaron que el Black Friday movió unos US$ 350 millones, menos de lo esperado por la caída del real. El martes 24, la Comisión de Hacienda del Senado dejó el Presupuesto en unos US$ 25.500 millones, con US$ 64 millones menos para Hambre Cero, y el pleno lo vota el jueves 26. Alliana propuso adelantar 5 salarios mínimos a unos 5.000 trabajadores del Grupo Vázquez, los bonistas del grupo reclaman US$ 365 millones y el riesgo país llegó a 155 puntos, su mayor nivel en más de 15 meses. El jueves 26 el Senado aprobó el Presupuesto 2027 en unos G. 165,3 billones, con déficit de 3,9 % del PIB y un recorte de unos US$ 130 millones a Hambre Cero, y lo devolvió a Diputados. El Gobierno anunció pagos de US$ 300 millones a las empresas viales antes de fin de año, el BCP presentó el traspaso a otros bancos de depósitos de Ueno de hasta G. 5.000 millones por cliente, e Itaipú informó unos US$ 183 millones retenidos en el banco y tres obras paralizadas. Dende proyectó que la economía crecerá entre 3,5 % y 4 % en 2027, menos que en 2026, y los organizadores de eventos prevén 30 % menos actividad por la crisis de Ueno. El BCP también envió al Ejecutivo una ley de urgencia para liquidar Ueno fuera de la quiebra y pagar con bienes a los bonistas, y el viernes 27 un estudio del BID publicado por ABC Color estimó que Paraguay necesitará unas 125.000 viviendas urbanas más hacia 2030.",
    "claves": [
     "pgn-suspendido",
     "ueno-devolucion",
@@ -9933,6 +9935,10 @@
     [
      "2026-11-26",
      "El BCP anuncia el traspaso a otros bancos de depósitos de Ueno de hasta G. 5.000 millones por cliente, desde la semana siguiente."
+    ],
+    [
+     "2026-11-26",
+     "El BCP remite al Ejecutivo un proyecto de ley de urgencia para una liquidación extrajudicial de Ueno, con un liquidador por hasta 180 días."
     ]
    ],
    "enlaces": [
@@ -11847,6 +11853,11 @@
      "2026-11-26",
      "Los organizadores de eventos prevén 30 % menos actividad por el cierre de Ueno.",
      "consumo-cae"
+    ],
+    [
+     "2026-11-26",
+     "El BCP envía al Ejecutivo una ley de urgencia para liquidar Ueno fuera de la quiebra y sumar a los bonistas.",
+     "bonistas-ueno"
     ]
    ]
   },
@@ -15436,8 +15447,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-26",
-  "hora": "15:16",
+  "fecha": "2026-11-27",
+  "hora": "08:45",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -15457,14 +15468,14 @@
    [
     "BRL",
     "Real brasileño",
-    1020,
-    1120
+    1050,
+    1150
    ],
    [
     "EUR",
     "Euro",
-    6200,
-    6950
+    6100,
+    6850
    ]
   ],
   "historial": {
@@ -15551,6 +15562,11 @@
     ],
     [
      "2026-11-26",
+     6000,
+     6350
+    ],
+    [
+     "2026-11-27",
      6000,
      6350
     ]
@@ -15640,6 +15656,11 @@
      "2026-11-26",
      3,
      3.7
+    ],
+    [
+     "2026-11-27",
+     3,
+     3.7
     ]
    ],
    "BRL": [
@@ -15727,6 +15748,11 @@
      "2026-11-26",
      1020,
      1120
+    ],
+    [
+     "2026-11-27",
+     1050,
+     1150
     ]
    ],
    "EUR": [
@@ -15814,6 +15840,11 @@
      "2026-11-26",
      6200,
      6950
+    ],
+    [
+     "2026-11-27",
+     6100,
+     6850
     ]
    ]
   }

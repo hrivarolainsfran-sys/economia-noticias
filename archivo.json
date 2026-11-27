@@ -9344,5 +9344,145 @@
     "2026-11-15"
    ]
   ]
+ },
+ {
+  "id": "liquidez-tasas",
+  "fecha": "2026-11-15",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/15/menor-liquidez-presion-sobre-las-tasas-y-cautela-bancaria/",
+  "titulo": "Menos liquidez tras Ueno: ¿suben las tasas de interés?",
+  "unidad": "macro",
+  "tema": "3.5",
+  "kc": "cambio",
+  "inst": [
+   "bcp",
+   "bolsa"
+  ],
+  "resumen": "Según un análisis de ABC Color, tras la caída de Ueno el sistema financiero tiene menos dinero disponible: parte de los ahorristas que cobran del Fondo de Garantía retira efectivo, algunos fondos de inversión suspendieron rescates y los bancos se vuelven más cautelosos para prestar. Se habla de subas de 2 a 4 puntos en algunas tasas, pero los datos del BCP muestran que la tasa interbancaria bajó de 5,46 % (3 nov) a 5,39 % (9 nov), con la tasa del BCP en 5,50 %.",
+  "contexto": "La liquidez es la facilidad para convertir un activo en dinero. Cuando la gente guarda efectivo fuera de los bancos y los bancos prefieren tener reservas en vez de prestar, hay menos oferta de fondos prestables y su precio, la tasa de interés, tiende a subir. El artículo aclara que no hay una suba generalizada confirmada: la tasa interbancaria (la que se cobran los bancos entre sí) incluso bajó levemente, porque el BCP sigue dando liquidez con reportos, la Facilidad Permanente de Liquidez y, desde el 13 de noviembre, un encaje más bajo. Al 10 de noviembre el Fondo de Garantía había pagado unos G. 2,205 billones a 1.782.360 personas. ABC Color menciona que las tensiones podrían durar unos dos meses, pero aclara que es una estimación, no una proyección oficial.",
+  "datos": [
+   [
+    "5,46 % → 5,39 %",
+    "Tasa interbancaria del 3 al 9 de noviembre (BCP)"
+   ],
+   [
+    "5,50 %",
+    "Tasa de política monetaria (TPM)"
+   ],
+   [
+    "2 a 4 pp",
+    "Subas mencionadas en algunas operaciones (no confirmadas como generales)"
+   ],
+   [
+    "G. 2,205 billones",
+    "Anticipos del Fondo de Garantía al 10 de noviembre"
+   ],
+   [
+    "1.782.360",
+    "Personas que habían cobrado al 10 de noviembre"
+   ],
+   [
+    "G. 6.204,38",
+    "Dólar referencial interbancario del 10 de noviembre"
+   ]
+  ],
+  "clave": [
+   "5,39 %",
+   "tasa interbancaria el 9 de noviembre"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "%",
+   "rows": [
+    [
+     "Interbancaria 3 nov",
+     5.46
+    ],
+    [
+     "Interbancaria 9 nov",
+     5.39,
+     1
+    ],
+    [
+     "Tasa del BCP",
+     5.5
+    ]
+   ]
+  },
+  "cap": "La tasa interbancaria bajó levemente después de la intervención de Ueno y quedó por debajo de la tasa del BCP (ABC Color con datos del BCP).",
+  "pasos": [
+   "Cae Ueno y crece la desconfianza",
+   "Parte de los ahorristas guarda efectivo y los bancos prestan con más cautela",
+   "Baja la oferta de fondos prestables: presión al alza sobre algunas tasas",
+   "El BCP inyecta liquidez (reportos, encaje más bajo)",
+   "La tasa interbancaria se mantiene cerca de 5,4 %"
+  ],
+  "conceptos": [
+   [
+    "Liquidez",
+    "Facilidad para convertir un activo en dinero sin perder valor."
+   ],
+   [
+    "Tasa interbancaria",
+    "Tasa a la que los bancos se prestan dinero entre sí por pocos días."
+   ],
+   [
+    "Fondos prestables",
+    "Dinero que ahorristas y bancos ofrecen para préstamos; su precio es la tasa de interés."
+   ],
+   [
+    "Facilidad Permanente de Liquidez",
+    "Préstamo del BCP a los bancos a cambio de títulos como garantía."
+   ]
+  ],
+  "diagramas": [
+   "politica-monetaria",
+   "bonos"
+  ],
+  "rel": [
+   "encaje-ueno",
+   "ueno-devolucion"
+  ],
+  "pregunta": {
+   "q": "Si los ahorristas retiran efectivo y los bancos prestan menos, ¿qué presión aparece sobre las tasas de interés?",
+   "opts": [
+    "Al alza, porque hay menos fondos para prestar",
+    "A la baja, porque hay más ahorro",
+    "Ninguna, las tasas solo las fija el Congreso",
+    "A la baja, porque sube el dólar"
+   ],
+   "ok": 0,
+   "fb": "Menos oferta de fondos prestables sube su precio, la tasa de interés. Por eso el BCP inyecta liquidez: para que esa presión no se generalice."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Bancos con mucha liquidez",
+     "Pueden cobrar tasas más altas en algunos segmentos."
+    ],
+    [
+     "Ahorristas que depositan",
+     "Algunas entidades ofrecen más por captar depósitos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Empresas y familias que necesitan crédito",
+     "Les cuesta más o les dan menos préstamos."
+    ],
+    [
+     "Fondos de inversión expuestos a Ueno",
+     "Tienen rescates suspendidos y títulos valuados en cero."
+    ]
+   ],
+   "corto": "Crédito más caro o escaso en algunos segmentos mientras dura la desconfianza; el BCP busca que no se traslade a todo el sistema.",
+   "largo": "Si el dinero vuelve a los bancos y se regularizan los fondos, las tasas se normalizan; si no, el crédito más caro frena el consumo y la inversión.",
+   "supuestos": [
+    "Que la desconfianza no se contagie a otras entidades",
+    "Que el BCP mantenga su apoyo de liquidez",
+    "El plazo de dos meses es una estimación, no un dato oficial"
+   ],
+   "conclusion": "Hay presión sobre algunas tasas, pero los datos oficiales todavía no muestran una suba general; la respuesta del BCP será decisiva para que el problema de liquidez no se vuelva un freno al crecimiento."
+  }
  }
 ]
