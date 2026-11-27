@@ -9210,5 +9210,139 @@
   "sector": [
    "agro"
   ]
+ },
+ {
+  "id": "petroleo-baja",
+  "fecha": "2026-11-15",
+  "medio": "El blog del Euríbor (Reuters)",
+  "url": "https://www.euribor.com.es/2026/11/09/precio-petroleo-hoy-9-noviembre-2026/",
+  "titulo": "El petróleo cae 16 % en una semana y vuelve a subir: alivio a medias",
+  "unidad": "macro",
+  "tema": "3.3",
+  "kc": "interdependencia",
+  "mundo": [
+   "petroleo"
+  ],
+  "sector": [
+   "energia"
+  ],
+  "resumen": "El barril de Brent cerró el viernes 7 de noviembre por debajo de US$ 97, con una caída semanal de 16,42 %, la mayor desde 2020. Según Reuters, el mercado espera una desescalada entre Estados Unidos e Irán y la OPEP+ decidió no cambiar su producción de diciembre. Pero el jueves 12 el Brent volvió a subir 3,3 %, hasta US$ 95,82, después de que Donald Trump dijera que EE.UU. ya no necesita un acuerdo con Irán para terminar la guerra (EFE, en ABC Color).",
+  "contexto": "A comienzos de noviembre el Brent superaba los US$ 110 y era uno de los riesgos que vigilaba el BCP. Paraguay importa todos sus combustibles, así que un petróleo más barato reduce costos de transporte y producción. Pero el efecto en el surtidor no es automático: Petropar revisará sus precios a fin de mes y, al mismo tiempo, el guaraní se depreció, lo que encarece lo importado.",
+  "datos": [
+   [
+    "< US$ 97",
+    "Brent al cierre del 7 de noviembre"
+   ],
+   [
+    "−16,42 %",
+    "Caída semanal, la mayor desde 2020"
+   ],
+   [
+    "> US$ 110",
+    "Nivel del Brent a comienzos de noviembre"
+   ],
+   [
+    "US$ 92,90",
+    "Brent el lunes 9 de noviembre (−5,5 % en el día), según La Nación"
+   ],
+   [
+    "US$ 95,82",
+    "Brent el jueves 12 de noviembre (+3,3 % en el día)"
+   ],
+   [
+    "US$ 88,74",
+    "WTI el 12 de noviembre (+2,55 %)"
+   ]
+  ],
+  "clave": [
+   "−16,4 %",
+   "el petróleo en una semana"
+  ],
+  "fig": {
+   "k": "macro",
+   "mueve": "O",
+   "dir": 1
+  },
+  "cap": "Si el combustible se abarata, bajan los costos de producción: la OACP pasa de OACP₁ a OACP₂, baja el nivel de precios y sube el PIB real.",
+  "pasos": [
+   "Se espera menos tensión en Medio Oriente",
+   "Baja el precio internacional del petróleo",
+   "Paraguay paga menos por los combustibles importados",
+   "Bajan los costos: la OACP se desplaza a la derecha",
+   "Menos inflación por costos, si la depreciación del guaraní no lo compensa"
+  ],
+  "conceptos": [
+   [
+    "Shock de oferta positivo",
+    "Baja de costos que desplaza la OACP a la derecha."
+   ],
+   [
+    "Precio internacional",
+    "Precio que se fija en los mercados mundiales y que Paraguay toma como dado."
+   ],
+   [
+    "Traslado a precios",
+    "Cuánto de un cambio de costos llega al precio final."
+   ],
+   [
+    "Interdependencia",
+    "Lo que pasa en el mundo afecta a la economía paraguaya."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-oacp"
+  ],
+  "rel": [
+   "dolar-6600",
+   "isc-diesel"
+  ],
+  "pregunta": {
+   "q": "Si el petróleo baja 16 % pero el guaraní se deprecia 9 %, ¿qué pasa con el costo del combustible importado en guaraníes?",
+   "opts": [
+    "Baja, pero menos que el 16 %",
+    "Baja exactamente 16 %",
+    "Sube 25 %",
+    "No cambia"
+   ],
+   "ok": 0,
+   "fb": "La baja en dólares se compensa en parte porque cada dólar cuesta más guaraníes: el costo en guaraníes baja menos."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Transportistas, agro e industria",
+     "Sus costos podrían bajar."
+    ],
+    [
+     "Consumidores",
+     "Menos presión sobre los precios."
+    ]
+   ],
+   "pierden": [
+    [
+     "Países exportadores de petróleo",
+     "Reciben menos por sus ventas."
+    ]
+   ],
+   "corto": "Alivio en la inflación por costos y menos presión para nuevas subas de combustibles.",
+   "largo": "Depende de la guerra en Medio Oriente: como mostró la suba del 12 de noviembre, una declaración política basta para que el precio vuelva a subir.",
+   "supuestos": [
+    "Que la baja del petróleo dure.",
+    "Que la depreciación del guaraní no anule el efecto."
+   ],
+   "conclusion": "Es una buena noticia para un país que importa todo su combustible, pero el tipo de cambio decide cuánto llega al surtidor."
+  },
+  "mas": [
+   [
+    "La Nación",
+    "https://www.lanacion.com.py/negocios/2026/11/09/caida-global-del-petroleo-abre-la-expectativa-de-una-baja-en-los-costos-de-importacion/",
+    "2026-11-09"
+   ],
+   [
+    "ABC Color (EFE)",
+    "https://www.abc.com.py/edicion-impresa/suplementos/economico/2026/11/15/trump-hablo-de-iran-y-subio-el-crudo/",
+    "2026-11-15"
+   ]
+  ]
  }
 ]
