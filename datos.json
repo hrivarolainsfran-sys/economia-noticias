@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25",
+ "actualizado": "2026-11-27",
  "indicadores": [
   {
    "n": "Tasa del BCP",
@@ -347,6 +347,16 @@
     "24 nov",
     "Bonistas de Ueno y sus empresas reclaman US$ 365 millones.",
     "bonistas-ueno"
+   ],
+   [
+    "26 nov",
+    "El BCP traspasará a otros bancos depósitos de Ueno de hasta G. 5.000 millones por cliente.",
+    "ueno-devolucion"
+   ],
+   [
+    "26 nov",
+    "Itaipú tiene unos US$ 183 millones retenidos en Ueno y paraliza tres obras.",
+    "itaipu-ueno-obras"
    ]
   ],
   "lentes": [
@@ -4645,263 +4655,6 @@
    ]
   },
   {
-   "id": "pollo-exportaciones",
-   "fecha": "2026-11-15",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/ingresos-por-envios-avicolas-crecieron-76-otra-planta-se-suma-para-exportar-a-angola",
-   "titulo": "El pollo exporta 76 % más y suma otra planta para vender a Angola",
-   "unidad": "global",
-   "tema": "4.1",
-   "kc": "interdependencia",
-   "resumen": "Según el informe de octubre del Senacsa, Paraguay exportó 12.914 toneladas de productos avícolas en lo que va del año, por US$ 15,7 millones: 76 % más en valor y 54 % más en volumen que en 2025. La firma JBS-Seara Paraguay hizo su primer envío de pollo congelado a Angola, unas 25 toneladas.",
-   "contexto": "El presidente del Senacsa, José Carlos Martin, explica el crecimiento por la mayor producción y faena de pollos, que subió casi 13 % hasta octubre. Paraguay produce cerca de 220.000 toneladas de carne avícola por año, pero exporta solo el 5 %: el 95 % se vende en el mercado local. Martin estima llegar a 50.000 toneladas exportadas en 2028. Los compradores son variados: Irak (32 %), Vietnam (13 %), Albania (11 %), Kosovo (7 %) y Angola (5 %). Que los ingresos crezcan más rápido que el volumen indica que también mejoró el valor por tonelada vendida.",
-   "datos": [
-    [
-     "US$ 15,7 M",
-     "Exportaciones avícolas en lo que va de 2026 (US$ 8,9 M un año antes)"
-    ],
-    [
-     "12.914 t",
-     "Volumen exportado (+54 % frente a 8.334 t)"
-    ],
-    [
-     "≈13 %",
-     "Crecimiento de la producción y faena de pollos hasta octubre"
-    ],
-    [
-     "5 %",
-     "Parte de la producción que se exporta (95 % va al mercado local)"
-    ],
-    [
-     "32 %",
-     "Participación de Irak, el principal comprador"
-    ],
-    [
-     "50.000 t",
-     "Exportación que el Senacsa estima para 2028"
-    ]
-   ],
-   "clave": [
-    "+76 %",
-    "ingresos por exportaciones de pollo"
-   ],
-   "fig": {
-    "k": "exportaciones"
-   },
-   "cap": "Cuando el precio mundial Pₘ supera al precio interno, los productores ofrecen Q₂, el mercado local compra Q₁ y la diferencia se exporta. Más producción desplaza la oferta y agranda lo que se vende afuera.",
-   "pasos": [
-    "Crece la producción y la faena de pollos (≈13 %)",
-    "La oferta interna aumenta más que el consumo local",
-    "Se abren y amplían mercados (Angola, Irak, Vietnam)",
-    "El excedente se vende al exterior a precio mundial",
-    "Entran más divisas y crecen las exportaciones netas"
-   ],
-   "conceptos": [
-    [
-     "Ventaja comparativa",
-     "Producir un bien con menor costo de oportunidad que otros países."
-    ],
-    [
-     "Diversificación de exportaciones",
-     "Vender más productos y a más países para depender menos de uno solo."
-    ],
-    [
-     "Barreras sanitarias",
-     "Requisitos de salud animal que un país exige para importar alimentos."
-    ],
-    [
-     "Exportaciones netas",
-     "Exportaciones menos importaciones; son parte de la demanda agregada."
-    ]
-   ],
-   "diagramas": [
-    "exportaciones",
-    "oferta-demanda"
-   ],
-   "rel": [
-    "soja-record",
-    "mercosur-ue"
-   ],
-   "pregunta": {
-    "q": "Los ingresos por pollo crecieron 76 % y el volumen 54 %. ¿Qué indica eso?",
-    "opts": [
-     "Que el ingreso por cada tonelada exportada también subió",
-     "Que bajó el precio del pollo exportado",
-     "Que se exportó menos pollo",
-     "Que la demanda local cayó"
-    ],
-    "ok": 0,
-    "fb": "Si el valor crece más rápido que la cantidad, el ingreso promedio por tonelada aumentó (por mejor precio o por productos de más valor)."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Productores y frigoríficos avícolas",
-      "Venden más y en más mercados, a un precio que les deja más ingresos."
-     ],
-     [
-      "La economía en general",
-      "Entran más divisas y se diversifican las exportaciones más allá de la soja y la carne bovina."
-     ]
-    ],
-    "pierden": [
-     [
-      "Consumidores locales (posible)",
-      "Si la demanda externa crece más rápido que la producción, el precio interno del pollo podría subir."
-     ],
-     [
-      "Competidores de otros países",
-      "Paraguay les disputa mercados como Angola o Irak."
-     ]
-    ],
-    "corto": "Más ingresos para el sector y más envíos con la nueva planta habilitada para Angola; la auditoría de la UE que empieza el 16 de noviembre puede abrir otros mercados.",
-    "largo": "Si la producción sigue creciendo, el pollo podría convertirse en un rubro exportador relevante y reducir la dependencia de pocos productos, aunque sigue expuesto a barreras sanitarias y precios mundiales.",
-    "supuestos": [
-     "Que la producción siga creciendo cerca del 13 % anual",
-     "Que se mantengan las habilitaciones sanitarias",
-     "Que los precios internacionales no caigan"
-    ],
-    "conclusion": "Es una señal positiva de diversificación, pero el pollo todavía es un rubro pequeño (US$ 15,7 millones frente a miles de millones de la soja), por lo que su impacto macro es limitado por ahora."
-   },
-   "sector": [
-    "agro"
-   ]
-  },
-  {
-   "id": "mercosur-ue",
-   "fecha": "2026-11-14",
-   "medio": "Infobae",
-   "url": "https://www.infobae.com/politica/2026/03/23/el-acuerdo-entre-la-union-europea-y-el-mercosur-entrara-en-vigor-provisionalmente-el-1-de-mayo/",
-   "mas": [
-    [
-     "ABC Color",
-     "https://www.abc.com.py/internacionales/2026/03/23/ue-oficializa-fecha-de-entrada-en-vigor-provisional-del-acuerdo-con-mercosur/",
-     "2026-03-23"
-    ],
-    [
-     "Última Hora",
-     "https://www.ultimahora.com/alemania-aprueba-ley-para-ratificar-el-acuerdo-ue-mercosur",
-     "2026-11-14"
-    ]
-   ],
-   "titulo": "Alemania ratifica el acuerdo Mercosur–Unión Europea; Francia sigue en contra",
-   "unidad": "global",
-   "tema": "4.4",
-   "kc": "interdependencia",
-   "resumen": "El acuerdo comercial entre el Mercosur y la Unión Europea, firmado en Asunción el 17 de enero de 2026, se aplica de forma provisional desde el 1 de mayo. El 13 de noviembre, según Última Hora (EFE), la Cámara Baja de Alemania aprobó la ley que lo ratifica, con el voto de los partidos de gobierno y de Los Verdes. La vigencia plena depende todavía del Parlamento Europeo, que espera un dictamen del Tribunal de Justicia de la UE.",
-   "contexto": "La Unión Europea eliminará los aranceles al 93 % de lo que importa del Mercosur en un plazo de hasta 10 años; el Mercosur tendrá hasta 15 años para hacerlo con el 90 % de lo que importa de Europa. El plazo más largo protege por más tiempo a las industrias del Mercosur. Para Paraguay, la apuesta es vender más carne, soja y productos elaborados a un mercado de alto poder de compra. La Comisión Europea calcula que el acuerdo sumará 77.600 millones de euros al PIB de la UE en 2040 y que las exportaciones europeas crecerán 39 %. La parte de asociación política necesita la aprobación de cada parlamento europeo, y la mayor oposición viene de Francia.",
-   "datos": [
-    [
-     "17 ene",
-     "Firma en Asunción"
-    ],
-    [
-     "1 may",
-     "Aplicación provisional"
-    ],
-    [
-     "93 %",
-     "Importaciones del Mercosur que la UE liberará (10 años)"
-    ],
-    [
-     "90 %",
-     "Importaciones de la UE que el Mercosur liberará (15 años)"
-    ],
-    [
-     "€ 77.600 M",
-     "PIB extra para la UE en 2040, según la Comisión Europea"
-    ],
-    [
-     "700 M",
-     "Habitantes del mercado conjunto"
-    ]
-   ],
-   "clave": [
-    "93 %",
-    "del comercio sin aranceles"
-   ],
-   "fig": {
-    "k": "arancel"
-   },
-   "cap": "Quitar un arancel lleva el precio interno de Pₘ + t a Pₘ: los consumidores ganan, los productores que compiten con importaciones pierden y el Estado deja de recaudar el rectángulo.",
-   "pasos": [
-    "Se reducen los aranceles entre los dos bloques",
-    "Bajan los precios de los bienes importados",
-    "Los consumidores compran más y los exportadores venden más",
-    "Los productores que compiten con importaciones enfrentan más competencia",
-    "Cada país se especializa en su ventaja comparativa"
-   ],
-   "conceptos": [
-    [
-     "Integración económica",
-     "Acuerdos entre países para reducir barreras al comercio."
-    ],
-    [
-     "Arancel",
-     "Impuesto a los bienes importados."
-    ],
-    [
-     "Ganancias del comercio",
-     "Más consumo y eficiencia al especializarse."
-    ],
-    [
-     "Interdependencia",
-     "Las economías dependen unas de otras por el comercio."
-    ]
-   ],
-   "diagramas": [
-    "arancel",
-    "exportaciones"
-   ],
-   "rel": [
-    "soja-record",
-    "pollo-exportaciones"
-   ],
-   "pregunta": {
-    "q": "¿Por qué el Mercosur tiene 15 años para bajar aranceles y la UE solo 10?",
-    "opts": [
-     "Para dar tiempo a las industrias del Mercosur a adaptarse a la competencia",
-     "Porque la UE es más pequeña",
-     "Para que el Mercosur recaude menos",
-     "Porque la UE no tiene aranceles"
-    ],
-    "ok": 0,
-    "fb": "Un plazo más largo protege por más tiempo a sectores menos competitivos: es una forma de proteccionismo transitorio."
-   },
-   "evaluacion": {
-    "ganan": [
-     [
-      "Exportadores de carne y soja",
-      "Acceden a un mercado grande con menos aranceles."
-     ],
-     [
-      "Consumidores",
-      "Productos europeos más baratos."
-     ]
-    ],
-    "pierden": [
-     [
-      "Industrias que compiten con Europa",
-      "Enfrentan más competencia."
-     ],
-     [
-      "El Estado",
-      "Recauda menos por aranceles."
-     ]
-    ],
-    "corto": "Pocos cambios: la baja de aranceles es gradual.",
-    "largo": "Más comercio, especialización e inversión, con riesgo para los sectores menos competitivos.",
-    "supuestos": [
-     "Que el Parlamento Europeo no frene el acuerdo."
-    ],
-    "conclusion": "Los beneficios dependen de que Paraguay aproveche el acceso y de que los sectores afectados se adapten en los 15 años de transición."
-   },
-   "sector": [
-    "agro",
-    "comercio"
-   ]
-  },
-  {
    "id": "encaje-ueno",
    "fecha": "2026-11-13",
    "medio": "Última Hora",
@@ -6837,34 +6590,42 @@
   },
   {
    "id": "pgn-suspendido",
-   "fecha": "2026-11-25",
-   "medio": "Última Hora",
-   "url": "https://www.ultimahora.com/diputados-aprueban-pgn-2027-con-modificaciones-pero-mantienen-elevado-deficit-de-3-9",
-   "titulo": "Presupuesto 2027: la comisión del Senado lo deja en US$ 25.500 millones y el pleno vota el jueves",
+   "fecha": "2026-11-27",
+   "medio": "ABC Color",
+   "url": "https://www.abc.com.py/economia/2026/11/27/pgn-2027-senado-repone-remuneraciones-extras-y-recorta-rubros-para-hambre-cero/",
+   "titulo": "Presupuesto 2027: el Senado lo aprueba en G. 165,3 billones, con déficit de 3,9 %, y lo devuelve a Diputados",
    "unidad": "macro",
    "tema": "3.6",
    "kc": "intervencion",
    "inst": [
     "mef"
    ],
-   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación. El 18 de noviembre, Última Hora informó que el Senado prevé estudiar el proyecto el lunes 23 con el ministro de Economía, Oscar Lovera, y votarlo el martes 24; el Congreso tiene hasta el 20 de diciembre para enviarlo al Ejecutivo. Ese día, funcionarios del Hospital de Clínicas marcharon contra un recorte que, según su sindicato, reduciría hasta G. 1,3 millones los ingresos de unos 6.000 trabajadores (ABC Color). El 22 de noviembre, Última Hora informó que el Senado empieza el lunes 23 con el ministro Lovera y prevé votar en plenaria el martes 24. Según ese diario, la versión con media sanción de Diputados suma G. 164,9 billones (US$ 25.546,5 millones), 10,7 % más que en 2026, con un déficit de 3,8 % del PIB, levemente por debajo del 3,9 % inicial; Diputados sumó, entre otros, fondos para el salario de médicos, la Justicia Electoral y las universidades. El 23 de noviembre, la Comisión de Hacienda del Senado recibió al ministro Oscar Lovera. Su presidente, Silvio Ovelar, dijo a Última Hora que varios senadores rechazan los recortes generalizados a remuneraciones extraordinarias y bonificaciones y prefieren revisar entidad por entidad, protegiendo a las universidades y al MEC. Diputados había sumado G. 44.000 millones para las universidades nacionales. El Senado puede aprobar la versión inicial, la de la Comisión Bicameral, la de Diputados o una propia. El 24 de noviembre, tras unas 11 horas de estudio, la Comisión de Hacienda del Senado dejó el proyecto en unos US$ 25.500 millones, US$ 200 millones menos que la propuesta del Ejecutivo (US$ 25.754 millones), según su presidente Silvio Ovelar (ABC Color). Repuso fondos para Salud, la UNA y las universidades del interior, y todas las remuneraciones extraordinarias y bonificaciones que había recortado Diputados; Hambre Cero pierde US$ 64 millones, pero la alimentación escolar cubriría 155 días (Última Hora). El pleno lo trata el jueves 26 de noviembre; por ley debe votarlo antes del 30 de noviembre y luego vuelve a Diputados.",
-   "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja. El 13 de noviembre el ministro Oscar Lovera dijo a Diputados que la crisis de Ueno es un caso puntual y que espera mantener la emisión de bonos en el exterior: el plan prevé colocar G. 17,4 billones (US$ 2.708,7 millones), hasta 70 % más que en 2026, el 99 % en el mercado internacional (Última Hora).",
+   "resumen": "El 12 de noviembre, en sesión extraordinaria, Diputados dio media sanción al Presupuesto 2027 tomando como base la versión del Ejecutivo con su adenda, según Última Hora. El plan suma unos G. 164 billones (US$ 25.478,2 millones), 11,1 % más que lo aprobado para 2026, con un recorte de G. 1,7 billones (US$ 276 millones) en gastos de funcionamiento. El déficit previsto se mantiene en 3,9 % del PIB y el proyecto pasa al Senado, que tiene 15 días para estudiarlo. Para el exministro de Hacienda Benigno López, citado por Última Hora, el recorte es «un gesto, no una reforma»: hacen falta más formalidad y más recaudación genuina. El 16 de noviembre, el presidente Alliana y los gremios (UIP, Centro de Importadores y otros) acordaron crear un «Gabinete de Impulso Económico» para proponer cambios al proyecto en el Senado; el presidente de la UIP, Enrique Duarte, dijo a Última Hora que tras la crisis el Presupuesto está «aún más desfasado de la realidad». Alliana anunció además un recorte de hasta US$ 100 millones en Hambre Cero, según La Nación. El 18 de noviembre, Última Hora informó que el Senado prevé estudiar el proyecto el lunes 23 con el ministro de Economía, Oscar Lovera, y votarlo el martes 24; el Congreso tiene hasta el 20 de diciembre para enviarlo al Ejecutivo. Ese día, funcionarios del Hospital de Clínicas marcharon contra un recorte que, según su sindicato, reduciría hasta G. 1,3 millones los ingresos de unos 6.000 trabajadores (ABC Color). El 22 de noviembre, Última Hora informó que el Senado empieza el lunes 23 con el ministro Lovera y prevé votar en plenaria el martes 24. Según ese diario, la versión con media sanción de Diputados suma G. 164,9 billones (US$ 25.546,5 millones), 10,7 % más que en 2026, con un déficit de 3,8 % del PIB, levemente por debajo del 3,9 % inicial; Diputados sumó, entre otros, fondos para el salario de médicos, la Justicia Electoral y las universidades. El 23 de noviembre, la Comisión de Hacienda del Senado recibió al ministro Oscar Lovera. Su presidente, Silvio Ovelar, dijo a Última Hora que varios senadores rechazan los recortes generalizados a remuneraciones extraordinarias y bonificaciones y prefieren revisar entidad por entidad, protegiendo a las universidades y al MEC. Diputados había sumado G. 44.000 millones para las universidades nacionales. El Senado puede aprobar la versión inicial, la de la Comisión Bicameral, la de Diputados o una propia. El 24 de noviembre, tras unas 11 horas de estudio, la Comisión de Hacienda del Senado dejó el proyecto en unos US$ 25.500 millones, US$ 200 millones menos que la propuesta del Ejecutivo (US$ 25.754 millones), según su presidente Silvio Ovelar (ABC Color). Repuso fondos para Salud, la UNA y las universidades del interior, y todas las remuneraciones extraordinarias y bonificaciones que había recortado Diputados; Hambre Cero pierde US$ 64 millones, pero la alimentación escolar cubriría 155 días (Última Hora). El pleno lo trata el jueves 26 de noviembre; por ley debe votarlo antes del 30 de noviembre y luego vuelve a Diputados. El 26 de noviembre, tras una sesión de más de 10 horas, el pleno del Senado aprobó el Presupuesto con cambios y lo remitió a Diputados, según ABC Color. Sobre la base de la Comisión de Hacienda, el total ronda G. 165,3 billones (US$ 25.596 millones al tipo de cambio presupuestado de G. 6.458), G. 1 billón menos que el proyecto del Ejecutivo, aunque el monto final todavía se recalculaba. Según el presidente de la comisión, Silvio Ovelar, el déficit previsto es 3,9 % del PIB (unos US$ 2.615 millones) y Hambre Cero tendrá un recorte de G. 830.000 millones (unos US$ 130 millones); los días de entrega de alimentos bajan de cerca de 190 a 153. El Senado repuso las remuneraciones complementarias que habían recortado el Ejecutivo y Diputados, G. 159.000 millones para máquinas de votación y G. 45.000 millones para combustible de la Policía. Ese mismo día, la Unión Industrial Paraguaya pidió al Congreso un recorte equivalente al 1,5 % del PIB y criticó que el proyecto use deuda para gastos corrientes (ABC Color).",
+   "contexto": "El recorte se concentra en pasajes, viáticos y traslados (G. 741.562 millones, sobre todo de la Presidencia), además de mantenimiento, publicidad, consultorías y bonificaciones; los gastos reservados del presidente bajan a la mitad. Salud, IPS, Educación, Obras Públicas y la Diben quedaron fuera de los recortes, y US$ 95,1 millones se reasignaron a medicamentos, obras y educación. Como no se tocó la Fuente 20 (crédito público), el Gobierno sigue previendo endeudarse por US$ 469,9 millones más US$ 1.520,6 millones para pagar deudas con proveedores, explicó el ministro Óscar Lovera. Es un caso de reasignación del gasto público: cambia su composición más que su tamaño total, por eso el déficit no baja. El 13 de noviembre el ministro Oscar Lovera dijo a Diputados que la crisis de Ueno es un caso puntual y que espera mantener la emisión de bonos en el exterior: el plan prevé colocar G. 17,4 billones (US$ 2.708,7 millones), hasta 70 % más que en 2026, el 99 % en el mercado internacional (Última Hora). En la versión del Senado, Salud recibe unos G. 18 billones, de los cuales G. 6,3 billones (US$ 975 millones) son deudas pendientes con proveedores; Ovelar atribuyó parte del déficit a esas cuentas atrasadas con proveedores de medicamentos y empresas de obras (ABC Color, 27 nov). También se suman 30.000 adultos mayores a la pensión alimentaria (406.000 en total) y Tekoporã recibe G. 587.000 millones.",
    "datos": [
     [
-     "US$ 25.500 M",
-     "Presupuesto que avaló la Comisión de Hacienda del Senado (24 nov)"
+     "G. 165,3 bill.",
+     "Presupuesto aprobado por el Senado (US$ 25.596 M; 26 nov)"
     ],
     [
-     "−US$ 64 M",
-     "Recorte a Hambre Cero en la versión de la comisión"
+     "3,9 %",
+     "Déficit previsto (% del PIB), unos US$ 2.615 M; el tope legal es 1,5 %"
     ],
     [
-     "155",
-     "Días de alimentación escolar que se buscan cubrir"
+     "−US$ 130 M",
+     "Recorte a Hambre Cero en 2027 (G. 830.000 M), según Ovelar"
     ],
     [
-     "26 nov",
-     "Sesión del pleno del Senado"
+     "190 → 153",
+     "Días de entrega de alimentos escolares"
+    ],
+    [
+     "G. 6,3 bill.",
+     "Deudas con proveedores incluidas en el presupuesto de Salud (US$ 975 M)"
+    ],
+    [
+     "1,5 % del PIB",
+     "Recorte que pide la Unión Industrial Paraguaya"
     ],
     [
      "G. 44.000 M",
@@ -6895,10 +6656,6 @@
      "Reasignados a medicamentos, obras y educación"
     ],
     [
-     "3,9 %",
-     "Déficit previsto (% del PIB); el tope legal es 1,5 %"
-    ],
-    [
      "US$ 1.990 M",
      "Deuda prevista: US$ 469,9 M + US$ 1.520,6 M para proveedores"
     ],
@@ -6911,30 +6668,26 @@
      "Ejes del Gabinete de Impulso Económico: convergencia fiscal, reputación, programas sociales y bancarización"
     ],
     [
-     "24 nov",
-     "Sesión prevista del Senado para votar el Presupuesto"
-    ],
-    [
      "6.000",
      "Trabajadores del Hospital de Clínicas afectados por el recorte, según su sindicato"
     ]
    ],
    "clave": [
-    "US$ 25.500 M",
-    "versión de la comisión del Senado"
+    "G. 165,3 bill.",
+    "Presupuesto 2027 aprobado por el Senado"
    ],
    "fig": {
     "k": "macro",
     "mueve": "D",
     "dir": -1
    },
-   "cap": "El recorte de US$ 276 millones frente al proyecto es pequeño: la DA se desplaza apenas a la izquierda (DA₁ a DA₂) respecto de lo previsto, pero el gasto total sigue 11,1 % por encima de 2026 y el déficit no cambia.",
+   "cap": "El Senado repuso gastos salariales y deja el total casi igual al proyecto (G. 1 billón menos): la DA de 2027 apenas se mueve a la izquierda (DA₁ a DA₂) frente a lo previsto, y el déficit sigue en 3,9 % del PIB.",
    "pasos": [
     "El nuevo gobierno pide recortar gastos tras la crisis de Ueno",
     "Diputados recorta US$ 276 M en viáticos, pasajes y consultorías",
-    "Parte del ahorro se reasigna a salud, obras y educación",
-    "El gasto total y la deuda prevista casi no cambian",
-    "El déficit sigue en 3,9 % del PIB y el Senado decide"
+    "El Senado repone remuneraciones y recorta Hambre Cero en US$ 130 M",
+    "El total queda en G. 165,3 billones, apenas por debajo del proyecto",
+    "El déficit sigue en 3,9 % del PIB y el proyecto vuelve a Diputados"
    ],
    "conceptos": [
     [
@@ -6972,44 +6725,49 @@
     "indice-hambre-2026"
    ],
    "pregunta": {
-    "q": "Diputados recortó US$ 276 millones pero reasignó parte a salud y obras, y el déficit siguió en 3,9 %. ¿Por qué no bajó el déficit?",
+    "q": "El Senado repuso remuneraciones, recortó Hambre Cero y dejó el Presupuesto casi igual al proyecto, con déficit de 3,9 %. ¿Qué tipo de cambio hizo, sobre todo?",
     "opts": [
-     "Porque el gasto total y el endeudamiento previsto casi no cambiaron",
-     "Porque subieron los impuestos",
-     "Porque la DA se desplazó a la derecha",
-     "Porque el BCP bajó la tasa de interés"
+     "Cambió la composición del gasto más que su tamaño total",
+     "Aplicó una política fiscal fuertemente contractiva",
+     "Subió los impuestos para cerrar el déficit",
+     "Redujo el déficit por debajo del tope legal de 1,5 %"
     ],
     "ok": 0,
-    "fb": "El recorte cambió la composición del gasto, no su tamaño: parte del ahorro se reasignó y no se tocó el crédito público (Fuente 20), así que el déficit previsto quedó igual."
+    "fb": "El total bajó apenas G. 1 billón frente al proyecto: el Senado movió gasto de un destino a otro (más salarios, menos Hambre Cero), por eso el déficit sigue en 3,9 % del PIB."
    },
    "evaluacion": {
     "ganan": [
      [
-      "Pacientes y alumnos",
-      "Reciben US$ 95,1 M más para medicamentos y educación."
+      "Funcionarios públicos",
+      "El Senado repuso las remuneraciones complementarias recortadas."
      ],
      [
-      "Contribuyentes",
-      "Se recortan gastos de poca prioridad, como viáticos y pasajes."
+      "Adultos mayores y familias de Tekoporã",
+      "Se suman 30.000 beneficiarios a la pensión alimentaria."
+     ],
+     [
+      "Proveedores de Salud",
+      "El presupuesto incluye G. 6,3 billones para pagar deudas atrasadas."
      ]
     ],
     "pierden": [
      [
-      "Proveedores de servicios al Estado",
-      "Menos contratos de consultoría, publicidad, catering y mantenimiento."
+      "Alumnos de escuelas públicas",
+      "Hambre Cero pierde unos US$ 130 M y reduce los días de comida de cerca de 190 a 153."
      ],
      [
       "Contribuyentes futuros",
-      "El déficit de 3,9 % implica más deuda e intereses."
+      "Un déficit de 3,9 % del PIB se financia con más deuda e intereses."
      ]
     ],
-    "corto": "El pleno del Senado vota el 26 de noviembre; la comisión repuso gastos salariales y recortó Hambre Cero, así que el gasto total casi no cambia y sigue sosteniendo la demanda agregada en 2027.",
-    "largo": "Si el déficit no baja, la deuda sube y es más difícil conservar la calificación del país.",
+    "corto": "El proyecto vuelve a Diputados; el gasto total casi no cambia, así que en 2027 seguirá sosteniendo la demanda agregada mientras se pagan deudas con proveedores.",
+    "largo": "Si el déficit sigue muy por encima del tope legal, la deuda crece y la calificación del país corre riesgo, sobre todo con el costo fiscal de Ueno.",
     "supuestos": [
-     "Que el Gobierno consiga colocar la deuda prevista pese a la crisis de Ueno.",
-     "Que el Senado no amplíe el gasto."
+     "Que el Gobierno pueda colocar la deuda prevista en el exterior.",
+     "Que el monto final recalculado no cambie mucho.",
+     "Que Diputados no amplíe más el gasto."
     ],
-    "conclusion": "Mejorar la composición del gasto es positivo, pero no resuelve el problema principal: un déficit más del doble del tope legal, en un momento en que las calificadoras miran el costo fiscal de Ueno."
+    "conclusion": "Pagar deudas atrasadas y proteger programas sociales tiene sentido, pero reponer salarios y recortar la alimentación escolar es una elección discutible; el problema de fondo, un déficit de 3,9 % del PIB, sigue sin resolverse."
    },
    "mas": [
     [
@@ -7106,12 +6864,27 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/25/pgn-2027-comision-de-hacienda-del-senado-avala-us-25500-millones-y-el-pleno-debate-el-jueves/",
      "2026-11-25"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/26/senado-aprueba-en-general-el-pgn-2027-por-g-1653-billones-y-abre-el-debate-en-particular/",
+     "2026-11-26"
+    ],
+    [
+     "ABC Color",
+     "https://abc.com.py/economia/2026/11/26/pgn-2027-industriales-exigen-al-congreso-un-recorte-equivalente-al-15-del-pib",
+     "2026-11-26"
+    ],
+    [
+     "ABC Color",
+     "https://www.abc.com.py/economia/2026/11/26/pgn-2027-senado-lo-aprueba-con-varios-cambios-y-lo-remite-a-diputados/",
+     "2026-11-26"
     ]
    ]
   },
   {
    "id": "ueno-devolucion",
-   "fecha": "2026-11-20",
+   "fecha": "2026-11-26",
    "medio": "ABC Color",
    "url": "https://www.abc.com.py/economia/2026/11/04/bcp-designa-nuevo-presidente-interino-y-detalla-como-devolvera-la-plata-a-ahorristas-de-ueno/",
    "mas": [
@@ -7149,15 +6922,45 @@
      "ABC Color",
      "https://www.abc.com.py/economia/2026/11/20/asoban-habla-de-un-golpe-muy-fuerte-al-bcp-y-explica-como-se-liberan-los-depositos-a-ahorristas/",
      "2026-11-20"
+    ],
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/26/bcp-prepara-transferencia-de-depositos-de-hasta-g-5000-millones-por-cliente-de-ueno-bank/",
+     "2026-11-26"
+    ],
+    [
+     "Última Hora",
+     "https://www.ultimahora.com/caso-ueno-bcp-estima-traspasar-a-cerca-de-1-000-depositantes-y-cubrir-hasta-g-5-000-millones-por-cliente",
+     "2026-11-26"
     ]
    ],
-   "titulo": "Una ley nueva adelanta la devolución de depósitos de Ueno Bank",
+   "titulo": "Ueno: tras el anticipo del fondo de garantía, el BCP traspasará depósitos de hasta G. 5.000 millones a otros bancos",
    "unidad": "micro",
    "tema": "2.10",
    "kc": "intervencion",
-   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos (FGD) puede adelantar hasta G. 121.760.000 (40 salarios mínimos) por cliente de Ueno Bank. Según el BCP, citado por Última Hora, al vencer el plazo legal el 11 de noviembre el anticipo llegó al 100 % de los clientes: 1.812.348 personas, por G. 3,99 billones (unos US$ 644 millones). A 29.988 titulares de certificados de depósito (CDA) el dinero ya se transfirió, pero se libera después de validar sus datos en una plataforma del BCP; el resto, hasta 75 salarios mínimos, se pagará en las próximas semanas. Según ABC Color (16 nov), queda un remanente de poco más de G. 1 billón por cubrir y el lunes 16 vence el plazo del balance de exclusión; después se licitarán las carteras entre bancos y financieras, y lo obtenido servirá para pagar los 35 salarios mínimos que faltan hasta el tope de 75 (G. 228.300.000). El 20 de noviembre, tras reunirse con el presidente del BCP, Jorge Schreiner, el presidente Pedro Alliana aseguró que se devolverá el 100 % de los depósitos a la vista, a plazo y en CDA, según La Nación; el BCP detallaría el cronograma en los próximos días. El diario informó además que hay unos G. 9 billones (unos US$ 1.450 millones) en activos valuados para transferir a los bancos en lotes de US$ 60 a 80 millones, con 10 días para analizarlos. Según ABC Color (20 nov), la presidenta ejecutiva de Asoban, Liz Cramer, explicó que los depósitos de hasta 40 salarios mínimos ya fueron transferidos a los bancos, pero los ahorristas podrán usarlos cuando el BCP verifique a quién pertenecen y ordene el desbloqueo; los bancos ofrecen créditos para gastos diarios, que pueden incluir seis meses de gracia.",
-   "contexto": "La garantía de depósitos protege a los ahorristas que no pueden saber cómo maneja un banco su dinero: el banco sabe mucho más que el cliente, un caso de información asimétrica. Pero también tiene un costo: si los bancos saben que el Estado cubrirá a sus clientes, pueden asumir más riesgos (riesgo moral). Por eso la garantía tiene un tope y viene acompañada de supervisión. Unos 280.000 clientes que solo tenían cuenta en Ueno recibirán cuentas temporales por 90 días en otros bancos. El BCP informó que Ueno tenía unos G. 14,5 billones en depósitos y que el FGD cubre hasta G. 4,5 billones, el 26 %; la próxima etapa es pasar activos y pasivos a otra entidad.",
+   "resumen": "Con la Ley 7755/26, el fondo de garantía de depósitos (FGD) puede adelantar hasta G. 121.760.000 (40 salarios mínimos) por cliente de Ueno Bank. Según el BCP, citado por Última Hora, al vencer el plazo legal el 11 de noviembre el anticipo llegó al 100 % de los clientes: 1.812.348 personas, por G. 3,99 billones (unos US$ 644 millones). A 29.988 titulares de certificados de depósito (CDA) el dinero ya se transfirió, pero se libera después de validar sus datos en una plataforma del BCP; el resto, hasta 75 salarios mínimos, se pagará en las próximas semanas. Según ABC Color (16 nov), queda un remanente de poco más de G. 1 billón por cubrir y el lunes 16 vence el plazo del balance de exclusión; después se licitarán las carteras entre bancos y financieras, y lo obtenido servirá para pagar los 35 salarios mínimos que faltan hasta el tope de 75 (G. 228.300.000). El 20 de noviembre, tras reunirse con el presidente del BCP, Jorge Schreiner, el presidente Pedro Alliana aseguró que se devolverá el 100 % de los depósitos a la vista, a plazo y en CDA, según La Nación; el BCP detallaría el cronograma en los próximos días. El diario informó además que hay unos G. 9 billones (unos US$ 1.450 millones) en activos valuados para transferir a los bancos en lotes de US$ 60 a 80 millones, con 10 días para analizarlos. Según ABC Color (20 nov), la presidenta ejecutiva de Asoban, Liz Cramer, explicó que los depósitos de hasta 40 salarios mínimos ya fueron transferidos a los bancos, pero los ahorristas podrán usarlos cuando el BCP verifique a quién pertenecen y ordene el desbloqueo; los bancos ofrecen créditos para gastos diarios, que pueden incluir seis meses de gracia. El 26 de noviembre, el presidente del BCP, Jorge Schreiner, y los directores Pedro Acosta y Fernando Rivarola presentaron una nueva hoja de ruta, según La Nación y Última Hora: desde la semana siguiente, otros bancos asumirán los depósitos de unos 1.000 clientes (personas, mipymes y medianas empresas) con un tope inicial de G. 2.000 millones, ampliable a G. 5.000 millones, lo que alcanzaría a más del 99 % de los depositantes originales. Los bancos receptores reciben a cambio activos sanos de Ueno, sin un desembolso directo del FGD. Quedarían entre 100 y 160 grandes depositantes para una etapa posterior, y una ley de urgencia fijaría hasta 180 días para la liquidación, con metas cada 30 días.",
+   "contexto": "La garantía de depósitos protege a los ahorristas que no pueden saber cómo maneja un banco su dinero: el banco sabe mucho más que el cliente, un caso de información asimétrica. Pero también tiene un costo: si los bancos saben que el Estado cubrirá a sus clientes, pueden asumir más riesgos (riesgo moral). Por eso la garantía tiene un tope y viene acompañada de supervisión. Unos 280.000 clientes que solo tenían cuenta en Ueno recibirán cuentas temporales por 90 días en otros bancos. El BCP informó que Ueno tenía unos G. 14,5 billones en depósitos y que el FGD cubre hasta G. 4,5 billones, el 26 %; la próxima etapa es pasar activos y pasivos a otra entidad. El FGD ya desembolsó unos US$ 644 millones, dispone de unos US$ 900 millones y pasará a figurar entre los acreedores de Ueno (La Nación). Según Última Hora, Schreiner dijo que las tasas de los CDA traspasados podrían bajar de 12 % a 7 u 8 %: el ahorrista recupera su dinero, pero con un rendimiento menor. Los 30.000 cuotapartistas de los fondos mutuos de Ueno podrán rescatar hasta G. 30 millones por semana.",
    "datos": [
+    [
+     "G. 5.000 M",
+     "Tope por cliente del traspaso a otros bancos (inicial: G. 2.000 M)"
+    ],
+    [
+     "1.000",
+     "Clientes que saldrían de Ueno con el traspaso (personas y mipymes)"
+    ],
+    [
+     "99 %",
+     "Depositantes originales alcanzados con el tope de G. 5.000 M"
+    ],
+    [
+     "100-160",
+     "Grandes depositantes que quedarían para una etapa posterior"
+    ],
+    [
+     "US$ 900 M",
+     "Fondos disponibles en el FGD (ya usó US$ 644 M)"
+    ],
     [
      "G. 121.760.000",
      "Anticipo máximo por cliente (40 salarios mínimos)"
@@ -7184,8 +6987,8 @@
     ]
    ],
    "clave": [
-    "100 %",
-    "de los clientes recibió el anticipo"
+    "G. 5.000 M",
+    "tope del traspaso de depósitos por cliente"
    ],
    "fig": {
     "k": "barras",
@@ -7253,6 +7056,10 @@
      [
       "El sistema bancario",
       "Se evita una corrida."
+     ],
+     [
+      "Mipymes con depósitos en Ueno",
+      "Recuperan el acceso a su dinero en otro banco, hasta G. 5.000 M."
      ]
     ],
     "pierden": [
@@ -7263,9 +7070,13 @@
      [
       "Saldos por encima del tope",
       "No se cubren por completo."
+     ],
+     [
+      "Titulares de CDA",
+      "Según Schreiner, su tasa podría bajar de 12 % a 7-8 % al pasar a otro banco."
      ]
     ],
-    "corto": "Calma a los depositantes.",
+    "corto": "Calma a los depositantes: el anticipo ya llegó al 100 % y desde la próxima semana unos 1.000 clientes más pasan a otros bancos.",
     "largo": "Riesgo moral si los bancos esperan ser rescatados: hace falta mejor supervisión.",
     "supuestos": [
      "Que el fondo alcance.",
@@ -9113,6 +8924,251 @@
     ],
     "conclusion": "Las normas sanitarias encarecen la producción, pero también son la llave de los mercados que mejor pagan: para un exportador de carne, cumplirlas es una inversión más que un costo."
    }
+  },
+  {
+   "id": "vialeras-300m",
+   "fecha": "2026-11-26",
+   "medio": "La Nación",
+   "url": "https://www.lanacion.com.py/negocios_edicion_impresa/2026/11/26/gobierno-desembolsara-usd-300-millones-al-sector-de-la-construccion/",
+   "mas": [
+    [
+     "La Nación",
+     "https://www.lanacion.com.py/negocios/2026/11/26/capaco-destaca-decision-del-gobierno-que-prioriza-pagos-a-vialeras-y-garantiza-continuidad-de-las-obras/",
+     "2026-11-26"
+    ]
+   ],
+   "titulo": "El Gobierno pagará US$ 300 millones a las vialeras antes de fin de año",
+   "unidad": "macro",
+   "tema": "3.6",
+   "kc": "intervencion",
+   "inst": [
+    "mef"
+   ],
+   "resumen": "El presidente Pedro Alliana confirmó el 25 de noviembre que el Gobierno pagará unos US$ 300 millones a las empresas viales antes de fin de año, el doble de lo previsto al principio, según La Nación. Habrá dos pagos de US$ 75 millones en noviembre y diciembre, y otros US$ 150 millones con un préstamo que necesita la autorización del Congreso. El ministro de Obras Públicas, Juan Carlos Baruja, dijo que con ese dinero se espera cancelar la deuda con el sector; los intereses por mora, de unos US$ 70 millones, se tratarán aparte.",
+   "contexto": "El Estado debía meses de certificados de obra a las constructoras, que a su vez atrasaban pagos a sus proveedores. Según la Cámara Vial (Cavialpa), en el sector trabajan unas 300.000 personas, y la Capaco, que habla de más de 300 contratos, dice que el pago es una «cadena transversal» que llega a otros sectores. Para la teoría, pagar deudas atrasadas inyecta liquidez en la economía cuando el consumo está golpeado por la crisis de Ueno: aumenta el ingreso de empresas y trabajadores y, por el efecto multiplicador, la demanda agregada. Pero la mitad del dinero sale de un préstamo, en un año en que el déficit ya supera los US$ 2.000 millones. Para 2027, el Ejecutivo prevé US$ 931 millones de inversión en obras públicas.",
+   "datos": [
+    [
+     "US$ 300 M",
+     "Pagos a las vialeras antes de fin de año"
+    ],
+    [
+     "US$ 75 M",
+     "Cada uno de los dos pagos de noviembre y diciembre"
+    ],
+    [
+     "US$ 150 M",
+     "Parte que se pagará con un préstamo, si lo autoriza el Congreso"
+    ],
+    [
+     "US$ 70 M",
+     "Intereses por mora, que se tratarán por separado"
+    ],
+    [
+     "300.000",
+     "Personas que trabajan en el sector vial, según Cavialpa"
+    ],
+    [
+     "US$ 931 M",
+     "Inversión en obras públicas prevista para 2027"
+    ]
+   ],
+   "clave": [
+    "US$ 300 M",
+    "para pagar a las empresas viales"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": 1
+   },
+   "cap": "El pago de deudas a las constructoras aumenta el ingreso de empresas y trabajadores; el gasto se multiplica en la economía y la DA se desplaza a la derecha (DA₁ a DA₂).",
+   "pasos": [
+    "El Estado acumula deudas con las empresas viales",
+    "Las constructoras atrasan pagos a proveedores y frenan obras",
+    "El Gobierno paga US$ 300 M, la mitad con un préstamo",
+    "Empresas y trabajadores reciben ingresos y gastan más",
+    "La DA sube por el multiplicador, pero aumenta la deuda pública"
+   ],
+   "conceptos": [
+    [
+     "Política fiscal expansiva",
+     "Más gasto público o menos impuestos para impulsar la demanda agregada."
+    ],
+    [
+     "Efecto multiplicador",
+     "Un gasto inicial genera ingresos que se vuelven a gastar y aumentan el PIB en más que el gasto inicial."
+    ],
+    [
+     "Deuda flotante",
+     "Pagos atrasados del Estado a sus proveedores."
+    ],
+    [
+     "Intereses por mora",
+     "Recargo que se paga por cancelar una deuda después de su vencimiento."
+    ]
+   ],
+   "diagramas": [
+    "politica-fiscal",
+    "da-oa-da"
+   ],
+   "rel": [
+    "pgn-suspendido",
+    "deficit-octubre",
+    "consumo-cae"
+   ],
+   "pregunta": {
+    "q": "El Gobierno paga US$ 300 millones atrasados a las constructoras. ¿Qué efecto esperas sobre la demanda agregada?",
+    "opts": [
+     "Sube, porque empresas y trabajadores reciben ingresos que vuelven a gastar",
+     "Baja, porque el Estado gasta menos",
+     "No cambia, porque es solo una deuda vieja",
+     "Baja, porque sube la tasa del BCP"
+    ],
+    "ok": 0,
+    "fb": "El pago llega a constructoras, proveedores y trabajadores; ese ingreso se gasta y por el multiplicador la DA se desplaza a la derecha."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Empresas viales y sus proveedores",
+      "Cobran deudas atrasadas y pueden pagar a sus proveedores."
+     ],
+     [
+      "Trabajadores de la construcción",
+      "Las obras continúan y se protegen empleos en un sector con unas 300.000 personas."
+     ]
+    ],
+    "pierden": [
+     [
+      "Contribuyentes futuros",
+      "La mitad del pago sale de un préstamo que habrá que devolver con intereses."
+     ],
+     [
+      "Otros acreedores del Estado",
+      "El Gobierno prioriza a las vialeras frente a otros proveedores con pagos pendientes."
+     ]
+    ],
+    "corto": "Más liquidez en noviembre y diciembre para un sector grande, justo cuando el consumo cae por la crisis de Ueno: ayuda a sostener la demanda agregada.",
+    "largo": "Si el Estado no evita volver a acumular deudas con contratistas, los atrasos y los intereses por mora seguirán encareciendo las obras.",
+    "supuestos": [
+     "Que el Congreso apruebe el préstamo de US$ 150 M.",
+     "Que las empresas usen el dinero para pagar a proveedores y trabajadores, y no solo para cancelar deudas bancarias."
+    ],
+    "conclusion": "Pagar lo adeudado es correcto y llega en buen momento para la economía, pero financiarlo con deuda en un año de déficit alto muestra que el problema de fondo es planificar mejor el gasto en obras."
+   }
+  },
+  {
+   "id": "itaipu-ueno-obras",
+   "fecha": "2026-11-26",
+   "medio": "Última Hora",
+   "url": "https://www.ultimahora.com/itaipu-obras-paralizadas-por-retencion-de-fondos-en-ueno-y-aun-no-hay-un-plan-de-accion-definido",
+   "titulo": "Itaipú tiene unos US$ 183 millones retenidos en Ueno y paraliza tres obras",
+   "unidad": "macro",
+   "tema": "3.2",
+   "kc": "interdependencia",
+   "sector": [
+    "energia"
+   ],
+   "resumen": "Según Última Hora, el director paraguayo de Itaipú, Hugo Zárate Chávez, dijo que al cierre de Ueno la binacional tenía unos US$ 163 millones y G. 115.000 millones en el banco: en total, unos US$ 183 millones, el 18 % de las colocaciones de la entidad. El Parque Tecnológico Itaipú tenía además unos US$ 40 millones para proyectos del Gobierno. Por eso quedaron paralizadas tres obras: un tramo de ruta con el MOPC, un edificio en el Instituto Nacional del Cáncer y un proyecto de energía para inteligencia artificial con el MIC.",
+   "contexto": "Itaipú financia obras públicas con sus «gastos sociales», así que sus fondos funcionan como inversión pública: si se congelan, ese gasto se frena y la demanda agregada recibe menos impulso. Zárate dijo que aún no hay un plan de contingencia definido: se estudia usar fondos de Itaipú en otros bancos y que la Fundación PTI los devuelva si se recuperan los de Ueno. Itaipú prevé presentar una denuncia penal contra el banco y sus directivos. Según el mismo diario, una resolución de enero de 2025, firmada por Zárate cuando era director técnico, había incorporado a Ueno a la lista de bancos donde Itaipú tiene cuentas. Con lo retenido de la ANDE, el golpe al sector energético podría superar US$ 300 millones, según el experto Victorio Oxilia.",
+   "datos": [
+    [
+     "US$ 183 M",
+     "Fondos de Itaipú retenidos en Ueno (US$ 163 M + G. 115.000 M)"
+    ],
+    [
+     "18 %",
+     "Parte de las colocaciones de Ueno que eran de Itaipú"
+    ],
+    [
+     "US$ 40 M",
+     "Fondos del Parque Tecnológico Itaipú en el banco"
+    ],
+    [
+     "3",
+     "Obras paralizadas: ruta, Instituto del Cáncer y energía para IA"
+    ]
+   ],
+   "clave": [
+    "US$ 183 M",
+    "de Itaipú retenidos en Ueno"
+   ],
+   "fig": {
+    "k": "macro",
+    "mueve": "D",
+    "dir": -1
+   },
+   "cap": "Con los fondos congelados, Itaipú frena obras que financiaba: cae la inversión pública y la DA se desplaza a la izquierda (DA₁ a DA₂).",
+   "pasos": [
+    "Itaipú y el PTI depositan fondos para obras en Ueno",
+    "El BCP interviene el banco y los fondos quedan retenidos",
+    "Se paralizan tres obras financiadas por la binacional",
+    "Contratistas y trabajadores dejan de recibir ingresos",
+    "Cae la inversión pública y se debilita la demanda agregada"
+   ],
+   "conceptos": [
+    [
+     "Inversión pública",
+     "Gasto del Estado en bienes de capital, como rutas y hospitales; es parte de la DA."
+    ],
+    [
+     "Riesgo de concentración",
+     "Poner una parte grande del dinero en una sola entidad."
+    ],
+    [
+     "Gastos sociales de Itaipú",
+     "Fondos de la binacional destinados a obras y programas fuera de la represa."
+    ]
+   ],
+   "diagramas": [
+    "da-oa-da",
+    "politica-fiscal"
+   ],
+   "rel": [
+    "ande-ueno",
+    "ueno-intervencion",
+    "itaipu-tarifa-2027"
+   ],
+   "pregunta": {
+    "q": "Itaipú congeló obras porque sus fondos quedaron en Ueno. ¿Qué componente de la DA se ve afectado directamente?",
+    "opts": [
+     "El gasto del gobierno (inversión pública)",
+     "Las exportaciones netas",
+     "El consumo de los hogares",
+     "Ninguno: es solo un problema de un banco"
+    ],
+    "ok": 0,
+    "fb": "Las obras financiadas por Itaipú son inversión pública; al frenarse, cae el gasto del gobierno y la DA se desplaza a la izquierda."
+   },
+   "evaluacion": {
+    "ganan": [
+     [
+      "Otros bancos",
+      "Si Itaipú usa fondos depositados en ellos, mantienen o ganan negocio con la binacional."
+     ]
+    ],
+    "pierden": [
+     [
+      "Pacientes del Instituto del Cáncer y usuarios de la ruta",
+      "Las obras que los beneficiarían se retrasan."
+     ],
+     [
+      "Contratistas de las obras",
+      "Dejan de cobrar mientras las obras están paralizadas."
+     ],
+     [
+      "El Estado y la sociedad",
+      "Si los fondos no se recuperan, se pierde dinero público que debía ir a obras."
+     ]
+    ],
+    "corto": "Obras paralizadas y sin plan de contingencia definido; menos inversión pública en plena caída del consumo.",
+    "largo": "Si los fondos se recuperan en la liquidación, el daño será sobre todo de tiempo; si no, Itaipú tendrá menos recursos para obras justo cuando se negocia su tarifa.",
+    "supuestos": [
+     "Que Itaipú sea tratado como un gran depositante sin cobertura total.",
+     "El artículo no precisa cuánto se recuperará ni cuándo."
+    ],
+    "conclusion": "El caso muestra un riesgo de concentración: poner el 18 % de los depósitos de un banco en un solo organismo público expone obras sociales a la caída de ese banco; hace falta una regla clara de dónde depositan las entidades públicas."
+   }
   }
  ],
  "historial": {
@@ -9650,12 +9706,12 @@
    ]
   },
   "2026-11-23": {
-   "titulo": "Semana del Presupuesto: el Senado decide con Ueno de fondo",
-   "texto": "El Senado empezó el lunes 23 a estudiar el Presupuesto 2027 con el ministro Lovera: los senadores objetan los recortes generales y lo votarían el martes 24, mientras el Gobierno anunció ajustes en Hambre Cero para ahorrar unos US$ 130 millones por año. Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión, y los datos de Bancard muestran que los pagos electrónicos cayeron 3,3 % frente a octubre tras el cierre del banco. Con el dólar de vuelta en G. 6.400, el MAG ve un escenario más tranquilo para el campo, y Rediex prevé exportaciones récord de más de US$ 13.000 millones. En Itaipú asumió un nuevo Consejo y el canciller de Brasil llega a Asunción a negociar la tarifa, que vence el 31 de diciembre. El martes 24, ABC Color informó que una misión de la Unión Europea audita hasta el 3 de diciembre la sanidad animal para la carne, y los comerciantes de Ciudad del Este estimaron que el Black Friday movió unos US$ 350 millones, menos de lo esperado por la caída del real. El martes 24, la Comisión de Hacienda del Senado dejó el Presupuesto en unos US$ 25.500 millones, con US$ 64 millones menos para Hambre Cero, y el pleno lo vota el jueves 26. Alliana propuso adelantar 5 salarios mínimos a unos 5.000 trabajadores del Grupo Vázquez, los bonistas del grupo reclaman US$ 365 millones y el riesgo país llegó a 155 puntos, su mayor nivel en más de 15 meses.",
+   "titulo": "Semana del Presupuesto: el Senado lo aprueba con Ueno de fondo",
+   "texto": "El Senado empezó el lunes 23 a estudiar el Presupuesto 2027 con el ministro Lovera: los senadores objetan los recortes generales y lo votarían el martes 24, mientras el Gobierno anunció ajustes en Hambre Cero para ahorrar unos US$ 130 millones por año. Última Hora reveló que el BCP aprobó en 2024 un plan que dejaba a Ueno repartir en 20 años las pérdidas de Visión, y los datos de Bancard muestran que los pagos electrónicos cayeron 3,3 % frente a octubre tras el cierre del banco. Con el dólar de vuelta en G. 6.400, el MAG ve un escenario más tranquilo para el campo, y Rediex prevé exportaciones récord de más de US$ 13.000 millones. En Itaipú asumió un nuevo Consejo y el canciller de Brasil llega a Asunción a negociar la tarifa, que vence el 31 de diciembre. El martes 24, ABC Color informó que una misión de la Unión Europea audita hasta el 3 de diciembre la sanidad animal para la carne, y los comerciantes de Ciudad del Este estimaron que el Black Friday movió unos US$ 350 millones, menos de lo esperado por la caída del real. El martes 24, la Comisión de Hacienda del Senado dejó el Presupuesto en unos US$ 25.500 millones, con US$ 64 millones menos para Hambre Cero, y el pleno lo vota el jueves 26. Alliana propuso adelantar 5 salarios mínimos a unos 5.000 trabajadores del Grupo Vázquez, los bonistas del grupo reclaman US$ 365 millones y el riesgo país llegó a 155 puntos, su mayor nivel en más de 15 meses. El jueves 26 el Senado aprobó el Presupuesto 2027 en unos G. 165,3 billones, con déficit de 3,9 % del PIB y un recorte de unos US$ 130 millones a Hambre Cero, y lo devolvió a Diputados. El Gobierno anunció pagos de US$ 300 millones a las empresas viales antes de fin de año, el BCP presentó el traspaso a otros bancos de depósitos de Ueno de hasta G. 5.000 millones por cliente, e Itaipú informó unos US$ 183 millones retenidos en el banco y tres obras paralizadas.",
    "claves": [
     "pgn-suspendido",
-    "ueno-plan-fusion",
-    "indemnizacion-vazquez",
+    "ueno-devolucion",
+    "vialeras-300m",
     "itaipu-tarifa-2027",
     "bonos-embi"
    ]
@@ -9851,6 +9907,10 @@
     [
      "2026-11-23",
      "Según Última Hora, el BCP aprobó en 2024 un plan que permitía a Ueno diferir por 20 años G. 2,68 billones de cartera deteriorada de Visión."
+    ],
+    [
+     "2026-11-26",
+     "El BCP anuncia el traspaso a otros bancos de depósitos de Ueno de hasta G. 5.000 millones por cliente, desde la semana siguiente."
     ]
    ],
    "enlaces": [
@@ -9946,10 +10006,6 @@
     ]
    ],
    "agenda": [
-    [
-     "2026-11-26",
-     "El pleno del Senado vota el Presupuesto 2027 (debe hacerlo antes del 30 de noviembre)."
-    ],
     [
      "2026-12-20",
      "Plazo del Congreso para enviar el Presupuesto 2027 al Ejecutivo."
@@ -10051,6 +10107,14 @@
     [
      "2026-11-24",
      "La Comisión de Hacienda del Senado deja el Presupuesto 2027 en unos US$ 25.500 millones, repone gastos salariales y recorta US$ 64 millones de Hambre Cero."
+    ],
+    [
+     "2026-11-25",
+     "El Gobierno anuncia pagos de US$ 300 millones a las empresas viales antes de fin de año, la mitad con un préstamo."
+    ],
+    [
+     "2026-11-26",
+     "El Senado aprueba el Presupuesto 2027 en unos G. 165,3 billones, con déficit de 3,9 % del PIB, y lo devuelve a Diputados."
     ]
    ],
    "enlaces": [
@@ -11486,7 +11550,8 @@
     "pagos-bancard",
     "itau-proyeccion",
     "indemnizacion-vazquez",
-    "bonistas-ueno"
+    "bonistas-ueno",
+    "itaipu-ueno-obras"
    ],
    "hitos": [
     [
@@ -11745,13 +11810,23 @@
      "2026-11-24",
      "Bonistas de Ueno y sus empresas vinculadas reclaman US$ 365 millones en bonos.",
      "bonistas-ueno"
+    ],
+    [
+     "2026-11-26",
+     "Itaipú informa unos US$ 183 millones retenidos en Ueno y tres obras paralizadas.",
+     "itaipu-ueno-obras"
+    ],
+    [
+     "2026-11-26",
+     "El BCP anuncia el traspaso a otros bancos de depósitos de hasta G. 5.000 millones por cliente.",
+     "ueno-devolucion"
     ]
    ]
   },
   {
    "id": "presupuesto-2027",
    "titulo": "El Presupuesto 2027",
-   "estado": "En el Senado",
+   "estado": "En Diputados",
    "dek": "Un presupuesto con un déficit de hasta 3,9 % del PIB, presentado por un gobierno y revisado por otro en medio de una crisis.",
    "aprender": [
     "Qué es el déficit fiscal y cómo se financia con deuda.",
@@ -11770,7 +11845,8 @@
     "hambre-cero-recorte",
     "deficit-octubre",
     "caja-fiscal-octubre",
-    "gremios-pgn-recorte"
+    "gremios-pgn-recorte",
+    "vialeras-300m"
    ],
    "hitos": [
     [
@@ -11884,8 +11960,13 @@
      "pgn-suspendido"
     ],
     [
+     "2026-11-25",
+     "El Gobierno anuncia pagos de US$ 300 millones a las vialeras antes de fin de año.",
+     "vialeras-300m"
+    ],
+    [
      "2026-11-26",
-     "El pleno del Senado vota el Presupuesto 2027 (próximo).",
+     "El Senado aprueba el Presupuesto 2027 (G. 165,3 billones, déficit de 3,9 %) y lo devuelve a Diputados.",
      "pgn-suspendido"
     ]
    ]
@@ -13348,7 +13429,8 @@
    "energia-cedida",
    "ande-tarifa",
    "consumo-electrico",
-   "uranio-ia"
+   "uranio-ia",
+   "itaipu-ueno-obras"
   ]
  },
  "miradas": [
@@ -15128,7 +15210,7 @@
    "¿Es justo que el impuesto que más recauda sea el IVA? ¿Qué pasaría si se cobrara más impuesto a la renta?",
    "¿Por qué es difícil bajar los gastos rígidos?"
   ],
-  "nota": "El 12 de noviembre Diputados dio media sanción al Presupuesto 2027 (G. 164 billones, con un recorte de US$ 276 millones y déficit de 3,9 % del PIB); ahora lo estudia el Senado. Los «100 guaraníes» todavía son el total del proyecto original (Gobierno central más entidades descentralizadas); el «resto del Gobierno central» es un cálculo propio: G. 87,9 billones menos Salud, Educación y Obras Públicas.",
+  "nota": "El 12 de noviembre Diputados dio media sanción al Presupuesto 2027 y el 26 de noviembre el Senado lo aprobó con cambios en unos G. 165,3 billones (US$ 25.596 millones, déficit de 3,9 % del PIB), según ABC Color; ahora vuelve a Diputados. Los «100 guaraníes» todavía son el total del proyecto original (Gobierno central más entidades descentralizadas); el «resto del Gobierno central» es un cálculo propio: G. 87,9 billones menos Salud, Educación y Obras Públicas.",
   "recomendado": {
    "intro": "¿Gasta Paraguay lo que se recomienda? Cada tarjeta compara el dato del país con la meta que fija una ley o un organismo internacional.",
    "areas": [
@@ -15327,8 +15409,8 @@
   }
  },
  "cambios": {
-  "fecha": "2026-11-25",
-  "hora": "07:41",
+  "fecha": "2026-11-26",
+  "hora": "15:16",
   "fuente": "Maxicambios (Asunción)",
   "url": "https://www.maxicambios.com.py/",
   "nota": "Precios de referencia de Maxicambios en Asunción, en guaraníes por cada unidad de moneda extranjera. Pueden variar entre casas de cambio, sucursales y a lo largo del día.",
@@ -15337,25 +15419,25 @@
     "USD",
     "Dólar estadounidense",
     6000,
-    6400
+    6350
    ],
    [
     "ARS",
     "Peso argentino",
     3,
-    3.8
+    3.7
    ],
    [
     "BRL",
     "Real brasileño",
-    1000,
+    1020,
     1120
    ],
    [
     "EUR",
     "Euro",
-    6000,
-    6800
+    6200,
+    6950
    ]
   ],
   "historial": {
@@ -15439,6 +15521,11 @@
      "2026-11-25",
      6000,
      6400
+    ],
+    [
+     "2026-11-26",
+     6000,
+     6350
     ]
    ],
    "ARS": [
@@ -15521,6 +15608,11 @@
      "2026-11-25",
      3,
      3.8
+    ],
+    [
+     "2026-11-26",
+     3,
+     3.7
     ]
    ],
    "BRL": [
@@ -15602,6 +15694,11 @@
     [
      "2026-11-25",
      1000,
+     1120
+    ],
+    [
+     "2026-11-26",
+     1020,
      1120
     ]
    ],
@@ -15685,6 +15782,11 @@
      "2026-11-25",
      6000,
      6800
+    ],
+    [
+     "2026-11-26",
+     6200,
+     6950
     ]
    ]
   }
@@ -15875,6 +15977,11 @@
     "Superintendencia de Bancos (2024)",
     "Consideró viable el plan de fusión con Visión y sus facilidades contables.",
     "ueno-plan-fusion"
+   ],
+   [
+    "Itaipú (Hugo Zárate)",
+    "Informó unos US$ 183 millones retenidos y tres obras paralizadas.",
+    "itaipu-ueno-obras"
    ]
   ],
   "preguntas": [
@@ -17432,7 +17539,7 @@
     }
    }
   ],
-  "enlaces": "2026-11-25",
+  "enlaces": "2026-11-27",
   "reservas": "https://script.google.com/macros/s/AKfycbzXOrEyQdhJYrYTNBw5-G-DvkYBoUF6obGpfHGQMsS06-GmLXMW5z4EjEbcPj_3LqSouw/exec"
  }
 }

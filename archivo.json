@@ -8953,5 +8953,262 @@
    ],
    "conclusion": "El superávit es una buena noticia para la balanza de pagos y el guaraní, pero muestra a la vez la dependencia de pocos productos primarios."
   }
+ },
+ {
+  "id": "mercosur-ue",
+  "fecha": "2026-11-14",
+  "medio": "Infobae",
+  "url": "https://www.infobae.com/politica/2026/03/23/el-acuerdo-entre-la-union-europea-y-el-mercosur-entrara-en-vigor-provisionalmente-el-1-de-mayo/",
+  "mas": [
+   [
+    "ABC Color",
+    "https://www.abc.com.py/internacionales/2026/03/23/ue-oficializa-fecha-de-entrada-en-vigor-provisional-del-acuerdo-con-mercosur/",
+    "2026-03-23"
+   ],
+   [
+    "Última Hora",
+    "https://www.ultimahora.com/alemania-aprueba-ley-para-ratificar-el-acuerdo-ue-mercosur",
+    "2026-11-14"
+   ]
+  ],
+  "titulo": "Alemania ratifica el acuerdo Mercosur–Unión Europea; Francia sigue en contra",
+  "unidad": "global",
+  "tema": "4.4",
+  "kc": "interdependencia",
+  "resumen": "El acuerdo comercial entre el Mercosur y la Unión Europea, firmado en Asunción el 17 de enero de 2026, se aplica de forma provisional desde el 1 de mayo. El 13 de noviembre, según Última Hora (EFE), la Cámara Baja de Alemania aprobó la ley que lo ratifica, con el voto de los partidos de gobierno y de Los Verdes. La vigencia plena depende todavía del Parlamento Europeo, que espera un dictamen del Tribunal de Justicia de la UE.",
+  "contexto": "La Unión Europea eliminará los aranceles al 93 % de lo que importa del Mercosur en un plazo de hasta 10 años; el Mercosur tendrá hasta 15 años para hacerlo con el 90 % de lo que importa de Europa. El plazo más largo protege por más tiempo a las industrias del Mercosur. Para Paraguay, la apuesta es vender más carne, soja y productos elaborados a un mercado de alto poder de compra. La Comisión Europea calcula que el acuerdo sumará 77.600 millones de euros al PIB de la UE en 2040 y que las exportaciones europeas crecerán 39 %. La parte de asociación política necesita la aprobación de cada parlamento europeo, y la mayor oposición viene de Francia.",
+  "datos": [
+   [
+    "17 ene",
+    "Firma en Asunción"
+   ],
+   [
+    "1 may",
+    "Aplicación provisional"
+   ],
+   [
+    "93 %",
+    "Importaciones del Mercosur que la UE liberará (10 años)"
+   ],
+   [
+    "90 %",
+    "Importaciones de la UE que el Mercosur liberará (15 años)"
+   ],
+   [
+    "€ 77.600 M",
+    "PIB extra para la UE en 2040, según la Comisión Europea"
+   ],
+   [
+    "700 M",
+    "Habitantes del mercado conjunto"
+   ]
+  ],
+  "clave": [
+   "93 %",
+   "del comercio sin aranceles"
+  ],
+  "fig": {
+   "k": "arancel"
+  },
+  "cap": "Quitar un arancel lleva el precio interno de Pₘ + t a Pₘ: los consumidores ganan, los productores que compiten con importaciones pierden y el Estado deja de recaudar el rectángulo.",
+  "pasos": [
+   "Se reducen los aranceles entre los dos bloques",
+   "Bajan los precios de los bienes importados",
+   "Los consumidores compran más y los exportadores venden más",
+   "Los productores que compiten con importaciones enfrentan más competencia",
+   "Cada país se especializa en su ventaja comparativa"
+  ],
+  "conceptos": [
+   [
+    "Integración económica",
+    "Acuerdos entre países para reducir barreras al comercio."
+   ],
+   [
+    "Arancel",
+    "Impuesto a los bienes importados."
+   ],
+   [
+    "Ganancias del comercio",
+    "Más consumo y eficiencia al especializarse."
+   ],
+   [
+    "Interdependencia",
+    "Las economías dependen unas de otras por el comercio."
+   ]
+  ],
+  "diagramas": [
+   "arancel",
+   "exportaciones"
+  ],
+  "rel": [
+   "soja-record",
+   "pollo-exportaciones"
+  ],
+  "pregunta": {
+   "q": "¿Por qué el Mercosur tiene 15 años para bajar aranceles y la UE solo 10?",
+   "opts": [
+    "Para dar tiempo a las industrias del Mercosur a adaptarse a la competencia",
+    "Porque la UE es más pequeña",
+    "Para que el Mercosur recaude menos",
+    "Porque la UE no tiene aranceles"
+   ],
+   "ok": 0,
+   "fb": "Un plazo más largo protege por más tiempo a sectores menos competitivos: es una forma de proteccionismo transitorio."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Exportadores de carne y soja",
+     "Acceden a un mercado grande con menos aranceles."
+    ],
+    [
+     "Consumidores",
+     "Productos europeos más baratos."
+    ]
+   ],
+   "pierden": [
+    [
+     "Industrias que compiten con Europa",
+     "Enfrentan más competencia."
+    ],
+    [
+     "El Estado",
+     "Recauda menos por aranceles."
+    ]
+   ],
+   "corto": "Pocos cambios: la baja de aranceles es gradual.",
+   "largo": "Más comercio, especialización e inversión, con riesgo para los sectores menos competitivos.",
+   "supuestos": [
+    "Que el Parlamento Europeo no frene el acuerdo."
+   ],
+   "conclusion": "Los beneficios dependen de que Paraguay aproveche el acceso y de que los sectores afectados se adapten en los 15 años de transición."
+  },
+  "sector": [
+   "agro",
+   "comercio"
+  ]
+ },
+ {
+  "id": "pollo-exportaciones",
+  "fecha": "2026-11-15",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/ingresos-por-envios-avicolas-crecieron-76-otra-planta-se-suma-para-exportar-a-angola",
+  "titulo": "El pollo exporta 76 % más y suma otra planta para vender a Angola",
+  "unidad": "global",
+  "tema": "4.1",
+  "kc": "interdependencia",
+  "resumen": "Según el informe de octubre del Senacsa, Paraguay exportó 12.914 toneladas de productos avícolas en lo que va del año, por US$ 15,7 millones: 76 % más en valor y 54 % más en volumen que en 2025. La firma JBS-Seara Paraguay hizo su primer envío de pollo congelado a Angola, unas 25 toneladas.",
+  "contexto": "El presidente del Senacsa, José Carlos Martin, explica el crecimiento por la mayor producción y faena de pollos, que subió casi 13 % hasta octubre. Paraguay produce cerca de 220.000 toneladas de carne avícola por año, pero exporta solo el 5 %: el 95 % se vende en el mercado local. Martin estima llegar a 50.000 toneladas exportadas en 2028. Los compradores son variados: Irak (32 %), Vietnam (13 %), Albania (11 %), Kosovo (7 %) y Angola (5 %). Que los ingresos crezcan más rápido que el volumen indica que también mejoró el valor por tonelada vendida.",
+  "datos": [
+   [
+    "US$ 15,7 M",
+    "Exportaciones avícolas en lo que va de 2026 (US$ 8,9 M un año antes)"
+   ],
+   [
+    "12.914 t",
+    "Volumen exportado (+54 % frente a 8.334 t)"
+   ],
+   [
+    "≈13 %",
+    "Crecimiento de la producción y faena de pollos hasta octubre"
+   ],
+   [
+    "5 %",
+    "Parte de la producción que se exporta (95 % va al mercado local)"
+   ],
+   [
+    "32 %",
+    "Participación de Irak, el principal comprador"
+   ],
+   [
+    "50.000 t",
+    "Exportación que el Senacsa estima para 2028"
+   ]
+  ],
+  "clave": [
+   "+76 %",
+   "ingresos por exportaciones de pollo"
+  ],
+  "fig": {
+   "k": "exportaciones"
+  },
+  "cap": "Cuando el precio mundial Pₘ supera al precio interno, los productores ofrecen Q₂, el mercado local compra Q₁ y la diferencia se exporta. Más producción desplaza la oferta y agranda lo que se vende afuera.",
+  "pasos": [
+   "Crece la producción y la faena de pollos (≈13 %)",
+   "La oferta interna aumenta más que el consumo local",
+   "Se abren y amplían mercados (Angola, Irak, Vietnam)",
+   "El excedente se vende al exterior a precio mundial",
+   "Entran más divisas y crecen las exportaciones netas"
+  ],
+  "conceptos": [
+   [
+    "Ventaja comparativa",
+    "Producir un bien con menor costo de oportunidad que otros países."
+   ],
+   [
+    "Diversificación de exportaciones",
+    "Vender más productos y a más países para depender menos de uno solo."
+   ],
+   [
+    "Barreras sanitarias",
+    "Requisitos de salud animal que un país exige para importar alimentos."
+   ],
+   [
+    "Exportaciones netas",
+    "Exportaciones menos importaciones; son parte de la demanda agregada."
+   ]
+  ],
+  "diagramas": [
+   "exportaciones",
+   "oferta-demanda"
+  ],
+  "rel": [
+   "soja-record",
+   "mercosur-ue"
+  ],
+  "pregunta": {
+   "q": "Los ingresos por pollo crecieron 76 % y el volumen 54 %. ¿Qué indica eso?",
+   "opts": [
+    "Que el ingreso por cada tonelada exportada también subió",
+    "Que bajó el precio del pollo exportado",
+    "Que se exportó menos pollo",
+    "Que la demanda local cayó"
+   ],
+   "ok": 0,
+   "fb": "Si el valor crece más rápido que la cantidad, el ingreso promedio por tonelada aumentó (por mejor precio o por productos de más valor)."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Productores y frigoríficos avícolas",
+     "Venden más y en más mercados, a un precio que les deja más ingresos."
+    ],
+    [
+     "La economía en general",
+     "Entran más divisas y se diversifican las exportaciones más allá de la soja y la carne bovina."
+    ]
+   ],
+   "pierden": [
+    [
+     "Consumidores locales (posible)",
+     "Si la demanda externa crece más rápido que la producción, el precio interno del pollo podría subir."
+    ],
+    [
+     "Competidores de otros países",
+     "Paraguay les disputa mercados como Angola o Irak."
+    ]
+   ],
+   "corto": "Más ingresos para el sector y más envíos con la nueva planta habilitada para Angola; la auditoría de la UE que empieza el 16 de noviembre puede abrir otros mercados.",
+   "largo": "Si la producción sigue creciendo, el pollo podría convertirse en un rubro exportador relevante y reducir la dependencia de pocos productos, aunque sigue expuesto a barreras sanitarias y precios mundiales.",
+   "supuestos": [
+    "Que la producción siga creciendo cerca del 13 % anual",
+    "Que se mantengan las habilitaciones sanitarias",
+    "Que los precios internacionales no caigan"
+   ],
+   "conclusion": "Es una señal positiva de diversificación, pero el pollo todavía es un rubro pequeño (US$ 15,7 millones frente a miles de millones de la soja), por lo que su impacto macro es limitado por ahora."
+  },
+  "sector": [
+   "agro"
+  ]
  }
 ]
