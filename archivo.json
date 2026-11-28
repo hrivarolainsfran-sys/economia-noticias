@@ -8529,144 +8529,6 @@
   }
  },
  {
-  "id": "informalidad-bid",
-  "fecha": "2026-11-10",
-  "medio": "ABC Color",
-  "url": "https://www.abc.com.py/negocios/2026/11/10/indice-bid-hay-empleo-e-ingresos-suficientes-pero-la-informalidad-sobra/",
-  "titulo": "Mucho empleo, poca formalidad: Paraguay en el índice laboral del BID",
-  "unidad": "global",
-  "tema": "4.8",
-  "kc": "equidad",
-  "inst": [
-   "ine"
-  ],
-  "resumen": "En el Índice de Mejores Trabajos 2026 del BID, citado por ABC Color, Paraguay queda 7.º de 17 países con 59,8 puntos, sobre el promedio regional (58). Es 3.º en cantidad de empleo (80 puntos), pero 10.º en calidad (39,4) y 12.º de 15 en formalidad (20,1 puntos).",
-  "contexto": "El índice mide dos cosas: cuántas personas trabajan y si esos trabajos son formales y pagan lo suficiente para salir de la pobreza. Paraguay crea empleo, pero según el INE el 61,6 % de los ocupados no agropecuarios era informal en el segundo trimestre de 2026, y en microempresas la informalidad llega a 73 %. Los trabajadores informales no aportan a la jubilación ni tienen seguro social, y el BID advierte que la informalidad baja los salarios, aumenta la desigualdad y frena la productividad. Por eso es una barrera al desarrollo, no solo un problema del mercado laboral.",
-  "datos": [
-   [
-    "7.º de 17",
-    "Puesto de Paraguay en el índice (59,8 puntos)"
-   ],
-   [
-    "80",
-    "Puntaje en cantidad de empleo (3.º de la región)"
-   ],
-   [
-    "39,4",
-    "Puntaje en calidad (10.º; región: 40,6)"
-   ],
-   [
-    "20,1",
-    "Puntaje en formalidad (12.º de 15)"
-   ],
-   [
-    "61,6 %",
-    "Informalidad de ocupados no agropecuarios (INE, 2.º trim. 2026)"
-   ]
-  ],
-  "clave": [
-   "20,1",
-   "puntos en formalidad (12.º de 15)"
-  ],
-  "fig": {
-   "k": "barras",
-   "u": "puntos (0 a 100)",
-   "rows": [
-    [
-     "Cantidad",
-     80
-    ],
-    [
-     "Salario suficiente",
-     58.7
-    ],
-    [
-     "Calidad",
-     39.4
-    ],
-    [
-     "Formalidad",
-     20.1,
-     1
-    ]
-   ]
-  },
-  "cap": "Puntajes de Paraguay en el Índice de Mejores Trabajos 2026 del BID, según ABC Color. La formalidad es el punto más débil.",
-  "pasos": [
-   "Muchas personas trabajan, pero en empresas pequeñas y sin registro",
-   "No aportan a la jubilación ni al seguro social",
-   "Las empresas informales no acceden a crédito y crecen poco",
-   "La productividad y los salarios quedan bajos",
-   "El desarrollo se frena y la desigualdad persiste"
-  ],
-  "conceptos": [
-   [
-    "Empleo informal",
-    "Trabajo sin registro, sin aportes a la seguridad social ni protección laboral."
-   ],
-   [
-    "Calidad del empleo",
-    "Si el trabajo es formal y paga lo suficiente para salir de la pobreza."
-   ],
-   [
-    "Barreras al desarrollo",
-    "Factores que impiden que el crecimiento mejore el bienestar de toda la población."
-   ],
-   [
-    "Productividad",
-    "Producción por trabajador; sube con capital, capacitación y tecnología."
-   ]
-  ],
-  "diagramas": [
-   "politicas-oferta"
-  ],
-  "rel": [],
-  "pregunta": {
-   "q": "¿Por qué la alta informalidad es una barrera al desarrollo económico?",
-   "opts": [
-    "Porque deja a los trabajadores sin protección social y frena la productividad",
-    "Porque aumenta el desempleo a cero",
-    "Porque sube la inflación",
-    "Porque aprecia el guaraní"
-   ],
-   "ok": 0,
-   "fb": "Los trabajadores informales no tienen jubilación ni seguro, y las empresas informales invierten y crecen poco: el crecimiento no se traduce en más bienestar."
-  },
-  "evaluacion": {
-   "ganan": [
-    [
-     "Trabajadores con empleo",
-     "Paraguay tiene alta participación y ocupación: 3.º en la región en cantidad de empleo."
-    ],
-    [
-     "Microempresas informales",
-     "Evitan costos de registro, impuestos y aportes en el corto plazo."
-    ]
-   ],
-   "pierden": [
-    [
-     "Trabajadores informales",
-     "No tienen jubilación, seguro médico ni protección ante despidos."
-    ],
-    [
-     "IPS y el Estado",
-     "Menos aportantes y menos recaudación para financiar servicios."
-    ],
-    [
-     "Mujeres",
-     "Su puntaje de formalidad (17,1) es menor que el de los hombres (23,2)."
-    ]
-   ],
-   "corto": "La informalidad no cambia rápido; el desafío es formalizar a quienes ya trabajan y ganan.",
-   "largo": "Si se reducen los costos de formalizarse y se mejora la capacitación, puede subir la productividad y la cobertura de jubilaciones.",
-   "supuestos": [
-    "Que los datos del BID sean comparables entre países",
-    "Que formalizarse no sea demasiado caro para las microempresas"
-   ],
-   "conclusion": "Paraguay resolvió bastante bien la cantidad de empleo, pero no la calidad; las políticas de oferta que bajan el costo de formalizarse podrían convertir ese empleo en desarrollo."
-  }
- },
- {
   "id": "imaep-setiembre",
   "fecha": "2026-11-11",
   "medio": "5Días",
@@ -9483,6 +9345,693 @@
     "El plazo de dos meses es una estimación, no un dato oficial"
    ],
    "conclusion": "Hay presión sobre algunas tasas, pero los datos oficiales todavía no muestran una suba general; la respuesta del BCP será decisiva para que el problema de liquidez no se vuelva un freno al crecimiento."
+  }
+ },
+ {
+  "id": "consumo-electrico",
+  "fecha": "2026-11-16",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/ande-reporta-que-el-consumo-electrico-crece-16-a-octubre",
+  "titulo": "El consumo de electricidad crece 16 % y acerca el límite de Itaipú",
+  "unidad": "micro",
+  "tema": "1.1",
+  "kc": "escasez",
+  "resumen": "Según la ANDE, citada por Última Hora, la demanda eléctrica de Paraguay sumó 27.407,1 GWh entre enero y octubre de 2026, 16 % más que un año antes; solo en octubre creció 7,2 %. Itaipú cubrió el 92,3 % de la demanda de octubre. El Instituto de Profesionales del Sector Eléctrico (IPPSE) advierte que la parte paraguaya de Itaipú quedaría totalmente usada hacia 2030.",
+  "contexto": "Durante décadas Paraguay tuvo electricidad abundante y barata, y cedía a Brasil y Argentina la energía que no usaba. Con una demanda que crece más de 500 MW por año, impulsada en parte por empresas de alto consumo como la criptominería, ese recurso empieza a ser escaso. Casi toda la electricidad sale de represas sobre el río Paraná, así que una sequía afectaría a la vez a Itaipú y Yacyretá. El IPPSE propone sumar energía firme (gas o pequeños reactores), importar de Brasil y planificar a 20 años, porque una represa tarda entre 10 y 14 años en construirse.",
+  "datos": [
+   [
+    "+16 %",
+    "Demanda eléctrica ene-oct 2026 frente a 2025"
+   ],
+   [
+    "27.407,1 GWh",
+    "Demanda acumulada a octubre (23.636,4 GWh en 2025)"
+   ],
+   [
+    "+7,2 %",
+    "Demanda de octubre frente a octubre 2025"
+   ],
+   [
+    "92,3 %",
+    "Parte de la demanda de octubre cubierta por Itaipú"
+   ],
+   [
+    "+500 MW",
+    "Aumento anual de la demanda, según el IPPSE"
+   ],
+   [
+    "2030",
+    "Año en que la cuota paraguaya de Itaipú quedaría absorbida, según el IPPSE"
+   ]
+  ],
+  "clave": [
+   "+16 %",
+   "demanda eléctrica a octubre"
+  ],
+  "fig": {
+   "k": "mercado",
+   "mueve": "D",
+   "dir": 1
+  },
+  "cap": "La demanda de electricidad se desplaza de D₁ a D₂ mientras la capacidad de generación es casi fija: el recurso se vuelve escaso y aumenta la presión sobre el precio.",
+  "pasos": [
+   "Crecen la economía y las empresas de alto consumo",
+   "La demanda de electricidad sube 16 % en el año",
+   "La oferta (represas) casi no cambia a corto plazo",
+   "La energía que antes sobraba se vuelve escasa",
+   "Hay que elegir: invertir en nueva generación, importar o racionar"
+  ],
+  "conceptos": [
+   [
+    "Escasez",
+    "Los recursos son limitados frente a necesidades crecientes."
+   ],
+   [
+    "Costo de oportunidad",
+    "Usar la energía en criptominería implica no usarla en otras actividades o no venderla a Brasil."
+   ],
+   [
+    "Oferta inelástica",
+    "A corto plazo, la generación eléctrica no puede aumentar rápido."
+   ],
+   [
+    "Sostenibilidad",
+    "Usar los recursos sin comprometer las necesidades futuras."
+   ]
+  ],
+  "diagramas": [
+   "oferta-demanda",
+   "politicas-oferta"
+  ],
+  "rel": [
+   "itaipu-tarifa-2027"
+  ],
+  "pregunta": {
+   "q": "Si la demanda de electricidad crece rápido y la capacidad de generación es fija a corto plazo, ¿qué concepto explica mejor la situación?",
+   "opts": [
+    "La escasez: un recurso limitado frente a necesidades crecientes",
+    "La abundancia: siempre sobrará energía",
+    "La inflación de demanda en toda la economía",
+    "El libre comercio"
+   ],
+   "ok": 0,
+   "fb": "Paraguay pasa de tener energía de sobra a un recurso cada vez más escaso, lo que obliga a elegir cómo usarlo y a invertir en nueva generación."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Industrias y empresas de alto consumo",
+     "Acceden hoy a energía limpia y relativamente barata."
+    ],
+    [
+     "Proveedores de nueva generación (solar, gas)",
+     "Aumenta la necesidad de invertir en otras fuentes."
+    ]
+   ],
+   "pierden": [
+    [
+     "El Estado y la ANDE",
+     "Deben invertir mucho en generación y transmisión."
+    ],
+    [
+     "Consumidores futuros",
+     "Si no se invierte a tiempo, pueden enfrentar cortes o tarifas más altas."
+    ]
+   ],
+   "corto": "La ANDE cubre la demanda con Itaipú y Yacyretá, pero cede menos energía a los socios.",
+   "largo": "Hacia 2030 la parte paraguaya de Itaipú podría quedar usada al 100 %; sin nueva generación habría riesgo de déficit desde 2031, según el IPPSE.",
+   "supuestos": [
+    "Que la demanda siga creciendo a ritmo parecido",
+    "Que no haya una sequía fuerte en el Paraná",
+    "Que no se sumen nuevas centrales antes de 2030"
+   ],
+   "conclusion": "El crecimiento de la demanda refleja una economía más activa, pero convierte la energía en un recurso escaso; planificar la inversión con tiempo es la clave para no frenar el desarrollo."
+  },
+  "sector": [
+   "energia"
+  ],
+  "opinion": false
+ },
+ {
+  "id": "eve-noviembre",
+  "fecha": "2026-11-17",
+  "medio": "ABC Color",
+  "url": "https://www.abc.com.py/negocios/2026/11/17/agentes-economicos-esperan-menor-inflacion-para-fin-de-ano-y-repunte-del-dolar/",
+  "mas": [
+   [
+    "Última Hora",
+    "https://www.ultimahora.com/el-mercado-corrigio-el-pronostico-sobre-el-dolar-de-g-5-850-a-g-6-200-para-noviembre",
+    "2026-11-17"
+   ],
+   [
+    "La Nación",
+    "https://www.lanacion.com.py/negocios_edicion_impresa/2026/11/19/agentes-mantienen-tasa-de-crecimiento-del-45/",
+    "2026-11-19"
+   ]
+  ],
+  "opinion": false,
+  "titulo": "El mercado espera menos inflación, un dólar más caro y la tasa quieta en 5,50 %",
+  "unidad": "macro",
+  "tema": "3.5",
+  "kc": "cambio",
+  "inst": [
+   "bcp"
+  ],
+  "resumen": "En la Encuesta de Expectativas de Variables Económicas (EVE) de noviembre del BCP, los agentes bajaron la inflación esperada para 2026 de 3 % a 2,9 %, por debajo de la meta de 3,5 %. Esperan un dólar de G. 6.200 en noviembre (antes, G. 5.850), de G. 6.255 en diciembre y de G. 6.500 a fines de 2027. Prevén un crecimiento de 4,5 % en 2026 y 4,0 % en 2027, y que la tasa del BCP siga en 5,50 %.",
+  "contexto": "Las expectativas importan porque guían precios, salarios y decisiones de inversión: si la gente cree que la inflación seguirá baja, la inflación tiende a quedarse baja. La crisis de Ueno cambió mucho la expectativa del dólar en un mes, pero casi nada la de inflación: el mercado cree que el traspaso de un dólar más caro a los precios será pequeño. El crecimiento esperado (4,5 %) queda por debajo del 5 % del BCP. Con inflación bajo la meta y una economía que se enfría, el mercado no espera que el BCP suba la tasa, aunque la presión sobre el guaraní podría pedirlo.",
+  "datos": [
+   [
+    "2,9 %",
+    "Inflación esperada para el cierre de 2026 (antes, 3 %)"
+   ],
+   [
+    "3,5 %",
+    "Meta de inflación del BCP"
+   ],
+   [
+    "G. 6.200",
+    "Dólar esperado para noviembre (antes, G. 5.850)"
+   ],
+   [
+    "G. 6.255",
+    "Dólar esperado para diciembre de 2026 (antes, G. 5.905)"
+   ],
+   [
+    "G. 6.500",
+    "Dólar esperado para fines de 2027"
+   ],
+   [
+    "4,5 %",
+    "Crecimiento esperado del PIB en 2026 (BCP: 5 %)"
+   ],
+   [
+    "5,50 %",
+    "Tasa del BCP esperada en noviembre, diciembre y 2027"
+   ]
+  ],
+  "clave": [
+   "G. 6.255",
+   "dólar esperado para diciembre"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "G. por dólar",
+   "rows": [
+    [
+     "Dic. 2026 (encuesta de octubre)",
+     5905,
+     0
+    ],
+    [
+     "Nov. 2026 (encuesta de noviembre)",
+     6200,
+     0
+    ],
+    [
+     "Dic. 2026 (encuesta de noviembre)",
+     6255,
+     1
+    ],
+    [
+     "Dic. 2027",
+     6500,
+     0
+    ]
+   ]
+  },
+  "cap": "En un mes, el dólar esperado para fin de año pasó de G. 5.905 a G. 6.255; para 2027 se espera G. 6.500 (EVE de noviembre, vía ABC Color).",
+  "pasos": [
+   "La crisis de Ueno provoca salida de capitales y más demanda de dólares",
+   "El mercado corrige al alza el dólar esperado",
+   "Un guaraní más débil encarece las importaciones",
+   "Pero la demanda interna se enfría y los alimentos bajan",
+   "La inflación esperada queda en 2,9 %, bajo la meta, y la tasa no cambiaría"
+  ],
+  "conceptos": [
+   [
+    "Expectativas de inflación",
+    "Lo que los agentes creen que subirán los precios; influyen en la inflación real."
+   ],
+   [
+    "Meta de inflación",
+    "Objetivo del BCP: 3,5 % con un rango de ± 2 puntos."
+   ],
+   [
+    "Traspaso cambiario",
+    "Cuánto de una suba del dólar se traslada a los precios internos."
+   ],
+   [
+    "Tasa de política monetaria",
+    "Tasa con la que el BCP influye en las demás tasas de interés."
+   ]
+  ],
+  "diagramas": [
+   "politica-monetaria",
+   "tipo-cambio"
+  ],
+  "rel": [
+   "inflacion-oct",
+   "dolar-6600",
+   "liquidez-tasas"
+  ],
+  "pregunta": {
+   "q": "Si el mercado espera inflación de 2,9 % y la meta es 3,5 %, ¿qué decisión del BCP es más coherente?",
+   "opts": [
+    "Mantener la tasa o no subirla, porque la inflación está bajo la meta",
+    "Subir mucho la tasa para frenar la inflación",
+    "Bajar la meta de inflación a 2,9 %",
+    "Fijar el precio del dólar"
+   ],
+   "ok": 0,
+   "fb": "Con inflación esperada bajo la meta y crecimiento más lento, no hace falta una política monetaria contractiva; por eso el mercado espera la tasa en 5,50 %."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Exportadores",
+     "Un dólar esperado más alto les da más guaraníes por cada venta."
+    ],
+    [
+     "Deudores en guaraníes",
+     "Si la tasa no sube, sus créditos no se encarecen."
+    ]
+   ],
+   "pierden": [
+    [
+     "Importadores y consumidores de bienes importados",
+     "Pagan más guaraníes por cada dólar."
+    ],
+    [
+     "Deudores en dólares",
+     "Necesitan más guaraníes para pagar sus cuotas."
+    ]
+   ],
+   "corto": "El BCP decidiría el 20 de noviembre mantener la tasa en 5,50 %; el dólar rondaría G. 6.200.",
+   "largo": "Si las expectativas de inflación siguen ancladas, el BCP gana margen para apoyar la economía sin perder credibilidad.",
+   "supuestos": [
+    "Que la crisis de Ueno no provoque otra ola de salida de capitales",
+    "Que los alimentos y el petróleo no suban con fuerza",
+    "Que la encuesta refleje bien lo que piensan los agentes"
+   ],
+   "conclusion": "El mercado ve la crisis de Ueno como un golpe al tipo de cambio y al crecimiento, no a la inflación. Eso da tranquilidad al BCP, pero un dólar mucho más alto podría poner a prueba esas expectativas."
+  }
+ },
+ {
+  "id": "mtess-ueno",
+  "fecha": "2026-11-17",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/caso-ueno-mtess-deja-sin-efecto-clausula-de-exclusividad-de-contratos-de-trabajadores",
+  "titulo": "7.000 trabajadores de empresas ligadas a Ueno podrán buscar otro empleo",
+  "unidad": "macro",
+  "tema": "3.3",
+  "kc": "bienestar",
+  "inst": [
+   "ips"
+  ],
+  "resumen": "El Ministerio de Trabajo dejó sin efecto, con el Dictamen 377/2026, las cláusulas de exclusividad de los trabajadores de 37 empresas ligadas a Ueno, entre ellas el Grupo Vázquez, itti y VMedia. Según la ministra Mónica Recalde, son unos 7.000 trabajadores que no tienen tareas ni cobran sus salarios; ninguno fue despedido y siguen en nómina. El 17 de noviembre, según Última Hora, el Ministerio anunció una Expo Empleo para el 18 de noviembre con 607 vacantes de 33 empresas, menos de una por cada diez personas afectadas; solo en ueno bank, itti y Kaitel hay 3.290 trabajadores, y muchos siguen sin cobrar sueldos y liquidaciones.",
+  "contexto": "Una cláusula de exclusividad impide trabajar para otra empresa. Con las empresas cerradas, esos trabajadores quedaban atrapados: sin salario y sin poder cambiar de empleo. El dictamen les permite buscar otro trabajo sin perder sus derechos, lo que acorta el desempleo friccional (el tiempo de búsqueda entre un empleo y otro). Siguen pendientes las indemnizaciones y los salarios atrasados; el Ministerio coordina con el IPS la atención médica y con la Defensa Pública la asistencia legal.",
+  "datos": [
+   [
+    "7.000",
+    "Trabajadores afectados (estimación del MTESS)"
+   ],
+   [
+    "37",
+    "Empresas ligadas a Ueno alcanzadas"
+   ],
+   [
+    "377/2026",
+    "Número del dictamen del Ministerio de Trabajo"
+   ],
+   [
+    "3.050+",
+    "Consultas recibidas por el Ministerio"
+   ],
+   [
+    "607",
+    "Vacantes de 33 empresas en la Expo Empleo del 18 de noviembre"
+   ],
+   [
+    "3.290",
+    "Trabajadores de ueno bank (490), itti (1.600) y Kaitel (1.200)"
+   ]
+  ],
+  "clave": [
+   "7.000",
+   "trabajadores sin tareas ni salario"
+  ],
+  "fig": {
+   "k": "macro",
+   "mueve": "D",
+   "dir": -1
+  },
+  "cap": "La caída de un grupo empresarial reduce el gasto y el empleo: la DA se mueve a la izquierda y la producción baja. Facilitar la búsqueda de empleo reduce el desempleo friccional.",
+  "pasos": [
+   "Ueno y empresas del grupo dejan de operar",
+   "Unos 7.000 trabajadores quedan sin tareas ni salario",
+   "La cláusula de exclusividad les impedía trabajar en otro lado",
+   "El Ministerio la deja sin efecto con un dictamen",
+   "Pueden buscar otro empleo: baja el desempleo friccional"
+  ],
+  "conceptos": [
+   [
+    "Desempleo friccional",
+    "Desempleo temporal mientras las personas buscan un nuevo trabajo."
+   ],
+   [
+    "Desempleo cíclico",
+    "Desempleo causado por la caída de la demanda agregada."
+   ],
+   [
+    "Cláusula de exclusividad",
+    "Condición del contrato que prohíbe trabajar para otro empleador."
+   ],
+   [
+    "Crédito privilegiado",
+    "Deuda que se paga primero en una liquidación, como los salarios."
+   ]
+  ],
+  "diagramas": [
+   "da-oa-da"
+  ],
+  "rel": [
+   "consumo-cae",
+   "indemnizacion-vazquez"
+  ],
+  "pregunta": {
+   "q": "¿Qué tipo de desempleo reduce principalmente el dictamen del Ministerio de Trabajo?",
+   "opts": [
+    "Friccional: facilita que los trabajadores busquen y tomen otro empleo",
+    "Estructural: cambia las habilidades de los trabajadores",
+    "Estacional: depende de la época del año",
+    "Ninguno: el desempleo no cambia"
+   ],
+   "ok": 0,
+   "fb": "Al liberar a los trabajadores de la exclusividad, pueden pasar antes a otro empleo: se acorta el tiempo de búsqueda, que es el desempleo friccional."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Trabajadores de las 37 empresas",
+     "Pueden buscar otro empleo sin perder sus derechos laborales."
+    ],
+    [
+     "Empresas que contratan",
+     "Acceden a trabajadores con experiencia, por ejemplo en tecnología."
+    ]
+   ],
+   "pierden": [
+    [
+     "Empresas del grupo",
+     "Pierden personal que podrían necesitar si vuelven a operar."
+    ],
+    [
+     "Trabajadores sin nuevo empleo",
+     "Siguen esperando indemnizaciones y salarios atrasados."
+    ]
+   ],
+   "corto": "Muchos trabajadores buscarán empleo a la vez; quienes tienen habilidades demandadas se recolocarán rápido.",
+   "largo": "Si las empresas se liquidan, el desempleo podría volverse más duradero para quienes no consiguen otro trabajo.",
+   "supuestos": [
+    "Que el mercado laboral pueda absorber a 7.000 personas",
+    "La cifra de trabajadores es una estimación del Ministerio"
+   ],
+   "conclusion": "La medida es razonable porque evita que los trabajadores queden atrapados, pero no resuelve el problema de fondo: cobrar lo adeudado y encontrar un empleo nuevo."
+  },
+  "mas": [
+   [
+    "Última Hora",
+    "https://www.ultimahora.com/mtess-realiza-expo-empleo-para-ex-trabajadores-de-ueno",
+    "2026-11-17"
+   ]
+  ]
+ },
+ {
+  "id": "conacom-frigorificos",
+  "fecha": "2026-11-19",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/conacom-acusa-a-dos-frigorificos-por-abuso-de-posicion-dominante-sepa-las-multas-que-solicita",
+  "opinion": false,
+  "titulo": "La Conacom acusa a dos frigoríficos de abusar de su poder sobre los ganaderos",
+  "unidad": "micro",
+  "tema": "2.11",
+  "kc": "intervencion",
+  "sector": [
+   "agro",
+   "industria"
+  ],
+  "resumen": "La Comisión Nacional de la Competencia (Conacom) acusó formalmente a Frigorífico Concepción y a Frigomerc (del grupo Minerva Foods) de abusar de una posición dominante en la compra de ganado para faena, según Última Hora. Juntos hacen cerca del 60 % de la faena nacional y tienen más del 53 % de la capacidad instalada. La investigación pide multas de G. 164.189 millones para Frigorífico Concepción y G. 92.656 millones para Frigomerc; otros cinco frigoríficos investigados quedaron libres de cargos.",
+  "contexto": "Aquí el poder de mercado está del lado de los compradores: miles de ganaderos venden a pocos frigoríficos, un caso de oligopsonio. Según la acusación, las empresas fijaban solas cuánto descontar por grasa y partes del animal, pesaban el ganado solo en sus balanzas internas, se quedaban con el valor de cueros y menudencias y pasaban al productor el costo de las mermas. Todo eso reduce el precio efectivo que recibe el ganadero. La Conacom investigaba desde enero si estas prácticas influían en el alto precio de la carne. Las empresas tienen 18 días hábiles para defenderse y la Conacom aclaró que la acusación no es una condena.",
+  "datos": [
+   [
+    "60 %",
+    "Parte de la faena nacional que suman Frigorífico Concepción y Frigomerc"
+   ],
+   [
+    "53 %+",
+    "Parte de la capacidad instalada de faena de ambas"
+   ],
+   [
+    "G. 164.189 M",
+    "Multa pedida para Frigorífico Concepción"
+   ],
+   [
+    "G. 92.656 M",
+    "Multa pedida para Frigomerc"
+   ],
+   [
+    "7",
+    "Frigoríficos investigados desde enero de 2026"
+   ],
+   [
+    "18 días hábiles",
+    "Plazo de las empresas para presentar su defensa"
+   ]
+  ],
+  "clave": [
+   "60 %",
+   "de la faena en manos de dos frigoríficos"
+  ],
+  "fig": {
+   "k": "monopolio"
+  },
+  "cap": "Con poder de mercado, la empresa produce menos que en competencia (Qm < Qc) y aparece una pérdida irrecuperable de bienestar. En este caso el poder está en la compra: los frigoríficos pueden pagar al ganadero menos de lo que pagaría un mercado competitivo.",
+  "pasos": [
+   "Dos frigoríficos compran cerca del 60 % del ganado que se faena",
+   "Los ganaderos tienen pocas alternativas para vender",
+   "Los frigoríficos imponen condiciones: pesaje propio, descuentos y subproductos sin pago",
+   "El ganadero recibe menos por cada animal y el excedente pasa al comprador",
+   "La Conacom acusa abuso de posición dominante y pide multas y reglas de transparencia"
+  ],
+  "conceptos": [
+   [
+    "Poder de mercado",
+    "Capacidad de una empresa de influir en el precio en lugar de aceptarlo."
+   ],
+   [
+    "Oligopsonio",
+    "Mercado con pocos compradores y muchos vendedores."
+   ],
+   [
+    "Abuso de posición dominante",
+    "Uso del poder de mercado para imponer condiciones injustas a clientes o proveedores; lo prohíbe la Ley 4956/2013."
+   ],
+   [
+    "Pérdida irrecuperable de eficiencia",
+    "Bienestar que se pierde cuando el mercado se aleja del resultado competitivo."
+   ]
+  ],
+  "diagramas": [
+   "monopolio",
+   "oferta-demanda"
+  ],
+  "rel": [
+   "frigorifico-concepcion-bonos"
+  ],
+  "pregunta": {
+   "q": "Según la Conacom, ¿quiénes tienen poder de mercado en este caso?",
+   "opts": [
+    "Los frigoríficos, como compradores de ganado",
+    "Los ganaderos, como vendedores de ganado",
+    "Los consumidores de carne",
+    "El Estado, como exportador"
+   ],
+   "ok": 0,
+   "fb": "Es un caso de poder del comprador (oligopsonio): pocos frigoríficos compran el ganado de miles de productores y pueden imponerles condiciones."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "Ganaderos",
+     "Si se aplican las medidas (pesaje previo, reglas públicas de dressing, auditor), recibirían un pago más justo por cada animal."
+    ],
+    [
+     "Consumidores",
+     "Más competencia en la cadena de la carne puede ayudar a contener precios a largo plazo."
+    ]
+   ],
+   "pierden": [
+    [
+     "Frigorífico Concepción y Frigomerc",
+     "Arriesgan multas millonarias y deberán cambiar prácticas que les daban más margen."
+    ],
+    [
+     "Trabajadores y bonistas del sector",
+     "Una multa grande a una empresa ya endeudada puede complicar su recuperación."
+    ]
+   ],
+   "corto": "Las empresas presentan su defensa en 18 días hábiles; mientras tanto no cambia el precio del ganado ni de la carne.",
+   "largo": "Si se confirman la sanción y las reglas de transparencia, el poder de negociación se equilibra y el mercado de ganado se acerca a uno más competitivo.",
+   "supuestos": [
+    "Que la Conacom pruebe el abuso y las multas se apliquen",
+    "Que las nuevas reglas se cumplan y se controlen",
+    "Que no se reduzca la cantidad de frigoríficos que compran ganado"
+   ],
+   "conclusion": "La regulación de la competencia corrige una falla de mercado, pero su efecto depende de que las medidas correctivas se cumplan; una multa sin cambios en las prácticas aportaría poco a los ganaderos."
+  }
+ },
+ {
+  "id": "frigorifico-concepcion-bonos",
+  "fecha": "2026-11-19",
+  "medio": "Última Hora",
+  "url": "https://www.ultimahora.com/bonistas-de-frigorifico-concepcion-aprueban-reestructuracion-de-deuda",
+  "opinion": false,
+  "titulo": "Los bonistas de Frigorífico Concepción aceptan cobrar más tarde",
+  "unidad": "micro",
+  "tema": "3.5",
+  "kc": "eleccion",
+  "inst": [
+   "bolsa"
+  ],
+  "sector": [
+   "agro",
+   "industria"
+  ],
+  "resumen": "El 18 de noviembre, los tenedores de bonos de Frigorífico Concepción aprobaron la reestructuración de su deuda con 99 % a 99,8 % de los votos, informó la Bolsa de Valores de Asunción, según Última Hora. Cada bonista puede pasar sus bonos a acciones preferidas o mantenerlos con 24 meses de gracia y nuevas garantías, sin quita del capital; tiene plazo hasta el 18 de diciembre para elegir. Según FIX SCR, la deuda financiera de la empresa llegaba a US$ 815 millones a junio de 2026.",
+  "contexto": "La empresa dejó de pagar intereses en octubre y su calificación local bajó a incumplimiento. Un bono es un préstamo que el inversor hace a la empresa: si el riesgo sube, el precio del bono baja y su rendimiento sube. Reestructurar evita una quiebra desordenada, pero los inversores esperan más tiempo para cobrar. El acuerdo todavía necesita la aprobación de la Superintendencia de Valores y que la empresa consiga capital de trabajo. El caso llega el mismo día en que la Conacom la acusó de abusar de su posición dominante.",
+  "datos": [
+   [
+    "US$ 815 M",
+    "Deuda financiera total de la empresa a junio de 2026 (FIX SCR)"
+   ],
+   [
+    "50 %",
+    "Parte de la deuda que es bancaria"
+   ],
+   [
+    "33 %",
+    "Parte en bonos internacionales que vencen en 2028"
+   ],
+   [
+    "17 %",
+    "Parte en bonos locales"
+   ],
+   [
+    "99–99,8 %",
+    "Votos a favor de la reestructuración, según el programa"
+   ],
+   [
+    "24 meses",
+    "Periodo de gracia para quienes mantengan los bonos"
+   ]
+  ],
+  "clave": [
+   "US$ 815 M",
+   "de deuda de Frigorífico Concepción"
+  ],
+  "fig": {
+   "k": "barras",
+   "u": "% de la deuda",
+   "rows": [
+    [
+     "Bancos",
+     50,
+     1
+    ],
+    [
+     "Bonos internacionales",
+     33,
+     0
+    ],
+    [
+     "Bonos locales",
+     17,
+     0
+    ]
+   ]
+  },
+  "cap": "Composición de la deuda financiera de Frigorífico Concepción (US$ 815 millones a junio de 2026), según FIX SCR citada por Última Hora.",
+  "pasos": [
+   "La empresa suspende el pago de intereses en octubre",
+   "Su calificación cae a incumplimiento y sus bonos pierden valor",
+   "Propone pagar más tarde o cambiar bonos por acciones, sin quita",
+   "Los bonistas aceptan para evitar perder más en una quiebra",
+   "El acuerdo depende de la Superintendencia y de nuevo capital de trabajo"
+  ],
+  "conceptos": [
+   [
+    "Bono",
+    "Título de deuda: el inversor presta dinero y recibe intereses y el capital al vencimiento."
+   ],
+   [
+    "Reestructuración de deuda",
+    "Cambio de las condiciones de pago (plazos, tasas o forma) acordado con los acreedores."
+   ],
+   [
+    "Acción preferida",
+    "Acción que cobra dividendos antes que las comunes, normalmente sin voto."
+   ],
+   [
+    "Calificación de riesgo",
+    "Opinión de una agencia sobre la capacidad de pago de un emisor."
+   ]
+  ],
+  "diagramas": [
+   "bonos"
+  ],
+  "rel": [
+   "conacom-frigorificos"
+  ],
+  "pregunta": {
+   "q": "Si aumenta el riesgo de que una empresa no pague, ¿qué pasa con sus bonos?",
+   "opts": [
+    "Su precio baja y su rendimiento sube",
+    "Su precio sube y su rendimiento baja",
+    "Su precio y su rendimiento suben",
+    "No cambian, porque la tasa está fijada"
+   ],
+   "ok": 0,
+   "fb": "Los inversores solo compran el bono si pagan menos por él; con un precio más bajo, el rendimiento sube."
+  },
+  "evaluacion": {
+   "ganan": [
+    [
+     "La empresa",
+     "Gana 24 meses para reordenar sus finanzas sin quebrar."
+    ],
+    [
+     "Ganaderos y trabajadores",
+     "Se mantiene operando un comprador y empleador importante."
+    ]
+   ],
+   "pierden": [
+    [
+     "Bonistas",
+     "Cobran más tarde o pasan a ser accionistas, con más riesgo."
+    ],
+    [
+     "Mercado de valores",
+     "Otro caso de impago, después de Ueno, puede reducir la confianza en los bonos corporativos."
+    ]
+   ],
+   "corto": "Hasta el 18 de diciembre los bonistas eligen; el acuerdo aún depende de la Superintendencia y del capital de trabajo.",
+   "largo": "Si la empresa se recupera, los bonistas cobran todo el capital; si no, la reestructuración solo habrá postergado las pérdidas.",
+   "supuestos": [
+    "Que la empresa consiga financiamiento",
+    "Que el negocio de la carne mantenga precios y volumen",
+    "Que la investigación de la Conacom no agrave su situación"
+   ],
+   "conclusion": "La reestructuración es una salida racional para ambos lados frente a una quiebra, pero traslada el riesgo al futuro y muestra que los bonos corporativos no son libres de riesgo."
   }
  }
 ]
